@@ -1,0 +1,225 @@
+{
+  "lastUpdated": "2026-06-03T00:00:00Z",
+  "summary": {
+    "openReqs": 52,
+    "avgTimeToFill": 34,
+    "filledYTD": 28,
+    "failedCancelled": 9
+  },
+  "campus": [
+    { "label": "Tampa", "count": 22, "color": "#185FA5" },
+    { "label": "St Pete", "count": 15, "color": "#3B6D11" },
+    { "label": "USF Health", "count": 7, "color": "#0F6E56" },
+    { "label": "Sarasota", "count": 5, "color": "#BA7517" },
+    { "label": "Tallahassee", "count": 3, "color": "#993556" }
+  ],
+  "mainFunnel": [
+    { "label": "Posted", "count": 52 },
+    { "label": "Screened", "count": 41 },
+    { "label": "Pool Ready", "count": 27 },
+    { "label": "Interviews", "count": 16 },
+    { "label": "Offer", "count": 4 }
+  ],
+  "mainAging": [
+    { "label": "High 60+", "count": 8, "color": "#A32D2D", "bgLight": "#FCEBEB", "bgDark": "#2e0f0f" },
+    { "label": "Med 30-59", "count": 16, "color": "#BA7517", "bgLight": "#FAEEDA", "bgDark": "#3d2504" },
+    { "label": "Low <30", "count": 28, "color": "#3B6D11", "bgLight": "#EAF3DE", "bgDark": "#1a3309" }
+  ],
+  "recruiters": [
+    {
+      "id": "stephanie", "name": "Stephanie", "initials": "ST",
+      "color": "#185FA5", "bgLight": "#E6F1FB", "bgDark": "#0c2d52",
+      "campus": "Tampa", "reqs": 9, "filled": 6, "failed": 1, "ttf": 31,
+      "statuses": [
+        { "label": "Posting Active", "count": 3, "color": "#185FA5" },
+        { "label": "Pool Review", "count": 2, "color": "#BA7517" },
+        { "label": "Interview Phase", "count": 2, "color": "#3B6D11" },
+        { "label": "Offer Stage", "count": 1, "color": "#993556" },
+        { "label": "On Hold", "count": 1, "color": "#888780" }
+      ],
+      "aging": [
+        { "label": "High 60+", "count": 2, "color": "#A32D2D", "bgLight": "#FCEBEB", "bgDark": "#2e0f0f" },
+        { "label": "Med 30-59", "count": 3, "color": "#BA7517", "bgLight": "#FAEEDA", "bgDark": "#3d2504" },
+        { "label": "Low <30", "count": 4, "color": "#3B6D11", "bgLight": "#EAF3DE", "bgDark": "#1a3309" }
+      ],
+      "funnel": [
+        { "label": "Posted", "count": 9 }, { "label": "Screened", "count": 7 },
+        { "label": "Pool Ready", "count": 5 }, { "label": "Interviews", "count": 3 },
+        { "label": "Offer", "count": 1 }
+      ],
+      "goals": [
+        { "label": "Reqs filled", "value": 6, "target": 10, "invert": false },
+        { "label": "Time to fill", "value": 31, "target": 40, "invert": true },
+        { "label": "Pool ready", "value": 5, "target": 9, "invert": false },
+        { "label": "Interviews", "value": 3, "target": 9, "invert": false }
+      ],
+      "trend": [28, 30, 31, 29, 33, 31]
+    },
+    {
+      "id": "kate", "name": "Kate", "initials": "KT",
+      "color": "#3B6D11", "bgLight": "#EAF3DE", "bgDark": "#1a3309",
+      "campus": "St Pete", "reqs": 7, "filled": 5, "failed": 1, "ttf": 38,
+      "statuses": [
+        { "label": "Posting Active", "count": 2, "color": "#185FA5" },
+        { "label": "Pool Review", "count": 2, "color": "#BA7517" },
+        { "label": "Interview Phase", "count": 2, "color": "#3B6D11" },
+        { "label": "On Hold", "count": 1, "color": "#888780" }
+      ],
+      "aging": [
+        { "label": "High 60+", "count": 3, "color": "#A32D2D", "bgLight": "#FCEBEB", "bgDark": "#2e0f0f" },
+        { "label": "Med 30-59", "count": 2, "color": "#BA7517", "bgLight": "#FAEEDA", "bgDark": "#3d2504" },
+        { "label": "Low <30", "count": 2, "color": "#3B6D11", "bgLight": "#EAF3DE", "bgDark": "#1a3309" }
+      ],
+      "funnel": [
+        { "label": "Posted", "count": 7 }, { "label": "Screened", "count": 6 },
+        { "label": "Pool Ready", "count": 4 }, { "label": "Interviews", "count": 2 },
+        { "label": "Offer", "count": 1 }
+      ],
+      "goals": [
+        { "label": "Reqs filled", "value": 5, "target": 10, "invert": false },
+        { "label": "Time to fill", "value": 38, "target": 40, "invert": true },
+        { "label": "Pool ready", "value": 4, "target": 7, "invert": false },
+        { "label": "Interviews", "value": 2, "target": 7, "invert": false }
+      ],
+      "trend": [35, 40, 38, 42, 36, 38]
+    },
+    {
+      "id": "rebecca", "name": "Rebecca", "initials": "RB",
+      "color": "#BA7517", "bgLight": "#FAEEDA", "bgDark": "#3d2504",
+      "campus": "Tampa", "reqs": 8, "filled": 4, "failed": 2, "ttf": 44,
+      "statuses": [
+        { "label": "Posting Active", "count": 3, "color": "#185FA5" },
+        { "label": "Pool Review", "count": 2, "color": "#BA7517" },
+        { "label": "Interview Phase", "count": 1, "color": "#3B6D11" },
+        { "label": "On Hold", "count": 2, "color": "#888780" }
+      ],
+      "aging": [
+        { "label": "High 60+", "count": 4, "color": "#A32D2D", "bgLight": "#FCEBEB", "bgDark": "#2e0f0f" },
+        { "label": "Med 30-59", "count": 2, "color": "#BA7517", "bgLight": "#FAEEDA", "bgDark": "#3d2504" },
+        { "label": "Low <30", "count": 2, "color": "#3B6D11", "bgLight": "#EAF3DE", "bgDark": "#1a3309" }
+      ],
+      "funnel": [
+        { "label": "Posted", "count": 8 }, { "label": "Screened", "count": 6 },
+        { "label": "Pool Ready", "count": 4 }, { "label": "Interviews", "count": 2 },
+        { "label": "Offer", "count": 0 }
+      ],
+      "goals": [
+        { "label": "Reqs filled", "value": 4, "target": 10, "invert": false },
+        { "label": "Time to fill", "value": 44, "target": 40, "invert": true },
+        { "label": "Pool ready", "value": 4, "target": 8, "invert": false },
+        { "label": "Interviews", "value": 2, "target": 8, "invert": false }
+      ],
+      "trend": [40, 45, 44, 48, 42, 44]
+    },
+    {
+      "id": "john", "name": "John", "initials": "JN",
+      "color": "#993556", "bgLight": "#FBEAF0", "bgDark": "#2a0e1a",
+      "campus": "Sarasota", "reqs": 6, "filled": 4, "failed": 1, "ttf": 29,
+      "statuses": [
+        { "label": "Posting Active", "count": 2, "color": "#185FA5" },
+        { "label": "Pool Review", "count": 2, "color": "#BA7517" },
+        { "label": "Interview Phase", "count": 1, "color": "#3B6D11" },
+        { "label": "Offer Stage", "count": 1, "color": "#993556" }
+      ],
+      "aging": [
+        { "label": "High 60+", "count": 1, "color": "#A32D2D", "bgLight": "#FCEBEB", "bgDark": "#2e0f0f" },
+        { "label": "Med 30-59", "count": 2, "color": "#BA7517", "bgLight": "#FAEEDA", "bgDark": "#3d2504" },
+        { "label": "Low <30", "count": 3, "color": "#3B6D11", "bgLight": "#EAF3DE", "bgDark": "#1a3309" }
+      ],
+      "funnel": [
+        { "label": "Posted", "count": 6 }, { "label": "Screened", "count": 5 },
+        { "label": "Pool Ready", "count": 4 }, { "label": "Interviews", "count": 3 },
+        { "label": "Offer", "count": 1 }
+      ],
+      "goals": [
+        { "label": "Reqs filled", "value": 4, "target": 8, "invert": false },
+        { "label": "Time to fill", "value": 29, "target": 40, "invert": true },
+        { "label": "Pool ready", "value": 4, "target": 6, "invert": false },
+        { "label": "Interviews", "value": 3, "target": 6, "invert": false }
+      ],
+      "trend": [32, 28, 29, 26, 31, 29]
+    },
+    {
+      "id": "gabe", "name": "Gabe", "initials": "GL",
+      "color": "#0F6E56", "bgLight": "#E1F5EE", "bgDark": "#042e24",
+      "campus": "St Pete / Tampa", "reqs": 8, "filled": 5, "failed": 1, "ttf": 33,
+      "statuses": [
+        { "label": "Posting Active", "count": 3, "color": "#185FA5" },
+        { "label": "Pool Review", "count": 2, "color": "#BA7517" },
+        { "label": "Interview Phase", "count": 2, "color": "#3B6D11" },
+        { "label": "Offer Stage", "count": 1, "color": "#993556" }
+      ],
+      "aging": [
+        { "label": "High 60+", "count": 1, "color": "#A32D2D", "bgLight": "#FCEBEB", "bgDark": "#2e0f0f" },
+        { "label": "Med 30-59", "count": 3, "color": "#BA7517", "bgLight": "#FAEEDA", "bgDark": "#3d2504" },
+        { "label": "Low <30", "count": 4, "color": "#3B6D11", "bgLight": "#EAF3DE", "bgDark": "#1a3309" }
+      ],
+      "funnel": [
+        { "label": "Posted", "count": 8 }, { "label": "Screened", "count": 7 },
+        { "label": "Pool Ready", "count": 5 }, { "label": "Interviews", "count": 3 },
+        { "label": "Offer", "count": 1 }
+      ],
+      "goals": [
+        { "label": "Reqs filled", "value": 5, "target": 10, "invert": false },
+        { "label": "Time to fill", "value": 33, "target": 40, "invert": true },
+        { "label": "Pool ready", "value": 5, "target": 8, "invert": false },
+        { "label": "Interviews", "value": 3, "target": 8, "invert": false }
+      ],
+      "trend": [36, 34, 33, 30, 35, 33]
+    },
+    {
+      "id": "tameka", "name": "Tameka", "initials": "TM",
+      "color": "#534AB7", "bgLight": "#EEEDFE", "bgDark": "#1c1852",
+      "campus": "Tampa", "reqs": 7, "filled": 3, "failed": 2, "ttf": 41,
+      "statuses": [
+        { "label": "Posting Active", "count": 3, "color": "#185FA5" },
+        { "label": "Pool Review", "count": 2, "color": "#BA7517" },
+        { "label": "Interview Phase", "count": 1, "color": "#3B6D11" },
+        { "label": "On Hold", "count": 1, "color": "#888780" }
+      ],
+      "aging": [
+        { "label": "High 60+", "count": 2, "color": "#A32D2D", "bgLight": "#FCEBEB", "bgDark": "#2e0f0f" },
+        { "label": "Med 30-59", "count": 3, "color": "#BA7517", "bgLight": "#FAEEDA", "bgDark": "#3d2504" },
+        { "label": "Low <30", "count": 2, "color": "#3B6D11", "bgLight": "#EAF3DE", "bgDark": "#1a3309" }
+      ],
+      "funnel": [
+        { "label": "Posted", "count": 7 }, { "label": "Screened", "count": 5 },
+        { "label": "Pool Ready", "count": 3 }, { "label": "Interviews", "count": 2 },
+        { "label": "Offer", "count": 0 }
+      ],
+      "goals": [
+        { "label": "Reqs filled", "value": 3, "target": 8, "invert": false },
+        { "label": "Time to fill", "value": 41, "target": 40, "invert": true },
+        { "label": "Pool ready", "value": 3, "target": 7, "invert": false },
+        { "label": "Interviews", "value": 2, "target": 7, "invert": false }
+      ],
+      "trend": [38, 42, 41, 45, 39, 41]
+    },
+    {
+      "id": "jkb", "name": "JKB", "initials": "JK",
+      "color": "#5F5E5A", "bgLight": "#F1EFE8", "bgDark": "#222220",
+      "campus": "Tallahassee", "reqs": 2, "filled": 1, "failed": 1, "ttf": 55,
+      "statuses": [
+        { "label": "Posting Active", "count": 1, "color": "#185FA5" },
+        { "label": "On Hold", "count": 1, "color": "#888780" }
+      ],
+      "aging": [
+        { "label": "High 60+", "count": 1, "color": "#A32D2D", "bgLight": "#FCEBEB", "bgDark": "#2e0f0f" },
+        { "label": "Med 30-59", "count": 1, "color": "#BA7517", "bgLight": "#FAEEDA", "bgDark": "#3d2504" },
+        { "label": "Low <30", "count": 0, "color": "#3B6D11", "bgLight": "#EAF3DE", "bgDark": "#1a3309" }
+      ],
+      "funnel": [
+        { "label": "Posted", "count": 2 }, { "label": "Screened", "count": 1 },
+        { "label": "Pool Ready", "count": 1 }, { "label": "Interviews", "count": 0 },
+        { "label": "Offer", "count": 0 }
+      ],
+      "goals": [
+        { "label": "Reqs filled", "value": 1, "target": 4, "invert": false },
+        { "label": "Time to fill", "value": 55, "target": 40, "invert": true },
+        { "label": "Pool ready", "value": 1, "target": 2, "invert": false },
+        { "label": "Interviews", "value": 0, "target": 2, "invert": false }
+      ],
+      "trend": [50, 58, 55, 60, 52, 55]
+    }
+  ]
+}
