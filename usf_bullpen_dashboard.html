@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>USF Recruiting — Mini Bull Pen Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<style>
+  :root {
+    --bg: #f7f6f3;
+    --surface: #ffffff;
+    --surface2: #f0efe9;
+    --border: rgba(0,0,0,0.09);
+    --border-md: rgba(0,0,0,0.15);
+    --text: #1a1916;
+    --text2: #6b6a66;
+    --text3: #9e9d99;
+    --blue: #185FA5;
+    --blue-lt: #E6F1FB;
+    --green: #3B6D11;
+    --green-lt: #EAF3DE;
+    --amber: #BA7517;
+    --amber-lt: #FAEEDA;
+    --red: #A32D2D;
+    --red-lt: #FCEBEB;
+    --teal: #0F6E56;
+    --teal-lt: #E1F5EE;
+    --purple: #534AB7;
+    --purple-lt: #EEEDFE;
+    --pink: #993556;
+    --pink-lt: #FBEAF0;
+    --gray: #5F5E5A;
+    --gray-lt: #F1EFE8;
+    --radius: 10px;
+    --radius-sm: 6px;
+    --radius-pill: 99px;
+    --font: 'DM Sans', sans-serif;
+    --mono: 'DM Mono', monospace;
+    --nav-h: 52px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141412;
+      --surface: #1e1d1b;
+      --surface2: #262523;
+      --border: rgba(255,255,255,0.08);
+      --border-md: rgba(255,255,255,0.14);
+      --text: #f0efe9;
+      --text2: #a09f9b;
+      --text3: #5e5d59;
+      --blue-lt: #0c2d52;
+      --green-lt: #1a3309;
+      --amber-lt: #3d2504;
+      --red-lt: #2e0f0f;
+      --teal-lt: #042e24;
+      --purple-lt: #1c1852;
+      --pink-lt: #2a0e1a;
+      --gray-lt: #222220;
+    }
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { font-family: var(--font); background: var(--bg); color: var(--text); font-size: 14px; line-height: 1.5; min-height: 100vh; }
+
+  /* NAV */
+  .nav {
+    position: sticky; top: 0; z-index: 100;
+    display: flex; align-items: center; gap: 4px;
+    padding: 0 16px; height: var(--nav-h);
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    flex-wrap: wrap; row-gap: 0;
+    overflow-x: auto;
+  }
+  .nav-logo {
+    font-size: 14px; font-weight: 500; color: var(--text);
+    margin-right: 10px; white-space: nowrap; flex-shrink: 0;
+    display: flex; align-items: center; gap: 6px;
+  }
+  .nav-logo .usf { color: var(--green); }
+  .nav-logo .dot { width: 5px; height: 5px; border-radius: 50%; background: var(--border-md); }
+  .nav-btn {
+    padding: 5px 12px; border-radius: var(--radius-pill);
+    border: 1px solid var(--border-md);
+    font-family: var(--font); font-size: 12px; font-weight: 500;
+    cursor: pointer; background: transparent; color: var(--text2);
+    white-space: nowrap; flex-shrink: 0;
+    transition: all 0.15s ease;
+  }
+  .nav-btn:hover { background: var(--surface2); color: var(--text); }
+  .nav-btn.active { background: var(--blue); color: #fff; border-color: var(--blue); }
+  .nav-btn.home { display: flex; align-items: center; gap: 5px; }
+  .nav-btn.home svg { width: 13px; height: 13px; stroke: currentColor; fill: none; stroke-width: 2; }
+
+  /* VIEWS */
+  .view { display: none; padding: 18px; flex-direction: column; gap: 14px; animation: fadeIn .2s ease; }
+  .view.active { display: flex; }
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+
+  /* GRIDS */
+  .row { display: grid; gap: 12px; }
+  .r4 { grid-template-columns: repeat(4, minmax(0,1fr)); }
+  .r3 { grid-template-columns: repeat(3, minmax(0,1fr)); }
+  .r2 { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  @media (max-width: 900px) {
+    .r4 { grid-template-columns: repeat(2, minmax(0,1fr)); }
+    .r3 { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  }
+  @media (max-width: 540px) {
+    .r4, .r3, .r2 { grid-template-columns: 1fr; }
+  }
+
+  /* CARDS */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 14px 16px;
+  }
+  .card-label {
+    font-size: 10px; font-weight: 500; color: var(--text3);
+    text-transform: uppercase; letter-spacing: .08em; margin-bottom: 6px;
+  }
+  .kval { font-size: 26px; font-weight: 500; line-height: 1; }
+  .kunit { font-size: 11px; color: var(--text3); margin-top: 3px; }
+
+  /* PILLS */
+  .pill {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 5px 10px; border-radius: var(--radius-pill);
+    font-size: 11px; font-weight: 500; margin-bottom: 5px;
+  }
+
+  /* AGING */
+  .aband {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 5px 9px; border-radius: var(--radius-sm);
+    font-size: 11px; font-weight: 500; margin-bottom: 4px;
+  }
+  .btrack { height: 7px; background: var(--surface2); border-radius: 99px; overflow: hidden; margin-bottom: 9px; }
+  .bfill { height: 100%; border-radius: 99px; }
+
+  /* FUNNEL */
+  .fstage {
+    display: flex; align-items: center; justify-content: space-between;
+    border-radius: var(--radius-sm); padding: 5px 10px;
+    font-size: 11px; font-weight: 500; margin: 0 auto 3px;
+  }
+
+  /* TEAM ROWS */
+  .team-row {
+    display: flex; align-items: center; gap: 9px;
+    padding: 7px 6px; border-radius: var(--radius-sm);
+    cursor: pointer; transition: background .12s;
+    border-bottom: 1px solid var(--border);
+  }
+  .team-row:last-child { border-bottom: none; }
+  .team-row:hover { background: var(--surface2); }
+  .team-row .arrow { margin-left: auto; color: var(--text3); font-size: 13px; }
+
+  /* AVATARS */
+  .av {
+    width: 28px; height: 28px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 9px; font-weight: 500; flex-shrink: 0;
+  }
+  .av-lg {
+    width: 44px; height: 44px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 14px; font-weight: 500; flex-shrink: 0;
+  }
+
+  /* RECRUITER HEADER */
+  .rh {
+    display: flex; align-items: center; gap: 12px;
+    margin-bottom: 2px; padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+  }
+  .rh-name { font-size: 17px; font-weight: 500; color: var(--text); }
+  .rh-sub { font-size: 11px; color: var(--text3); margin-top: 1px; }
+
+  /* GOAL BARS */
+  .goal-row { display: flex; align-items: center; gap: 8px; margin-bottom: 9px; }
+  .goal-label { font-size: 11px; color: var(--text2); width: 78px; flex-shrink: 0; }
+  .goal-track { flex: 1; height: 8px; background: var(--surface2); border-radius: 99px; overflow: hidden; }
+  .goal-fill { height: 100%; border-radius: 99px; transition: width .5s ease; }
+  .goal-val { font-size: 11px; font-weight: 500; color: var(--text); width: 38px; text-align: right; font-family: var(--mono); }
+
+  /* LEGEND */
+  .leg { display: flex; flex-wrap: wrap; gap: 5px 12px; margin-top: 8px; }
+  .li { display: flex; align-items: center; gap: 4px; font-size: 10px; color: var(--text2); }
+  .ld { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+
+  /* SECTION DIVIDER */
+  .section-title {
+    font-size: 11px; font-weight: 500; color: var(--text3);
+    text-transform: uppercase; letter-spacing: .08em;
+    margin-bottom: 8px;
+  }
+
+  /* BACK CHIP */
+  .back-chip {
+    display: inline-flex; align-items: center; gap: 5px;
+    font-size: 11px; color: var(--text2); cursor: pointer;
+    padding: 3px 8px; border-radius: var(--radius-pill);
+    border: 1px solid var(--border-md); background: transparent;
+    font-family: var(--font); transition: all .12s;
+  }
+  .back-chip:hover { background: var(--surface2); }
+</style>
+</head>
+<body>
+
+<nav class="nav" role="navigation" aria-label="Dashboard navigation">
+  <div class="nav-logo">
+    <span class="usf">USF</span> Recruiting
+    <span class="dot"></span>
+  </div>
+  <button class="nav-btn home active" onclick="showView('main')" aria-label="Main dashboard">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+    Main
+  </button>
+  <button class="nav-btn" onclick="goToRecruiter('stephanie')">Stephanie</button>
+  <button class="nav-btn" onclick="goToRecruiter('kate')">Kate</button>
+  <button class="nav-btn" onclick="goToRecruiter('rebecca')">Rebecca</button>
+  <button class="nav-btn" onclick="goToRecruiter('john')">John</button>
+  <button class="nav-btn" onclick="goToRecruiter('gabe')">Gabe</button>
+  <button class="nav-btn" onclick="goToRecruiter('tameka')">Tameka</button>
+  <button class="nav-btn" onclick="goToRecruiter('jkb')">JKB</button>
+</nav>
+
+<!-- MAIN VIEW -->
+<main id="view-main" class="view active" role="main">
+  <div class="row r4">
+    <div class="card"><div class="card-label">Open reqs</div><div class="kval" style="color:var(--blue);">52</div><div class="kunit">all campuses &amp; units</div></div>
+    <div class="card"><div class="card-label">Avg time to fill</div><div class="kval">34<span style="font-size:14px;color:var(--text2);font-weight:400;">d</span></div><div class="kunit">days avg (active)</div></div>
+    <div class="card"><div class="card-label">Filled YTD</div><div class="kval" style="color:var(--green);">28</div><div class="kunit">positions closed</div></div>
+    <div class="card"><div class="card-label">Failed / cancelled</div><div class="kval" style="color:var(--red);">9</div><div class="kunit">searches no hire</div></div>
+  </div>
+
+  <div class="row r2">
+    <div class="card">
+      <div class="section-title">Recruiter load — open reqs</div>
+      <div style="position:relative;height:230px;">
+        <canvas id="recBar" role="img" aria-label="Horizontal bar chart showing open reqs per recruiter: Stephanie 9, Rebecca 8, Gabe 8, Kate 7, Tameka 7, John 6, JKB 2">Stephanie 9, Rebecca 8, Gabe 8, Kate 7, Tameka 7, John 6, JKB 2</canvas>
+      </div>
+    </div>
+    <div class="card">
+      <div class="section-title">Pipeline funnel — all recruiters</div>
+      <div id="main-funnel" style="margin-top:4px;"></div>
+    </div>
+  </div>
+
+  <div class="row r3">
+    <div class="card">
+      <div class="section-title">Jobs by campus</div>
+      <div style="position:relative;height:150px;">
+        <canvas id="campusPie" role="img" aria-label="Donut chart: Tampa 22, St Pete 15, USF Health 7, Sarasota 5, Tallahassee 3">Tampa 22, St Pete 15, USF Health 7, Sarasota 5, Tallahassee 3</canvas>
+      </div>
+      <div class="leg">
+        <span class="li"><span class="ld" style="background:#185FA5;"></span>Tampa 22</span>
+        <span class="li"><span class="ld" style="background:#3B6D11;"></span>St Pete 15</span>
+        <span class="li"><span class="ld" style="background:#0F6E56;"></span>USF Health 7</span>
+        <span class="li"><span class="ld" style="background:#BA7517;"></span>Sarasota 5</span>
+        <span class="li"><span class="ld" style="background:#993556;"></span>Tallahassee 3</span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="section-title">Aging bands</div>
+      <div id="main-aging"></div>
+    </div>
+    <div class="card">
+      <div class="section-title">Team — click to drill in</div>
+      <div id="main-team"></div>
+    </div>
+  </div>
+</main>
+
+<!-- RECRUITER VIEWS (built dynamically) -->
+<div id="view-stephanie" class="view"></div>
+<div id="view-kate" class="view"></div>
+<div id="view-rebecca" class="view"></div>
+<div id="view-john" class="view"></div>
+<div id="view-gabe" class="view"></div>
+<div id="view-tameka" class="view"></div>
+<div id="view-jkb" class="view"></div>
+
+<script>
+const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+const recruiters = [
+  { id:'stephanie', name:'Stephanie', initials:'ST', color:'#185FA5', bg: isDark?'#0c2d52':'#E6F1FB',
+    campus:'Tampa', reqs:9, filled:6, failed:1, ttf:31,
+    statuses:[{l:'Posting Active',n:3,c:'#185FA5'},{l:'Pool Review',n:2,c:'#BA7517'},{l:'Interview Phase',n:2,c:'#3B6D11'},{l:'Offer Stage',n:1,c:'#993556'},{l:'On Hold',n:1,c:'#888780'}],
+    aging:[{l:'High 60+',n:2,c:'#A32D2D',bg:isDark?'#2e0f0f':'#FCEBEB'},{l:'Med 30–59',n:3,c:'#BA7517',bg:isDark?'#3d2504':'#FAEEDA'},{l:'Low <30',n:4,c:'#3B6D11',bg:isDark?'#1a3309':'#EAF3DE'}],
+    funnel:[{l:'Posted',n:9},{l:'Screened',n:7},{l:'Pool Ready',n:5},{l:'Interviews',n:3},{l:'Offer',n:1}],
+    goals:[{l:'Reqs filled',val:6,target:10},{l:'Time to fill',val:31,target:40,invert:true},{l:'Pool ready',val:5,target:9},{l:'Interviews',val:3,target:9}],
+    trend:[28,30,31,29,33,31]
+  },
+  { id:'kate', name:'Kate', initials:'KT', color:'#3B6D11', bg:isDark?'#1a3309':'#EAF3DE',
+    campus:'St Pete', reqs:7, filled:5, failed:1, ttf:38,
+    statuses:[{l:'Posting Active',n:2,c:'#185FA5'},{l:'Pool Review',n:2,c:'#BA7517'},{l:'Interview Phase',n:2,c:'#3B6D11'},{l:'On Hold',n:1,c:'#888780'}],
+    aging:[{l:'High 60+',n:3,c:'#A32D2D',bg:isDark?'#2e0f0f':'#FCEBEB'},{l:'Med 30–59',n:2,c:'#BA7517',bg:isDark?'#3d2504':'#FAEEDA'},{l:'Low <30',n:2,c:'#3B6D11',bg:isDark?'#1a3309':'#EAF3DE'}],
+    funnel:[{l:'Posted',n:7},{l:'Screened',n:6},{l:'Pool Ready',n:4},{l:'Interviews',n:2},{l:'Offer',n:1}],
+    goals:[{l:'Reqs filled',val:5,target:10},{l:'Time to fill',val:38,target:40,invert:true},{l:'Pool ready',val:4,target:7},{l:'Interviews',val:2,target:7}],
+    trend:[35,40,38,42,36,38]
+  },
+  { id:'rebecca', name:'Rebecca', initials:'RB', color:'#BA7517', bg:isDark?'#3d2504':'#FAEEDA',
+    campus:'Tampa', reqs:8, filled:4, failed:2, ttf:44,
+    statuses:[{l:'Posting Active',n:3,c:'#185FA5'},{l:'Pool Review',n:2,c:'#BA7517'},{l:'Interview Phase',n:1,c:'#3B6D11'},{l:'On Hold',n:2,c:'#888780'}],
+    aging:[{l:'High 60+',n:4,c:'#A32D2D',bg:isDark?'#2e0f0f':'#FCEBEB'},{l:'Med 30–59',n:2,c:'#BA7517',bg:isDark?'#3d2504':'#FAEEDA'},{l:'Low <30',n:2,c:'#3B6D11',bg:isDark?'#1a3309':'#EAF3DE'}],
+    funnel:[{l:'Posted',n:8},{l:'Screened',n:6},{l:'Pool Ready',n:4},{l:'Interviews',n:2},{l:'Offer',n:0}],
+    goals:[{l:'Reqs filled',val:4,target:10},{l:'Time to fill',val:44,target:40,invert:true},{l:'Pool ready',val:4,target:8},{l:'Interviews',val:2,target:8}],
+    trend:[40,45,44,48,42,44]
+  },
+  { id:'john', name:'John', initials:'JN', color:'#993556', bg:isDark?'#2a0e1a':'#FBEAF0',
+    campus:'Sarasota', reqs:6, filled:4, failed:1, ttf:29,
+    statuses:[{l:'Posting Active',n:2,c:'#185FA5'},{l:'Pool Review',n:2,c:'#BA7517'},{l:'Interview Phase',n:1,c:'#3B6D11'},{l:'Offer Stage',n:1,c:'#993556'}],
+    aging:[{l:'High 60+',n:1,c:'#A32D2D',bg:isDark?'#2e0f0f':'#FCEBEB'},{l:'Med 30–59',n:2,c:'#BA7517',bg:isDark?'#3d2504':'#FAEEDA'},{l:'Low <30',n:3,c:'#3B6D11',bg:isDark?'#1a3309':'#EAF3DE'}],
+    funnel:[{l:'Posted',n:6},{l:'Screened',n:5},{l:'Pool Ready',n:4},{l:'Interviews',n:3},{l:'Offer',n:1}],
+    goals:[{l:'Reqs filled',val:4,target:8},{l:'Time to fill',val:29,target:40,invert:true},{l:'Pool ready',val:4,target:6},{l:'Interviews',val:3,target:6}],
+    trend:[32,28,29,26,31,29]
+  },
+  { id:'gabe', name:'Gabe', initials:'GL', color:'#0F6E56', bg:isDark?'#042e24':'#E1F5EE',
+    campus:'St Pete / Tampa', reqs:8, filled:5, failed:1, ttf:33,
+    statuses:[{l:'Posting Active',n:3,c:'#185FA5'},{l:'Pool Review',n:2,c:'#BA7517'},{l:'Interview Phase',n:2,c:'#3B6D11'},{l:'Offer Stage',n:1,c:'#993556'}],
+    aging:[{l:'High 60+',n:1,c:'#A32D2D',bg:isDark?'#2e0f0f':'#FCEBEB'},{l:'Med 30–59',n:3,c:'#BA7517',bg:isDark?'#3d2504':'#FAEEDA'},{l:'Low <30',n:4,c:'#3B6D11',bg:isDark?'#1a3309':'#EAF3DE'}],
+    funnel:[{l:'Posted',n:8},{l:'Screened',n:7},{l:'Pool Ready',n:5},{l:'Interviews',n:3},{l:'Offer',n:1}],
+    goals:[{l:'Reqs filled',val:5,target:10},{l:'Time to fill',val:33,target:40,invert:true},{l:'Pool ready',val:5,target:8},{l:'Interviews',val:3,target:8}],
+    trend:[36,34,33,30,35,33]
+  },
+  { id:'tameka', name:'Tameka', initials:'TM', color:'#534AB7', bg:isDark?'#1c1852':'#EEEDFE',
+    campus:'Tampa', reqs:7, filled:3, failed:2, ttf:41,
+    statuses:[{l:'Posting Active',n:3,c:'#185FA5'},{l:'Pool Review',n:2,c:'#BA7517'},{l:'Interview Phase',n:1,c:'#3B6D11'},{l:'On Hold',n:1,c:'#888780'}],
+    aging:[{l:'High 60+',n:2,c:'#A32D2D',bg:isDark?'#2e0f0f':'#FCEBEB'},{l:'Med 30–59',n:3,c:'#BA7517',bg:isDark?'#3d2504':'#FAEEDA'},{l:'Low <30',n:2,c:'#3B6D11',bg:isDark?'#1a3309':'#EAF3DE'}],
+    funnel:[{l:'Posted',n:7},{l:'Screened',n:5},{l:'Pool Ready',n:3},{l:'Interviews',n:2},{l:'Offer',n:0}],
+    goals:[{l:'Reqs filled',val:3,target:8},{l:'Time to fill',val:41,target:40,invert:true},{l:'Pool ready',val:3,target:7},{l:'Interviews',val:2,target:7}],
+    trend:[38,42,41,45,39,41]
+  },
+  { id:'jkb', name:'JKB', initials:'JK', color:'#5F5E5A', bg:isDark?'#222220':'#F1EFE8',
+    campus:'Tallahassee', reqs:2, filled:1, failed:1, ttf:55,
+    statuses:[{l:'Posting Active',n:1,c:'#185FA5'},{l:'On Hold',n:1,c:'#888780'}],
+    aging:[{l:'High 60+',n:1,c:'#A32D2D',bg:isDark?'#2e0f0f':'#FCEBEB'},{l:'Med 30–59',n:1,c:'#BA7517',bg:isDark?'#3d2504':'#FAEEDA'},{l:'Low <30',n:0,c:'#3B6D11',bg:isDark?'#1a3309':'#EAF3DE'}],
+    funnel:[{l:'Posted',n:2},{l:'Screened',n:1},{l:'Pool Ready',n:1},{l:'Interviews',n:0},{l:'Offer',n:0}],
+    goals:[{l:'Reqs filled',val:1,target:4},{l:'Time to fill',val:55,target:40,invert:true},{l:'Pool ready',val:1,target:2},{l:'Interviews',val:0,target:2}],
+    trend:[50,58,55,60,52,55]
+  }
+];
+
+function showView(id) {
+  document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+  document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+  const el = document.getElementById('view-'+id);
+  if (el) el.classList.add('active');
+  document.querySelectorAll('.nav-btn').forEach(b => {
+    const t = b.textContent.trim();
+    if (id === 'main' && (t === 'Main' || b.classList.contains('home'))) b.classList.add('active');
+    else { const r = recruiters.find(r => r.name === t); if (r && r.id === id) b.classList.add('active'); }
+  });
+  window.scrollTo(0, 0);
+}
+
+function buildFunnel(container, stages) {
+  stages.forEach((s, i) => {
+    const w = Math.max(36, 100 - i * 13);
+    const alpha = 0.11 + i * 0.14;
+    const el = document.createElement('div');
+    el.className = 'fstage';
+    el.style.cssText = `width:${w}%;background:rgba(24,95,165,${alpha});color:${isDark?'#85B7EB':'#0C447C'};`;
+    el.innerHTML = `<span>${s.l}</span><span style="font-family:var(--mono);">${s.n}</span>`;
+    container.appendChild(el);
+  });
+}
+
+function buildAging(container, aging, total) {
+  aging.forEach(a => {
+    const badge = document.createElement('div');
+    badge.className = 'aband';
+    badge.style.cssText = `background:${a.bg};color:${a.c};border:1px solid ${a.c}33;`;
+    badge.innerHTML = `<span>${a.l}</span><span style="font-family:var(--mono);font-size:13px;">${a.n}</span>`;
+    container.appendChild(badge);
+    const track = document.createElement('div'); track.className = 'btrack';
+    const fill = document.createElement('div'); fill.className = 'bfill';
+    fill.style.cssText = `background:${a.c};width:${total > 0 ? Math.round((a.n/total)*100) : 0}%;`;
+    track.appendChild(fill); container.appendChild(track);
+  });
+}
+
+function buildStatuses(container, statuses) {
+  statuses.forEach(s => {
+    const pill = document.createElement('div'); pill.className = 'pill';
+    pill.style.cssText = `background:${s.c}20;color:${s.c};border:1px solid ${s.c}33;`;
+    pill.innerHTML = `<span>${s.l}</span><span style="font-family:var(--mono);">${s.n}</span>`;
+    container.appendChild(pill);
+  });
+}
+
+function buildGoals(container, goals) {
+  goals.forEach(g => {
+    const pct = g.invert
+      ? Math.round(Math.min(100, (g.target / g.val) * 100))
+      : Math.round(Math.min(100, (g.val / g.target) * 100));
+    const color = pct >= 75 ? '#3B6D11' : pct >= 50 ? '#BA7517' : '#A32D2D';
+    const row = document.createElement('div'); row.className = 'goal-row';
+    row.innerHTML = `<span class="goal-label">${g.l}</span><div class="goal-track"><div class="goal-fill" style="width:${pct}%;background:${color};"></div></div><span class="goal-val">${g.val}${g.invert?' d':''}</span>`;
+    container.appendChild(row);
+  });
+}
+
+function buildRecruiterView(r) {
+  const el = document.getElementById('view-' + r.id);
+  if (el.dataset.built) return;
+  el.dataset.built = '1';
+
+  el.innerHTML = '';
+
+  const backRow = document.createElement('div');
+  backRow.style.marginBottom = '4px';
+  backRow.innerHTML = `<button class="back-chip" onclick="showView('main')">&#8592; Back to main</button>`;
+  el.appendChild(backRow);
+
+  const header = document.createElement('div'); header.className = 'rh card';
+  header.style.marginBottom = '0';
+  header.innerHTML = `
+    <div class="av-lg" style="background:${r.bg};color:${r.color};">${r.initials}</div>
+    <div>
+      <div class="rh-name">${r.name}</div>
+      <div class="rh-sub">${r.campus} &middot; Recruiting Partner &middot; ${r.reqs} open reqs</div>
+    </div>`;
+  el.appendChild(header);
+
+  const kpis = document.createElement('div'); kpis.className = 'row r4';
+  [
+    {l:'Open reqs', v:r.reqs, c:'var(--blue)'},
+    {l:'Filled YTD', v:r.filled, c:'var(--green)'},
+    {l:'Failed / cancelled', v:r.failed, c:'var(--red)'},
+    {l:'Avg time to fill', v:r.ttf+'d', c:'var(--text)'}
+  ].forEach(k => {
+    const c = document.createElement('div'); c.className = 'card';
+    c.innerHTML = `<div class="card-label">${k.l}</div><div class="kval" style="color:${k.c};">${k.v}</div>`;
+    kpis.appendChild(c);
+  });
+  el.appendChild(kpis);
+
+  const mid = document.createElement('div'); mid.className = 'row r3';
+
+  const sc = document.createElement('div'); sc.className = 'card';
+  sc.innerHTML = '<div class="section-title">Status breakdown</div>';
+  buildStatuses(sc, r.statuses);
+  mid.appendChild(sc);
+
+  const fc = document.createElement('div'); fc.className = 'card';
+  fc.innerHTML = '<div class="section-title">Pipeline funnel</div>';
+  const fd = document.createElement('div'); fd.style.marginTop = '4px';
+  buildFunnel(fd, r.funnel);
+  fc.appendChild(fd);
+  mid.appendChild(fc);
+
+  const ac = document.createElement('div'); ac.className = 'card';
+  ac.innerHTML = '<div class="section-title">Aging bands</div>';
+  const ad = document.createElement('div'); ad.style.marginTop = '4px';
+  buildAging(ad, r.aging, r.reqs);
+  ac.appendChild(ad);
+  mid.appendChild(ac);
+  el.appendChild(mid);
+
+  const bot = document.createElement('div'); bot.className = 'row r2';
+
+  const gc = document.createElement('div'); gc.className = 'card';
+  gc.innerHTML = '<div class="section-title">Goal progress</div>';
+  const gd = document.createElement('div'); gd.style.marginTop = '10px';
+  buildGoals(gd, r.goals);
+  gc.appendChild(gd);
+  bot.appendChild(gc);
+
+  const cid = 'trend-' + r.id;
+  const tc = document.createElement('div'); tc.className = 'card';
+  tc.innerHTML = `<div class="section-title">Time to fill — 6 month trend</div><div style="position:relative;height:170px;margin-top:6px;"><canvas id="${cid}" role="img" aria-label="6-month time to fill trend for ${r.name}">${r.trend.join(', ')} days</canvas></div>`;
+  bot.appendChild(tc);
+  el.appendChild(bot);
+
+  setTimeout(() => {
+    new Chart(document.getElementById(cid), {
+      type: 'line',
+      data: {
+        labels: ['Jan','Feb','Mar','Apr','May','Jun'],
+        datasets: [{
+          label: 'Days to fill',
+          data: r.trend,
+          borderColor: r.color,
+          backgroundColor: r.color + '22',
+          fill: true, tension: 0.4,
+          pointRadius: 4, pointBackgroundColor: r.color,
+          pointBorderColor: isDark ? '#1e1d1b' : '#fff',
+          pointBorderWidth: 2
+        }]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          y: { beginAtZero: false, ticks: { font: { size: 10, family: "'DM Mono', monospace" }, color: isDark ? '#6b6a66' : '#9e9d99' }, grid: { color: isDark ? 'rgba(255,255,255,.05)' : 'rgba(0,0,0,.05)' } },
+          x: { ticks: { font: { size: 10 }, color: isDark ? '#6b6a66' : '#9e9d99' }, grid: { display: false } }
+        }
+      }
+    });
+  }, 30);
+}
+
+function goToRecruiter(id) {
+  const r = recruiters.find(x => x.id === id);
+  if (r) buildRecruiterView(r);
+  showView(id);
+}
+
+// Build main view charts & components
+window.addEventListener('DOMContentLoaded', () => {
+  new Chart(document.getElementById('recBar'), {
+    type: 'bar',
+    data: {
+      labels: ['Stephanie','Rebecca','Gabe','Kate','Tameka','John','JKB'],
+      datasets: [{
+        label: 'Open reqs',
+        data: [9, 8, 8, 7, 7, 6, 2],
+        backgroundColor: ['#185FA5','#BA7517','#0F6E56','#3B6D11','#534AB7','#993556','#888780'],
+        borderRadius: 5, borderSkipped: false
+      }]
+    },
+    options: {
+      indexAxis: 'y', responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => ` ${c.raw} reqs` } } },
+      scales: {
+        x: { beginAtZero: true, ticks: { stepSize: 1, font: { size: 10, family: "'DM Mono', monospace" }, color: isDark ? '#6b6a66' : '#9e9d99' }, grid: { color: isDark ? 'rgba(255,255,255,.05)' : 'rgba(0,0,0,.05)' } },
+        y: { ticks: { font: { size: 11 }, color: isDark ? '#a09f9b' : '#6b6a66' }, grid: { display: false } }
+      }
+    }
+  });
+
+  new Chart(document.getElementById('campusPie'), {
+    type: 'doughnut',
+    data: {
+      labels: ['Tampa','St Pete','USF Health','Sarasota','Tallahassee'],
+      datasets: [{ data: [22,15,7,5,3], backgroundColor: ['#185FA5','#3B6D11','#0F6E56','#BA7517','#993556'], borderWidth: 2, borderColor: isDark ? '#1e1d1b' : '#fff' }]
+    },
+    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, cutout: '62%' }
+  });
+
+  buildFunnel(document.getElementById('main-funnel'), [
+    {l:'Posted',n:52},{l:'Screened',n:41},{l:'Pool Ready',n:27},{l:'Interviews',n:16},{l:'Offer',n:4}
+  ]);
+
+  buildAging(document.getElementById('main-aging'), [
+    {l:'High 60+',n:8,c:'#A32D2D',bg:isDark?'#2e0f0f':'#FCEBEB'},
+    {l:'Med 30–59',n:16,c:'#BA7517',bg:isDark?'#3d2504':'#FAEEDA'},
+    {l:'Low <30',n:28,c:'#3B6D11',bg:isDark?'#1a3309':'#EAF3DE'}
+  ], 52);
+
+  const teamEl = document.getElementById('main-team');
+  recruiters.forEach(r => {
+    const row = document.createElement('div'); row.className = 'team-row';
+    row.setAttribute('role', 'button'); row.setAttribute('tabindex', '0');
+    row.setAttribute('aria-label', `View ${r.name}'s dashboard`);
+    row.innerHTML = `
+      <div class="av" style="background:${r.bg};color:${r.color};">${r.initials}</div>
+      <span style="font-size:12px;flex:1;">${r.name}</span>
+      <span style="font-size:11px;color:var(--text3);font-family:var(--mono);">${r.reqs} reqs</span>
+      <svg class="arrow" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>`;
+    row.onclick = () => goToRecruiter(r.id);
+    row.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') goToRecruiter(r.id); };
+    teamEl.appendChild(row);
+  });
+});
+</script>
+</body>
+</html>
