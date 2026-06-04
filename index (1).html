@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>USF Recruiting — Mini Bull Pen Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<style>
+:root{
+  --bg:#f7f6f3;--surface:#fff;--surface2:#f0efe9;
+  --border:rgba(0,0,0,.09);--border-md:rgba(0,0,0,.15);
+  --text:#1a1916;--text2:#6b6a66;--text3:#9e9d99;
+  --blue:#185FA5;--green:#3B6D11;--amber:#BA7517;
+  --red:#A32D2D;--teal:#0F6E56;--purple:#534AB7;
+  --radius:10px;--radius-sm:6px;--radius-pill:99px;
+  --font:'DM Sans',sans-serif;--mono:'DM Mono',monospace;
+  --nav-h:52px;
+}
+@media(prefers-color-scheme:dark){
+  :root{--bg:#141412;--surface:#1e1d1b;--surface2:#262523;
+    --border:rgba(255,255,255,.08);--border-md:rgba(255,255,255,.14);
+    --text:#f0efe9;--text2:#a09f9b;--text3:#5e5d59;}
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:14px;line-height:1.5;min-height:100vh;}
+.nav{position:sticky;top:0;z-index:100;display:flex;align-items:center;gap:4px;padding:0 16px;height:var(--nav-h);background:var(--surface);border-bottom:1px solid var(--border);overflow-x:auto;}
+.nav-logo{font-size:14px;font-weight:500;color:var(--text);margin-right:10px;white-space:nowrap;flex-shrink:0;}
+.nav-logo span{color:var(--green);}
+.nav-sync{font-size:10px;color:var(--text3);margin-left:auto;font-family:var(--mono);white-space:nowrap;flex-shrink:0;}
+.nav-sync .dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--green);margin-right:4px;vertical-align:middle;}
+.nav-btn{padding:5px 12px;border-radius:var(--radius-pill);border:1px solid var(--border-md);font-family:var(--font);font-size:12px;font-weight:500;cursor:pointer;background:transparent;color:var(--text2);white-space:nowrap;flex-shrink:0;transition:all .15s;}
+.nav-btn:hover{background:var(--surface2);color:var(--text);}
+.nav-btn.active{background:var(--blue);color:#fff;border-color:var(--blue);}
+.nav-btn.home{display:flex;align-items:center;gap:5px;}
+.nav-btn.home svg{width:13px;height:13px;stroke:currentColor;fill:none;stroke-width:2;}
+.view{display:none;padding:18px;flex-direction:column;gap:14px;animation:fadeIn .2s ease;}
+.view.active{display:flex;}
+@keyframes fadeIn{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+.row{display:grid;gap:12px;}
+.r5{grid-template-columns:repeat(5,minmax(0,1fr));}
+.r4{grid-template-columns:repeat(4,minmax(0,1fr));}
+.r3{grid-template-columns:repeat(3,minmax(0,1fr));}
+.r2{grid-template-columns:repeat(2,minmax(0,1fr));}
+@media(max-width:1000px){.r5{grid-template-columns:repeat(3,minmax(0,1fr));}.r4{grid-template-columns:repeat(2,minmax(0,1fr));}.r3{grid-template-columns:repeat(2,minmax(0,1fr));}}
+@media(max-width:540px){.r5,.r4,.r3,.r2{grid-template-columns:1fr;}}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:14px 16px;}
+.clabel{font-size:10px;font-weight:500;color:var(--text3);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px;}
+.kval{font-size:26px;font-weight:500;line-height:1;}
+.kunit{font-size:11px;color:var(--text3);margin-top:3px;}
+.pill{display:flex;align-items:center;justify-content:space-between;padding:5px 10px;border-radius:var(--radius-pill);font-size:11px;font-weight:500;margin-bottom:5px;}
+.aband{display:flex;align-items:center;justify-content:space-between;padding:5px 9px;border-radius:var(--radius-sm);font-size:11px;font-weight:500;margin-bottom:4px;}
+.btrack{height:7px;background:var(--surface2);border-radius:99px;overflow:hidden;margin-bottom:9px;}
+.bfill{height:100%;border-radius:99px;}
+.fstage{display:flex;align-items:center;justify-content:space-between;border-radius:var(--radius-sm);padding:5px 10px;font-size:11px;font-weight:500;margin:0 auto 3px;}
+.team-row{display:flex;align-items:center;gap:9px;padding:7px 6px;border-radius:var(--radius-sm);cursor:pointer;transition:background .12s;border-bottom:1px solid var(--border);}
+.team-row:last-child{border-bottom:none;}
+.team-row:hover{background:var(--surface2);}
+.av{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:500;flex-shrink:0;}
+.av-lg{width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:500;flex-shrink:0;}
+.rh{display:flex;align-items:center;gap:12px;padding-bottom:12px;border-bottom:1px solid var(--border);}
+.rh-name{font-size:17px;font-weight:500;}
+.rh-sub{font-size:11px;color:var(--text3);margin-top:1px;}
+.goal-row{display:flex;align-items:center;gap:8px;margin-bottom:9px;}
+.goal-label{font-size:11px;color:var(--text2);width:78px;flex-shrink:0;}
+.goal-track{flex:1;height:8px;background:var(--surface2);border-radius:99px;overflow:hidden;}
+.goal-fill{height:100%;border-radius:99px;transition:width .5s ease;}
+.goal-val{font-size:11px;font-weight:500;color:var(--text);width:38px;text-align:right;font-family:var(--mono);}
+.leg{display:flex;flex-wrap:wrap;gap:5px 12px;margin-top:8px;}
+.li{display:flex;align-items:center;gap:4px;font-size:10px;color:var(--text2);}
+.ld{width:7px;height:7px;border-radius:50%;flex-shrink:0;}
+.stitle{font-size:11px;font-weight:500;color:var(--text3);text-transform:uppercase;letter-spacing:.08em;margin-bottom:8px;}
+.back-chip{display:inline-flex;align-items:center;gap:5px;font-size:11px;color:var(--text2);cursor:pointer;padding:3px 8px;border-radius:var(--radius-pill);border:1px solid var(--border-md);background:transparent;font-family:var(--font);transition:all .12s;}
+.back-chip:hover{background:var(--surface2);}
+.tab-bar{display:flex;gap:4px;margin-bottom:10px;}
+.tab-btn{padding:4px 10px;border-radius:var(--radius-pill);border:0.5px solid var(--border-md);font-size:11px;font-weight:500;cursor:pointer;background:transparent;color:var(--text2);font-family:var(--font);transition:all .15s;}
+.tab-btn.active{background:var(--blue);color:#fff;border-color:var(--blue);}
+.hm-wrap table{width:100%;border-collapse:separate;border-spacing:3px;}
+.hm-wrap th{font-size:10px;font-weight:500;color:var(--text3);text-align:center;padding:3px 4px;}
+.hm-wrap td{text-align:center;padding:7px 4px;border-radius:5px;font-size:11px;font-weight:500;}
+.hm-row-label{text-align:left !important;font-size:11px;color:var(--text);background:transparent !important;padding-left:2px !important;}
+.loading{display:flex;align-items:center;justify-content:center;height:200px;font-size:13px;color:var(--text3);}
+.error-msg{background:#FCEBEB;border:1px solid #A32D2D33;border-radius:var(--radius);padding:12px 16px;font-size:12px;color:#A32D2D;margin:18px;}
+</style>
+</head>
+<body>
+
+<nav class="nav" role="navigation" aria-label="Dashboard navigation">
+  <div class="nav-logo"><span>USF</span> Recruiting</div>
+  <button class="nav-btn home active" onclick="showView('main')" aria-label="Main dashboard">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+    Main
+  </button>
+  <div id="nav-recruiter-btns"></div>
+  <span class="nav-sync" id="nav-sync"></span>
+</nav>
+
+<div id="app"><div class="loading">Loading dashboard data...</div></div>
+
+<script>
+const D = window.matchMedia('(prefers-color-scheme:dark)').matches;
+let DATA = null;
+
+async function loadData(){
+  try{
+    const res = await fetch('data.json?v='+Date.now());
+    if(!res.ok) throw new Error('HTTP '+res.status);
+    DATA = await res.json();
+    initDashboard();
+  }catch(e){
+    document.getElementById('app').innerHTML=`<div class="error-msg">Could not load data.json — make sure it is in the same folder as index.html in your GitHub repo. (${e.message})</div>`;
+  }
+}
+
+function initDashboard(){
+  const app=document.getElementById('app');
+  app.innerHTML='';
+  const sync=document.getElementById('nav-sync');
+  if(DATA.lastUpdated){
+    const d=new Date(DATA.lastUpdated);
+    sync.innerHTML=`<span class="dot"></span>Updated ${d.toLocaleDateString('en-US',{month:'short',day:'numeric'})} ${d.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'})}`;
+  }
+  const navBtns=document.getElementById('nav-recruiter-btns');
+  navBtns.innerHTML='';
+  DATA.recruiters.forEach(r=>{
+    const btn=document.createElement('button');
+    btn.className='nav-btn';
+    btn.textContent=r.name;
+    btn.onclick=()=>goToRecruiter(r.id);
+    navBtns.appendChild(btn);
+  });
+  buildMainView(app);
+  DATA.recruiters.forEach(r=>{
+    const el=document.createElement('div');
+    el.id='view-'+r.id;
+    el.className='view';
+    app.appendChild(el);
+  });
+  showView('main');
+}
+
+function showView(id){
+  document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));
+  document.querySelectorAll('.nav-btn').forEach(b=>b.classList.remove('active'));
+  const el=document.getElementById('view-'+id);
+  if(el) el.classList.add('active');
+  document.querySelectorAll('.nav-btn').forEach(b=>{
+    const t=b.textContent.trim();
+    if(id==='main'&&(t==='Main'||b.classList.contains('home'))) b.classList.add('active');
+    else{const r=DATA.recruiters.find(r=>r.name===t);if(r&&r.id===id) b.classList.add('active');}
+  });
+  window.scrollTo(0,0);
+}
+
+function buildMainView(app){
+  const s=DATA.summary;
+  const main=document.createElement('div');
+  main.id='view-main';
+  main.className='view';
+
+  // KPI row — 5 cards including Offers in Stage
+  const kpiRow=document.createElement('div');
+  kpiRow.className='row r5';
+  const kpis=[
+    {l:'Open reqs',v:s.openReqs,c:'var(--blue)',u:'all campuses & units'},
+    {l:'Avg time to fill',v:s.avgTimeToFill+'d',c:'var(--text)',u:'days avg (active)'},
+    {l:'Filled YTD',v:s.filledYTD,c:'var(--green)',u:'positions closed'},
+    {l:'Failed / cancelled',v:s.failedCancelled,c:'var(--red)',u:'searches no hire'},
+    {l:'In offer stage',v:s.inOfferStage||4,c:'var(--teal)',u:'active offers',new:true},
+  ];
+  kpis.forEach(k=>{
+    const card=document.createElement('div');
+    card.className='card';
+    if(k.new) card.style.borderColor='var(--teal)';
+    card.innerHTML=`<div class="clabel">${k.l}</div><div class="kval" style="color:${k.c};">${k.v}</div><div class="kunit">${k.u}</div>`;
+    kpiRow.appendChild(card);
+  });
+  main.appendChild(kpiRow);
+
+  // Row 2: recruiter bar + actively worked pie
+  const row2=document.createElement('div');
+  row2.className='row r2';
+
+  const recCard=document.createElement('div');
+  recCard.className='card';
+  recCard.innerHTML=`<div class="stitle">Recruiter load — open reqs</div><div style="position:relative;height:${DATA.recruiters.length*40+60}px;"><canvas id="recBar" role="img" aria-label="Recruiter open req counts">${DATA.recruiters.map(r=>r.name+' '+r.reqs).join(', ')}</canvas></div>`;
+  row2.appendChild(recCard);
+
+  const activeCard=document.createElement('div');
+  activeCard.className='card';
+  activeCard.innerHTML=`<div class="stitle">Jobs actively being worked</div><div style="display:flex;align-items:center;gap:16px;margin-top:4px;"><div style="position:relative;width:130px;height:130px;flex-shrink:0;"><canvas id="activePie" role="img" aria-label="Actively worked jobs by stage">Stage breakdown of active jobs</canvas></div><div class="leg" id="active-leg"></div></div>`;
+  row2.appendChild(activeCard);
+  main.appendChild(row2);
+
+  // Row 3: campus pie + aging heatmap + college/dept pie
+  const row3=document.createElement('div');
+  row3.className='row r3';
+
+  const campusCard=document.createElement('div');
+  campusCard.className='card';
+  campusCard.innerHTML=`<div class="stitle">Jobs by campus</div><div style="position:relative;height:140px;"><canvas id="campusPie" role="img" aria-label="Jobs by campus">${DATA.campus.map(c=>c.label+' '+c.count).join(', ')}</canvas></div><div class="leg" id="campus-leg"></div>`;
+  row3.appendChild(campusCard);
+
+  const hmCard=document.createElement('div');
+  hmCard.className='card hm-wrap';
+  hmCard.innerHTML=`<div class="stitle">Job aging heatmap — by category</div><table role="grid" aria-label="Job aging heatmap by category and days open"><thead><tr><th style="text-align:left;">Category</th><th>0–30d<br><span style="font-size:9px;font-weight:400;">On track</span></th><th>31–60d<br><span style="font-size:9px;font-weight:400;">Monitor</span></th><th>61–90d<br><span style="font-size:9px;font-weight:400;">Escalate</span></th><th>90+d<br><span style="font-size:9px;font-weight:400;">Urgent</span></th><th>Total</th></tr></thead><tbody id="hm-body"></tbody></table><div style="display:flex;align-items:center;gap:5px;margin-top:8px;font-size:10px;color:var(--text3);"><span>Low</span><div style="display:flex;gap:2px;"><div style="width:14px;height:7px;border-radius:2px;background:#EAF3DE;"></div><div style="width:14px;height:7px;border-radius:2px;background:#FAEEDA;"></div><div style="width:14px;height:7px;border-radius:2px;background:#F09595;"></div><div style="width:14px;height:7px;border-radius:2px;background:#E24B4A;"></div></div><span>High urgency</span></div>`;
+  row3.appendChild(hmCard);
+
+  const cdCard=document.createElement('div');
+  cdCard.className='card';
+  cdCard.innerHTML=`<div class="stitle">Reqs by college / department</div><div class="tab-bar"><button class="tab-btn active" onclick="switchCDTab('college',this)">College</button><button class="tab-btn" onclick="switchCDTab('dept',this)">Department</button></div><div style="display:flex;align-items:center;gap:14px;"><div style="position:relative;width:120px;height:120px;flex-shrink:0;"><canvas id="cdPie" role="img" aria-label="Reqs by college or department">College/dept breakdown</canvas></div><div class="leg" id="cd-leg"></div></div>`;
+  row3.appendChild(cdCard);
+  main.appendChild(row3);
+
+  // Row 4: pipeline funnel + aging bands + team
+  const row4=document.createElement('div');
+  row4.className='row r3';
+
+  const funnelCard=document.createElement('div');
+  funnelCard.className='card';
+  funnelCard.innerHTML=`<div class="stitle">Pipeline funnel</div><div id="main-funnel" style="margin-top:4px;"></div>`;
+  row4.appendChild(funnelCard);
+
+  const agingCard=document.createElement('div');
+  agingCard.className='card';
+  agingCard.innerHTML=`<div class="stitle">Aging bands</div><div id="main-aging"></div>`;
+  row4.appendChild(agingCard);
+
+  const teamCard=document.createElement('div');
+  teamCard.className='card';
+  teamCard.innerHTML=`<div class="stitle">Team — click to drill in</div><div id="main-team"></div>`;
+  row4.appendChild(teamCard);
+  main.appendChild(row4);
+
+  app.appendChild(main);
+
+  setTimeout(()=>{
+    // Recruiter bar
+    new Chart(document.getElementById('recBar'),{type:'bar',data:{labels:DATA.recruiters.map(r=>r.name),datasets:[{label:'Open reqs',data:DATA.recruiters.map(r=>r.reqs),backgroundColor:DATA.recruiters.map(r=>r.color),borderRadius:5,borderSkipped:false}]},options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>` ${c.raw} reqs`}}},scales:{x:{beginAtZero:true,ticks:{stepSize:1,font:{size:10,family:"'DM Mono',monospace"},color:D?'#6b6a66':'#9e9d99'},grid:{color:D?'rgba(255,255,255,.05)':'rgba(0,0,0,.05)'}},y:{ticks:{font:{size:11},color:D?'#a09f9b':'#6b6a66'},grid:{display:false}}}}});
+
+    // Actively worked pie
+    const activeStages=[
+      {l:'Active WIP',n:20,c:'#185FA5'},{l:'Sourced',n:8,c:'#3B6D11'},
+      {l:'Screened',n:7,c:'#BA7517'},{l:'HM Review',n:6,c:'#993556'},
+      {l:'Interview Stage',n:10,c:'#534AB7'},{l:'Offer Stage',n:4,c:'#0F6E56'}
+    ];
+    new Chart(document.getElementById('activePie'),{type:'doughnut',data:{labels:activeStages.map(s=>s.l),datasets:[{data:activeStages.map(s=>s.n),backgroundColor:activeStages.map(s=>s.c),borderWidth:2,borderColor:D?'#1e1d1b':'#fff'}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},cutout:'58%'}});
+    const legA=document.getElementById('active-leg');
+    const total=activeStages.reduce((a,s)=>a+s.n,0);
+    activeStages.forEach(s=>{legA.innerHTML+=`<span class="li"><span class="ld" style="background:${s.c};"></span>${s.l} ${s.n}</span>`;});
+    legA.innerHTML+=`<span style="font-size:11px;font-weight:500;color:var(--text);margin-top:4px;display:block;">Total: ${total}</span>`;
+
+    // Campus pie (no Sarasota)
+    new Chart(document.getElementById('campusPie'),{type:'doughnut',data:{labels:DATA.campus.map(c=>c.label),datasets:[{data:DATA.campus.map(c=>c.count),backgroundColor:DATA.campus.map(c=>c.color),borderWidth:2,borderColor:D?'#1e1d1b':'#fff'}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},cutout:'60%'}});
+    const legC=document.getElementById('campus-leg');
+    DATA.campus.forEach(c=>{legC.innerHTML+=`<span class="li"><span class="ld" style="background:${c.color};"></span>${c.label} ${c.count}</span>`;});
+
+    // Aging heatmap
+    buildHeatmap();
+
+    // College/Dept pie
+    buildCDPie('college');
+
+    // Funnel
+    buildFunnel(document.getElementById('main-funnel'),DATA.mainFunnel);
+
+    // Aging bands
+    buildAging(document.getElementById('main-aging'),DATA.mainAging,DATA.summary.openReqs);
+
+    // Team
+    const teamEl=document.getElementById('main-team');
+    DATA.recruiters.forEach(r=>{
+      const row=document.createElement('div');row.className='team-row';
+      const bg=D?r.bgDark:r.bgLight;
+      row.innerHTML=`<div class="av" style="background:${bg};color:${r.color};">${r.initials}</div><span style="font-size:12px;flex:1;">${r.name}</span><span style="font-size:11px;color:var(--text3);font-family:var(--mono);">${r.reqs} reqs</span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--text3)" stroke-width="2" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>`;
+      row.onclick=()=>goToRecruiter(r.id);
+      teamEl.appendChild(row);
+    });
+  },80);
+}
+
+// Heatmap
+function buildHeatmap(){
+  const hmData=[
+    {cat:'Standard', buckets:[12,8,5,4]},
+    {cat:'Faculty',  buckets:[4,3,2,1]},
+    {cat:'Evergreen',buckets:[6,3,1,0]},
+    {cat:'Student',  buckets:[5,1,0,0]},
+  ];
+  const palettes=[
+    ['#EAF3DE','#C0DD97','#97C459','#3B6D11'],
+    ['#FAEEDA','#FAC775','#EF9F27','#BA7517'],
+    ['#FCEBEB','#F7C1C1','#F09595','#E24B4A'],
+    ['#FCEBEB','#F7C1C1','#F09595','#E24B4A'],
+  ];
+  const tpalettes=[
+    ['#27500A','#27500A','#173404','#EAF3DE'],
+    ['#633806','#633806','#412402','#FAEEDA'],
+    ['#791F1F','#791F1F','#501313','#FCEBEB'],
+    ['#791F1F','#791F1F','#501313','#FCEBEB'],
+  ];
+  const maxV=Math.max(...hmData.flatMap(r=>r.buckets));
+  const tbody=document.getElementById('hm-body');
+  hmData.forEach(row=>{
+    const tr=document.createElement('tr');
+    const total=row.buckets.reduce((a,b)=>a+b,0);
+    let html=`<td class="hm-row-label">${row.cat}</td>`;
+    row.buckets.forEach((val,ci)=>{
+      const intensity=val/maxV;
+      const idx=val===0?0:intensity<.25?0:intensity<.5?1:intensity<.75?2:3;
+      const bg=val===0?(D?'#262523':'#F7F6F3'):palettes[ci][idx];
+      const tc=val===0?'var(--text3)':tpalettes[ci][idx];
+      html+=`<td style="background:${bg};color:${tc};">${val>0?val:'—'}</td>`;
+    });
+    html+=`<td style="background:var(--surface2);color:var(--text);font-weight:500;">${total}</td>`;
+    tr.innerHTML=html;
+    tbody.appendChild(tr);
+  });
+  const totRow=document.createElement('tr');
+  const colTots=[0,1,2,3].map(ci=>hmData.reduce((s,r)=>s+r.buckets[ci],0));
+  const grand=colTots.reduce((a,b)=>a+b,0);
+  totRow.innerHTML=`<td class="hm-row-label" style="font-weight:500;">Total</td>${colTots.map(v=>`<td style="background:var(--surface2);color:var(--text);font-weight:500;">${v}</td>`).join('')}<td style="background:var(--surface2);color:var(--text);font-weight:500;">${grand}</td>`;
+  tbody.appendChild(totRow);
+}
+
+// College/Dept pie
+let cdChart=null;
+const cdDatasets={
+  college:{labels:['Medicine','Public Health','Nursing','Arts & Sciences','Business (Muma)','Engineering','Education','Other'],data:[12,8,7,6,5,5,3,1],colors:['#185FA5','#0F6E56','#993556','#BA7517','#534AB7','#3B6D11','#5F5E5A','#888780']},
+  dept:{labels:['USF Health','Academic Affairs','IT','Finance & Admin','HR','Student Affairs','Research','Other'],data:[14,9,8,6,4,3,2,1],colors:['#0F6E56','#185FA5','#534AB7','#BA7517','#993556','#3B6D11','#5F5E5A','#888780']}
+};
+function buildCDPie(type){
+  const d=cdDatasets[type];
+  const legEl=document.getElementById('cd-leg');
+  legEl.innerHTML=d.labels.map((l,i)=>`<span class="li"><span class="ld" style="background:${d.colors[i]};"></span>${l} ${d.data[i]}</span>`).join('');
+  if(cdChart) cdChart.destroy();
+  cdChart=new Chart(document.getElementById('cdPie'),{type:'doughnut',data:{labels:d.labels,datasets:[{data:d.data,backgroundColor:d.colors,borderWidth:2,borderColor:D?'#1e1d1b':'#fff'}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},cutout:'58%'}});
+}
+function switchCDTab(type,btn){
+  document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  buildCDPie(type);
+}
+
+function goToRecruiter(id){
+  const r=DATA.recruiters.find(x=>x.id===id);
+  if(!r) return;
+  const el=document.getElementById('view-'+id);
+  if(!el.dataset.built) buildRecruiterView(r,el);
+  showView(id);
+}
+
+function buildRecruiterView(r,el){
+  el.dataset.built='1';
+  el.innerHTML='';
+  const bg=D?r.bgDark:r.bgLight;
+
+  const backRow=document.createElement('div');
+  backRow.style.marginBottom='4px';
+  backRow.innerHTML=`<button class="back-chip" onclick="showView('main')">&#8592; Back to main</button>`;
+  el.appendChild(backRow);
+
+  const header=document.createElement('div');header.className='rh card';
+  header.innerHTML=`<div class="av-lg" style="background:${bg};color:${r.color};">${r.initials}</div><div><div class="rh-name">${r.name}</div><div class="rh-sub">${r.campus} &middot; Recruiting Partner &middot; ${r.reqs} open reqs</div></div>`;
+  el.appendChild(header);
+
+  const kpis=document.createElement('div');kpis.className='row r4';
+  [{l:'Open reqs',v:r.reqs,c:'var(--blue)'},{l:'Filled YTD',v:r.filled,c:'var(--green)'},{l:'Failed / cancelled',v:r.failed,c:'var(--red)'},{l:'Avg time to fill',v:r.ttf+'d',c:'var(--text)'}].forEach(k=>{
+    const c=document.createElement('div');c.className='card';
+    c.innerHTML=`<div class="clabel">${k.l}</div><div class="kval" style="color:${k.c};">${k.v}</div>`;
+    kpis.appendChild(c);
+  });
+  el.appendChild(kpis);
+
+  const mid=document.createElement('div');mid.className='row r3';
+
+  const sc=document.createElement('div');sc.className='card';sc.innerHTML='<div class="stitle">Status breakdown</div>';
+  buildStatuses(sc,r.statuses);mid.appendChild(sc);
+
+  const fc=document.createElement('div');fc.className='card';fc.innerHTML='<div class="stitle">Pipeline funnel</div>';
+  const fd=document.createElement('div');fd.style.marginTop='4px';buildFunnel(fd,r.funnel);fc.appendChild(fd);mid.appendChild(fc);
+
+  const ac=document.createElement('div');ac.className='card';ac.innerHTML='<div class="stitle">Aging bands</div>';
+  const ad=document.createElement('div');ad.style.marginTop='4px';buildAging(ad,r.aging,r.reqs);ac.appendChild(ad);mid.appendChild(ac);
+  el.appendChild(mid);
+
+  const bot=document.createElement('div');bot.className='row r2';
+
+  const gc=document.createElement('div');gc.className='card';gc.innerHTML='<div class="stitle">Goal progress</div>';
+  const gd=document.createElement('div');gd.style.marginTop='10px';buildGoals(gd,r.goals);gc.appendChild(gd);bot.appendChild(gc);
+
+  const cid='trend-'+r.id;
+  const tc=document.createElement('div');tc.className='card';
+  tc.innerHTML=`<div class="stitle">Time to fill — 6 month trend</div><div style="position:relative;height:170px;margin-top:6px;"><canvas id="${cid}" role="img" aria-label="Time to fill trend for ${r.name}">${r.trend.join(', ')} days</canvas></div>`;
+  bot.appendChild(tc);
+  el.appendChild(bot);
+
+  setTimeout(()=>{
+    new Chart(document.getElementById(cid),{type:'line',data:{labels:['Jan','Feb','Mar','Apr','May','Jun'],datasets:[{label:'Days to fill',data:r.trend,borderColor:r.color,backgroundColor:r.color+'22',fill:true,tension:.4,pointRadius:4,pointBackgroundColor:r.color,pointBorderColor:D?'#1e1d1b':'#fff',pointBorderWidth:2}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{beginAtZero:false,ticks:{font:{size:10,family:"'DM Mono',monospace"},color:D?'#6b6a66':'#9e9d99'},grid:{color:D?'rgba(255,255,255,.05)':'rgba(0,0,0,.05)'}},x:{ticks:{font:{size:10},color:D?'#6b6a66':'#9e9d99'},grid:{display:false}}}}});
+  },30);
+}
+
+function buildFunnel(container,stages){
+  stages.forEach((s,i)=>{
+    const w=Math.max(36,100-i*13);const alpha=0.11+i*.14;
+    const el=document.createElement('div');el.className='fstage';
+    el.style.cssText=`width:${w}%;background:rgba(24,95,165,${alpha});color:${D?'#85B7EB':'#0C447C'};`;
+    el.innerHTML=`<span>${s.label}</span><span style="font-family:var(--mono);">${s.count}</span>`;
+    container.appendChild(el);
+  });
+}
+
+function buildAging(container,aging,total){
+  aging.forEach(a=>{
+    const bg=D?a.bgDark:a.bgLight;
+    const badge=document.createElement('div');badge.className='aband';
+    badge.style.cssText=`background:${bg};color:${a.color};border:1px solid ${a.color}33;`;
+    badge.innerHTML=`<span>${a.label}</span><span style="font-family:var(--mono);font-size:13px;">${a.count}</span>`;
+    container.appendChild(badge);
+    const track=document.createElement('div');track.className='btrack';
+    const fill=document.createElement('div');fill.className='bfill';
+    fill.style.cssText=`background:${a.color};width:${total>0?Math.round((a.count/total)*100):0}%;`;
+    track.appendChild(fill);container.appendChild(track);
+  });
+}
+
+function buildStatuses(container,statuses){
+  statuses.forEach(s=>{
+    const pill=document.createElement('div');pill.className='pill';
+    pill.style.cssText=`background:${s.color}20;color:${s.color};border:1px solid ${s.color}33;`;
+    pill.innerHTML=`<span>${s.label}</span><span style="font-family:var(--mono);">${s.count}</span>`;
+    container.appendChild(pill);
+  });
+}
+
+function buildGoals(container,goals){
+  goals.forEach(g=>{
+    const pct=g.invert?Math.round(Math.min(100,(g.target/g.value)*100)):Math.round(Math.min(100,(g.value/g.target)*100));
+    const color=pct>=75?'#3B6D11':pct>=50?'#BA7517':'#A32D2D';
+    const row=document.createElement('div');row.className='goal-row';
+    row.innerHTML=`<span class="goal-label">${g.label}</span><div class="goal-track"><div class="goal-fill" style="width:${pct}%;background:${color};"></div></div><span class="goal-val">${g.value}${g.invert?' d':''}</span>`;
+    container.appendChild(row);
+  });
+}
+
+loadData();
+</script>
+</body>
+</html>
