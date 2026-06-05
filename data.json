@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T16:45:54.237Z",
+  "lastUpdated": "2026-06-05T17:34:10.263Z",
   "summary": {
     "openReqs": 0,
     "avgTimeToFill": 0,
@@ -39,7 +39,7 @@
       "count": 0
     },
     {
-      "label": "Pool Ready",
+      "label": "HM Review",
       "count": 0
     },
     {
@@ -53,25 +53,25 @@
   ],
   "mainAging": [
     {
-      "label": "Low <30",
-      "count": 0,
-      "color": "#3B6D11",
-      "bgLight": "#EAF3DE",
-      "bgDark": "#1a3309"
+      "label": "High 60+",
+      "color": "#A32D2D",
+      "bgLight": "#FCEBEB",
+      "bgDark": "#2e0f0f",
+      "count": 0
     },
     {
       "label": "Med 30-59",
-      "count": 0,
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
-      "bgDark": "#3d2504"
+      "bgDark": "#3d2504",
+      "count": 0
     },
     {
-      "label": "High 60+",
-      "count": 0,
-      "color": "#A32D2D",
-      "bgLight": "#FCEBEB",
-      "bgDark": "#2e0f0f"
+      "label": "Low <30",
+      "color": "#3B6D11",
+      "bgLight": "#EAF3DE",
+      "bgDark": "#1a3309",
+      "count": 0
     }
   ],
   "recruiters": [
@@ -90,34 +90,30 @@
       "statuses": [],
       "aging": [
         {
-          "label": "Low <30",
-          "count": 0,
-          "color": "#3B6D11",
-          "bgLight": "#EAF3DE",
-          "bgDark": "#1a3309"
+          "label": "High 60+",
+          "color": "#A32D2D",
+          "bgLight": "#FCEBEB",
+          "bgDark": "#2e0f0f",
+          "count": 0
         },
         {
           "label": "Med 30-59",
-          "count": 0,
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
-          "bgDark": "#3d2504"
+          "bgDark": "#3d2504",
+          "count": 0
         },
         {
-          "label": "High 60+",
-          "count": 0,
-          "color": "#A32D2D",
-          "bgLight": "#FCEBEB",
-          "bgDark": "#2e0f0f"
+          "label": "Low <30",
+          "color": "#3B6D11",
+          "bgLight": "#EAF3DE",
+          "bgDark": "#1a3309",
+          "count": 0
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 0
-        },
-        {
-          "label": "Sourced",
           "count": 0
         },
         {
@@ -129,7 +125,11 @@
           "count": 0
         },
         {
-          "label": "Interview Stage",
+          "label": "Interviews",
+          "count": 0
+        },
+        {
+          "label": "Offer",
           "count": 0
         }
       ],
@@ -147,7 +147,7 @@
           "invert": true
         },
         {
-          "label": "Pool ready",
+          "label": "Screened",
           "value": 0,
           "target": 1,
           "invert": false
@@ -183,34 +183,30 @@
       "statuses": [],
       "aging": [
         {
-          "label": "Low <30",
-          "count": 0,
-          "color": "#3B6D11",
-          "bgLight": "#EAF3DE",
-          "bgDark": "#1a3309"
+          "label": "High 60+",
+          "color": "#A32D2D",
+          "bgLight": "#FCEBEB",
+          "bgDark": "#2e0f0f",
+          "count": 0
         },
         {
           "label": "Med 30-59",
-          "count": 0,
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
-          "bgDark": "#3d2504"
+          "bgDark": "#3d2504",
+          "count": 0
         },
         {
-          "label": "High 60+",
-          "count": 0,
-          "color": "#A32D2D",
-          "bgLight": "#FCEBEB",
-          "bgDark": "#2e0f0f"
+          "label": "Low <30",
+          "color": "#3B6D11",
+          "bgLight": "#EAF3DE",
+          "bgDark": "#1a3309",
+          "count": 0
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 0
-        },
-        {
-          "label": "Sourced",
           "count": 0
         },
         {
@@ -222,7 +218,11 @@
           "count": 0
         },
         {
-          "label": "Interview Stage",
+          "label": "Interviews",
+          "count": 0
+        },
+        {
+          "label": "Offer",
           "count": 0
         }
       ],
@@ -240,7 +240,7 @@
           "invert": true
         },
         {
-          "label": "Pool ready",
+          "label": "Screened",
           "value": 0,
           "target": 1,
           "invert": false
@@ -276,34 +276,30 @@
       "statuses": [],
       "aging": [
         {
-          "label": "Low <30",
-          "count": 0,
-          "color": "#3B6D11",
-          "bgLight": "#EAF3DE",
-          "bgDark": "#1a3309"
+          "label": "High 60+",
+          "color": "#A32D2D",
+          "bgLight": "#FCEBEB",
+          "bgDark": "#2e0f0f",
+          "count": 0
         },
         {
           "label": "Med 30-59",
-          "count": 0,
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
-          "bgDark": "#3d2504"
+          "bgDark": "#3d2504",
+          "count": 0
         },
         {
-          "label": "High 60+",
-          "count": 0,
-          "color": "#A32D2D",
-          "bgLight": "#FCEBEB",
-          "bgDark": "#2e0f0f"
+          "label": "Low <30",
+          "color": "#3B6D11",
+          "bgLight": "#EAF3DE",
+          "bgDark": "#1a3309",
+          "count": 0
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 0
-        },
-        {
-          "label": "Sourced",
           "count": 0
         },
         {
@@ -315,7 +311,11 @@
           "count": 0
         },
         {
-          "label": "Interview Stage",
+          "label": "Interviews",
+          "count": 0
+        },
+        {
+          "label": "Offer",
           "count": 0
         }
       ],
@@ -333,7 +333,7 @@
           "invert": true
         },
         {
-          "label": "Pool ready",
+          "label": "Screened",
           "value": 0,
           "target": 1,
           "invert": false
@@ -369,34 +369,30 @@
       "statuses": [],
       "aging": [
         {
-          "label": "Low <30",
-          "count": 0,
-          "color": "#3B6D11",
-          "bgLight": "#EAF3DE",
-          "bgDark": "#1a3309"
+          "label": "High 60+",
+          "color": "#A32D2D",
+          "bgLight": "#FCEBEB",
+          "bgDark": "#2e0f0f",
+          "count": 0
         },
         {
           "label": "Med 30-59",
-          "count": 0,
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
-          "bgDark": "#3d2504"
+          "bgDark": "#3d2504",
+          "count": 0
         },
         {
-          "label": "High 60+",
-          "count": 0,
-          "color": "#A32D2D",
-          "bgLight": "#FCEBEB",
-          "bgDark": "#2e0f0f"
+          "label": "Low <30",
+          "color": "#3B6D11",
+          "bgLight": "#EAF3DE",
+          "bgDark": "#1a3309",
+          "count": 0
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 0
-        },
-        {
-          "label": "Sourced",
           "count": 0
         },
         {
@@ -408,7 +404,11 @@
           "count": 0
         },
         {
-          "label": "Interview Stage",
+          "label": "Interviews",
+          "count": 0
+        },
+        {
+          "label": "Offer",
           "count": 0
         }
       ],
@@ -426,7 +426,7 @@
           "invert": true
         },
         {
-          "label": "Pool ready",
+          "label": "Screened",
           "value": 0,
           "target": 1,
           "invert": false
@@ -462,34 +462,30 @@
       "statuses": [],
       "aging": [
         {
-          "label": "Low <30",
-          "count": 0,
-          "color": "#3B6D11",
-          "bgLight": "#EAF3DE",
-          "bgDark": "#1a3309"
+          "label": "High 60+",
+          "color": "#A32D2D",
+          "bgLight": "#FCEBEB",
+          "bgDark": "#2e0f0f",
+          "count": 0
         },
         {
           "label": "Med 30-59",
-          "count": 0,
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
-          "bgDark": "#3d2504"
+          "bgDark": "#3d2504",
+          "count": 0
         },
         {
-          "label": "High 60+",
-          "count": 0,
-          "color": "#A32D2D",
-          "bgLight": "#FCEBEB",
-          "bgDark": "#2e0f0f"
+          "label": "Low <30",
+          "color": "#3B6D11",
+          "bgLight": "#EAF3DE",
+          "bgDark": "#1a3309",
+          "count": 0
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 0
-        },
-        {
-          "label": "Sourced",
           "count": 0
         },
         {
@@ -501,7 +497,11 @@
           "count": 0
         },
         {
-          "label": "Interview Stage",
+          "label": "Interviews",
+          "count": 0
+        },
+        {
+          "label": "Offer",
           "count": 0
         }
       ],
@@ -519,7 +519,7 @@
           "invert": true
         },
         {
-          "label": "Pool ready",
+          "label": "Screened",
           "value": 0,
           "target": 1,
           "invert": false
@@ -555,34 +555,30 @@
       "statuses": [],
       "aging": [
         {
-          "label": "Low <30",
-          "count": 0,
-          "color": "#3B6D11",
-          "bgLight": "#EAF3DE",
-          "bgDark": "#1a3309"
+          "label": "High 60+",
+          "color": "#A32D2D",
+          "bgLight": "#FCEBEB",
+          "bgDark": "#2e0f0f",
+          "count": 0
         },
         {
           "label": "Med 30-59",
-          "count": 0,
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
-          "bgDark": "#3d2504"
+          "bgDark": "#3d2504",
+          "count": 0
         },
         {
-          "label": "High 60+",
-          "count": 0,
-          "color": "#A32D2D",
-          "bgLight": "#FCEBEB",
-          "bgDark": "#2e0f0f"
+          "label": "Low <30",
+          "color": "#3B6D11",
+          "bgLight": "#EAF3DE",
+          "bgDark": "#1a3309",
+          "count": 0
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 0
-        },
-        {
-          "label": "Sourced",
           "count": 0
         },
         {
@@ -594,7 +590,11 @@
           "count": 0
         },
         {
-          "label": "Interview Stage",
+          "label": "Interviews",
+          "count": 0
+        },
+        {
+          "label": "Offer",
           "count": 0
         }
       ],
@@ -612,7 +612,7 @@
           "invert": true
         },
         {
-          "label": "Pool ready",
+          "label": "Screened",
           "value": 0,
           "target": 1,
           "invert": false
