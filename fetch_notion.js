@@ -22,19 +22,27 @@ function httpsRequest(options, body = null) {
 }
 
 async function queryNotion() {
-  const body = JSON.stringify({ page_size: 200 });
-  const res = await httpsRequest({
-    hostname: 'api.notion.com',
-    path: `/v1/databases/${NOTION_DB_ID}/query`,
-    method: 'POST',
-    headers: {
-      'Authorization': `Bearer ${NOTION_TOKEN}`,
-      'Notion-Version': '2022-06-28',
-      'Content-Type': 'application/json',
-      'Content-Length': Buffer.byteLength(body)
-    }
-  }, body);
-  return res.body.results || [];
+  let results = [];
+  let cursor = undefined;
+  do {
+    const bodyObj = { page_size: 100 };
+    if (cursor) bodyObj.start_cursor = cursor;
+    const body = JSON.stringify(bodyObj);
+    const res = await httpsRequest({
+      hostname: 'api.notion.com',
+      path: `/v1/databases/${NOTION_DB_ID}/query`,
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${NOTION_TOKEN}`,
+        'Notion-Version': '2022-06-28',
+        'Content-Type': 'application/json',
+        'Content-Length': Buffer.byteLength(body)
+      }
+    }, body);
+    if (res.body.results) results = results.concat(res.body.results);
+    cursor = res.body.has_more ? res.body.next_cursor : undefined;
+  } while (cursor);
+  return results;
 }
 
 function getProp(page, propName, type) {
@@ -49,10 +57,6 @@ function getProp(page, propName, type) {
     case 'text': return prop.rich_text?.[0]?.text?.content || null;
     default: return null;
   }
-}
-
-function countBy(records, propName, value) {
-  return records.filter(r => getProp(r, propName, 'select') === value).length;
 }
 
 async function getFileSHA() {
@@ -73,11 +77,12 @@ async function getFileSHA() {
 async function writeToGitHub(content, sha) {
   const [owner, repo] = GITHUB_REPO.split('/');
   const encoded = Buffer.from(content).toString('base64');
-  const body = JSON.stringify({
+  const bodyObj = {
     message: 'Auto-update data.json from Notion',
     content: encoded,
     sha: sha
-  });
+  };
+  const body = JSON.stringify(bodyObj);
   const res = await httpsRequest({
     hostname: 'api.github.com',
     path: `/repos/${owner}/${repo}/contents/data.json`,
@@ -96,23 +101,23 @@ async function writeToGitHub(content, sha) {
 async function main() {
   console.log('Fetching Notion data...');
   const records = await queryNotion();
-  console.log(`Found ${records.length} records`);
+  console.log(`Found ${records.length} total records`);
 
-  const openReqs = records.filter(r => getProp(r, 'Open Req?', 'checkbox') === true).length;
-
-  const campusLabels = ['Tampa','St. Petersburg','USF Health','Tallahassee'];
-  const campusColors = ['#185FA5','#3B6D11','#0F6E56','#993556'];
-  const campusDisplay = ['Tampa','St Pete','USF Health','Tallahassee'];
-
-  const statusList = [
-    'Recruiter Review (WIP)','Sourced','Screened','HM Review',
-    'Interview Stage','Offer Stage','Pre-boarding','Hired',
-    'Complete','Canceled','Targeted','Failed Search','Faculty','Student Hiring','Backlog'
+  // Active statuses
+  const activeStatuses = [
+    'Recruiter Review (WIP)', 'Sourced', 'Screened', 'HM Review',
+    'Interview Stage', 'Offer Stage', 'Pre-boarding', 'Backlog',
+    'Targeted', 'Posted', 'Active (WIP)'
   ];
 
-  const agingBands = ['Low <30','Med 30-59','High 60+'];
+  const activeRecords = records.filter(r => {
+    const status = getProp(r, 'Status', 'select');
+    return activeStatuses.includes(status);
+  });
 
-  const recruiterNames = ['Kate','Rebecca','John','Gabe','Tameka','JKB'];
+  console.log(`Active records: ${activeRecords.length}`);
+
+  const recruiterNames = ['Kate', 'Rebecca', 'John', 'Gabe', 'Tameka', 'JKB'];
   const recruiterMeta = {
     'Kate':    { id:'kate',    initials:'KT', color:'#3B6D11', bgLight:'#EAF3DE', bgDark:'#1a3309', campus:'St Pete' },
     'Rebecca': { id:'rebecca', initials:'RB', color:'#BA7517', bgLight:'#FAEEDA', bgDark:'#3d2504', campus:'Tampa' },
@@ -122,106 +127,116 @@ async function main() {
     'JKB':     { id:'jkb',     initials:'JK', color:'#5F5E5A', bgLight:'#F1EFE8', bgDark:'#222220', campus:'Tallahassee' }
   };
 
+  const statusColors = {
+    'Recruiter Review (WIP)': '#185FA5', 'Sourced': '#3B6D11', 'Screened': '#BA7517',
+    'HM Review': '#993556', 'Interview Stage': '#534AB7', 'Offer Stage': '#0F6E56',
+    'Pre-boarding': '#888780', 'Backlog': '#888780', 'Targeted': '#888780'
+  };
+
+  const agingBands = [
+    { label: 'High 60+', color: '#A32D2D', bgLight: '#FCEBEB', bgDark: '#2e0f0f' },
+    { label: 'Med 30-59', color: '#BA7517', bgLight: '#FAEEDA', bgDark: '#3d2504' },
+    { label: 'Low <30', color: '#3B6D11', bgLight: '#EAF3DE', bgDark: '#1a3309' }
+  ];
+
   const recruiters = recruiterNames.map(name => {
     const meta = recruiterMeta[name];
-    const myRecs = records.filter(r => getProp(r, 'Owner', 'select') === name);
-    const myOpen = myRecs.filter(r => getProp(r, 'Open Req?', 'checkbox') === true);
+    // All reqs owned by this recruiter regardless of status
+    const allMyRecs = records.filter(r => getProp(r, 'Owner', 'select') === name);
+    // Active reqs only
+    const myActive = allMyRecs.filter(r => activeStatuses.includes(getProp(r, 'Status', 'select')));
 
-    const statuses = statusList
-      .map(s => ({ label: s, count: myOpen.filter(r => getProp(r, 'Status', 'select') === s).length }))
-      .filter(s => s.count > 0);
+    console.log(`${name}: ${allMyRecs.length} total, ${myActive.length} active`);
 
-    const statusColors = {
-      'Recruiter Review (WIP)': '#185FA5', 'Sourced': '#3B6D11', 'Screened': '#BA7517',
-      'HM Review': '#993556', 'Interview Stage': '#534AB7', 'Offer Stage': '#0F6E56',
-      'Pre-boarding': '#888780', 'Hired': '#3B6D11', 'Backlog': '#888780'
-    };
-    const coloredStatuses = statuses.map(s => ({ ...s, color: statusColors[s.label] || '#888780' }));
+    const statuses = Object.entries(
+      myActive.reduce((acc, r) => {
+        const s = getProp(r, 'Status', 'select') || 'Unknown';
+        acc[s] = (acc[s] || 0) + 1;
+        return acc;
+      }, {})
+    ).map(([label, count]) => ({ label, count, color: statusColors[label] || '#888780' }));
 
-    const agingData = agingBands.map(band => ({
-      label: band,
-      count: myOpen.filter(r => getProp(r, 'Aging Band', 'select') === band).length,
-      color: band === 'High 60+' ? '#A32D2D' : band === 'Med 30-59' ? '#BA7517' : '#3B6D11',
-      bgLight: band === 'High 60+' ? '#FCEBEB' : band === 'Med 30-59' ? '#FAEEDA' : '#EAF3DE',
-      bgDark: band === 'High 60+' ? '#2e0f0f' : band === 'Med 30-59' ? '#3d2504' : '#1a3309'
+    const aging = agingBands.map(band => ({
+      ...band,
+      count: myActive.filter(r => getProp(r, 'Aging Band', 'select') === band.label).length
     }));
 
-    const funnelStages = ['Recruiter Review (WIP)','Sourced','Screened','HM Review','Interview Stage','Offer Stage'];
-    const funnel = [
-      { label: 'Posted', count: myOpen.length },
-      ...funnelStages.slice(1).map(s => ({ label: s.replace('Recruiter Review (WIP)', 'Active'), count: myOpen.filter(r => getProp(r, 'Status', 'select') === s).length }))
-    ];
-
-    const ttfValues = myRecs
-      .map(r => getProp(r, 'Time to Fill (Days)', 'number'))
-      .filter(v => v > 0);
+    const ttfValues = allMyRecs.map(r => getProp(r, 'Time to Fill (Days)', 'number')).filter(v => v > 0);
     const avgTTF = ttfValues.length > 0 ? Math.round(ttfValues.reduce((a,b) => a+b, 0) / ttfValues.length) : 0;
 
-    const filled = myRecs.filter(r => getProp(r, 'Status', 'select') === 'Hired').length;
-    const failed = myRecs.filter(r => ['Failed Search','Canceled'].includes(getProp(r, 'Status', 'select'))).length;
+    const filled = allMyRecs.filter(r => getProp(r, 'Status', 'select') === 'Hired').length;
+    const failed = allMyRecs.filter(r => ['Failed Search', 'Canceled'].includes(getProp(r, 'Status', 'select'))).length;
+
+    const funnel = [
+      { label: 'Posted', count: myActive.length },
+      { label: 'Screened', count: myActive.filter(r => getProp(r, 'Status', 'select') === 'Screened').length },
+      { label: 'HM Review', count: myActive.filter(r => getProp(r, 'Status', 'select') === 'HM Review').length },
+      { label: 'Interviews', count: myActive.filter(r => getProp(r, 'Status', 'select') === 'Interview Stage').length },
+      { label: 'Offer', count: myActive.filter(r => getProp(r, 'Status', 'select') === 'Offer Stage').length }
+    ];
 
     return {
       id: meta.id, name, initials: meta.initials,
       color: meta.color, bgLight: meta.bgLight, bgDark: meta.bgDark,
       campus: meta.campus,
-      reqs: myOpen.length, filled, failed, ttf: avgTTF,
-      statuses: coloredStatuses,
-      aging: agingData,
-      funnel: funnel.slice(0, 5),
+      reqs: allMyRecs.length,
+      filled, failed, ttf: avgTTF,
+      statuses, aging, funnel,
       goals: [
         { label: 'Reqs filled', value: filled, target: 10, invert: false },
         { label: 'Time to fill', value: avgTTF, target: 40, invert: true },
-        { label: 'Pool ready', value: myOpen.filter(r => getProp(r, 'Status', 'select') === 'Screened').length, target: Math.max(myOpen.length, 1), invert: false },
-        { label: 'Interviews', value: myOpen.filter(r => getProp(r, 'Status', 'select') === 'Interview Stage').length, target: Math.max(myOpen.length, 1), invert: false }
+        { label: 'Screened', value: myActive.filter(r => getProp(r, 'Status', 'select') === 'Screened').length, target: Math.max(allMyRecs.length, 1), invert: false },
+        { label: 'Interviews', value: myActive.filter(r => getProp(r, 'Status', 'select') === 'Interview Stage').length, target: Math.max(allMyRecs.length, 1), invert: false }
       ],
       trend: [avgTTF, avgTTF, avgTTF, avgTTF, avgTTF, avgTTF]
     };
   });
 
+  const campusMap = {
+    'Tampa': '#185FA5', 'St. Petersburg': '#3B6D11',
+    'USF Health': '#0F6E56', 'Tallahassee': '#993556'
+  };
+  const campusDisplay = {
+    'Tampa': 'Tampa', 'St. Petersburg': 'St Pete',
+    'USF Health': 'USF Health', 'Tallahassee': 'Tallahassee'
+  };
+
+  const ttfAll = records.map(r => getProp(r, 'Time to Fill (Days)', 'number')).filter(v => v > 0);
+  const avgTTFAll = ttfAll.length > 0 ? Math.round(ttfAll.reduce((a,b) => a+b, 0) / ttfAll.length) : 0;
+
   const data = {
     lastUpdated: new Date().toISOString(),
     summary: {
-      openReqs,
-      avgTimeToFill: (() => {
-        const vals = records.map(r => getProp(r, 'Time to Fill (Days)', 'number')).filter(v => v > 0);
-        return vals.length > 0 ? Math.round(vals.reduce((a,b) => a+b, 0) / vals.length) : 0;
-      })(),
+      openReqs: activeRecords.length,
+      avgTimeToFill: avgTTFAll,
       filledYTD: records.filter(r => getProp(r, 'Status', 'select') === 'Hired').length,
-      failedCancelled: records.filter(r => ['Failed Search','Canceled'].includes(getProp(r, 'Status', 'select'))).length,
-      inOfferStage: records.filter(r => getProp(r, 'Status', 'select') === 'Offer Stage').length
+      failedCancelled: records.filter(r => ['Failed Search', 'Canceled'].includes(getProp(r, 'Status', 'select'))).length,
+      inOfferStage: activeRecords.filter(r => getProp(r, 'Status', 'select') === 'Offer Stage').length
     },
-    campus: campusLabels.map((label, i) => ({
-      label: campusDisplay[i],
-      count: records.filter(r => getProp(r, 'Campus', 'select') === label && getProp(r, 'Open Req?', 'checkbox') === true).length,
-      color: campusColors[i]
+    campus: Object.entries(campusMap).map(([label, color]) => ({
+      label: campusDisplay[label],
+      count: activeRecords.filter(r => getProp(r, 'Campus', 'select') === label).length,
+      color
     })),
     mainFunnel: [
-      { label: 'Posted', count: openReqs },
-      { label: 'Screened', count: countBy(records, 'Status', 'Screened') },
-      { label: 'Pool Ready', count: countBy(records, 'Status', 'HM Review') },
-      { label: 'Interviews', count: countBy(records, 'Status', 'Interview Stage') },
-      { label: 'Offer', count: countBy(records, 'Status', 'Offer Stage') }
+      { label: 'Posted', count: activeRecords.length },
+      { label: 'Screened', count: activeRecords.filter(r => getProp(r, 'Status', 'select') === 'Screened').length },
+      { label: 'HM Review', count: activeRecords.filter(r => getProp(r, 'Status', 'select') === 'HM Review').length },
+      { label: 'Interviews', count: activeRecords.filter(r => getProp(r, 'Status', 'select') === 'Interview Stage').length },
+      { label: 'Offer', count: activeRecords.filter(r => getProp(r, 'Status', 'select') === 'Offer Stage').length }
     ],
     mainAging: agingBands.map(band => ({
-      label: band,
-      count: records.filter(r => getProp(r, 'Aging Band', 'select') === band && getProp(r, 'Open Req?', 'checkbox') === true).length,
-      color: band === 'High 60+' ? '#A32D2D' : band === 'Med 30-59' ? '#BA7517' : '#3B6D11',
-      bgLight: band === 'High 60+' ? '#FCEBEB' : band === 'Med 30-59' ? '#FAEEDA' : '#EAF3DE',
-      bgDark: band === 'High 60+' ? '#2e0f0f' : band === 'Med 30-59' ? '#3d2504' : '#1a3309'
+      ...band,
+      count: activeRecords.filter(r => getProp(r, 'Aging Band', 'select') === band.label).length
     })),
     recruiters
   };
 
   const json = JSON.stringify(data, null, 2);
-  console.log('Built data.json successfully');
+  console.log('Built data.json — open reqs:', data.summary.openReqs);
 
-  console.log('Getting current SHA...');
   const sha = await getFileSHA();
-  console.log('SHA:', sha);
-
-  console.log('Writing to GitHub...');
   const result = await writeToGitHub(json, sha);
-  console.log('GitHub response:', result.status);
 
   if (result.status === 200 || result.status === 201) {
     console.log('SUCCESS — data.json updated');
