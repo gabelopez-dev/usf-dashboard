@@ -119,10 +119,10 @@ async function main() {
 
   const recruiterNames = ['Katherine', 'Rebecca', 'John', 'Gabriel', 'Tameka', 'JKB'];
   const recruiterMeta = {
-    'Katherine': { id:'kate',    initials:'KT', color:'#3B6D11', bgLight:'#EAF3DE', bgDark:'#1a3309', campus:'St Pete' },
+    'Katherine': { id:'katherine',    initials:'KT', color:'#3B6D11', bgLight:'#EAF3DE', bgDark:'#1a3309', campus:'St Pete' },
     'Rebecca': { id:'rebecca', initials:'RB', color:'#BA7517', bgLight:'#FAEEDA', bgDark:'#3d2504', campus:'Tampa' },
     'John':    { id:'john',    initials:'JN', color:'#993556', bgLight:'#FBEAF0', bgDark:'#2a0e1a', campus:'Tampa' },
-    'Gabriel':  { id:'gabe',    initials:'GL', color:'#0F6E56', bgLight:'#E1F5EE', bgDark:'#042e24', campus:'St Pete / Tampa' },
+    'Gabriel':  { id:'gabriel',    initials:'GL', color:'#0F6E56', bgLight:'#E1F5EE', bgDark:'#042e24', campus:'St Pete / Tampa' },
     'Tameka':  { id:'tameka',  initials:'TM', color:'#534AB7', bgLight:'#EEEDFE', bgDark:'#1c1852', campus:'Tampa' },
     'JKB':     { id:'jkb',     initials:'JK', color:'#5F5E5A', bgLight:'#F1EFE8', bgDark:'#222220', campus:'Tallahassee' }
   };
