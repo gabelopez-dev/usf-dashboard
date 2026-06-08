@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2026-06-08T12:00:54.514Z",
+  "lastUpdated": "2026-06-08T14:33:24.088Z",
   "summary": {
-    "openReqs": 0,
+    "openReqs": 38,
     "avgTimeToFill": 0,
     "filledYTD": 0,
-    "failedCancelled": 0,
+    "failedCancelled": 12,
     "inOfferStage": 0
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 0,
+      "count": 12,
       "color": "#185FA5"
     },
     {
       "label": "St Pete",
-      "count": 0,
+      "count": 20,
       "color": "#3B6D11"
     },
     {
@@ -25,14 +25,14 @@
     },
     {
       "label": "Tallahassee",
-      "count": 0,
+      "count": 3,
       "color": "#993556"
     }
   ],
   "mainFunnel": [
     {
       "label": "Posted",
-      "count": 0
+      "count": 38
     },
     {
       "label": "Screened",
@@ -40,11 +40,11 @@
     },
     {
       "label": "HM Review",
-      "count": 0
+      "count": 1
     },
     {
       "label": "Interviews",
-      "count": 0
+      "count": 2
     },
     {
       "label": "Offer",
