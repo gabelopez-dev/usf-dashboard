@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2026-06-09T18:09:26.725Z",
+  "lastUpdated": "2026-06-09T20:29:06.210Z",
   "summary": {
-    "openReqs": 39,
+    "openReqs": 40,
     "avgTimeToFill": 0,
     "filledYTD": 0,
     "failedCancelled": 12,
-    "inOfferStage": 0
+    "inOfferStage": 1
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 13,
+      "count": 14,
       "color": "#185FA5"
     },
     {
       "label": "St Pete",
-      "count": 20,
+      "count": 21,
       "color": "#3B6D11"
     },
     {
@@ -32,15 +32,15 @@
   "mainFunnel": [
     {
       "label": "Posted",
-      "count": 39
+      "count": 40
     },
     {
       "label": "Screened",
-      "count": 1
+      "count": 0
     },
     {
       "label": "HM Review",
-      "count": 0
+      "count": 2
     },
     {
       "label": "Interviews",
@@ -48,7 +48,7 @@
     },
     {
       "label": "Offer",
-      "count": 0
+      "count": 1
     }
   ],
   "mainAging": [
