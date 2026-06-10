@@ -1,637 +1,977 @@
 {
-  "lastUpdated": "2026-06-10T12:23:47.894Z",
-  "summary": {
-    "openReqs": 40,
-    "avgTimeToFill": 0,
-    "filledYTD": 0,
-    "failedCancelled": 12,
-    "inOfferStage": 1
+  "meta": {
+    "synced": "2026-06-09",
+    "source": "Notion · Agile Recruiting Flow",
+    "migrationDue": "2026-06-11",
+    "note": "GitHub Action overwrites this file from Notion. index.html renders it as-is."
   },
-  "campus": [
-    {
-      "label": "Tampa",
-      "count": 14,
-      "color": "#185FA5"
+  "team": {
+    "kpis": {
+      "openReqs": 47,
+      "avgTimeToFill": 0,
+      "filledYTD": 0,
+      "failedCancelled": 12,
+      "inOffer": 0
     },
-    {
-      "label": "St Pete",
-      "count": 21,
-      "color": "#3B6D11"
-    },
-    {
-      "label": "USF Health",
-      "count": 0,
-      "color": "#0F6E56"
-    },
-    {
-      "label": "Tallahassee",
-      "count": 3,
-      "color": "#993556"
+    "load": [
+      {
+        "name": "Katherine",
+        "count": null
+      },
+      {
+        "name": "Rebecca",
+        "count": null
+      },
+      {
+        "name": "John",
+        "count": null
+      },
+      {
+        "name": "Gabriel",
+        "count": 47
+      },
+      {
+        "name": "Tameka",
+        "count": null
+      },
+      {
+        "name": "JKB",
+        "count": null
+      }
+    ],
+    "worked": [
+      {
+        "label": "Recruiter Review",
+        "count": 22
+      },
+      {
+        "label": "Backlog",
+        "count": 12
+      },
+      {
+        "label": "Faculty",
+        "count": 4
+      },
+      {
+        "label": "Student Hiring",
+        "count": 4
+      },
+      {
+        "label": "Interview Stage",
+        "count": 3
+      },
+      {
+        "label": "Targeted",
+        "count": 1
+      },
+      {
+        "label": "Screened",
+        "count": 1
+      }
+    ],
+    "campusDonut": [
+      {
+        "name": "St. Petersburg",
+        "count": 29
+      },
+      {
+        "name": "Tampa",
+        "count": 23
+      },
+      {
+        "name": "Tallahassee",
+        "count": 5
+      },
+      {
+        "name": "Sarasota-Manatee",
+        "count": 3
+      },
+      {
+        "name": "Unknown",
+        "count": 2
+      }
+    ],
+    "reqTypeDonut": [
+      {
+        "name": "Standard",
+        "count": 42
+      },
+      {
+        "name": "Student",
+        "count": 2
+      },
+      {
+        "name": "Faculty",
+        "count": 2
+      },
+      {
+        "name": "Evergreen",
+        "count": 1
+      }
+    ],
+    "aging": {
+      "bands": [
+        "0-30",
+        "31-60",
+        "61-90",
+        "90+",
+        "unscored"
+      ],
+      "rows": [
+        {
+          "type": "Standard",
+          "cells": [
+            20,
+            8,
+            0,
+            11,
+            3
+          ],
+          "total": 42
+        },
+        {
+          "type": "Faculty",
+          "cells": [
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "total": 2
+        },
+        {
+          "type": "Student",
+          "cells": [
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 2
+        },
+        {
+          "type": "Evergreen",
+          "cells": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "total": 1
+        }
+      ],
+      "totals": [
+        22,
+        8,
+        0,
+        12,
+        5,
+        47
+      ]
     }
-  ],
-  "mainFunnel": [
-    {
-      "label": "Posted",
-      "count": 40
-    },
-    {
-      "label": "Screened",
-      "count": 0
-    },
-    {
-      "label": "HM Review",
-      "count": 2
-    },
-    {
-      "label": "Interviews",
-      "count": 3
-    },
-    {
-      "label": "Offer",
-      "count": 1
-    }
-  ],
-  "mainAging": [
-    {
-      "label": "High 60+",
-      "color": "#A32D2D",
-      "bgLight": "#FCEBEB",
-      "bgDark": "#2e0f0f",
-      "count": 0
-    },
-    {
-      "label": "Med 30-59",
-      "color": "#BA7517",
-      "bgLight": "#FAEEDA",
-      "bgDark": "#3d2504",
-      "count": 0
-    },
-    {
-      "label": "Low <30",
-      "color": "#3B6D11",
-      "bgLight": "#EAF3DE",
-      "bgDark": "#1a3309",
-      "count": 0
-    }
-  ],
+  },
   "recruiters": [
     {
-      "id": "katherine",
+      "slug": "katherine",
       "name": "Katherine",
       "initials": "KT",
-      "color": "#3B6D11",
-      "bgLight": "#EAF3DE",
-      "bgDark": "#1a3309",
-      "campus": "St Pete",
-      "reqs": 0,
-      "filled": 0,
-      "failed": 0,
-      "ttf": 0,
-      "statuses": [],
-      "aging": [
-        {
-          "label": "High 60+",
-          "color": "#A32D2D",
-          "bgLight": "#FCEBEB",
-          "bgDark": "#2e0f0f",
-          "count": 0
-        },
-        {
-          "label": "Med 30-59",
-          "color": "#BA7517",
-          "bgLight": "#FAEEDA",
-          "bgDark": "#3d2504",
-          "count": 0
-        },
-        {
-          "label": "Low <30",
-          "color": "#3B6D11",
-          "bgLight": "#EAF3DE",
-          "bgDark": "#1a3309",
-          "count": 0
-        }
-      ],
-      "funnel": [
-        {
-          "label": "Posted",
-          "count": 0
-        },
-        {
-          "label": "Screened",
-          "count": 0
-        },
-        {
-          "label": "HM Review",
-          "count": 0
-        },
-        {
-          "label": "Interviews",
-          "count": 0
-        },
-        {
-          "label": "Offer",
-          "count": 0
-        }
-      ],
-      "goals": [
-        {
-          "label": "Reqs filled",
-          "value": 0,
-          "target": 10,
-          "invert": false
-        },
-        {
-          "label": "Time to fill",
-          "value": 0,
-          "target": 40,
-          "invert": true
-        },
-        {
-          "label": "Screened",
-          "value": 0,
-          "target": 1,
-          "invert": false
-        },
-        {
-          "label": "Interviews",
-          "value": 0,
-          "target": 1,
-          "invert": false
-        }
-      ],
-      "trend": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ]
+      "status": "pending",
+      "role": "Recruiter",
+      "locations": "St. Petersburg",
+      "navColor": "#1B7A5A",
+      "avatarBg": "#e6f5f0",
+      "avatarColor": "#006747",
+      "kpis": null,
+      "funnel": null,
+      "campus": null,
+      "posting": null,
+      "timeToFill": {
+        "labels": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct",
+          "Nov",
+          "Dec"
+        ],
+        "data": []
+      },
+      "aging": null,
+      "reqs": null
     },
     {
-      "id": "rebecca",
+      "slug": "rebecca",
       "name": "Rebecca",
       "initials": "RB",
-      "color": "#BA7517",
-      "bgLight": "#FAEEDA",
-      "bgDark": "#3d2504",
-      "campus": "Tampa",
-      "reqs": 0,
-      "filled": 0,
-      "failed": 0,
-      "ttf": 0,
-      "statuses": [],
-      "aging": [
-        {
-          "label": "High 60+",
-          "color": "#A32D2D",
-          "bgLight": "#FCEBEB",
-          "bgDark": "#2e0f0f",
-          "count": 0
-        },
-        {
-          "label": "Med 30-59",
-          "color": "#BA7517",
-          "bgLight": "#FAEEDA",
-          "bgDark": "#3d2504",
-          "count": 0
-        },
-        {
-          "label": "Low <30",
-          "color": "#3B6D11",
-          "bgLight": "#EAF3DE",
-          "bgDark": "#1a3309",
-          "count": 0
-        }
-      ],
-      "funnel": [
-        {
-          "label": "Posted",
-          "count": 0
-        },
-        {
-          "label": "Screened",
-          "count": 0
-        },
-        {
-          "label": "HM Review",
-          "count": 0
-        },
-        {
-          "label": "Interviews",
-          "count": 0
-        },
-        {
-          "label": "Offer",
-          "count": 0
-        }
-      ],
-      "goals": [
-        {
-          "label": "Reqs filled",
-          "value": 0,
-          "target": 10,
-          "invert": false
-        },
-        {
-          "label": "Time to fill",
-          "value": 0,
-          "target": 40,
-          "invert": true
-        },
-        {
-          "label": "Screened",
-          "value": 0,
-          "target": 1,
-          "invert": false
-        },
-        {
-          "label": "Interviews",
-          "value": 0,
-          "target": 1,
-          "invert": false
-        }
-      ],
-      "trend": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ]
+      "status": "pending",
+      "role": "Recruiter",
+      "locations": "Tampa",
+      "navColor": "#1B6A9C",
+      "avatarBg": "#e0f5f3",
+      "avatarColor": "#1B6A9C",
+      "kpis": null,
+      "funnel": null,
+      "campus": null,
+      "posting": null,
+      "timeToFill": {
+        "labels": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct",
+          "Nov",
+          "Dec"
+        ],
+        "data": []
+      },
+      "aging": null,
+      "reqs": null
     },
     {
-      "id": "john",
+      "slug": "john",
       "name": "John",
       "initials": "JN",
-      "color": "#993556",
-      "bgLight": "#FBEAF0",
-      "bgDark": "#2a0e1a",
-      "campus": "Tampa",
-      "reqs": 0,
-      "filled": 0,
-      "failed": 0,
-      "ttf": 0,
-      "statuses": [],
-      "aging": [
-        {
-          "label": "High 60+",
-          "color": "#A32D2D",
-          "bgLight": "#FCEBEB",
-          "bgDark": "#2e0f0f",
-          "count": 0
-        },
-        {
-          "label": "Med 30-59",
-          "color": "#BA7517",
-          "bgLight": "#FAEEDA",
-          "bgDark": "#3d2504",
-          "count": 0
-        },
-        {
-          "label": "Low <30",
-          "color": "#3B6D11",
-          "bgLight": "#EAF3DE",
-          "bgDark": "#1a3309",
-          "count": 0
-        }
-      ],
-      "funnel": [
-        {
-          "label": "Posted",
-          "count": 0
-        },
-        {
-          "label": "Screened",
-          "count": 0
-        },
-        {
-          "label": "HM Review",
-          "count": 0
-        },
-        {
-          "label": "Interviews",
-          "count": 0
-        },
-        {
-          "label": "Offer",
-          "count": 0
-        }
-      ],
-      "goals": [
-        {
-          "label": "Reqs filled",
-          "value": 0,
-          "target": 10,
-          "invert": false
-        },
-        {
-          "label": "Time to fill",
-          "value": 0,
-          "target": 40,
-          "invert": true
-        },
-        {
-          "label": "Screened",
-          "value": 0,
-          "target": 1,
-          "invert": false
-        },
-        {
-          "label": "Interviews",
-          "value": 0,
-          "target": 1,
-          "invert": false
-        }
-      ],
-      "trend": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ]
+      "status": "pending",
+      "role": "Recruiter",
+      "locations": "Tampa",
+      "navColor": "#5B8FA8",
+      "avatarBg": "#e3f2fd",
+      "avatarColor": "#1B6A9C",
+      "kpis": null,
+      "funnel": null,
+      "campus": null,
+      "posting": null,
+      "timeToFill": {
+        "labels": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct",
+          "Nov",
+          "Dec"
+        ],
+        "data": []
+      },
+      "aging": null,
+      "reqs": null
     },
     {
-      "id": "gabriel",
+      "slug": "gabriel",
       "name": "Gabriel",
       "initials": "GL",
-      "color": "#0F6E56",
-      "bgLight": "#E1F5EE",
-      "bgDark": "#042e24",
-      "campus": "St Pete / Tampa",
-      "reqs": 0,
-      "filled": 0,
-      "failed": 0,
-      "ttf": 0,
-      "statuses": [],
-      "aging": [
-        {
-          "label": "High 60+",
-          "color": "#A32D2D",
-          "bgLight": "#FCEBEB",
-          "bgDark": "#2e0f0f",
-          "count": 0
-        },
-        {
-          "label": "Med 30-59",
-          "color": "#BA7517",
-          "bgLight": "#FAEEDA",
-          "bgDark": "#3d2504",
-          "count": 0
-        },
-        {
-          "label": "Low <30",
-          "color": "#3B6D11",
-          "bgLight": "#EAF3DE",
-          "bgDark": "#1a3309",
-          "count": 0
-        }
-      ],
+      "status": "live",
+      "role": "Search Lead",
+      "locations": "St. Petersburg / Tampa / Tallahassee / Sarasota-Manatee",
+      "navColor": "#00A693",
+      "avatarBg": "#e6f2ed",
+      "avatarColor": "#004d35",
+      "kpis": {
+        "open": 47,
+        "total": 62,
+        "canceled": 12,
+        "wip": 14,
+        "stalled": 41,
+        "avgStage": 69,
+        "medianStage": 28
+      },
       "funnel": [
         {
-          "label": "Posted",
-          "count": 0
+          "label": "Recruiter Review",
+          "count": 22
+        },
+        {
+          "label": "Backlog",
+          "count": 12
+        },
+        {
+          "label": "Faculty",
+          "count": 4
+        },
+        {
+          "label": "Student Hiring",
+          "count": 4
+        },
+        {
+          "label": "Interview Stage",
+          "count": 3
+        },
+        {
+          "label": "Targeted",
+          "count": 1
         },
         {
           "label": "Screened",
-          "count": 0
-        },
-        {
-          "label": "HM Review",
-          "count": 0
-        },
-        {
-          "label": "Interviews",
-          "count": 0
-        },
-        {
-          "label": "Offer",
-          "count": 0
+          "count": 1
         }
       ],
-      "goals": [
+      "campus": [
         {
-          "label": "Reqs filled",
-          "value": 0,
-          "target": 10,
-          "invert": false
+          "name": "St. Petersburg",
+          "count": 22
         },
         {
-          "label": "Time to fill",
-          "value": 0,
-          "target": 40,
-          "invert": true
+          "name": "Tampa",
+          "count": 19
         },
         {
-          "label": "Screened",
-          "value": 0,
-          "target": 1,
-          "invert": false
+          "name": "Tallahassee",
+          "count": 4
         },
         {
-          "label": "Interviews",
-          "value": 0,
-          "target": 1,
-          "invert": false
+          "name": "Sarasota-Manatee",
+          "count": 1
+        },
+        {
+          "name": "Unknown",
+          "count": 1
         }
       ],
-      "trend": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
+      "posting": {
+        "posted": 57,
+        "unposted": 5,
+        "stalled": 41
+      },
+      "timeToFill": {
+        "labels": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct",
+          "Nov",
+          "Dec"
+        ],
+        "data": []
+      },
+      "aging": {
+        "bands": [
+          "0-30",
+          "31-60",
+          "61-90",
+          "90+",
+          "unscored"
+        ],
+        "rows": [
+          {
+            "type": "Standard",
+            "cells": [
+              20,
+              8,
+              0,
+              11,
+              3
+            ],
+            "total": 42
+          },
+          {
+            "type": "Faculty",
+            "cells": [
+              0,
+              0,
+              0,
+              1,
+              1
+            ],
+            "total": 2
+          },
+          {
+            "type": "Student",
+            "cells": [
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            "total": 2
+          },
+          {
+            "type": "Evergreen",
+            "cells": [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "total": 1
+          }
+        ],
+        "totals": [
+          22,
+          8,
+          0,
+          12,
+          5,
+          47
+        ]
+      },
+      "reqs": [
+        {
+          "title": "Administrative Specialist",
+          "id": "41646",
+          "status": "Backlog",
+          "campus": "Tallahassee",
+          "aging": "red",
+          "days": 263,
+          "flow": "Stalled",
+          "wip": false
+        },
+        {
+          "title": "Program Development Specialist",
+          "id": "41648",
+          "status": "Backlog",
+          "campus": "Tallahassee",
+          "aging": "red",
+          "days": 263,
+          "flow": "Stalled",
+          "wip": false
+        },
+        {
+          "title": "Postdoctoral Research Scholar",
+          "id": "41948",
+          "status": "Recruiter Review",
+          "campus": "St. Petersburg",
+          "aging": "red",
+          "days": 229,
+          "flow": "Stalled",
+          "wip": true
+        },
+        {
+          "title": "Assistant Professor of Instruction",
+          "id": "42096",
+          "status": "Faculty",
+          "campus": "Tampa",
+          "aging": "red",
+          "days": 207,
+          "flow": "Stalled",
+          "wip": false
+        },
+        {
+          "title": "Assistant Professor",
+          "id": "42198",
+          "status": "Faculty",
+          "campus": "Tampa",
+          "aging": "red",
+          "days": 196,
+          "flow": "Stalled",
+          "wip": false
+        },
+        {
+          "title": "Student-Centered Instructional Specialist",
+          "id": "42206",
+          "status": "Student Hiring",
+          "campus": "Tallahassee",
+          "aging": "red",
+          "days": 195,
+          "flow": "Stalled",
+          "wip": false
+        },
+        {
+          "title": "Tenure-Track Faculty in Geological Oceanography, with an Emphasis in Hydrography or Marine Geophysics",
+          "id": "42288",
+          "status": "Student Hiring",
+          "campus": "St. Petersburg",
+          "aging": "red",
+          "days": 180,
+          "flow": "Stalled",
+          "wip": false
+        },
+        {
+          "title": "Student Assistant- SGA Associate Justice",
+          "id": "42632",
+          "status": "Recruiter Review",
+          "campus": "St. Petersburg",
+          "aging": "red",
+          "days": 123,
+          "flow": "Stalled",
+          "wip": false
+        },
+        {
+          "title": "Assistant Professor of Instruction",
+          "id": "42707",
+          "status": "Faculty",
+          "campus": "Tampa",
+          "aging": "red",
+          "days": 113,
+          "flow": "Stalled",
+          "wip": false
+        },
+        {
+          "title": "Assistant Professor of Instruction",
+          "id": "42841",
+          "status": "Recruiter Review",
+          "campus": "Tampa",
+          "aging": "red",
+          "days": 104,
+          "flow": "Stalled",
+          "wip": false
+        },
+        {
+          "title": "Office Assistant - OPS",
+          "id": "42900",
+          "status": "Recruiter Review",
+          "campus": "St. Petersburg",
+          "aging": "red",
+          "days": 96,
+          "flow": "Stalled",
+          "wip": false
+        },
+        {
+          "title": "Office Administrator & Executive Assistant to the Dean",
+          "id": "42896",
+          "status": "Recruiter Review",
+          "campus": "Tampa",
+          "aging": "red",
+          "days": 96,
+          "flow": "Stalled",
+          "wip": false
+        },
+        {
+          "title": "School Improvement Coordinator",
+          "id": "43241",
+          "status": "Recruiter Review",
+          "campus": "Unknown",
+          "aging": "red",
+          "days": 49,
+          "flow": "Stalled",
+          "wip": false
+        },
+        {
+          "title": "Peer Advocate - Student Assistant",
+          "id": "43293",
+          "status": "Student Hiring",
+          "campus": "Tampa",
+          "aging": "red",
+          "days": 42,
+          "flow": "Stalled",
+          "wip": false
+        },
+        {
+          "title": "Faculty Services Administrator",
+          "id": "43339",
+          "status": "Recruiter Review",
+          "campus": "Tampa",
+          "aging": "red",
+          "days": 36,
+          "flow": "Stalled",
+          "wip": true
+        },
+        {
+          "title": "Learning Specialist",
+          "id": "43358",
+          "status": "Backlog",
+          "campus": "Tampa",
+          "aging": "red",
+          "days": 35,
+          "flow": "Stalled",
+          "wip": false
+        },
+        {
+          "title": "Academic Program Specialist",
+          "id": "43373",
+          "status": "Recruiter Review",
+          "campus": "Tampa",
+          "aging": "red",
+          "days": 34,
+          "flow": "Stalled",
+          "wip": false
+        },
+        {
+          "title": "Solutions Engineer in Ocean and Environmental Data Visualization Products",
+          "id": "43381",
+          "status": "Recruiter Review",
+          "campus": "St. Petersburg",
+          "aging": "red",
+          "days": 33,
+          "flow": "Stalled",
+          "wip": false
+        },
+        {
+          "title": "Student Assistant - Lab Supervisor",
+          "id": "43392",
+          "status": "Recruiter Review",
+          "campus": "Tampa",
+          "aging": "red",
+          "days": 32,
+          "flow": "Stalled",
+          "wip": true
+        },
+        {
+          "title": "OPS Staff Assistant",
+          "id": "43390",
+          "status": "Recruiter Review",
+          "campus": "Tampa",
+          "aging": "red",
+          "days": 32,
+          "flow": "Stalled",
+          "wip": false
+        },
+        {
+          "title": "Marine Technician",
+          "id": "43422",
+          "status": "Recruiter Review",
+          "campus": "St. Petersburg",
+          "aging": "red",
+          "days": 28,
+          "flow": "Stalled",
+          "wip": true
+        },
+        {
+          "title": "Other Hourly Professional/Support",
+          "id": "43423",
+          "status": "Backlog",
+          "campus": "St. Petersburg",
+          "aging": "red",
+          "days": 28,
+          "flow": "Stalled",
+          "wip": false
+        },
+        {
+          "title": "Student Programs Coordinator (Operations & Outreach)",
+          "id": "43425",
+          "status": "Backlog",
+          "campus": "St. Petersburg",
+          "aging": "red",
+          "days": 28,
+          "flow": "Stalled",
+          "wip": false
+        },
+        {
+          "title": "Federal Grant Specialist",
+          "id": "43414",
+          "status": "Recruiter Review",
+          "campus": "Tallahassee",
+          "aging": "red",
+          "days": 28,
+          "flow": "Stalled",
+          "wip": false
+        },
+        {
+          "title": "Administrative Specialist",
+          "id": "43427",
+          "status": "Recruiter Review",
+          "campus": "St. Petersburg",
+          "aging": "red",
+          "days": 27,
+          "flow": "Stalled",
+          "wip": false
+        },
+        {
+          "title": "FWS Student Assistant",
+          "id": "43439",
+          "status": "Student Hiring",
+          "campus": "Tampa",
+          "aging": "red",
+          "days": 27,
+          "flow": "Stalled",
+          "wip": false
+        },
+        {
+          "title": "Postdoctoral Scholar in Coastal Ocean Modeling and Applications",
+          "id": "43440",
+          "status": "Recruiter Review",
+          "campus": "St. Petersburg",
+          "aging": "red",
+          "days": 26,
+          "flow": "Stalled",
+          "wip": true
+        },
+        {
+          "title": "Assistant Director of Data Visualization (Faculty)",
+          "id": "43453",
+          "status": "Faculty",
+          "campus": "St. Petersburg",
+          "aging": "red",
+          "days": 26,
+          "flow": "Stalled",
+          "wip": false
+        },
+        {
+          "title": "Exam Proctor & Front Desk Associate - Student Success Center",
+          "id": "43450",
+          "status": "Backlog",
+          "campus": "St. Petersburg",
+          "aging": "red",
+          "days": 26,
+          "flow": "Stalled",
+          "wip": false
+        },
+        {
+          "title": "Graduate Asst",
+          "id": "43468",
+          "status": "Backlog",
+          "campus": "Tampa",
+          "aging": "red",
+          "days": 25,
+          "flow": "Stalled",
+          "wip": false
+        },
+        {
+          "title": "Marine Chief Engineer",
+          "id": "43460",
+          "status": "Recruiter Review",
+          "campus": "St. Petersburg",
+          "aging": "red",
+          "days": 25,
+          "flow": "Stalled",
+          "wip": false
+        },
+        {
+          "title": "Other Hourly Professional/Support",
+          "id": "43475",
+          "status": "Backlog",
+          "campus": "St. Petersburg",
+          "aging": "red",
+          "days": 22,
+          "flow": "Stalled",
+          "wip": false
+        },
+        {
+          "title": "OPS Research Scientist",
+          "id": "43478",
+          "status": "Backlog",
+          "campus": "St. Petersburg",
+          "aging": "red",
+          "days": 22,
+          "flow": "Stalled",
+          "wip": false
+        },
+        {
+          "title": "Media Resources Specialist",
+          "id": "43473",
+          "status": "Recruiter Review",
+          "campus": "Tampa",
+          "aging": "red",
+          "days": 22,
+          "flow": "Stalled",
+          "wip": false
+        },
+        {
+          "title": "Student Programs Manager",
+          "id": "43483",
+          "status": "Recruiter Review",
+          "campus": "St. Petersburg",
+          "aging": "red",
+          "days": 21,
+          "flow": "Stalled",
+          "wip": true
+        },
+        {
+          "title": "Manager Parking & Transportation Operations",
+          "id": "43487",
+          "status": "Recruiter Review",
+          "campus": "St. Petersburg",
+          "aging": "red",
+          "days": 21,
+          "flow": "Stalled",
+          "wip": true
+        },
+        {
+          "title": "Assistant Director of Data Visualization (Admin)",
+          "id": "43485",
+          "status": "Recruiter Review",
+          "campus": "St. Petersburg",
+          "aging": "red",
+          "days": 21,
+          "flow": "Stalled",
+          "wip": true
+        },
+        {
+          "title": "Student Programs Coord",
+          "id": "43513",
+          "status": "Backlog",
+          "campus": "St. Petersburg",
+          "aging": "red",
+          "days": 18,
+          "flow": "Stalled",
+          "wip": true
+        },
+        {
+          "title": "Unit Research Administrator II",
+          "id": "43545",
+          "status": "Interview Stage",
+          "campus": "Tampa",
+          "aging": "red",
+          "days": 13,
+          "flow": "Stalled",
+          "wip": true
+        },
+        {
+          "title": "Science Education Specialist",
+          "id": "43571",
+          "status": "Interview Stage",
+          "campus": "St. Petersburg",
+          "aging": "red",
+          "days": 11,
+          "flow": "Stalled",
+          "wip": true
+        },
+        {
+          "title": "Regional Coordinator",
+          "id": "43560",
+          "status": "Interview Stage",
+          "campus": "Tampa",
+          "aging": "red",
+          "days": 6,
+          "flow": "Stalled",
+          "wip": true
+        },
+        {
+          "title": "Academic Services Administrator",
+          "id": "43602",
+          "status": "Screened",
+          "campus": "Tampa",
+          "aging": "green",
+          "days": -1,
+          "flow": "Healthy",
+          "wip": false
+        },
+        {
+          "title": "Veteran Support Coordinator (Office of Veteran Success)",
+          "id": "43612",
+          "status": "Recruiter Review",
+          "campus": "St. Petersburg",
+          "aging": "none",
+          "days": null,
+          "flow": "Set Last Activity",
+          "wip": true
+        },
+        {
+          "title": "Budget & Fiscal Services Analyst II",
+          "id": "43604",
+          "status": "Recruiter Review",
+          "campus": "Tampa",
+          "aging": "none",
+          "days": null,
+          "flow": "Set Last Activity",
+          "wip": true
+        },
+        {
+          "title": "Clerical and Secretarial Support",
+          "id": "43200",
+          "status": "Backlog",
+          "campus": "St. Petersburg",
+          "aging": "none",
+          "days": null,
+          "flow": "Set Last Activity",
+          "wip": false
+        },
+        {
+          "title": "Business Fiscal Operations Coordinator",
+          "id": "43073",
+          "status": "Targeted",
+          "campus": "Tampa",
+          "aging": "none",
+          "days": null,
+          "flow": "Set Last Activity",
+          "wip": false
+        },
+        {
+          "title": "Asst Dir Student Ctrs & Events",
+          "id": "43083",
+          "status": "Backlog",
+          "campus": "Sarasota-Manatee",
+          "aging": "none",
+          "days": null,
+          "flow": "Set Last Activity",
+          "wip": false
+        }
       ]
     },
     {
-      "id": "tameka",
+      "slug": "tameka",
       "name": "Tameka",
       "initials": "TM",
-      "color": "#534AB7",
-      "bgLight": "#EEEDFE",
-      "bgDark": "#1c1852",
-      "campus": "Tampa",
-      "reqs": 0,
-      "filled": 0,
-      "failed": 0,
-      "ttf": 0,
-      "statuses": [],
-      "aging": [
-        {
-          "label": "High 60+",
-          "color": "#A32D2D",
-          "bgLight": "#FCEBEB",
-          "bgDark": "#2e0f0f",
-          "count": 0
-        },
-        {
-          "label": "Med 30-59",
-          "color": "#BA7517",
-          "bgLight": "#FAEEDA",
-          "bgDark": "#3d2504",
-          "count": 0
-        },
-        {
-          "label": "Low <30",
-          "color": "#3B6D11",
-          "bgLight": "#EAF3DE",
-          "bgDark": "#1a3309",
-          "count": 0
-        }
-      ],
-      "funnel": [
-        {
-          "label": "Posted",
-          "count": 0
-        },
-        {
-          "label": "Screened",
-          "count": 0
-        },
-        {
-          "label": "HM Review",
-          "count": 0
-        },
-        {
-          "label": "Interviews",
-          "count": 0
-        },
-        {
-          "label": "Offer",
-          "count": 0
-        }
-      ],
-      "goals": [
-        {
-          "label": "Reqs filled",
-          "value": 0,
-          "target": 10,
-          "invert": false
-        },
-        {
-          "label": "Time to fill",
-          "value": 0,
-          "target": 40,
-          "invert": true
-        },
-        {
-          "label": "Screened",
-          "value": 0,
-          "target": 1,
-          "invert": false
-        },
-        {
-          "label": "Interviews",
-          "value": 0,
-          "target": 1,
-          "invert": false
-        }
-      ],
-      "trend": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ]
+      "status": "pending",
+      "role": "Recruiter",
+      "locations": "Tampa",
+      "navColor": "#7A9EB5",
+      "avatarBg": "#f9f5e3",
+      "avatarColor": "#7a6820",
+      "kpis": null,
+      "funnel": null,
+      "campus": null,
+      "posting": null,
+      "timeToFill": {
+        "labels": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct",
+          "Nov",
+          "Dec"
+        ],
+        "data": []
+      },
+      "aging": null,
+      "reqs": null
     },
     {
-      "id": "jkb",
+      "slug": "jkb",
       "name": "JKB",
       "initials": "JK",
-      "color": "#5F5E5A",
-      "bgLight": "#F1EFE8",
-      "bgDark": "#222220",
-      "campus": "Tallahassee",
-      "reqs": 0,
-      "filled": 0,
-      "failed": 0,
-      "ttf": 0,
-      "statuses": [],
-      "aging": [
-        {
-          "label": "High 60+",
-          "color": "#A32D2D",
-          "bgLight": "#FCEBEB",
-          "bgDark": "#2e0f0f",
-          "count": 0
-        },
-        {
-          "label": "Med 30-59",
-          "color": "#BA7517",
-          "bgLight": "#FAEEDA",
-          "bgDark": "#3d2504",
-          "count": 0
-        },
-        {
-          "label": "Low <30",
-          "color": "#3B6D11",
-          "bgLight": "#EAF3DE",
-          "bgDark": "#1a3309",
-          "count": 0
-        }
-      ],
-      "funnel": [
-        {
-          "label": "Posted",
-          "count": 0
-        },
-        {
-          "label": "Screened",
-          "count": 0
-        },
-        {
-          "label": "HM Review",
-          "count": 0
-        },
-        {
-          "label": "Interviews",
-          "count": 0
-        },
-        {
-          "label": "Offer",
-          "count": 0
-        }
-      ],
-      "goals": [
-        {
-          "label": "Reqs filled",
-          "value": 0,
-          "target": 10,
-          "invert": false
-        },
-        {
-          "label": "Time to fill",
-          "value": 0,
-          "target": 40,
-          "invert": true
-        },
-        {
-          "label": "Screened",
-          "value": 0,
-          "target": 1,
-          "invert": false
-        },
-        {
-          "label": "Interviews",
-          "value": 0,
-          "target": 1,
-          "invert": false
-        }
-      ],
-      "trend": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ]
+      "status": "pending",
+      "role": "Recruiter",
+      "locations": "Tallahassee",
+      "navColor": "#3A5A6A",
+      "avatarBg": "#eef3f5",
+      "avatarColor": "#3A5A6A",
+      "kpis": null,
+      "funnel": null,
+      "campus": null,
+      "posting": null,
+      "timeToFill": {
+        "labels": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct",
+          "Nov",
+          "Dec"
+        ],
+        "data": []
+      },
+      "aging": null,
+      "reqs": null
     }
   ]
 }
