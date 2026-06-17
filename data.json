@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2026-06-17T18:42:41.461Z",
+  "lastUpdated": "2026-06-17T21:10:50.754Z",
   "summary": {
-    "openReqs": 1,
+    "openReqs": 130,
     "avgTimeToFill": 0,
     "filledYTD": 0,
-    "failedCancelled": 0,
-    "inOfferStage": 1
+    "failedCancelled": 1,
+    "inOfferStage": 2
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 0,
+      "count": 2,
       "color": "#185FA5"
     },
     {
       "label": "St Pete",
-      "count": 0,
+      "count": 1,
       "color": "#3B6D11"
     },
     {
       "label": "USF Health",
-      "count": 0,
+      "count": 126,
       "color": "#0F6E56"
     },
     {
@@ -32,23 +32,23 @@
   "mainFunnel": [
     {
       "label": "Posted",
-      "count": 1
+      "count": 130
     },
     {
       "label": "Screened",
-      "count": 0
+      "count": 1
     },
     {
       "label": "HM Review",
-      "count": 0
+      "count": 1
     },
     {
       "label": "Interviews",
-      "count": 0
+      "count": 1
     },
     {
       "label": "Offer",
-      "count": 1
+      "count": 2
     }
   ],
   "mainAging": [
