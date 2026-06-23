@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-23T18:21:20.381Z",
+  "lastUpdated": "2026-06-23T18:26:13.041Z",
   "summary": {
-    "openReqs": 273,
+    "openReqs": 276,
     "avgTimeToFill": 0,
     "filledYTD": 0,
     "failedCancelled": 1,
@@ -10,29 +10,34 @@
   "campus": [
     {
       "label": "Tampa",
-      "count": 72,
-      "color": "#185FA5"
+      "count": 75,
+      "color": "#1B6A9C"
     },
     {
       "label": "St Pete",
       "count": 3,
-      "color": "#3B6D11"
+      "color": "#006747"
     },
     {
       "label": "USF Health",
       "count": 197,
-      "color": "#0F6E56"
+      "color": "#00A693"
     },
     {
       "label": "Tallahassee",
       "count": 0,
-      "color": "#993556"
+      "color": "#7A9EB5"
+    },
+    {
+      "label": "Sarasota",
+      "count": 0,
+      "color": "#5B7A8A"
     }
   ],
   "mainFunnel": [
     {
       "label": "Posted",
-      "count": 273
+      "count": 276
     },
     {
       "label": "Screened",
@@ -53,21 +58,21 @@
   ],
   "mainAging": [
     {
-      "label": "High 60+",
+      "label": "🔴 6+",
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
       "count": 0
     },
     {
-      "label": "Med 30-59",
+      "label": "🟡 3-5",
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
       "count": 0
     },
     {
-      "label": "Low <30",
+      "label": "🟢 0–2",
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
@@ -79,8 +84,8 @@
       "id": "katherine",
       "name": "Katherine",
       "initials": "KT",
-      "color": "#3B6D11",
-      "bgLight": "#EAF3DE",
+      "color": "#1B7A5A",
+      "bgLight": "#e6f5f0",
       "bgDark": "#1a3309",
       "campus": "St Pete",
       "reqs": 0,
@@ -90,21 +95,21 @@
       "statuses": [],
       "aging": [
         {
-          "label": "High 60+",
+          "label": "🔴 6+",
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
           "count": 0
         },
         {
-          "label": "Med 30-59",
+          "label": "🟡 3-5",
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
           "count": 0
         },
         {
-          "label": "Low <30",
+          "label": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
@@ -172,32 +177,68 @@
       "id": "rebecca",
       "name": "Rebecca",
       "initials": "RB",
-      "color": "#BA7517",
-      "bgLight": "#FAEEDA",
+      "color": "#1B6A9C",
+      "bgLight": "#e0f5f3",
       "bgDark": "#3d2504",
       "campus": "Tampa",
-      "reqs": 0,
+      "reqs": 209,
       "filled": 0,
-      "failed": 0,
+      "failed": 1,
       "ttf": 0,
-      "statuses": [],
+      "statuses": [
+        {
+          "label": "Recruiter Review (WIP)",
+          "count": 202,
+          "color": "#185FA5"
+        },
+        {
+          "label": "Backlog",
+          "count": 1,
+          "color": "#888780"
+        },
+        {
+          "label": "Sourced",
+          "count": 1,
+          "color": "#3B6D11"
+        },
+        {
+          "label": "Offer Stage",
+          "count": 1,
+          "color": "#0F6E56"
+        },
+        {
+          "label": "Screened",
+          "count": 1,
+          "color": "#BA7517"
+        },
+        {
+          "label": "Interview Stage",
+          "count": 1,
+          "color": "#534AB7"
+        },
+        {
+          "label": "HM Review",
+          "count": 1,
+          "color": "#993556"
+        }
+      ],
       "aging": [
         {
-          "label": "High 60+",
+          "label": "🔴 6+",
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
           "count": 0
         },
         {
-          "label": "Med 30-59",
+          "label": "🟡 3-5",
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
           "count": 0
         },
         {
-          "label": "Low <30",
+          "label": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
@@ -207,23 +248,23 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 0
+          "count": 208
         },
         {
           "label": "Screened",
-          "count": 0
+          "count": 1
         },
         {
           "label": "HM Review",
-          "count": 0
+          "count": 1
         },
         {
           "label": "Interviews",
-          "count": 0
+          "count": 1
         },
         {
           "label": "Offer",
-          "count": 0
+          "count": 1
         }
       ],
       "goals": [
@@ -241,14 +282,14 @@
         },
         {
           "label": "Screened",
-          "value": 0,
-          "target": 1,
+          "value": 1,
+          "target": 209,
           "invert": false
         },
         {
           "label": "Interviews",
-          "value": 0,
-          "target": 1,
+          "value": 1,
+          "target": 209,
           "invert": false
         }
       ],
@@ -265,32 +306,68 @@
       "id": "john",
       "name": "John",
       "initials": "JN",
-      "color": "#993556",
-      "bgLight": "#FBEAF0",
+      "color": "#1B6A9C",
+      "bgLight": "#e3f2fd",
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
-      "reqs": 0,
+      "reqs": 69,
       "filled": 0,
       "failed": 0,
       "ttf": 0,
-      "statuses": [],
+      "statuses": [
+        {
+          "label": "Recruiter Review (WIP)",
+          "count": 20,
+          "color": "#185FA5"
+        },
+        {
+          "label": "Targeted",
+          "count": 7,
+          "color": "#888780"
+        },
+        {
+          "label": "HM Review",
+          "count": 9,
+          "color": "#993556"
+        },
+        {
+          "label": "Interview Stage",
+          "count": 1,
+          "color": "#534AB7"
+        },
+        {
+          "label": "Offer Stage",
+          "count": 11,
+          "color": "#0F6E56"
+        },
+        {
+          "label": "Pre-boarding",
+          "count": 16,
+          "color": "#888780"
+        },
+        {
+          "label": "Student Hiring",
+          "count": 3,
+          "color": "#0F6E56"
+        }
+      ],
       "aging": [
         {
-          "label": "High 60+",
+          "label": "🔴 6+",
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
           "count": 0
         },
         {
-          "label": "Med 30-59",
+          "label": "🟡 3-5",
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
           "count": 0
         },
         {
-          "label": "Low <30",
+          "label": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
@@ -300,7 +377,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 0
+          "count": 67
         },
         {
           "label": "Screened",
@@ -308,15 +385,15 @@
         },
         {
           "label": "HM Review",
-          "count": 0
+          "count": 9
         },
         {
           "label": "Interviews",
-          "count": 0
+          "count": 1
         },
         {
           "label": "Offer",
-          "count": 0
+          "count": 11
         }
       ],
       "goals": [
@@ -335,13 +412,13 @@
         {
           "label": "Screened",
           "value": 0,
-          "target": 1,
+          "target": 69,
           "invert": false
         },
         {
           "label": "Interviews",
-          "value": 0,
-          "target": 1,
+          "value": 1,
+          "target": 69,
           "invert": false
         }
       ],
@@ -358,8 +435,8 @@
       "id": "gabriel",
       "name": "Gabriel",
       "initials": "GL",
-      "color": "#0F6E56",
-      "bgLight": "#E1F5EE",
+      "color": "#00A693",
+      "bgLight": "#e6f2ed",
       "bgDark": "#042e24",
       "campus": "St Pete / Tampa",
       "reqs": 0,
@@ -369,21 +446,21 @@
       "statuses": [],
       "aging": [
         {
-          "label": "High 60+",
+          "label": "🔴 6+",
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
           "count": 0
         },
         {
-          "label": "Med 30-59",
+          "label": "🟡 3-5",
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
           "count": 0
         },
         {
-          "label": "Low <30",
+          "label": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
@@ -451,8 +528,8 @@
       "id": "tameka",
       "name": "Tameka",
       "initials": "TM",
-      "color": "#534AB7",
-      "bgLight": "#EEEDFE",
+      "color": "#00A693",
+      "bgLight": "#e0f5f8",
       "bgDark": "#1c1852",
       "campus": "Tampa",
       "reqs": 0,
@@ -462,21 +539,21 @@
       "statuses": [],
       "aging": [
         {
-          "label": "High 60+",
+          "label": "🔴 6+",
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
           "count": 0
         },
         {
-          "label": "Med 30-59",
+          "label": "🟡 3-5",
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
           "count": 0
         },
         {
-          "label": "Low <30",
+          "label": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
@@ -544,8 +621,8 @@
       "id": "jkb",
       "name": "JKB",
       "initials": "JK",
-      "color": "#5F5E5A",
-      "bgLight": "#F1EFE8",
+      "color": "#3A5A6A",
+      "bgLight": "#eef3f5",
       "bgDark": "#222220",
       "campus": "Tallahassee",
       "reqs": 0,
@@ -555,21 +632,21 @@
       "statuses": [],
       "aging": [
         {
-          "label": "High 60+",
+          "label": "🔴 6+",
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
           "count": 0
         },
         {
-          "label": "Med 30-59",
+          "label": "🟡 3-5",
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
           "count": 0
         },
         {
-          "label": "Low <30",
+          "label": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
