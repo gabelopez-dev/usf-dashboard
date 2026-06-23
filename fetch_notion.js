@@ -50,7 +50,7 @@ function getProp(page, propName, type) {
   if (!prop) return null;
   switch(type) {
     case 'select': return prop.select?.name || null;
-    case 'person': return prop.people?.[0]?.name || prop.people?.[0]?.person?.email || null;
+    case 'person': return prop.people?.[0] || null;
     case 'checkbox': return prop.checkbox || false;
     case 'number': return prop.number || 0;
     case 'date': return prop.date?.start || null;
@@ -60,11 +60,17 @@ function getProp(page, propName, type) {
   }
 }
 
-// Matches a recruiter's short name against a full Notion person name
-// e.g. "Katherine" matches "Katherine Friborg", "John" matches "johncalebrese"
-function ownerMatches(ownerValue, shortName) {
-  if (!ownerValue) return false;
-  return ownerValue.toLowerCase().includes(shortName.toLowerCase());
+// Matches a recruiter against a Notion person object by checking
+// name, email, and raw id against a list of known identifiers
+function ownerMatches(personObj, identifiers) {
+  if (!personObj) return false;
+  const name = (personObj.name || '').toLowerCase();
+  const email = (personObj.person?.email || '').toLowerCase();
+  const id = (personObj.id || '').toLowerCase();
+  return identifiers.some(idf => {
+    const needle = idf.toLowerCase();
+    return name.includes(needle) || email.includes(needle) || id === needle;
+  });
 }
 
 async function getFileSHA() {
@@ -125,16 +131,21 @@ async function main() {
 
   console.log(`Active records: ${activeRecords.length}`);
 
-  // Short names used for matching against full Notion person names
-  // e.g. "Katherine" matches "Katherine Friborg" in the Owner person field
-  const recruiterNames = ['Katherine', 'Rebecca', 'John', 'Gabriel', 'Tameka', 'JKB'];
+  // Identifiers used for matching against Notion person objects (name, email fragments)
+  const recruiterNames = ['Katherine', 'Rebecca', 'John', 'Gabriel', 'Tameka'];
+  const recruiterIdentifiers = {
+    'Katherine': ['katherine', 'friborg'],
+    'Rebecca':   ['rebecca'],
+    'John':      ['john', 'calebrese'],
+    'Gabriel':    ['gabriel', 'glopez', 'gabe'],
+    'Tameka':    ['tameka', 'porter']
+  };
   const recruiterMeta = {
     'Katherine': { id:'katherine', initials:'KT', color:'#1B7A5A', bgLight:'#e6f5f0', bgDark:'#1a3309', campus:'St Pete' },
     'Rebecca':   { id:'rebecca',   initials:'RB', color:'#1B6A9C', bgLight:'#e0f5f3', bgDark:'#3d2504', campus:'Tampa' },
     'John':      { id:'john',      initials:'JN', color:'#1B6A9C', bgLight:'#e3f2fd', bgDark:'#2a0e1a', campus:'Tampa' },
     'Gabriel':    { id:'gabriel',   initials:'GL', color:'#00A693', bgLight:'#e6f2ed', bgDark:'#042e24', campus:'St Pete / Tampa' },
-    'Tameka':    { id:'tameka',    initials:'TM', color:'#00A693', bgLight:'#e0f5f8', bgDark:'#1c1852', campus:'Tampa' },
-    'JKB':       { id:'jkb',       initials:'JK', color:'#3A5A6A', bgLight:'#eef3f5', bgDark:'#222220', campus:'Tallahassee' }
+    'Tameka':    { id:'tameka',    initials:'TM', color:'#00A693', bgLight:'#e0f5f8', bgDark:'#1c1852', campus:'Tampa' }
   };
 
   const statusColors = {
@@ -150,13 +161,18 @@ async function main() {
     { label: '🟢 0–2', color: '#3B6D11', bgLight: '#EAF3DE', bgDark: '#1a3309' }
   ];
 
+  // DEBUG: log raw Owner person objects once so we can see what Notion actually returns
+  const sampleOwners = records.slice(0, 5).map(r => getProp(r, 'Owner', 'person'));
+  console.log('Sample Owner objects:', JSON.stringify(sampleOwners));
+
   const recruiters = recruiterNames.map(name => {
     const meta = recruiterMeta[name];
+    const identifiers = recruiterIdentifiers[name];
 
-    // All reqs owned by this recruiter (partial/contains match against full Notion name)
+    // All reqs owned by this recruiter (matched by name, email, or id)
     const allMyRecs = records.filter(r => {
       const owner = getProp(r, 'Owner', 'person');
-      return ownerMatches(owner, name);
+      return ownerMatches(owner, identifiers);
     });
 
     // Active reqs only
@@ -171,6 +187,7 @@ async function main() {
         return acc;
       }, {})
     ).map(([label, count]) => ({ label, count, color: statusColors[label] || '#888780' }));
+
 
     const aging = agingBands.map(band => ({
       ...band,
