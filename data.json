@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2026-06-23T19:17:10.241Z",
+  "lastUpdated": "2026-06-23T19:51:11.119Z",
   "summary": {
-    "openReqs": 0,
+    "openReqs": 276,
     "avgTimeToFill": 0,
     "filledYTD": 0,
-    "failedCancelled": 0,
-    "inOfferStage": 0
+    "failedCancelled": 1,
+    "inOfferStage": 13
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 0,
+      "count": 75,
       "color": "#1B6A9C"
     },
     {
       "label": "St Pete",
-      "count": 0,
+      "count": 3,
       "color": "#006747"
     },
     {
       "label": "USF Health",
-      "count": 0,
+      "count": 197,
       "color": "#00A693"
     },
     {
@@ -37,23 +37,23 @@
   "mainFunnel": [
     {
       "label": "Posted",
-      "count": 0
+      "count": 276
     },
     {
       "label": "Screened",
-      "count": 0
+      "count": 1
     },
     {
       "label": "HM Review",
-      "count": 0
+      "count": 10
     },
     {
       "label": "Interviews",
-      "count": 0
+      "count": 2
     },
     {
       "label": "Offer",
-      "count": 0
+      "count": 13
     }
   ],
   "mainAging": [
@@ -88,7 +88,7 @@
       "bgLight": "#e6f5f0",
       "bgDark": "#1a3309",
       "campus": "St Pete",
-      "reqs": 0,
+      "reqs": 14,
       "filled": 0,
       "failed": 0,
       "ttf": 0,
@@ -154,13 +154,13 @@
         {
           "label": "Screened",
           "value": 0,
-          "target": 1,
+          "target": 14,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 0,
-          "target": 1,
+          "target": 14,
           "invert": false
         }
       ],
@@ -181,7 +181,265 @@
       "bgLight": "#e0f5f3",
       "bgDark": "#3d2504",
       "campus": "Tampa",
-      "reqs": 0,
+      "reqs": 209,
+      "filled": 0,
+      "failed": 1,
+      "ttf": 0,
+      "statuses": [
+        {
+          "label": "Recruiter Review (WIP)",
+          "count": 202,
+          "color": "#185FA5"
+        },
+        {
+          "label": "Backlog",
+          "count": 1,
+          "color": "#888780"
+        },
+        {
+          "label": "Sourced",
+          "count": 1,
+          "color": "#3B6D11"
+        },
+        {
+          "label": "Offer Stage",
+          "count": 1,
+          "color": "#0F6E56"
+        },
+        {
+          "label": "Screened",
+          "count": 1,
+          "color": "#BA7517"
+        },
+        {
+          "label": "Interview Stage",
+          "count": 1,
+          "color": "#534AB7"
+        },
+        {
+          "label": "HM Review",
+          "count": 1,
+          "color": "#993556"
+        }
+      ],
+      "aging": [
+        {
+          "label": "🔴 6+",
+          "color": "#A32D2D",
+          "bgLight": "#FCEBEB",
+          "bgDark": "#2e0f0f",
+          "count": 0
+        },
+        {
+          "label": "🟡 3-5",
+          "color": "#BA7517",
+          "bgLight": "#FAEEDA",
+          "bgDark": "#3d2504",
+          "count": 0
+        },
+        {
+          "label": "🟢 0–2",
+          "color": "#3B6D11",
+          "bgLight": "#EAF3DE",
+          "bgDark": "#1a3309",
+          "count": 0
+        }
+      ],
+      "funnel": [
+        {
+          "label": "Posted",
+          "count": 208
+        },
+        {
+          "label": "Screened",
+          "count": 1
+        },
+        {
+          "label": "HM Review",
+          "count": 1
+        },
+        {
+          "label": "Interviews",
+          "count": 1
+        },
+        {
+          "label": "Offer",
+          "count": 1
+        }
+      ],
+      "goals": [
+        {
+          "label": "Reqs filled",
+          "value": 0,
+          "target": 10,
+          "invert": false
+        },
+        {
+          "label": "Time to fill",
+          "value": 0,
+          "target": 40,
+          "invert": true
+        },
+        {
+          "label": "Screened",
+          "value": 1,
+          "target": 209,
+          "invert": false
+        },
+        {
+          "label": "Interviews",
+          "value": 1,
+          "target": 209,
+          "invert": false
+        }
+      ],
+      "trend": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "john",
+      "name": "John",
+      "initials": "JN",
+      "color": "#1B6A9C",
+      "bgLight": "#e3f2fd",
+      "bgDark": "#2a0e1a",
+      "campus": "Tampa",
+      "reqs": 69,
+      "filled": 0,
+      "failed": 0,
+      "ttf": 0,
+      "statuses": [
+        {
+          "label": "Recruiter Review (WIP)",
+          "count": 20,
+          "color": "#185FA5"
+        },
+        {
+          "label": "Targeted",
+          "count": 7,
+          "color": "#888780"
+        },
+        {
+          "label": "HM Review",
+          "count": 9,
+          "color": "#993556"
+        },
+        {
+          "label": "Interview Stage",
+          "count": 1,
+          "color": "#534AB7"
+        },
+        {
+          "label": "Offer Stage",
+          "count": 11,
+          "color": "#0F6E56"
+        },
+        {
+          "label": "Pre-boarding",
+          "count": 16,
+          "color": "#888780"
+        },
+        {
+          "label": "Student Hiring",
+          "count": 3,
+          "color": "#0F6E56"
+        }
+      ],
+      "aging": [
+        {
+          "label": "🔴 6+",
+          "color": "#A32D2D",
+          "bgLight": "#FCEBEB",
+          "bgDark": "#2e0f0f",
+          "count": 0
+        },
+        {
+          "label": "🟡 3-5",
+          "color": "#BA7517",
+          "bgLight": "#FAEEDA",
+          "bgDark": "#3d2504",
+          "count": 0
+        },
+        {
+          "label": "🟢 0–2",
+          "color": "#3B6D11",
+          "bgLight": "#EAF3DE",
+          "bgDark": "#1a3309",
+          "count": 0
+        }
+      ],
+      "funnel": [
+        {
+          "label": "Posted",
+          "count": 67
+        },
+        {
+          "label": "Screened",
+          "count": 0
+        },
+        {
+          "label": "HM Review",
+          "count": 9
+        },
+        {
+          "label": "Interviews",
+          "count": 1
+        },
+        {
+          "label": "Offer",
+          "count": 11
+        }
+      ],
+      "goals": [
+        {
+          "label": "Reqs filled",
+          "value": 0,
+          "target": 10,
+          "invert": false
+        },
+        {
+          "label": "Time to fill",
+          "value": 0,
+          "target": 40,
+          "invert": true
+        },
+        {
+          "label": "Screened",
+          "value": 0,
+          "target": 69,
+          "invert": false
+        },
+        {
+          "label": "Interviews",
+          "value": 1,
+          "target": 69,
+          "invert": false
+        }
+      ],
+      "trend": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "gabriel",
+      "name": "Gabriel",
+      "initials": "GL",
+      "color": "#00A693",
+      "bgLight": "#e6f2ed",
+      "bgDark": "#042e24",
+      "campus": "St Pete / Tampa",
+      "reqs": 74,
       "filled": 0,
       "failed": 0,
       "ttf": 0,
@@ -247,13 +505,13 @@
         {
           "label": "Screened",
           "value": 0,
-          "target": 1,
+          "target": 74,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 0,
-          "target": 1,
+          "target": 74,
           "invert": false
         }
       ],
@@ -267,12 +525,12 @@
       ]
     },
     {
-      "id": "john",
-      "name": "John",
-      "initials": "JN",
-      "color": "#1B6A9C",
-      "bgLight": "#e3f2fd",
-      "bgDark": "#2a0e1a",
+      "id": "tameka",
+      "name": "Tameka",
+      "initials": "TM",
+      "color": "#00A693",
+      "bgLight": "#e0f5f8",
+      "bgDark": "#1c1852",
       "campus": "Tampa",
       "reqs": 0,
       "filled": 0,
@@ -347,99 +605,6 @@
           "label": "Interviews",
           "value": 0,
           "target": 1,
-          "invert": false
-        }
-      ],
-      "trend": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "id": "gabriel",
-      "name": "Gabriel",
-      "initials": "GL",
-      "color": "#00A693",
-      "bgLight": "#e6f2ed",
-      "bgDark": "#042e24",
-      "campus": "St Pete / Tampa",
-      "reqs": 96,
-      "filled": 0,
-      "failed": 0,
-      "ttf": 0,
-      "statuses": [],
-      "aging": [
-        {
-          "label": "🔴 6+",
-          "color": "#A32D2D",
-          "bgLight": "#FCEBEB",
-          "bgDark": "#2e0f0f",
-          "count": 0
-        },
-        {
-          "label": "🟡 3-5",
-          "color": "#BA7517",
-          "bgLight": "#FAEEDA",
-          "bgDark": "#3d2504",
-          "count": 0
-        },
-        {
-          "label": "🟢 0–2",
-          "color": "#3B6D11",
-          "bgLight": "#EAF3DE",
-          "bgDark": "#1a3309",
-          "count": 0
-        }
-      ],
-      "funnel": [
-        {
-          "label": "Posted",
-          "count": 0
-        },
-        {
-          "label": "Screened",
-          "count": 0
-        },
-        {
-          "label": "HM Review",
-          "count": 0
-        },
-        {
-          "label": "Interviews",
-          "count": 0
-        },
-        {
-          "label": "Offer",
-          "count": 0
-        }
-      ],
-      "goals": [
-        {
-          "label": "Reqs filled",
-          "value": 0,
-          "target": 10,
-          "invert": false
-        },
-        {
-          "label": "Time to fill",
-          "value": 0,
-          "target": 40,
-          "invert": true
-        },
-        {
-          "label": "Screened",
-          "value": 0,
-          "target": 96,
-          "invert": false
-        },
-        {
-          "label": "Interviews",
-          "value": 0,
-          "target": 96,
           "invert": false
         }
       ],
