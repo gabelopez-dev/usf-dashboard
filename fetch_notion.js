@@ -4,16 +4,13 @@ const NOTION_TOKEN = process.env.NOTION_TOKEN;
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const GITHUB_REPO = process.env.GITHUB_REPO;
 
-// Each recruiter has their own private Notion database (for security/privacy).
-// We query each one separately and tag every record with its owning recruiter,
-// then merge everything together for the dashboard.
-const RECRUITER_DATABASES = {
-  'Katherine': '486fbaa9-4c78-4fa0-9e1c-d43c5dddaba2',
-  'Rebecca':   '43a4a79f-1962-40b8-aac2-5ca27dcfa7d1',
-  'John':      '2a2ea2b1-077d-429e-975c-4682a3a724e8',
-  'Gabriel':    '0c747bfd-a9a9-4d2a-8e21-f858bc48d903'
-  // 'Tameka': 'ADD_HER_DB_ID_HERE_ONCE_MIGRATED'
-};
+// There are TWO databases in the workspace both named "Master Database" -
+// the team got split across them at some point. We query both and merge
+// all records together, then split by the Owner field (not by database).
+const MASTER_DATABASES = [
+  '0c747bfd-a9a9-4d2a-8e21-f858bc48d903', // Master Database #1 - Gabriel + Katherine source from this one
+  '5b6e328b-232a-41cf-9ba2-2563a949d206'  // Master Database #2 - Rebecca + John source from this one
+];
 
 function httpsRequest(options, body = null) {
   return new Promise((resolve, reject) => {
@@ -61,17 +58,22 @@ async function queryNotionDatabase(dbId) {
   return results;
 }
 
-// Queries every recruiter's database and tags each record with which
-// recruiter it came from (so we don't need to trust the Owner field at all)
+// Queries every Master Database and merges all records together.
+// De-duplicates by page id in case the same page somehow appears in both
+// (shouldn't happen normally, but cheap to guard against).
 async function queryAllDatabases() {
   let allRecords = [];
-  for (const [recruiterName, dbId] of Object.entries(RECRUITER_DATABASES)) {
-    console.log(`Querying ${recruiterName}'s database (${dbId})...`);
+  const seenIds = new Set();
+  for (const dbId of MASTER_DATABASES) {
+    console.log(`Querying Master Database (${dbId})...`);
     const records = await queryNotionDatabase(dbId);
     console.log(`  -> ${records.length} records found`);
-    // Tag every record with its source recruiter
-    records.forEach(r => { r._sourceRecruiter = recruiterName; });
-    allRecords = allRecords.concat(records);
+    for (const r of records) {
+      if (!seenIds.has(r.id)) {
+        seenIds.add(r.id);
+        allRecords.push(r);
+      }
+    }
   }
   return allRecords;
 }
@@ -148,6 +150,11 @@ async function main() {
   const records = await queryAllDatabases();
   console.log(`Found ${records.length} total records across all databases`);
 
+  // DEBUG: sample a few Owner values across the merged set so we can verify
+  // matching is working correctly across both databases
+  const sampleOwners = records.slice(0, 8).map(r => getProp(r, 'Owner', 'person'));
+  console.log('Sample Owner objects:', JSON.stringify(sampleOwners));
+
   // Active statuses
   const activeStatuses = [
     'Recruiter Review (WIP)', 'Sourced', 'Screened', 'HM Review',
@@ -162,8 +169,15 @@ async function main() {
 
   console.log(`Active records: ${activeRecords.length}`);
 
-  const recruiterNames = Object.keys(RECRUITER_DATABASES);
-  // Add Tameka here once her database is migrated and added to RECRUITER_DATABASES above
+  // Identifiers used for matching against Notion person objects (name, email fragments)
+  const recruiterNames = ['Katherine', 'Rebecca', 'John', 'Gabriel', 'Tameka'];
+  const recruiterIdentifiers = {
+    'Katherine': ['katherine', 'friborg'],
+    'Rebecca':   ['rebecca'],
+    'John':      ['john', 'calebrese'],
+    'Gabriel':    ['gabriel', 'glopez', 'gabe'],
+    'Tameka':    ['tameka', 'porter']
+  };
   const recruiterMeta = {
     'Katherine': { id:'katherine', initials:'KT', color:'#1B7A5A', bgLight:'#e6f5f0', bgDark:'#1a3309', campus:'St Pete' },
     'Rebecca':   { id:'rebecca',   initials:'RB', color:'#1B6A9C', bgLight:'#e0f5f3', bgDark:'#3d2504', campus:'Tampa' },
@@ -187,11 +201,14 @@ async function main() {
 
   const recruiters = recruiterNames.map(name => {
     const meta = recruiterMeta[name];
+    const identifiers = recruiterIdentifiers[name];
 
-    // Records are matched by which database they came from (_sourceRecruiter tag),
-    // set during queryAllDatabases() - this is fully reliable since it's based on
-    // which private database the record physically lives in, not a guessed name match.
-    const allMyRecs = records.filter(r => r._sourceRecruiter === name);
+    // Matched against the Owner person field (name, email, or id) since both
+    // Master Databases contain a mix of every recruiter's records together.
+    const allMyRecs = records.filter(r => {
+      const owner = getProp(r, 'Owner', 'person');
+      return ownerMatches(owner, identifiers);
+    });
 
     // Active reqs only
     const myActive = allMyRecs.filter(r => activeStatuses.includes(getProp(r, 'Status', 'select')));
