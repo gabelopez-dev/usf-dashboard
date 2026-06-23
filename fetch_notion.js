@@ -50,13 +50,21 @@ function getProp(page, propName, type) {
   if (!prop) return null;
   switch(type) {
     case 'select': return prop.select?.name || null;
+    case 'person': return prop.people?.[0]?.name || prop.people?.[0]?.person?.email || null;
     case 'checkbox': return prop.checkbox || false;
     case 'number': return prop.number || 0;
     case 'date': return prop.date?.start || null;
-    case 'title': return prop.title?.[0]?.text?.content || null;
-    case 'text': return prop.rich_text?.[0]?.text?.content || null;
+    case 'title': return prop.title?.[0]?.text?.content || prop.title?.[0]?.plain_text || null;
+    case 'text': return prop.rich_text?.[0]?.text?.content || prop.rich_text?.[0]?.plain_text || null;
     default: return null;
   }
+}
+
+// Matches a recruiter's short name against a full Notion person name
+// e.g. "Katherine" matches "Katherine Friborg", "John" matches "johncalebrese"
+function ownerMatches(ownerValue, shortName) {
+  if (!ownerValue) return false;
+  return ownerValue.toLowerCase().includes(shortName.toLowerCase());
 }
 
 async function getFileSHA() {
@@ -107,7 +115,7 @@ async function main() {
   const activeStatuses = [
     'Recruiter Review (WIP)', 'Sourced', 'Screened', 'HM Review',
     'Interview Stage', 'Offer Stage', 'Pre-boarding', 'Backlog',
-    'Targeted', 'Posted', 'Active (WIP)'
+    'Targeted', 'Posted', 'Active (WIP)', 'Student Hiring', 'Faculty'
   ];
 
   const activeRecords = records.filter(r => {
@@ -117,32 +125,40 @@ async function main() {
 
   console.log(`Active records: ${activeRecords.length}`);
 
+  // Short names used for matching against full Notion person names
+  // e.g. "Katherine" matches "Katherine Friborg" in the Owner person field
   const recruiterNames = ['Katherine', 'Rebecca', 'John', 'Gabriel', 'Tameka', 'JKB'];
   const recruiterMeta = {
-    'Katherine': { id:'katherine',    initials:'KT', color:'#3B6D11', bgLight:'#EAF3DE', bgDark:'#1a3309', campus:'St Pete' },
-    'Rebecca': { id:'rebecca', initials:'RB', color:'#BA7517', bgLight:'#FAEEDA', bgDark:'#3d2504', campus:'Tampa' },
-    'John':    { id:'john',    initials:'JN', color:'#993556', bgLight:'#FBEAF0', bgDark:'#2a0e1a', campus:'Tampa' },
-    'Gabriel':  { id:'gabriel',    initials:'GL', color:'#0F6E56', bgLight:'#E1F5EE', bgDark:'#042e24', campus:'St Pete / Tampa' },
-    'Tameka':  { id:'tameka',  initials:'TM', color:'#534AB7', bgLight:'#EEEDFE', bgDark:'#1c1852', campus:'Tampa' },
-    'JKB':     { id:'jkb',     initials:'JK', color:'#5F5E5A', bgLight:'#F1EFE8', bgDark:'#222220', campus:'Tallahassee' }
+    'Katherine': { id:'katherine', initials:'KT', color:'#1B7A5A', bgLight:'#e6f5f0', bgDark:'#1a3309', campus:'St Pete' },
+    'Rebecca':   { id:'rebecca',   initials:'RB', color:'#1B6A9C', bgLight:'#e0f5f3', bgDark:'#3d2504', campus:'Tampa' },
+    'John':      { id:'john',      initials:'JN', color:'#1B6A9C', bgLight:'#e3f2fd', bgDark:'#2a0e1a', campus:'Tampa' },
+    'Gabriel':    { id:'gabriel',   initials:'GL', color:'#00A693', bgLight:'#e6f2ed', bgDark:'#042e24', campus:'St Pete / Tampa' },
+    'Tameka':    { id:'tameka',    initials:'TM', color:'#00A693', bgLight:'#e0f5f8', bgDark:'#1c1852', campus:'Tampa' },
+    'JKB':       { id:'jkb',       initials:'JK', color:'#3A5A6A', bgLight:'#eef3f5', bgDark:'#222220', campus:'Tallahassee' }
   };
 
   const statusColors = {
     'Recruiter Review (WIP)': '#185FA5', 'Sourced': '#3B6D11', 'Screened': '#BA7517',
     'HM Review': '#993556', 'Interview Stage': '#534AB7', 'Offer Stage': '#0F6E56',
-    'Pre-boarding': '#888780', 'Backlog': '#888780', 'Targeted': '#888780'
+    'Pre-boarding': '#888780', 'Backlog': '#888780', 'Targeted': '#888780',
+    'Student Hiring': '#0F6E56', 'Faculty': '#534AB7'
   };
 
   const agingBands = [
-    { label: 'High 60+', color: '#A32D2D', bgLight: '#FCEBEB', bgDark: '#2e0f0f' },
-    { label: 'Med 30-59', color: '#BA7517', bgLight: '#FAEEDA', bgDark: '#3d2504' },
-    { label: 'Low <30', color: '#3B6D11', bgLight: '#EAF3DE', bgDark: '#1a3309' }
+    { label: '🔴 6+',  color: '#A32D2D', bgLight: '#FCEBEB', bgDark: '#2e0f0f' },
+    { label: '🟡 3-5', color: '#BA7517', bgLight: '#FAEEDA', bgDark: '#3d2504' },
+    { label: '🟢 0–2', color: '#3B6D11', bgLight: '#EAF3DE', bgDark: '#1a3309' }
   ];
 
   const recruiters = recruiterNames.map(name => {
     const meta = recruiterMeta[name];
-    // All reqs owned by this recruiter regardless of status
-    const allMyRecs = records.filter(r => getProp(r, 'Owner', 'select') === name);
+
+    // All reqs owned by this recruiter (partial/contains match against full Notion name)
+    const allMyRecs = records.filter(r => {
+      const owner = getProp(r, 'Owner', 'person');
+      return ownerMatches(owner, name);
+    });
+
     // Active reqs only
     const myActive = allMyRecs.filter(r => activeStatuses.includes(getProp(r, 'Status', 'select')));
 
@@ -193,12 +209,12 @@ async function main() {
   });
 
   const campusMap = {
-    'Tampa': '#185FA5', 'St. Petersburg': '#3B6D11',
-    'USF Health': '#0F6E56', 'Tallahassee': '#993556'
+    'Tampa': '#1B6A9C', 'St. Petersburg': '#006747',
+    'USF Health': '#00A693', 'Tallahassee': '#7A9EB5', 'Sarasota-Manatee': '#5B7A8A'
   };
   const campusDisplay = {
     'Tampa': 'Tampa', 'St. Petersburg': 'St Pete',
-    'USF Health': 'USF Health', 'Tallahassee': 'Tallahassee'
+    'USF Health': 'USF Health', 'Tallahassee': 'Tallahassee', 'Sarasota-Manatee': 'Sarasota'
   };
 
   const ttfAll = records.map(r => getProp(r, 'Time to Fill (Days)', 'number')).filter(v => v > 0);
