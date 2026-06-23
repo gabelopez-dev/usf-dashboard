@@ -1,9 +1,19 @@
 const https = require('https');
 
 const NOTION_TOKEN = process.env.NOTION_TOKEN;
-const NOTION_DB_ID = process.env.NOTION_DB_ID;
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const GITHUB_REPO = process.env.GITHUB_REPO;
+
+// Each recruiter has their own private Notion database (for security/privacy).
+// We query each one separately and tag every record with its owning recruiter,
+// then merge everything together for the dashboard.
+const RECRUITER_DATABASES = {
+  'Katherine': '486fbaa9-4c78-4fa0-9e1c-d43c5dddaba2',
+  'Rebecca':   '43a4a79f-1962-40b8-aac2-5ca27dcfa7d1',
+  'John':      '2a2ea2b1-077d-429e-975c-4682a3a724e8',
+  'Gabriel':    '0c747bfd-a9a9-4d2a-8e21-f858bc48d903'
+  // 'Tameka': 'ADD_HER_DB_ID_HERE_ONCE_MIGRATED'
+};
 
 function httpsRequest(options, body = null) {
   return new Promise((resolve, reject) => {
@@ -21,7 +31,8 @@ function httpsRequest(options, body = null) {
   });
 }
 
-async function queryNotion() {
+// Queries a single database by ID, paginating through all results
+async function queryNotionDatabase(dbId) {
   let results = [];
   let cursor = undefined;
   do {
@@ -30,7 +41,7 @@ async function queryNotion() {
     const body = JSON.stringify(bodyObj);
     const res = await httpsRequest({
       hostname: 'api.notion.com',
-      path: `/v1/databases/${NOTION_DB_ID}/query`,
+      path: `/v1/databases/${dbId}/query`,
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${NOTION_TOKEN}`,
@@ -39,10 +50,30 @@ async function queryNotion() {
         'Content-Length': Buffer.byteLength(body)
       }
     }, body);
-    if (res.body.results) results = results.concat(res.body.results);
+    if (res.body.results) {
+      results = results.concat(res.body.results);
+    } else {
+      // Surface permission/connection errors clearly instead of silently returning 0
+      console.error(`  ERROR querying database ${dbId}:`, JSON.stringify(res.body));
+    }
     cursor = res.body.has_more ? res.body.next_cursor : undefined;
   } while (cursor);
   return results;
+}
+
+// Queries every recruiter's database and tags each record with which
+// recruiter it came from (so we don't need to trust the Owner field at all)
+async function queryAllDatabases() {
+  let allRecords = [];
+  for (const [recruiterName, dbId] of Object.entries(RECRUITER_DATABASES)) {
+    console.log(`Querying ${recruiterName}'s database (${dbId})...`);
+    const records = await queryNotionDatabase(dbId);
+    console.log(`  -> ${records.length} records found`);
+    // Tag every record with its source recruiter
+    records.forEach(r => { r._sourceRecruiter = recruiterName; });
+    allRecords = allRecords.concat(records);
+  }
+  return allRecords;
 }
 
 function getProp(page, propName, type) {
@@ -113,9 +144,9 @@ async function writeToGitHub(content, sha) {
 }
 
 async function main() {
-  console.log('Fetching Notion data...');
-  const records = await queryNotion();
-  console.log(`Found ${records.length} total records`);
+  console.log('Fetching Notion data from all recruiter databases...');
+  const records = await queryAllDatabases();
+  console.log(`Found ${records.length} total records across all databases`);
 
   // Active statuses
   const activeStatuses = [
@@ -131,15 +162,8 @@ async function main() {
 
   console.log(`Active records: ${activeRecords.length}`);
 
-  // Identifiers used for matching against Notion person objects (name, email fragments)
-  const recruiterNames = ['Katherine', 'Rebecca', 'John', 'Gabriel', 'Tameka'];
-  const recruiterIdentifiers = {
-    'Katherine': ['katherine', 'friborg'],
-    'Rebecca':   ['rebecca'],
-    'John':      ['john', 'calebrese'],
-    'Gabriel':    ['gabriel', 'glopez', 'gabe'],
-    'Tameka':    ['tameka', 'porter']
-  };
+  const recruiterNames = Object.keys(RECRUITER_DATABASES);
+  // Add Tameka here once her database is migrated and added to RECRUITER_DATABASES above
   const recruiterMeta = {
     'Katherine': { id:'katherine', initials:'KT', color:'#1B7A5A', bgLight:'#e6f5f0', bgDark:'#1a3309', campus:'St Pete' },
     'Rebecca':   { id:'rebecca',   initials:'RB', color:'#1B6A9C', bgLight:'#e0f5f3', bgDark:'#3d2504', campus:'Tampa' },
@@ -161,19 +185,13 @@ async function main() {
     { label: '🟢 0–2', color: '#3B6D11', bgLight: '#EAF3DE', bgDark: '#1a3309' }
   ];
 
-  // DEBUG: log raw Owner person objects once so we can see what Notion actually returns
-  const sampleOwners = records.slice(0, 5).map(r => getProp(r, 'Owner', 'person'));
-  console.log('Sample Owner objects:', JSON.stringify(sampleOwners));
-
   const recruiters = recruiterNames.map(name => {
     const meta = recruiterMeta[name];
-    const identifiers = recruiterIdentifiers[name];
 
-    // All reqs owned by this recruiter (matched by name, email, or id)
-    const allMyRecs = records.filter(r => {
-      const owner = getProp(r, 'Owner', 'person');
-      return ownerMatches(owner, identifiers);
-    });
+    // Records are matched by which database they came from (_sourceRecruiter tag),
+    // set during queryAllDatabases() - this is fully reliable since it's based on
+    // which private database the record physically lives in, not a guessed name match.
+    const allMyRecs = records.filter(r => r._sourceRecruiter === name);
 
     // Active reqs only
     const myActive = allMyRecs.filter(r => activeStatuses.includes(getProp(r, 'Status', 'select')));
