@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2026-06-24T16:13:58.580Z",
+  "lastUpdated": "2026-06-24T16:51:18.715Z",
   "summary": {
-    "openReqs": 290,
+    "openReqs": 371,
     "avgTimeToFill": 0,
     "filledYTD": 0,
-    "failedCancelled": 1,
+    "failedCancelled": 2,
     "inOfferStage": 16
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 84,
+      "count": 119,
       "color": "#1B6A9C"
     },
     {
       "label": "St Pete",
-      "count": 3,
+      "count": 40,
       "color": "#006747"
     },
     {
@@ -25,19 +25,19 @@
     },
     {
       "label": "Tallahassee",
-      "count": 0,
+      "count": 5,
       "color": "#7A9EB5"
     },
     {
       "label": "Sarasota",
-      "count": 0,
+      "count": 1,
       "color": "#5B7A8A"
     }
   ],
   "mainFunnel": [
     {
       "label": "Posted",
-      "count": 290
+      "count": 371
     },
     {
       "label": "Screened",
@@ -475,11 +475,22 @@
       "bgLight": "#e6f2ed",
       "bgDark": "#042e24",
       "campus": "St Pete / Tampa",
-      "reqs": 1,
+      "reqs": 82,
       "filled": 0,
-      "failed": 0,
+      "failed": 1,
       "ttf": 0,
-      "statuses": [],
+      "statuses": [
+        {
+          "label": "Sourced",
+          "count": 65,
+          "color": "#3B6D11"
+        },
+        {
+          "label": "Backlog",
+          "count": 16,
+          "color": "#888780"
+        }
+      ],
       "aging": [
         {
           "label": "🔴 6+",
@@ -506,7 +517,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 0
+          "count": 81
         },
         {
           "label": "Screened",
@@ -541,13 +552,13 @@
         {
           "label": "Screened",
           "value": 0,
-          "target": 1,
+          "target": 82,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 0,
-          "target": 1,
+          "target": 82,
           "invert": false
         }
       ],
