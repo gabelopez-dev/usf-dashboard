@@ -4,13 +4,8 @@ const NOTION_TOKEN = process.env.NOTION_TOKEN;
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const GITHUB_REPO = process.env.GITHUB_REPO;
 
-// There are TWO databases in the workspace both named "Master Database" -
-// the team got split across them at some point. We query both and merge
-// all records together, then split by the Owner field (not by database).
-const MASTER_DATABASES = [
-  '0c747bfd-a9a9-4d2a-8e21-f858bc48d903', // Master Database #1 - Gabriel + Katherine source from this one
-  '5b6e328b-232a-41cf-9ba2-2563a949d206'  // Master Database #2 - Rebecca + John source from this one
-];
+// Single shared Master Database - all recruiters live here.
+const NOTION_DB_ID = '5b6e328b-232a-41cf-9ba2-2563a949d206';
 
 function httpsRequest(options, body = null) {
   return new Promise((resolve, reject) => {
@@ -58,24 +53,9 @@ async function queryNotionDatabase(dbId) {
   return results;
 }
 
-// Queries every Master Database and merges all records together.
-// De-duplicates by page id in case the same page somehow appears in both
-// (shouldn't happen normally, but cheap to guard against).
-async function queryAllDatabases() {
-  let allRecords = [];
-  const seenIds = new Set();
-  for (const dbId of MASTER_DATABASES) {
-    console.log(`Querying Master Database (${dbId})...`);
-    const records = await queryNotionDatabase(dbId);
-    console.log(`  -> ${records.length} records found`);
-    for (const r of records) {
-      if (!seenIds.has(r.id)) {
-        seenIds.add(r.id);
-        allRecords.push(r);
-      }
-    }
-  }
-  return allRecords;
+// Queries the single Master Database, paginating through all results.
+async function queryNotion() {
+  return await queryNotionDatabase(NOTION_DB_ID);
 }
 
 function getProp(page, propName, type) {
@@ -146,20 +126,27 @@ async function writeToGitHub(content, sha) {
 }
 
 async function main() {
-  console.log('Fetching Notion data from all recruiter databases...');
-  const records = await queryAllDatabases();
-  console.log(`Found ${records.length} total records across all databases`);
+  console.log('Fetching Notion data...');
+  const records = await queryNotion();
+  console.log(`Found ${records.length} total records`);
 
   // DEBUG: sample a few Owner values across the merged set so we can verify
   // matching is working correctly across both databases
   const sampleOwners = records.slice(0, 8).map(r => getProp(r, 'Owner', 'person'));
   console.log('Sample Owner objects:', JSON.stringify(sampleOwners));
 
-  // Active statuses
+  // DEBUG: show every unique Status value across ALL records, so we catch
+  // any other database-specific status text we haven't accounted for yet
+  const allStatusValues = [...new Set(records.map(r => getProp(r, 'Status', 'select')))];
+  console.log('All unique Status values found:', JSON.stringify(allStatusValues));
+
+  // Active statuses - kept "Open"/"Active" as harmless legacy entries in case
+  // any rows still carry those values during the Katherine/Gabriel migration
   const activeStatuses = [
     'Recruiter Review (WIP)', 'Sourced', 'Screened', 'HM Review',
     'Interview Stage', 'Offer Stage', 'Pre-boarding', 'Backlog',
-    'Targeted', 'Posted', 'Active (WIP)', 'Student Hiring', 'Faculty'
+    'Targeted', 'Posted', 'Active (WIP)', 'Student Hiring', 'Faculty',
+    'Open', 'Active'
   ];
 
   const activeRecords = records.filter(r => {
