@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T16:51:18.715Z",
+  "lastUpdated": "2026-06-24T17:38:56.662Z",
   "summary": {
     "openReqs": 371,
     "avgTimeToFill": 0,
@@ -79,6 +79,34 @@
       "count": 0
     }
   ],
+  "reqType": [
+    {
+      "label": "Standard",
+      "count": 297,
+      "color": "#006747"
+    },
+    {
+      "label": "Student",
+      "count": 31,
+      "color": "#00A693"
+    },
+    {
+      "label": "Faculty",
+      "count": 20,
+      "color": "#1B6A9C"
+    },
+    {
+      "label": "Targeted",
+      "count": 7,
+      "color": "#CFC483"
+    },
+    {
+      "label": "Evergreen",
+      "count": 1,
+      "color": "#7A9EB5"
+    }
+  ],
+  "department": [],
   "recruiters": [
     {
       "id": "katherine",
