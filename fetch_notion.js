@@ -259,6 +259,31 @@ async function main() {
   const ttfAll = records.map(r => getProp(r, 'Time to Fill (Days)', 'number')).filter(v => v > 0);
   const avgTTFAll = ttfAll.length > 0 ? Math.round(ttfAll.reduce((a,b) => a+b, 0) / ttfAll.length) : 0;
 
+  // Req Type breakdown - colors assigned dynamically in case new types appear in Notion
+  const reqTypeColors = ['#006747', '#00A693', '#1B6A9C', '#CFC483', '#7A9EB5', '#5B7A8A'];
+  const reqTypeAgg = {};
+  activeRecords.forEach(r => {
+    const t = getProp(r, 'Req Type', 'select');
+    if (t) reqTypeAgg[t] = (reqTypeAgg[t] || 0) + 1;
+  });
+  const reqTypeBreakdown = Object.entries(reqTypeAgg)
+    .sort((a,b) => b[1] - a[1])
+    .map(([label, count], i) => ({ label, count, color: reqTypeColors[i % reqTypeColors.length] }));
+
+  // Department/College breakdown - same dynamic approach
+  const deptColors = ['#006747', '#1B6A9C', '#00A693', '#CFC483', '#7A9EB5', '#5B7A8A', '#534AB7', '#993556'];
+  const deptAgg = {};
+  activeRecords.forEach(r => {
+    const d = getProp(r, 'Department / College', 'select') || getProp(r, 'Department/College', 'select') || getProp(r, 'Department / College', 'text');
+    if (d) deptAgg[d] = (deptAgg[d] || 0) + 1;
+  });
+  const deptBreakdown = Object.entries(deptAgg)
+    .sort((a,b) => b[1] - a[1])
+    .map(([label, count], i) => ({ label, count, color: deptColors[i % deptColors.length] }));
+
+  console.log('Req Type breakdown:', JSON.stringify(reqTypeBreakdown));
+  console.log('Department breakdown:', JSON.stringify(deptBreakdown));
+
   const data = {
     lastUpdated: new Date().toISOString(),
     summary: {
@@ -284,6 +309,8 @@ async function main() {
       ...band,
       count: activeRecords.filter(r => getProp(r, 'Aging Band', 'select') === band.label).length
     })),
+    reqType: reqTypeBreakdown,
+    department: deptBreakdown,
     recruiters
   };
 
