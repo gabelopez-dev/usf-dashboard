@@ -137,8 +137,8 @@ async function main() {
 
   // DEBUG: show every unique Status value across ALL records, so we catch
   // any other database-specific status text we haven't accounted for yet
-  const allStatusValues = [...new Set(records.map(r => getProp(r, 'Status', 'select')))];
-  console.log('All unique Status values found:', JSON.stringify(allStatusValues));
+  const allStatusValues = [...new Set(records.map(r => getProp(r, 'Stage', 'select')))];
+  console.log('All unique Stage values found:', JSON.stringify(allStatusValues));
 
   // Active statuses - kept "Open"/"Active" as harmless legacy entries in case
   // any rows still carry those values during the Katherine/Gabriel migration
@@ -150,7 +150,7 @@ async function main() {
   ];
 
   const activeRecords = records.filter(r => {
-    const status = getProp(r, 'Status', 'select');
+    const status = getProp(r, 'Stage', 'select');
     return activeStatuses.includes(status);
   });
 
@@ -198,13 +198,13 @@ async function main() {
     });
 
     // Active reqs only
-    const myActive = allMyRecs.filter(r => activeStatuses.includes(getProp(r, 'Status', 'select')));
+    const myActive = allMyRecs.filter(r => activeStatuses.includes(getProp(r, 'Stage', 'select')));
 
     console.log(`${name}: ${allMyRecs.length} total, ${myActive.length} active`);
 
     const statuses = Object.entries(
       myActive.reduce((acc, r) => {
-        const s = getProp(r, 'Status', 'select') || 'Unknown';
+        const s = getProp(r, 'Stage', 'select') || 'Unknown';
         acc[s] = (acc[s] || 0) + 1;
         return acc;
       }, {})
@@ -219,15 +219,15 @@ async function main() {
     const ttfValues = allMyRecs.map(r => getProp(r, 'Time to Fill (Days)', 'number')).filter(v => v > 0);
     const avgTTF = ttfValues.length > 0 ? Math.round(ttfValues.reduce((a,b) => a+b, 0) / ttfValues.length) : 0;
 
-    const filled = allMyRecs.filter(r => getProp(r, 'Status', 'select') === 'Hired').length;
-    const failed = allMyRecs.filter(r => ['Failed Search', 'Canceled'].includes(getProp(r, 'Status', 'select'))).length;
+    const filled = allMyRecs.filter(r => getProp(r, 'Stage', 'select') === 'Hired').length;
+    const failed = allMyRecs.filter(r => ['Failed Search', 'Canceled'].includes(getProp(r, 'Stage', 'select'))).length;
 
     const funnel = [
       { label: 'Posted', count: myActive.length },
-      { label: 'Screened', count: myActive.filter(r => getProp(r, 'Status', 'select') === 'Screened').length },
-      { label: 'HM Review', count: myActive.filter(r => getProp(r, 'Status', 'select') === 'HM Review').length },
-      { label: 'Interviews', count: myActive.filter(r => getProp(r, 'Status', 'select') === 'Interview Stage').length },
-      { label: 'Offer', count: myActive.filter(r => getProp(r, 'Status', 'select') === 'Offer Stage').length }
+      { label: 'Screened', count: myActive.filter(r => getProp(r, 'Stage', 'select') === 'Screened').length },
+      { label: 'HM Review', count: myActive.filter(r => getProp(r, 'Stage', 'select') === 'HM Review').length },
+      { label: 'Interviews', count: myActive.filter(r => getProp(r, 'Stage', 'select') === 'Interview Stage').length },
+      { label: 'Offer', count: myActive.filter(r => getProp(r, 'Stage', 'select') === 'Offer Stage').length }
     ];
 
     return {
@@ -240,8 +240,8 @@ async function main() {
       goals: [
         { label: 'Reqs filled', value: filled, target: 10, invert: false },
         { label: 'Time to fill', value: avgTTF, target: 40, invert: true },
-        { label: 'Screened', value: myActive.filter(r => getProp(r, 'Status', 'select') === 'Screened').length, target: Math.max(allMyRecs.length, 1), invert: false },
-        { label: 'Interviews', value: myActive.filter(r => getProp(r, 'Status', 'select') === 'Interview Stage').length, target: Math.max(allMyRecs.length, 1), invert: false }
+        { label: 'Screened', value: myActive.filter(r => getProp(r, 'Stage', 'select') === 'Screened').length, target: Math.max(allMyRecs.length, 1), invert: false },
+        { label: 'Interviews', value: myActive.filter(r => getProp(r, 'Stage', 'select') === 'Interview Stage').length, target: Math.max(allMyRecs.length, 1), invert: false }
       ],
       trend: [avgTTF, avgTTF, avgTTF, avgTTF, avgTTF, avgTTF]
     };
@@ -289,9 +289,9 @@ async function main() {
     summary: {
       openReqs: activeRecords.length,
       avgTimeToFill: avgTTFAll,
-      filledYTD: records.filter(r => getProp(r, 'Status', 'select') === 'Hired').length,
-      failedCancelled: records.filter(r => ['Failed Search', 'Canceled'].includes(getProp(r, 'Status', 'select'))).length,
-      inOfferStage: activeRecords.filter(r => getProp(r, 'Status', 'select') === 'Offer Stage').length
+      filledYTD: records.filter(r => getProp(r, 'Stage', 'select') === 'Hired').length,
+      failedCancelled: records.filter(r => ['Failed Search', 'Canceled'].includes(getProp(r, 'Stage', 'select'))).length,
+      inOfferStage: activeRecords.filter(r => getProp(r, 'Stage', 'select') === 'Offer Stage').length
     },
     campus: Object.entries(campusMap).map(([label, color]) => ({
       label: campusDisplay[label],
@@ -300,10 +300,10 @@ async function main() {
     })),
     mainFunnel: [
       { label: 'Posted', count: activeRecords.length },
-      { label: 'Screened', count: activeRecords.filter(r => getProp(r, 'Status', 'select') === 'Screened').length },
-      { label: 'HM Review', count: activeRecords.filter(r => getProp(r, 'Status', 'select') === 'HM Review').length },
-      { label: 'Interviews', count: activeRecords.filter(r => getProp(r, 'Status', 'select') === 'Interview Stage').length },
-      { label: 'Offer', count: activeRecords.filter(r => getProp(r, 'Status', 'select') === 'Offer Stage').length }
+      { label: 'Screened', count: activeRecords.filter(r => getProp(r, 'Stage', 'select') === 'Screened').length },
+      { label: 'HM Review', count: activeRecords.filter(r => getProp(r, 'Stage', 'select') === 'HM Review').length },
+      { label: 'Interviews', count: activeRecords.filter(r => getProp(r, 'Stage', 'select') === 'Interview Stage').length },
+      { label: 'Offer', count: activeRecords.filter(r => getProp(r, 'Stage', 'select') === 'Offer Stage').length }
     ],
     mainAging: agingBands.map(band => ({
       ...band,
