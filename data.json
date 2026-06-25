@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-06-25T19:31:38.688Z",
+  "lastUpdated": "2026-06-25T21:14:59.194Z",
   "summary": {
-    "openReqs": 366,
+    "openReqs": 364,
     "avgTimeToFill": 0,
-    "filledYTD": 6,
+    "filledYTD": 8,
     "failedCancelled": 2,
     "inOfferStage": 17
   },
@@ -15,7 +15,7 @@
     },
     {
       "label": "St Pete",
-      "count": 39,
+      "count": 37,
       "color": "#006747"
     },
     {
@@ -37,7 +37,7 @@
   "mainFunnel": [
     {
       "label": "Posted",
-      "count": 366
+      "count": 364
     },
     {
       "label": "Screened",
@@ -45,7 +45,7 @@
     },
     {
       "label": "HM Review",
-      "count": 13
+      "count": 17
     },
     {
       "label": "Interviews",
@@ -82,7 +82,7 @@
   "reqType": [
     {
       "label": "Standard",
-      "count": 292,
+      "count": 285,
       "color": "#006747"
     },
     {
@@ -97,12 +97,12 @@
     },
     {
       "label": "Targeted",
-      "count": 9,
+      "count": 10,
       "color": "#CFC483"
     },
     {
       "label": "Evergreen",
-      "count": 1,
+      "count": 5,
       "color": "#7A9EB5"
     }
   ],
@@ -374,14 +374,24 @@
       "bgLight": "#e3f2fd",
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
-      "reqs": 69,
+      "reqs": 61,
       "filled": 0,
       "failed": 0,
       "ttf": 0,
       "statuses": [
         {
+          "label": "HM Review",
+          "count": 10,
+          "color": "#993556"
+        },
+        {
+          "label": "Student Hiring",
+          "count": 5,
+          "color": "#0F6E56"
+        },
+        {
           "label": "Recruiter Review (WIP)",
-          "count": 20,
+          "count": 17,
           "color": "#185FA5"
         },
         {
@@ -390,28 +400,13 @@
           "color": "#888780"
         },
         {
-          "label": "HM Review",
-          "count": 9,
-          "color": "#993556"
-        },
-        {
-          "label": "Interview Stage",
-          "count": 1,
-          "color": "#534AB7"
-        },
-        {
-          "label": "Offer Stage",
-          "count": 11,
-          "color": "#0F6E56"
-        },
-        {
           "label": "Pre-boarding",
-          "count": 16,
+          "count": 15,
           "color": "#888780"
         },
         {
-          "label": "Student Hiring",
-          "count": 3,
+          "label": "Offer Stage",
+          "count": 6,
           "color": "#0F6E56"
         }
       ],
@@ -441,7 +436,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 67
+          "count": 60
         },
         {
           "label": "Screened",
@@ -449,15 +444,15 @@
         },
         {
           "label": "HM Review",
-          "count": 9
+          "count": 10
         },
         {
           "label": "Interviews",
-          "count": 1
+          "count": 0
         },
         {
           "label": "Offer",
-          "count": 11
+          "count": 6
         }
       ],
       "goals": [
@@ -476,13 +471,13 @@
         {
           "label": "Screened",
           "value": 0,
-          "target": 69,
+          "target": 61,
           "invert": false
         },
         {
           "label": "Interviews",
-          "value": 1,
-          "target": 69,
+          "value": 0,
+          "target": 61,
           "invert": false
         }
       ],
@@ -503,29 +498,29 @@
       "bgLight": "#e6f2ed",
       "bgDark": "#042e24",
       "campus": "St Pete / Tampa",
-      "reqs": 83,
-      "filled": 6,
+      "reqs": 91,
+      "filled": 8,
       "failed": 1,
       "ttf": 0,
       "statuses": [
         {
           "label": "Pre-boarding",
-          "count": 3,
+          "count": 5,
           "color": "#888780"
         },
         {
           "label": "Sourced",
-          "count": 32,
+          "count": 26,
           "color": "#3B6D11"
         },
         {
           "label": "Faculty",
-          "count": 15,
+          "count": 17,
           "color": "#534AB7"
         },
         {
           "label": "Backlog",
-          "count": 9,
+          "count": 7,
           "color": "#888780"
         },
         {
@@ -535,27 +530,27 @@
         },
         {
           "label": "HM Review",
-          "count": 3,
+          "count": 6,
           "color": "#993556"
         },
         {
-          "label": "Recruiter Review (WIP)",
-          "count": 7,
-          "color": "#185FA5"
-        },
-        {
           "label": "Student Hiring",
-          "count": 2,
+          "count": 3,
           "color": "#0F6E56"
         },
         {
+          "label": "Recruiter Review (WIP)",
+          "count": 6,
+          "color": "#185FA5"
+        },
+        {
           "label": "Interview Stage",
-          "count": 2,
+          "count": 3,
           "color": "#534AB7"
         },
         {
           "label": "Offer Stage",
-          "count": 1,
+          "count": 6,
           "color": "#0F6E56"
         }
       ],
@@ -585,7 +580,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 76
+          "count": 81
         },
         {
           "label": "Screened",
@@ -593,21 +588,21 @@
         },
         {
           "label": "HM Review",
-          "count": 3
+          "count": 6
         },
         {
           "label": "Interviews",
-          "count": 2
+          "count": 3
         },
         {
           "label": "Offer",
-          "count": 1
+          "count": 6
         }
       ],
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 6,
+          "value": 8,
           "target": 10,
           "invert": false
         },
@@ -620,13 +615,13 @@
         {
           "label": "Screened",
           "value": 0,
-          "target": 83,
+          "target": 91,
           "invert": false
         },
         {
           "label": "Interviews",
-          "value": 2,
-          "target": 83,
+          "value": 3,
+          "target": 91,
           "invert": false
         }
       ],
