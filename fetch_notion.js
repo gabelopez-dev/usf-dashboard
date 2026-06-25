@@ -274,7 +274,7 @@ async function main() {
   const deptColors = ['#006747', '#1B6A9C', '#00A693', '#CFC483', '#7A9EB5', '#5B7A8A', '#534AB7', '#993556'];
   const deptAgg = {};
   activeRecords.forEach(r => {
-    const d = getProp(r, 'Department / College', 'select') || getProp(r, 'Department/College', 'select') || getProp(r, 'Department / College', 'text');
+    const d = getProp(r, 'Department/College', 'text') || getProp(r, 'Department/College', 'select');
     if (d) deptAgg[d] = (deptAgg[d] || 0) + 1;
   });
   const deptBreakdown = Object.entries(deptAgg)
@@ -283,6 +283,10 @@ async function main() {
 
   console.log('Req Type breakdown:', JSON.stringify(reqTypeBreakdown));
   console.log('Department breakdown:', JSON.stringify(deptBreakdown));
+  // DEBUG: if breakdown is empty, show the raw property so we can see its actual shape
+  if (deptBreakdown.length === 0 && records.length > 0) {
+    console.log('DEBUG raw Department/College property on first record:', JSON.stringify(records[0].properties?.['Department/College']));
+  }
 
   const data = {
     lastUpdated: new Date().toISOString(),
