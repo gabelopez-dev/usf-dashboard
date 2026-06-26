@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-06-26T19:19:21.164Z",
+  "lastUpdated": "2026-06-26T21:07:04.717Z",
   "summary": {
-    "openReqs": 362,
+    "openReqs": 360,
     "avgTimeToFill": 0,
-    "filledYTD": 8,
+    "filledYTD": 10,
     "failedCancelled": 2,
-    "inOfferStage": 17
+    "inOfferStage": 16
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 113,
+      "count": 111,
       "color": "#1B6A9C"
     },
     {
@@ -37,7 +37,7 @@
   "mainFunnel": [
     {
       "label": "Posted",
-      "count": 362
+      "count": 360
     },
     {
       "label": "Screened",
@@ -45,7 +45,7 @@
     },
     {
       "label": "HM Review",
-      "count": 16
+      "count": 17
     },
     {
       "label": "Interviews",
@@ -53,7 +53,7 @@
     },
     {
       "label": "Offer",
-      "count": 17
+      "count": 16
     }
   ],
   "mainAging": [
@@ -82,17 +82,17 @@
   "reqType": [
     {
       "label": "Standard",
-      "count": 280,
+      "count": 276,
       "color": "#006747"
     },
     {
       "label": "Student",
-      "count": 29,
+      "count": 30,
       "color": "#00A693"
     },
     {
       "label": "Targeted",
-      "count": 16,
+      "count": 17,
       "color": "#1B6A9C"
     },
     {
@@ -124,7 +124,7 @@
     },
     {
       "label": "Engineering",
-      "count": 12,
+      "count": 10,
       "color": "#CFC483"
     },
     {
@@ -670,7 +670,7 @@
       "bgDark": "#042e24",
       "campus": "St Pete / Tampa",
       "reqs": 91,
-      "filled": 8,
+      "filled": 10,
       "failed": 1,
       "ttf": 0,
       "statuses": [
@@ -701,7 +701,7 @@
         },
         {
           "label": "HM Review",
-          "count": 5,
+          "count": 6,
           "color": "#993556"
         },
         {
@@ -711,7 +711,7 @@
         },
         {
           "label": "Recruiter Review (WIP)",
-          "count": 6,
+          "count": 4,
           "color": "#185FA5"
         },
         {
@@ -721,7 +721,7 @@
         },
         {
           "label": "Offer Stage",
-          "count": 6,
+          "count": 5,
           "color": "#0F6E56"
         }
       ],
@@ -751,7 +751,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 79
+          "count": 77
         },
         {
           "label": "Screened",
@@ -759,7 +759,7 @@
         },
         {
           "label": "HM Review",
-          "count": 5
+          "count": 6
         },
         {
           "label": "Interviews",
@@ -767,13 +767,13 @@
         },
         {
           "label": "Offer",
-          "count": 6
+          "count": 5
         }
       ],
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 8,
+          "value": 10,
           "target": 10,
           "invert": false
         },
