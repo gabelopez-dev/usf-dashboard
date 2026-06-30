@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-30T11:46:10.514Z",
+  "lastUpdated": "2026-06-30T14:29:08.525Z",
   "summary": {
     "openReqs": 360,
     "avgTimeToFill": 0,
     "filledYTD": 10,
     "failedCancelled": 2,
-    "inOfferStage": 16
+    "inOfferStage": 15
   },
   "campus": [
     {
@@ -45,7 +45,7 @@
     },
     {
       "label": "HM Review",
-      "count": 17
+      "count": 16
     },
     {
       "label": "Interviews",
@@ -53,7 +53,7 @@
     },
     {
       "label": "Offer",
-      "count": 16
+      "count": 15
     }
   ],
   "mainAging": [
@@ -550,14 +550,14 @@
       "bgLight": "#e3f2fd",
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
-      "reqs": 61,
+      "reqs": 62,
       "filled": 0,
       "failed": 0,
       "ttf": 0,
       "statuses": [
         {
           "label": "HM Review",
-          "count": 10,
+          "count": 9,
           "color": "#993556"
         },
         {
@@ -577,12 +577,12 @@
         },
         {
           "label": "Pre-boarding",
-          "count": 15,
+          "count": 17,
           "color": "#888780"
         },
         {
           "label": "Offer Stage",
-          "count": 6,
+          "count": 5,
           "color": "#0F6E56"
         }
       ],
@@ -620,7 +620,7 @@
         },
         {
           "label": "HM Review",
-          "count": 10
+          "count": 9
         },
         {
           "label": "Interviews",
@@ -628,7 +628,7 @@
         },
         {
           "label": "Offer",
-          "count": 6
+          "count": 5
         }
       ],
       "goals": [
@@ -647,13 +647,13 @@
         {
           "label": "Screened",
           "value": 0,
-          "target": 61,
+          "target": 62,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 0,
-          "target": 61,
+          "target": 62,
           "invert": false
         }
       ],
