@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-06-30T14:29:08.525Z",
+  "lastUpdated": "2026-06-30T16:37:38.860Z",
   "summary": {
-    "openReqs": 360,
+    "openReqs": 352,
     "avgTimeToFill": 0,
     "filledYTD": 10,
     "failedCancelled": 2,
-    "inOfferStage": 15
+    "inOfferStage": 13
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 111,
+      "count": 103,
       "color": "#1B6A9C"
     },
     {
@@ -37,7 +37,7 @@
   "mainFunnel": [
     {
       "label": "Posted",
-      "count": 360
+      "count": 352
     },
     {
       "label": "Screened",
@@ -45,15 +45,15 @@
     },
     {
       "label": "HM Review",
-      "count": 16
+      "count": 14
     },
     {
       "label": "Interviews",
-      "count": 6
+      "count": 7
     },
     {
       "label": "Offer",
-      "count": 15
+      "count": 13
     }
   ],
   "mainAging": [
@@ -82,7 +82,7 @@
   "reqType": [
     {
       "label": "Standard",
-      "count": 290,
+      "count": 281,
       "color": "#006747"
     },
     {
@@ -102,7 +102,7 @@
     },
     {
       "label": "Evergreen",
-      "count": 7,
+      "count": 8,
       "color": "#7A9EB5"
     }
   ],
@@ -119,12 +119,12 @@
     },
     {
       "label": "Athletics",
-      "count": 19,
+      "count": 18,
       "color": "#00A693"
     },
     {
       "label": "Other",
-      "count": 18,
+      "count": 16,
       "color": "#CFC483"
     },
     {
@@ -198,89 +198,99 @@
       "color": "#1B6A9C"
     },
     {
-      "label": "521800 - SAR Student Services",
+      "label": "066200 - WUSF-FM",
       "count": 1,
       "color": "#00A693"
+    },
+    {
+      "label": "027900 - Procurement & Payment Services",
+      "count": 1,
+      "color": "#CFC483"
+    },
+    {
+      "label": "521800 - SAR Student Services",
+      "count": 1,
+      "color": "#7A9EB5"
     },
     {
       "label": "511201 - STP Arts And Sciences - Dean",
       "count": 1,
-      "color": "#CFC483"
+      "color": "#5B7A8A"
     },
     {
       "label": "512900 - STP Academic Affairs",
       "count": 1,
-      "color": "#7A9EB5"
+      "color": "#534AB7"
     },
     {
       "label": "380000 - Undergrad Stds-Deans Ofc Opera",
       "count": 1,
-      "color": "#5B7A8A"
+      "color": "#993556"
     },
     {
       "label": "511000 - STP Regional Chancellor",
       "count": 1,
-      "color": "#534AB7"
+      "color": "#006747"
     },
     {
       "label": "388200 - UGS - Academic Advocacy",
       "count": 1,
-      "color": "#993556"
+      "color": "#1B6A9C"
     },
     {
       "label": "510500 - STP Student Success Center",
       "count": 1,
-      "color": "#006747"
+      "color": "#00A693"
     },
     {
       "label": "Inst For School Comm Partnership",
       "count": 1,
-      "color": "#1B6A9C"
+      "color": "#CFC483"
     },
     {
       "label": "042700 - Marshall Student Center",
       "count": 1,
-      "color": "#00A693"
+      "color": "#7A9EB5"
     },
     {
       "label": "510416 - STP Student Outreach and Support",
       "count": 1,
-      "color": "#CFC483"
+      "color": "#5B7A8A"
     },
     {
       "label": "515400 - STP Parking Services",
       "count": 1,
-      "color": "#7A9EB5"
+      "color": "#534AB7"
     },
     {
       "label": "511724 - STP Secondary Education",
       "count": 1,
-      "color": "#5B7A8A"
+      "color": "#993556"
     },
     {
       "label": "510620 - STP Residential Edu Svcs",
       "count": 1,
-      "color": "#534AB7"
+      "color": "#006747"
     },
     {
       "label": "512800 - STP Academic Advising",
       "count": 1,
-      "color": "#993556"
+      "color": "#1B6A9C"
     },
     {
       "label": "Education",
       "count": 1,
-      "color": "#006747"
+      "color": "#00A693"
     },
     {
       "label": "Audit",
       "count": 1,
-      "color": "#1B6A9C"
+      "color": "#CFC483"
     },
     {
       "label": "010100 - Office of the President",
       "count": 1,
-      "color": "#00A693"
+      "color": "#7A9EB5"
     }
   ],
   "recruiters": [
@@ -550,14 +560,24 @@
       "bgLight": "#e3f2fd",
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
-      "reqs": 62,
+      "reqs": 63,
       "filled": 0,
       "failed": 0,
       "ttf": 0,
       "statuses": [
         {
+          "label": "Pre-boarding",
+          "count": 15,
+          "color": "#888780"
+        },
+        {
+          "label": "Offer Stage",
+          "count": 3,
+          "color": "#0F6E56"
+        },
+        {
           "label": "HM Review",
-          "count": 9,
+          "count": 7,
           "color": "#993556"
         },
         {
@@ -567,7 +587,7 @@
         },
         {
           "label": "Recruiter Review (WIP)",
-          "count": 17,
+          "count": 14,
           "color": "#185FA5"
         },
         {
@@ -576,14 +596,9 @@
           "color": "#888780"
         },
         {
-          "label": "Pre-boarding",
-          "count": 17,
-          "color": "#888780"
-        },
-        {
-          "label": "Offer Stage",
-          "count": 5,
-          "color": "#0F6E56"
+          "label": "Interview Stage",
+          "count": 1,
+          "color": "#534AB7"
         }
       ],
       "aging": [
@@ -612,7 +627,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 60
+          "count": 52
         },
         {
           "label": "Screened",
@@ -620,15 +635,15 @@
         },
         {
           "label": "HM Review",
-          "count": 9
+          "count": 7
         },
         {
           "label": "Interviews",
-          "count": 0
+          "count": 1
         },
         {
           "label": "Offer",
-          "count": 5
+          "count": 3
         }
       ],
       "goals": [
@@ -647,13 +662,13 @@
         {
           "label": "Screened",
           "value": 0,
-          "target": 62,
+          "target": 63,
           "invert": false
         },
         {
           "label": "Interviews",
-          "value": 0,
-          "target": 62,
+          "value": 1,
+          "target": 63,
           "invert": false
         }
       ],
