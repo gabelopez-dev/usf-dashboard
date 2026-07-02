@@ -66,6 +66,8 @@ function getProp(page, propName, type) {
     case 'person': return prop.people?.[0] || null;
     case 'checkbox': return prop.checkbox || false;
     case 'number': return prop.number || 0;
+    case 'formula_text': return prop.formula?.string || null;
+    case 'formula_number': return prop.formula?.number ?? null;
     case 'date': return prop.date?.start || null;
     case 'title': return prop.title?.[0]?.text?.content || prop.title?.[0]?.plain_text || null;
     case 'text': return prop.rich_text?.[0]?.text?.content || prop.rich_text?.[0]?.plain_text || null;
@@ -213,10 +215,10 @@ async function main() {
 
     const aging = agingBands.map(band => ({
       ...band,
-      count: myActive.filter(r => getProp(r, 'Aging Band', 'select') === band.label).length
+      count: myActive.filter(r => getProp(r, 'Aging Band', 'formula_text') === band.label).length
     }));
 
-    const ttfValues = allMyRecs.map(r => getProp(r, 'Time to Fill (Days)', 'number')).filter(v => v > 0);
+    const ttfValues = allMyRecs.map(r => getProp(r, 'Time to Fill (Days)', 'formula_number')).filter(v => v > 0);
     const avgTTF = ttfValues.length > 0 ? Math.round(ttfValues.reduce((a,b) => a+b, 0) / ttfValues.length) : 0;
 
     const filled = allMyRecs.filter(r => getProp(r, 'Stage', 'select') === 'Hired').length;
@@ -256,7 +258,7 @@ async function main() {
     'USF Health': 'USF Health', 'Tallahassee': 'Tallahassee', 'Sarasota-Manatee': 'Sarasota'
   };
 
-  const ttfAll = records.map(r => getProp(r, 'Time to Fill (Days)', 'number')).filter(v => v > 0);
+  const ttfAll = records.map(r => getProp(r, 'Time to Fill (Days)', 'formula_number')).filter(v => v > 0);
   const avgTTFAll = ttfAll.length > 0 ? Math.round(ttfAll.reduce((a,b) => a+b, 0) / ttfAll.length) : 0;
 
   // Req Type breakdown - colors assigned dynamically in case new types appear in Notion
@@ -282,6 +284,11 @@ async function main() {
     .map(([label, count], i) => ({ label, count, color: deptColors[i % deptColors.length] }));
 
   console.log('Req Type breakdown:', JSON.stringify(reqTypeBreakdown));
+  // DEBUG: verify formula fields are being read correctly
+  const sampleAging = activeRecords.slice(0, 3).map(r => getProp(r, 'Aging Band', 'formula_text'));
+  const sampleTTF = records.slice(0, 3).map(r => getProp(r, 'Time to Fill (Days)', 'formula_number'));
+  console.log('Sample Aging Band values:', JSON.stringify(sampleAging));
+  console.log('Sample Time to Fill values:', JSON.stringify(sampleTTF));
   console.log('Department breakdown:', JSON.stringify(deptBreakdown));
   // DEBUG: if breakdown is empty, show the raw property so we can see its actual shape
   if (deptBreakdown.length === 0 && records.length > 0) {
@@ -311,7 +318,7 @@ async function main() {
     ],
     mainAging: agingBands.map(band => ({
       ...band,
-      count: activeRecords.filter(r => getProp(r, 'Aging Band', 'select') === band.label).length
+      count: activeRecords.filter(r => getProp(r, 'Aging Band', 'formula_text') === band.label).length
     })),
     reqType: reqTypeBreakdown,
     department: deptBreakdown,
