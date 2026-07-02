@@ -67,7 +67,10 @@ function getProp(page, propName, type) {
     case 'checkbox': return prop.checkbox || false;
     case 'number': return prop.number || 0;
     case 'formula_text': return prop.formula?.string || null;
-    case 'formula_number': return prop.formula?.number ?? null;
+    case 'formula_number': {
+      const val = prop.formula?.number;
+      return (val !== undefined && val !== null) ? val : null;
+    }
     case 'date': return prop.date?.start || null;
     case 'title': return prop.title?.[0]?.text?.content || prop.title?.[0]?.plain_text || null;
     case 'text': return prop.rich_text?.[0]?.text?.content || prop.rich_text?.[0]?.plain_text || null;
@@ -218,7 +221,9 @@ async function main() {
       count: myActive.filter(r => getProp(r, 'Aging Band', 'formula_text') === band.label).length
     }));
 
-    const ttfValues = allMyRecs.map(r => getProp(r, 'Time to Fill (Days)', 'formula_number')).filter(v => v > 0);
+    const ttfValues = allMyRecs
+      .map(r => getProp(r, 'Time to Fill (Days)', 'formula_number'))
+      .filter(v => v !== null && v !== undefined && v > 0);
     const avgTTF = ttfValues.length > 0 ? Math.round(ttfValues.reduce((a,b) => a+b, 0) / ttfValues.length) : 0;
 
     const filled = allMyRecs.filter(r => getProp(r, 'Stage', 'select') === 'Hired').length;
@@ -258,8 +263,11 @@ async function main() {
     'USF Health': 'USF Health', 'Tallahassee': 'Tallahassee', 'Sarasota-Manatee': 'Sarasota'
   };
 
-  const ttfAll = records.map(r => getProp(r, 'Time to Fill (Days)', 'formula_number')).filter(v => v > 0);
+  const ttfAll = records
+    .map(r => getProp(r, 'Time to Fill (Days)', 'formula_number'))
+    .filter(v => v !== null && v !== undefined && v > 0);
   const avgTTFAll = ttfAll.length > 0 ? Math.round(ttfAll.reduce((a,b) => a+b, 0) / ttfAll.length) : 0;
+  console.log(`TTF values found: ${ttfAll.length}, avg: ${avgTTFAll}`);
 
   // Req Type breakdown - colors assigned dynamically in case new types appear in Notion
   const reqTypeColors = ['#006747', '#00A693', '#1B6A9C', '#CFC483', '#7A9EB5', '#5B7A8A'];
@@ -289,6 +297,10 @@ async function main() {
   const sampleTTF = records.slice(0, 3).map(r => getProp(r, 'Time to Fill (Days)', 'formula_number'));
   console.log('Sample Aging Band values:', JSON.stringify(sampleAging));
   console.log('Sample Time to Fill values:', JSON.stringify(sampleTTF));
+  // DEBUG: show raw Aging Band property to find correct API shape
+  if (sampleAging.every(v => v === null) && activeRecords.length > 0) {
+    console.log('DEBUG raw Aging Band property:', JSON.stringify(activeRecords[0].properties?.['Aging Band']));
+  }
   console.log('Department breakdown:', JSON.stringify(deptBreakdown));
   // DEBUG: if breakdown is empty, show the raw property so we can see its actual shape
   if (deptBreakdown.length === 0 && records.length > 0) {
