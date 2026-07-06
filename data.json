@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-06T09:01:49.290Z",
+  "lastUpdated": "2026-07-06T13:04:29.801Z",
   "summary": {
-    "openReqs": 406,
+    "openReqs": 408,
     "avgTimeToFill": 83,
     "filledYTD": 9,
     "failedCancelled": 3,
@@ -10,7 +10,7 @@
   "campus": [
     {
       "label": "Tampa",
-      "count": 117,
+      "count": 118,
       "color": "#1B6A9C"
     },
     {
@@ -37,7 +37,7 @@
   "mainFunnel": [
     {
       "label": "Posted",
-      "count": 406
+      "count": 408
     },
     {
       "label": "Screened",
@@ -45,7 +45,7 @@
     },
     {
       "label": "HM Review",
-      "count": 44
+      "count": 45
     },
     {
       "label": "Interviews",
@@ -76,13 +76,13 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 0
+      "count": 1
     }
   ],
   "reqType": [
     {
       "label": "Standard",
-      "count": 309,
+      "count": 310,
       "color": "#006747"
     },
     {
@@ -91,13 +91,13 @@
       "color": "#00A693"
     },
     {
-      "label": "Faculty",
+      "label": "Targeted",
       "count": 17,
       "color": "#1B6A9C"
     },
     {
-      "label": "Targeted",
-      "count": 16,
+      "label": "Faculty",
+      "count": 17,
       "color": "#CFC483"
     },
     {
@@ -119,7 +119,7 @@
     },
     {
       "label": "051000 - Athletic Administration",
-      "count": 19,
+      "count": 20,
       "color": "#00A693"
     },
     {
@@ -283,204 +283,209 @@
       "color": "#00A693"
     },
     {
-      "label": "612200 - Dept Of OB/GYN",
+      "label": "386500 - Academic Success Center",
       "count": 1,
       "color": "#CFC483"
+    },
+    {
+      "label": "612200 - Dept Of OB/GYN",
+      "count": 1,
+      "color": "#7A9EB5"
     },
     {
       "label": "035000 - CHR Payroll Services",
       "count": 1,
-      "color": "#7A9EB5"
+      "color": "#5B7A8A"
     },
     {
       "label": "020100 - SVP Administrative Operations",
       "count": 1,
-      "color": "#5B7A8A"
+      "color": "#534AB7"
     },
     {
       "label": "017000 - Office Of Compliance-Ethics",
       "count": 1,
-      "color": "#534AB7"
+      "color": "#993556"
     },
     {
       "label": "041300 - Strategic Initiatives",
       "count": 1,
-      "color": "#993556"
+      "color": "#006747"
     },
     {
       "label": "043000 - Student Health Services",
       "count": 1,
-      "color": "#006747"
+      "color": "#1B6A9C"
     },
     {
       "label": "371000 - Admissions",
       "count": 1,
-      "color": "#1B6A9C"
+      "color": "#00A693"
     },
     {
       "label": "400100 - Univ Lib Deans Office",
       "count": 1,
-      "color": "#00A693"
+      "color": "#CFC483"
     },
     {
       "label": "521211 - SAR Integrative Biology",
       "count": 1,
-      "color": "#CFC483"
+      "color": "#7A9EB5"
     },
     {
       "label": "043100 - Center for Victim Advocacy",
       "count": 1,
-      "color": "#7A9EB5"
+      "color": "#5B7A8A"
     },
     {
       "label": "373000 - Financial Aid",
       "count": 1,
-      "color": "#5B7A8A"
+      "color": "#534AB7"
     },
     {
       "label": "080000 - SG Branches And Agencies",
       "count": 1,
-      "color": "#534AB7"
+      "color": "#993556"
     },
     {
       "label": "610021 - MCOM Medical Engineering",
       "count": 1,
-      "color": "#993556"
+      "color": "#006747"
     },
     {
       "label": "641200 - COPH Acad and Student Affairs",
       "count": 1,
-      "color": "#006747"
+      "color": "#1B6A9C"
     },
     {
       "label": "213400 - Inst Of Applied Engineering",
       "count": 1,
-      "color": "#1B6A9C"
+      "color": "#00A693"
     },
     {
       "label": "043500 - Housing & Residential ED",
       "count": 1,
-      "color": "#00A693"
+      "color": "#CFC483"
     },
     {
       "label": "612900 - Dept Of Neurosurgery & Brain Repair",
       "count": 1,
-      "color": "#CFC483"
+      "color": "#7A9EB5"
     },
     {
       "label": "612337 - Heart Institute - Internal Medicine",
       "count": 1,
-      "color": "#7A9EB5"
+      "color": "#5B7A8A"
     },
     {
       "label": "025102 - Physical Security",
       "count": 1,
-      "color": "#5B7A8A"
+      "color": "#534AB7"
     },
     {
       "label": "638000 - College Of Pharmacy Dean'S Off",
       "count": 1,
-      "color": "#534AB7"
+      "color": "#993556"
     },
     {
       "label": "614400 - Molecular Medicine",
       "count": 1,
-      "color": "#993556"
+      "color": "#006747"
     },
     {
       "label": "615500 - Center for Aging-Neuroscience",
       "count": 1,
-      "color": "#006747"
+      "color": "#1B6A9C"
     },
     {
       "label": "613400 - Dept Of Dermatology & Cutaneous Surgery",
       "count": 1,
-      "color": "#1B6A9C"
+      "color": "#00A693"
     },
     {
       "label": "210100 - College Of Engineering - Dean",
       "count": 1,
-      "color": "#00A693"
+      "color": "#CFC483"
     },
     {
       "label": "STP Arts And Sciences - Dean",
       "count": 1,
-      "color": "#CFC483"
+      "color": "#7A9EB5"
     },
     {
       "label": "STP Academic Affairs",
       "count": 1,
-      "color": "#7A9EB5"
+      "color": "#5B7A8A"
     },
     {
       "label": "380000 - Undergrad Stds-Deans Ofc Opera",
       "count": 1,
-      "color": "#5B7A8A"
+      "color": "#534AB7"
     },
     {
       "label": "STP Regional Chancellor",
       "count": 1,
-      "color": "#534AB7"
+      "color": "#993556"
     },
     {
       "label": "388200 - UGS - Academic Advocacy",
       "count": 1,
-      "color": "#993556"
+      "color": "#006747"
     },
     {
       "label": "Inst For School Comm Partnership",
       "count": 1,
-      "color": "#006747"
+      "color": "#1B6A9C"
     },
     {
       "label": "042700 - Marshall Student Center",
       "count": 1,
-      "color": "#1B6A9C"
+      "color": "#00A693"
     },
     {
       "label": "STP Parking Services",
       "count": 1,
-      "color": "#00A693"
+      "color": "#CFC483"
     },
     {
       "label": "STP Secondary Education",
       "count": 1,
-      "color": "#CFC483"
+      "color": "#7A9EB5"
     },
     {
       "label": "510700 - STP Counseling Center",
       "count": 1,
-      "color": "#7A9EB5"
+      "color": "#5B7A8A"
     },
     {
       "label": "490100 - EA Overseas Study Program",
       "count": 1,
-      "color": "#5B7A8A"
+      "color": "#534AB7"
     },
     {
       "label": "410000 - Office Of Decision Support",
       "count": 1,
-      "color": "#534AB7"
+      "color": "#993556"
     },
     {
       "label": "174400 - Fla Ctr For Instr Technology",
       "count": 1,
-      "color": "#993556"
+      "color": "#006747"
     },
     {
       "label": "390000 - Graduate Studies",
       "count": 1,
-      "color": "#006747"
+      "color": "#1B6A9C"
     },
     {
       "label": "410200 - Academic Planning/Institutional Effectiveness",
       "count": 1,
-      "color": "#1B6A9C"
+      "color": "#00A693"
     },
     {
       "label": "010100 - Office of the President",
       "count": 1,
-      "color": "#00A693"
+      "color": "#CFC483"
     }
   ],
   "recruiters": [
@@ -735,11 +740,21 @@
       "bgLight": "#e3f2fd",
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
-      "reqs": 79,
+      "reqs": 81,
       "filled": 0,
       "failed": 2,
-      "ttf": 59,
+      "ttf": 57,
       "statuses": [
+        {
+          "label": "Recruiter Review (WIP)",
+          "count": 12,
+          "color": "#185FA5"
+        },
+        {
+          "label": "Targeted",
+          "count": 6,
+          "color": "#888780"
+        },
         {
           "label": "Student Hiring",
           "count": 9,
@@ -751,19 +766,14 @@
           "color": "#534AB7"
         },
         {
-          "label": "Recruiter Review (WIP)",
-          "count": 12,
-          "color": "#185FA5"
+          "label": "HM Review",
+          "count": 14,
+          "color": "#993556"
         },
         {
           "label": "Pre-boarding",
           "count": 19,
           "color": "#888780"
-        },
-        {
-          "label": "HM Review",
-          "count": 13,
-          "color": "#993556"
         },
         {
           "label": "Interview Stage",
@@ -774,11 +784,6 @@
           "label": "Offer Stage",
           "count": 2,
           "color": "#0F6E56"
-        },
-        {
-          "label": "Targeted",
-          "count": 5,
-          "color": "#888780"
         }
       ],
       "aging": [
@@ -801,13 +806,13 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 0
+          "count": 1
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 63
+          "count": 65
         },
         {
           "label": "Screened",
@@ -815,7 +820,7 @@
         },
         {
           "label": "HM Review",
-          "count": 13
+          "count": 14
         },
         {
           "label": "Interviews",
@@ -835,30 +840,30 @@
         },
         {
           "label": "Time to fill",
-          "value": 59,
+          "value": 57,
           "target": 40,
           "invert": true
         },
         {
           "label": "Screened",
           "value": 0,
-          "target": 79,
+          "target": 81,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 2,
-          "target": 79,
+          "target": 81,
           "invert": false
         }
       ],
       "trend": [
-        59,
-        59,
-        59,
-        59,
-        59,
-        59
+        57,
+        57,
+        57,
+        57,
+        57,
+        57
       ]
     },
     {
