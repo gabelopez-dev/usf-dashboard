@@ -313,6 +313,7 @@ function renderRecruiterPage(r) {
 
   html += `<div class="kpi-row">
     <div class="kpi"><div class="kpi-label">Total Reqs</div><div class="kpi-val">${r.reqs}</div><div class="kpi-sub">all assigned</div></div>
+    <div class="kpi"><div class="kpi-label">WIP ✅</div><div class="kpi-val kpi-val-blue">${r.wip || 0}</div><div class="kpi-sub">actively worked</div></div>
     <div class="kpi"><div class="kpi-label">Filled</div><div class="kpi-val kpi-val-green">${r.filled || 0}</div><div class="kpi-sub">hired</div></div>
     <div class="kpi"><div class="kpi-label">Failed</div><div class="kpi-val kpi-val-red">${r.failed || 0}</div><div class="kpi-sub">canceled/no hire</div></div>
     <div class="kpi"><div class="kpi-label">Avg Time to Fill</div><div class="kpi-val kpi-val-amber">${r.ttf || 0}d</div><div class="kpi-sub">days</div></div>
