@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-06T16:37:35.085Z",
+  "lastUpdated": "2026-07-06T17:49:45.101Z",
   "summary": {
     "openReqs": 399,
-    "avgTimeToFill": 82,
+    "avgTimeToFill": 80,
     "filledYTD": 10,
     "failedCancelled": 3,
     "inOfferStage": 8
@@ -45,7 +45,7 @@
     },
     {
       "label": "HM Review",
-      "count": 46
+      "count": 88
     },
     {
       "label": "Interviews",
@@ -62,7 +62,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 30
+      "count": 28
     },
     {
       "label": "🟡 3-5",
@@ -82,7 +82,7 @@
   "reqType": [
     {
       "label": "Standard",
-      "count": 301,
+      "count": 309,
       "color": "#006747"
     },
     {
@@ -102,7 +102,7 @@
     },
     {
       "label": "Evergreen",
-      "count": 7,
+      "count": 13,
       "color": "#7A9EB5"
     }
   ],
@@ -599,7 +599,7 @@
       "reqs": 246,
       "filled": 0,
       "failed": 1,
-      "ttf": 96,
+      "ttf": 93,
       "statuses": [
         {
           "label": "Student Hiring",
@@ -608,7 +608,7 @@
         },
         {
           "label": "HM Review",
-          "count": 23,
+          "count": 64,
           "color": "#993556"
         },
         {
@@ -618,7 +618,7 @@
         },
         {
           "label": "Recruiter Review (WIP)",
-          "count": 203,
+          "count": 162,
           "color": "#185FA5"
         },
         {
@@ -643,7 +643,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 1
+          "count": 0
         },
         {
           "label": "🟡 3-5",
@@ -671,7 +671,7 @@
         },
         {
           "label": "HM Review",
-          "count": 23
+          "count": 64
         },
         {
           "label": "Interviews",
@@ -691,7 +691,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 96,
+          "value": 93,
           "target": 40,
           "invert": true
         },
@@ -709,12 +709,12 @@
         }
       ],
       "trend": [
-        96,
-        96,
-        96,
-        96,
-        96,
-        96
+        93,
+        93,
+        93,
+        93,
+        93,
+        93
       ]
     },
     {
@@ -862,7 +862,7 @@
       "reqs": 100,
       "filled": 10,
       "failed": 0,
-      "ttf": 67,
+      "ttf": 68,
       "statuses": [
         {
           "label": "Pre-boarding",
@@ -871,22 +871,22 @@
         },
         {
           "label": "Faculty",
-          "count": 11,
+          "count": 12,
           "color": "#534AB7"
         },
         {
           "label": "Sourced",
-          "count": 9,
+          "count": 7,
           "color": "#3B6D11"
         },
         {
           "label": "Student Hiring",
-          "count": 6,
+          "count": 9,
           "color": "#0F6E56"
         },
         {
           "label": "Backlog",
-          "count": 4,
+          "count": 1,
           "color": "#888780"
         },
         {
@@ -896,7 +896,7 @@
         },
         {
           "label": "HM Review",
-          "count": 9,
+          "count": 10,
           "color": "#993556"
         },
         {
@@ -921,7 +921,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 23
+          "count": 22
         },
         {
           "label": "🟡 3-5",
@@ -949,7 +949,7 @@
         },
         {
           "label": "HM Review",
-          "count": 9
+          "count": 10
         },
         {
           "label": "Interviews",
@@ -969,7 +969,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 67,
+          "value": 68,
           "target": 40,
           "invert": true
         },
@@ -987,12 +987,12 @@
         }
       ],
       "trend": [
-        67,
-        67,
-        67,
-        67,
-        67,
-        67
+        68,
+        68,
+        68,
+        68,
+        68,
+        68
       ]
     },
     {
