@@ -192,9 +192,9 @@ async function main() {
   ];
 
   // Helper to match aging band values regardless of dash type (en-dash vs hyphen)
-  // and skip N/A or null values from Notion formula
+  // and skip N/A, "-", or null values from Notion formula
   function matchAgingBand(recordValue, bandLabel) {
-    if (!recordValue || recordValue === 'N/A') return false;
+    if (!recordValue || recordValue === 'N/A' || recordValue === '-') return false;
     // Normalize both to plain hyphen for comparison
     const normalize = s => s.replace(/–/g, '-').trim();
     return normalize(recordValue) === normalize(bandLabel);
