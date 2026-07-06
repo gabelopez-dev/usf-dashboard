@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T18:16:16.835Z",
+  "lastUpdated": "2026-07-06T18:57:19.769Z",
   "summary": {
     "openReqs": 388,
     "avgTimeToFill": 80,
@@ -36,23 +36,43 @@
   ],
   "mainFunnel": [
     {
-      "label": "Posted",
-      "count": 388
-    },
-    {
-      "label": "Screened",
-      "count": 0
-    },
-    {
       "label": "HM Review",
       "count": 245
     },
     {
-      "label": "Interviews",
+      "label": "Recruiter Review (WIP)",
+      "count": 36
+    },
+    {
+      "label": "Pre-boarding",
+      "count": 26
+    },
+    {
+      "label": "Student Hiring",
+      "count": 19
+    },
+    {
+      "label": "Faculty",
+      "count": 14
+    },
+    {
+      "label": "Targeted",
+      "count": 12
+    },
+    {
+      "label": "Backlog",
+      "count": 12
+    },
+    {
+      "label": "Interview Stage",
       "count": 9
     },
     {
-      "label": "Offer",
+      "label": "Sourced",
+      "count": 8
+    },
+    {
+      "label": "Offer Stage",
       "count": 7
     }
   ],
@@ -486,6 +506,7 @@
       "filled": 0,
       "failed": 0,
       "ttf": 51,
+      "wip": 5,
       "statuses": [
         {
           "label": "Recruiter Review (WIP)",
@@ -600,6 +621,7 @@
       "filled": 0,
       "failed": 1,
       "ttf": 93,
+      "wip": 2,
       "statuses": [
         {
           "label": "HM Review",
@@ -719,6 +741,7 @@
       "filled": 0,
       "failed": 2,
       "ttf": 57,
+      "wip": 9,
       "statuses": [
         {
           "label": "Recruiter Review (WIP)",
@@ -853,6 +876,7 @@
       "filled": 10,
       "failed": 0,
       "ttf": 68,
+      "wip": 8,
       "statuses": [
         {
           "label": "Pre-boarding",
@@ -997,6 +1021,7 @@
       "filled": 0,
       "failed": 0,
       "ttf": 0,
+      "wip": 0,
       "statuses": [],
       "aging": [
         {
