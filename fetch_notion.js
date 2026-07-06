@@ -252,6 +252,7 @@ async function main() {
       campus: meta.campus,
       reqs: allMyRecs.length,
       filled, failed, ttf: avgTTF,
+      wip: allMyRecs.filter(r => getProp(r, 'WIP ✅', 'checkbox') === true).length,
       statuses, aging, funnel,
       goals: [
         { label: 'Reqs filled', value: filled, target: 10, invert: false },
@@ -329,13 +330,17 @@ async function main() {
       count: activeRecords.filter(r => getProp(r, 'Campus', 'select') === label).length,
       color
     })),
-    mainFunnel: [
-      { label: 'Posted', count: activeRecords.length },
-      { label: 'Screened', count: activeRecords.filter(r => getProp(r, 'Stage', 'select') === 'Screened').length },
-      { label: 'HM Review', count: activeRecords.filter(r => getProp(r, 'Stage', 'select') === 'HM Review').length },
-      { label: 'Interviews', count: activeRecords.filter(r => getProp(r, 'Stage', 'select') === 'Interview Stage').length },
-      { label: 'Offer', count: activeRecords.filter(r => getProp(r, 'Stage', 'select') === 'Offer Stage').length }
-    ],
+    // Dynamic funnel - shows ALL stages that have active reqs, sorted by count descending
+    // This way Pre-boarding, Recruiter Review, Sourced etc. are all visible
+    mainFunnel: Object.entries(
+      activeRecords.reduce((acc, r) => {
+        const stage = getProp(r, 'Stage', 'select') || 'No Stage';
+        acc[stage] = (acc[stage] || 0) + 1;
+        return acc;
+      }, {})
+    )
+    .sort((a, b) => b[1] - a[1])
+    .map(([label, count]) => ({ label, count })),
     mainAging: agingBands.map(band => ({
       ...band,
       count: activeRecords.filter(r => matchAgingBand(getProp(r, 'Aging Band', 'formula_text'), band.label)).length
