@@ -191,6 +191,15 @@ async function main() {
     { label: '🟢 0–2', color: '#3B6D11', bgLight: '#EAF3DE', bgDark: '#1a3309' }
   ];
 
+  // Helper to match aging band values regardless of dash type (en-dash vs hyphen)
+  // and skip N/A or null values from Notion formula
+  function matchAgingBand(recordValue, bandLabel) {
+    if (!recordValue || recordValue === 'N/A') return false;
+    // Normalize both to plain hyphen for comparison
+    const normalize = s => s.replace(/–/g, '-').trim();
+    return normalize(recordValue) === normalize(bandLabel);
+  }
+
   const recruiters = recruiterNames.map(name => {
     const meta = recruiterMeta[name];
     const identifiers = recruiterIdentifiers[name];
@@ -218,7 +227,7 @@ async function main() {
 
     const aging = agingBands.map(band => ({
       ...band,
-      count: myActive.filter(r => getProp(r, 'Aging Band', 'formula_text') === band.label).length
+      count: myActive.filter(r => matchAgingBand(getProp(r, 'Aging Band', 'formula_text'), band.label)).length
     }));
 
     const ttfValues = allMyRecs
@@ -293,14 +302,13 @@ async function main() {
 
   console.log('Req Type breakdown:', JSON.stringify(reqTypeBreakdown));
   // DEBUG: verify formula fields are being read correctly
-  const sampleAging = activeRecords.slice(0, 3).map(r => getProp(r, 'Aging Band', 'formula_text'));
-  const sampleTTF = records.slice(0, 3).map(r => getProp(r, 'Time to Fill (Days)', 'formula_number'));
-  console.log('Sample Aging Band values:', JSON.stringify(sampleAging));
-  console.log('Sample Time to Fill values:', JSON.stringify(sampleTTF));
-  // DEBUG: show raw Aging Band property to find correct API shape
-  if (sampleAging.every(v => v === null) && activeRecords.length > 0) {
-    console.log('DEBUG raw Aging Band property:', JSON.stringify(activeRecords[0].properties?.['Aging Band']));
-  }
+  const sampleAging = activeRecords.slice(0, 5).map(r => getProp(r, 'Aging Band', 'formula_text'));
+  console.log('Sample Aging Band values (raw):', JSON.stringify(sampleAging));
+  const agingCounts = agingBands.map(b => ({
+    band: b.label,
+    count: activeRecords.filter(r => matchAgingBand(getProp(r, 'Aging Band', 'formula_text'), b.label)).length
+  }));
+  console.log('Aging band counts:', JSON.stringify(agingCounts));
   console.log('Department breakdown:', JSON.stringify(deptBreakdown));
   // DEBUG: if breakdown is empty, show the raw property so we can see its actual shape
   if (deptBreakdown.length === 0 && records.length > 0) {
@@ -330,7 +338,7 @@ async function main() {
     ],
     mainAging: agingBands.map(band => ({
       ...band,
-      count: activeRecords.filter(r => getProp(r, 'Aging Band', 'formula_text') === band.label).length
+      count: activeRecords.filter(r => matchAgingBand(getProp(r, 'Aging Band', 'formula_text'), band.label)).length
     })),
     reqType: reqTypeBreakdown,
     department: deptBreakdown,
