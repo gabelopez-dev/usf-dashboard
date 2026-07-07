@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-07-07T11:10:03.089Z",
+  "lastUpdated": "2026-07-07T13:35:13.596Z",
   "summary": {
-    "openReqs": 388,
+    "openReqs": 384,
     "avgTimeToFill": 81,
     "filledYTD": 10,
     "failedCancelled": 3,
-    "inOfferStage": 7
+    "inOfferStage": 6
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 116,
+      "count": 112,
       "color": "#1B6A9C"
     },
     {
@@ -37,15 +37,15 @@
   "mainFunnel": [
     {
       "label": "HM Review",
-      "count": 245
+      "count": 246
     },
     {
       "label": "Recruiter Review (WIP)",
-      "count": 36
+      "count": 33
     },
     {
       "label": "Pre-boarding",
-      "count": 26
+      "count": 23
     },
     {
       "label": "Student Hiring",
@@ -65,7 +65,7 @@
     },
     {
       "label": "Interview Stage",
-      "count": 9
+      "count": 11
     },
     {
       "label": "Sourced",
@@ -73,7 +73,7 @@
     },
     {
       "label": "Offer Stage",
-      "count": 7
+      "count": 6
     }
   ],
   "mainAging": [
@@ -82,7 +82,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 29
+      "count": 28
     },
     {
       "label": "🟡 3-5",
@@ -96,13 +96,13 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 2
+      "count": 3
     }
   ],
   "reqType": [
     {
       "label": "Standard",
-      "count": 303,
+      "count": 299,
       "color": "#006747"
     },
     {
@@ -183,87 +183,87 @@
       "color": "#00A693"
     },
     {
-      "label": "066200 - WUSF-FM",
-      "count": 4,
-      "color": "#CFC483"
-    },
-    {
       "label": "027900 - Procurement & Payment Services",
       "count": 4,
-      "color": "#7A9EB5"
+      "color": "#CFC483"
     },
     {
       "label": "Florida Inst of Oceanography",
       "count": 4,
-      "color": "#5B7A8A"
+      "color": "#7A9EB5"
     },
     {
       "label": "041500 - Counseling Center",
       "count": 3,
-      "color": "#534AB7"
+      "color": "#5B7A8A"
     },
     {
       "label": "612000 - Department Of Surgery",
       "count": 3,
-      "color": "#993556"
+      "color": "#534AB7"
     },
     {
       "label": "611700 - Department Of Family Medicine",
       "count": 3,
-      "color": "#006747"
-    },
-    {
-      "label": "260000 - Honors College",
-      "count": 3,
-      "color": "#1B6A9C"
+      "color": "#993556"
     },
     {
       "label": "210800 - AICC Bellini College Department",
       "count": 3,
-      "color": "#00A693"
+      "color": "#006747"
+    },
+    {
+      "label": "066200 - WUSF-FM",
+      "count": 3,
+      "color": "#1B6A9C"
     },
     {
       "label": "391000 - Fl Center For Cybersecurity",
       "count": 3,
-      "color": "#CFC483"
+      "color": "#00A693"
     },
     {
       "label": "514900 - STP Public Safety",
       "count": 3,
-      "color": "#7A9EB5"
+      "color": "#CFC483"
     },
     {
       "label": "032100 - Academic Human Resources",
       "count": 2,
-      "color": "#5B7A8A"
+      "color": "#7A9EB5"
     },
     {
       "label": "032000 - Central Human Resources",
       "count": 2,
-      "color": "#534AB7"
+      "color": "#5B7A8A"
     },
     {
       "label": "521800 - SAR Student Services",
       "count": 2,
-      "color": "#993556"
+      "color": "#534AB7"
     },
     {
       "label": "612300 - Dept Of Internal Medicine",
       "count": 2,
-      "color": "#006747"
+      "color": "#993556"
     },
     {
       "label": "614300 - Molecular Pharm & Physiology",
       "count": 2,
-      "color": "#1B6A9C"
+      "color": "#006747"
     },
     {
       "label": "600100 - Health Sciences Center VP",
       "count": 2,
-      "color": "#00A693"
+      "color": "#1B6A9C"
     },
     {
       "label": "600105 - Health Sciences Center Research",
+      "count": 2,
+      "color": "#00A693"
+    },
+    {
+      "label": "260000 - Honors College",
       "count": 2,
       "color": "#CFC483"
     },
@@ -473,24 +473,14 @@
       "color": "#7A9EB5"
     },
     {
-      "label": "174400 - Fla Ctr For Instr Technology",
+      "label": "410200 - Academic Planning/Institutional Effectiveness",
       "count": 1,
       "color": "#5B7A8A"
     },
     {
-      "label": "390000 - Graduate Studies",
-      "count": 1,
-      "color": "#534AB7"
-    },
-    {
-      "label": "410200 - Academic Planning/Institutional Effectiveness",
-      "count": 1,
-      "color": "#993556"
-    },
-    {
       "label": "010100 - Office of the President",
       "count": 1,
-      "color": "#006747"
+      "color": "#534AB7"
     }
   ],
   "recruiters": [
@@ -745,7 +735,7 @@
       "statuses": [
         {
           "label": "Recruiter Review (WIP)",
-          "count": 11,
+          "count": 8,
           "color": "#185FA5"
         },
         {
@@ -765,23 +755,18 @@
         },
         {
           "label": "HM Review",
-          "count": 14,
+          "count": 16,
           "color": "#993556"
         },
         {
           "label": "Interview Stage",
-          "count": 3,
+          "count": 4,
           "color": "#534AB7"
         },
         {
           "label": "Pre-boarding",
-          "count": 21,
+          "count": 18,
           "color": "#888780"
-        },
-        {
-          "label": "Offer Stage",
-          "count": 1,
-          "color": "#0F6E56"
         }
       ],
       "aging": [
@@ -810,7 +795,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 63
+          "count": 59
         },
         {
           "label": "Screened",
@@ -818,15 +803,15 @@
         },
         {
           "label": "HM Review",
-          "count": 14
+          "count": 16
         },
         {
           "label": "Interviews",
-          "count": 3
+          "count": 4
         },
         {
           "label": "Offer",
-          "count": 1
+          "count": 0
         }
       ],
       "goals": [
@@ -850,7 +835,7 @@
         },
         {
           "label": "Interviews",
-          "value": 3,
+          "value": 4,
           "target": 81,
           "invert": false
         }
@@ -910,7 +895,7 @@
         },
         {
           "label": "HM Review",
-          "count": 10,
+          "count": 9,
           "color": "#993556"
         },
         {
@@ -919,14 +904,14 @@
           "color": "#0F6E56"
         },
         {
+          "label": "Interview Stage",
+          "count": 6,
+          "color": "#534AB7"
+        },
+        {
           "label": "Recruiter Review (WIP)",
           "count": 5,
           "color": "#185FA5"
-        },
-        {
-          "label": "Interview Stage",
-          "count": 5,
-          "color": "#534AB7"
         }
       ],
       "aging": [
@@ -935,7 +920,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 23
+          "count": 22
         },
         {
           "label": "🟡 3-5",
@@ -949,7 +934,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 1
+          "count": 2
         }
       ],
       "funnel": [
@@ -963,11 +948,11 @@
         },
         {
           "label": "HM Review",
-          "count": 10
+          "count": 9
         },
         {
           "label": "Interviews",
-          "count": 5
+          "count": 6
         },
         {
           "label": "Offer",
@@ -995,7 +980,7 @@
         },
         {
           "label": "Interviews",
-          "value": 5,
+          "value": 6,
           "target": 100,
           "invert": false
         }
