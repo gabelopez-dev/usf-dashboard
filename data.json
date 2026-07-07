@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T19:04:15.391Z",
+  "lastUpdated": "2026-07-07T21:06:40.046Z",
   "summary": {
     "openReqs": 415,
     "avgTimeToFill": 78,
@@ -37,11 +37,11 @@
   "mainFunnel": [
     {
       "label": "HM Review",
-      "count": 251
+      "count": 252
     },
     {
       "label": "Recruiter Review (WIP)",
-      "count": 42
+      "count": 41
     },
     {
       "label": "Backlog",
@@ -82,7 +82,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 31
+      "count": 30
     },
     {
       "label": "🟡 3-5",
@@ -96,7 +96,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 20
+      "count": 21
     }
   ],
   "reqType": [
@@ -986,7 +986,7 @@
       "filled": 10,
       "failed": 0,
       "ttf": 68,
-      "wip": 7,
+      "wip": 6,
       "statuses": [
         {
           "label": "Backlog",
@@ -995,7 +995,7 @@
         },
         {
           "label": "HM Review",
-          "count": 9,
+          "count": 10,
           "color": "#993556"
         },
         {
@@ -1035,7 +1035,7 @@
         },
         {
           "label": "Recruiter Review (WIP)",
-          "count": 5,
+          "count": 4,
           "color": "#185FA5"
         }
       ],
@@ -1045,7 +1045,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 20
+          "count": 19
         },
         {
           "label": "🟡 3-5",
@@ -1059,7 +1059,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 5
+          "count": 6
         }
       ],
       "funnel": [
@@ -1073,7 +1073,7 @@
         },
         {
           "label": "HM Review",
-          "count": 9
+          "count": 10
         },
         {
           "label": "Interviews",
