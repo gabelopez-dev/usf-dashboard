@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-07-08T11:23:21.665Z",
+  "lastUpdated": "2026-07-08T13:06:45.284Z",
   "summary": {
     "openReqs": 415,
     "avgTimeToFill": 79,
     "filledYTD": 10,
     "failedCancelled": 5,
-    "inOfferStage": 8
+    "inOfferStage": 10
   },
   "campus": [
     {
@@ -37,7 +37,7 @@
   "mainFunnel": [
     {
       "label": "HM Review",
-      "count": 252
+      "count": 251
     },
     {
       "label": "Recruiter Review (WIP)",
@@ -57,22 +57,22 @@
     },
     {
       "label": "Faculty",
-      "count": 14
-    },
-    {
-      "label": "Targeted",
-      "count": 12
+      "count": 13
     },
     {
       "label": "Interview Stage",
+      "count": 12
+    },
+    {
+      "label": "Targeted",
       "count": 11
     },
     {
-      "label": "Sourced",
-      "count": 8
+      "label": "Offer Stage",
+      "count": 10
     },
     {
-      "label": "Offer Stage",
+      "label": "Sourced",
       "count": 8
     }
   ],
@@ -865,7 +865,7 @@
         },
         {
           "label": "Targeted",
-          "count": 3,
+          "count": 2,
           "color": "#888780"
         },
         {
@@ -874,18 +874,18 @@
           "color": "#0F6E56"
         },
         {
-          "label": "Faculty",
-          "count": 1,
-          "color": "#534AB7"
+          "label": "Offer Stage",
+          "count": 2,
+          "color": "#0F6E56"
         },
         {
           "label": "HM Review",
-          "count": 16,
+          "count": 15,
           "color": "#993556"
         },
         {
           "label": "Interview Stage",
-          "count": 4,
+          "count": 5,
           "color": "#534AB7"
         },
         {
@@ -928,15 +928,15 @@
         },
         {
           "label": "HM Review",
-          "count": 16
+          "count": 15
         },
         {
           "label": "Interviews",
-          "count": 4
+          "count": 5
         },
         {
           "label": "Offer",
-          "count": 0
+          "count": 2
         }
       ],
       "goals": [
@@ -960,7 +960,7 @@
         },
         {
           "label": "Interviews",
-          "value": 4,
+          "value": 5,
           "target": 81,
           "invert": false
         }
