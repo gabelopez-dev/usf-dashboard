@@ -148,7 +148,7 @@ async function main() {
   // Active statuses - kept "Open"/"Active" as harmless legacy entries in case
   // any rows still carry those values during the Katherine/Gabriel migration
   const activeStatuses = [
-    'Recruiter Review (WIP)', 'Sourced', 'Screened', 'HM Review',
+    'Recruiter Review', 'Sourced', 'Screened', 'HM Review',
     'Interview Stage', 'Offer Stage', 'Pre-boarding', 'Backlog',
     'Targeted', 'Posted', 'Active (WIP)', 'Student Hiring', 'Faculty',
     'Open', 'Active'
@@ -179,7 +179,7 @@ async function main() {
   };
 
   const statusColors = {
-    'Recruiter Review (WIP)': '#185FA5', 'Sourced': '#3B6D11', 'Screened': '#BA7517',
+    'Recruiter Review': '#185FA5', 'Sourced': '#3B6D11', 'Screened': '#BA7517',
     'HM Review': '#993556', 'Interview Stage': '#534AB7', 'Offer Stage': '#0F6E56',
     'Pre-boarding': '#888780', 'Backlog': '#888780', 'Targeted': '#888780',
     'Student Hiring': '#0F6E56', 'Faculty': '#534AB7'
