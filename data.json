@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-07-08T15:42:10.618Z",
+  "lastUpdated": "2026-07-08T17:39:46.406Z",
   "summary": {
     "openReqs": 377,
     "avgTimeToFill": 78,
     "filledYTD": 10,
     "failedCancelled": 5,
-    "inOfferStage": 13
+    "inOfferStage": 14
   },
   "campus": [
     {
@@ -53,7 +53,7 @@
     },
     {
       "label": "Offer Stage",
-      "count": 13
+      "count": 14
     },
     {
       "label": "Faculty",
@@ -61,7 +61,7 @@
     },
     {
       "label": "Interview Stage",
-      "count": 13
+      "count": 12
     },
     {
       "label": "Targeted",
@@ -878,11 +878,11 @@
       "bgLight": "#e6f2ed",
       "bgDark": "#042e24",
       "campus": "St Pete / Tampa",
-      "reqs": 112,
+      "reqs": 113,
       "filled": 9,
       "failed": 0,
-      "ttf": 69,
-      "wip": 2,
+      "ttf": 68,
+      "wip": 3,
       "statuses": [
         {
           "label": "Backlog",
@@ -891,7 +891,7 @@
         },
         {
           "label": "Interview Stage",
-          "count": 7,
+          "count": 6,
           "color": "#534AB7"
         },
         {
@@ -926,7 +926,7 @@
         },
         {
           "label": "Offer Stage",
-          "count": 7,
+          "count": 8,
           "color": "#0F6E56"
         }
       ],
@@ -968,11 +968,11 @@
         },
         {
           "label": "Interviews",
-          "count": 7
+          "count": 6
         },
         {
           "label": "Offer",
-          "count": 7
+          "count": 8
         }
       ],
       "goals": [
@@ -984,30 +984,30 @@
         },
         {
           "label": "Time to fill",
-          "value": 69,
+          "value": 68,
           "target": 40,
           "invert": true
         },
         {
           "label": "Screened",
           "value": 0,
-          "target": 112,
+          "target": 113,
           "invert": false
         },
         {
           "label": "Interviews",
-          "value": 7,
-          "target": 112,
+          "value": 6,
+          "target": 113,
           "invert": false
         }
       ],
       "trend": [
-        69,
-        69,
-        69,
-        69,
-        69,
-        69
+        68,
+        68,
+        68,
+        68,
+        68,
+        68
       ]
     },
     {
