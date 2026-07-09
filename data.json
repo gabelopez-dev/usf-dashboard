@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-07-09T17:58:31.163Z",
+  "lastUpdated": "2026-07-09T19:58:11.218Z",
   "summary": {
-    "openReqs": 435,
+    "openReqs": 431,
     "avgTimeToFill": 79,
     "filledYTD": 8,
-    "failedCancelled": 7,
-    "inOfferStage": 14
+    "failedCancelled": 8,
+    "inOfferStage": 16
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 158,
+      "count": 157,
       "color": "#1B6A9C"
     },
     {
@@ -37,7 +37,7 @@
   "mainFunnel": [
     {
       "label": "HM Review",
-      "count": 252
+      "count": 251
     },
     {
       "label": "Recruiter Review",
@@ -49,7 +49,7 @@
     },
     {
       "label": "Pre-boarding",
-      "count": 21
+      "count": 20
     },
     {
       "label": "Backlog",
@@ -57,15 +57,15 @@
     },
     {
       "label": "Interview Stage",
-      "count": 17
-    },
-    {
-      "label": "Faculty",
       "count": 16
     },
     {
       "label": "Offer Stage",
-      "count": 14
+      "count": 16
+    },
+    {
+      "label": "Faculty",
+      "count": 16
     },
     {
       "label": "Targeted",
@@ -73,7 +73,7 @@
     },
     {
       "label": "Sourced",
-      "count": 7
+      "count": 4
     }
   ],
   "mainAging": [
@@ -82,7 +82,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 30
+      "count": 24
     },
     {
       "label": "🟡 3-5",
@@ -96,13 +96,13 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 28
+      "count": 30
     }
   ],
   "reqType": [
     {
       "label": "Standard",
-      "count": 339,
+      "count": 335,
       "color": "#006747"
     },
     {
@@ -134,7 +134,7 @@
     },
     {
       "label": "College of Education ",
-      "count": 23,
+      "count": 22,
       "color": "#1B6A9C"
     },
     {
@@ -178,67 +178,67 @@
       "color": "#1B6A9C"
     },
     {
-      "label": "177500 - Inst For School Comm Partnersh",
-      "count": 6,
-      "color": "#00A693"
-    },
-    {
       "label": "490000 - USF World",
       "count": 5,
-      "color": "#CFC483"
+      "color": "#00A693"
     },
     {
       "label": "027900 - Procurement & Payment Services",
       "count": 5,
-      "color": "#7A9EB5"
+      "color": "#CFC483"
     },
     {
       "label": "460100 - Innovative Education",
       "count": 5,
-      "color": "#5B7A8A"
+      "color": "#7A9EB5"
     },
     {
       "label": "611900 - Department Of Pediatrics",
       "count": 4,
-      "color": "#534AB7"
+      "color": "#5B7A8A"
     },
     {
       "label": "Florida Inst of Oceanography",
       "count": 4,
-      "color": "#993556"
+      "color": "#534AB7"
     },
     {
       "label": "045000 - Campus Recreation",
       "count": 3,
-      "color": "#006747"
+      "color": "#993556"
     },
     {
       "label": "080000 - SG Branches And Agencies",
       "count": 3,
-      "color": "#1B6A9C"
+      "color": "#006747"
     },
     {
       "label": "MUMA",
       "count": 3,
-      "color": "#00A693"
+      "color": "#1B6A9C"
     },
     {
       "label": "612000 - Department Of Surgery",
       "count": 3,
-      "color": "#CFC483"
+      "color": "#00A693"
     },
     {
       "label": "611700 - Department Of Family Medicine",
       "count": 3,
-      "color": "#7A9EB5"
+      "color": "#CFC483"
     },
     {
       "label": "210800 - AICC Bellini College Department",
       "count": 3,
-      "color": "#5B7A8A"
+      "color": "#7A9EB5"
     },
     {
       "label": "391000 - Fl Center For Cybersecurity",
+      "count": 3,
+      "color": "#5B7A8A"
+    },
+    {
+      "label": "177500 - Inst For School Comm Partnersh",
       "count": 3,
       "color": "#534AB7"
     },
@@ -979,9 +979,9 @@
       "campus": "St Pete / Tampa",
       "reqs": 116,
       "filled": 6,
-      "failed": 0,
-      "ttf": 65,
-      "wip": 8,
+      "failed": 1,
+      "ttf": 64,
+      "wip": 7,
       "statuses": [
         {
           "label": "Backlog",
@@ -1010,27 +1010,27 @@
         },
         {
           "label": "Interview Stage",
-          "count": 7,
+          "count": 6,
           "color": "#534AB7"
         },
         {
           "label": "HM Review",
-          "count": 11,
+          "count": 10,
           "color": "#993556"
         },
         {
           "label": "Sourced",
-          "count": 6,
+          "count": 3,
           "color": "#3B6D11"
         },
         {
           "label": "Pre-boarding",
-          "count": 4,
+          "count": 3,
           "color": "#888780"
         },
         {
           "label": "Offer Stage",
-          "count": 8,
+          "count": 10,
           "color": "#0F6E56"
         }
       ],
@@ -1040,7 +1040,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 13
+          "count": 7
         },
         {
           "label": "🟡 3-5",
@@ -1054,13 +1054,13 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 15
+          "count": 17
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 84
+          "count": 80
         },
         {
           "label": "Screened",
@@ -1068,15 +1068,15 @@
         },
         {
           "label": "HM Review",
-          "count": 11
+          "count": 10
         },
         {
           "label": "Interviews",
-          "count": 7
+          "count": 6
         },
         {
           "label": "Offer",
-          "count": 8
+          "count": 10
         }
       ],
       "goals": [
@@ -1088,7 +1088,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 65,
+          "value": 64,
           "target": 40,
           "invert": true
         },
@@ -1100,18 +1100,18 @@
         },
         {
           "label": "Interviews",
-          "value": 7,
+          "value": 6,
           "target": 116,
           "invert": false
         }
       ],
       "trend": [
-        65,
-        65,
-        65,
-        65,
-        65,
-        65
+        64,
+        64,
+        64,
+        64,
+        64,
+        64
       ]
     },
     {
