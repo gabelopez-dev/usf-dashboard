@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-09T15:40:57.834Z",
+  "lastUpdated": "2026-07-09T17:58:31.163Z",
   "summary": {
-    "openReqs": 437,
-    "avgTimeToFill": 78,
+    "openReqs": 435,
+    "avgTimeToFill": 79,
     "filledYTD": 8,
     "failedCancelled": 7,
     "inOfferStage": 14
@@ -10,12 +10,12 @@
   "campus": [
     {
       "label": "Tampa",
-      "count": 159,
+      "count": 158,
       "color": "#1B6A9C"
     },
     {
       "label": "St Pete",
-      "count": 39,
+      "count": 38,
       "color": "#006747"
     },
     {
@@ -41,15 +41,15 @@
     },
     {
       "label": "Recruiter Review",
-      "count": 55
-    },
-    {
-      "label": "Pre-boarding",
-      "count": 22
+      "count": 54
     },
     {
       "label": "Student Hiring",
       "count": 22
+    },
+    {
+      "label": "Pre-boarding",
+      "count": 21
     },
     {
       "label": "Backlog",
@@ -82,7 +82,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 31
+      "count": 30
     },
     {
       "label": "🟡 3-5",
@@ -102,7 +102,7 @@
   "reqType": [
     {
       "label": "Standard",
-      "count": 341,
+      "count": 339,
       "color": "#006747"
     },
     {
@@ -139,7 +139,7 @@
     },
     {
       "label": "051000 - Athletic Administration",
-      "count": 17,
+      "count": 16,
       "color": "#00A693"
     },
     {
@@ -433,174 +433,169 @@
       "color": "#7A9EB5"
     },
     {
-      "label": "511724 - STP Secondary Education",
-      "count": 1,
-      "color": "#5B7A8A"
-    },
-    {
       "label": "510400 - STP Student Affairs Admin",
       "count": 1,
-      "color": "#534AB7"
+      "color": "#5B7A8A"
     },
     {
       "label": "142400 - Small Business Develop Center",
       "count": 1,
-      "color": "#993556"
+      "color": "#534AB7"
     },
     {
       "label": "386500 - Academic Success Center",
       "count": 1,
-      "color": "#006747"
+      "color": "#993556"
     },
     {
       "label": "612200 - Dept Of OB/GYN",
       "count": 1,
-      "color": "#1B6A9C"
+      "color": "#006747"
     },
     {
       "label": "035000 - CHR Payroll Services",
       "count": 1,
-      "color": "#00A693"
+      "color": "#1B6A9C"
     },
     {
       "label": "020100 - SVP Administrative Operations",
       "count": 1,
-      "color": "#CFC483"
+      "color": "#00A693"
     },
     {
       "label": "017000 - Office Of Compliance-Ethics",
       "count": 1,
-      "color": "#7A9EB5"
+      "color": "#CFC483"
     },
     {
       "label": "400100 - Univ Lib Deans Office",
       "count": 1,
-      "color": "#5B7A8A"
+      "color": "#7A9EB5"
     },
     {
       "label": "521211 - SAR Integrative Biology",
       "count": 1,
-      "color": "#534AB7"
+      "color": "#5B7A8A"
     },
     {
       "label": "043100 - Center for Victim Advocacy",
       "count": 1,
-      "color": "#993556"
+      "color": "#534AB7"
     },
     {
       "label": "610021 - MCOM Medical Engineering",
       "count": 1,
-      "color": "#006747"
+      "color": "#993556"
     },
     {
       "label": "641200 - COPH Acad and Student Affairs",
       "count": 1,
-      "color": "#1B6A9C"
+      "color": "#006747"
     },
     {
       "label": "600100 - Health Sciences Center VP",
       "count": 1,
-      "color": "#00A693"
+      "color": "#1B6A9C"
     },
     {
       "label": "600100 - Health Sciences",
       "count": 1,
-      "color": "#CFC483"
+      "color": "#00A693"
     },
     {
       "label": "213400 - Inst Of Applied Engineering",
       "count": 1,
-      "color": "#7A9EB5"
+      "color": "#CFC483"
     },
     {
       "label": "043500 - Housing & Residential ED",
       "count": 1,
-      "color": "#5B7A8A"
+      "color": "#7A9EB5"
     },
     {
       "label": "612900 - Dept Of Neurosurgery & Brain Repair",
       "count": 1,
-      "color": "#534AB7"
+      "color": "#5B7A8A"
     },
     {
       "label": "612337 - Heart Institute - Internal Medicine",
       "count": 1,
-      "color": "#993556"
+      "color": "#534AB7"
     },
     {
       "label": "025102 - Physical Security",
       "count": 1,
-      "color": "#006747"
+      "color": "#993556"
     },
     {
       "label": "638000 - College Of Pharmacy Dean'S Off",
       "count": 1,
-      "color": "#1B6A9C"
+      "color": "#006747"
     },
     {
       "label": "614400 - Molecular Medicine",
       "count": 1,
-      "color": "#00A693"
+      "color": "#1B6A9C"
     },
     {
       "label": "615500 - Center for Aging-Neuroscience",
       "count": 1,
-      "color": "#CFC483"
+      "color": "#00A693"
     },
     {
       "label": "613400 - Dept Of Dermatology & Cutaneous Surgery",
       "count": 1,
-      "color": "#7A9EB5"
+      "color": "#CFC483"
     },
     {
       "label": "210100 - College Of Engineering - Dean",
       "count": 1,
-      "color": "#5B7A8A"
+      "color": "#7A9EB5"
     },
     {
       "label": "380000 - Undergrad Stds-Deans Ofc Opera",
       "count": 1,
-      "color": "#534AB7"
+      "color": "#5B7A8A"
     },
     {
       "label": "388200 - UGS - Academic Advocacy",
       "count": 1,
-      "color": "#993556"
+      "color": "#534AB7"
     },
     {
       "label": "STP Library",
       "count": 1,
-      "color": "#006747"
+      "color": "#993556"
     },
     {
       "label": "Inst For School Comm Partnership",
       "count": 1,
-      "color": "#1B6A9C"
+      "color": "#006747"
     },
     {
       "label": "042700 - Marshall Student Center",
       "count": 1,
-      "color": "#00A693"
+      "color": "#1B6A9C"
     },
     {
       "label": "STP Parking Services",
       "count": 1,
-      "color": "#CFC483"
+      "color": "#00A693"
     },
     {
       "label": "410000 - Office Of Decision Support",
       "count": 1,
-      "color": "#7A9EB5"
+      "color": "#CFC483"
     },
     {
       "label": "410200 - Academic Planning/Institutional Effectiveness",
       "count": 1,
-      "color": "#5B7A8A"
+      "color": "#7A9EB5"
     },
     {
       "label": "010100 - Office of the President",
       "count": 1,
-      "color": "#534AB7"
+      "color": "#5B7A8A"
     }
   ],
   "recruiters": [
@@ -875,7 +870,7 @@
         },
         {
           "label": "Pre-boarding",
-          "count": 18,
+          "count": 17,
           "color": "#888780"
         },
         {
@@ -920,7 +915,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 80
+          "count": 79
         },
         {
           "label": "Screened",
@@ -982,11 +977,11 @@
       "bgLight": "#e6f2ed",
       "bgDark": "#042e24",
       "campus": "St Pete / Tampa",
-      "reqs": 117,
+      "reqs": 116,
       "filled": 6,
       "failed": 0,
-      "ttf": 64,
-      "wip": 9,
+      "ttf": 65,
+      "wip": 8,
       "statuses": [
         {
           "label": "Backlog",
@@ -1000,7 +995,7 @@
         },
         {
           "label": "Recruiter Review",
-          "count": 6,
+          "count": 5,
           "color": "#185FA5"
         },
         {
@@ -1045,7 +1040,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 14
+          "count": 13
         },
         {
           "label": "🟡 3-5",
@@ -1065,7 +1060,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 85
+          "count": 84
         },
         {
           "label": "Screened",
@@ -1093,30 +1088,30 @@
         },
         {
           "label": "Time to fill",
-          "value": 64,
+          "value": 65,
           "target": 40,
           "invert": true
         },
         {
           "label": "Screened",
           "value": 0,
-          "target": 117,
+          "target": 116,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 7,
-          "target": 117,
+          "target": 116,
           "invert": false
         }
       ],
       "trend": [
-        64,
-        64,
-        64,
-        64,
-        64,
-        64
+        65,
+        65,
+        65,
+        65,
+        65,
+        65
       ]
     },
     {
