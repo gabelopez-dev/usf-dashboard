@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-07-09T12:06:55.720Z",
+  "lastUpdated": "2026-07-09T15:40:57.834Z",
   "summary": {
-    "openReqs": 444,
+    "openReqs": 437,
     "avgTimeToFill": 78,
-    "filledYTD": 7,
-    "failedCancelled": 5,
+    "filledYTD": 8,
+    "failedCancelled": 7,
     "inOfferStage": 14
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 165,
+      "count": 159,
       "color": "#1B6A9C"
     },
     {
@@ -20,7 +20,7 @@
     },
     {
       "label": "USF Health",
-      "count": 220,
+      "count": 219,
       "color": "#00A693"
     },
     {
@@ -37,23 +37,27 @@
   "mainFunnel": [
     {
       "label": "HM Review",
-      "count": 250
+      "count": 252
     },
     {
       "label": "Recruiter Review",
-      "count": 67
-    },
-    {
-      "label": "Student Hiring",
-      "count": 22
+      "count": 55
     },
     {
       "label": "Pre-boarding",
       "count": 22
     },
     {
+      "label": "Student Hiring",
+      "count": 22
+    },
+    {
       "label": "Backlog",
       "count": 20
+    },
+    {
+      "label": "Interview Stage",
+      "count": 17
     },
     {
       "label": "Faculty",
@@ -65,11 +69,7 @@
     },
     {
       "label": "Targeted",
-      "count": 13
-    },
-    {
-      "label": "Interview Stage",
-      "count": 13
+      "count": 12
     },
     {
       "label": "Sourced",
@@ -82,7 +82,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 34
+      "count": 31
     },
     {
       "label": "🟡 3-5",
@@ -102,7 +102,7 @@
   "reqType": [
     {
       "label": "Standard",
-      "count": 347,
+      "count": 341,
       "color": "#006747"
     },
     {
@@ -122,14 +122,14 @@
     },
     {
       "label": "Targeted",
-      "count": 17,
+      "count": 16,
       "color": "#7A9EB5"
     }
   ],
   "department": [
     {
       "label": "USF Health",
-      "count": 187,
+      "count": 186,
       "color": "#006747"
     },
     {
@@ -139,7 +139,7 @@
     },
     {
       "label": "051000 - Athletic Administration",
-      "count": 18,
+      "count": 17,
       "color": "#00A693"
     },
     {
@@ -154,22 +154,22 @@
     },
     {
       "label": "041500 - Counseling Center",
-      "count": 10,
+      "count": 9,
       "color": "#5B7A8A"
-    },
-    {
-      "label": "047700 - Career & Professional Dev",
-      "count": 8,
-      "color": "#534AB7"
     },
     {
       "label": "026100 - University Police",
       "count": 8,
-      "color": "#993556"
+      "color": "#534AB7"
     },
     {
       "label": "371000 - Admissions",
-      "count": 7,
+      "count": 6,
+      "color": "#993556"
+    },
+    {
+      "label": "047700 - Career & Professional Dev",
+      "count": 6,
       "color": "#006747"
     },
     {
@@ -238,92 +238,92 @@
       "color": "#5B7A8A"
     },
     {
-      "label": "066200 - WUSF-FM",
-      "count": 3,
-      "color": "#534AB7"
-    },
-    {
       "label": "391000 - Fl Center For Cybersecurity",
       "count": 3,
-      "color": "#993556"
+      "color": "#534AB7"
     },
     {
       "label": "514900 - STP Public Safety",
       "count": 3,
-      "color": "#006747"
+      "color": "#993556"
     },
     {
       "label": "043600 - Residential Education",
       "count": 2,
-      "color": "#1B6A9C"
+      "color": "#006747"
     },
     {
       "label": "STP Secondary Education",
       "count": 2,
-      "color": "#00A693"
+      "color": "#1B6A9C"
     },
     {
       "label": "043000 - Student Health Services",
       "count": 2,
-      "color": "#CFC483"
+      "color": "#00A693"
     },
     {
       "label": "041300 - Strategic Initiatives",
       "count": 2,
-      "color": "#7A9EB5"
+      "color": "#CFC483"
     },
     {
       "label": "373000 - Financial Aid",
       "count": 2,
-      "color": "#5B7A8A"
+      "color": "#7A9EB5"
     },
     {
       "label": "614300 - Molecular Phar",
       "count": 2,
-      "color": "#534AB7"
+      "color": "#5B7A8A"
     },
     {
       "label": "032100 - Academic Human Resources",
       "count": 2,
-      "color": "#993556"
+      "color": "#534AB7"
     },
     {
       "label": "032000 - Central Human Resources",
       "count": 2,
-      "color": "#006747"
+      "color": "#993556"
     },
     {
       "label": "521800 - SAR Student Services",
       "count": 2,
-      "color": "#1B6A9C"
+      "color": "#006747"
     },
     {
       "label": "612300 - Dept Of Internal Medicine",
       "count": 2,
-      "color": "#00A693"
+      "color": "#1B6A9C"
     },
     {
       "label": "614300 - Molecular Pharm & Physiology",
       "count": 2,
-      "color": "#CFC483"
+      "color": "#00A693"
     },
     {
       "label": "600105 - Health Sciences Center Research",
       "count": 2,
-      "color": "#7A9EB5"
+      "color": "#CFC483"
     },
     {
       "label": "260000 - Honors College",
       "count": 2,
-      "color": "#5B7A8A"
+      "color": "#7A9EB5"
     },
     {
       "label": "014000 - Office Of Internal Audit",
       "count": 2,
-      "color": "#534AB7"
+      "color": "#5B7A8A"
     },
     {
       "label": "019000 - Unv Community Partnerships",
+      "count": 2,
+      "color": "#534AB7"
+    },
+    {
+      "label": "066200 - WUSF-FM",
       "count": 2,
       "color": "#993556"
     },
@@ -735,7 +735,7 @@
       "statuses": [
         {
           "label": "HM Review",
-          "count": 223,
+          "count": 222,
           "color": "#993556"
         },
         {
@@ -790,7 +790,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 240
+          "count": 239
         },
         {
           "label": "Screened",
@@ -798,7 +798,7 @@
         },
         {
           "label": "HM Review",
-          "count": 223
+          "count": 222
         },
         {
           "label": "Interviews",
@@ -853,30 +853,35 @@
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
       "reqs": 112,
-      "filled": 1,
-      "failed": 2,
+      "filled": 2,
+      "failed": 4,
       "ttf": 66,
       "wip": 9,
       "statuses": [
         {
-          "label": "Recruiter Review",
-          "count": 31,
-          "color": "#185FA5"
+          "label": "Interview Stage",
+          "count": 9,
+          "color": "#534AB7"
         },
         {
           "label": "HM Review",
-          "count": 16,
+          "count": 19,
           "color": "#993556"
         },
         {
-          "label": "Student Hiring",
-          "count": 11,
-          "color": "#0F6E56"
+          "label": "Recruiter Review",
+          "count": 19,
+          "color": "#185FA5"
         },
         {
           "label": "Pre-boarding",
           "count": 18,
           "color": "#888780"
+        },
+        {
+          "label": "Student Hiring",
+          "count": 11,
+          "color": "#0F6E56"
         },
         {
           "label": "Offer Stage",
@@ -885,13 +890,8 @@
         },
         {
           "label": "Targeted",
-          "count": 2,
+          "count": 1,
           "color": "#888780"
-        },
-        {
-          "label": "Interview Stage",
-          "count": 5,
-          "color": "#534AB7"
         }
       ],
       "aging": [
@@ -900,7 +900,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 14
+          "count": 11
         },
         {
           "label": "🟡 3-5",
@@ -920,7 +920,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 86
+          "count": 80
         },
         {
           "label": "Screened",
@@ -928,11 +928,11 @@
         },
         {
           "label": "HM Review",
-          "count": 16
+          "count": 19
         },
         {
           "label": "Interviews",
-          "count": 5
+          "count": 9
         },
         {
           "label": "Offer",
@@ -942,7 +942,7 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 1,
+          "value": 2,
           "target": 10,
           "invert": false
         },
@@ -960,7 +960,7 @@
         },
         {
           "label": "Interviews",
-          "value": 5,
+          "value": 9,
           "target": 112,
           "invert": false
         }
