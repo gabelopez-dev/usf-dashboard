@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-10T09:39:59.171Z",
+  "lastUpdated": "2026-07-10T12:26:51.302Z",
   "summary": {
-    "openReqs": 431,
+    "openReqs": 430,
     "avgTimeToFill": 80,
     "filledYTD": 8,
     "failedCancelled": 8,
@@ -10,7 +10,7 @@
   "campus": [
     {
       "label": "Tampa",
-      "count": 157,
+      "count": 156,
       "color": "#1B6A9C"
     },
     {
@@ -37,11 +37,11 @@
   "mainFunnel": [
     {
       "label": "HM Review",
-      "count": 251
+      "count": 254
     },
     {
       "label": "Recruiter Review",
-      "count": 54
+      "count": 50
     },
     {
       "label": "Student Hiring",
@@ -154,7 +154,7 @@
     },
     {
       "label": "041500 - Counseling Center",
-      "count": 9,
+      "count": 8,
       "color": "#5B7A8A"
     },
     {
@@ -847,7 +847,7 @@
       "bgLight": "#e3f2fd",
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
-      "reqs": 112,
+      "reqs": 111,
       "filled": 2,
       "failed": 4,
       "ttf": 67,
@@ -860,12 +860,12 @@
         },
         {
           "label": "HM Review",
-          "count": 19,
+          "count": 22,
           "color": "#993556"
         },
         {
           "label": "Recruiter Review",
-          "count": 19,
+          "count": 15,
           "color": "#185FA5"
         },
         {
@@ -915,7 +915,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 79
+          "count": 78
         },
         {
           "label": "Screened",
@@ -923,7 +923,7 @@
         },
         {
           "label": "HM Review",
-          "count": 19
+          "count": 22
         },
         {
           "label": "Interviews",
@@ -950,13 +950,13 @@
         {
           "label": "Screened",
           "value": 0,
-          "target": 112,
+          "target": 111,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 9,
-          "target": 112,
+          "target": 111,
           "invert": false
         }
       ],
