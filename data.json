@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-07-10T17:19:13.061Z",
+  "lastUpdated": "2026-07-10T19:02:28.475Z",
   "summary": {
     "openReqs": 438,
     "avgTimeToFill": 77,
     "filledYTD": 8,
     "failedCancelled": 8,
-    "inOfferStage": 14
+    "inOfferStage": 15
   },
   "campus": [
     {
@@ -65,11 +65,11 @@
     },
     {
       "label": "Offer Stage",
-      "count": 14
+      "count": 15
     },
     {
       "label": "Targeted",
-      "count": 12
+      "count": 11
     },
     {
       "label": "Sourced",
@@ -890,13 +890,8 @@
         },
         {
           "label": "Offer Stage",
-          "count": 3,
+          "count": 4,
           "color": "#0F6E56"
-        },
-        {
-          "label": "Targeted",
-          "count": 1,
-          "color": "#888780"
         }
       ],
       "aging": [
@@ -941,7 +936,7 @@
         },
         {
           "label": "Offer",
-          "count": 3
+          "count": 4
         }
       ],
       "goals": [
