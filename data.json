@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T15:14:01.135Z",
+  "lastUpdated": "2026-07-10T17:19:13.061Z",
   "summary": {
     "openReqs": 438,
     "avgTimeToFill": 77,
@@ -10,7 +10,7 @@
   "campus": [
     {
       "label": "Tampa",
-      "count": 150,
+      "count": 149,
       "color": "#1B6A9C"
     },
     {
@@ -20,7 +20,7 @@
     },
     {
       "label": "USF Health",
-      "count": 219,
+      "count": 234,
       "color": "#00A693"
     },
     {
@@ -37,11 +37,11 @@
   "mainFunnel": [
     {
       "label": "HM Review",
-      "count": 266
+      "count": 260
     },
     {
       "label": "Recruiter Review",
-      "count": 49
+      "count": 55
     },
     {
       "label": "Student Hiring",
@@ -96,7 +96,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 16
+      "count": 18
     }
   ],
   "reqType": [
@@ -736,22 +736,22 @@
       "filled": 0,
       "failed": 3,
       "ttf": 88,
-      "wip": 4,
+      "wip": 10,
       "statuses": [
         {
+          "label": "Recruiter Review",
+          "count": 10,
+          "color": "#185FA5"
+        },
+        {
           "label": "HM Review",
-          "count": 236,
+          "count": 230,
           "color": "#993556"
         },
         {
           "label": "Backlog",
           "count": 12,
           "color": "#888780"
-        },
-        {
-          "label": "Recruiter Review",
-          "count": 4,
-          "color": "#185FA5"
         },
         {
           "label": "Offer Stage",
@@ -789,7 +789,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 0
+          "count": 2
         }
       ],
       "funnel": [
@@ -803,7 +803,7 @@
         },
         {
           "label": "HM Review",
-          "count": 236
+          "count": 230
         },
         {
           "label": "Interviews",
