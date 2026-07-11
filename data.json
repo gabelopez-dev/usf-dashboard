@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-10T23:30:32.837Z",
+  "lastUpdated": "2026-07-11T02:50:34.228Z",
   "summary": {
     "openReqs": 438,
-    "avgTimeToFill": 77,
+    "avgTimeToFill": 78,
     "filledYTD": 8,
     "failedCancelled": 8,
     "inOfferStage": 15
@@ -89,14 +89,14 @@
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 21
+      "count": 33
     },
     {
       "label": "🟢 0–2",
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 18
+      "count": 6
     }
   ],
   "reqType": [
@@ -620,7 +620,7 @@
       "reqs": 31,
       "filled": 0,
       "failed": 0,
-      "ttf": 45,
+      "ttf": 46,
       "wip": 13,
       "statuses": [
         {
@@ -698,7 +698,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 45,
+          "value": 46,
           "target": 40,
           "invert": true
         },
@@ -716,12 +716,12 @@
         }
       ],
       "trend": [
-        45,
-        45,
-        45,
-        45,
-        45,
-        45
+        46,
+        46,
+        46,
+        46,
+        46,
+        46
       ]
     },
     {
@@ -735,7 +735,7 @@
       "reqs": 275,
       "filled": 0,
       "failed": 3,
-      "ttf": 88,
+      "ttf": 89,
       "wip": 10,
       "statuses": [
         {
@@ -823,7 +823,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 88,
+          "value": 89,
           "target": 40,
           "invert": true
         },
@@ -841,12 +841,12 @@
         }
       ],
       "trend": [
-        88,
-        88,
-        88,
-        88,
-        88,
-        88
+        89,
+        89,
+        89,
+        89,
+        89,
+        89
       ]
     },
     {
@@ -860,7 +860,7 @@
       "reqs": 111,
       "filled": 2,
       "failed": 4,
-      "ttf": 67,
+      "ttf": 68,
       "wip": 9,
       "statuses": [
         {
@@ -948,7 +948,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 67,
+          "value": 68,
           "target": 40,
           "invert": true
         },
@@ -966,12 +966,12 @@
         }
       ],
       "trend": [
-        67,
-        67,
-        67,
-        67,
-        67,
-        67
+        68,
+        68,
+        68,
+        68,
+        68,
+        68
       ]
     },
     {
@@ -985,7 +985,7 @@
       "reqs": 116,
       "filled": 6,
       "failed": 1,
-      "ttf": 64,
+      "ttf": 65,
       "wip": 9,
       "statuses": [
         {
@@ -1052,14 +1052,14 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 5
+          "count": 17
         },
         {
           "label": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 16
+          "count": 4
         }
       ],
       "funnel": [
@@ -1093,7 +1093,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 64,
+          "value": 65,
           "target": 40,
           "invert": true
         },
@@ -1111,12 +1111,12 @@
         }
       ],
       "trend": [
-        64,
-        64,
-        64,
-        64,
-        64,
-        64
+        65,
+        65,
+        65,
+        65,
+        65,
+        65
       ]
     },
     {
