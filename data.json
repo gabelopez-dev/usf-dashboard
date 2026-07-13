@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-07-13T13:26:13.187Z",
+  "lastUpdated": "2026-07-13T16:04:53.351Z",
   "summary": {
-    "openReqs": 438,
+    "openReqs": 434,
     "avgTimeToFill": 80,
     "filledYTD": 8,
     "failedCancelled": 8,
-    "inOfferStage": 14
+    "inOfferStage": 15
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 150,
+      "count": 146,
       "color": "#1B6A9C"
     },
     {
@@ -37,7 +37,7 @@
   "mainFunnel": [
     {
       "label": "HM Review",
-      "count": 260
+      "count": 259
     },
     {
       "label": "Recruiter Review",
@@ -48,10 +48,6 @@
       "count": 22
     },
     {
-      "label": "Pre-boarding",
-      "count": 21
-    },
-    {
       "label": "Backlog",
       "count": 20
     },
@@ -60,12 +56,16 @@
       "count": 17
     },
     {
+      "label": "Pre-boarding",
+      "count": 17
+    },
+    {
       "label": "Interview Stage",
       "count": 16
     },
     {
       "label": "Offer Stage",
-      "count": 14
+      "count": 15
     },
     {
       "label": "Targeted",
@@ -82,14 +82,14 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 45
+      "count": 41
     },
     {
       "label": "🟡 3-5",
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 17
+      "count": 19
     },
     {
       "label": "🟢 0–2",
@@ -102,7 +102,7 @@
   "reqType": [
     {
       "label": "Standard",
-      "count": 348,
+      "count": 344,
       "color": "#006747"
     },
     {
@@ -153,13 +153,13 @@
       "color": "#7A9EB5"
     },
     {
-      "label": "041500 - Counseling Center",
+      "label": "026100 - University Police",
       "count": 8,
       "color": "#5B7A8A"
     },
     {
-      "label": "026100 - University Police",
-      "count": 8,
+      "label": "041500 - Counseling Center",
+      "count": 7,
       "color": "#534AB7"
     },
     {
@@ -183,17 +183,17 @@
       "color": "#00A693"
     },
     {
-      "label": "027900 - Procurement & Payment Services",
+      "label": "460100 - Innovative Education",
       "count": 5,
       "color": "#CFC483"
     },
     {
-      "label": "460100 - Innovative Education",
-      "count": 5,
+      "label": "032300 - Health Human Resources",
+      "count": 4,
       "color": "#7A9EB5"
     },
     {
-      "label": "032300 - Health Human Resources",
+      "label": "027900 - Procurement & Payment Services",
       "count": 4,
       "color": "#5B7A8A"
     },
@@ -248,137 +248,137 @@
       "color": "#993556"
     },
     {
-      "label": "210800 - AICC Bellini College Department",
-      "count": 3,
-      "color": "#006747"
-    },
-    {
       "label": "391000 - Fl Center For Cybersecurity",
       "count": 3,
-      "color": "#1B6A9C"
+      "color": "#006747"
     },
     {
       "label": "514900 - STP Public Safety",
       "count": 3,
-      "color": "#00A693"
+      "color": "#1B6A9C"
     },
     {
       "label": "612337 - Heart Institute - Internal Medicine",
       "count": 2,
-      "color": "#CFC483"
+      "color": "#00A693"
     },
     {
       "label": "612200 - Dept Of OB/GYN",
       "count": 2,
-      "color": "#7A9EB5"
+      "color": "#CFC483"
     },
     {
       "label": "641200 - COPH Acad and Student Affairs",
       "count": 2,
-      "color": "#5B7A8A"
-    },
-    {
-      "label": "043600 - Residential Education",
-      "count": 2,
-      "color": "#534AB7"
+      "color": "#7A9EB5"
     },
     {
       "label": "STP Secondary Education",
       "count": 2,
-      "color": "#993556"
+      "color": "#5B7A8A"
     },
     {
       "label": "043000 - Student Health Services",
       "count": 2,
-      "color": "#006747"
+      "color": "#534AB7"
     },
     {
       "label": "041300 - Strategic Initiatives",
       "count": 2,
-      "color": "#1B6A9C"
+      "color": "#993556"
     },
     {
       "label": "373000 - Financial Aid",
       "count": 2,
-      "color": "#00A693"
+      "color": "#006747"
     },
     {
       "label": "614300 - Molecular Phar",
       "count": 2,
-      "color": "#CFC483"
+      "color": "#1B6A9C"
     },
     {
       "label": "032100 - Academic Human Resources",
       "count": 2,
-      "color": "#7A9EB5"
+      "color": "#00A693"
     },
     {
       "label": "032000 - Central Human Resources",
       "count": 2,
-      "color": "#5B7A8A"
+      "color": "#CFC483"
     },
     {
       "label": "521800 - SAR Student Services",
       "count": 2,
-      "color": "#534AB7"
+      "color": "#7A9EB5"
     },
     {
       "label": "612300 - Dept Of Internal Medicine",
       "count": 2,
-      "color": "#993556"
+      "color": "#5B7A8A"
     },
     {
       "label": "614300 - Molecular Pharm & Physiology",
       "count": 2,
-      "color": "#006747"
+      "color": "#534AB7"
     },
     {
       "label": "260000 - Honors College",
       "count": 2,
-      "color": "#1B6A9C"
+      "color": "#993556"
     },
     {
       "label": "014000 - Office Of Internal Audit",
       "count": 2,
-      "color": "#00A693"
+      "color": "#006747"
+    },
+    {
+      "label": "210800 - AICC Bellini College Department",
+      "count": 2,
+      "color": "#1B6A9C"
     },
     {
       "label": "019000 - Unv Community Partnerships",
       "count": 2,
-      "color": "#CFC483"
+      "color": "#00A693"
     },
     {
       "label": "066200 - WUSF-FM",
       "count": 2,
-      "color": "#7A9EB5"
+      "color": "#CFC483"
     },
     {
       "label": "610601 - MCOM Research&Grad Affairs Supp",
       "count": 2,
-      "color": "#5B7A8A"
+      "color": "#7A9EB5"
     },
     {
       "label": "612700 - Dept Of Orthopaedics & Sports Medicine",
       "count": 2,
-      "color": "#534AB7"
+      "color": "#5B7A8A"
     },
     {
       "label": "380600 - UGS Academic Advising - Athletics",
       "count": 2,
-      "color": "#993556"
+      "color": "#534AB7"
     },
     {
       "label": "640100 - COPH Office Of The Dean",
       "count": 1,
-      "color": "#006747"
+      "color": "#993556"
     },
     {
       "label": "612400 - Dept Of Ophthalmology",
       "count": 1,
-      "color": "#1B6A9C"
+      "color": "#006747"
     },
     {
       "label": "612500 - Dept Of Neurol",
+      "count": 1,
+      "color": "#1B6A9C"
+    },
+    {
+      "label": "043600 - Residential Education",
       "count": 1,
       "color": "#00A693"
     },
@@ -879,11 +879,6 @@
           "color": "#185FA5"
         },
         {
-          "label": "Pre-boarding",
-          "count": 18,
-          "color": "#888780"
-        },
-        {
           "label": "Student Hiring",
           "count": 11,
           "color": "#0F6E56"
@@ -892,6 +887,11 @@
           "label": "Offer Stage",
           "count": 3,
           "color": "#0F6E56"
+        },
+        {
+          "label": "Pre-boarding",
+          "count": 14,
+          "color": "#888780"
         }
       ],
       "aging": [
@@ -900,7 +900,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 13
+          "count": 11
         },
         {
           "label": "🟡 3-5",
@@ -920,7 +920,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 77
+          "count": 73
         },
         {
           "label": "Screened",
@@ -985,7 +985,7 @@
       "reqs": 116,
       "filled": 6,
       "failed": 1,
-      "ttf": 67,
+      "ttf": 66,
       "wip": 9,
       "statuses": [
         {
@@ -1020,7 +1020,7 @@
         },
         {
           "label": "HM Review",
-          "count": 8,
+          "count": 7,
           "color": "#993556"
         },
         {
@@ -1035,7 +1035,7 @@
         },
         {
           "label": "Offer Stage",
-          "count": 8,
+          "count": 9,
           "color": "#0F6E56"
         }
       ],
@@ -1045,14 +1045,14 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 12
+          "count": 10
         },
         {
           "label": "🟡 3-5",
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 15
+          "count": 17
         },
         {
           "label": "🟢 0–2",
@@ -1073,7 +1073,7 @@
         },
         {
           "label": "HM Review",
-          "count": 8
+          "count": 7
         },
         {
           "label": "Interviews",
@@ -1081,7 +1081,7 @@
         },
         {
           "label": "Offer",
-          "count": 8
+          "count": 9
         }
       ],
       "goals": [
@@ -1093,7 +1093,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 67,
+          "value": 66,
           "target": 40,
           "invert": true
         },
@@ -1111,12 +1111,12 @@
         }
       ],
       "trend": [
-        67,
-        67,
-        67,
-        67,
-        67,
-        67
+        66,
+        66,
+        66,
+        66,
+        66,
+        66
       ]
     },
     {
