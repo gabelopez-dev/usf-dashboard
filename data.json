@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2026-07-13T10:31:27.205Z",
+  "lastUpdated": "2026-07-13T13:26:13.187Z",
   "summary": {
     "openReqs": 438,
     "avgTimeToFill": 80,
     "filledYTD": 8,
     "failedCancelled": 8,
-    "inOfferStage": 15
+    "inOfferStage": 14
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 149,
+      "count": 150,
       "color": "#1B6A9C"
     },
     {
       "label": "St Pete",
-      "count": 38,
+      "count": 37,
       "color": "#006747"
     },
     {
@@ -48,11 +48,11 @@
       "count": 22
     },
     {
-      "label": "Backlog",
-      "count": 20
+      "label": "Pre-boarding",
+      "count": 21
     },
     {
-      "label": "Pre-boarding",
+      "label": "Backlog",
       "count": 20
     },
     {
@@ -65,7 +65,7 @@
     },
     {
       "label": "Offer Stage",
-      "count": 15
+      "count": 14
     },
     {
       "label": "Targeted",
@@ -89,14 +89,14 @@
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 18
+      "count": 17
     },
     {
       "label": "🟢 0–2",
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 0
+      "count": 1
     }
   ],
   "reqType": [
@@ -880,7 +880,7 @@
         },
         {
           "label": "Pre-boarding",
-          "count": 17,
+          "count": 18,
           "color": "#888780"
         },
         {
@@ -890,7 +890,7 @@
         },
         {
           "label": "Offer Stage",
-          "count": 4,
+          "count": 3,
           "color": "#0F6E56"
         }
       ],
@@ -936,7 +936,7 @@
         },
         {
           "label": "Offer",
-          "count": 4
+          "count": 3
         }
       ],
       "goals": [
@@ -1052,14 +1052,14 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 16
+          "count": 15
         },
         {
           "label": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 0
+          "count": 1
         }
       ],
       "funnel": [
