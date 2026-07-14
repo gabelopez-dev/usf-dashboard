@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-14T14:54:19.915Z",
+  "lastUpdated": "2026-07-14T16:17:55.390Z",
   "summary": {
-    "openReqs": 413,
+    "openReqs": 410,
     "avgTimeToFill": 79,
     "filledYTD": 7,
     "failedCancelled": 14,
@@ -37,11 +37,11 @@
   "mainFunnel": [
     {
       "label": "HM Review",
-      "count": 218
+      "count": 216
     },
     {
       "label": "Recruiter Review",
-      "count": 56
+      "count": 55
     },
     {
       "label": "Offer Stage",
@@ -52,7 +52,7 @@
       "count": 25
     },
     {
-      "label": "Backlog",
+      "label": "Interview Stage",
       "count": 18
     },
     {
@@ -60,7 +60,7 @@
       "count": 17
     },
     {
-      "label": "Interview Stage",
+      "label": "Backlog",
       "count": 16
     },
     {
@@ -82,21 +82,21 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 45
+      "count": 44
     },
     {
       "label": "🟡 3-5",
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 10
+      "count": 9
     },
     {
       "label": "🟢 0–2",
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 36
+      "count": 37
     }
   ],
   "reqType": [
@@ -732,7 +732,7 @@
       "bgLight": "#e0f5f3",
       "bgDark": "#3d2504",
       "campus": "Tampa",
-      "reqs": 275,
+      "reqs": 272,
       "filled": 0,
       "failed": 9,
       "ttf": 90,
@@ -749,14 +749,14 @@
           "color": "#993556"
         },
         {
-          "label": "Backlog",
-          "count": 11,
-          "color": "#888780"
-        },
-        {
           "label": "Sourced",
           "count": 7,
           "color": "#3B6D11"
+        },
+        {
+          "label": "Backlog",
+          "count": 8,
+          "color": "#888780"
         },
         {
           "label": "Offer Stage",
@@ -787,7 +787,7 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 2
+          "count": 1
         },
         {
           "label": "🟢 0–2",
@@ -800,7 +800,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 232
+          "count": 229
         },
         {
           "label": "Screened",
@@ -835,13 +835,13 @@
         {
           "label": "Screened",
           "value": 0,
-          "target": 275,
+          "target": 272,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 1,
-          "target": 275,
+          "target": 272,
           "invert": false
         }
       ],
@@ -875,17 +875,17 @@
         },
         {
           "label": "Recruiter Review",
-          "count": 16,
+          "count": 15,
           "color": "#185FA5"
         },
         {
           "label": "Interview Stage",
-          "count": 9,
+          "count": 10,
           "color": "#534AB7"
         },
         {
           "label": "HM Review",
-          "count": 22,
+          "count": 21,
           "color": "#993556"
         },
         {
@@ -897,6 +897,11 @@
           "label": "Offer Stage",
           "count": 4,
           "color": "#0F6E56"
+        },
+        {
+          "label": "Backlog",
+          "count": 1,
+          "color": "#888780"
         }
       ],
       "aging": [
@@ -933,11 +938,11 @@
         },
         {
           "label": "HM Review",
-          "count": 22
+          "count": 21
         },
         {
           "label": "Interviews",
-          "count": 9
+          "count": 10
         },
         {
           "label": "Offer",
@@ -965,7 +970,7 @@
         },
         {
           "label": "Interviews",
-          "value": 9,
+          "value": 10,
           "target": 116,
           "invert": false
         }
@@ -1020,12 +1025,12 @@
         },
         {
           "label": "Interview Stage",
-          "count": 6,
+          "count": 7,
           "color": "#534AB7"
         },
         {
           "label": "HM Review",
-          "count": 6,
+          "count": 5,
           "color": "#993556"
         },
         {
@@ -1045,7 +1050,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 17
+          "count": 16
         },
         {
           "label": "🟡 3-5",
@@ -1059,7 +1064,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 1
+          "count": 2
         }
       ],
       "funnel": [
@@ -1073,11 +1078,11 @@
         },
         {
           "label": "HM Review",
-          "count": 6
+          "count": 5
         },
         {
           "label": "Interviews",
-          "count": 6
+          "count": 7
         },
         {
           "label": "Offer",
@@ -1105,7 +1110,7 @@
         },
         {
           "label": "Interviews",
-          "value": 6,
+          "value": 7,
           "target": 123,
           "invert": false
         }
