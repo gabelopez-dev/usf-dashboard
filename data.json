@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T17:47:41.222Z",
+  "lastUpdated": "2026-07-15T19:15:30.783Z",
   "summary": {
     "openReqs": 410,
     "avgTimeToFill": 80,
@@ -41,7 +41,7 @@
     },
     {
       "label": "Recruiter Review",
-      "count": 76
+      "count": 74
     },
     {
       "label": "Offer Stage",
@@ -53,7 +53,7 @@
     },
     {
       "label": "Interview Stage",
-      "count": 19
+      "count": 21
     },
     {
       "label": "Pre-boarding",
@@ -82,7 +82,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 37
+      "count": 35
     },
     {
       "label": "🟡 3-5",
@@ -96,7 +96,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 82
+      "count": 84
     }
   ],
   "reqType": [
@@ -1031,11 +1031,11 @@
       "filled": 5,
       "failed": 1,
       "ttf": 69,
-      "wip": 7,
+      "wip": 5,
       "statuses": [
         {
           "label": "Recruiter Review",
-          "count": 5,
+          "count": 3,
           "color": "#185FA5"
         },
         {
@@ -1059,14 +1059,14 @@
           "color": "#534AB7"
         },
         {
-          "label": "Interview Stage",
-          "count": 8,
-          "color": "#534AB7"
-        },
-        {
           "label": "HM Review",
           "count": 4,
           "color": "#993556"
+        },
+        {
+          "label": "Interview Stage",
+          "count": 10,
+          "color": "#534AB7"
         },
         {
           "label": "Pre-boarding",
@@ -1085,7 +1085,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 12
+          "count": 10
         },
         {
           "label": "🟡 3-5",
@@ -1099,7 +1099,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 9
+          "count": 11
         }
       ],
       "funnel": [
@@ -1117,7 +1117,7 @@
         },
         {
           "label": "Interviews",
-          "count": 8
+          "count": 10
         },
         {
           "label": "Offer",
@@ -1145,7 +1145,7 @@
         },
         {
           "label": "Interviews",
-          "value": 8,
+          "value": 10,
           "target": 126,
           "invert": false
         }
