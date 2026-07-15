@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T11:09:17.859Z",
+  "lastUpdated": "2026-07-15T12:52:11.643Z",
   "summary": {
     "openReqs": 429,
     "avgTimeToFill": 81,
@@ -41,7 +41,7 @@
     },
     {
       "label": "Recruiter Review",
-      "count": 77
+      "count": 75
     },
     {
       "label": "Student Hiring",
@@ -52,15 +52,15 @@
       "count": 28
     },
     {
+      "label": "Pre-boarding",
+      "count": 19
+    },
+    {
       "label": "Interview Stage",
       "count": 17
     },
     {
       "label": "Faculty",
-      "count": 17
-    },
-    {
-      "label": "Pre-boarding",
       "count": 17
     },
     {
@@ -909,9 +909,9 @@
           "color": "#0F6E56"
         },
         {
-          "label": "Recruiter Review",
-          "count": 13,
-          "color": "#185FA5"
+          "label": "Pre-boarding",
+          "count": 16,
+          "color": "#888780"
         },
         {
           "label": "Backlog",
@@ -929,9 +929,9 @@
           "color": "#993556"
         },
         {
-          "label": "Pre-boarding",
-          "count": 14,
-          "color": "#888780"
+          "label": "Recruiter Review",
+          "count": 11,
+          "color": "#185FA5"
         },
         {
           "label": "Offer Stage",
