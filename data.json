@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-07-16T17:20:07.609Z",
+  "lastUpdated": "2026-07-16T18:41:28.042Z",
   "summary": {
     "openReqs": 414,
     "avgTimeToFill": 80,
     "filledYTD": 7,
     "failedCancelled": 24,
-    "inOfferStage": 36
+    "inOfferStage": 37
   },
   "campus": [
     {
@@ -45,7 +45,7 @@
     },
     {
       "label": "Offer Stage",
-      "count": 36
+      "count": 37
     },
     {
       "label": "Student Hiring",
@@ -53,7 +53,7 @@
     },
     {
       "label": "Interview Stage",
-      "count": 22
+      "count": 21
     },
     {
       "label": "Pre-boarding",
@@ -935,7 +935,7 @@
         },
         {
           "label": "Interview Stage",
-          "count": 10,
+          "count": 9,
           "color": "#534AB7"
         },
         {
@@ -950,7 +950,7 @@
         },
         {
           "label": "Offer Stage",
-          "count": 3,
+          "count": 4,
           "color": "#0F6E56"
         }
       ],
@@ -992,11 +992,11 @@
         },
         {
           "label": "Interviews",
-          "count": 10
+          "count": 9
         },
         {
           "label": "Offer",
-          "count": 3
+          "count": 4
         }
       ],
       "goals": [
@@ -1020,7 +1020,7 @@
         },
         {
           "label": "Interviews",
-          "value": 10,
+          "value": 9,
           "target": 115,
           "invert": false
         }
