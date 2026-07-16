@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-16T19:10:33.545Z",
+  "lastUpdated": "2026-07-16T19:20:48.122Z",
   "summary": {
-    "openReqs": 414,
+    "openReqs": 534,
     "avgTimeToFill": 79,
     "filledYTD": 7,
     "failedCancelled": 24,
@@ -10,12 +10,12 @@
   "campus": [
     {
       "label": "Tampa",
-      "count": 160,
+      "count": 276,
       "color": "#1B6A9C"
     },
     {
       "label": "St Pete",
-      "count": 36,
+      "count": 38,
       "color": "#006747"
     },
     {
@@ -36,12 +36,12 @@
   ],
   "mainFunnel": [
     {
-      "label": "HM Review",
-      "count": 174
+      "label": "Recruiter Review",
+      "count": 195
     },
     {
-      "label": "Recruiter Review",
-      "count": 75
+      "label": "HM Review",
+      "count": 174
     },
     {
       "label": "Offer Stage",
@@ -133,93 +133,173 @@
       "color": "#006747"
     },
     {
+      "label": "351000 - Information Technology",
+      "count": 26,
+      "color": "#1B6A9C"
+    },
+    {
       "label": "College of Education ",
       "count": 23,
-      "color": "#1B6A9C"
+      "color": "#00A693"
     },
     {
       "label": "051000 - Athletic Administration",
       "count": 17,
-      "color": "#00A693"
+      "color": "#CFC483"
     },
     {
       "label": "STP Student Success",
       "count": 14,
-      "color": "#CFC483"
+      "color": "#7A9EB5"
     },
     {
       "label": "Engineering",
       "count": 11,
-      "color": "#7A9EB5"
+      "color": "#5B7A8A"
     },
     {
       "label": "614400 - Molecular Medicine",
       "count": 9,
-      "color": "#5B7A8A"
+      "color": "#534AB7"
     },
     {
       "label": "610001 - MCOM Research/Grad Affairs Supp",
       "count": 8,
-      "color": "#534AB7"
+      "color": "#993556"
     },
     {
       "label": "026100 - University Police",
       "count": 8,
-      "color": "#993556"
+      "color": "#006747"
     },
     {
       "label": "616300 - Health Informatics Institute",
       "count": 7,
-      "color": "#006747"
+      "color": "#1B6A9C"
     },
     {
       "label": "614300 - Molecular Pharm & Physiology",
       "count": 7,
-      "color": "#1B6A9C"
+      "color": "#00A693"
     },
     {
       "label": "460100 - Innovative Education",
       "count": 7,
-      "color": "#00A693"
+      "color": "#CFC483"
     },
     {
       "label": "041500 - Counseling Center",
       "count": 7,
-      "color": "#CFC483"
-    },
-    {
-      "label": "490000 - USF World",
-      "count": 6,
       "color": "#7A9EB5"
     },
     {
-      "label": "047700 - Career & Professional Dev",
+      "label": "210500 - Mechanical Engineering",
       "count": 6,
       "color": "#5B7A8A"
     },
     {
+      "label": "126100 - Social Work",
+      "count": 6,
+      "color": "#534AB7"
+    },
+    {
+      "label": "380600 - UGS Academic Advising - Athletics",
+      "count": 6,
+      "color": "#993556"
+    },
+    {
+      "label": "490000 - USF World",
+      "count": 6,
+      "color": "#006747"
+    },
+    {
+      "label": "047700 - Career & Professional Dev",
+      "count": 6,
+      "color": "#1B6A9C"
+    },
+    {
+      "label": "791000 - Research Integrity &Compliance",
+      "count": 5,
+      "color": "#00A693"
+    },
+    {
       "label": "371000 - Admissions",
       "count": 5,
-      "color": "#534AB7"
+      "color": "#CFC483"
     },
     {
       "label": "College of Marine Science",
       "count": 5,
+      "color": "#7A9EB5"
+    },
+    {
+      "label": "122900 - School Of Aging Studies",
+      "count": 4,
+      "color": "#5B7A8A"
+    },
+    {
+      "label": "582000 - Behavioral Health Science and Practice",
+      "count": 4,
+      "color": "#534AB7"
+    },
+    {
+      "label": "790700 - Research Foundation",
+      "count": 4,
       "color": "#993556"
     },
     {
-      "label": "032300 - Health Human Resources",
+      "label": "121900 - Communication Sciences & Disorders",
       "count": 4,
       "color": "#006747"
     },
     {
-      "label": "027900 - Procurement & Payment Services",
+      "label": "032300 - Health Human Resources",
       "count": 4,
       "color": "#1B6A9C"
     },
     {
+      "label": "027900 - Procurement & Payment Services",
+      "count": 4,
+      "color": "#00A693"
+    },
+    {
       "label": "611900 - Department Of Pediatrics",
       "count": 4,
+      "color": "#CFC483"
+    },
+    {
+      "label": "210400 - Civil & Environmental Engr",
+      "count": 3,
+      "color": "#7A9EB5"
+    },
+    {
+      "label": "212100 - Medical Engineering",
+      "count": 3,
+      "color": "#5B7A8A"
+    },
+    {
+      "label": "122100 - Criminology",
+      "count": 3,
+      "color": "#534AB7"
+    },
+    {
+      "label": "790900 - Comparative Medicine",
+      "count": 3,
+      "color": "#993556"
+    },
+    {
+      "label": "028200 - Parking & Transportation Services",
+      "count": 3,
+      "color": "#006747"
+    },
+    {
+      "label": "790300 - Sponsored Research",
+      "count": 3,
+      "color": "#1B6A9C"
+    },
+    {
+      "label": "120100 - Arts And Sciences - Dean",
+      "count": 3,
       "color": "#00A693"
     },
     {
@@ -268,187 +348,307 @@
       "color": "#CFC483"
     },
     {
-      "label": "210100 - College Of Engineering - Dean",
+      "label": "588000 - CBCS Administration",
       "count": 2,
       "color": "#7A9EB5"
     },
     {
-      "label": "512337 - Heart Institute - Core",
+      "label": "583001 - Dept Child And Family Studies",
       "count": 2,
       "color": "#5B7A8A"
     },
     {
-      "label": "612200 - Dept Of OB/GYN",
+      "label": "211400 - Engineering Student Services",
       "count": 2,
       "color": "#534AB7"
     },
     {
-      "label": "641200 - COPH Acad and Student Affairs",
+      "label": "044100 - Ctr For Student Involvement",
       "count": 2,
       "color": "#993556"
     },
     {
-      "label": "STP Secondary Education",
+      "label": "790400 - Technology Transfer Office",
       "count": 2,
-      "color": "#006747"
-    },
-    {
-      "label": "041300 - Strategic Initiatives",
-      "count": 2,
-      "color": "#1B6A9C"
-    },
-    {
-      "label": "373000 - Financial Aid",
-      "count": 2,
-      "color": "#00A693"
-    },
-    {
-      "label": "614300 - Molecular Phar",
-      "count": 2,
-      "color": "#CFC483"
-    },
-    {
-      "label": "032100 - Academic Human Resources",
-      "count": 2,
-      "color": "#7A9EB5"
-    },
-    {
-      "label": "032000 - Central Human Resources",
-      "count": 2,
-      "color": "#5B7A8A"
-    },
-    {
-      "label": "521800 - SAR Student Services",
-      "count": 2,
-      "color": "#534AB7"
-    },
-    {
-      "label": "612300 - Dept Of Internal Medicine",
-      "count": 2,
-      "color": "#993556"
-    },
-    {
-      "label": "260000 - Honors College",
-      "count": 2,
-      "color": "#006747"
-    },
-    {
-      "label": "014000 - Office Of Internal Audit",
-      "count": 2,
-      "color": "#1B6A9C"
-    },
-    {
-      "label": "210800 - AICC Bellini College Department",
-      "count": 2,
-      "color": "#00A693"
-    },
-    {
-      "label": "019000 - Unv Community Partnerships",
-      "count": 2,
-      "color": "#CFC483"
-    },
-    {
-      "label": "066200 - WUSF-FM",
-      "count": 2,
-      "color": "#7A9EB5"
-    },
-    {
-      "label": "Inst For School Comm Partnership",
-      "count": 2,
-      "color": "#5B7A8A"
-    },
-    {
-      "label": "380600 - UGS Academic Advising - Athletics",
-      "count": 2,
-      "color": "#534AB7"
-    },
-    {
-      "label": "614000 - Molecular Medicine",
-      "count": 2,
-      "color": "#993556"
-    },
-    {
-      "label": "511728 - STP Special Education",
-      "count": 1,
       "color": "#006747"
     },
     {
       "label": "210600 - Electrical Engineering",
-      "count": 1,
+      "count": 2,
       "color": "#1B6A9C"
     },
     {
-      "label": "210500 - Mechanical Engineering",
-      "count": 1,
+      "label": "790500 - USF Technology Incubator",
+      "count": 2,
       "color": "#00A693"
     },
     {
-      "label": "STP Special Education",
+      "label": "386500 - Academic Success Center",
+      "count": 2,
+      "color": "#CFC483"
+    },
+    {
+      "label": "583007 - CFS Rightpath Research Center",
+      "count": 2,
+      "color": "#7A9EB5"
+    },
+    {
+      "label": "125500 - Psychology",
+      "count": 2,
+      "color": "#5B7A8A"
+    },
+    {
+      "label": "790100 - VP Research",
+      "count": 2,
+      "color": "#534AB7"
+    },
+    {
+      "label": "122300 - English",
+      "count": 2,
+      "color": "#993556"
+    },
+    {
+      "label": "210100 - College Of Engineering - Dean",
+      "count": 2,
+      "color": "#006747"
+    },
+    {
+      "label": "512337 - Heart Institute - Core",
+      "count": 2,
+      "color": "#1B6A9C"
+    },
+    {
+      "label": "612200 - Dept Of OB/GYN",
+      "count": 2,
+      "color": "#00A693"
+    },
+    {
+      "label": "641200 - COPH Acad and Student Affairs",
+      "count": 2,
+      "color": "#CFC483"
+    },
+    {
+      "label": "STP Secondary Education",
+      "count": 2,
+      "color": "#7A9EB5"
+    },
+    {
+      "label": "041300 - Strategic Initiatives",
+      "count": 2,
+      "color": "#5B7A8A"
+    },
+    {
+      "label": "373000 - Financial Aid",
+      "count": 2,
+      "color": "#534AB7"
+    },
+    {
+      "label": "614300 - Molecular Phar",
+      "count": 2,
+      "color": "#993556"
+    },
+    {
+      "label": "032100 - Academic Human Resources",
+      "count": 2,
+      "color": "#006747"
+    },
+    {
+      "label": "032000 - Central Human Resources",
+      "count": 2,
+      "color": "#1B6A9C"
+    },
+    {
+      "label": "521800 - SAR Student Services",
+      "count": 2,
+      "color": "#00A693"
+    },
+    {
+      "label": "612300 - Dept Of Internal Medicine",
+      "count": 2,
+      "color": "#CFC483"
+    },
+    {
+      "label": "260000 - Honors College",
+      "count": 2,
+      "color": "#7A9EB5"
+    },
+    {
+      "label": "014000 - Office Of Internal Audit",
+      "count": 2,
+      "color": "#5B7A8A"
+    },
+    {
+      "label": "210800 - AICC Bellini College Department",
+      "count": 2,
+      "color": "#534AB7"
+    },
+    {
+      "label": "019000 - Unv Community Partnerships",
+      "count": 2,
+      "color": "#993556"
+    },
+    {
+      "label": "066200 - WUSF-FM",
+      "count": 2,
+      "color": "#006747"
+    },
+    {
+      "label": "Inst For School Comm Partnership",
+      "count": 2,
+      "color": "#1B6A9C"
+    },
+    {
+      "label": "614000 - Molecular Medicine",
+      "count": 2,
+      "color": "#00A693"
+    },
+    {
+      "label": "387300 - Upward Bound",
       "count": 1,
       "color": "#CFC483"
     },
     {
-      "label": "610105 - Health Sciences Center Research",
+      "label": "040201 - Student Conduct & Ethical Dev",
       "count": 1,
       "color": "#7A9EB5"
     },
     {
-      "label": "351000 - Information Technology",
+      "label": "211700 - Ctr For Urban Transportation Research",
       "count": 1,
       "color": "#5B7A8A"
     },
     {
-      "label": "512337 - Heart Institute - Internal Medicine",
+      "label": "240100 - CDAP Dean's Office",
       "count": 1,
       "color": "#534AB7"
     },
     {
-      "label": "210700 - Chemical & Biomedical Engnrng",
+      "label": "387500 - Orientation",
       "count": 1,
       "color": "#993556"
     },
     {
-      "label": "041100 - Center For Student Well-Being",
+      "label": "025500 - Maintenance & Special Allocation",
       "count": 1,
       "color": "#006747"
     },
     {
-      "label": "Inst For School Comm Partnersh",
+      "label": "022600 - Design And Construction",
       "count": 1,
       "color": "#1B6A9C"
     },
     {
-      "label": "177500 - Inst For School Comm Partnersh",
+      "label": "581000 - CBCS Dean'S Office",
       "count": 1,
       "color": "#00A693"
     },
     {
-      "label": "640100 - COPH Office Of The Dean",
+      "label": "121000 - Molecular Biosciences",
       "count": 1,
       "color": "#CFC483"
     },
     {
-      "label": "612400 - Dept Of Ophthalmology",
+      "label": "125700 - Rehabilitation Counseling",
       "count": 1,
       "color": "#7A9EB5"
     },
     {
-      "label": "600105 - Health Sciences Center Research",
+      "label": "121300 - Chemistry",
       "count": 1,
       "color": "#5B7A8A"
     },
     {
-      "label": "612500 - Dept Of Neurol",
+      "label": "124700 - Mass Communications",
       "count": 1,
       "color": "#534AB7"
     },
     {
-      "label": "043600 - Residential Education",
+      "label": "123100 - Sch of Intdisc Global Studies",
       "count": 1,
       "color": "#993556"
     },
     {
-      "label": "044100 - Ctr For Student Involvement",
+      "label": "126300 - Sociology & Inter Social Sci",
+      "count": 1,
+      "color": "#006747"
+    },
+    {
+      "label": "028100 - Environmental Health & Safety",
+      "count": 1,
+      "color": "#1B6A9C"
+    },
+    {
+      "label": "588500 - CBCS Management Info Services",
+      "count": 1,
+      "color": "#00A693"
+    },
+    {
+      "label": "020400 - Adm Services Business Center",
+      "count": 1,
+      "color": "#CFC483"
+    },
+    {
+      "label": "511728 - STP Special Education",
+      "count": 1,
+      "color": "#7A9EB5"
+    },
+    {
+      "label": "STP Special Education",
+      "count": 1,
+      "color": "#5B7A8A"
+    },
+    {
+      "label": "610105 - Health Sciences Center Research",
+      "count": 1,
+      "color": "#534AB7"
+    },
+    {
+      "label": "512337 - Heart Institute - Internal Medicine",
+      "count": 1,
+      "color": "#993556"
+    },
+    {
+      "label": "210700 - Chemical & Biomedical Engnrng",
+      "count": 1,
+      "color": "#006747"
+    },
+    {
+      "label": "041100 - Center For Student Well-Being",
+      "count": 1,
+      "color": "#1B6A9C"
+    },
+    {
+      "label": "Inst For School Comm Partnersh",
+      "count": 1,
+      "color": "#00A693"
+    },
+    {
+      "label": "177500 - Inst For School Comm Partnersh",
+      "count": 1,
+      "color": "#CFC483"
+    },
+    {
+      "label": "640100 - COPH Office Of The Dean",
+      "count": 1,
+      "color": "#7A9EB5"
+    },
+    {
+      "label": "612400 - Dept Of Ophthalmology",
+      "count": 1,
+      "color": "#5B7A8A"
+    },
+    {
+      "label": "600105 - Health Sciences Center Research",
+      "count": 1,
+      "color": "#534AB7"
+    },
+    {
+      "label": "612500 - Dept Of Neurol",
+      "count": 1,
+      "color": "#993556"
+    },
+    {
+      "label": "043600 - Residential Education",
       "count": 1,
       "color": "#006747"
     },
@@ -528,139 +728,134 @@
       "color": "#993556"
     },
     {
-      "label": "386500 - Academic Success Center",
-      "count": 1,
-      "color": "#006747"
-    },
-    {
       "label": "035000 - CHR Payroll Services",
       "count": 1,
-      "color": "#1B6A9C"
+      "color": "#006747"
     },
     {
       "label": "020100 - SVP Administrative Operations",
       "count": 1,
-      "color": "#00A693"
+      "color": "#1B6A9C"
     },
     {
       "label": "017000 - Office Of Compliance-Ethics",
       "count": 1,
-      "color": "#CFC483"
+      "color": "#00A693"
     },
     {
       "label": "610105 - Health Science Center Research",
       "count": 1,
-      "color": "#7A9EB5"
+      "color": "#CFC483"
     },
     {
       "label": "400100 - Univ Lib Deans Office",
       "count": 1,
-      "color": "#5B7A8A"
+      "color": "#7A9EB5"
     },
     {
       "label": "521211 - SAR Integrative Biology",
       "count": 1,
-      "color": "#534AB7"
+      "color": "#5B7A8A"
     },
     {
       "label": "043100 - Center for Victim Advocacy",
       "count": 1,
-      "color": "#993556"
+      "color": "#534AB7"
     },
     {
       "label": "610021 - MCOM Medical Entomology",
       "count": 1,
-      "color": "#006747"
+      "color": "#993556"
     },
     {
       "label": "600100 - Health Sciences Center VP",
       "count": 1,
-      "color": "#1B6A9C"
+      "color": "#006747"
     },
     {
       "label": "600100 - Health Sciences",
       "count": 1,
-      "color": "#00A693"
+      "color": "#1B6A9C"
     },
     {
       "label": "213400 - Inst Of Applied Engineering",
       "count": 1,
-      "color": "#CFC483"
+      "color": "#00A693"
     },
     {
       "label": "043500 - Housing & Residential ED",
       "count": 1,
-      "color": "#7A9EB5"
+      "color": "#CFC483"
     },
     {
       "label": "612900 - Dept Of Neurosurgery & Brain Repair",
       "count": 1,
-      "color": "#5B7A8A"
+      "color": "#7A9EB5"
     },
     {
       "label": "610601 - MCOM Research&Grad Affairs Supp",
       "count": 1,
-      "color": "#534AB7"
+      "color": "#5B7A8A"
     },
     {
       "label": "611700 - Department Of Family Medicine",
       "count": 1,
-      "color": "#993556"
+      "color": "#534AB7"
     },
     {
       "label": "025102 - Physical Security",
       "count": 1,
-      "color": "#006747"
+      "color": "#993556"
     },
     {
       "label": "638000 - College Of Pharmacy Dean'S Off",
       "count": 1,
-      "color": "#1B6A9C"
+      "color": "#006747"
     },
     {
       "label": "615500 - Center for Aging-Neuroscience",
       "count": 1,
-      "color": "#00A693"
+      "color": "#1B6A9C"
     },
     {
       "label": "612700 - Dept Of Orthopaedics & Sports Medicine",
       "count": 1,
-      "color": "#CFC483"
+      "color": "#00A693"
     },
     {
       "label": "380000 - Undergrad Stds-Deans Ofc Opera",
       "count": 1,
-      "color": "#7A9EB5"
+      "color": "#CFC483"
     },
     {
       "label": "STP Library",
       "count": 1,
-      "color": "#5B7A8A"
+      "color": "#7A9EB5"
     },
     {
       "label": "042700 - Marshall Student Center",
       "count": 1,
-      "color": "#534AB7"
+      "color": "#5B7A8A"
     },
     {
       "label": "STP Parking Services",
       "count": 1,
-      "color": "#993556"
+      "color": "#534AB7"
     },
     {
       "label": "410000 - Office Of Decision Support",
       "count": 1,
-      "color": "#006747"
+      "color": "#993556"
     },
     {
       "label": "410200 - Academic Planning/Institutional Effectiveness",
       "count": 1,
-      "color": "#1B6A9C"
+      "color": "#006747"
     },
     {
       "label": "010100 - Office of the President",
       "count": 1,
-      "color": "#00A693"
+      "color": "#1B6A9C"
     }
   ],
   "recruiters": [
@@ -1200,7 +1395,7 @@
       "statuses": [
         {
           "label": "Recruiter Review",
-          "count": 4,
+          "count": 124,
           "color": "#185FA5"
         }
       ],
@@ -1230,7 +1425,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 4
+          "count": 124
         },
         {
           "label": "Screened",
