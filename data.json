@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T15:42:53.330Z",
+  "lastUpdated": "2026-07-16T17:20:07.609Z",
   "summary": {
     "openReqs": 414,
     "avgTimeToFill": 80,
@@ -37,11 +37,11 @@
   "mainFunnel": [
     {
       "label": "HM Review",
-      "count": 172
+      "count": 174
     },
     {
       "label": "Recruiter Review",
-      "count": 77
+      "count": 75
     },
     {
       "label": "Offer Stage",
@@ -781,11 +781,11 @@
       "filled": 0,
       "failed": 19,
       "ttf": 91,
-      "wip": 8,
+      "wip": 6,
       "statuses": [
         {
           "label": "Recruiter Review",
-          "count": 34,
+          "count": 32,
           "color": "#185FA5"
         },
         {
@@ -800,7 +800,7 @@
         },
         {
           "label": "HM Review",
-          "count": 149,
+          "count": 151,
           "color": "#993556"
         },
         {
@@ -858,7 +858,7 @@
         },
         {
           "label": "HM Review",
-          "count": 149
+          "count": 151
         },
         {
           "label": "Interviews",
