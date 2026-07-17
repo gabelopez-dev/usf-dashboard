@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-17T10:49:09.118Z",
+  "lastUpdated": "2026-07-17T12:11:23.484Z",
   "summary": {
-    "openReqs": 534,
+    "openReqs": 538,
     "avgTimeToFill": 80,
     "filledYTD": 7,
     "failedCancelled": 24,
@@ -10,7 +10,7 @@
   "campus": [
     {
       "label": "Tampa",
-      "count": 276,
+      "count": 280,
       "color": "#1B6A9C"
     },
     {
@@ -37,19 +37,19 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 195
+      "count": 196
     },
     {
       "label": "HM Review",
       "count": 174
     },
     {
-      "label": "Offer Stage",
+      "label": "Student Hiring",
       "count": 37
     },
     {
-      "label": "Student Hiring",
-      "count": 34
+      "label": "Offer Stage",
+      "count": 37
     },
     {
       "label": "Interview Stage",
@@ -57,7 +57,7 @@
     },
     {
       "label": "Pre-boarding",
-      "count": 19
+      "count": 18
     },
     {
       "label": "Backlog",
@@ -69,7 +69,7 @@
     },
     {
       "label": "Targeted",
-      "count": 14
+      "count": 15
     },
     {
       "label": "Sourced",
@@ -107,17 +107,17 @@
     },
     {
       "label": "Student",
-      "count": 50,
+      "count": 53,
       "color": "#00A693"
     },
     {
-      "label": "Faculty",
+      "label": "Targeted",
       "count": 19,
       "color": "#1B6A9C"
     },
     {
-      "label": "Targeted",
-      "count": 18,
+      "label": "Faculty",
+      "count": 19,
       "color": "#CFC483"
     },
     {
@@ -144,7 +144,7 @@
     },
     {
       "label": "051000 - Athletic Administration",
-      "count": 17,
+      "count": 21,
       "color": "#CFC483"
     },
     {
@@ -173,17 +173,17 @@
       "color": "#006747"
     },
     {
-      "label": "616300 - Health Informatics Institute",
+      "label": "460100 - Innovative Education",
       "count": 7,
       "color": "#1B6A9C"
     },
     {
-      "label": "614300 - Molecular Pharm & Physiology",
+      "label": "616300 - Health Informatics Institute",
       "count": 7,
       "color": "#00A693"
     },
     {
-      "label": "460100 - Innovative Education",
+      "label": "614300 - Molecular Pharm & Physiology",
       "count": 7,
       "color": "#CFC483"
     },
@@ -1117,20 +1117,30 @@
       "bgLight": "#e3f2fd",
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
-      "reqs": 115,
+      "reqs": 120,
       "filled": 2,
       "failed": 4,
-      "ttf": 71,
+      "ttf": 69,
       "wip": 10,
       "statuses": [
         {
-          "label": "Student Hiring",
+          "label": "Recruiter Review",
           "count": 12,
+          "color": "#185FA5"
+        },
+        {
+          "label": "Targeted",
+          "count": 1,
+          "color": "#888780"
+        },
+        {
+          "label": "Student Hiring",
+          "count": 15,
           "color": "#0F6E56"
         },
         {
           "label": "Pre-boarding",
-          "count": 17,
+          "count": 16,
           "color": "#888780"
         },
         {
@@ -1147,11 +1157,6 @@
           "label": "HM Review",
           "count": 21,
           "color": "#993556"
-        },
-        {
-          "label": "Recruiter Review",
-          "count": 11,
-          "color": "#185FA5"
         },
         {
           "label": "Offer Stage",
@@ -1185,7 +1190,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 76
+          "count": 80
         },
         {
           "label": "Screened",
@@ -1213,30 +1218,30 @@
         },
         {
           "label": "Time to fill",
-          "value": 71,
+          "value": 69,
           "target": 40,
           "invert": true
         },
         {
           "label": "Screened",
           "value": 0,
-          "target": 115,
+          "target": 120,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 9,
-          "target": 115,
+          "target": 120,
           "invert": false
         }
       ],
       "trend": [
-        71,
-        71,
-        71,
-        71,
-        71,
-        71
+        69,
+        69,
+        69,
+        69,
+        69,
+        69
       ]
     },
     {
