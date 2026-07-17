@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-07-17T14:12:37.882Z",
+  "lastUpdated": "2026-07-17T15:56:30.321Z",
   "summary": {
     "openReqs": 538,
     "avgTimeToFill": 80,
     "filledYTD": 7,
     "failedCancelled": 24,
-    "inOfferStage": 37
+    "inOfferStage": 38
   },
   "campus": [
     {
@@ -37,23 +37,23 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 195
+      "count": 193
     },
     {
       "label": "HM Review",
       "count": 174
     },
     {
+      "label": "Offer Stage",
+      "count": 38
+    },
+    {
       "label": "Student Hiring",
       "count": 37
     },
     {
-      "label": "Offer Stage",
-      "count": 37
-    },
-    {
       "label": "Interview Stage",
-      "count": 21
+      "count": 22
     },
     {
       "label": "Pre-boarding",
@@ -1125,7 +1125,7 @@
       "statuses": [
         {
           "label": "Recruiter Review",
-          "count": 11,
+          "count": 9,
           "color": "#185FA5"
         },
         {
@@ -1150,7 +1150,7 @@
         },
         {
           "label": "Interview Stage",
-          "count": 9,
+          "count": 10,
           "color": "#534AB7"
         },
         {
@@ -1160,7 +1160,7 @@
         },
         {
           "label": "Offer Stage",
-          "count": 4,
+          "count": 5,
           "color": "#0F6E56"
         }
       ],
@@ -1202,11 +1202,11 @@
         },
         {
           "label": "Interviews",
-          "count": 9
+          "count": 10
         },
         {
           "label": "Offer",
-          "count": 4
+          "count": 5
         }
       ],
       "goals": [
@@ -1230,7 +1230,7 @@
         },
         {
           "label": "Interviews",
-          "value": 9,
+          "value": 10,
           "target": 120,
           "invert": false
         }
