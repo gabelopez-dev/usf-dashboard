@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-16T22:58:59.647Z",
+  "lastUpdated": "2026-07-17T00:07:23.351Z",
   "summary": {
     "openReqs": 534,
-    "avgTimeToFill": 79,
+    "avgTimeToFill": 80,
     "filledYTD": 7,
     "failedCancelled": 24,
     "inOfferStage": 37
@@ -89,14 +89,14 @@
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 2
+      "count": 71
     },
     {
       "label": "🟢 0–2",
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 92
+      "count": 23
     }
   ],
   "reqType": [
@@ -870,7 +870,7 @@
       "reqs": 31,
       "filled": 0,
       "failed": 0,
-      "ttf": 51,
+      "ttf": 52,
       "wip": 13,
       "statuses": [
         {
@@ -948,7 +948,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 51,
+          "value": 52,
           "target": 40,
           "invert": true
         },
@@ -966,12 +966,12 @@
         }
       ],
       "trend": [
-        51,
-        51,
-        51,
-        51,
-        51,
-        51
+        52,
+        52,
+        52,
+        52,
+        52,
+        52
       ]
     },
     {
@@ -985,7 +985,7 @@
       "reqs": 288,
       "filled": 0,
       "failed": 19,
-      "ttf": 90,
+      "ttf": 91,
       "wip": 6,
       "statuses": [
         {
@@ -1042,14 +1042,14 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 0
+          "count": 58
         },
         {
           "label": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 68
+          "count": 10
         }
       ],
       "funnel": [
@@ -1083,7 +1083,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 90,
+          "value": 91,
           "target": 40,
           "invert": true
         },
@@ -1101,12 +1101,12 @@
         }
       ],
       "trend": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+        91,
+        91,
+        91,
+        91,
+        91,
+        91
       ]
     },
     {
@@ -1120,7 +1120,7 @@
       "reqs": 115,
       "filled": 2,
       "failed": 4,
-      "ttf": 70,
+      "ttf": 71,
       "wip": 10,
       "statuses": [
         {
@@ -1213,7 +1213,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 70,
+          "value": 71,
           "target": 40,
           "invert": true
         },
@@ -1231,12 +1231,12 @@
         }
       ],
       "trend": [
-        70,
-        70,
-        70,
-        70,
-        70,
-        70
+        71,
+        71,
+        71,
+        71,
+        71,
+        71
       ]
     },
     {
@@ -1250,7 +1250,7 @@
       "reqs": 130,
       "filled": 5,
       "failed": 1,
-      "ttf": 67,
+      "ttf": 68,
       "wip": 6,
       "statuses": [
         {
@@ -1312,14 +1312,14 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 1
+          "count": 8
         },
         {
           "label": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 20
+          "count": 13
         }
       ],
       "funnel": [
@@ -1353,7 +1353,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 67,
+          "value": 68,
           "target": 40,
           "invert": true
         },
@@ -1371,12 +1371,12 @@
         }
       ],
       "trend": [
-        67,
-        67,
-        67,
-        67,
-        67,
-        67
+        68,
+        68,
+        68,
+        68,
+        68,
+        68
       ]
     },
     {
@@ -1390,7 +1390,7 @@
       "reqs": 124,
       "filled": 0,
       "failed": 0,
-      "ttf": 53,
+      "ttf": 54,
       "wip": 0,
       "statuses": [
         {
@@ -1412,14 +1412,14 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 0
+          "count": 4
         },
         {
           "label": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 4
+          "count": 0
         }
       ],
       "funnel": [
@@ -1453,7 +1453,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 53,
+          "value": 54,
           "target": 40,
           "invert": true
         },
@@ -1471,12 +1471,12 @@
         }
       ],
       "trend": [
-        53,
-        53,
-        53,
-        53,
-        53,
-        53
+        54,
+        54,
+        54,
+        54,
+        54,
+        54
       ]
     }
   ]
