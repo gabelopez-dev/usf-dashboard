@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-17T23:24:50.969Z",
+  "lastUpdated": "2026-07-18T00:56:48.264Z",
   "summary": {
     "openReqs": 538,
-    "avgTimeToFill": 80,
+    "avgTimeToFill": 81,
     "filledYTD": 7,
     "failedCancelled": 24,
     "inOfferStage": 38
@@ -89,14 +89,14 @@
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 71
+      "count": 94
     },
     {
       "label": "🟢 0–2",
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 23
+      "count": 0
     }
   ],
   "reqType": [
@@ -870,7 +870,7 @@
       "reqs": 31,
       "filled": 0,
       "failed": 0,
-      "ttf": 52,
+      "ttf": 53,
       "wip": 13,
       "statuses": [
         {
@@ -948,7 +948,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 52,
+          "value": 53,
           "target": 40,
           "invert": true
         },
@@ -966,12 +966,12 @@
         }
       ],
       "trend": [
-        52,
-        52,
-        52,
-        52,
-        52,
-        52
+        53,
+        53,
+        53,
+        53,
+        53,
+        53
       ]
     },
     {
@@ -985,7 +985,7 @@
       "reqs": 288,
       "filled": 0,
       "failed": 19,
-      "ttf": 91,
+      "ttf": 92,
       "wip": 6,
       "statuses": [
         {
@@ -1042,14 +1042,14 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 58
+          "count": 68
         },
         {
           "label": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 10
+          "count": 0
         }
       ],
       "funnel": [
@@ -1083,7 +1083,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 91,
+          "value": 92,
           "target": 40,
           "invert": true
         },
@@ -1101,12 +1101,12 @@
         }
       ],
       "trend": [
-        91,
-        91,
-        91,
-        91,
-        91,
-        91
+        92,
+        92,
+        92,
+        92,
+        92,
+        92
       ]
     },
     {
@@ -1120,7 +1120,7 @@
       "reqs": 120,
       "filled": 2,
       "failed": 4,
-      "ttf": 69,
+      "ttf": 70,
       "wip": 10,
       "statuses": [
         {
@@ -1218,7 +1218,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 69,
+          "value": 70,
           "target": 40,
           "invert": true
         },
@@ -1236,12 +1236,12 @@
         }
       ],
       "trend": [
-        69,
-        69,
-        69,
-        69,
-        69,
-        69
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
       ]
     },
     {
@@ -1255,7 +1255,7 @@
       "reqs": 130,
       "filled": 5,
       "failed": 1,
-      "ttf": 68,
+      "ttf": 69,
       "wip": 6,
       "statuses": [
         {
@@ -1317,14 +1317,14 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 8
+          "count": 21
         },
         {
           "label": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 13
+          "count": 0
         }
       ],
       "funnel": [
@@ -1358,7 +1358,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 68,
+          "value": 69,
           "target": 40,
           "invert": true
         },
@@ -1376,12 +1376,12 @@
         }
       ],
       "trend": [
-        68,
-        68,
-        68,
-        68,
-        68,
-        68
+        69,
+        69,
+        69,
+        69,
+        69,
+        69
       ]
     },
     {
@@ -1395,7 +1395,7 @@
       "reqs": 124,
       "filled": 0,
       "failed": 0,
-      "ttf": 54,
+      "ttf": 55,
       "wip": 0,
       "statuses": [
         {
@@ -1458,7 +1458,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 54,
+          "value": 55,
           "target": 40,
           "invert": true
         },
@@ -1476,12 +1476,12 @@
         }
       ],
       "trend": [
-        54,
-        54,
-        54,
-        54,
-        54,
-        54
+        55,
+        55,
+        55,
+        55,
+        55,
+        55
       ]
     }
   ]
