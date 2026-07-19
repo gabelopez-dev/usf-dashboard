@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-18T23:27:49.479Z",
+  "lastUpdated": "2026-07-19T01:04:24.058Z",
   "summary": {
     "openReqs": 538,
     "avgTimeToFill": 81,
@@ -82,14 +82,14 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 35
+      "count": 37
     },
     {
       "label": "🟡 3-5",
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 94
+      "count": 92
     },
     {
       "label": "🟢 0–2",
@@ -870,7 +870,7 @@
       "reqs": 31,
       "filled": 0,
       "failed": 0,
-      "ttf": 53,
+      "ttf": 54,
       "wip": 13,
       "statuses": [
         {
@@ -948,7 +948,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 53,
+          "value": 54,
           "target": 40,
           "invert": true
         },
@@ -966,12 +966,12 @@
         }
       ],
       "trend": [
-        53,
-        53,
-        53,
-        53,
-        53,
-        53
+        54,
+        54,
+        54,
+        54,
+        54,
+        54
       ]
     },
     {
@@ -985,7 +985,7 @@
       "reqs": 288,
       "filled": 0,
       "failed": 19,
-      "ttf": 92,
+      "ttf": 93,
       "wip": 6,
       "statuses": [
         {
@@ -1083,7 +1083,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 92,
+          "value": 93,
           "target": 40,
           "invert": true
         },
@@ -1101,12 +1101,12 @@
         }
       ],
       "trend": [
-        92,
-        92,
-        92,
-        92,
-        92,
-        92
+        93,
+        93,
+        93,
+        93,
+        93,
+        93
       ]
     },
     {
@@ -1120,7 +1120,7 @@
       "reqs": 120,
       "filled": 2,
       "failed": 4,
-      "ttf": 70,
+      "ttf": 71,
       "wip": 10,
       "statuses": [
         {
@@ -1170,14 +1170,14 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 13
+          "count": 14
         },
         {
           "label": "🟡 3-5",
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 1
+          "count": 0
         },
         {
           "label": "🟢 0–2",
@@ -1218,7 +1218,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 70,
+          "value": 71,
           "target": 40,
           "invert": true
         },
@@ -1236,12 +1236,12 @@
         }
       ],
       "trend": [
-        70,
-        70,
-        70,
-        70,
-        70,
-        70
+        71,
+        71,
+        71,
+        71,
+        71,
+        71
       ]
     },
     {
@@ -1310,14 +1310,14 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 7
+          "count": 8
         },
         {
           "label": "🟡 3-5",
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 21
+          "count": 20
         },
         {
           "label": "🟢 0–2",
@@ -1395,7 +1395,7 @@
       "reqs": 124,
       "filled": 0,
       "failed": 0,
-      "ttf": 55,
+      "ttf": 56,
       "wip": 0,
       "statuses": [
         {
@@ -1458,7 +1458,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 55,
+          "value": 56,
           "target": 40,
           "invert": true
         },
@@ -1476,12 +1476,12 @@
         }
       ],
       "trend": [
-        55,
-        55,
-        55,
-        55,
-        55,
-        55
+        56,
+        56,
+        56,
+        56,
+        56,
+        56
       ]
     }
   ]
