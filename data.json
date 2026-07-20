@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T20:14:54.303Z",
+  "lastUpdated": "2026-07-20T20:40:18.430Z",
   "summary": {
     "openReqs": 531,
     "avgTimeToFill": 82,
@@ -82,7 +82,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 100
+      "count": 101
     },
     {
       "label": "🟡 3-5",
@@ -571,6 +571,15 @@
           "stage": "HM Review",
           "agingBand": "🔴 6+",
           "department": "611800 - Department Of Psych & Behavior"
+        },
+        {
+          "title": "Visiting Research Scholar",
+          "reqId": "43761",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "HM Review",
+          "agingBand": "🔴 6+",
+          "department": "612000 - Department Of Surgery"
         },
         {
           "title": "Research Support Assistant",
@@ -2583,6 +2592,15 @@
               "department": "611800 - Department Of Psych & Behavior"
             },
             {
+              "title": "Visiting Research Scholar",
+              "reqId": "43761",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "HM Review",
+              "agingBand": "🔴 6+",
+              "department": "612000 - Department Of Surgery"
+            },
+            {
               "title": "Research Support Assistant",
               "reqId": "43726",
               "owner": "Rebecca",
@@ -3039,7 +3057,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 62
+          "count": 63
         },
         {
           "label": "🟡 3-5",
