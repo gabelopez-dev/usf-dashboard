@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T19:25:58.940Z",
+  "lastUpdated": "2026-07-20T19:41:22.377Z",
   "summary": {
     "openReqs": 531,
     "avgTimeToFill": 82,
@@ -82,7 +82,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 101
+      "count": 100
     },
     {
       "label": "🟡 3-5",
@@ -571,15 +571,6 @@
           "stage": "HM Review",
           "agingBand": "🔴 6+",
           "department": "611800 - Department Of Psych & Behavior"
-        },
-        {
-          "title": "Visiting Research Scholar",
-          "reqId": "43761",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "HM Review",
-          "agingBand": "🔴 6+",
-          "department": "612000 - Department Of Surgery"
         },
         {
           "title": "Research Support Assistant",
@@ -2030,6 +2021,50 @@
       "color": "#1B6A9C"
     }
   ],
+  "stageMetrics": [
+    {
+      "label": "Sourced",
+      "avgDays": 6,
+      "count": 8,
+      "color": "#00A693"
+    },
+    {
+      "label": "Recruiter Review",
+      "avgDays": 11,
+      "count": 44,
+      "color": "#006747"
+    },
+    {
+      "label": "HM Review",
+      "avgDays": 12,
+      "count": 25,
+      "color": "#534AB7"
+    },
+    {
+      "label": "Interview Stage",
+      "avgDays": 39,
+      "count": 12,
+      "color": "#d4880a"
+    },
+    {
+      "label": "Offer Stage",
+      "avgDays": 7,
+      "count": 27,
+      "color": "#CFC483"
+    },
+    {
+      "label": "Pre-boarding",
+      "avgDays": 29,
+      "count": 4,
+      "color": "#5B8FA8"
+    },
+    {
+      "label": "Backlog",
+      "avgDays": 11,
+      "count": 5,
+      "color": "#888780"
+    }
+  ],
   "recruiters": [
     {
       "id": "katherine",
@@ -2534,15 +2569,6 @@
               "department": "611800 - Department Of Psych & Behavior"
             },
             {
-              "title": "Visiting Research Scholar",
-              "reqId": "43761",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "HM Review",
-              "agingBand": "🔴 6+",
-              "department": "612000 - Department Of Surgery"
-            },
-            {
               "title": "Research Support Assistant",
               "reqId": "43726",
               "owner": "Rebecca",
@@ -2973,7 +2999,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 63
+          "count": 62
         },
         {
           "label": "🟡 3-5",
