@@ -270,6 +270,8 @@ async function main() {
           .map(r => ({
             title: getProp(r, 'Requistion Title', 'title') || getProp(r, 'Requisition Title', 'title') || getProp(r, 'Name', 'title') || 'Untitled',
             reqId: getProp(r, 'Requisition ID', 'text') || getProp(r, 'Requisition ID', 'number') || '',
+          notionUrl: `https://www.notion.so/${(r.id || '').replace(/-/g, '')}`,
+            notionUrl: `https://www.notion.so/${(r.id || '').replace(/-/g, '')}`,
             owner: (() => { const p = getProp(r, 'Owner', 'person'); return p?.name || p?.person?.email || 'Unassigned'; })(),
             campus: getProp(r, 'Campus', 'select') || '',
             stage: getProp(r, 'Stage', 'select') || '',
@@ -438,6 +440,7 @@ async function main() {
         .map(r => ({
           title: getProp(r, 'Requistion Title', 'title') || getProp(r, 'Requisition Title', 'title') || getProp(r, 'Name', 'title') || 'Untitled',
           reqId: getProp(r, 'Requisition ID', 'text') || getProp(r, 'Requisition ID', 'number') || '',
+          notionUrl: `https://www.notion.so/${(r.id || '').replace(/-/g, '')}`,
           owner: (() => { const p = getProp(r, 'Owner', 'person'); return p?.name || p?.person?.email || 'Unassigned'; })(),
           campus: getProp(r, 'Campus', 'select') || '',
           stage: getProp(r, 'Stage', 'select') || '',
