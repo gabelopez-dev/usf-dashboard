@@ -195,10 +195,19 @@ async function main() {
   // and skip N/A, "-", or null values from Notion formula
   function matchAgingBand(recordValue, bandLabel) {
     if (!recordValue || recordValue === 'N/A' || recordValue === '-') return false;
-    // Normalize both to plain hyphen for comparison
     const normalize = s => s.replace(/–/g, '-').trim();
     return normalize(recordValue) === normalize(bandLabel);
   }
+
+  // Stage colors and order — defined here so they're available in both
+  // per-recruiter stageMetrics and the main team-wide stageMetrics
+  const stageColors = {
+    'Recruiter Review': '#006747', 'Sourced': '#00A693', 'Screened': '#1B6A9C',
+    'HM Review': '#534AB7', 'Interview Stage': '#d4880a', 'Offer Stage': '#CFC483',
+    'Pre-boarding': '#5B8FA8', 'Backlog': '#888780', 'Targeted': '#7A9EB5',
+    'Student Hiring': '#0F6E56', 'Faculty': '#993556'
+  };
+  const stageOrder = ['Sourced','Recruiter Review','Screened','HM Review','Interview Stage','Offer Stage','Pre-boarding'];
 
   const recruiters = recruiterNames.map(name => {
     const meta = recruiterMeta[name];
@@ -268,6 +277,37 @@ async function main() {
             department: getProp(r, 'Department/College', 'text') || ''
           }))
       })),
+      // Per-recruiter avg time in stage
+      stageMetrics: (() => {
+        const agg = {};
+        myActive.forEach(r => {
+          const stage = getProp(r, 'Stage', 'select');
+          const days = getProp(r, 'Time in Stage (Days)', 'formula_number');
+          if (stage && days !== null && days > 0) {
+            if (!agg[stage]) agg[stage] = { total: 0, count: 0 };
+            agg[stage].total += days;
+            agg[stage].count += 1;
+          }
+        });
+        return stageOrder
+          .filter(s => agg[s] && agg[s].count > 0)
+          .map(s => ({
+            label: s,
+            avgDays: Math.round(agg[s].total / agg[s].count),
+            count: agg[s].count,
+            color: stageColors[s] || '#888780'
+          }))
+          .concat(
+            Object.entries(agg)
+              .filter(([s]) => !stageOrder.includes(s))
+              .map(([s, v]) => ({
+                label: s,
+                avgDays: Math.round(v.total / v.count),
+                count: v.count,
+                color: stageColors[s] || '#888780'
+              }))
+          );
+      })(),
       statuses, aging, funnel,
       goals: [
         { label: 'Reqs filled', value: filled, target: 10, invert: false },
@@ -342,13 +382,6 @@ async function main() {
       stageTimeAgg[stage].count += 1;
     }
   });
-  const stageColors = {
-    'Recruiter Review': '#006747', 'Sourced': '#00A693', 'Screened': '#1B6A9C',
-    'HM Review': '#534AB7', 'Interview Stage': '#d4880a', 'Offer Stage': '#CFC483',
-    'Pre-boarding': '#5B8FA8', 'Backlog': '#888780', 'Targeted': '#7A9EB5',
-    'Student Hiring': '#0F6E56', 'Faculty': '#993556'
-  };
-  const stageOrder = ['Sourced','Recruiter Review','Screened','HM Review','Interview Stage','Offer Stage','Pre-boarding'];
   const stageMetrics = stageOrder
     .filter(s => stageTimeAgg[s] && stageTimeAgg[s].count > 0)
     .map(s => ({
