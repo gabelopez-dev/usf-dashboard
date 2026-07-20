@@ -442,9 +442,10 @@ function openDrillDown(bandLabel, contextKey) {
       <td>${r.campus || '—'}</td>
       <td><span class="pill pill-blue">${r.stage || '—'}</span></td>
       <td>${r.department || '—'}</td>
+      <td>${r.notionUrl ? `<a href="${r.notionUrl}" target="_blank" style="display:inline-block;font-size:10px;font-weight:600;padding:3px 8px;background:var(--usf-green);color:#fff;border-radius:4px;text-decoration:none;white-space:nowrap;">Open in Notion ↗</a>` : '—'}</td>
     </tr>`).join('');
     tableHTML = `<div style="overflow-x:auto;"><table class="drill-table">
-      <thead><tr><th>Requisition</th><th>Owner</th><th>Campus</th><th>Stage</th><th>Department</th></tr></thead>
+      <thead><tr><th>Requisition</th><th>Owner</th><th>Campus</th><th>Stage</th><th>Department</th><th>Action</th></tr></thead>
       <tbody>${rows}</tbody>
     </table></div>`;
   }
