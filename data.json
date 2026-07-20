@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-07-20T15:28:52.372Z",
+  "lastUpdated": "2026-07-20T17:02:46.034Z",
   "summary": {
-    "openReqs": 535,
+    "openReqs": 531,
     "avgTimeToFill": 82,
     "filledYTD": 8,
-    "failedCancelled": 24,
+    "failedCancelled": 25,
     "inOfferStage": 37
   },
   "campus": [
@@ -20,7 +20,7 @@
     },
     {
       "label": "USF Health",
-      "count": 189,
+      "count": 184,
       "color": "#00A693"
     },
     {
@@ -37,11 +37,11 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 193
+      "count": 194
     },
     {
       "label": "HM Review",
-      "count": 173
+      "count": 168
     },
     {
       "label": "Student Hiring",
@@ -82,14 +82,14 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 101
+      "count": 100
     },
     {
       "label": "🟡 3-5",
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 24
+      "count": 25
     },
     {
       "label": "🟢 0–2",
@@ -102,7 +102,7 @@
   "reqType": [
     {
       "label": "Standard",
-      "count": 308,
+      "count": 304,
       "color": "#006747"
     },
     {
@@ -129,12 +129,12 @@
   "department": [
     {
       "label": "USF Health",
-      "count": 132,
+      "count": 127,
       "color": "#006747"
     },
     {
       "label": "351000 - Information Technology",
-      "count": 26,
+      "count": 27,
       "color": "#1B6A9C"
     },
     {
@@ -984,7 +984,7 @@
       "campus": "Tampa",
       "reqs": 288,
       "filled": 0,
-      "failed": 19,
+      "failed": 20,
       "ttf": 94,
       "wip": 6,
       "statuses": [
@@ -1005,7 +1005,7 @@
         },
         {
           "label": "HM Review",
-          "count": 150,
+          "count": 145,
           "color": "#993556"
         },
         {
@@ -1035,7 +1035,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 63
+          "count": 62
         },
         {
           "label": "🟡 3-5",
@@ -1055,7 +1055,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 223
+          "count": 218
         },
         {
           "label": "Screened",
@@ -1063,7 +1063,7 @@
         },
         {
           "label": "HM Review",
-          "count": 150
+          "count": 145
         },
         {
           "label": "Interviews",
@@ -1392,15 +1392,15 @@
       "bgLight": "#e0f5f8",
       "bgDark": "#1c1852",
       "campus": "Tampa",
-      "reqs": 124,
+      "reqs": 125,
       "filled": 0,
       "failed": 0,
-      "ttf": 57,
+      "ttf": 53,
       "wip": 0,
       "statuses": [
         {
           "label": "Recruiter Review",
-          "count": 124,
+          "count": 125,
           "color": "#185FA5"
         }
       ],
@@ -1417,7 +1417,7 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 0
+          "count": 1
         },
         {
           "label": "🟢 0–2",
@@ -1430,7 +1430,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 124
+          "count": 125
         },
         {
           "label": "Screened",
@@ -1458,30 +1458,30 @@
         },
         {
           "label": "Time to fill",
-          "value": 57,
+          "value": 53,
           "target": 40,
           "invert": true
         },
         {
           "label": "Screened",
           "value": 0,
-          "target": 124,
+          "target": 125,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 0,
-          "target": 124,
+          "target": 125,
           "invert": false
         }
       ],
       "trend": [
-        57,
-        57,
-        57,
-        57,
-        57,
-        57
+        53,
+        53,
+        53,
+        53,
+        53,
+        53
       ]
     }
   ]
