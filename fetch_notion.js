@@ -253,6 +253,21 @@ async function main() {
       reqs: allMyRecs.length,
       filled, failed, ttf: avgTTF,
       wip: allMyRecs.filter(r => getProp(r, 'WIP ✅', 'checkbox') === true).length,
+      agingRecords: agingBands.map(band => ({
+        band: band.label,
+        color: band.color,
+        records: allMyRecs
+          .filter(r => matchAgingBand(getProp(r, 'Aging Band', 'formula_text'), band.label))
+          .map(r => ({
+            title: getProp(r, 'Requisition Title', 'title') || getProp(r, 'Name', 'title') || 'Untitled',
+            reqId: getProp(r, 'Requisition ID', 'text') || getProp(r, 'Requisition ID', 'number') || '',
+            owner: (() => { const p = getProp(r, 'Owner', 'person'); return p?.name || p?.person?.email || 'Unassigned'; })(),
+            campus: getProp(r, 'Campus', 'select') || '',
+            stage: getProp(r, 'Stage', 'select') || '',
+            agingBand: getProp(r, 'Aging Band', 'formula_text') || '',
+            department: getProp(r, 'Department/College', 'text') || ''
+          }))
+      })),
       statuses, aging, funnel,
       goals: [
         { label: 'Reqs filled', value: filled, target: 10, invert: false },
@@ -344,6 +359,22 @@ async function main() {
     mainAging: agingBands.map(band => ({
       ...band,
       count: activeRecords.filter(r => matchAgingBand(getProp(r, 'Aging Band', 'formula_text'), band.label)).length
+    })),
+    // Per-record aging data for heatmap drill-down click functionality
+    agingRecords: agingBands.map(band => ({
+      band: band.label,
+      color: band.color,
+      records: activeRecords
+        .filter(r => matchAgingBand(getProp(r, 'Aging Band', 'formula_text'), band.label))
+        .map(r => ({
+          title: getProp(r, 'Requisition Title', 'title') || getProp(r, 'Name', 'title') || 'Untitled',
+          reqId: getProp(r, 'Requisition ID', 'text') || getProp(r, 'Requisition ID', 'number') || '',
+          owner: (() => { const p = getProp(r, 'Owner', 'person'); return p?.name || p?.person?.email || 'Unassigned'; })(),
+          campus: getProp(r, 'Campus', 'select') || '',
+          stage: getProp(r, 'Stage', 'select') || '',
+          agingBand: getProp(r, 'Aging Band', 'formula_text') || '',
+          department: getProp(r, 'Department/College', 'text') || ''
+        }))
     })),
     reqType: reqTypeBreakdown,
     department: deptBreakdown,
