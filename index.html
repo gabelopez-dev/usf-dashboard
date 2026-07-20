@@ -462,9 +462,18 @@ function closeDrillDown() {
 
 function renderRecruiterPage(r) {
   const hasData = (r.reqs || 0) > 0;
+  const trackerUrls = {"katherine": "https://www.notion.so/486fbaa94c784fa09e1cd43c5dddaba2?v=800d477496014eab9e32442a3545f120", "rebecca": "https://www.notion.so/43a4a79f196240b8aac25ca27dcfa7d1?v=ae2fd6f1acaa4e1ca789ac97167f43d2", "john": "https://www.notion.so/2a2ea2b1077d429e975c4682a3a724e8?v=7b9c3c39a8bb4388857065258459c1cb", "gabriel": "https://www.notion.so/0c747bfda9a94d2a8e21f858bc48d903?v=4dc7b6a1d6a24a70a781f0d653aaf6b0", "tameka": "https://app.notion.com/p/8762e3f9f33f4c238273211c4390935c?v=dbca9b41c64b4a11bd55973e9d0ce82a"};
+  const trackerUrl = trackerUrls[r.id] || null;
+
   let html = `<div class="detail-header">
     <div class="detail-avatar" style="background:${r.bgLight || '#eee'}; color:${r.color || '#333'};">${r.initials || '??'}</div>
-    <div><div class="detail-name">${r.name}</div><div class="detail-sub">${r.campus || ''}</div></div>
+    <div>
+      <div class="detail-name">${r.name}</div>
+      <div class="detail-sub">${r.campus || ''}</div>
+    </div>
+    ${trackerUrl ? `<a href="${trackerUrl}" target="_blank" style="margin-left:auto; display:inline-flex; align-items:center; gap:6px; font-size:12px; font-weight:600; padding:8px 14px; background:var(--usf-green); color:#fff; border-radius:6px; text-decoration:none; flex-shrink:0;">
+      <span>Open My Tracker</span><span style="font-size:14px;">↗</span>
+    </a>` : ''}
   </div>`;
 
   if (!hasData) {
