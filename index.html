@@ -441,16 +441,43 @@ function renderRecruiterPage(r) {
     html += `<div class="card"><div class="card-title">Pipeline by Status</div>${statusHTML}</div>`;
   }
 
-  // Per-recruiter aging heatmap with drill-down
-  if (r.agingRecords) {
-    const recAging = r.agingRecords.map(b => ({ label: b.band, count: b.records.length, color: b.color }));
-    if (recAging.some(a => a.count > 0)) {
+  // Per-recruiter aging heatmap + avg time in stage — side by side
+  const hasAging = r.agingRecords && r.agingRecords.some(b => b.records.length > 0);
+  const hasStage = r.stageMetrics && r.stageMetrics.length > 0;
+
+  if (hasAging || hasStage) {
+    html += `<div class="row row-half" style="margin-top:10px;">`;
+
+    if (hasAging) {
+      const recAging = r.agingRecords.map(b => ({ label: b.band, count: b.records.length, color: b.color }));
       currentAgingRecords = r.agingRecords;
-      html += `<div class="card" style="margin-top:10px;">
+      html += `<div class="card">
         <div class="card-title">Job Aging Heatmap</div>
         ${renderAgingHeatmap(recAging, r.agingRecords)}
       </div>`;
     }
+
+    if (hasStage) {
+      const maxDays = Math.max(...r.stageMetrics.map(s => s.avgDays), 1);
+      const stageBars = r.stageMetrics.map(s => {
+        const widthPct = Math.max(8, Math.round((s.avgDays / maxDays) * 100));
+        return `<div style="display:flex;align-items:center;gap:8px;margin-bottom:7px;">
+          <span style="font-size:11px;color:#555;width:130px;flex-shrink:0;text-align:right;">${s.label}</span>
+          <div style="flex:1;background:#f0efeb;border-radius:4px;height:22px;">
+            <div style="width:${widthPct}%;background:${s.color};border-radius:4px;height:22px;display:flex;align-items:center;padding-left:8px;min-width:36px;">
+              <span style="font-size:11px;font-weight:700;color:#fff;">${s.avgDays}d</span>
+            </div>
+          </div>
+          <span style="font-size:10px;color:#aaa;width:44px;flex-shrink:0;">${s.count} reqs</span>
+        </div>`;
+      }).join('');
+      html += `<div class="card">
+        <div class="card-title">Avg. Time in Stage (days)</div>
+        ${stageBars}
+      </div>`;
+    }
+
+    html += `</div>`;
   }
 
   return html;
