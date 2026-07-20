@@ -305,6 +305,30 @@ function renderMainPage(data) {
     </div>
   </div>`;
 
+  // Avg Time in Stage horizontal bar chart
+  const stageMetrics = data.stageMetrics || [];
+  if (stageMetrics.length > 0) {
+    const maxDays = Math.max(...stageMetrics.map(s => s.avgDays), 1);
+    const stageBars = stageMetrics.map(s => {
+      const widthPct = Math.max(8, Math.round((s.avgDays / maxDays) * 100));
+      return `<div style="display:flex; align-items:center; gap:10px; margin-bottom:8px;">
+        <span style="font-size:11px; color:#555; width:140px; flex-shrink:0; text-align:right;">${s.label}</span>
+        <div style="flex:1; background:#f0efeb; border-radius:4px; height:24px;">
+          <div style="width:${widthPct}%; background:${s.color}; border-radius:4px; height:24px; display:flex; align-items:center; padding-left:8px; min-width:40px;">
+            <span style="font-size:11px; font-weight:700; color:#fff;">${s.avgDays}d</span>
+          </div>
+        </div>
+        <span style="font-size:10px; color:#aaa; width:50px; flex-shrink:0;">${s.count} reqs</span>
+      </div>`;
+    }).join('');
+    html += `<div class="row">
+      <div class="card">
+        <div class="card-title">Avg. Time in Stage (days)</div>
+        ${stageBars}
+      </div>
+    </div>`;
+  }
+
   document.getElementById('page-main').innerHTML = html;
 
   if (statusTotal > 0) {
