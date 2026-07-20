@@ -329,6 +329,53 @@ function renderMainPage(data) {
     </div>`;
   }
 
+  // Stage Conversion Rates (proxy — based on current stage counts)
+  const funnelMap = {};
+  (data.mainFunnel || []).forEach(f => { funnelMap[f.label] = f.count; });
+  const hired = data.summary?.filledYTD || 0;
+  const totalReqs = data.summary?.openReqs || 0;
+
+  const conversionStages = [
+    { from: 'Sourced',         to: 'Screened',        fromKey: 'Sourced',         toKey: 'Screened',        color: '#006747' },
+    { from: 'Screened',        to: 'HM Review',        fromKey: 'Screened',        toKey: 'HM Review',       color: '#00A693' },
+    { from: 'HM Review',       to: 'Interview',        fromKey: 'HM Review',       toKey: 'Interview Stage', color: '#1B6A9C' },
+    { from: 'Interview',       to: 'Offer',            fromKey: 'Interview Stage', toKey: 'Offer Stage',     color: '#534AB7' },
+    { from: 'Offer',           to: 'Hired',            fromKey: 'Offer Stage',     toKey: null,              color: '#CFC483', toCount: hired }
+  ];
+
+  const conversionRows = conversionStages.map(s => {
+    const fromCount = funnelMap[s.fromKey] || 0;
+    const toCount = s.toCount !== undefined ? s.toCount : (funnelMap[s.toKey] || 0);
+    const pct = fromCount > 0 ? Math.min(100, Math.round((toCount / fromCount) * 100)) : 0;
+    const barColor = pct >= 60 ? '#006747' : pct >= 30 ? '#d4880a' : '#c0392b';
+    return `<div style="margin-bottom:12px;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+        <span style="font-size:12px; color:#555;">${s.from} <span style="color:#aaa;">→</span> ${s.to}</span>
+        <span style="font-size:13px; font-weight:700; color:${barColor};">${pct}%</span>
+      </div>
+      <div style="background:#f0efeb; border-radius:4px; height:10px;">
+        <div style="width:${pct}%; background:${s.color}; border-radius:4px; height:10px; transition:width .4s;"></div>
+      </div>
+      <div style="font-size:10px; color:#aaa; margin-top:2px;">${toCount} of ${fromCount} reqs</div>
+    </div>`;
+  }).join('');
+
+  const overallPct = totalReqs > 0 ? Math.round((hired / totalReqs) * 100) : 0;
+
+  html += `<div class="row row-half">
+    <div class="card">
+      <div class="card-title">Stage Conversion Rates</div>
+      <p style="font-size:10px; color:#bbb; font-style:italic; margin-bottom:12px;">Proxy — based on current req counts per stage</p>
+      ${conversionRows}
+    </div>
+    <div class="card" style="display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center;">
+      <div class="card-title" style="width:100%;">Overall Conversion</div>
+      <div style="font-size:56px; font-weight:700; color:${overallPct >= 20 ? '#006747' : overallPct >= 10 ? '#d4880a' : '#c0392b'}; line-height:1; margin:16px 0 8px;">${overallPct}%</div>
+      <div style="font-size:12px; color:#888;">${hired} hired of ${totalReqs} active reqs</div>
+      <div style="font-size:10px; color:#bbb; margin-top:8px; font-style:italic;">Filled YTD ÷ Open Reqs</div>
+    </div>
+  </div>`;
+
   document.getElementById('page-main').innerHTML = html;
 
   if (statusTotal > 0) {
@@ -485,6 +532,56 @@ function renderRecruiterPage(r) {
     }
 
     html += `</div>`;
+  }
+
+  // Per-recruiter conversion rates
+  const recFunnelMap = {};
+  (r.statuses || []).forEach(s => { recFunnelMap[s.label] = s.count; });
+  const recHired = r.filled || 0;
+  const recTotal = r.reqs || 0;
+
+  const recConvStages = [
+    { from: 'Sourced',   to: 'Screened',   fromKey: 'Sourced',         toKey: 'Screened',        color: '#006747' },
+    { from: 'Screened',  to: 'HM Review',  fromKey: 'Screened',        toKey: 'HM Review',       color: '#00A693' },
+    { from: 'HM Review', to: 'Interview',  fromKey: 'HM Review',       toKey: 'Interview Stage', color: '#1B6A9C' },
+    { from: 'Interview', to: 'Offer',      fromKey: 'Interview Stage', toKey: 'Offer Stage',     color: '#534AB7' },
+    { from: 'Offer',     to: 'Hired',      fromKey: 'Offer Stage',     toKey: null,              color: '#CFC483', toCount: recHired }
+  ];
+
+  const hasConvData = recConvStages.some(s => (recFunnelMap[s.fromKey] || 0) > 0);
+  if (hasConvData) {
+    const recConvRows = recConvStages.map(s => {
+      const fromCount = recFunnelMap[s.fromKey] || 0;
+      const toCount = s.toCount !== undefined ? s.toCount : (recFunnelMap[s.toKey] || 0);
+      if (fromCount === 0) return '';
+      const pct = Math.min(100, Math.round((toCount / fromCount) * 100));
+      const barColor = pct >= 60 ? '#006747' : pct >= 30 ? '#d4880a' : '#c0392b';
+      return `<div style="margin-bottom:12px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+          <span style="font-size:12px; color:#555;">${s.from} <span style="color:#aaa;">→</span> ${s.to}</span>
+          <span style="font-size:13px; font-weight:700; color:${barColor};">${pct}%</span>
+        </div>
+        <div style="background:#f0efeb; border-radius:4px; height:10px;">
+          <div style="width:${pct}%; background:${s.color}; border-radius:4px; height:10px;"></div>
+        </div>
+        <div style="font-size:10px; color:#aaa; margin-top:2px;">${toCount} of ${fromCount} reqs</div>
+      </div>`;
+    }).filter(Boolean).join('');
+
+    const recOverallPct = recTotal > 0 ? Math.round((recHired / recTotal) * 100) : 0;
+    html += `<div class="row row-half" style="margin-top:10px;">
+      <div class="card">
+        <div class="card-title">Stage Conversion Rates</div>
+        <p style="font-size:10px; color:#bbb; font-style:italic; margin-bottom:12px;">Proxy — based on current req counts per stage</p>
+        ${recConvRows}
+      </div>
+      <div class="card" style="display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center;">
+        <div class="card-title" style="width:100%;">Overall Conversion</div>
+        <div style="font-size:56px; font-weight:700; color:${recOverallPct >= 20 ? '#006747' : recOverallPct >= 10 ? '#d4880a' : '#c0392b'}; line-height:1; margin:16px 0 8px;">${recOverallPct}%</div>
+        <div style="font-size:12px; color:#888;">${recHired} hired of ${recTotal} reqs</div>
+        <div style="font-size:10px; color:#bbb; margin-top:8px; font-style:italic;">Filled ÷ Total Reqs</div>
+      </div>
+    </div>`;
   }
 
   return html;
