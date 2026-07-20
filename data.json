@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-07-20T13:08:33.058Z",
+  "lastUpdated": "2026-07-20T15:28:52.372Z",
   "summary": {
-    "openReqs": 538,
+    "openReqs": 535,
     "avgTimeToFill": 82,
-    "filledYTD": 7,
+    "filledYTD": 8,
     "failedCancelled": 24,
-    "inOfferStage": 38
+    "inOfferStage": 37
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 280,
+      "count": 279,
       "color": "#1B6A9C"
     },
     {
@@ -20,7 +20,7 @@
     },
     {
       "label": "USF Health",
-      "count": 191,
+      "count": 189,
       "color": "#00A693"
     },
     {
@@ -41,23 +41,23 @@
     },
     {
       "label": "HM Review",
-      "count": 174
-    },
-    {
-      "label": "Offer Stage",
-      "count": 38
+      "count": 173
     },
     {
       "label": "Student Hiring",
       "count": 37
     },
     {
+      "label": "Offer Stage",
+      "count": 37
+    },
+    {
       "label": "Interview Stage",
-      "count": 22
+      "count": 20
     },
     {
       "label": "Pre-boarding",
-      "count": 18
+      "count": 19
     },
     {
       "label": "Backlog",
@@ -82,27 +82,27 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 106
+      "count": 101
     },
     {
       "label": "🟡 3-5",
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 23
+      "count": 24
     },
     {
       "label": "🟢 0–2",
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 0
+      "count": 2
     }
   ],
   "reqType": [
     {
       "label": "Standard",
-      "count": 310,
+      "count": 308,
       "color": "#006747"
     },
     {
@@ -111,13 +111,13 @@
       "color": "#00A693"
     },
     {
-      "label": "Targeted",
+      "label": "Faculty",
       "count": 19,
       "color": "#1B6A9C"
     },
     {
-      "label": "Faculty",
-      "count": 19,
+      "label": "Targeted",
+      "count": 18,
       "color": "#CFC483"
     },
     {
@@ -129,7 +129,7 @@
   "department": [
     {
       "label": "USF Health",
-      "count": 134,
+      "count": 132,
       "color": "#006747"
     },
     {
@@ -144,7 +144,7 @@
     },
     {
       "label": "051000 - Athletic Administration",
-      "count": 21,
+      "count": 20,
       "color": "#CFC483"
     },
     {
@@ -1000,12 +1000,12 @@
         },
         {
           "label": "Offer Stage",
-          "count": 23,
+          "count": 22,
           "color": "#0F6E56"
         },
         {
           "label": "HM Review",
-          "count": 151,
+          "count": 150,
           "color": "#993556"
         },
         {
@@ -1035,7 +1035,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 65
+          "count": 63
         },
         {
           "label": "🟡 3-5",
@@ -1055,7 +1055,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 225
+          "count": 223
         },
         {
           "label": "Screened",
@@ -1063,7 +1063,7 @@
         },
         {
           "label": "HM Review",
-          "count": 151
+          "count": 150
         },
         {
           "label": "Interviews",
@@ -1071,7 +1071,7 @@
         },
         {
           "label": "Offer",
-          "count": 23
+          "count": 22
         }
       ],
       "goals": [
@@ -1118,7 +1118,7 @@
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
       "reqs": 120,
-      "filled": 2,
+      "filled": 3,
       "failed": 4,
       "ttf": 72,
       "wip": 10,
@@ -1140,7 +1140,7 @@
         },
         {
           "label": "Pre-boarding",
-          "count": 16,
+          "count": 17,
           "color": "#888780"
         },
         {
@@ -1150,7 +1150,7 @@
         },
         {
           "label": "Interview Stage",
-          "count": 10,
+          "count": 8,
           "color": "#534AB7"
         },
         {
@@ -1190,7 +1190,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 80
+          "count": 79
         },
         {
           "label": "Screened",
@@ -1202,7 +1202,7 @@
         },
         {
           "label": "Interviews",
-          "count": 10
+          "count": 8
         },
         {
           "label": "Offer",
@@ -1212,7 +1212,7 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 2,
+          "value": 3,
           "target": 10,
           "invert": false
         },
@@ -1230,7 +1230,7 @@
         },
         {
           "label": "Interviews",
-          "value": 10,
+          "value": 8,
           "target": 120,
           "invert": false
         }
@@ -1310,21 +1310,21 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 15
+          "count": 12
         },
         {
           "label": "🟡 3-5",
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 13
+          "count": 14
         },
         {
           "label": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 0
+          "count": 2
         }
       ],
       "funnel": [
