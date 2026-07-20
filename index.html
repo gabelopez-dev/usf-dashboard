@@ -281,7 +281,7 @@ function renderMainPage(data) {
 
     <div class="card">
       <div class="card-title">Job Aging Heatmap</div>
-      ${(() => { currentAgingRecords = data.agingRecords || null; return renderAgingHeatmap(data.mainAging || [], data.agingRecords || null); })()}
+      ${(() => { currentAgingRecords = data.agingRecords || null; return renderAgingHeatmap(data.mainAging || [], data.agingRecords || null, 'main'); })()}
     </div>
   </div>`;
 
@@ -345,13 +345,17 @@ function renderMainPage(data) {
   }
 }
 
-function renderAgingHeatmap(aging, agingRecords) {
+function renderAgingHeatmap(aging, agingRecords, contextKey) {
   if (!aging.length || aging.every(a => a.count === 0)) {
     return `<p class="pending-note">No aging data available yet</p>`;
   }
-  let rows = aging.map((a, i) => {
-    const hasRecords = a.count > 0 && agingRecords;
-    const clickAttr = hasRecords ? `onclick="openDrillDown('${a.label.replace(/'/g, "\\'")}', currentAgingRecords)"` : '';
+  if (agingRecords && contextKey) {
+    agingRegistry[contextKey] = agingRecords;
+  }
+  let rows = aging.map((a) => {
+    const hasRecords = a.count > 0 && agingRecords && contextKey;
+    const safeLabel = a.label.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+    const clickAttr = hasRecords ? `onclick="openDrillDown('${safeLabel}', '${contextKey}')"` : '';
     const rowClass = hasRecords ? 'heat-row-clickable' : '';
     const hint = hasRecords ? `<span style="font-size:9px;color:#aaa;margin-left:4px;">click to view</span>` : '';
     return `<tr class="${rowClass}" ${clickAttr}>
@@ -362,10 +366,13 @@ function renderAgingHeatmap(aging, agingRecords) {
   return `<table class="heat-table"><thead><tr><th>Band</th><th style="text-align:center;">Count</th></tr></thead><tbody>${rows}</tbody></table>`;
 }
 
-// Current aging records context (set when rendering main or recruiter page)
-let currentAgingRecords = null;
+// Registry keyed by context (main vs per-recruiter) so drill-down always
+// shows the right recruiter's reqs, not the last-rendered global set
+const agingRegistry = {};
+let currentAgingRecords = null; // kept for backward compat
 
-function openDrillDown(bandLabel, agingRecords) {
+function openDrillDown(bandLabel, contextKey) {
+  const agingRecords = agingRegistry[contextKey] || currentAgingRecords;
   if (!agingRecords) return;
   const bandData = agingRecords.find(b => b.band === bandLabel || 
     b.band.replace(/–/g,'-') === bandLabel.replace(/–/g,'-'));
@@ -453,7 +460,7 @@ function renderRecruiterPage(r) {
       currentAgingRecords = r.agingRecords;
       html += `<div class="card">
         <div class="card-title">Job Aging Heatmap</div>
-        ${renderAgingHeatmap(recAging, r.agingRecords)}
+        ${renderAgingHeatmap(recAging, r.agingRecords, r.id)}
       </div>`;
     }
 
