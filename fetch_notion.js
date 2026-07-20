@@ -331,6 +331,42 @@ async function main() {
     console.log('DEBUG raw Department/College property on first record:', JSON.stringify(records[0].properties?.['Department/College']));
   }
 
+  // Avg Time in Stage per stage
+  const stageTimeAgg = {};
+  activeRecords.forEach(r => {
+    const stage = getProp(r, 'Stage', 'select');
+    const days = getProp(r, 'Time in Stage (Days)', 'formula_number');
+    if (stage && days !== null && days > 0) {
+      if (!stageTimeAgg[stage]) stageTimeAgg[stage] = { total: 0, count: 0 };
+      stageTimeAgg[stage].total += days;
+      stageTimeAgg[stage].count += 1;
+    }
+  });
+  const stageColors = {
+    'Recruiter Review': '#006747', 'Sourced': '#00A693', 'Screened': '#1B6A9C',
+    'HM Review': '#534AB7', 'Interview Stage': '#d4880a', 'Offer Stage': '#CFC483',
+    'Pre-boarding': '#5B8FA8', 'Backlog': '#888780', 'Targeted': '#7A9EB5',
+    'Student Hiring': '#0F6E56', 'Faculty': '#993556'
+  };
+  const stageOrder = ['Sourced','Recruiter Review','Screened','HM Review','Interview Stage','Offer Stage','Pre-boarding'];
+  const stageMetrics = stageOrder
+    .filter(s => stageTimeAgg[s] && stageTimeAgg[s].count > 0)
+    .map(s => ({
+      label: s,
+      avgDays: Math.round(stageTimeAgg[s].total / stageTimeAgg[s].count),
+      count: stageTimeAgg[s].count,
+      color: stageColors[s] || '#888780'
+    }));
+  Object.entries(stageTimeAgg)
+    .filter(([s]) => !stageOrder.includes(s))
+    .forEach(([s, v]) => stageMetrics.push({
+      label: s,
+      avgDays: Math.round(v.total / v.count),
+      count: v.count,
+      color: stageColors[s] || '#888780'
+    }));
+  console.log('Stage metrics:', JSON.stringify(stageMetrics));
+
   const data = {
     lastUpdated: new Date().toISOString(),
     summary: {
@@ -378,6 +414,7 @@ async function main() {
     })),
     reqType: reqTypeBreakdown,
     department: deptBreakdown,
+    stageMetrics,
     recruiters
   };
 
