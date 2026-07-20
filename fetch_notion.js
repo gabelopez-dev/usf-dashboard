@@ -259,7 +259,7 @@ async function main() {
         records: allMyRecs
           .filter(r => matchAgingBand(getProp(r, 'Aging Band', 'formula_text'), band.label))
           .map(r => ({
-            title: getProp(r, 'Requisition Title', 'title') || getProp(r, 'Name', 'title') || 'Untitled',
+            title: getProp(r, 'Requistion Title', 'title') || getProp(r, 'Requisition Title', 'title') || getProp(r, 'Name', 'title') || 'Untitled',
             reqId: getProp(r, 'Requisition ID', 'text') || getProp(r, 'Requisition ID', 'number') || '',
             owner: (() => { const p = getProp(r, 'Owner', 'person'); return p?.name || p?.person?.email || 'Unassigned'; })(),
             campus: getProp(r, 'Campus', 'select') || '',
@@ -367,7 +367,7 @@ async function main() {
       records: activeRecords
         .filter(r => matchAgingBand(getProp(r, 'Aging Band', 'formula_text'), band.label))
         .map(r => ({
-          title: getProp(r, 'Requisition Title', 'title') || getProp(r, 'Name', 'title') || 'Untitled',
+          title: getProp(r, 'Requistion Title', 'title') || getProp(r, 'Requisition Title', 'title') || getProp(r, 'Name', 'title') || 'Untitled',
           reqId: getProp(r, 'Requisition ID', 'text') || getProp(r, 'Requisition ID', 'number') || '',
           owner: (() => { const p = getProp(r, 'Owner', 'person'); return p?.name || p?.person?.email || 'Unassigned'; })(),
           campus: getProp(r, 'Campus', 'select') || '',
