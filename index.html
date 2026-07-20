@@ -462,7 +462,7 @@ function closeDrillDown() {
 
 function renderRecruiterPage(r) {
   const hasData = (r.reqs || 0) > 0;
-  const trackerUrls = {"katherine": "https://www.notion.so/486fbaa94c784fa09e1cd43c5dddaba2?v=800d477496014eab9e32442a3545f120", "rebecca": "https://www.notion.so/43a4a79f196240b8aac25ca27dcfa7d1?v=ae2fd6f1acaa4e1ca789ac97167f43d2", "john": "https://www.notion.so/2a2ea2b1077d429e975c4682a3a724e8?v=7b9c3c39a8bb4388857065258459c1cb", "gabriel": "https://www.notion.so/0c747bfda9a94d2a8e21f858bc48d903?v=4dc7b6a1d6a24a70a781f0d653aaf6b0", "tameka": "https://app.notion.com/p/8762e3f9f33f4c238273211c4390935c?v=dbca9b41c64b4a11bd55973e9d0ce82a"};
+  const trackerUrls = {"katherine": "https://www.notion.so/486fbaa94c784fa09e1cd43c5dddaba2?v=800d477496014eab9e32442a3545f120", "rebecca": "https://www.notion.so/43a4a79f196240b8aac25ca27dcfa7d1?v=ae2fd6f1acaa4e1ca789ac97167f43d2", "john": "https://www.notion.so/2a2ea2b1077d429e975c4682a3a724e8?v=7b9c3c39a8bb4388857065258459c1cb", "gabriel": "https://app.notion.com/p/20b8fb48a95849568ba6a6013526b2d7?v=b74f0fc7660c45fe8da4e2ff65e90ea1", "tameka": "https://app.notion.com/p/8762e3f9f33f4c238273211c4390935c?v=dbca9b41c64b4a11bd55973e9d0ce82a"};
   const trackerUrl = trackerUrls[r.id] || null;
 
   let html = `<div class="detail-header">
