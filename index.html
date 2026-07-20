@@ -101,6 +101,26 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; b
 .loading { text-align: center; padding: 60px; color: #999; font-size: 14px; }
 .error-box { background: #fff3cd; border: 1px solid #f5c842; border-radius: 8px; padding: 14px; margin: 14px; font-size: 12px; color: #7a4f00; }
 .error-box code { background: rgba(0,0,0,0.06); padding: 1px 5px; border-radius: 3px; }
+
+/* Drill-down panel */
+.drill-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.45); z-index: 999; }
+.drill-overlay.open { display: block; }
+.drill-panel { position: fixed; top: 0; right: -100%; width: 680px; max-width: 95vw; height: 100%; background: var(--surface); box-shadow: -4px 0 24px rgba(0,0,0,0.15); z-index: 1000; transition: right .3s ease; overflow-y: auto; }
+.drill-panel.open { right: 0; }
+.drill-header { display: flex; align-items: center; justify-content: space-between; padding: 16px 20px; border-bottom: 1px solid var(--border); position: sticky; top: 0; background: var(--surface); z-index: 1; }
+.drill-title { font-size: 15px; font-weight: 700; color: var(--text); }
+.drill-subtitle { font-size: 11px; color: var(--text-muted); margin-top: 2px; }
+.drill-close { width: 32px; height: 32px; border-radius: 6px; background: #f0efeb; border: none; cursor: pointer; font-size: 16px; display: flex; align-items: center; justify-content: center; color: #555; }
+.drill-close:hover { background: #e0dfdb; }
+.drill-body { padding: 16px 20px; }
+.drill-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+.drill-table th { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); padding: 8px 10px; border-bottom: 1px solid var(--border); text-align: left; background: #fafaf8; position: sticky; top: 0; }
+.drill-table td { padding: 8px 10px; border-bottom: 1px solid #f0efeb; color: var(--text); vertical-align: middle; }
+.drill-table tr:last-child td { border-bottom: none; }
+.drill-table tr:hover td { background: var(--usf-green-light); cursor: default; }
+.drill-empty { text-align: center; padding: 40px; color: var(--text-muted); font-size: 13px; }
+.heat-row-clickable { cursor: pointer; transition: background .1s; }
+.heat-row-clickable:hover { background: var(--usf-green-light); }
 </style>
 </head>
 <body>
@@ -112,6 +132,19 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; b
 
 <div class="nav" id="navTabs">
   <div class="nav-tab" data-page="main" style="background:#006747;" onclick="showPage(this)">Main</div>
+</div>
+
+<!-- Drill-down panel -->
+<div id="drillOverlay" class="drill-overlay" onclick="closeDrillDown()"></div>
+<div id="drillPanel" class="drill-panel">
+  <div class="drill-header">
+    <div>
+      <div class="drill-title" id="drillTitle">Aging Reqs</div>
+      <div class="drill-subtitle" id="drillSubtitle"></div>
+    </div>
+    <button class="drill-close" onclick="closeDrillDown()">✕</button>
+  </div>
+  <div class="drill-body" id="drillBody"></div>
 </div>
 
 <div class="content" id="content">
@@ -248,7 +281,7 @@ function renderMainPage(data) {
 
     <div class="card">
       <div class="card-title">Job Aging Heatmap</div>
-      ${renderAgingHeatmap(data.mainAging || [])}
+      ${(() => { currentAgingRecords = data.agingRecords || null; return renderAgingHeatmap(data.mainAging || [], data.agingRecords || null); })()}
     </div>
   </div>`;
 
@@ -288,12 +321,64 @@ function renderMainPage(data) {
   }
 }
 
-function renderAgingHeatmap(aging) {
+function renderAgingHeatmap(aging, agingRecords) {
   if (!aging.length || aging.every(a => a.count === 0)) {
     return `<p class="pending-note">No aging data available yet</p>`;
   }
-  let rows = aging.map(a => `<tr><td>${a.label}</td><td><span class="${a.count > 0 ? 'heat-high' : 'heat-none'}">${a.count || '-'}</span></td></tr>`).join('');
-  return `<table class="heat-table"><thead><tr><th>Band</th><th>Count</th></tr></thead><tbody>${rows}</tbody></table>`;
+  let rows = aging.map((a, i) => {
+    const hasRecords = a.count > 0 && agingRecords;
+    const clickAttr = hasRecords ? `onclick="openDrillDown('${a.label.replace(/'/g, "\\'")}', currentAgingRecords)"` : '';
+    const rowClass = hasRecords ? 'heat-row-clickable' : '';
+    const hint = hasRecords ? `<span style="font-size:9px;color:#aaa;margin-left:4px;">click to view</span>` : '';
+    return `<tr class="${rowClass}" ${clickAttr}>
+      <td>${a.label}${hint}</td>
+      <td style="text-align:center;"><span class="${a.count > 0 ? 'heat-high' : 'heat-none'}">${a.count || '-'}</span></td>
+    </tr>`;
+  }).join('');
+  return `<table class="heat-table"><thead><tr><th>Band</th><th style="text-align:center;">Count</th></tr></thead><tbody>${rows}</tbody></table>`;
+}
+
+// Current aging records context (set when rendering main or recruiter page)
+let currentAgingRecords = null;
+
+function openDrillDown(bandLabel, agingRecords) {
+  if (!agingRecords) return;
+  const bandData = agingRecords.find(b => b.band === bandLabel || 
+    b.band.replace(/–/g,'-') === bandLabel.replace(/–/g,'-'));
+  if (!bandData) return;
+
+  const recs = bandData.records || [];
+  const panel = document.getElementById('drillPanel');
+  const overlay = document.getElementById('drillOverlay');
+
+  document.getElementById('drillTitle').textContent = bandLabel + ' — Aging Reqs';
+  document.getElementById('drillSubtitle').textContent = recs.length + ' requisition' + (recs.length !== 1 ? 's' : '') + ' in this band';
+
+  let tableHTML = '';
+  if (recs.length === 0) {
+    tableHTML = `<div class="drill-empty">No records found in this aging band.</div>`;
+  } else {
+    const rows = recs.map(r => `<tr>
+      <td><strong>${r.title || 'Untitled'}</strong>${r.reqId ? `<br><span style="font-size:10px;color:#999;">#${r.reqId}</span>` : ''}</td>
+      <td>${r.owner || '—'}</td>
+      <td>${r.campus || '—'}</td>
+      <td><span class="pill pill-blue">${r.stage || '—'}</span></td>
+      <td>${r.department || '—'}</td>
+    </tr>`).join('');
+    tableHTML = `<div style="overflow-x:auto;"><table class="drill-table">
+      <thead><tr><th>Requisition</th><th>Owner</th><th>Campus</th><th>Stage</th><th>Department</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table></div>`;
+  }
+
+  document.getElementById('drillBody').innerHTML = tableHTML;
+  panel.classList.add('open');
+  overlay.classList.add('open');
+}
+
+function closeDrillDown() {
+  document.getElementById('drillPanel').classList.remove('open');
+  document.getElementById('drillOverlay').classList.remove('open');
 }
 
 function renderRecruiterPage(r) {
@@ -330,6 +415,18 @@ function renderRecruiterPage(r) {
       statusHTML += `<div class="funnel-step"><div class="funnel-bar" style="width:${widthPct}%; margin-left:${indent}%; background:${s.color};"><span class="funnel-bar-label" style="color:${textColor};">${s.label}</span><span class="funnel-bar-count" style="color:${textColor};">${s.count}</span></div></div>`;
     });
     html += `<div class="card"><div class="card-title">Pipeline by Status</div>${statusHTML}</div>`;
+  }
+
+  // Per-recruiter aging heatmap with drill-down
+  if (r.agingRecords) {
+    const recAging = r.agingRecords.map(b => ({ label: b.band, count: b.records.length, color: b.color }));
+    if (recAging.some(a => a.count > 0)) {
+      currentAgingRecords = r.agingRecords;
+      html += `<div class="card" style="margin-top:10px;">
+        <div class="card-title">Job Aging Heatmap</div>
+        ${renderAgingHeatmap(recAging, r.agingRecords)}
+      </div>`;
+    }
   }
 
   return html;
