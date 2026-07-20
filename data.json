@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-07-20T17:02:46.034Z",
+  "lastUpdated": "2026-07-20T19:13:39.694Z",
   "summary": {
     "openReqs": 531,
     "avgTimeToFill": 82,
     "filledYTD": 8,
     "failedCancelled": 25,
-    "inOfferStage": 37
+    "inOfferStage": 38
   },
   "campus": [
     {
@@ -37,18 +37,18 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 194
+      "count": 193
     },
     {
       "label": "HM Review",
       "count": 168
     },
     {
-      "label": "Student Hiring",
-      "count": 37
+      "label": "Offer Stage",
+      "count": 38
     },
     {
-      "label": "Offer Stage",
+      "label": "Student Hiring",
       "count": 37
     },
     {
@@ -82,21 +82,21 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 100
+      "count": 101
     },
     {
       "label": "🟡 3-5",
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 25
+      "count": 24
     },
     {
       "label": "🟢 0–2",
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 2
+      "count": 3
     }
   ],
   "reqType": [
@@ -986,11 +986,11 @@
       "filled": 0,
       "failed": 20,
       "ttf": 94,
-      "wip": 6,
+      "wip": 5,
       "statuses": [
         {
           "label": "Recruiter Review",
-          "count": 28,
+          "count": 27,
           "color": "#185FA5"
         },
         {
@@ -1005,7 +1005,7 @@
         },
         {
           "label": "HM Review",
-          "count": 145,
+          "count": 146,
           "color": "#993556"
         },
         {
@@ -1035,7 +1035,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 62
+          "count": 63
         },
         {
           "label": "🟡 3-5",
@@ -1063,7 +1063,7 @@
         },
         {
           "label": "HM Review",
-          "count": 145
+          "count": 146
         },
         {
           "label": "Interviews",
@@ -1154,14 +1154,14 @@
           "color": "#534AB7"
         },
         {
-          "label": "HM Review",
-          "count": 21,
-          "color": "#993556"
+          "label": "Offer Stage",
+          "count": 6,
+          "color": "#0F6E56"
         },
         {
-          "label": "Offer Stage",
-          "count": 5,
-          "color": "#0F6E56"
+          "label": "HM Review",
+          "count": 20,
+          "color": "#993556"
         }
       ],
       "aging": [
@@ -1198,7 +1198,7 @@
         },
         {
           "label": "HM Review",
-          "count": 21
+          "count": 20
         },
         {
           "label": "Interviews",
@@ -1206,7 +1206,7 @@
         },
         {
           "label": "Offer",
-          "count": 5
+          "count": 6
         }
       ],
       "goals": [
@@ -1317,14 +1317,14 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 14
+          "count": 13
         },
         {
           "label": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 2
+          "count": 3
         }
       ],
       "funnel": [
