@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-07-21T12:54:41.809Z",
+  "lastUpdated": "2026-07-21T15:05:13.603Z",
   "summary": {
-    "openReqs": 531,
+    "openReqs": 530,
     "avgTimeToFill": 83,
-    "filledYTD": 8,
+    "filledYTD": 9,
     "failedCancelled": 25,
-    "inOfferStage": 38
+    "inOfferStage": 37
   },
   "campus": [
     {
@@ -44,11 +44,11 @@
       "count": 168
     },
     {
-      "label": "Offer Stage",
-      "count": 38
+      "label": "Student Hiring",
+      "count": 37
     },
     {
-      "label": "Student Hiring",
+      "label": "Offer Stage",
       "count": 37
     },
     {
@@ -82,7 +82,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 123
+      "count": 121
     },
     {
       "label": "🟡 3-5",
@@ -96,7 +96,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 11
+      "count": 21
     }
   ],
   "agingRecords": [
@@ -373,36 +373,6 @@
           "stage": "HM Review",
           "agingBand": "🔴 6+",
           "department": "612500 - Dept Of Neurol"
-        },
-        {
-          "title": "Licensed Human Services Practitioner",
-          "reqId": "42397",
-          "notionUrl": "https://www.notion.so/f7f7c7c0f7764184a29a13a1317ed71e",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Interview Stage",
-          "agingBand": "🔴 6+",
-          "department": "041500 - Counseling Center"
-        },
-        {
-          "title": "OPS Licensed Human Services Practitioner",
-          "reqId": "42524",
-          "notionUrl": "https://www.notion.so/2dd9225ccfed43ce90219e516ed0e5fb",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Interview Stage",
-          "agingBand": "🔴 6+",
-          "department": "041500 - Counseling Center"
-        },
-        {
-          "title": "Student Programs Coordinator",
-          "reqId": "42905",
-          "notionUrl": "https://www.notion.so/f37b59bd18f94094b3c528c2fe8a15ee",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "044100 - Ctr For Student Involvement"
         },
         {
           "title": "Temporary Pcard Specialist I",
@@ -945,6 +915,16 @@
           "department": "Engineering"
         },
         {
+          "title": "Cyber Security Analyst II",
+          "reqId": "43254",
+          "notionUrl": "https://www.notion.so/40207259158b465588fac3ea4a5eba6c",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🔴 6+",
+          "department": "391000 - Fl Center For Cybersecurity"
+        },
+        {
           "title": "Assistant Director Research",
           "reqId": "42822",
           "notionUrl": "https://www.notion.so/18fcccc9af774a149d69ad55aa5343cf",
@@ -1367,6 +1347,66 @@
       "color": "#3B6D11",
       "records": [
         {
+          "title": "Licensed Human Services Practitioner",
+          "reqId": "42397",
+          "notionUrl": "https://www.notion.so/f7f7c7c0f7764184a29a13a1317ed71e",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Interview Stage",
+          "agingBand": "🟢 0–2",
+          "department": "041500 - Counseling Center"
+        },
+        {
+          "title": "OPS Licensed Human Services Practitioner",
+          "reqId": "42524",
+          "notionUrl": "https://www.notion.so/2dd9225ccfed43ce90219e516ed0e5fb",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Interview Stage",
+          "agingBand": "🟢 0–2",
+          "department": "041500 - Counseling Center"
+        },
+        {
+          "title": "Student Programs Coordinator",
+          "reqId": "42905",
+          "notionUrl": "https://www.notion.so/f37b59bd18f94094b3c528c2fe8a15ee",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "044100 - Ctr For Student Involvement"
+        },
+        {
+          "title": "FTIC Out-of-State Recruiter",
+          "reqId": "43157",
+          "notionUrl": "https://www.notion.so/3979ddf757a08014851ff7ffdce99afd",
+          "owner": "johncalebrese",
+          "campus": "",
+          "stage": "Interview Stage",
+          "agingBand": "🟢 0–2",
+          "department": ""
+        },
+        {
+          "title": "Licensed Practical Nurse",
+          "reqId": "43376",
+          "notionUrl": "https://www.notion.so/85e973beb60d4bb2a52f0592f63cf61e",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "043000 - Student Health Services"
+        },
+        {
+          "title": "Business Analyst",
+          "reqId": "43467",
+          "notionUrl": "https://www.notion.so/9492201f49cd41ae8898b9f114026461",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "041300 - Strategic Initiatives"
+        },
+        {
           "title": "Experiential Learning Coordinator",
           "reqId": "43662",
           "notionUrl": "https://www.notion.so/1313cca850574c348980fc427f4dc646",
@@ -1475,6 +1515,46 @@
           "stage": "HM Review",
           "agingBand": "🟢 0–2",
           "department": "051000 - Athletic Administration"
+        },
+        {
+          "title": "Assistant Director Information Management",
+          "reqId": "43551",
+          "notionUrl": "https://www.notion.so/cb88060ea4ac40c8b2a539dedb68aa0a",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "210800 - AICC Bellini College Department"
+        },
+        {
+          "title": "AVP Athletic Business Analytic Strat",
+          "reqId": "43428",
+          "notionUrl": "https://www.notion.so/a0239e74bd2a46dbb004af24c7ae0ccb",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "051000 - Athletic Administration"
+        },
+        {
+          "title": "Sr. Associate Director",
+          "reqId": "43375",
+          "notionUrl": "https://www.notion.so/56e041ec8a3c4a589c1b80436d9e8543",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Offer Stage",
+          "agingBand": "🟢 0–2",
+          "department": "490000 - USF World"
+        },
+        {
+          "title": "Director of Experiential Learning & Engagement",
+          "reqId": "43315",
+          "notionUrl": "https://www.notion.so/f417480722cf415ba25ea8072e158bef",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "019000 - Unv Community Partnerships"
         }
       ]
     }
@@ -1482,7 +1562,7 @@
   "reqType": [
     {
       "label": "Standard",
-      "count": 304,
+      "count": 305,
       "color": "#006747"
     },
     {
@@ -1502,7 +1582,7 @@
     },
     {
       "label": "Evergreen",
-      "count": 9,
+      "count": 10,
       "color": "#7A9EB5"
     }
   ],
@@ -1648,8 +1728,8 @@
       "color": "#CFC483"
     },
     {
-      "label": "Other (118 depts)",
-      "count": 181,
+      "label": "Other (117 depts)",
+      "count": 180,
       "color": "#c8c7c2"
     }
   ],
@@ -1662,20 +1742,20 @@
     },
     {
       "label": "Recruiter Review",
-      "avgDays": 12,
-      "count": 44,
+      "avgDays": 9,
+      "count": 43,
       "color": "#006747"
     },
     {
       "label": "HM Review",
       "avgDays": 13,
-      "count": 25,
+      "count": 26,
       "color": "#534AB7"
     },
     {
       "label": "Interview Stage",
-      "avgDays": 37,
-      "count": 13,
+      "avgDays": 9,
+      "count": 12,
       "color": "#d4880a"
     },
     {
@@ -1692,8 +1772,8 @@
     },
     {
       "label": "Backlog",
-      "avgDays": 12,
-      "count": 5,
+      "avgDays": 11,
+      "count": 6,
       "color": "#888780"
     }
   ],
@@ -2607,6 +2687,16 @@
       "department": "USF Health",
       "ttf": 36,
       "notionUrl": "https://www.notion.so/28606d4448534e8e94004e88c9f171b4"
+    },
+    {
+      "title": "Graphics Designer - Housing & Residential Education",
+      "reqId": "43747",
+      "owner": "johncalebrese",
+      "campus": "",
+      "stage": "Hired",
+      "department": "043500 - Housing & Residential ED",
+      "ttf": 35,
+      "notionUrl": "https://www.notion.so/38f9ddf757a0802ca799f1f8aed0fd67"
     },
     {
       "title": "Research Supporrt Assistant",
@@ -4185,7 +4275,7 @@
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
       "reqs": 120,
-      "filled": 3,
+      "filled": 4,
       "failed": 4,
       "ttf": 73,
       "wip": 10,
@@ -4213,36 +4303,6 @@
               "stage": "Backlog",
               "agingBand": "🔴 6+",
               "department": "490000 - USF World"
-            },
-            {
-              "title": "Licensed Human Services Practitioner",
-              "reqId": "42397",
-              "notionUrl": "https://www.notion.so/f7f7c7c0f7764184a29a13a1317ed71e",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Interview Stage",
-              "agingBand": "🔴 6+",
-              "department": "041500 - Counseling Center"
-            },
-            {
-              "title": "OPS Licensed Human Services Practitioner",
-              "reqId": "42524",
-              "notionUrl": "https://www.notion.so/2dd9225ccfed43ce90219e516ed0e5fb",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Interview Stage",
-              "agingBand": "🔴 6+",
-              "department": "041500 - Counseling Center"
-            },
-            {
-              "title": "Student Programs Coordinator",
-              "reqId": "42905",
-              "notionUrl": "https://www.notion.so/f37b59bd18f94094b3c528c2fe8a15ee",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "044100 - Ctr For Student Involvement"
             },
             {
               "title": "Temporary Pcard Specialist I",
@@ -4315,6 +4375,16 @@
               "department": "042700 - Marshall Student Center"
             },
             {
+              "title": "Cyber Security Analyst II",
+              "reqId": "43254",
+              "notionUrl": "https://www.notion.so/40207259158b465588fac3ea4a5eba6c",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🔴 6+",
+              "department": "391000 - Fl Center For Cybersecurity"
+            },
+            {
               "title": "Student Asst FWS",
               "reqId": "41541",
               "notionUrl": "https://www.notion.so/2be25b77fd4a4dc998ca53259e5a7dda",
@@ -4355,6 +4425,66 @@
           "band": "🟢 0–2",
           "color": "#3B6D11",
           "records": [
+            {
+              "title": "Licensed Human Services Practitioner",
+              "reqId": "42397",
+              "notionUrl": "https://www.notion.so/f7f7c7c0f7764184a29a13a1317ed71e",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Interview Stage",
+              "agingBand": "🟢 0–2",
+              "department": "041500 - Counseling Center"
+            },
+            {
+              "title": "OPS Licensed Human Services Practitioner",
+              "reqId": "42524",
+              "notionUrl": "https://www.notion.so/2dd9225ccfed43ce90219e516ed0e5fb",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Interview Stage",
+              "agingBand": "🟢 0–2",
+              "department": "041500 - Counseling Center"
+            },
+            {
+              "title": "Student Programs Coordinator",
+              "reqId": "42905",
+              "notionUrl": "https://www.notion.so/f37b59bd18f94094b3c528c2fe8a15ee",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "044100 - Ctr For Student Involvement"
+            },
+            {
+              "title": "FTIC Out-of-State Recruiter",
+              "reqId": "43157",
+              "notionUrl": "https://www.notion.so/3979ddf757a08014851ff7ffdce99afd",
+              "owner": "johncalebrese",
+              "campus": "",
+              "stage": "Interview Stage",
+              "agingBand": "🟢 0–2",
+              "department": ""
+            },
+            {
+              "title": "Licensed Practical Nurse",
+              "reqId": "43376",
+              "notionUrl": "https://www.notion.so/85e973beb60d4bb2a52f0592f63cf61e",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "043000 - Student Health Services"
+            },
+            {
+              "title": "Business Analyst",
+              "reqId": "43467",
+              "notionUrl": "https://www.notion.so/9492201f49cd41ae8898b9f114026461",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "041300 - Strategic Initiatives"
+            },
             {
               "title": "Experiential Learning Coordinator",
               "reqId": "43662",
@@ -4434,6 +4564,46 @@
               "stage": "HM Review",
               "agingBand": "🟢 0–2",
               "department": "051000 - Athletic Administration"
+            },
+            {
+              "title": "Assistant Director Information Management",
+              "reqId": "43551",
+              "notionUrl": "https://www.notion.so/cb88060ea4ac40c8b2a539dedb68aa0a",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "210800 - AICC Bellini College Department"
+            },
+            {
+              "title": "AVP Athletic Business Analytic Strat",
+              "reqId": "43428",
+              "notionUrl": "https://www.notion.so/a0239e74bd2a46dbb004af24c7ae0ccb",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "051000 - Athletic Administration"
+            },
+            {
+              "title": "Sr. Associate Director",
+              "reqId": "43375",
+              "notionUrl": "https://www.notion.so/56e041ec8a3c4a589c1b80436d9e8543",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Offer Stage",
+              "agingBand": "🟢 0–2",
+              "department": "490000 - USF World"
+            },
+            {
+              "title": "Director of Experiential Learning & Engagement",
+              "reqId": "43315",
+              "notionUrl": "https://www.notion.so/f417480722cf415ba25ea8072e158bef",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "019000 - Unv Community Partnerships"
             }
           ]
         }
@@ -4441,20 +4611,20 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 55,
-          "count": 3,
+          "avgDays": 14,
+          "count": 2,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 70,
-          "count": 2,
+          "avgDays": 47,
+          "count": 3,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 140,
-          "count": 3,
+          "avgDays": 26,
+          "count": 2,
           "color": "#d4880a"
         },
         {
@@ -4472,7 +4642,7 @@
         {
           "label": "Backlog",
           "avgDays": 8,
-          "count": 1,
+          "count": 2,
           "color": "#888780"
         }
       ],
@@ -4509,7 +4679,7 @@
         },
         {
           "label": "Offer Stage",
-          "count": 6,
+          "count": 5,
           "color": "#0F6E56"
         },
         {
@@ -4524,7 +4694,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 14
+          "count": 12
         },
         {
           "label": "🟡 3-5",
@@ -4538,13 +4708,13 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 8
+          "count": 18
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 79
+          "count": 78
         },
         {
           "label": "Screened",
@@ -4560,13 +4730,13 @@
         },
         {
           "label": "Offer",
-          "count": 6
+          "count": 5
         }
       ],
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 3,
+          "value": 4,
           "target": 10,
           "invert": false
         },
@@ -5101,7 +5271,7 @@
       "reqs": 125,
       "filled": 0,
       "failed": 0,
-      "ttf": 54,
+      "ttf": 55,
       "wip": 0,
       "agingRecords": [
         {
@@ -5241,7 +5411,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 54,
+          "value": 55,
           "target": 40,
           "invert": true
         },
@@ -5259,12 +5429,12 @@
         }
       ],
       "trend": [
-        54,
-        54,
-        54,
-        54,
-        54,
-        54
+        55,
+        55,
+        55,
+        55,
+        55,
+        55
       ]
     }
   ]
