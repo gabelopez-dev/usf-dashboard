@@ -354,9 +354,17 @@ async function main() {
     const d = getProp(r, 'Department/College', 'text') || getProp(r, 'Department/College', 'select');
     if (d) deptAgg[d] = (deptAgg[d] || 0) + 1;
   });
-  const deptBreakdown = Object.entries(deptAgg)
-    .sort((a,b) => b[1] - a[1])
-    .map(([label, count], i) => ({ label, count, color: deptColors[i % deptColors.length] }));
+  // Group departments with 3 or fewer reqs into "Other" to keep the donut readable
+  const DEPT_MIN_COUNT = 3;
+  const deptSorted = Object.entries(deptAgg).sort((a,b) => b[1] - a[1]);
+  const deptMain = deptSorted.filter(([,count]) => count > DEPT_MIN_COUNT);
+  const deptOther = deptSorted.filter(([,count]) => count <= DEPT_MIN_COUNT);
+  const otherCount = deptOther.reduce((sum, [,count]) => sum + count, 0);
+
+  const deptBreakdown = [
+    ...deptMain.map(([label, count], i) => ({ label, count, color: deptColors[i % deptColors.length] })),
+    ...(otherCount > 0 ? [{ label: `Other (${deptOther.length} depts)`, count: otherCount, color: '#c8c7c2' }] : [])
+  ];
 
   console.log('Req Type breakdown:', JSON.stringify(reqTypeBreakdown));
   // DEBUG: verify formula fields are being read correctly
