@@ -132,6 +132,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; b
 
 <div class="nav" id="navTabs">
   <div class="nav-tab" data-page="main" style="background:#006747;" onclick="showPage(this)">Main</div>
+  <div class="nav-tab" data-page="closed" style="background:#5B7A8A;" onclick="showPage(this)">Closed Reqs</div>
 </div>
 
 <!-- Drill-down panel -->
@@ -143,6 +144,9 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; b
       <div class="drill-subtitle" id="drillSubtitle"></div>
     </div>
     <button class="drill-close" onclick="closeDrillDown()">✕</button>
+  </div>
+  <div style="padding:10px 20px; border-bottom:0.5px solid var(--border); position:sticky; top:65px; background:var(--surface); z-index:1;">
+    <input type="text" id="drillSearch" placeholder="Filter by title, owner, campus, or department..." oninput="filterDrillDown()" style="width:100%; font-size:12px; padding:7px 10px; border:0.5px solid var(--border); border-radius:6px; background:var(--surface); color:var(--text-primary); outline:none; box-sizing:border-box;">
   </div>
   <div class="drill-body" id="drillBody"></div>
 </div>
@@ -421,36 +425,18 @@ let currentAgingRecords = null; // kept for backward compat
 function openDrillDown(bandLabel, contextKey) {
   const agingRecords = agingRegistry[contextKey] || currentAgingRecords;
   if (!agingRecords) return;
-  const bandData = agingRecords.find(b => b.band === bandLabel || 
+  const bandData = agingRecords.find(b => b.band === bandLabel ||
     b.band.replace(/–/g,'-') === bandLabel.replace(/–/g,'-'));
   if (!bandData) return;
 
-  const recs = bandData.records || [];
+  drillAllRecords = bandData.records || [];
   const panel = document.getElementById('drillPanel');
   const overlay = document.getElementById('drillOverlay');
 
   document.getElementById('drillTitle').textContent = bandLabel + ' — Aging Reqs';
-  document.getElementById('drillSubtitle').textContent = recs.length + ' requisition' + (recs.length !== 1 ? 's' : '') + ' in this band';
-
-  let tableHTML = '';
-  if (recs.length === 0) {
-    tableHTML = `<div class="drill-empty">No records found in this aging band.</div>`;
-  } else {
-    const rows = recs.map(r => `<tr>
-      <td><strong>${r.title || 'Untitled'}</strong>${r.reqId ? `<br><span style="font-size:10px;color:#999;">#${r.reqId}</span>` : ''}</td>
-      <td>${r.owner || '—'}</td>
-      <td>${r.campus || '—'}</td>
-      <td><span class="pill pill-blue">${r.stage || '—'}</span></td>
-      <td>${r.department || '—'}</td>
-      <td>${r.notionUrl ? `<a href="${r.notionUrl}" target="_blank" style="display:inline-block;font-size:10px;font-weight:600;padding:3px 8px;background:var(--usf-green);color:#fff;border-radius:4px;text-decoration:none;white-space:nowrap;">Open in Notion ↗</a>` : '—'}</td>
-    </tr>`).join('');
-    tableHTML = `<div style="overflow-x:auto;"><table class="drill-table">
-      <thead><tr><th>Requisition</th><th>Owner</th><th>Campus</th><th>Stage</th><th>Department</th><th>Action</th></tr></thead>
-      <tbody>${rows}</tbody>
-    </table></div>`;
-  }
-
-  document.getElementById('drillBody').innerHTML = tableHTML;
+  document.getElementById('drillSubtitle').textContent = drillAllRecords.length + ' requisition' + (drillAllRecords.length !== 1 ? 's' : '') + ' in this band';
+  document.getElementById('drillSearch').value = '';
+  document.getElementById('drillBody').innerHTML = buildDrillTable(drillAllRecords);
   panel.classList.add('open');
   overlay.classList.add('open');
 }
@@ -458,6 +444,81 @@ function openDrillDown(bandLabel, contextKey) {
 function closeDrillDown() {
   document.getElementById('drillPanel').classList.remove('open');
   document.getElementById('drillOverlay').classList.remove('open');
+  document.getElementById('drillSearch').value = '';
+}
+
+// Store all records for the current drill-down so filter can search them
+let drillAllRecords = [];
+
+function buildDrillTable(recs) {
+  if (recs.length === 0) {
+    return `<div class="drill-empty">No records match your filter.</div>`;
+  }
+  const rows = recs.map(r => `<tr>
+    <td><strong>${r.title || 'Untitled'}</strong>${r.reqId ? `<br><span style="font-size:10px;color:#999;">#${r.reqId}</span>` : ''}</td>
+    <td>${r.owner || '—'}</td>
+    <td>${r.campus || '—'}</td>
+    <td><span class="pill pill-blue">${r.stage || '—'}</span></td>
+    <td>${r.department || '—'}</td>
+    <td>${r.notionUrl ? `<a href="${r.notionUrl}" target="_blank" style="display:inline-block;font-size:10px;font-weight:600;padding:3px 8px;background:var(--usf-green);color:#fff;border-radius:4px;text-decoration:none;white-space:nowrap;">Open ↗</a>` : '—'}</td>
+  </tr>`).join('');
+  return `<div style="overflow-x:auto;"><table class="drill-table">
+    <thead><tr><th>Requisition</th><th>Owner</th><th>Campus</th><th>Stage</th><th>Department</th><th>Action</th></tr></thead>
+    <tbody>${rows}</tbody>
+  </table></div>`;
+}
+
+function filterClosedReqs() {
+  const query = document.getElementById('closedSearch')?.value.toLowerCase().trim() || '';
+  const buildRows = recs => recs.map(r => `<tr>
+    <td><strong>${r.title || 'Untitled'}</strong>${r.reqId ? `<br><span style="font-size:10px;color:#999;">#${r.reqId}</span>` : ''}</td>
+    <td>${r.owner || '—'}</td>
+    <td>${r.campus || '—'}</td>
+    <td>${r.department || '—'}</td>
+    <td>${r.ttf > 0 ? r.ttf + 'd' : '—'}</td>
+    <td>${r.notionUrl ? `<a href="${r.notionUrl}" target="_blank" style="display:inline-block;font-size:10px;font-weight:600;padding:3px 8px;background:var(--usf-green);color:#fff;border-radius:4px;text-decoration:none;">Open ↗</a>` : '—'}</td>
+  </tr>`).join('');
+
+  const match = r => !query ||
+    (r.title||'').toLowerCase().includes(query) ||
+    (r.owner||'').toLowerCase().includes(query) ||
+    (r.campus||'').toLowerCase().includes(query) ||
+    (r.department||'').toLowerCase().includes(query) ||
+    (r.reqId||'').toString().includes(query);
+
+  const filteredFilled = (window._closedFilled || []).filter(match);
+  const filteredCanceled = (window._closedCanceled || []).filter(match);
+
+  const filledEl = document.getElementById('filledTable');
+  const canceledEl = document.getElementById('canceledTable');
+  const filledCount = document.getElementById('filledCount');
+  const canceledCount = document.getElementById('canceledCount');
+
+  if (filledEl) filledEl.innerHTML = filteredFilled.length > 0
+    ? `<div style="overflow-x:auto;"><table class="req-table"><thead><tr><th>Requisition</th><th>Owner</th><th>Campus</th><th>Department</th><th>TTF</th><th>Action</th></tr></thead><tbody>${buildRows(filteredFilled)}</tbody></table></div>`
+    : `<p class="pending-note">No filled reqs match your filter.</p>`;
+  if (canceledEl) canceledEl.innerHTML = filteredCanceled.length > 0
+    ? `<div style="overflow-x:auto;"><table class="req-table"><thead><tr><th>Requisition</th><th>Owner</th><th>Campus</th><th>Department</th><th>TTF</th><th>Action</th></tr></thead><tbody>${buildRows(filteredCanceled)}</tbody></table></div>`
+    : `<p class="pending-note">No cancelled reqs match your filter.</p>`;
+  if (filledCount) filledCount.textContent = filteredFilled.length;
+  if (canceledCount) canceledCount.textContent = filteredCanceled.length;
+}
+
+function filterDrillDown() {
+  const query = document.getElementById('drillSearch').value.toLowerCase().trim();
+  const filtered = query
+    ? drillAllRecords.filter(r =>
+        (r.title || '').toLowerCase().includes(query) ||
+        (r.owner || '').toLowerCase().includes(query) ||
+        (r.campus || '').toLowerCase().includes(query) ||
+        (r.department || '').toLowerCase().includes(query) ||
+        (r.stage || '').toLowerCase().includes(query) ||
+        (r.reqId || '').toString().includes(query)
+      )
+    : drillAllRecords;
+  document.getElementById('drillSubtitle').textContent =
+    query ? `${filtered.length} of ${drillAllRecords.length} reqs` : `${drillAllRecords.length} requisition${drillAllRecords.length !== 1 ? 's' : ''} in this band`;
+  document.getElementById('drillBody').innerHTML = buildDrillTable(filtered);
 }
 
 function renderRecruiterPage(r) {
@@ -612,6 +673,13 @@ function buildNav(recruiters) {
 
 function buildPages(recruiters) {
   const content = document.getElementById('content');
+
+  // Closed Reqs page
+  const closedDiv = document.createElement('div');
+  closedDiv.className = 'page';
+  closedDiv.id = 'page-closed';
+  content.appendChild(closedDiv);
+
   recruiters.forEach(r => {
     const div = document.createElement('div');
     div.className = 'page';
@@ -619,6 +687,55 @@ function buildPages(recruiters) {
     div.innerHTML = renderRecruiterPage(r);
     content.appendChild(div);
   });
+}
+
+function renderClosedPage(closedReqs) {
+  const filled = closedReqs.filter(r => ['Hired','Filled','Complete'].includes(r.stage));
+  const canceled = closedReqs.filter(r => ['Canceled','Failed Search'].includes(r.stage));
+  const avgTTF = filled.length > 0
+    ? Math.round(filled.filter(r => r.ttf > 0).reduce((a,r) => a + r.ttf, 0) / Math.max(filled.filter(r => r.ttf > 0).length, 1))
+    : 0;
+
+  // Store for filtering
+  window._closedFilled = filled;
+  window._closedCanceled = canceled;
+
+  const buildTable = (recs, tableId, emptyMsg) => {
+    if (recs.length === 0) return `<p class="pending-note">${emptyMsg}</p>`;
+    const rows = recs.map(r => `<tr>
+      <td><strong>${r.title || 'Untitled'}</strong>${r.reqId ? `<br><span style="font-size:10px;color:#999;">#${r.reqId}</span>` : ''}</td>
+      <td>${r.owner || '—'}</td>
+      <td>${r.campus || '—'}</td>
+      <td>${r.department || '—'}</td>
+      <td>${r.ttf > 0 ? r.ttf + 'd' : '—'}</td>
+      <td>${r.notionUrl ? `<a href="${r.notionUrl}" target="_blank" style="display:inline-block;font-size:10px;font-weight:600;padding:3px 8px;background:var(--usf-green);color:#fff;border-radius:4px;text-decoration:none;">Open ↗</a>` : '—'}</td>
+    </tr>`).join('');
+    return `<div id="${tableId}" style="overflow-x:auto;"><table class="req-table">
+      <thead><tr><th>Requisition</th><th>Owner</th><th>Campus</th><th>Department</th><th>TTF</th><th>Action</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table></div>`;
+  };
+
+  return `
+    <div class="kpi-row" style="margin-bottom:16px;">
+      <div class="kpi"><div class="kpi-label">Filled YTD</div><div class="kpi-val kpi-val-green">${filled.length}</div><div class="kpi-sub">positions closed</div></div>
+      <div class="kpi"><div class="kpi-label">Avg Time to Fill</div><div class="kpi-val">${avgTTF > 0 ? avgTTF + 'd' : '—'}</div><div class="kpi-sub">for filled reqs</div></div>
+      <div class="kpi"><div class="kpi-label">Cancelled / Failed</div><div class="kpi-val kpi-val-red">${canceled.length}</div><div class="kpi-sub">searches no hire</div></div>
+    </div>
+
+    <div style="margin-bottom:12px;">
+      <input type="text" id="closedSearch" placeholder="Filter by title, owner, campus, or department..." oninput="filterClosedReqs()" style="width:100%; font-size:12px; padding:8px 12px; border:0.5px solid var(--border); border-radius:6px; background:var(--surface); color:var(--text-primary); outline:none; box-sizing:border-box;">
+    </div>
+
+    <div class="card" style="margin-bottom:12px;">
+      <div class="card-title" style="color:var(--usf-green);">✅ Filled / Hired (<span id="filledCount">${filled.length}</span>)</div>
+      <div id="filledTable">${buildTable(filled, 'filledTableInner', 'No filled reqs yet — check back once searches close.')}</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title" style="color:#c0392b;">❌ Cancelled / Failed (<span id="canceledCount">${canceled.length}</span>)</div>
+      <div id="canceledTable">${buildTable(canceled, 'canceledTableInner', 'No cancelled searches on record.')}</div>
+    </div>`;
 }
 
 async function loadDashboard() {
@@ -637,6 +754,10 @@ async function loadDashboard() {
     buildNav(data.recruiters || []);
     buildPages(data.recruiters || []);
     renderMainPage(data);
+
+    // Render closed reqs page
+    const closedPage = document.getElementById('page-closed');
+    if (closedPage) closedPage.innerHTML = renderClosedPage(data.closedReqs || []);
 
     document.querySelector('.nav-tab[data-page="main"]').classList.add('active');
     document.getElementById('page-main').style.display = 'block';
