@@ -459,6 +459,20 @@ async function main() {
     reqType: reqTypeBreakdown,
     department: deptBreakdown,
     stageMetrics,
+    // Closed reqs for historical wins/losses view
+    closedReqs: records
+      .filter(r => ['Hired', 'Filled', 'Canceled', 'Failed Search', 'Complete'].includes(getProp(r, 'Stage', 'select')))
+      .map(r => ({
+        title: getProp(r, 'Requistion Title', 'title') || getProp(r, 'Requisition Title', 'title') || getProp(r, 'Name', 'title') || 'Untitled',
+        reqId: getProp(r, 'Requisition ID', 'text') || getProp(r, 'Requisition ID', 'number') || '',
+        owner: (() => { const p = getProp(r, 'Owner', 'person'); return p?.name || p?.person?.email || 'Unassigned'; })(),
+        campus: getProp(r, 'Campus', 'select') || '',
+        stage: getProp(r, 'Stage', 'select') || '',
+        department: getProp(r, 'Department/College', 'text') || '',
+        ttf: getProp(r, 'Time to Fill (Days)', 'formula_number') || 0,
+        notionUrl: `https://www.notion.so/${(r.id || '').replace(/-/g, '')}`
+      }))
+      .sort((a, b) => (b.ttf || 0) - (a.ttf || 0)),
     recruiters
   };
 
