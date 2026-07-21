@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-07-21T15:05:13.603Z",
+  "lastUpdated": "2026-07-21T16:55:09.783Z",
   "summary": {
-    "openReqs": 530,
+    "openReqs": 531,
     "avgTimeToFill": 83,
     "filledYTD": 9,
     "failedCancelled": 25,
-    "inOfferStage": 37
+    "inOfferStage": 36
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 279,
+      "count": 280,
       "color": "#1B6A9C"
     },
     {
@@ -37,7 +37,7 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 193
+      "count": 192
     },
     {
       "label": "HM Review",
@@ -49,11 +49,11 @@
     },
     {
       "label": "Offer Stage",
-      "count": 37
+      "count": 36
     },
     {
       "label": "Interview Stage",
-      "count": 20
+      "count": 21
     },
     {
       "label": "Pre-boarding",
@@ -61,7 +61,7 @@
     },
     {
       "label": "Backlog",
-      "count": 17
+      "count": 18
     },
     {
       "label": "Faculty",
@@ -73,7 +73,7 @@
     },
     {
       "label": "Sourced",
-      "count": 8
+      "count": 9
     }
   ],
   "mainAging": [
@@ -82,7 +82,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 121
+      "count": 120
     },
     {
       "label": "🟡 3-5",
@@ -96,7 +96,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 21
+      "count": 22
     }
   ],
   "agingRecords": [
@@ -153,16 +153,6 @@
           "stage": "Recruiter Review",
           "agingBand": "🔴 6+",
           "department": "Engineering"
-        },
-        {
-          "title": "Program Director for Residential Student Success",
-          "reqId": "43975",
-          "notionUrl": "https://www.notion.so/e21deb64954648ffb708c6e7f1cf0fe4",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "College of Education "
         },
         {
           "title": "Fiscal & Business Analyst I",
@@ -1347,6 +1337,26 @@
       "color": "#3B6D11",
       "records": [
         {
+          "title": "Transfer Success Specialist",
+          "reqId": "44011",
+          "notionUrl": "https://www.notion.so/eec0f79238b040029cfc7f060ebecdf3",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "512800 - STP Academic Advising"
+        },
+        {
+          "title": "Program Director for Residential Student Success",
+          "reqId": "43975",
+          "notionUrl": "https://www.notion.so/e21deb64954648ffb708c6e7f1cf0fe4",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Interview Stage",
+          "agingBand": "🟢 0–2",
+          "department": "College of Education "
+        },
+        {
           "title": "Licensed Human Services Practitioner",
           "reqId": "42397",
           "notionUrl": "https://www.notion.so/f7f7c7c0f7764184a29a13a1317ed71e",
@@ -1457,16 +1467,6 @@
           "department": "210100 - College Of Engineering - Dean"
         },
         {
-          "title": "Administrative Specialist",
-          "reqId": "43427",
-          "notionUrl": "https://www.notion.so/affd001d0f77400f95cc677c2c6e47b4",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Offer Stage",
-          "agingBand": "🟢 0–2",
-          "department": "STP Student Success"
-        },
-        {
           "title": "Manager Parking & Transportation Operations",
           "reqId": "43487",
           "notionUrl": "https://www.notion.so/42a29090fab04f719f7ba308696e00de",
@@ -1567,7 +1567,7 @@
     },
     {
       "label": "Student",
-      "count": 53,
+      "count": 54,
       "color": "#00A693"
     },
     {
@@ -1609,7 +1609,7 @@
     },
     {
       "label": "STP Student Success",
-      "count": 14,
+      "count": 13,
       "color": "#7A9EB5"
     },
     {
@@ -1728,8 +1728,8 @@
       "color": "#CFC483"
     },
     {
-      "label": "Other (117 depts)",
-      "count": 180,
+      "label": "Other (119 depts)",
+      "count": 182,
       "color": "#c8c7c2"
     }
   ],
@@ -1743,7 +1743,7 @@
     {
       "label": "Recruiter Review",
       "avgDays": 9,
-      "count": 43,
+      "count": 42,
       "color": "#006747"
     },
     {
@@ -1761,7 +1761,7 @@
     {
       "label": "Offer Stage",
       "avgDays": 7,
-      "count": 29,
+      "count": 28,
       "color": "#CFC483"
     },
     {
@@ -1772,8 +1772,8 @@
     },
     {
       "label": "Backlog",
-      "avgDays": 11,
-      "count": 6,
+      "avgDays": 10,
+      "count": 7,
       "color": "#888780"
     }
   ],
@@ -2337,6 +2337,16 @@
       "department": "USF Health",
       "ttf": 69,
       "notionUrl": "https://www.notion.so/e8e516421c7a41889088d5bf63ce238d"
+    },
+    {
+      "title": "Administrative Specialist",
+      "reqId": "43427",
+      "owner": "Gabriel",
+      "campus": "St. Petersburg",
+      "stage": "Filled",
+      "department": "STP Student Success",
+      "ttf": 68,
+      "notionUrl": "https://www.notion.so/affd001d0f77400f95cc677c2c6e47b4"
     },
     {
       "title": "Customer Experience Coordinator (3 positions)",
@@ -3369,7 +3379,7 @@
       "filled": 0,
       "failed": 20,
       "ttf": 95,
-      "wip": 5,
+      "wip": 6,
       "agingRecords": [
         {
           "band": "🔴 6+",
@@ -4776,10 +4786,10 @@
       "bgLight": "#e6f2ed",
       "bgDark": "#042e24",
       "campus": "St Pete / Tampa",
-      "reqs": 130,
+      "reqs": 132,
       "filled": 5,
       "failed": 1,
-      "ttf": 71,
+      "ttf": 70,
       "wip": 6,
       "agingRecords": [
         {
@@ -4835,16 +4845,6 @@
               "stage": "Recruiter Review",
               "agingBand": "🔴 6+",
               "department": "Engineering"
-            },
-            {
-              "title": "Program Director for Residential Student Success",
-              "reqId": "43975",
-              "notionUrl": "https://www.notion.so/e21deb64954648ffb708c6e7f1cf0fe4",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "College of Education "
             },
             {
               "title": "Employment Job Coach/Transition Specialist",
@@ -5069,6 +5069,26 @@
           "color": "#3B6D11",
           "records": [
             {
+              "title": "Transfer Success Specialist",
+              "reqId": "44011",
+              "notionUrl": "https://www.notion.so/eec0f79238b040029cfc7f060ebecdf3",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "512800 - STP Academic Advising"
+            },
+            {
+              "title": "Program Director for Residential Student Success",
+              "reqId": "43975",
+              "notionUrl": "https://www.notion.so/e21deb64954648ffb708c6e7f1cf0fe4",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Interview Stage",
+              "agingBand": "🟢 0–2",
+              "department": "College of Education "
+            },
+            {
               "title": "Enrollment Management Analyst",
               "reqId": "43881",
               "notionUrl": "https://www.notion.so/6d5c12fc312f41c990814a37d5a424c3",
@@ -5077,16 +5097,6 @@
               "stage": "Interview Stage",
               "agingBand": "🟢 0–2",
               "department": "STP Registrar"
-            },
-            {
-              "title": "Administrative Specialist",
-              "reqId": "43427",
-              "notionUrl": "https://www.notion.so/affd001d0f77400f95cc677c2c6e47b4",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Offer Stage",
-              "agingBand": "🟢 0–2",
-              "department": "STP Student Success"
             },
             {
               "title": "Manager Parking & Transportation Operations",
@@ -5104,8 +5114,8 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 7,
-          "count": 6,
+          "avgDays": 8,
+          "count": 5,
           "color": "#006747"
         },
         {
@@ -5122,27 +5132,37 @@
         },
         {
           "label": "Offer Stage",
-          "avgDays": 8,
-          "count": 8,
+          "avgDays": 9,
+          "count": 7,
           "color": "#CFC483"
         },
         {
           "label": "Backlog",
-          "avgDays": 6,
-          "count": 2,
+          "avgDays": 4,
+          "count": 3,
           "color": "#888780"
         }
       ],
       "statuses": [
         {
-          "label": "Recruiter Review",
-          "count": 6,
-          "color": "#185FA5"
+          "label": "Sourced",
+          "count": 1,
+          "color": "#3B6D11"
         },
         {
           "label": "Backlog",
-          "count": 6,
+          "count": 7,
           "color": "#888780"
+        },
+        {
+          "label": "Recruiter Review",
+          "count": 5,
+          "color": "#185FA5"
+        },
+        {
+          "label": "Interview Stage",
+          "count": 12,
+          "color": "#534AB7"
         },
         {
           "label": "Targeted",
@@ -5165,18 +5185,13 @@
           "color": "#993556"
         },
         {
-          "label": "Interview Stage",
-          "count": 11,
-          "color": "#534AB7"
-        },
-        {
           "label": "Pre-boarding",
           "count": 2,
           "color": "#888780"
         },
         {
           "label": "Offer Stage",
-          "count": 9,
+          "count": 8,
           "color": "#0F6E56"
         }
       ],
@@ -5186,7 +5201,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 24
+          "count": 23
         },
         {
           "label": "🟡 3-5",
@@ -5200,13 +5215,13 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 3
+          "count": 4
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 76
+          "count": 77
         },
         {
           "label": "Screened",
@@ -5218,11 +5233,11 @@
         },
         {
           "label": "Interviews",
-          "count": 11
+          "count": 12
         },
         {
           "label": "Offer",
-          "count": 9
+          "count": 8
         }
       ],
       "goals": [
@@ -5234,30 +5249,30 @@
         },
         {
           "label": "Time to fill",
-          "value": 71,
+          "value": 70,
           "target": 40,
           "invert": true
         },
         {
           "label": "Screened",
           "value": 0,
-          "target": 130,
+          "target": 132,
           "invert": false
         },
         {
           "label": "Interviews",
-          "value": 11,
-          "target": 130,
+          "value": 12,
+          "target": 132,
           "invert": false
         }
       ],
       "trend": [
-        71,
-        71,
-        71,
-        71,
-        71,
-        71
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
       ]
     },
     {
