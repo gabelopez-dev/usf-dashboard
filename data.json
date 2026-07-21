@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T11:10:42.651Z",
+  "lastUpdated": "2026-07-21T12:54:41.809Z",
   "summary": {
     "openReqs": 531,
     "avgTimeToFill": 83,
@@ -96,7 +96,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 3
+      "count": 11
     }
   ],
   "agingRecords": [
@@ -1367,6 +1367,16 @@
       "color": "#3B6D11",
       "records": [
         {
+          "title": "Experiential Learning Coordinator",
+          "reqId": "43662",
+          "notionUrl": "https://www.notion.so/1313cca850574c348980fc427f4dc646",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "047700 - Career & Professional Dev"
+        },
+        {
           "title": "Enrollment Management Analyst",
           "reqId": "43881",
           "notionUrl": "https://www.notion.so/6d5c12fc312f41c990814a37d5a424c3",
@@ -1375,6 +1385,36 @@
           "stage": "Interview Stage",
           "agingBand": "🟢 0–2",
           "department": "STP Registrar"
+        },
+        {
+          "title": "Supplier Services Specialist",
+          "reqId": "43649",
+          "notionUrl": "https://www.notion.so/38f9ddf757a080f1bc04c853567b5c5d",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "027900 - Procurement & Payment Services"
+        },
+        {
+          "title": "Accounts Payable Manager",
+          "reqId": "43615",
+          "notionUrl": "https://www.notion.so/38f9ddf757a08063827ecc3530163a97",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Interview Stage",
+          "agingBand": "🟢 0–2",
+          "department": "027900 - Procurement & Payment Services"
+        },
+        {
+          "title": "Associate Director of Project Initiatives",
+          "reqId": "43582",
+          "notionUrl": "https://www.notion.so/38f9ddf757a0806f914bfc7e3c3d02e6",
+          "owner": "johncalebrese",
+          "campus": "",
+          "stage": "Interview Stage",
+          "agingBand": "🟢 0–2",
+          "department": "210100 - College Of Engineering - Dean"
         },
         {
           "title": "Administrative Specialist",
@@ -1395,6 +1435,46 @@
           "stage": "Offer Stage",
           "agingBand": "🟢 0–2",
           "department": "STP Parking Services"
+        },
+        {
+          "title": "Sr Dir Finance Athletics",
+          "reqId": "43671",
+          "notionUrl": "https://www.notion.so/8ca10fea36a0457bae2d509337d2c72b",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "051000 - Athletic Administration"
+        },
+        {
+          "title": "Sr Auditor",
+          "reqId": "43657",
+          "notionUrl": "https://www.notion.so/76d1090b0d0b4901b3ea22b839c26a42",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "014000 - Office Of Internal Audit"
+        },
+        {
+          "title": "Athletics Production Service Engineer",
+          "reqId": "43577",
+          "notionUrl": "https://www.notion.so/c4b2ab1eb43b47d38e0431ca9c492b36",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "051000 - Athletic Administration"
+        },
+        {
+          "title": "Manager Athletics Production",
+          "reqId": "43573",
+          "notionUrl": "https://www.notion.so/7332b1275e7a4806b340d2ecf2f1f063",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "051000 - Athletic Administration"
         }
       ]
     }
@@ -4274,7 +4354,88 @@
         {
           "band": "🟢 0–2",
           "color": "#3B6D11",
-          "records": []
+          "records": [
+            {
+              "title": "Experiential Learning Coordinator",
+              "reqId": "43662",
+              "notionUrl": "https://www.notion.so/1313cca850574c348980fc427f4dc646",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "047700 - Career & Professional Dev"
+            },
+            {
+              "title": "Supplier Services Specialist",
+              "reqId": "43649",
+              "notionUrl": "https://www.notion.so/38f9ddf757a080f1bc04c853567b5c5d",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "027900 - Procurement & Payment Services"
+            },
+            {
+              "title": "Accounts Payable Manager",
+              "reqId": "43615",
+              "notionUrl": "https://www.notion.so/38f9ddf757a08063827ecc3530163a97",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Interview Stage",
+              "agingBand": "🟢 0–2",
+              "department": "027900 - Procurement & Payment Services"
+            },
+            {
+              "title": "Associate Director of Project Initiatives",
+              "reqId": "43582",
+              "notionUrl": "https://www.notion.so/38f9ddf757a0806f914bfc7e3c3d02e6",
+              "owner": "johncalebrese",
+              "campus": "",
+              "stage": "Interview Stage",
+              "agingBand": "🟢 0–2",
+              "department": "210100 - College Of Engineering - Dean"
+            },
+            {
+              "title": "Sr Dir Finance Athletics",
+              "reqId": "43671",
+              "notionUrl": "https://www.notion.so/8ca10fea36a0457bae2d509337d2c72b",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "051000 - Athletic Administration"
+            },
+            {
+              "title": "Sr Auditor",
+              "reqId": "43657",
+              "notionUrl": "https://www.notion.so/76d1090b0d0b4901b3ea22b839c26a42",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "014000 - Office Of Internal Audit"
+            },
+            {
+              "title": "Athletics Production Service Engineer",
+              "reqId": "43577",
+              "notionUrl": "https://www.notion.so/c4b2ab1eb43b47d38e0431ca9c492b36",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "051000 - Athletic Administration"
+            },
+            {
+              "title": "Manager Athletics Production",
+              "reqId": "43573",
+              "notionUrl": "https://www.notion.so/7332b1275e7a4806b340d2ecf2f1f063",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "051000 - Athletic Administration"
+            }
+          ]
         }
       ],
       "stageMetrics": [
@@ -4377,7 +4538,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 0
+          "count": 8
         }
       ],
       "funnel": [
