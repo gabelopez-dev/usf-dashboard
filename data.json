@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T20:00:26.531Z",
+  "lastUpdated": "2026-07-21T21:39:56.775Z",
   "summary": {
     "openReqs": 531,
     "avgTimeToFill": 83,
@@ -82,7 +82,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 119
+      "count": 118
     },
     {
       "label": "🟡 3-5",
@@ -96,7 +96,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 23
+      "count": 24
     }
   ],
   "agingRecords": [
@@ -805,16 +805,6 @@
           "department": "College of Education "
         },
         {
-          "title": "Preschool Teacher",
-          "reqId": "43763",
-          "notionUrl": "https://www.notion.so/ac43a0376f864f8eae907da516a314f3",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Offer Stage",
-          "agingBand": "🔴 6+",
-          "department": "College of Education "
-        },
-        {
           "title": "Unit Research Administrator II",
           "reqId": "43545",
           "notionUrl": "https://www.notion.so/9f6ec85507494ba589a79349421f4297",
@@ -1477,6 +1467,16 @@
           "department": "STP Parking Services"
         },
         {
+          "title": "Preschool Teacher",
+          "reqId": "43763",
+          "notionUrl": "https://www.notion.so/ac43a0376f864f8eae907da516a314f3",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Offer Stage",
+          "agingBand": "🟢 0–2",
+          "department": "College of Education "
+        },
+        {
           "title": "Sr Dir Finance Athletics",
           "reqId": "43671",
           "notionUrl": "https://www.notion.so/8ca10fea36a0457bae2d509337d2c72b",
@@ -1761,7 +1761,7 @@
     {
       "label": "Offer Stage",
       "avgDays": 7,
-      "count": 28,
+      "count": 27,
       "color": "#CFC483"
     },
     {
@@ -4790,7 +4790,7 @@
       "filled": 5,
       "failed": 1,
       "ttf": 70,
-      "wip": 6,
+      "wip": 5,
       "agingRecords": [
         {
           "band": "🔴 6+",
@@ -4930,16 +4930,6 @@
               "title": "Graphic Designer",
               "reqId": "43732",
               "notionUrl": "https://www.notion.so/c0f94fabea3d41f7b6b4fc7982095677",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Offer Stage",
-              "agingBand": "🔴 6+",
-              "department": "College of Education "
-            },
-            {
-              "title": "Preschool Teacher",
-              "reqId": "43763",
-              "notionUrl": "https://www.notion.so/ac43a0376f864f8eae907da516a314f3",
               "owner": "Gabriel",
               "campus": "Tampa",
               "stage": "Offer Stage",
@@ -5107,6 +5097,16 @@
               "stage": "Offer Stage",
               "agingBand": "🟢 0–2",
               "department": "STP Parking Services"
+            },
+            {
+              "title": "Preschool Teacher",
+              "reqId": "43763",
+              "notionUrl": "https://www.notion.so/ac43a0376f864f8eae907da516a314f3",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Offer Stage",
+              "agingBand": "🟢 0–2",
+              "department": "College of Education "
             }
           ]
         }
@@ -5133,7 +5133,7 @@
         {
           "label": "Offer Stage",
           "avgDays": 9,
-          "count": 7,
+          "count": 6,
           "color": "#CFC483"
         },
         {
@@ -5201,7 +5201,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 22
+          "count": 21
         },
         {
           "label": "🟡 3-5",
@@ -5215,7 +5215,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 5
+          "count": 6
         }
       ],
       "funnel": [
