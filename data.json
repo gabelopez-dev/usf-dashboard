@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-20T23:31:11.055Z",
+  "lastUpdated": "2026-07-21T02:02:47.410Z",
   "summary": {
     "openReqs": 531,
-    "avgTimeToFill": 82,
+    "avgTimeToFill": 83,
     "filledYTD": 8,
     "failedCancelled": 25,
     "inOfferStage": 38
@@ -82,14 +82,14 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 101
+      "count": 123
     },
     {
       "label": "🟡 3-5",
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 24
+      "count": 2
     },
     {
       "label": "🟢 0–2",
@@ -104,6 +104,66 @@
       "band": "🔴 6+",
       "color": "#A32D2D",
       "records": [
+        {
+          "title": "Student Assistant",
+          "reqId": "43984",
+          "notionUrl": "https://www.notion.so/1de72c1fd9754687a387709c66912f35",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Recruiter Review",
+          "agingBand": "🔴 6+",
+          "department": "511728 - STP Special Education"
+        },
+        {
+          "title": "Visiting Research Scholar - Electrical Eng",
+          "reqId": "43986",
+          "notionUrl": "https://www.notion.so/76b01a51663144699a4d776c1fb18d87",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🔴 6+",
+          "department": "210600 - Electrical Engineering"
+        },
+        {
+          "title": "Post-Doctoral Researcher - Chemical, Bio & Mat Eng",
+          "reqId": "43987",
+          "notionUrl": "https://www.notion.so/9cec7b93756544bcb77edeccaa0dd1ec",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🔴 6+",
+          "department": "210100 - College Of Engineering - Dean"
+        },
+        {
+          "title": "OPS Temporary Research Physical Therapist",
+          "reqId": "43985",
+          "notionUrl": "https://www.notion.so/a4c77c7d41de45f7a1a5674dd0e97b10",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🔴 6+",
+          "department": "210500 - Mechanical Engineering"
+        },
+        {
+          "title": "Academic Advisor I - Electrical Engineering",
+          "reqId": "43964",
+          "notionUrl": "https://www.notion.so/a29f282d1d2b406383e60efc3d4caba1",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🔴 6+",
+          "department": "Engineering"
+        },
+        {
+          "title": "Program Director for Residential Student Success",
+          "reqId": "43975",
+          "notionUrl": "https://www.notion.so/e21deb64954648ffb708c6e7f1cf0fe4",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🔴 6+",
+          "department": "College of Education "
+        },
         {
           "title": "Fiscal & Business Analyst I",
           "reqId": "43879",
@@ -355,6 +415,16 @@
           "department": "027900 - Procurement & Payment Services"
         },
         {
+          "title": "Employment Job Coach/Transition Specialist",
+          "reqId": "43874",
+          "notionUrl": "https://www.notion.so/5efcb565cd2047aba833f70ff3bf32f2",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "HM Review",
+          "agingBand": "🔴 6+",
+          "department": "STP Secondary Education"
+        },
+        {
           "title": "Fiscal & Business Specialist",
           "reqId": "43880",
           "notionUrl": "https://www.notion.so/063158caa3ca4f73aa16513c575e40c7",
@@ -495,6 +565,16 @@
           "department": "612800 - Dept Of Otolary"
         },
         {
+          "title": "Registered Dietician – Spc",
+          "reqId": "43894",
+          "notionUrl": "https://www.notion.so/ee4d74ac46834a848ce06deebf4bd223",
+          "owner": "Rebecca",
+          "campus": "Tampa",
+          "stage": "Sourced",
+          "agingBand": "🔴 6+",
+          "department": "611700 - Department Of"
+        },
+        {
           "title": "Temporary Community S",
           "reqId": "43904",
           "notionUrl": "https://www.notion.so/d452a989cf6542948636f309805fc6a5",
@@ -523,6 +603,26 @@
           "stage": "Recruiter Review",
           "agingBand": "🔴 6+",
           "department": "388600 - UGS - Transfer Student Success"
+        },
+        {
+          "title": "Career Counselor",
+          "reqId": "43849",
+          "notionUrl": "https://www.notion.so/0068d432571146199e96e7108ed067f4",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Interview Stage",
+          "agingBand": "🔴 6+",
+          "department": "STP Student Success"
+        },
+        {
+          "title": "Student Programs Coordinator (Operations & Outreach)",
+          "reqId": "43899",
+          "notionUrl": "https://www.notion.so/2b9f5fe4fb0947bcb7d4294646e0e2bd",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Interview Stage",
+          "agingBand": "🔴 6+",
+          "department": "STP Student Affairs"
         },
         {
           "title": "Assistant Director of Small Business Development Center",
@@ -605,6 +705,16 @@
           "department": "600100 - Health Sciences"
         },
         {
+          "title": "Academic Program Specialist",
+          "reqId": "43587",
+          "notionUrl": "https://www.notion.so/f5d42d8300c04e39bda664cdb90693c2",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Interview Stage",
+          "agingBand": "🔴 6+",
+          "department": "MUMA"
+        },
+        {
           "title": "Senior Research Scientist",
           "reqId": "43681",
           "notionUrl": "https://www.notion.so/c854a11c60a14df5852e0cbf0069c653",
@@ -613,6 +723,16 @@
           "stage": "Recruiter Review",
           "agingBand": "🔴 6+",
           "department": "614400 - Molecular Medicine"
+        },
+        {
+          "title": "Academic Advisor I ",
+          "reqId": "43719",
+          "notionUrl": "https://www.notion.so/99ecc3530d9348958159d791ba69bbda",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Interview Stage",
+          "agingBand": "🔴 6+",
+          "department": "MUMA"
         },
         {
           "title": "Associate Director of Clinical Research Operations",
@@ -663,6 +783,16 @@
           "stage": "Offer Stage",
           "agingBand": "🔴 6+",
           "department": "615500 - Center for Aging-Neuroscience"
+        },
+        {
+          "title": "Research Support Asst",
+          "reqId": "43702",
+          "notionUrl": "https://www.notion.so/38f9ddf757a080b6a94af50e716b6611",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "Offer Stage",
+          "agingBand": "🔴 6+",
+          "department": "612700 - Dept Of Orthopaedics & Sports Medicine"
         },
         {
           "title": "Project Manager",
@@ -773,6 +903,16 @@
           "stage": "Offer Stage",
           "agingBand": "🔴 6+",
           "department": "College of Education "
+        },
+        {
+          "title": "Unit Research Administrator",
+          "reqId": "43788",
+          "notionUrl": "https://www.notion.so/b61fd564bb694ef5ba51e3e56d04562b",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Recruiter Review",
+          "agingBand": "🔴 6+",
+          "department": "College of Marine Science"
         },
         {
           "title": "Other Hourly Professional/Support- Human Services Practitioner",
@@ -915,6 +1055,26 @@
           "department": "USF Health"
         },
         {
+          "title": "Program Manager",
+          "reqId": "43123",
+          "notionUrl": "https://www.notion.so/9435a0f5876c44aead494d56ac11b2d4",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "Offer Stage",
+          "agingBand": "🔴 6+",
+          "department": "USF Health"
+        },
+        {
+          "title": "Manager Clinical Research",
+          "reqId": "43116",
+          "notionUrl": "https://www.notion.so/0ca216d86c1442b0be571c0381af654b",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "Offer Stage",
+          "agingBand": "🔴 6+",
+          "department": "USF Health"
+        },
+        {
           "title": "Research Supporrt Assistant",
           "reqId": "43131",
           "notionUrl": "https://www.notion.so/6fcd62634fa6456f89e650345310982b",
@@ -933,6 +1093,16 @@
           "stage": "Offer Stage",
           "agingBand": "🔴 6+",
           "department": "USF Health"
+        },
+        {
+          "title": "Postdoctoral Scholar Research",
+          "reqId": "43235",
+          "notionUrl": "https://www.notion.so/a6f666bb7c064ba98d433c1ff5df3ae9",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "Offer Stage",
+          "agingBand": "🔴 6+",
+          "department": "614400 - Molecular Medicine"
         },
         {
           "title": "Assistant Director - Department of Opthalmology",
@@ -995,6 +1165,16 @@
           "department": "USF Health"
         },
         {
+          "title": "Office Administrator",
+          "reqId": "43372",
+          "notionUrl": "https://www.notion.so/ef13a4fb848242f99c820a0c0be21934",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "Offer Stage",
+          "agingBand": "🔴 6+",
+          "department": "USF Health"
+        },
+        {
           "title": "Clinical Research Assistant",
           "reqId": "43391",
           "notionUrl": "https://www.notion.so/ec396b57eb15446f831382ab18c13e36",
@@ -1045,9 +1225,39 @@
           "department": "USF Health"
         },
         {
+          "title": "Psychology Intern",
+          "reqId": "43500",
+          "notionUrl": "https://www.notion.so/1c9664eb11b0458296956af272ad9ca0",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "Offer Stage",
+          "agingBand": "🔴 6+",
+          "department": "USF Health"
+        },
+        {
           "title": "Senior Research Support Specialist",
           "reqId": "42972",
           "notionUrl": "https://www.notion.so/d2bfd48970b44659b33f947b25eef84e",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "Offer Stage",
+          "agingBand": "🔴 6+",
+          "department": "USF Health"
+        },
+        {
+          "title": "Psychology Intern",
+          "reqId": "43501",
+          "notionUrl": "https://www.notion.so/75ab67496ccd45d1bfd453372e3f712e",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "Offer Stage",
+          "agingBand": "🔴 6+",
+          "department": "USF Health"
+        },
+        {
+          "title": "Community Outreach Caseworker",
+          "reqId": "43516",
+          "notionUrl": "https://www.notion.so/51eaaeb3f527476ca8dc0f4d6657c0ef",
           "owner": "Rebecca",
           "campus": "USF Health",
           "stage": "Offer Stage",
@@ -1083,6 +1293,16 @@
           "stage": "Recruiter Review",
           "agingBand": "🔴 6+",
           "department": "614000 - Molecular Medicine"
+        },
+        {
+          "title": "OPS Temporary Academic Program Specialist",
+          "reqId": "43627",
+          "notionUrl": "https://www.notion.so/7ed4473f9ae741598302f270bf0f02dc",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "Sourced",
+          "agingBand": "🔴 6+",
+          "department": "USF Health"
         },
         {
           "title": "Financial Aid Advisor",
@@ -1131,136 +1351,6 @@
           "department": "351000 - Information Technology"
         },
         {
-          "title": "Student Assistant",
-          "reqId": "43984",
-          "notionUrl": "https://www.notion.so/1de72c1fd9754687a387709c66912f35",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Recruiter Review",
-          "agingBand": "🟡 3–5",
-          "department": "511728 - STP Special Education"
-        },
-        {
-          "title": "Visiting Research Scholar - Electrical Eng",
-          "reqId": "43986",
-          "notionUrl": "https://www.notion.so/76b01a51663144699a4d776c1fb18d87",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Backlog",
-          "agingBand": "🟡 3–5",
-          "department": "210600 - Electrical Engineering"
-        },
-        {
-          "title": "Post-Doctoral Researcher - Chemical, Bio & Mat Eng",
-          "reqId": "43987",
-          "notionUrl": "https://www.notion.so/9cec7b93756544bcb77edeccaa0dd1ec",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Backlog",
-          "agingBand": "🟡 3–5",
-          "department": "210100 - College Of Engineering - Dean"
-        },
-        {
-          "title": "OPS Temporary Research Physical Therapist",
-          "reqId": "43985",
-          "notionUrl": "https://www.notion.so/a4c77c7d41de45f7a1a5674dd0e97b10",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🟡 3–5",
-          "department": "210500 - Mechanical Engineering"
-        },
-        {
-          "title": "Academic Advisor I - Electrical Engineering",
-          "reqId": "43964",
-          "notionUrl": "https://www.notion.so/a29f282d1d2b406383e60efc3d4caba1",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🟡 3–5",
-          "department": "Engineering"
-        },
-        {
-          "title": "Program Director for Residential Student Success",
-          "reqId": "43975",
-          "notionUrl": "https://www.notion.so/e21deb64954648ffb708c6e7f1cf0fe4",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🟡 3–5",
-          "department": "College of Education "
-        },
-        {
-          "title": "Employment Job Coach/Transition Specialist",
-          "reqId": "43874",
-          "notionUrl": "https://www.notion.so/5efcb565cd2047aba833f70ff3bf32f2",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "HM Review",
-          "agingBand": "🟡 3–5",
-          "department": "STP Secondary Education"
-        },
-        {
-          "title": "Registered Dietician – Spc",
-          "reqId": "43894",
-          "notionUrl": "https://www.notion.so/ee4d74ac46834a848ce06deebf4bd223",
-          "owner": "Rebecca",
-          "campus": "Tampa",
-          "stage": "Sourced",
-          "agingBand": "🟡 3–5",
-          "department": "611700 - Department Of"
-        },
-        {
-          "title": "Career Counselor",
-          "reqId": "43849",
-          "notionUrl": "https://www.notion.so/0068d432571146199e96e7108ed067f4",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Interview Stage",
-          "agingBand": "🟡 3–5",
-          "department": "STP Student Success"
-        },
-        {
-          "title": "Student Programs Coordinator (Operations & Outreach)",
-          "reqId": "43899",
-          "notionUrl": "https://www.notion.so/2b9f5fe4fb0947bcb7d4294646e0e2bd",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Interview Stage",
-          "agingBand": "🟡 3–5",
-          "department": "STP Student Affairs"
-        },
-        {
-          "title": "Academic Program Specialist",
-          "reqId": "43587",
-          "notionUrl": "https://www.notion.so/f5d42d8300c04e39bda664cdb90693c2",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Interview Stage",
-          "agingBand": "🟡 3–5",
-          "department": "MUMA"
-        },
-        {
-          "title": "Academic Advisor I ",
-          "reqId": "43719",
-          "notionUrl": "https://www.notion.so/99ecc3530d9348958159d791ba69bbda",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Interview Stage",
-          "agingBand": "🟡 3–5",
-          "department": "MUMA"
-        },
-        {
-          "title": "Research Support Asst",
-          "reqId": "43702",
-          "notionUrl": "https://www.notion.so/38f9ddf757a080b6a94af50e716b6611",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Offer Stage",
-          "agingBand": "🟡 3–5",
-          "department": "612700 - Dept Of Orthopaedics & Sports Medicine"
-        },
-        {
           "title": "Veteran Support Coordinator (Office of Veteran Success)",
           "reqId": "43612",
           "notionUrl": "https://www.notion.so/c095bfbe97034da0829cddfbd008b3b6",
@@ -1269,96 +1359,6 @@
           "stage": "Interview Stage",
           "agingBand": "🟡 3–5",
           "department": "STP Student Success"
-        },
-        {
-          "title": "Unit Research Administrator",
-          "reqId": "43788",
-          "notionUrl": "https://www.notion.so/b61fd564bb694ef5ba51e3e56d04562b",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Recruiter Review",
-          "agingBand": "🟡 3–5",
-          "department": "College of Marine Science"
-        },
-        {
-          "title": "Program Manager",
-          "reqId": "43123",
-          "notionUrl": "https://www.notion.so/9435a0f5876c44aead494d56ac11b2d4",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Offer Stage",
-          "agingBand": "🟡 3–5",
-          "department": "USF Health"
-        },
-        {
-          "title": "Manager Clinical Research",
-          "reqId": "43116",
-          "notionUrl": "https://www.notion.so/0ca216d86c1442b0be571c0381af654b",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Offer Stage",
-          "agingBand": "🟡 3–5",
-          "department": "USF Health"
-        },
-        {
-          "title": "Postdoctoral Scholar Research",
-          "reqId": "43235",
-          "notionUrl": "https://www.notion.so/a6f666bb7c064ba98d433c1ff5df3ae9",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Offer Stage",
-          "agingBand": "🟡 3–5",
-          "department": "614400 - Molecular Medicine"
-        },
-        {
-          "title": "Office Administrator",
-          "reqId": "43372",
-          "notionUrl": "https://www.notion.so/ef13a4fb848242f99c820a0c0be21934",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Offer Stage",
-          "agingBand": "🟡 3–5",
-          "department": "USF Health"
-        },
-        {
-          "title": "Psychology Intern",
-          "reqId": "43500",
-          "notionUrl": "https://www.notion.so/1c9664eb11b0458296956af272ad9ca0",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Offer Stage",
-          "agingBand": "🟡 3–5",
-          "department": "USF Health"
-        },
-        {
-          "title": "Psychology Intern",
-          "reqId": "43501",
-          "notionUrl": "https://www.notion.so/75ab67496ccd45d1bfd453372e3f712e",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Offer Stage",
-          "agingBand": "🟡 3–5",
-          "department": "USF Health"
-        },
-        {
-          "title": "Community Outreach Caseworker",
-          "reqId": "43516",
-          "notionUrl": "https://www.notion.so/51eaaeb3f527476ca8dc0f4d6657c0ef",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Offer Stage",
-          "agingBand": "🟡 3–5",
-          "department": "USF Health"
-        },
-        {
-          "title": "OPS Temporary Academic Program Specialist",
-          "reqId": "43627",
-          "notionUrl": "https://www.notion.so/7ed4473f9ae741598302f270bf0f02dc",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Sourced",
-          "agingBand": "🟡 3–5",
-          "department": "USF Health"
         }
       ]
     },
@@ -1568,636 +1568,51 @@
       "color": "#CFC483"
     },
     {
-      "label": "210400 - Civil & Environmental Engr",
-      "count": 3,
-      "color": "#7A9EB5"
-    },
-    {
-      "label": "212100 - Medical Engineering",
-      "count": 3,
-      "color": "#5B7A8A"
-    },
-    {
-      "label": "122100 - Criminology",
-      "count": 3,
-      "color": "#534AB7"
-    },
-    {
-      "label": "790900 - Comparative Medicine",
-      "count": 3,
-      "color": "#993556"
-    },
-    {
-      "label": "028200 - Parking & Transportation Services",
-      "count": 3,
-      "color": "#006747"
-    },
-    {
-      "label": "790300 - Sponsored Research",
-      "count": 3,
-      "color": "#1B6A9C"
-    },
-    {
-      "label": "120100 - Arts And Sciences - Dean",
-      "count": 3,
-      "color": "#00A693"
-    },
-    {
-      "label": "612337 - Heart Institute - Internal Medicine",
-      "count": 3,
-      "color": "#CFC483"
-    },
-    {
-      "label": "611800 - Department Of Psych & Behavior",
-      "count": 3,
-      "color": "#7A9EB5"
-    },
-    {
-      "label": "045000 - Campus Recreation",
-      "count": 3,
-      "color": "#5B7A8A"
-    },
-    {
-      "label": "080000 - SG Branches And Agencies",
-      "count": 3,
-      "color": "#534AB7"
-    },
-    {
-      "label": "MUMA",
-      "count": 3,
-      "color": "#993556"
-    },
-    {
-      "label": "612000 - Department Of Surgery",
-      "count": 3,
-      "color": "#006747"
-    },
-    {
-      "label": "391000 - Fl Center For Cybersecurity",
-      "count": 3,
-      "color": "#1B6A9C"
-    },
-    {
-      "label": "Florida Inst of Oceanography",
-      "count": 3,
-      "color": "#00A693"
-    },
-    {
-      "label": "514900 - STP Public Safety",
-      "count": 3,
-      "color": "#CFC483"
-    },
-    {
-      "label": "588000 - CBCS Administration",
-      "count": 2,
-      "color": "#7A9EB5"
-    },
-    {
-      "label": "583001 - Dept Child And Family Studies",
-      "count": 2,
-      "color": "#5B7A8A"
-    },
-    {
-      "label": "211400 - Engineering Student Services",
-      "count": 2,
-      "color": "#534AB7"
-    },
-    {
-      "label": "044100 - Ctr For Student Involvement",
-      "count": 2,
-      "color": "#993556"
-    },
-    {
-      "label": "790400 - Technology Transfer Office",
-      "count": 2,
-      "color": "#006747"
-    },
-    {
-      "label": "210600 - Electrical Engineering",
-      "count": 2,
-      "color": "#1B6A9C"
-    },
-    {
-      "label": "790500 - USF Technology Incubator",
-      "count": 2,
-      "color": "#00A693"
-    },
-    {
-      "label": "386500 - Academic Success Center",
-      "count": 2,
-      "color": "#CFC483"
-    },
-    {
-      "label": "583007 - CFS Rightpath Research Center",
-      "count": 2,
-      "color": "#7A9EB5"
-    },
-    {
-      "label": "125500 - Psychology",
-      "count": 2,
-      "color": "#5B7A8A"
-    },
-    {
-      "label": "790100 - VP Research",
-      "count": 2,
-      "color": "#534AB7"
-    },
-    {
-      "label": "122300 - English",
-      "count": 2,
-      "color": "#993556"
-    },
-    {
-      "label": "210100 - College Of Engineering - Dean",
-      "count": 2,
-      "color": "#006747"
-    },
-    {
-      "label": "512337 - Heart Institute - Core",
-      "count": 2,
-      "color": "#1B6A9C"
-    },
-    {
-      "label": "612200 - Dept Of OB/GYN",
-      "count": 2,
-      "color": "#00A693"
-    },
-    {
-      "label": "641200 - COPH Acad and Student Affairs",
-      "count": 2,
-      "color": "#CFC483"
-    },
-    {
-      "label": "STP Secondary Education",
-      "count": 2,
-      "color": "#7A9EB5"
-    },
-    {
-      "label": "041300 - Strategic Initiatives",
-      "count": 2,
-      "color": "#5B7A8A"
-    },
-    {
-      "label": "373000 - Financial Aid",
-      "count": 2,
-      "color": "#534AB7"
-    },
-    {
-      "label": "614300 - Molecular Phar",
-      "count": 2,
-      "color": "#993556"
-    },
-    {
-      "label": "032100 - Academic Human Resources",
-      "count": 2,
-      "color": "#006747"
-    },
-    {
-      "label": "032000 - Central Human Resources",
-      "count": 2,
-      "color": "#1B6A9C"
-    },
-    {
-      "label": "521800 - SAR Student Services",
-      "count": 2,
-      "color": "#00A693"
-    },
-    {
-      "label": "612300 - Dept Of Internal Medicine",
-      "count": 2,
-      "color": "#CFC483"
-    },
-    {
-      "label": "260000 - Honors College",
-      "count": 2,
-      "color": "#7A9EB5"
-    },
-    {
-      "label": "014000 - Office Of Internal Audit",
-      "count": 2,
-      "color": "#5B7A8A"
-    },
-    {
-      "label": "210800 - AICC Bellini College Department",
-      "count": 2,
-      "color": "#534AB7"
-    },
-    {
-      "label": "019000 - Unv Community Partnerships",
-      "count": 2,
-      "color": "#993556"
-    },
-    {
-      "label": "066200 - WUSF-FM",
-      "count": 2,
-      "color": "#006747"
-    },
-    {
-      "label": "Inst For School Comm Partnership",
-      "count": 2,
-      "color": "#1B6A9C"
-    },
-    {
-      "label": "614000 - Molecular Medicine",
-      "count": 2,
-      "color": "#00A693"
-    },
-    {
-      "label": "387300 - Upward Bound",
-      "count": 1,
-      "color": "#CFC483"
-    },
-    {
-      "label": "040201 - Student Conduct & Ethical Dev",
-      "count": 1,
-      "color": "#7A9EB5"
-    },
-    {
-      "label": "211700 - Ctr For Urban Transportation Research",
-      "count": 1,
-      "color": "#5B7A8A"
-    },
-    {
-      "label": "240100 - CDAP Dean's Office",
-      "count": 1,
-      "color": "#534AB7"
-    },
-    {
-      "label": "387500 - Orientation",
-      "count": 1,
-      "color": "#993556"
-    },
-    {
-      "label": "025500 - Maintenance & Special Allocation",
-      "count": 1,
-      "color": "#006747"
-    },
-    {
-      "label": "022600 - Design And Construction",
-      "count": 1,
-      "color": "#1B6A9C"
-    },
-    {
-      "label": "581000 - CBCS Dean'S Office",
-      "count": 1,
-      "color": "#00A693"
-    },
-    {
-      "label": "121000 - Molecular Biosciences",
-      "count": 1,
-      "color": "#CFC483"
-    },
-    {
-      "label": "125700 - Rehabilitation Counseling",
-      "count": 1,
-      "color": "#7A9EB5"
-    },
-    {
-      "label": "121300 - Chemistry",
-      "count": 1,
-      "color": "#5B7A8A"
-    },
-    {
-      "label": "124700 - Mass Communications",
-      "count": 1,
-      "color": "#534AB7"
-    },
-    {
-      "label": "123100 - Sch of Intdisc Global Studies",
-      "count": 1,
-      "color": "#993556"
-    },
-    {
-      "label": "126300 - Sociology & Inter Social Sci",
-      "count": 1,
-      "color": "#006747"
-    },
-    {
-      "label": "028100 - Environmental Health & Safety",
-      "count": 1,
-      "color": "#1B6A9C"
-    },
-    {
-      "label": "588500 - CBCS Management Info Services",
-      "count": 1,
-      "color": "#00A693"
-    },
-    {
-      "label": "020400 - Adm Services Business Center",
-      "count": 1,
-      "color": "#CFC483"
-    },
-    {
-      "label": "511728 - STP Special Education",
-      "count": 1,
-      "color": "#7A9EB5"
-    },
-    {
-      "label": "STP Special Education",
-      "count": 1,
-      "color": "#5B7A8A"
-    },
-    {
-      "label": "610105 - Health Sciences Center Research",
-      "count": 1,
-      "color": "#534AB7"
-    },
-    {
-      "label": "512337 - Heart Institute - Internal Medicine",
-      "count": 1,
-      "color": "#993556"
-    },
-    {
-      "label": "210700 - Chemical & Biomedical Engnrng",
-      "count": 1,
-      "color": "#006747"
-    },
-    {
-      "label": "041100 - Center For Student Well-Being",
-      "count": 1,
-      "color": "#1B6A9C"
-    },
-    {
-      "label": "Inst For School Comm Partnersh",
-      "count": 1,
-      "color": "#00A693"
-    },
-    {
-      "label": "177500 - Inst For School Comm Partnersh",
-      "count": 1,
-      "color": "#CFC483"
-    },
-    {
-      "label": "640100 - COPH Office Of The Dean",
-      "count": 1,
-      "color": "#7A9EB5"
-    },
-    {
-      "label": "612400 - Dept Of Ophthalmology",
-      "count": 1,
-      "color": "#5B7A8A"
-    },
-    {
-      "label": "600105 - Health Sciences Center Research",
-      "count": 1,
-      "color": "#534AB7"
-    },
-    {
-      "label": "612500 - Dept Of Neurol",
-      "count": 1,
-      "color": "#993556"
-    },
-    {
-      "label": "043600 - Residential Education",
-      "count": 1,
-      "color": "#006747"
-    },
-    {
-      "label": "043000 - Student Health Services",
-      "count": 1,
-      "color": "#1B6A9C"
-    },
-    {
-      "label": "040700 - SA&SS Resource Mgmt & Devel",
-      "count": 1,
-      "color": "#00A693"
-    },
-    {
-      "label": "372000 - Registrar's Office",
-      "count": 1,
-      "color": "#CFC483"
-    },
-    {
-      "label": "612300 - Dept Of Interna",
-      "count": 1,
-      "color": "#7A9EB5"
-    },
-    {
-      "label": "600105 - Health Sciences",
-      "count": 1,
-      "color": "#5B7A8A"
-    },
-    {
-      "label": "641200 - COPH Acad and",
-      "count": 1,
-      "color": "#534AB7"
-    },
-    {
-      "label": "620100 - College Of Nurs",
-      "count": 1,
-      "color": "#993556"
-    },
-    {
-      "label": "612800 - Dept Of Otolary",
-      "count": 1,
-      "color": "#006747"
-    },
-    {
-      "label": "611700 - Department Of",
-      "count": 1,
-      "color": "#1B6A9C"
-    },
-    {
-      "label": "025102 - Physical Securit",
-      "count": 1,
-      "color": "#00A693"
-    },
-    {
-      "label": "612400 - Dept Of Ophthe",
-      "count": 1,
-      "color": "#CFC483"
-    },
-    {
-      "label": "511213 - STP Chemistry",
-      "count": 1,
-      "color": "#7A9EB5"
-    },
-    {
-      "label": "388600 - UGS - Transfer Student Success",
-      "count": 1,
-      "color": "#5B7A8A"
-    },
-    {
-      "label": "STP Registrar",
-      "count": 1,
-      "color": "#534AB7"
-    },
-    {
-      "label": "STP Student Affairs",
-      "count": 1,
-      "color": "#993556"
-    },
-    {
-      "label": "035000 - CHR Payroll Services",
-      "count": 1,
-      "color": "#006747"
-    },
-    {
-      "label": "020100 - SVP Administrative Operations",
-      "count": 1,
-      "color": "#1B6A9C"
-    },
-    {
-      "label": "017000 - Office Of Compliance-Ethics",
-      "count": 1,
-      "color": "#00A693"
-    },
-    {
-      "label": "610105 - Health Science Center Research",
-      "count": 1,
-      "color": "#CFC483"
-    },
-    {
-      "label": "400100 - Univ Lib Deans Office",
-      "count": 1,
-      "color": "#7A9EB5"
-    },
-    {
-      "label": "521211 - SAR Integrative Biology",
-      "count": 1,
-      "color": "#5B7A8A"
-    },
-    {
-      "label": "043100 - Center for Victim Advocacy",
-      "count": 1,
-      "color": "#534AB7"
-    },
-    {
-      "label": "610021 - MCOM Medical Entomology",
-      "count": 1,
-      "color": "#993556"
-    },
-    {
-      "label": "600100 - Health Sciences Center VP",
-      "count": 1,
-      "color": "#006747"
-    },
-    {
-      "label": "600100 - Health Sciences",
-      "count": 1,
-      "color": "#1B6A9C"
-    },
-    {
-      "label": "213400 - Inst Of Applied Engineering",
-      "count": 1,
-      "color": "#00A693"
-    },
-    {
-      "label": "043500 - Housing & Residential ED",
-      "count": 1,
-      "color": "#CFC483"
-    },
-    {
-      "label": "612900 - Dept Of Neurosurgery & Brain Repair",
-      "count": 1,
-      "color": "#7A9EB5"
-    },
-    {
-      "label": "610601 - MCOM Research&Grad Affairs Supp",
-      "count": 1,
-      "color": "#5B7A8A"
-    },
-    {
-      "label": "611700 - Department Of Family Medicine",
-      "count": 1,
-      "color": "#534AB7"
-    },
-    {
-      "label": "025102 - Physical Security",
-      "count": 1,
-      "color": "#993556"
-    },
-    {
-      "label": "638000 - College Of Pharmacy Dean'S Off",
-      "count": 1,
-      "color": "#006747"
-    },
-    {
-      "label": "615500 - Center for Aging-Neuroscience",
-      "count": 1,
-      "color": "#1B6A9C"
-    },
-    {
-      "label": "612700 - Dept Of Orthopaedics & Sports Medicine",
-      "count": 1,
-      "color": "#00A693"
-    },
-    {
-      "label": "380000 - Undergrad Stds-Deans Ofc Opera",
-      "count": 1,
-      "color": "#CFC483"
-    },
-    {
-      "label": "STP Library",
-      "count": 1,
-      "color": "#7A9EB5"
-    },
-    {
-      "label": "042700 - Marshall Student Center",
-      "count": 1,
-      "color": "#5B7A8A"
-    },
-    {
-      "label": "STP Parking Services",
-      "count": 1,
-      "color": "#534AB7"
-    },
-    {
-      "label": "410000 - Office Of Decision Support",
-      "count": 1,
-      "color": "#993556"
-    },
-    {
-      "label": "410200 - Academic Planning/Institutional Effectiveness",
-      "count": 1,
-      "color": "#006747"
-    },
-    {
-      "label": "010100 - Office of the President",
-      "count": 1,
-      "color": "#1B6A9C"
+      "label": "Other (118 depts)",
+      "count": 181,
+      "color": "#c8c7c2"
     }
   ],
   "stageMetrics": [
     {
       "label": "Sourced",
-      "avgDays": 6,
+      "avgDays": 7,
       "count": 8,
       "color": "#00A693"
     },
     {
       "label": "Recruiter Review",
-      "avgDays": 11,
+      "avgDays": 12,
       "count": 44,
       "color": "#006747"
     },
     {
       "label": "HM Review",
-      "avgDays": 12,
+      "avgDays": 13,
       "count": 25,
       "color": "#534AB7"
     },
     {
       "label": "Interview Stage",
-      "avgDays": 39,
-      "count": 12,
+      "avgDays": 37,
+      "count": 13,
       "color": "#d4880a"
     },
     {
       "label": "Offer Stage",
       "avgDays": 7,
-      "count": 27,
+      "count": 29,
       "color": "#CFC483"
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 29,
+      "avgDays": 30,
       "count": 4,
       "color": "#5B8FA8"
     },
     {
       "label": "Backlog",
-      "avgDays": 11,
+      "avgDays": 12,
       "count": 5,
       "color": "#888780"
     }
@@ -2214,7 +1629,7 @@
       "reqs": 31,
       "filled": 0,
       "failed": 0,
-      "ttf": 55,
+      "ttf": 56,
       "wip": 13,
       "agingRecords": [
         {
@@ -2317,13 +1732,13 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 17,
+          "avgDays": 18,
           "count": 6,
           "color": "#006747"
         },
         {
           "label": "Backlog",
-          "avgDays": 19,
+          "avgDays": 20,
           "count": 2,
           "color": "#888780"
         }
@@ -2404,7 +1819,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 55,
+          "value": 56,
           "target": 40,
           "invert": true
         },
@@ -2422,12 +1837,12 @@
         }
       ],
       "trend": [
-        55,
-        55,
-        55,
-        55,
-        55,
-        55
+        56,
+        56,
+        56,
+        56,
+        56,
+        56
       ]
     },
     {
@@ -2441,7 +1856,7 @@
       "reqs": 288,
       "filled": 0,
       "failed": 20,
-      "ttf": 94,
+      "ttf": 95,
       "wip": 5,
       "agingRecords": [
         {
@@ -2659,6 +2074,16 @@
               "department": "612800 - Dept Of Otolary"
             },
             {
+              "title": "Registered Dietician – Spc",
+              "reqId": "43894",
+              "notionUrl": "https://www.notion.so/ee4d74ac46834a848ce06deebf4bd223",
+              "owner": "Rebecca",
+              "campus": "Tampa",
+              "stage": "Sourced",
+              "agingBand": "🔴 6+",
+              "department": "611700 - Department Of"
+            },
+            {
               "title": "Temporary Community S",
               "reqId": "43904",
               "notionUrl": "https://www.notion.so/d452a989cf6542948636f309805fc6a5",
@@ -2799,6 +2224,16 @@
               "department": "615500 - Center for Aging-Neuroscience"
             },
             {
+              "title": "Research Support Asst",
+              "reqId": "43702",
+              "notionUrl": "https://www.notion.so/38f9ddf757a080b6a94af50e716b6611",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "Offer Stage",
+              "agingBand": "🔴 6+",
+              "department": "612700 - Dept Of Orthopaedics & Sports Medicine"
+            },
+            {
               "title": "Assistant Director Research",
               "reqId": "42822",
               "notionUrl": "https://www.notion.so/18fcccc9af774a149d69ad55aa5343cf",
@@ -2879,6 +2314,26 @@
               "department": "USF Health"
             },
             {
+              "title": "Program Manager",
+              "reqId": "43123",
+              "notionUrl": "https://www.notion.so/9435a0f5876c44aead494d56ac11b2d4",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "Offer Stage",
+              "agingBand": "🔴 6+",
+              "department": "USF Health"
+            },
+            {
+              "title": "Manager Clinical Research",
+              "reqId": "43116",
+              "notionUrl": "https://www.notion.so/0ca216d86c1442b0be571c0381af654b",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "Offer Stage",
+              "agingBand": "🔴 6+",
+              "department": "USF Health"
+            },
+            {
               "title": "Research Supporrt Assistant",
               "reqId": "43131",
               "notionUrl": "https://www.notion.so/6fcd62634fa6456f89e650345310982b",
@@ -2897,6 +2352,16 @@
               "stage": "Offer Stage",
               "agingBand": "🔴 6+",
               "department": "USF Health"
+            },
+            {
+              "title": "Postdoctoral Scholar Research",
+              "reqId": "43235",
+              "notionUrl": "https://www.notion.so/a6f666bb7c064ba98d433c1ff5df3ae9",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "Offer Stage",
+              "agingBand": "🔴 6+",
+              "department": "614400 - Molecular Medicine"
             },
             {
               "title": "Assistant Director - Department of Opthalmology",
@@ -2959,6 +2424,16 @@
               "department": "USF Health"
             },
             {
+              "title": "Office Administrator",
+              "reqId": "43372",
+              "notionUrl": "https://www.notion.so/ef13a4fb848242f99c820a0c0be21934",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "Offer Stage",
+              "agingBand": "🔴 6+",
+              "department": "USF Health"
+            },
+            {
               "title": "Clinical Research Assistant",
               "reqId": "43391",
               "notionUrl": "https://www.notion.so/ec396b57eb15446f831382ab18c13e36",
@@ -3009,9 +2484,39 @@
               "department": "USF Health"
             },
             {
+              "title": "Psychology Intern",
+              "reqId": "43500",
+              "notionUrl": "https://www.notion.so/1c9664eb11b0458296956af272ad9ca0",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "Offer Stage",
+              "agingBand": "🔴 6+",
+              "department": "USF Health"
+            },
+            {
               "title": "Senior Research Support Specialist",
               "reqId": "42972",
               "notionUrl": "https://www.notion.so/d2bfd48970b44659b33f947b25eef84e",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "Offer Stage",
+              "agingBand": "🔴 6+",
+              "department": "USF Health"
+            },
+            {
+              "title": "Psychology Intern",
+              "reqId": "43501",
+              "notionUrl": "https://www.notion.so/75ab67496ccd45d1bfd453372e3f712e",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "Offer Stage",
+              "agingBand": "🔴 6+",
+              "department": "USF Health"
+            },
+            {
+              "title": "Community Outreach Caseworker",
+              "reqId": "43516",
+              "notionUrl": "https://www.notion.so/51eaaeb3f527476ca8dc0f4d6657c0ef",
               "owner": "Rebecca",
               "campus": "USF Health",
               "stage": "Offer Stage",
@@ -3049,6 +2554,16 @@
               "department": "614000 - Molecular Medicine"
             },
             {
+              "title": "OPS Temporary Academic Program Specialist",
+              "reqId": "43627",
+              "notionUrl": "https://www.notion.so/7ed4473f9ae741598302f270bf0f02dc",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "Sourced",
+              "agingBand": "🔴 6+",
+              "department": "USF Health"
+            },
+            {
               "title": "Financial Aid Advisor",
               "reqId": "43660",
               "notionUrl": "https://www.notion.so/8d2a0bf55314463fb7744cb67692f26f",
@@ -3083,108 +2598,7 @@
         {
           "band": "🟡 3-5",
           "color": "#BA7517",
-          "records": [
-            {
-              "title": "Registered Dietician – Spc",
-              "reqId": "43894",
-              "notionUrl": "https://www.notion.so/ee4d74ac46834a848ce06deebf4bd223",
-              "owner": "Rebecca",
-              "campus": "Tampa",
-              "stage": "Sourced",
-              "agingBand": "🟡 3–5",
-              "department": "611700 - Department Of"
-            },
-            {
-              "title": "Research Support Asst",
-              "reqId": "43702",
-              "notionUrl": "https://www.notion.so/38f9ddf757a080b6a94af50e716b6611",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Offer Stage",
-              "agingBand": "🟡 3–5",
-              "department": "612700 - Dept Of Orthopaedics & Sports Medicine"
-            },
-            {
-              "title": "Program Manager",
-              "reqId": "43123",
-              "notionUrl": "https://www.notion.so/9435a0f5876c44aead494d56ac11b2d4",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Offer Stage",
-              "agingBand": "🟡 3–5",
-              "department": "USF Health"
-            },
-            {
-              "title": "Manager Clinical Research",
-              "reqId": "43116",
-              "notionUrl": "https://www.notion.so/0ca216d86c1442b0be571c0381af654b",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Offer Stage",
-              "agingBand": "🟡 3–5",
-              "department": "USF Health"
-            },
-            {
-              "title": "Postdoctoral Scholar Research",
-              "reqId": "43235",
-              "notionUrl": "https://www.notion.so/a6f666bb7c064ba98d433c1ff5df3ae9",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Offer Stage",
-              "agingBand": "🟡 3–5",
-              "department": "614400 - Molecular Medicine"
-            },
-            {
-              "title": "Office Administrator",
-              "reqId": "43372",
-              "notionUrl": "https://www.notion.so/ef13a4fb848242f99c820a0c0be21934",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Offer Stage",
-              "agingBand": "🟡 3–5",
-              "department": "USF Health"
-            },
-            {
-              "title": "Psychology Intern",
-              "reqId": "43500",
-              "notionUrl": "https://www.notion.so/1c9664eb11b0458296956af272ad9ca0",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Offer Stage",
-              "agingBand": "🟡 3–5",
-              "department": "USF Health"
-            },
-            {
-              "title": "Psychology Intern",
-              "reqId": "43501",
-              "notionUrl": "https://www.notion.so/75ab67496ccd45d1bfd453372e3f712e",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Offer Stage",
-              "agingBand": "🟡 3–5",
-              "department": "USF Health"
-            },
-            {
-              "title": "Community Outreach Caseworker",
-              "reqId": "43516",
-              "notionUrl": "https://www.notion.so/51eaaeb3f527476ca8dc0f4d6657c0ef",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Offer Stage",
-              "agingBand": "🟡 3–5",
-              "department": "USF Health"
-            },
-            {
-              "title": "OPS Temporary Academic Program Specialist",
-              "reqId": "43627",
-              "notionUrl": "https://www.notion.so/7ed4473f9ae741598302f270bf0f02dc",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Sourced",
-              "agingBand": "🟡 3–5",
-              "department": "USF Health"
-            }
-          ]
+          "records": []
         },
         {
           "band": "🟢 0–2",
@@ -3195,25 +2609,25 @@
       "stageMetrics": [
         {
           "label": "Sourced",
-          "avgDays": 6,
+          "avgDays": 7,
           "count": 8,
           "color": "#00A693"
         },
         {
           "label": "Recruiter Review",
-          "avgDays": 6,
+          "avgDays": 7,
           "count": 24,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 8,
+          "avgDays": 9,
           "count": 21,
           "color": "#534AB7"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 6,
+          "avgDays": 7,
           "count": 20,
           "color": "#CFC483"
         }
@@ -3266,14 +2680,14 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 63
+          "count": 73
         },
         {
           "label": "🟡 3-5",
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 10
+          "count": 0
         },
         {
           "label": "🟢 0–2",
@@ -3314,7 +2728,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 94,
+          "value": 95,
           "target": 40,
           "invert": true
         },
@@ -3332,12 +2746,12 @@
         }
       ],
       "trend": [
-        94,
-        94,
-        94,
-        94,
-        94,
-        94
+        95,
+        95,
+        95,
+        95,
+        95,
+        95
       ]
     },
     {
@@ -3351,7 +2765,7 @@
       "reqs": 120,
       "filled": 3,
       "failed": 4,
-      "ttf": 72,
+      "ttf": 73,
       "wip": 10,
       "agingRecords": [
         {
@@ -3524,37 +2938,37 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 54,
+          "avgDays": 55,
           "count": 3,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 69,
+          "avgDays": 70,
           "count": 2,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 139,
+          "avgDays": 140,
           "count": 3,
           "color": "#d4880a"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 14,
+          "avgDays": 15,
           "count": 1,
           "color": "#CFC483"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 29,
+          "avgDays": 30,
           "count": 4,
           "color": "#5B8FA8"
         },
         {
           "label": "Backlog",
-          "avgDays": 7,
+          "avgDays": 8,
           "count": 1,
           "color": "#888780"
         }
@@ -3655,7 +3069,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 72,
+          "value": 73,
           "target": 40,
           "invert": true
         },
@@ -3673,12 +3087,12 @@
         }
       ],
       "trend": [
-        72,
-        72,
-        72,
-        72,
-        72,
-        72
+        73,
+        73,
+        73,
+        73,
+        73,
+        73
       ]
     },
     {
@@ -3692,7 +3106,7 @@
       "reqs": 130,
       "filled": 5,
       "failed": 1,
-      "ttf": 70,
+      "ttf": 71,
       "wip": 6,
       "agingRecords": [
         {
@@ -3700,9 +3114,119 @@
           "color": "#A32D2D",
           "records": [
             {
+              "title": "Student Assistant",
+              "reqId": "43984",
+              "notionUrl": "https://www.notion.so/1de72c1fd9754687a387709c66912f35",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Recruiter Review",
+              "agingBand": "🔴 6+",
+              "department": "511728 - STP Special Education"
+            },
+            {
+              "title": "Visiting Research Scholar - Electrical Eng",
+              "reqId": "43986",
+              "notionUrl": "https://www.notion.so/76b01a51663144699a4d776c1fb18d87",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🔴 6+",
+              "department": "210600 - Electrical Engineering"
+            },
+            {
+              "title": "Post-Doctoral Researcher - Chemical, Bio & Mat Eng",
+              "reqId": "43987",
+              "notionUrl": "https://www.notion.so/9cec7b93756544bcb77edeccaa0dd1ec",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🔴 6+",
+              "department": "210100 - College Of Engineering - Dean"
+            },
+            {
+              "title": "OPS Temporary Research Physical Therapist",
+              "reqId": "43985",
+              "notionUrl": "https://www.notion.so/a4c77c7d41de45f7a1a5674dd0e97b10",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🔴 6+",
+              "department": "210500 - Mechanical Engineering"
+            },
+            {
+              "title": "Academic Advisor I - Electrical Engineering",
+              "reqId": "43964",
+              "notionUrl": "https://www.notion.so/a29f282d1d2b406383e60efc3d4caba1",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🔴 6+",
+              "department": "Engineering"
+            },
+            {
+              "title": "Program Director for Residential Student Success",
+              "reqId": "43975",
+              "notionUrl": "https://www.notion.so/e21deb64954648ffb708c6e7f1cf0fe4",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🔴 6+",
+              "department": "College of Education "
+            },
+            {
+              "title": "Employment Job Coach/Transition Specialist",
+              "reqId": "43874",
+              "notionUrl": "https://www.notion.so/5efcb565cd2047aba833f70ff3bf32f2",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "HM Review",
+              "agingBand": "🔴 6+",
+              "department": "STP Secondary Education"
+            },
+            {
+              "title": "Career Counselor",
+              "reqId": "43849",
+              "notionUrl": "https://www.notion.so/0068d432571146199e96e7108ed067f4",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Interview Stage",
+              "agingBand": "🔴 6+",
+              "department": "STP Student Success"
+            },
+            {
+              "title": "Student Programs Coordinator (Operations & Outreach)",
+              "reqId": "43899",
+              "notionUrl": "https://www.notion.so/2b9f5fe4fb0947bcb7d4294646e0e2bd",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Interview Stage",
+              "agingBand": "🔴 6+",
+              "department": "STP Student Affairs"
+            },
+            {
               "title": "Assistant Director of Small Business Development Center",
               "reqId": "43900",
               "notionUrl": "https://www.notion.so/a3255042eb054f188198cbb0c204abff",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Interview Stage",
+              "agingBand": "🔴 6+",
+              "department": "MUMA"
+            },
+            {
+              "title": "Academic Program Specialist",
+              "reqId": "43587",
+              "notionUrl": "https://www.notion.so/f5d42d8300c04e39bda664cdb90693c2",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Interview Stage",
+              "agingBand": "🔴 6+",
+              "department": "MUMA"
+            },
+            {
+              "title": "Academic Advisor I ",
+              "reqId": "43719",
+              "notionUrl": "https://www.notion.so/99ecc3530d9348958159d791ba69bbda",
               "owner": "Gabriel",
               "campus": "Tampa",
               "stage": "Interview Stage",
@@ -3800,6 +3324,16 @@
               "department": "College of Education "
             },
             {
+              "title": "Unit Research Administrator",
+              "reqId": "43788",
+              "notionUrl": "https://www.notion.so/b61fd564bb694ef5ba51e3e56d04562b",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Recruiter Review",
+              "agingBand": "🔴 6+",
+              "department": "College of Marine Science"
+            },
+            {
               "title": "Other Hourly Professional/Support- Human Services Practitioner",
               "reqId": "43809",
               "notionUrl": "https://www.notion.so/2e88f07706a84702835b45669e2b142b",
@@ -3828,6 +3362,16 @@
               "stage": "Interview Stage",
               "agingBand": "🔴 6+",
               "department": "Engineering"
+            },
+            {
+              "title": "OPS Temporary Sr Shipping & Receiving Clerk",
+              "reqId": "43401",
+              "notionUrl": "https://www.notion.so/125e888c504c4739813405aef24d5d31",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Hired",
+              "agingBand": "🔴 6+",
+              "department": "Engineering"
             }
           ]
         },
@@ -3835,116 +3379,6 @@
           "band": "🟡 3-5",
           "color": "#BA7517",
           "records": [
-            {
-              "title": "Student Assistant",
-              "reqId": "43984",
-              "notionUrl": "https://www.notion.so/1de72c1fd9754687a387709c66912f35",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Recruiter Review",
-              "agingBand": "🟡 3–5",
-              "department": "511728 - STP Special Education"
-            },
-            {
-              "title": "Visiting Research Scholar - Electrical Eng",
-              "reqId": "43986",
-              "notionUrl": "https://www.notion.so/76b01a51663144699a4d776c1fb18d87",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Backlog",
-              "agingBand": "🟡 3–5",
-              "department": "210600 - Electrical Engineering"
-            },
-            {
-              "title": "Post-Doctoral Researcher - Chemical, Bio & Mat Eng",
-              "reqId": "43987",
-              "notionUrl": "https://www.notion.so/9cec7b93756544bcb77edeccaa0dd1ec",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Backlog",
-              "agingBand": "🟡 3–5",
-              "department": "210100 - College Of Engineering - Dean"
-            },
-            {
-              "title": "OPS Temporary Research Physical Therapist",
-              "reqId": "43985",
-              "notionUrl": "https://www.notion.so/a4c77c7d41de45f7a1a5674dd0e97b10",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🟡 3–5",
-              "department": "210500 - Mechanical Engineering"
-            },
-            {
-              "title": "Academic Advisor I - Electrical Engineering",
-              "reqId": "43964",
-              "notionUrl": "https://www.notion.so/a29f282d1d2b406383e60efc3d4caba1",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🟡 3–5",
-              "department": "Engineering"
-            },
-            {
-              "title": "Program Director for Residential Student Success",
-              "reqId": "43975",
-              "notionUrl": "https://www.notion.so/e21deb64954648ffb708c6e7f1cf0fe4",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🟡 3–5",
-              "department": "College of Education "
-            },
-            {
-              "title": "Employment Job Coach/Transition Specialist",
-              "reqId": "43874",
-              "notionUrl": "https://www.notion.so/5efcb565cd2047aba833f70ff3bf32f2",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "HM Review",
-              "agingBand": "🟡 3–5",
-              "department": "STP Secondary Education"
-            },
-            {
-              "title": "Career Counselor",
-              "reqId": "43849",
-              "notionUrl": "https://www.notion.so/0068d432571146199e96e7108ed067f4",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Interview Stage",
-              "agingBand": "🟡 3–5",
-              "department": "STP Student Success"
-            },
-            {
-              "title": "Student Programs Coordinator (Operations & Outreach)",
-              "reqId": "43899",
-              "notionUrl": "https://www.notion.so/2b9f5fe4fb0947bcb7d4294646e0e2bd",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Interview Stage",
-              "agingBand": "🟡 3–5",
-              "department": "STP Student Affairs"
-            },
-            {
-              "title": "Academic Program Specialist",
-              "reqId": "43587",
-              "notionUrl": "https://www.notion.so/f5d42d8300c04e39bda664cdb90693c2",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Interview Stage",
-              "agingBand": "🟡 3–5",
-              "department": "MUMA"
-            },
-            {
-              "title": "Academic Advisor I ",
-              "reqId": "43719",
-              "notionUrl": "https://www.notion.so/99ecc3530d9348958159d791ba69bbda",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Interview Stage",
-              "agingBand": "🟡 3–5",
-              "department": "MUMA"
-            },
             {
               "title": "Veteran Support Coordinator (Office of Veteran Success)",
               "reqId": "43612",
@@ -3954,26 +3388,6 @@
               "stage": "Interview Stage",
               "agingBand": "🟡 3–5",
               "department": "STP Student Success"
-            },
-            {
-              "title": "Unit Research Administrator",
-              "reqId": "43788",
-              "notionUrl": "https://www.notion.so/b61fd564bb694ef5ba51e3e56d04562b",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Recruiter Review",
-              "agingBand": "🟡 3–5",
-              "department": "College of Marine Science"
-            },
-            {
-              "title": "OPS Temporary Sr Shipping & Receiving Clerk",
-              "reqId": "43401",
-              "notionUrl": "https://www.notion.so/125e888c504c4739813405aef24d5d31",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Hired",
-              "agingBand": "🟡 3–5",
-              "department": "Engineering"
             }
           ]
         },
@@ -4017,31 +3431,31 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 6,
+          "avgDays": 7,
           "count": 6,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 6,
+          "avgDays": 7,
           "count": 2,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 5,
-          "count": 9,
+          "avgDays": 6,
+          "count": 10,
           "color": "#d4880a"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 9,
-          "count": 6,
+          "avgDays": 8,
+          "count": 8,
           "color": "#CFC483"
         },
         {
           "label": "Backlog",
-          "avgDays": 5,
+          "avgDays": 6,
           "count": 2,
           "color": "#888780"
         }
@@ -4099,14 +3513,14 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 12
+          "count": 24
         },
         {
           "label": "🟡 3-5",
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 13
+          "count": 1
         },
         {
           "label": "🟢 0–2",
@@ -4147,7 +3561,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 70,
+          "value": 71,
           "target": 40,
           "invert": true
         },
@@ -4165,12 +3579,12 @@
         }
       ],
       "trend": [
-        70,
-        70,
-        70,
-        70,
-        70,
-        70
+        71,
+        71,
+        71,
+        71,
+        71,
+        71
       ]
     },
     {
@@ -4184,7 +3598,7 @@
       "reqs": 125,
       "filled": 0,
       "failed": 0,
-      "ttf": 53,
+      "ttf": 54,
       "wip": 0,
       "agingRecords": [
         {
@@ -4258,7 +3672,7 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 6,
+          "avgDays": 7,
           "count": 5,
           "color": "#006747"
         }
@@ -4324,7 +3738,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 53,
+          "value": 54,
           "target": 40,
           "invert": true
         },
@@ -4342,12 +3756,12 @@
         }
       ],
       "trend": [
-        53,
-        53,
-        53,
-        53,
-        53,
-        53
+        54,
+        54,
+        54,
+        54,
+        54,
+        54
       ]
     }
   ]
