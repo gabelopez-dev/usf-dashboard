@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22T03:57:28.952Z",
+  "lastUpdated": "2026-07-22T06:38:00.243Z",
   "summary": {
     "openReqs": 531,
     "avgTimeToFill": 84,
@@ -1561,7 +1561,7 @@
   "reqType": [
     {
       "label": "Standard",
-      "count": 305,
+      "count": 306,
       "color": "#006747"
     },
     {
@@ -5284,7 +5284,7 @@
       "reqs": 125,
       "filled": 0,
       "failed": 0,
-      "ttf": 56,
+      "ttf": 54,
       "wip": 0,
       "agingRecords": [
         {
@@ -5423,7 +5423,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 56,
+          "value": 54,
           "target": 40,
           "invert": true
         },
@@ -5441,12 +5441,12 @@
         }
       ],
       "trend": [
-        56,
-        56,
-        56,
-        56,
-        56,
-        56
+        54,
+        54,
+        54,
+        54,
+        54,
+        54
       ]
     }
   ]
