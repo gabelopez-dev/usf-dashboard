@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-07-22T15:19:56.106Z",
+  "lastUpdated": "2026-07-22T16:55:51.646Z",
   "summary": {
     "openReqs": 532,
     "avgTimeToFill": 84,
     "filledYTD": 9,
     "failedCancelled": 25,
-    "inOfferStage": 36
+    "inOfferStage": 37
   },
   "campus": [
     {
@@ -49,11 +49,11 @@
     },
     {
       "label": "Offer Stage",
-      "count": 36
+      "count": 37
     },
     {
       "label": "Interview Stage",
-      "count": 21
+      "count": 20
     },
     {
       "label": "Pre-boarding",
@@ -82,7 +82,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 119
+      "count": 118
     },
     {
       "label": "🟡 3-5",
@@ -96,7 +96,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 33
+      "count": 34
     }
   ],
   "agingRecords": [
@@ -813,16 +813,6 @@
           "stage": "Recruiter Review",
           "agingBand": "🔴 6+",
           "department": "College of Education "
-        },
-        {
-          "title": "Science Education Specialist",
-          "reqId": "43571",
-          "notionUrl": "https://www.notion.so/dca63cbc77504f178f455fea1c7f0de6",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Interview Stage",
-          "agingBand": "🔴 6+",
-          "department": "Florida Inst of Oceanography"
         },
         {
           "title": "Academic Services Administrator",
@@ -1556,6 +1546,16 @@
           "department": "College of Education "
         },
         {
+          "title": "Science Education Specialist",
+          "reqId": "43571",
+          "notionUrl": "https://www.notion.so/dca63cbc77504f178f455fea1c7f0de6",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Offer Stage",
+          "agingBand": "🟢 0–2",
+          "department": "Florida Inst of Oceanography"
+        },
+        {
           "title": "Sr Dir Finance Athletics",
           "reqId": "43671",
           "notionUrl": "https://www.notion.so/8ca10fea36a0457bae2d509337d2c72b",
@@ -1834,7 +1834,7 @@
     {
       "label": "Interview Stage",
       "avgDays": 7,
-      "count": 16,
+      "count": 15,
       "color": "#d4880a"
     },
     {
@@ -5076,16 +5076,6 @@
               "department": "College of Education "
             },
             {
-              "title": "Science Education Specialist",
-              "reqId": "43571",
-              "notionUrl": "https://www.notion.so/dca63cbc77504f178f455fea1c7f0de6",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Interview Stage",
-              "agingBand": "🔴 6+",
-              "department": "Florida Inst of Oceanography"
-            },
-            {
               "title": "Academic Services Administrator",
               "reqId": "43602",
               "notionUrl": "https://www.notion.so/59cd9b5199dc45bc9f3bba29e4d39432",
@@ -5255,6 +5245,16 @@
               "stage": "Offer Stage",
               "agingBand": "🟢 0–2",
               "department": "College of Education "
+            },
+            {
+              "title": "Science Education Specialist",
+              "reqId": "43571",
+              "notionUrl": "https://www.notion.so/dca63cbc77504f178f455fea1c7f0de6",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Offer Stage",
+              "agingBand": "🟢 0–2",
+              "department": "Florida Inst of Oceanography"
             }
           ]
         }
@@ -5275,7 +5275,7 @@
         {
           "label": "Interview Stage",
           "avgDays": 6,
-          "count": 10,
+          "count": 9,
           "color": "#d4880a"
         },
         {
@@ -5314,7 +5314,7 @@
         },
         {
           "label": "Interview Stage",
-          "count": 12,
+          "count": 11,
           "color": "#534AB7"
         },
         {
@@ -5339,7 +5339,7 @@
         },
         {
           "label": "Offer Stage",
-          "count": 8,
+          "count": 9,
           "color": "#0F6E56"
         }
       ],
@@ -5349,7 +5349,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 21
+          "count": 20
         },
         {
           "label": "🟡 3-5",
@@ -5363,7 +5363,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 8
+          "count": 9
         }
       ],
       "funnel": [
@@ -5381,11 +5381,11 @@
         },
         {
           "label": "Interviews",
-          "count": 12
+          "count": 11
         },
         {
           "label": "Offer",
-          "count": 8
+          "count": 9
         }
       ],
       "goals": [
@@ -5409,7 +5409,7 @@
         },
         {
           "label": "Interviews",
-          "value": 12,
+          "value": 11,
           "target": 132,
           "invert": false
         }
