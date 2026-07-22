@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-22T13:03:34.973Z",
+  "lastUpdated": "2026-07-22T15:19:56.106Z",
   "summary": {
-    "openReqs": 531,
+    "openReqs": 532,
     "avgTimeToFill": 84,
     "filledYTD": 9,
     "failedCancelled": 25,
@@ -15,7 +15,7 @@
     },
     {
       "label": "St Pete",
-      "count": 38,
+      "count": 39,
       "color": "#006747"
     },
     {
@@ -37,7 +37,7 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 190
+      "count": 191
     },
     {
       "label": "HM Review",
@@ -82,7 +82,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 120
+      "count": 119
     },
     {
       "label": "🟡 3-5",
@@ -96,7 +96,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 24
+      "count": 33
     }
   ],
   "agingRecords": [
@@ -795,16 +795,6 @@
           "department": "STP Student Success"
         },
         {
-          "title": "Contract Financial Analyst I",
-          "reqId": "43667",
-          "notionUrl": "https://www.notion.so/9e2a758823804c93b31beb55cee8d61b",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Interview Stage",
-          "agingBand": "🔴 6+",
-          "department": "Florida Inst of Oceanography"
-        },
-        {
           "title": "Graphic Designer",
           "reqId": "43732",
           "notionUrl": "https://www.notion.so/c0f94fabea3d41f7b6b4fc7982095677",
@@ -1326,6 +1316,16 @@
           "department": "512800 - STP Academic Advising"
         },
         {
+          "title": "Fiscal & Business Analyst Senior",
+          "reqId": "43980",
+          "notionUrl": "https://www.notion.so/146ef7182be646958af015679cd063dd",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "460100 - Innovative Education"
+        },
+        {
           "title": "Academic Advisor I - Electrical Engineering",
           "reqId": "43964",
           "notionUrl": "https://www.notion.so/a29f282d1d2b406383e60efc3d4caba1",
@@ -1416,6 +1416,16 @@
           "department": "047700 - Career & Professional Dev"
         },
         {
+          "title": "Career Coach",
+          "reqId": "43724",
+          "notionUrl": "https://www.notion.so/5e9d385e283c4133af129ca80cdf3388",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "047700 - Career & Professional Dev"
+        },
+        {
           "title": "Enrollment Management Analyst",
           "reqId": "43881",
           "notionUrl": "https://www.notion.so/6d5c12fc312f41c990814a37d5a424c3",
@@ -1424,6 +1434,56 @@
           "stage": "Interview Stage",
           "agingBand": "🟢 0–2",
           "department": "STP Registrar"
+        },
+        {
+          "title": "Assistant Director IT Audit",
+          "reqId": "43823",
+          "notionUrl": "https://www.notion.so/baf0c4c1f29442719ee4bd12a7959953",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "014000 - Office Of Internal Audit"
+        },
+        {
+          "title": "IAE Director of Business Development",
+          "reqId": "43796",
+          "notionUrl": "https://www.notion.so/4015be9957c14212b1cd7bb714981168",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "213400 - Inst Of Applied Engineering"
+        },
+        {
+          "title": "Communication & Marketing Officer",
+          "reqId": "43830",
+          "notionUrl": "https://www.notion.so/81c055c863d84f29abe7481191345722",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "210800 - AICC Bellini College Department"
+        },
+        {
+          "title": "Procurement Contract Associate II",
+          "reqId": "43744",
+          "notionUrl": "https://www.notion.so/38f9ddf757a08009af78f51cf4c2bf3f",
+          "owner": "johncalebrese",
+          "campus": "",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "027900 - Procurement & Payment Services"
+        },
+        {
+          "title": "Community Engagement & Events Manager",
+          "reqId": "43743",
+          "notionUrl": "https://www.notion.so/38f9ddf757a08019a945fb83f818186d",
+          "owner": "johncalebrese",
+          "campus": "",
+          "stage": "Interview Stage",
+          "agingBand": "🟢 0–2",
+          "department": "066200 - WUSF-FM"
         },
         {
           "title": "Supplier Services Specialist",
@@ -1456,6 +1516,16 @@
           "department": "210100 - College Of Engineering - Dean"
         },
         {
+          "title": "Administrative Specialist",
+          "reqId": "43427",
+          "notionUrl": "https://www.notion.so/affd001d0f77400f95cc677c2c6e47b4",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "STP Student Success"
+        },
+        {
           "title": "Manager Parking & Transportation Operations",
           "reqId": "43487",
           "notionUrl": "https://www.notion.so/42a29090fab04f719f7ba308696e00de",
@@ -1464,6 +1534,16 @@
           "stage": "Offer Stage",
           "agingBand": "🟢 0–2",
           "department": "STP Parking Services"
+        },
+        {
+          "title": "Contract Financial Analyst I",
+          "reqId": "43667",
+          "notionUrl": "https://www.notion.so/9e2a758823804c93b31beb55cee8d61b",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Interview Stage",
+          "agingBand": "🟢 0–2",
+          "department": "Florida Inst of Oceanography"
         },
         {
           "title": "Preschool Teacher",
@@ -1561,7 +1641,7 @@
   "reqType": [
     {
       "label": "Standard",
-      "count": 306,
+      "count": 307,
       "color": "#006747"
     },
     {
@@ -1608,7 +1688,7 @@
     },
     {
       "label": "STP Student Success",
-      "count": 13,
+      "count": 14,
       "color": "#7A9EB5"
     },
     {
@@ -1741,20 +1821,20 @@
     },
     {
       "label": "Recruiter Review",
-      "avgDays": 10,
-      "count": 43,
+      "avgDays": 9,
+      "count": 45,
       "color": "#006747"
     },
     {
       "label": "HM Review",
       "avgDays": 11,
-      "count": 35,
+      "count": 36,
       "color": "#534AB7"
     },
     {
       "label": "Interview Stage",
       "avgDays": 7,
-      "count": 17,
+      "count": 16,
       "color": "#d4880a"
     },
     {
@@ -2346,16 +2426,6 @@
       "department": "371000 - Admissions",
       "ttf": 68,
       "notionUrl": "https://www.notion.so/ecf0538eba8c497a9a7dd2072b087305"
-    },
-    {
-      "title": "Administrative Specialist",
-      "reqId": "43427",
-      "owner": "Gabriel",
-      "campus": "St. Petersburg",
-      "stage": "Filled",
-      "department": "STP Student Success",
-      "ttf": 68,
-      "notionUrl": "https://www.notion.so/affd001d0f77400f95cc677c2c6e47b4"
     },
     {
       "title": "Associate Director of FCN Research and Analytics",
@@ -4435,6 +4505,16 @@
           "color": "#3B6D11",
           "records": [
             {
+              "title": "Fiscal & Business Analyst Senior",
+              "reqId": "43980",
+              "notionUrl": "https://www.notion.so/146ef7182be646958af015679cd063dd",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "460100 - Innovative Education"
+            },
+            {
               "title": "Licensed Human Services Practitioner",
               "reqId": "42397",
               "notionUrl": "https://www.notion.so/f7f7c7c0f7764184a29a13a1317ed71e",
@@ -4503,6 +4583,66 @@
               "stage": "HM Review",
               "agingBand": "🟢 0–2",
               "department": "047700 - Career & Professional Dev"
+            },
+            {
+              "title": "Career Coach",
+              "reqId": "43724",
+              "notionUrl": "https://www.notion.so/5e9d385e283c4133af129ca80cdf3388",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "047700 - Career & Professional Dev"
+            },
+            {
+              "title": "Assistant Director IT Audit",
+              "reqId": "43823",
+              "notionUrl": "https://www.notion.so/baf0c4c1f29442719ee4bd12a7959953",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "014000 - Office Of Internal Audit"
+            },
+            {
+              "title": "IAE Director of Business Development",
+              "reqId": "43796",
+              "notionUrl": "https://www.notion.so/4015be9957c14212b1cd7bb714981168",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "213400 - Inst Of Applied Engineering"
+            },
+            {
+              "title": "Communication & Marketing Officer",
+              "reqId": "43830",
+              "notionUrl": "https://www.notion.so/81c055c863d84f29abe7481191345722",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "210800 - AICC Bellini College Department"
+            },
+            {
+              "title": "Procurement Contract Associate II",
+              "reqId": "43744",
+              "notionUrl": "https://www.notion.so/38f9ddf757a08009af78f51cf4c2bf3f",
+              "owner": "johncalebrese",
+              "campus": "",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "027900 - Procurement & Payment Services"
+            },
+            {
+              "title": "Community Engagement & Events Manager",
+              "reqId": "43743",
+              "notionUrl": "https://www.notion.so/38f9ddf757a08019a945fb83f818186d",
+              "owner": "johncalebrese",
+              "campus": "",
+              "stage": "Interview Stage",
+              "agingBand": "🟢 0–2",
+              "department": "066200 - WUSF-FM"
             },
             {
               "title": "Supplier Services Specialist",
@@ -4620,14 +4760,14 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 7,
-          "count": 5,
+          "avgDays": 6,
+          "count": 6,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 15,
-          "count": 10,
+          "avgDays": 14,
+          "count": 11,
           "color": "#534AB7"
         },
         {
@@ -4717,7 +4857,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 18
+          "count": 25
         }
       ],
       "funnel": [
@@ -4906,16 +5046,6 @@
               "department": "STP Student Success"
             },
             {
-              "title": "Contract Financial Analyst I",
-              "reqId": "43667",
-              "notionUrl": "https://www.notion.so/9e2a758823804c93b31beb55cee8d61b",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Interview Stage",
-              "agingBand": "🔴 6+",
-              "department": "Florida Inst of Oceanography"
-            },
-            {
               "title": "Marine Captain",
               "reqId": "43711",
               "notionUrl": "https://www.notion.so/9bdf11df472f445b8e8a375bbc2a6596",
@@ -5087,6 +5217,16 @@
               "department": "STP Registrar"
             },
             {
+              "title": "Administrative Specialist",
+              "reqId": "43427",
+              "notionUrl": "https://www.notion.so/affd001d0f77400f95cc677c2c6e47b4",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "STP Student Success"
+            },
+            {
               "title": "Manager Parking & Transportation Operations",
               "reqId": "43487",
               "notionUrl": "https://www.notion.so/42a29090fab04f719f7ba308696e00de",
@@ -5095,6 +5235,16 @@
               "stage": "Offer Stage",
               "agingBand": "🟢 0–2",
               "department": "STP Parking Services"
+            },
+            {
+              "title": "Contract Financial Analyst I",
+              "reqId": "43667",
+              "notionUrl": "https://www.notion.so/9e2a758823804c93b31beb55cee8d61b",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Interview Stage",
+              "agingBand": "🟢 0–2",
+              "department": "Florida Inst of Oceanography"
             },
             {
               "title": "Preschool Teacher",
@@ -5112,8 +5262,8 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 10,
-          "count": 3,
+          "avgDays": 8,
+          "count": 4,
           "color": "#006747"
         },
         {
@@ -5125,7 +5275,7 @@
         {
           "label": "Interview Stage",
           "avgDays": 6,
-          "count": 11,
+          "count": 10,
           "color": "#d4880a"
         },
         {
@@ -5154,7 +5304,7 @@
         },
         {
           "label": "Recruiter Review",
-          "count": 3,
+          "count": 4,
           "color": "#185FA5"
         },
         {
@@ -5199,7 +5349,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 22
+          "count": 21
         },
         {
           "label": "🟡 3-5",
@@ -5213,13 +5363,13 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 6
+          "count": 8
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 77
+          "count": 78
         },
         {
           "label": "Screened",
