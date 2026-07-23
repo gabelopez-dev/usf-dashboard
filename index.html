@@ -284,15 +284,18 @@ function renderMainPage(data) {
   <div class="row">
     <div class="card">
       <div class="card-title">Reqs by College / Department</div>
+      <div id="deptBarResetHint" style="display:none;font-size:10px;color:#c0392b;font-style:italic;margin-bottom:8px;cursor:pointer;" onclick="clearDeptHighlight()">
+        🔴 Highlighting stalled depts — click here to clear
+      </div>
       ${deptTotal > 0 ? (() => {
         const maxCount = Math.max(...deptItems.map(d => d.count), 1);
         const bars = deptItems.map(d => {
           const widthPct = Math.max(3, Math.round((d.count / maxCount) * 100));
           const isOther = d.label.startsWith('Other');
-          return `<div style="display:flex;align-items:center;gap:10px;margin-bottom:6px;">
-            <span style="font-size:11px;color:${isOther ? '#aaa' : '#555'};font-style:${isOther ? 'italic' : 'normal'};width:260px;flex-shrink:0;text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${d.label}</span>
+          return `<div class="dept-bar-row" data-dept="${d.label}" style="display:flex;align-items:center;gap:10px;margin-bottom:6px;transition:opacity .2s;">
+            <span style="font-size:11px;color:${isOther ? '#aaa' : '#555'};font-style:${isOther ? 'italic' : 'normal'};width:320px;flex-shrink:0;text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;" title="${d.label}">${d.label}</span>
             <div style="flex:1;background:#f0efeb;border-radius:3px;height:20px;">
-              <div style="width:${widthPct}%;background:${isOther ? '#c8c7c2' : d.color};border-radius:3px;height:20px;display:flex;align-items:center;padding-left:7px;min-width:28px;">
+              <div class="dept-bar-fill" style="width:${widthPct}%;background:${isOther ? '#c8c7c2' : d.color};border-radius:3px;height:20px;display:flex;align-items:center;padding-left:7px;min-width:28px;transition:box-shadow .2s;">
                 <span style="font-size:11px;font-weight:700;color:${d.color === '#CFC483' ? '#004d35' : '#fff'};">${d.count}</span>
               </div>
             </div>
@@ -303,14 +306,24 @@ function renderMainPage(data) {
     </div>
   </div>`;
 
-  // Pipeline funnel - true funnel shape
-  const funnel = data.mainFunnel || [];
-  const maxFunnel = Math.max(...funnel.map(f => f.count), 1);
-  const funnelColors = ['#006747','#00A693','#1B6A9C','#5B8FA8','#CFC483'];
+  // Pipeline funnel - ordered by pipeline sequence, not count
+  const funnelOrder = ['Sourced','Recruiter Review','Screened','HM Review','Interview Stage','Offer Stage','Pre-boarding','Student Hiring','Faculty','Targeted','Backlog'];
+  const funnelRaw = data.mainFunnel || [];
+  const funnelMap2 = {};
+  funnelRaw.forEach(f => { funnelMap2[f.label] = f.count; });
+
+  // Build ordered funnel — pipeline stages first in sequence, then any remaining
+  const funnelOrdered = [
+    ...funnelOrder.filter(s => funnelMap2[s] > 0).map(s => ({ label: s, count: funnelMap2[s] })),
+    ...funnelRaw.filter(f => !funnelOrder.includes(f.label) && f.count > 0)
+  ];
+
+  const maxFunnel = Math.max(...funnelOrdered.map(f => f.count), 1);
+  const funnelColors = ['#006747','#00A693','#1B6A9C','#5B8FA8','#CFC483','#534AB7','#d4880a','#0F6E56','#993556','#7A9EB5','#888780'];
   let funnelHTML = '';
-  funnel.forEach((f, i) => {
-    const widthPct = Math.max(20, Math.round((f.count / maxFunnel) * 100));
-    const indent = i * 6;
+  funnelOrdered.forEach((f, i) => {
+    const widthPct = Math.max(15, Math.round((f.count / maxFunnel) * 100));
+    const indent = i * 5;
     const color = funnelColors[i % funnelColors.length];
     const textColor = color === '#CFC483' ? '#004d35' : '#fff';
     funnelHTML += `<div class="funnel-step"><div class="funnel-bar" style="width:${widthPct}%; margin-left:${indent}%; background:${color};"><span class="funnel-bar-label" style="color:${textColor};">${f.label}</span><span class="funnel-bar-count" style="color:${textColor};">${f.count}</span></div></div>`;
@@ -330,13 +343,13 @@ function renderMainPage(data) {
     const stageBars = stageMetrics.map(s => {
       const widthPct = Math.max(8, Math.round((s.avgDays / maxDays) * 100));
       return `<div style="display:flex; align-items:center; gap:10px; margin-bottom:8px;">
-        <span style="font-size:11px; color:#555; width:140px; flex-shrink:0; text-align:right;">${s.label}</span>
+        <span style="font-size:11px; color:#555; width:160px; flex-shrink:0; text-align:right; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${s.label}</span>
         <div style="flex:1; background:#f0efeb; border-radius:4px; height:24px;">
           <div style="width:${widthPct}%; background:${s.color}; border-radius:4px; height:24px; display:flex; align-items:center; padding-left:8px; min-width:40px;">
             <span style="font-size:11px; font-weight:700; color:#fff;">${s.avgDays}d</span>
           </div>
         </div>
-        <span style="font-size:10px; color:#aaa; width:50px; flex-shrink:0;">${s.count} reqs</span>
+        <span style="font-size:10px; color:#aaa; width:60px; flex-shrink:0; white-space:nowrap;">${s.count} reqs</span>
       </div>`;
     }).join('');
     html += `<div class="row">
@@ -364,7 +377,17 @@ function renderMainPage(data) {
   const conversionRows = conversionStages.map(s => {
     const fromCount = funnelMap[s.fromKey] || 0;
     const toCount = s.toCount !== undefined ? s.toCount : (funnelMap[s.toKey] || 0);
-    const pct = fromCount > 0 ? Math.min(100, Math.round((toCount / fromCount) * 100)) : 0;
+    if (fromCount === 0) {
+      return `<div style="margin-bottom:12px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+          <span style="font-size:12px; color:#555;">${s.from} <span style="color:#aaa;">→</span> ${s.to}</span>
+          <span style="font-size:12px; font-weight:600; color:#ccc;">N/A</span>
+        </div>
+        <div style="background:#f0efeb; border-radius:4px; height:10px;"></div>
+        <div style="font-size:10px; color:#ccc; margin-top:2px; font-style:italic;">No reqs currently in ${s.from}</div>
+      </div>`;
+    }
+    const pct = Math.min(100, Math.round((toCount / fromCount) * 100));
     const barColor = pct >= 60 ? '#006747' : pct >= 30 ? '#d4880a' : '#c0392b';
     return `<div style="margin-bottom:12px;">
       <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
@@ -383,14 +406,15 @@ function renderMainPage(data) {
   html += `<div class="row row-half">
     <div class="card">
       <div class="card-title">Stage Conversion Rates</div>
-      <p style="font-size:10px; color:#bbb; font-style:italic; margin-bottom:12px;">Proxy — based on current req counts per stage</p>
+      <p style="font-size:10px; color:#bbb; font-style:italic; margin-bottom:12px;">Proxy — based on current req counts per stage. N/A = no reqs currently at that stage.</p>
       ${conversionRows}
     </div>
     <div class="card" style="display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center;">
       <div class="card-title" style="width:100%;">Overall Conversion</div>
       <div style="font-size:56px; font-weight:700; color:${overallPct >= 20 ? '#006747' : overallPct >= 10 ? '#d4880a' : '#c0392b'}; line-height:1; margin:16px 0 8px;">${overallPct}%</div>
-      <div style="font-size:12px; color:#888;">${hired} hired of ${totalReqs} active reqs</div>
-      <div style="font-size:10px; color:#bbb; margin-top:8px; font-style:italic;">Filled YTD ÷ Open Reqs</div>
+      <div style="font-size:12px; color:#888;">${hired} filled YTD of ${totalReqs} active reqs</div>
+      <div style="font-size:10px; color:#bbb; margin-top:8px; font-style:italic;">Filled YTD ÷ Current active pipeline</div>
+      <div style="font-size:10px; color:#bbb; margin-top:4px; font-style:italic;">Not a funnel rate — snapshot metric</div>
     </div>
   </div>`;
 
@@ -450,12 +474,71 @@ function openDrillDown(bandLabel, contextKey) {
   document.getElementById('drillBody').innerHTML = buildDrillTable(drillAllRecords);
   panel.classList.add('open');
   overlay.classList.add('open');
+
+  // Highlight departments in the bar chart that have reqs in this aging band
+  highlightDeptBars(drillAllRecords);
+}
+
+function highlightDeptBars(records) {
+  // Build a count map of departments in this aging band
+  const deptCounts = {};
+  records.forEach(r => {
+    if (r.department) deptCounts[r.department] = (deptCounts[r.department] || 0) + 1;
+  });
+
+  // Find all dept bar rows and highlight/dim accordingly
+  const barRows = document.querySelectorAll('.dept-bar-row');
+  if (!barRows.length) return;
+
+  barRows.forEach(row => {
+    const dept = row.getAttribute('data-dept');
+    const count = deptCounts[dept] || 0;
+    const fill = row.querySelector('.dept-bar-fill');
+    const badge = row.querySelector('.dept-aging-badge');
+
+    if (count > 0) {
+      row.style.opacity = '1';
+      if (fill) fill.style.boxShadow = '0 0 0 2px #c0392b';
+      // Add a red badge showing how many are stalled
+      if (!badge) {
+        const b = document.createElement('span');
+        b.className = 'dept-aging-badge';
+        b.style.cssText = 'font-size:10px;font-weight:700;color:#fff;background:#c0392b;border-radius:3px;padding:1px 5px;margin-left:4px;flex-shrink:0;';
+        b.textContent = count + ' stalled';
+        row.appendChild(b);
+      } else {
+        badge.textContent = count + ' stalled';
+        badge.style.display = '';
+      }
+    } else {
+      row.style.opacity = '0.25';
+      if (fill) fill.style.boxShadow = 'none';
+      if (badge) badge.style.display = 'none';
+    }
+  });
+
+  // Show a reset hint above the chart
+  const resetHint = document.getElementById('deptBarResetHint');
+  if (resetHint) resetHint.style.display = 'block';
+}
+
+function clearDeptHighlight() {
+  document.querySelectorAll('.dept-bar-row').forEach(row => {
+    row.style.opacity = '1';
+    const fill = row.querySelector('.dept-bar-fill');
+    if (fill) fill.style.boxShadow = 'none';
+    const badge = row.querySelector('.dept-aging-badge');
+    if (badge) badge.style.display = 'none';
+  });
+  const resetHint = document.getElementById('deptBarResetHint');
+  if (resetHint) resetHint.style.display = 'none';
 }
 
 function closeDrillDown() {
   document.getElementById('drillPanel').classList.remove('open');
   document.getElementById('drillOverlay').classList.remove('open');
   document.getElementById('drillSearch').value = '';
+  clearDeptHighlight();
 }
 
 // Store all records for the current drill-down so filter can search them
