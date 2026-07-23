@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-07-23T17:24:55.980Z",
+  "lastUpdated": "2026-07-23T18:46:12.940Z",
   "summary": {
     "openReqs": 554,
     "avgTimeToFill": 82,
     "filledYTD": 7,
     "failedCancelled": 25,
-    "inOfferStage": 39
+    "inOfferStage": 38
   },
   "campus": [
     {
@@ -45,7 +45,7 @@
     },
     {
       "label": "Offer Stage",
-      "count": 39
+      "count": 38
     },
     {
       "label": "Student Hiring",
@@ -57,7 +57,7 @@
     },
     {
       "label": "Pre-boarding",
-      "count": 22
+      "count": 23
     },
     {
       "label": "Interview Stage",
@@ -370,7 +370,7 @@
           "notionUrl": "https://www.notion.so/a39cda9b278443a4a8b39b28a46df3f2",
           "owner": "johncalebrese",
           "campus": "Tampa",
-          "stage": "Offer Stage",
+          "stage": "Pre-boarding",
           "agingBand": "🔴 6+",
           "department": "027900 - Procurement & Payment Services"
         },
@@ -1846,13 +1846,13 @@
     {
       "label": "Offer Stage",
       "avgDays": 8,
-      "count": 28,
+      "count": 27,
       "color": "#CFC483"
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 26,
-      "count": 5,
+      "avgDays": 24,
+      "count": 6,
       "color": "#5B8FA8"
     },
     {
@@ -4405,7 +4405,7 @@
               "notionUrl": "https://www.notion.so/a39cda9b278443a4a8b39b28a46df3f2",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "Offer Stage",
+              "stage": "Pre-boarding",
               "agingBand": "🔴 6+",
               "department": "027900 - Procurement & Payment Services"
             },
@@ -4794,15 +4794,9 @@
           "color": "#d4880a"
         },
         {
-          "label": "Offer Stage",
-          "avgDays": 17,
-          "count": 1,
-          "color": "#CFC483"
-        },
-        {
           "label": "Pre-boarding",
-          "avgDays": 26,
-          "count": 5,
+          "avgDays": 24,
+          "count": 6,
           "color": "#5B8FA8"
         },
         {
@@ -4820,7 +4814,7 @@
         },
         {
           "label": "Pre-boarding",
-          "count": 20,
+          "count": 21,
           "color": "#888780"
         },
         {
@@ -4840,7 +4834,7 @@
         },
         {
           "label": "Offer Stage",
-          "count": 5,
+          "count": 4,
           "color": "#0F6E56"
         },
         {
@@ -4891,7 +4885,7 @@
         },
         {
           "label": "Offer",
-          "count": 5
+          "count": 4
         }
       ],
       "goals": [
