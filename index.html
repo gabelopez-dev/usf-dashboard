@@ -274,15 +274,6 @@ function renderMainPage(data) {
       <p class="pending-note" style="text-align:center;">Field not set on records in Notion</p>`}
     </div>
 
-    <div class="card" style="display:flex;flex-direction:column;align-items:center;">
-      <div class="card-title" style="width:100%;">Reqs by College / Department</div>
-      ${deptTotal > 0 ? `
-      <div class="donut-wrap"><canvas id="donutDept"></canvas><div class="donut-center"><div class="donut-center-num">${deptTotal}</div><div class="donut-center-lbl">Active</div></div></div>
-      <div class="legend">${legendHTML(deptItems)}</div>
-      ` : `<div class="donut-pending"><div class="donut-pending-text">No Dept/College<br>data yet</div></div>
-      <p class="pending-note" style="text-align:center;">Field not set on records in Notion</p>`}
-    </div>
-
     <div class="card">
       <div class="card-title">Job Aging Heatmap</div>
       ${(() => { currentAgingRecords = data.agingRecords || null; return renderAgingHeatmap(data.mainAging || [], data.agingRecords || null, 'main'); })()}
