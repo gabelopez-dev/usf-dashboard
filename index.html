@@ -256,31 +256,34 @@ function renderMainPage(data) {
   const deptItems = (data.department || []).filter(d => d.count > 0);
   const deptTotal = deptItems.reduce((a,d) => a + d.count, 0);
 
-  html += `<div class="row row-4">
-    <div class="card" style="display:flex;flex-direction:column;align-items:center;">
-      <div class="card-title" style="width:100%;">Jobs by Campus</div>
-      ${campusTotal > 0 ? `
-      <div class="donut-wrap"><canvas id="donutCampus"></canvas><div class="donut-center"><div class="donut-center-num">${campusTotal}</div><div class="donut-center-lbl">Total</div></div></div>
-      <div class="legend">${legendHTML(campusItems)}</div>
-      ` : `<div class="donut-pending"><div class="donut-pending-text">No campus<br>data yet</div></div>`}
+  html += `<div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:12px;">
+    <!-- Left column: Campus + Req Type stacked -->
+    <div style="display:flex; flex-direction:column; gap:12px;">
+      <div class="card" style="display:flex;flex-direction:column;align-items:center;flex:1;">
+        <div class="card-title" style="width:100%;">Jobs by Campus</div>
+        ${campusTotal > 0 ? `
+        <div class="donut-wrap"><canvas id="donutCampus"></canvas><div class="donut-center"><div class="donut-center-num">${campusTotal}</div><div class="donut-center-lbl">Total</div></div></div>
+        <div class="legend">${legendHTML(campusItems)}</div>
+        ` : `<div class="donut-pending"><div class="donut-pending-text">No campus<br>data yet</div></div>`}
+      </div>
+      <div class="card" style="display:flex;flex-direction:column;align-items:center;flex:1;">
+        <div class="card-title" style="width:100%;">Reqs by Req Type</div>
+        ${reqTypeTotal > 0 ? `
+        <div class="donut-wrap"><canvas id="donutReqType"></canvas><div class="donut-center"><div class="donut-center-num">${reqTypeTotal}</div><div class="donut-center-lbl">Active</div></div></div>
+        <div class="legend">${legendHTML(reqTypeItems)}</div>
+        ` : `<div class="donut-pending"><div class="donut-pending-text">No Req Type<br>data yet</div></div>
+        <p class="pending-note" style="text-align:center;">Field not set on records in Notion</p>`}
+      </div>
     </div>
-
-    <div class="card" style="display:flex;flex-direction:column;align-items:center;">
-      <div class="card-title" style="width:100%;">Reqs by Req Type</div>
-      ${reqTypeTotal > 0 ? `
-      <div class="donut-wrap"><canvas id="donutReqType"></canvas><div class="donut-center"><div class="donut-center-num">${reqTypeTotal}</div><div class="donut-center-lbl">Active</div></div></div>
-      <div class="legend">${legendHTML(reqTypeItems)}</div>
-      ` : `<div class="donut-pending"><div class="donut-pending-text">No Req Type<br>data yet</div></div>
-      <p class="pending-note" style="text-align:center;">Field not set on records in Notion</p>`}
-    </div>
-
-    <div class="card">
+    <!-- Right column: Aging Heatmap full height -->
+    <div class="card" style="display:flex; flex-direction:column;">
       <div class="card-title">Job Aging Heatmap</div>
+      <p style="font-size:10px;color:#bbb;font-style:italic;margin-bottom:10px;">Click any band to drill into stalled reqs and highlight departments</p>
       ${(() => { currentAgingRecords = data.agingRecords || null; return renderAgingHeatmap(data.mainAging || [], data.agingRecords || null, 'main'); })()}
     </div>
-  </div>
+  </div>`;
 
-  <!-- Reqs by College / Department — horizontal bar chart -->
+  html += `<!-- Reqs by College / Department — horizontal bar chart -->
   <div class="row">
     <div class="card">
       <div class="card-title">Reqs by College / Department</div>
