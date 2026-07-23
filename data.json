@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-07-23T11:24:51.185Z",
+  "lastUpdated": "2026-07-23T13:01:32.877Z",
   "summary": {
     "openReqs": 532,
     "avgTimeToFill": 84,
-    "filledYTD": 9,
+    "filledYTD": 7,
     "failedCancelled": 25,
-    "inOfferStage": 37
+    "inOfferStage": 38
   },
   "campus": [
     {
@@ -41,23 +41,23 @@
     },
     {
       "label": "HM Review",
-      "count": 170
+      "count": 167
+    },
+    {
+      "label": "Offer Stage",
+      "count": 38
     },
     {
       "label": "Student Hiring",
       "count": 37
     },
     {
-      "label": "Offer Stage",
-      "count": 37
+      "label": "Pre-boarding",
+      "count": 22
     },
     {
       "label": "Interview Stage",
       "count": 20
-    },
-    {
-      "label": "Pre-boarding",
-      "count": 19
     },
     {
       "label": "Backlog",
@@ -69,7 +69,7 @@
     },
     {
       "label": "Targeted",
-      "count": 15
+      "count": 14
     },
     {
       "label": "Sourced",
@@ -82,7 +82,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 118
+      "count": 117
     },
     {
       "label": "🟡 3-5",
@@ -96,7 +96,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 28
+      "count": 29
     }
   ],
   "agingRecords": [
@@ -763,16 +763,6 @@
           "stage": "HM Review",
           "agingBand": "🔴 6+",
           "department": "380000 - Undergrad Stds-Deans Ofc Opera"
-        },
-        {
-          "title": "Learning Specialist",
-          "reqId": "43358",
-          "notionUrl": "https://www.notion.so/86f0979e7dd646348d4e71bc8df786de",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "HM Review",
-          "agingBand": "🔴 6+",
-          "department": "380600 - UGS Academic Advising - Athletics"
         },
         {
           "title": "Media Resources Specialist",
@@ -1537,6 +1527,16 @@
           "department": "210100 - College Of Engineering - Dean"
         },
         {
+          "title": "Learning Specialist",
+          "reqId": "43358",
+          "notionUrl": "https://www.notion.so/86f0979e7dd646348d4e71bc8df786de",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Offer Stage",
+          "agingBand": "🟢 0–2",
+          "department": "380600 - UGS Academic Advising - Athletics"
+        },
+        {
           "title": "Contract Financial Analyst I",
           "reqId": "43667",
           "notionUrl": "https://www.notion.so/9e2a758823804c93b31beb55cee8d61b",
@@ -1622,7 +1622,7 @@
           "notionUrl": "https://www.notion.so/56e041ec8a3c4a589c1b80436d9e8543",
           "owner": "johncalebrese",
           "campus": "Tampa",
-          "stage": "Offer Stage",
+          "stage": "Pre-boarding",
           "agingBand": "🟢 0–2",
           "department": "490000 - USF World"
         },
@@ -1647,7 +1647,7 @@
     },
     {
       "label": "Student",
-      "count": 54,
+      "count": 52,
       "color": "#00A693"
     },
     {
@@ -1662,7 +1662,7 @@
     },
     {
       "label": "Evergreen",
-      "count": 10,
+      "count": 12,
       "color": "#7A9EB5"
     }
   ],
@@ -1828,8 +1828,8 @@
     },
     {
       "label": "HM Review",
-      "avgDays": 11,
-      "count": 39,
+      "avgDays": 10,
+      "count": 34,
       "color": "#534AB7"
     },
     {
@@ -1841,13 +1841,13 @@
     {
       "label": "Offer Stage",
       "avgDays": 9,
-      "count": 30,
+      "count": 29,
       "color": "#CFC483"
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 32,
-      "count": 4,
+      "avgDays": 26,
+      "count": 5,
       "color": "#5B8FA8"
     },
     {
@@ -2543,7 +2543,7 @@
       "reqId": "43597",
       "owner": "johncalebrese",
       "campus": "Tampa",
-      "stage": "Hired",
+      "stage": "Filled",
       "department": "051000 - Athletic Administration",
       "ttf": 52,
       "notionUrl": "https://www.notion.so/54e433eca57243d1a1d7010c7d7b4050"
@@ -2903,7 +2903,7 @@
       "reqId": "43896",
       "owner": "johncalebrese",
       "campus": "Tampa",
-      "stage": "Hired",
+      "stage": "Filled",
       "department": "051000 - Athletic Administration",
       "ttf": 21,
       "notionUrl": "https://www.notion.so/06da65c4dbbb40f087fbda6dd1cc50de"
@@ -4355,7 +4355,7 @@
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
       "reqs": 120,
-      "filled": 4,
+      "filled": 2,
       "failed": 4,
       "ttf": 75,
       "wip": 10,
@@ -4433,16 +4433,6 @@
               "stage": "HM Review",
               "agingBand": "🔴 6+",
               "department": "380000 - Undergrad Stds-Deans Ofc Opera"
-            },
-            {
-              "title": "Learning Specialist",
-              "reqId": "43358",
-              "notionUrl": "https://www.notion.so/86f0979e7dd646348d4e71bc8df786de",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "HM Review",
-              "agingBand": "🔴 6+",
-              "department": "380600 - UGS Academic Advising - Athletics"
             },
             {
               "title": "Media Resources Specialist",
@@ -4687,6 +4677,16 @@
               "department": "210100 - College Of Engineering - Dean"
             },
             {
+              "title": "Learning Specialist",
+              "reqId": "43358",
+              "notionUrl": "https://www.notion.so/86f0979e7dd646348d4e71bc8df786de",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Offer Stage",
+              "agingBand": "🟢 0–2",
+              "department": "380600 - UGS Academic Advising - Athletics"
+            },
+            {
               "title": "Sr Dir Finance Athletics",
               "reqId": "43671",
               "notionUrl": "https://www.notion.so/8ca10fea36a0457bae2d509337d2c72b",
@@ -4742,7 +4742,7 @@
               "notionUrl": "https://www.notion.so/56e041ec8a3c4a589c1b80436d9e8543",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "Offer Stage",
+              "stage": "Pre-boarding",
               "agingBand": "🟢 0–2",
               "department": "490000 - USF World"
             },
@@ -4768,8 +4768,8 @@
         },
         {
           "label": "HM Review",
-          "avgDays": 12,
-          "count": 14,
+          "avgDays": 11,
+          "count": 9,
           "color": "#534AB7"
         },
         {
@@ -4780,14 +4780,14 @@
         },
         {
           "label": "Offer Stage",
-          "avgDays": 10,
-          "count": 2,
+          "avgDays": 17,
+          "count": 1,
           "color": "#CFC483"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 32,
-          "count": 4,
+          "avgDays": 26,
+          "count": 5,
           "color": "#5B8FA8"
         },
         {
@@ -4804,19 +4804,14 @@
           "color": "#185FA5"
         },
         {
-          "label": "Targeted",
-          "count": 1,
+          "label": "Pre-boarding",
+          "count": 20,
           "color": "#888780"
         },
         {
           "label": "Student Hiring",
           "count": 15,
           "color": "#0F6E56"
-        },
-        {
-          "label": "Pre-boarding",
-          "count": 17,
-          "color": "#888780"
         },
         {
           "label": "Backlog",
@@ -4830,12 +4825,12 @@
         },
         {
           "label": "Offer Stage",
-          "count": 5,
+          "count": 6,
           "color": "#0F6E56"
         },
         {
           "label": "HM Review",
-          "count": 20,
+          "count": 17,
           "color": "#993556"
         }
       ],
@@ -4845,7 +4840,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 12
+          "count": 11
         },
         {
           "label": "🟡 3-5",
@@ -4859,7 +4854,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 23
+          "count": 24
         }
       ],
       "funnel": [
@@ -4873,7 +4868,7 @@
         },
         {
           "label": "HM Review",
-          "count": 20
+          "count": 17
         },
         {
           "label": "Interviews",
@@ -4881,13 +4876,13 @@
         },
         {
           "label": "Offer",
-          "count": 5
+          "count": 6
         }
       ],
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 4,
+          "value": 2,
           "target": 10,
           "invert": false
         },
