@@ -354,8 +354,8 @@ async function main() {
     const d = getProp(r, 'Department/College', 'text') || getProp(r, 'Department/College', 'select');
     if (d) deptAgg[d] = (deptAgg[d] || 0) + 1;
   });
-  // Group departments with 3 or fewer reqs into "Other" to keep the donut readable
-  const DEPT_MIN_COUNT = 3;
+  // Group departments with 5 or fewer reqs into "Other" to keep the bar chart readable
+  const DEPT_MIN_COUNT = 5;
   const deptSorted = Object.entries(deptAgg).sort((a,b) => b[1] - a[1]);
   const deptMain = deptSorted.filter(([,count]) => count > DEPT_MIN_COUNT);
   const deptOther = deptSorted.filter(([,count]) => count <= DEPT_MIN_COUNT);
