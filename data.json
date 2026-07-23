@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-07-23T15:31:48.767Z",
+  "lastUpdated": "2026-07-23T17:24:55.980Z",
   "summary": {
     "openReqs": 554,
     "avgTimeToFill": 82,
     "filledYTD": 7,
     "failedCancelled": 25,
-    "inOfferStage": 38
+    "inOfferStage": 39
   },
   "campus": [
     {
@@ -37,7 +37,7 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 206
+      "count": 205
     },
     {
       "label": "HM Review",
@@ -45,7 +45,7 @@
     },
     {
       "label": "Offer Stage",
-      "count": 38
+      "count": 39
     },
     {
       "label": "Student Hiring",
@@ -53,7 +53,7 @@
     },
     {
       "label": "Backlog",
-      "count": 22
+      "count": 23
     },
     {
       "label": "Pre-boarding",
@@ -61,7 +61,7 @@
     },
     {
       "label": "Interview Stage",
-      "count": 20
+      "count": 19
     },
     {
       "label": "Faculty",
@@ -82,7 +82,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 113
+      "count": 112
     },
     {
       "label": "🟡 3-5",
@@ -96,7 +96,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 33
+      "count": 34
     }
   ],
   "agingRecords": [
@@ -785,16 +785,6 @@
           "department": "STP Student Success"
         },
         {
-          "title": "Veteran Support Coordinator (Office of Veteran Success)",
-          "reqId": "43612",
-          "notionUrl": "https://www.notion.so/c095bfbe97034da0829cddfbd008b3b6",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Interview Stage",
-          "agingBand": "🔴 6+",
-          "department": "STP Student Success"
-        },
-        {
           "title": "Unit Research Administrator",
           "reqId": "43788",
           "notionUrl": "https://www.notion.so/b61fd564bb694ef5ba51e3e56d04562b",
@@ -1276,7 +1266,7 @@
           "notionUrl": "https://www.notion.so/affd001d0f77400f95cc677c2c6e47b4",
           "owner": "Gabriel",
           "campus": "St. Petersburg",
-          "stage": "Recruiter Review",
+          "stage": "Backlog",
           "agingBand": "🟡 3–5",
           "department": "STP Student Success"
         },
@@ -1567,6 +1557,16 @@
           "department": "College of Education "
         },
         {
+          "title": "Veteran Support Coordinator (Office of Veteran Success)",
+          "reqId": "43612",
+          "notionUrl": "https://www.notion.so/c095bfbe97034da0829cddfbd008b3b6",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Offer Stage",
+          "agingBand": "🟢 0–2",
+          "department": "STP Student Success"
+        },
+        {
           "title": "Sr Dir Finance Athletics",
           "reqId": "43671",
           "notionUrl": "https://www.notion.so/8ca10fea36a0457bae2d509337d2c72b",
@@ -1828,7 +1828,7 @@
     {
       "label": "Recruiter Review",
       "avgDays": 10,
-      "count": 46,
+      "count": 45,
       "color": "#006747"
     },
     {
@@ -1839,8 +1839,8 @@
     },
     {
       "label": "Interview Stage",
-      "avgDays": 7,
-      "count": 17,
+      "avgDays": 8,
+      "count": 16,
       "color": "#d4880a"
     },
     {
@@ -1857,8 +1857,8 @@
     },
     {
       "label": "Backlog",
-      "avgDays": 11,
-      "count": 8,
+      "avgDays": 10,
+      "count": 9,
       "color": "#888780"
     }
   ],
@@ -5068,16 +5068,6 @@
               "department": "Florida Inst of Oceanography"
             },
             {
-              "title": "Veteran Support Coordinator (Office of Veteran Success)",
-              "reqId": "43612",
-              "notionUrl": "https://www.notion.so/c095bfbe97034da0829cddfbd008b3b6",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Interview Stage",
-              "agingBand": "🔴 6+",
-              "department": "STP Student Success"
-            },
-            {
               "title": "Unit Research Administrator",
               "reqId": "43788",
               "notionUrl": "https://www.notion.so/b61fd564bb694ef5ba51e3e56d04562b",
@@ -5159,7 +5149,7 @@
               "notionUrl": "https://www.notion.so/affd001d0f77400f95cc677c2c6e47b4",
               "owner": "Gabriel",
               "campus": "St. Petersburg",
-              "stage": "Recruiter Review",
+              "stage": "Backlog",
               "agingBand": "🟡 3–5",
               "department": "STP Student Success"
             },
@@ -5268,6 +5258,16 @@
               "stage": "Offer Stage",
               "agingBand": "🟢 0–2",
               "department": "College of Education "
+            },
+            {
+              "title": "Veteran Support Coordinator (Office of Veteran Success)",
+              "reqId": "43612",
+              "notionUrl": "https://www.notion.so/c095bfbe97034da0829cddfbd008b3b6",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Offer Stage",
+              "agingBand": "🟢 0–2",
+              "department": "STP Student Success"
             }
           ]
         }
@@ -5275,8 +5275,8 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 5,
-          "count": 4,
+          "avgDays": 6,
+          "count": 3,
           "color": "#006747"
         },
         {
@@ -5288,7 +5288,7 @@
         {
           "label": "Interview Stage",
           "avgDays": 7,
-          "count": 9,
+          "count": 8,
           "color": "#d4880a"
         },
         {
@@ -5300,7 +5300,7 @@
         {
           "label": "Backlog",
           "avgDays": 6,
-          "count": 3,
+          "count": 4,
           "color": "#888780"
         }
       ],
@@ -5312,12 +5312,12 @@
         },
         {
           "label": "Backlog",
-          "count": 7,
+          "count": 8,
           "color": "#888780"
         },
         {
           "label": "Recruiter Review",
-          "count": 4,
+          "count": 3,
           "color": "#185FA5"
         },
         {
@@ -5327,7 +5327,7 @@
         },
         {
           "label": "Offer Stage",
-          "count": 10,
+          "count": 11,
           "color": "#0F6E56"
         },
         {
@@ -5347,7 +5347,7 @@
         },
         {
           "label": "Interview Stage",
-          "count": 10,
+          "count": 9,
           "color": "#534AB7"
         },
         {
@@ -5362,7 +5362,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 16
+          "count": 15
         },
         {
           "label": "🟡 3-5",
@@ -5376,7 +5376,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 9
+          "count": 10
         }
       ],
       "funnel": [
@@ -5394,11 +5394,11 @@
         },
         {
           "label": "Interviews",
-          "count": 10
+          "count": 9
         },
         {
           "label": "Offer",
-          "count": 10
+          "count": 11
         }
       ],
       "goals": [
@@ -5422,7 +5422,7 @@
         },
         {
           "label": "Interviews",
-          "value": 10,
+          "value": 9,
           "target": 132,
           "invert": false
         }
