@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-23T18:46:12.940Z",
+  "lastUpdated": "2026-07-23T19:17:41.255Z",
   "summary": {
     "openReqs": 554,
     "avgTimeToFill": 82,
@@ -41,7 +41,7 @@
     },
     {
       "label": "HM Review",
-      "count": 170
+      "count": 169
     },
     {
       "label": "Offer Stage",
@@ -61,7 +61,7 @@
     },
     {
       "label": "Interview Stage",
-      "count": 19
+      "count": 20
     },
     {
       "label": "Faculty",
@@ -790,7 +790,7 @@
           "notionUrl": "https://www.notion.so/b61fd564bb694ef5ba51e3e56d04562b",
           "owner": "Gabriel",
           "campus": "St. Petersburg",
-          "stage": "HM Review",
+          "stage": "Interview Stage",
           "agingBand": "🔴 6+",
           "department": "College of Marine Science"
         },
@@ -1834,13 +1834,13 @@
     {
       "label": "HM Review",
       "avgDays": 10,
-      "count": 33,
+      "count": 32,
       "color": "#534AB7"
     },
     {
       "label": "Interview Stage",
       "avgDays": 8,
-      "count": 16,
+      "count": 17,
       "color": "#d4880a"
     },
     {
@@ -4935,7 +4935,7 @@
       "filled": 5,
       "failed": 1,
       "ttf": 71,
-      "wip": 7,
+      "wip": 3,
       "agingRecords": [
         {
           "band": "🔴 6+",
@@ -5067,7 +5067,7 @@
               "notionUrl": "https://www.notion.so/b61fd564bb694ef5ba51e3e56d04562b",
               "owner": "Gabriel",
               "campus": "St. Petersburg",
-              "stage": "HM Review",
+              "stage": "Interview Stage",
               "agingBand": "🔴 6+",
               "department": "College of Marine Science"
             },
@@ -5275,14 +5275,14 @@
         },
         {
           "label": "HM Review",
-          "avgDays": 7,
-          "count": 4,
+          "avgDays": 6,
+          "count": 3,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
           "avgDays": 7,
-          "count": 8,
+          "count": 9,
           "color": "#d4880a"
         },
         {
@@ -5316,7 +5316,7 @@
         },
         {
           "label": "HM Review",
-          "count": 4,
+          "count": 3,
           "color": "#993556"
         },
         {
@@ -5341,7 +5341,7 @@
         },
         {
           "label": "Interview Stage",
-          "count": 9,
+          "count": 10,
           "color": "#534AB7"
         },
         {
@@ -5384,11 +5384,11 @@
         },
         {
           "label": "HM Review",
-          "count": 4
+          "count": 3
         },
         {
           "label": "Interviews",
-          "count": 9
+          "count": 10
         },
         {
           "label": "Offer",
@@ -5416,7 +5416,7 @@
         },
         {
           "label": "Interviews",
-          "value": 9,
+          "value": 10,
           "target": 132,
           "invert": false
         }
