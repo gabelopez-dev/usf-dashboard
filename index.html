@@ -287,6 +287,29 @@ function renderMainPage(data) {
       <div class="card-title">Job Aging Heatmap</div>
       ${(() => { currentAgingRecords = data.agingRecords || null; return renderAgingHeatmap(data.mainAging || [], data.agingRecords || null, 'main'); })()}
     </div>
+  </div>
+
+  <!-- Reqs by College / Department — horizontal bar chart -->
+  <div class="row">
+    <div class="card">
+      <div class="card-title">Reqs by College / Department</div>
+      ${deptTotal > 0 ? (() => {
+        const maxCount = Math.max(...deptItems.map(d => d.count), 1);
+        const bars = deptItems.map(d => {
+          const widthPct = Math.max(3, Math.round((d.count / maxCount) * 100));
+          const isOther = d.label.startsWith('Other');
+          return `<div style="display:flex;align-items:center;gap:10px;margin-bottom:6px;">
+            <span style="font-size:11px;color:${isOther ? '#aaa' : '#555'};font-style:${isOther ? 'italic' : 'normal'};width:260px;flex-shrink:0;text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${d.label}</span>
+            <div style="flex:1;background:#f0efeb;border-radius:3px;height:20px;">
+              <div style="width:${widthPct}%;background:${isOther ? '#c8c7c2' : d.color};border-radius:3px;height:20px;display:flex;align-items:center;padding-left:7px;min-width:28px;">
+                <span style="font-size:11px;font-weight:700;color:${d.color === '#CFC483' ? '#004d35' : '#fff'};">${d.count}</span>
+              </div>
+            </div>
+          </div>`;
+        }).join('');
+        return `${bars}<div style="font-size:10px;color:#bbb;font-style:italic;text-align:right;margin-top:6px;">${deptTotal} active reqs total</div>`;
+      })() : `<p class="pending-note">No Department/College data yet — field not set on records in Notion</p>`}
+    </div>
   </div>`;
 
   // Pipeline funnel - true funnel shape
@@ -390,9 +413,6 @@ function renderMainPage(data) {
   }
   if (reqTypeTotal > 0) {
     buildDonut('donutReqType', reqTypeItems.map(r=>r.label), reqTypeItems.map(r=>r.count), reqTypeItems.map(r=>r.color));
-  }
-  if (deptTotal > 0) {
-    buildDonut('donutDept', deptItems.map(d=>d.label), deptItems.map(d=>d.count), deptItems.map(d=>d.color));
   }
 }
 
