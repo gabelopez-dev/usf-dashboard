@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-07-24T15:02:11.912Z",
+  "lastUpdated": "2026-07-24T17:05:45.687Z",
   "summary": {
-    "openReqs": 556,
+    "openReqs": 553,
     "avgTimeToFill": 82,
-    "filledYTD": 112,
-    "failedCancelled": 27,
+    "filledYTD": 114,
+    "failedCancelled": 28,
     "inOfferStage": 39
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 282,
+      "count": 279,
       "color": "#1B6A9C"
     },
     {
@@ -37,7 +37,7 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 205
+      "count": 204
     },
     {
       "label": "HM Review",
@@ -56,12 +56,12 @@
       "count": 22
     },
     {
-      "label": "Pre-boarding",
+      "label": "Interview Stage",
       "count": 22
     },
     {
-      "label": "Interview Stage",
-      "count": 22
+      "label": "Pre-boarding",
+      "count": 20
     },
     {
       "label": "Faculty",
@@ -82,7 +82,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 110
+      "count": 108
     },
     {
       "label": "🟡 3-5",
@@ -555,16 +555,6 @@
           "department": "612400 - Dept Of Ophthe"
         },
         {
-          "title": "Transfer Success Specialist",
-          "reqId": "43819",
-          "notionUrl": "https://www.notion.so/4933435ce5994718831574f13e919c34",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "388600 - UGS - Transfer Student Success"
-        },
-        {
           "title": "Enrollment Management Analyst",
           "reqId": "43881",
           "notionUrl": "https://www.notion.so/6d5c12fc312f41c990814a37d5a424c3",
@@ -843,16 +833,6 @@
           "stage": "Pre-boarding",
           "agingBand": "🔴 6+",
           "department": "260000 - Honors College"
-        },
-        {
-          "title": "DL Training and Support Student Assistant (3)",
-          "reqId": "42224",
-          "notionUrl": "https://www.notion.so/d0e2554a818948939ca9baa54a27956c",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 6+",
-          "department": "460100 - Innovative Education"
         },
         {
           "title": "Postdoctoral Scholar Research",
@@ -1672,7 +1652,7 @@
   "reqType": [
     {
       "label": "Standard",
-      "count": 328,
+      "count": 325,
       "color": "#006747"
     },
     {
@@ -1753,23 +1733,23 @@
       "color": "#00A693"
     },
     {
-      "label": "460100 - Innovative Education",
+      "label": "616300 - Health Informatics Institute",
       "count": 7,
       "color": "#CFC483"
     },
     {
-      "label": "616300 - Health Informatics Institute",
+      "label": "614300 - Molecular Pharm & Physiology",
       "count": 7,
       "color": "#7A9EB5"
     },
     {
-      "label": "614300 - Molecular Pharm & Physiology",
+      "label": "041500 - Counseling Center",
       "count": 7,
       "color": "#5B7A8A"
     },
     {
-      "label": "041500 - Counseling Center",
-      "count": 7,
+      "label": "460100 - Innovative Education",
+      "count": 6,
       "color": "#534AB7"
     },
     {
@@ -1788,13 +1768,8 @@
       "color": "#1B6A9C"
     },
     {
-      "label": "490000 - USF World",
-      "count": 6,
-      "color": "#00A693"
-    },
-    {
       "label": "Other (138 depts)",
-      "count": 241,
+      "count": 245,
       "color": "#c8c7c2"
     }
   ],
@@ -1808,7 +1783,7 @@
     {
       "label": "Recruiter Review",
       "avgDays": 11,
-      "count": 45,
+      "count": 44,
       "color": "#006747"
     },
     {
@@ -1831,8 +1806,8 @@
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 25,
-      "count": 6,
+      "avgDays": 23,
+      "count": 5,
       "color": "#5B8FA8"
     },
     {
@@ -1902,6 +1877,16 @@
       "department": "USF Health",
       "ttf": 259,
       "notionUrl": "https://www.notion.so/2383cf7580834bc9b49b1238b32f16a6"
+    },
+    {
+      "title": "DL Training and Support Student Assistant (3)",
+      "reqId": "42224",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Filled",
+      "department": "460100 - Innovative Education",
+      "ttf": 233,
+      "notionUrl": "https://www.notion.so/d0e2554a818948939ca9baa54a27956c"
     },
     {
       "title": "Research Support Assistant",
@@ -2162,6 +2147,16 @@
       "department": "USF Health",
       "ttf": 115,
       "notionUrl": "https://www.notion.so/0c417e507d9d44039d3996c394b66d86"
+    },
+    {
+      "title": "Comm & Mktg Officer",
+      "reqId": "43099",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Filled",
+      "department": "490000 - USF World",
+      "ttf": 113,
+      "notionUrl": "https://www.notion.so/d64f2c3a23b247c592a95ef8550dac82"
     },
     {
       "title": "Dig Lrn Trn & Spt Consultant (2)",
@@ -2832,6 +2827,16 @@
       "department": "612700 - Dept Of Orthopaedics & Sports Medicine",
       "ttf": 29,
       "notionUrl": "https://www.notion.so/38f9ddf757a080948cb5dd9dec08163f"
+    },
+    {
+      "title": "Transfer Success Specialist",
+      "reqId": "43819",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Canceled",
+      "department": "388600 - UGS - Transfer Student Success",
+      "ttf": 28,
+      "notionUrl": "https://www.notion.so/4933435ce5994718831574f13e919c34"
     },
     {
       "title": "Associate Director - Men's BB Athletic Trainer",
@@ -4380,8 +4385,8 @@
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
       "reqs": 125,
-      "filled": 40,
-      "failed": 5,
+      "filled": 42,
+      "failed": 6,
       "ttf": 73,
       "wip": 10,
       "agingRecords": [
@@ -4418,16 +4423,6 @@
               "stage": "Pre-boarding",
               "agingBand": "🔴 6+",
               "department": "027900 - Procurement & Payment Services"
-            },
-            {
-              "title": "Transfer Success Specialist",
-              "reqId": "43819",
-              "notionUrl": "https://www.notion.so/4933435ce5994718831574f13e919c34",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "388600 - UGS - Transfer Student Success"
             },
             {
               "title": "Program Manager",
@@ -4498,16 +4493,6 @@
               "stage": "Pre-boarding",
               "agingBand": "🔴 6+",
               "department": "260000 - Honors College"
-            },
-            {
-              "title": "DL Training and Support Student Assistant (3)",
-              "reqId": "42224",
-              "notionUrl": "https://www.notion.so/d0e2554a818948939ca9baa54a27956c",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🔴 6+",
-              "department": "460100 - Innovative Education"
             }
           ]
         },
@@ -4827,8 +4812,8 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 8,
-          "count": 6,
+          "avgDays": 6,
+          "count": 5,
           "color": "#006747"
         },
         {
@@ -4851,8 +4836,8 @@
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 25,
-          "count": 6,
+          "avgDays": 23,
+          "count": 5,
           "color": "#5B8FA8"
         },
         {
@@ -4875,12 +4860,12 @@
         },
         {
           "label": "Recruiter Review",
-          "count": 8,
+          "count": 7,
           "color": "#185FA5"
         },
         {
           "label": "Pre-boarding",
-          "count": 20,
+          "count": 18,
           "color": "#888780"
         },
         {
@@ -4905,7 +4890,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 11
+          "count": 9
         },
         {
           "label": "🟡 3-5",
@@ -4925,7 +4910,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 80
+          "count": 77
         },
         {
           "label": "Screened",
@@ -4947,7 +4932,7 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 40,
+          "value": 42,
           "target": 10,
           "invert": false
         },
