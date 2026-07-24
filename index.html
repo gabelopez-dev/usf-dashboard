@@ -121,7 +121,89 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; b
 .drill-empty { text-align: center; padding: 40px; color: var(--text-muted); font-size: 13px; }
 .heat-row-clickable { cursor: pointer; transition: background .1s; }
 .heat-row-clickable:hover { background: var(--usf-green-light); }
-</style>
+/* ── MOBILE RESPONSIVE ─────────────────────────────────── */
+@media (max-width: 768px) {
+
+  /* Content padding */
+  .content { padding: 10px 8px; }
+
+  /* KPI row — 2 columns on mobile */
+  .kpi-row { grid-template-columns: 1fr 1fr; gap: 8px; }
+  .kpi-val { font-size: 24px; }
+
+  /* All multi-column rows collapse to single column */
+  .row, .row-half, .row-4, .row-2-1 { grid-template-columns: 1fr !important; }
+
+  /* Campus+ReqType / Heatmap split layout */
+  div[style*="grid-template-columns:1fr 1fr"] { grid-template-columns: 1fr !important; }
+
+  /* Nav tabs — scrollable, smaller text */
+  .nav { padding: 0 8px; gap: 2px; }
+  .nav-tab { font-size: 10px; padding: 8px 14px 8px 10px; }
+
+  /* Header */
+  .header { padding: 10px; }
+  .header img { height: 44px; }
+  .sync-time { font-size: 9px; }
+
+  /* Cards */
+  .card { padding: 10px 12px; }
+  .card-title { font-size: 9px; }
+
+  /* Recruiter load bar chart */
+  .bar-chart-wrap { overflow-x: auto; }
+
+  /* Donuts — slightly smaller */
+  .donut-wrap { width: 110px; height: 110px; }
+  .donut-center-num { font-size: 17px; }
+
+  /* Funnel bars — prevent overflow */
+  .funnel-bar { min-width: 0; height: 24px; }
+  .funnel-bar-label { font-size: 10px; }
+  .funnel-bar-count { font-size: 11px; }
+
+  /* Dept bar chart — label width smaller */
+  .dept-bar-row span:first-child { width: 140px !important; }
+
+  /* Avg time in stage label */
+  div[style*="width:160px"] { width: 100px !important; }
+
+  /* Drill-down panel — full screen on mobile */
+  .drill-panel { width: 100% !important; max-width: 100% !important; }
+
+  /* Detail header on recruiter pages */
+  .detail-header { flex-wrap: wrap; gap: 10px; }
+  .detail-header a[href] { margin-left: 0 !important; width: 100%; justify-content: center; }
+
+  /* Stage conversion row-half */
+  .row-half { grid-template-columns: 1fr !important; }
+
+  /* Tables — allow horizontal scroll */
+  .drill-table, .req-table { font-size: 11px; }
+  div[style*="overflow-x:auto"] { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+  /* Heat table */
+  .heat-table { font-size: 10px; }
+  .heat-table td, .heat-table th { padding: 4px 4px; }
+
+  /* Legend wraps more tightly */
+  .legend { gap: 3px 8px; }
+  .legend-item { font-size: 9px; }
+
+  /* KPI rows on recruiter pages */
+  .kpi-row-recruiter { grid-template-columns: 1fr 1fr !important; }
+}
+
+@media (max-width: 480px) {
+  /* Phones — single column KPIs */
+  .kpi-row { grid-template-columns: 1fr 1fr; gap: 6px; }
+  .kpi { padding: 10px; }
+  .kpi-val { font-size: 22px; }
+  .kpi-label { font-size: 9px; }
+  .nav-tab { font-size: 9px; padding: 7px 10px 7px 8px; }
+  .dept-bar-row span:first-child { width: 110px !important; }
+}
+
 </head>
 <body>
 
@@ -668,13 +750,14 @@ function renderRecruiterPage(r) {
   const hasStage = r.stageMetrics && r.stageMetrics.length > 0;
 
   if (hasAging || hasStage) {
-    html += `<div class="row row-half" style="margin-top:10px;">`;
+    html += `<div style="display:grid;grid-template-columns:1fr 1.6fr;gap:12px;margin-top:10px;">`;
 
     if (hasAging) {
       const recAging = r.agingRecords.map(b => ({ label: b.band, count: b.records.length, color: b.color }));
       currentAgingRecords = r.agingRecords;
-      html += `<div class="card">
+      html += `<div class="card" style="display:flex;flex-direction:column;">
         <div class="card-title">Job Aging Heatmap</div>
+        <p style="font-size:10px;color:#bbb;font-style:italic;margin-bottom:8px;">Click any band to see your stalled reqs</p>
         ${renderAgingHeatmap(recAging, r.agingRecords, r.id)}
       </div>`;
     }
@@ -693,7 +776,7 @@ function renderRecruiterPage(r) {
           <span style="font-size:10px;color:#aaa;width:44px;flex-shrink:0;">${s.count} reqs</span>
         </div>`;
       }).join('');
-      html += `<div class="card">
+      html += `<div class="card" style="display:flex;flex-direction:column;">
         <div class="card-title">Avg. Time in Stage (days)</div>
         ${stageBars}
       </div>`;
