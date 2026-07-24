@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-07-24T13:49:19.688Z",
+  "lastUpdated": "2026-07-24T14:53:37.614Z",
   "summary": {
-    "openReqs": 557,
+    "openReqs": 556,
     "avgTimeToFill": 82,
     "filledYTD": 112,
-    "failedCancelled": 26,
+    "failedCancelled": 27,
     "inOfferStage": 39
   },
   "campus": [
@@ -15,7 +15,7 @@
     },
     {
       "label": "St Pete",
-      "count": 39,
+      "count": 38,
       "color": "#006747"
     },
     {
@@ -41,7 +41,7 @@
     },
     {
       "label": "HM Review",
-      "count": 167
+      "count": 165
     },
     {
       "label": "Student Hiring",
@@ -53,7 +53,7 @@
     },
     {
       "label": "Backlog",
-      "count": 23
+      "count": 22
     },
     {
       "label": "Pre-boarding",
@@ -61,7 +61,7 @@
     },
     {
       "label": "Interview Stage",
-      "count": 21
+      "count": 22
     },
     {
       "label": "Faculty",
@@ -73,7 +73,7 @@
     },
     {
       "label": "Sourced",
-      "count": 9
+      "count": 10
     }
   ],
   "mainAging": [
@@ -82,21 +82,21 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 112
+      "count": 110
     },
     {
       "label": "🟡 3-5",
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 24
+      "count": 23
     },
     {
       "label": "🟢 0–2",
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 19
+      "count": 22
     }
   ],
   "agingRecords": [
@@ -565,24 +565,14 @@
           "department": "388600 - UGS - Transfer Student Success"
         },
         {
-          "title": "Career Counselor",
-          "reqId": "43849",
-          "notionUrl": "https://www.notion.so/0068d432571146199e96e7108ed067f4",
+          "title": "Enrollment Management Analyst",
+          "reqId": "43881",
+          "notionUrl": "https://www.notion.so/6d5c12fc312f41c990814a37d5a424c3",
           "owner": "Gabriel",
           "campus": "St. Petersburg",
           "stage": "Interview Stage",
           "agingBand": "🔴 6+",
-          "department": "STP Student Success"
-        },
-        {
-          "title": "Student Programs Coordinator (Operations & Outreach)",
-          "reqId": "43899",
-          "notionUrl": "https://www.notion.so/2b9f5fe4fb0947bcb7d4294646e0e2bd",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Interview Stage",
-          "agingBand": "🔴 6+",
-          "department": "STP Student Affairs"
+          "department": "STP Registrar"
         },
         {
           "title": "Assistant Director of Small Business Development Center",
@@ -793,16 +783,6 @@
           "stage": "Interview Stage",
           "agingBand": "🔴 6+",
           "department": "College of Marine Science"
-        },
-        {
-          "title": "Other Hourly Professional/Support- Human Services Practitioner",
-          "reqId": "43809",
-          "notionUrl": "https://www.notion.so/2e88f07706a84702835b45669e2b142b",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "HM Review",
-          "agingBand": "🔴 6+",
-          "department": "STP Student Success"
         },
         {
           "title": "Mate",
@@ -1341,16 +1321,6 @@
           "department": "047700 - Career & Professional Dev"
         },
         {
-          "title": "Enrollment Management Analyst",
-          "reqId": "43881",
-          "notionUrl": "https://www.notion.so/6d5c12fc312f41c990814a37d5a424c3",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Interview Stage",
-          "agingBand": "🟡 3–5",
-          "department": "STP Registrar"
-        },
-        {
           "title": "Communication & Marketing Officer",
           "reqId": "43830",
           "notionUrl": "https://www.notion.so/81c055c863d84f29abe7481191345722",
@@ -1396,7 +1366,7 @@
           "notionUrl": "https://www.notion.so/affd001d0f77400f95cc677c2c6e47b4",
           "owner": "Gabriel",
           "campus": "St. Petersburg",
-          "stage": "Backlog",
+          "stage": "Sourced",
           "agingBand": "🟡 3–5",
           "department": "STP Student Success"
         },
@@ -1527,6 +1497,26 @@
           "department": "045000 - Campus Recreation"
         },
         {
+          "title": "Career Counselor",
+          "reqId": "43849",
+          "notionUrl": "https://www.notion.so/0068d432571146199e96e7108ed067f4",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Interview Stage",
+          "agingBand": "🟢 0–2",
+          "department": "STP Student Success"
+        },
+        {
+          "title": "Student Programs Coordinator (Operations & Outreach)",
+          "reqId": "43899",
+          "notionUrl": "https://www.notion.so/2b9f5fe4fb0947bcb7d4294646e0e2bd",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Interview Stage",
+          "agingBand": "🟢 0–2",
+          "department": "STP Student Affairs"
+        },
+        {
           "title": "Assistant Director IT Audit",
           "reqId": "43823",
           "notionUrl": "https://www.notion.so/baf0c4c1f29442719ee4bd12a7959953",
@@ -1637,6 +1627,16 @@
           "department": "STP Student Success"
         },
         {
+          "title": "Other Hourly Professional/Support- Human Services Practitioner",
+          "reqId": "43809",
+          "notionUrl": "https://www.notion.so/2e88f07706a84702835b45669e2b142b",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Interview Stage",
+          "agingBand": "🟢 0–2",
+          "department": "STP Student Success"
+        },
+        {
           "title": "Sr Dir Finance Athletics",
           "reqId": "43671",
           "notionUrl": "https://www.notion.so/8ca10fea36a0457bae2d509337d2c72b",
@@ -1672,7 +1672,7 @@
   "reqType": [
     {
       "label": "Standard",
-      "count": 329,
+      "count": 328,
       "color": "#006747"
     },
     {
@@ -1794,15 +1794,15 @@
     },
     {
       "label": "Other (138 depts)",
-      "count": 242,
+      "count": 241,
       "color": "#c8c7c2"
     }
   ],
   "stageMetrics": [
     {
       "label": "Sourced",
-      "avgDays": 10,
-      "count": 8,
+      "avgDays": 9,
+      "count": 9,
       "color": "#00A693"
     },
     {
@@ -1814,19 +1814,19 @@
     {
       "label": "HM Review",
       "avgDays": 11,
-      "count": 34,
+      "count": 33,
       "color": "#534AB7"
     },
     {
       "label": "Interview Stage",
-      "avgDays": 9,
-      "count": 17,
+      "avgDays": 8,
+      "count": 16,
       "color": "#d4880a"
     },
     {
       "label": "Offer Stage",
       "avgDays": 8,
-      "count": 32,
+      "count": 31,
       "color": "#CFC483"
     },
     {
@@ -1837,8 +1837,8 @@
     },
     {
       "label": "Backlog",
-      "avgDays": 11,
-      "count": 9,
+      "avgDays": 12,
+      "count": 8,
       "color": "#888780"
     }
   ],
@@ -2502,6 +2502,16 @@
       "department": "MUMA",
       "ttf": 58,
       "notionUrl": "https://www.notion.so/4e73930f374b4e4ca685e5ecddb61229"
+    },
+    {
+      "title": "Police Dispatcher",
+      "reqId": "43538",
+      "owner": "Rebecca",
+      "campus": "St. Petersburg",
+      "stage": "Canceled",
+      "department": "514900 - STP Public Safety",
+      "ttf": 58,
+      "notionUrl": "https://www.notion.so/c63281d25cba4134b813cc8e79ca8cf2"
     },
     {
       "title": "Coordinator Athletics Production",
@@ -3462,7 +3472,7 @@
       "campus": "Tampa",
       "reqs": 311,
       "filled": 50,
-      "failed": 20,
+      "failed": 21,
       "ttf": 91,
       "wip": 10,
       "agingRecords": [
@@ -4252,7 +4262,7 @@
         },
         {
           "label": "HM Review",
-          "count": 149,
+          "count": 148,
           "color": "#993556"
         },
         {
@@ -4307,7 +4317,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 241
+          "count": 240
         },
         {
           "label": "Screened",
@@ -4315,7 +4325,7 @@
         },
         {
           "label": "HM Review",
-          "count": 149
+          "count": 148
         },
         {
           "label": "Interviews",
@@ -5038,24 +5048,14 @@
               "department": "STP Secondary Education"
             },
             {
-              "title": "Career Counselor",
-              "reqId": "43849",
-              "notionUrl": "https://www.notion.so/0068d432571146199e96e7108ed067f4",
+              "title": "Enrollment Management Analyst",
+              "reqId": "43881",
+              "notionUrl": "https://www.notion.so/6d5c12fc312f41c990814a37d5a424c3",
               "owner": "Gabriel",
               "campus": "St. Petersburg",
               "stage": "Interview Stage",
               "agingBand": "🔴 6+",
-              "department": "STP Student Success"
-            },
-            {
-              "title": "Student Programs Coordinator (Operations & Outreach)",
-              "reqId": "43899",
-              "notionUrl": "https://www.notion.so/2b9f5fe4fb0947bcb7d4294646e0e2bd",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Interview Stage",
-              "agingBand": "🔴 6+",
-              "department": "STP Student Affairs"
+              "department": "STP Registrar"
             },
             {
               "title": "Assistant Director of Small Business Development Center",
@@ -5116,16 +5116,6 @@
               "stage": "Interview Stage",
               "agingBand": "🔴 6+",
               "department": "College of Marine Science"
-            },
-            {
-              "title": "Other Hourly Professional/Support- Human Services Practitioner",
-              "reqId": "43809",
-              "notionUrl": "https://www.notion.so/2e88f07706a84702835b45669e2b142b",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "HM Review",
-              "agingBand": "🔴 6+",
-              "department": "STP Student Success"
             },
             {
               "title": "Mate",
@@ -5194,22 +5184,12 @@
               "department": "College of Education "
             },
             {
-              "title": "Enrollment Management Analyst",
-              "reqId": "43881",
-              "notionUrl": "https://www.notion.so/6d5c12fc312f41c990814a37d5a424c3",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Interview Stage",
-              "agingBand": "🟡 3–5",
-              "department": "STP Registrar"
-            },
-            {
               "title": "Administrative Specialist",
               "reqId": "43427",
               "notionUrl": "https://www.notion.so/affd001d0f77400f95cc677c2c6e47b4",
               "owner": "Gabriel",
               "campus": "St. Petersburg",
-              "stage": "Backlog",
+              "stage": "Sourced",
               "agingBand": "🟡 3–5",
               "department": "STP Student Success"
             },
@@ -5249,6 +5229,26 @@
           "band": "🟢 0–2",
           "color": "#3B6D11",
           "records": [
+            {
+              "title": "Career Counselor",
+              "reqId": "43849",
+              "notionUrl": "https://www.notion.so/0068d432571146199e96e7108ed067f4",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Interview Stage",
+              "agingBand": "🟢 0–2",
+              "department": "STP Student Success"
+            },
+            {
+              "title": "Student Programs Coordinator (Operations & Outreach)",
+              "reqId": "43899",
+              "notionUrl": "https://www.notion.so/2b9f5fe4fb0947bcb7d4294646e0e2bd",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Interview Stage",
+              "agingBand": "🟢 0–2",
+              "department": "STP Student Affairs"
+            },
             {
               "title": "Contract Financial Analyst I",
               "reqId": "43667",
@@ -5308,11 +5308,27 @@
               "stage": "Offer Stage",
               "agingBand": "🟢 0–2",
               "department": "STP Student Success"
+            },
+            {
+              "title": "Other Hourly Professional/Support- Human Services Practitioner",
+              "reqId": "43809",
+              "notionUrl": "https://www.notion.so/2e88f07706a84702835b45669e2b142b",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Interview Stage",
+              "agingBand": "🟢 0–2",
+              "department": "STP Student Success"
             }
           ]
         }
       ],
       "stageMetrics": [
+        {
+          "label": "Sourced",
+          "avgDays": 4,
+          "count": 1,
+          "color": "#00A693"
+        },
         {
           "label": "Recruiter Review",
           "avgDays": 7,
@@ -5321,38 +5337,38 @@
         },
         {
           "label": "HM Review",
-          "avgDays": 7,
-          "count": 3,
+          "avgDays": 6,
+          "count": 2,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 8,
-          "count": 9,
+          "avgDays": 7,
+          "count": 8,
           "color": "#d4880a"
         },
         {
           "label": "Offer Stage",
           "avgDays": 5,
-          "count": 10,
+          "count": 9,
           "color": "#CFC483"
         },
         {
           "label": "Backlog",
           "avgDays": 7,
-          "count": 4,
+          "count": 3,
           "color": "#888780"
         }
       ],
       "statuses": [
         {
           "label": "Sourced",
-          "count": 1,
+          "count": 2,
           "color": "#3B6D11"
         },
         {
           "label": "Backlog",
-          "count": 8,
+          "count": 7,
           "color": "#888780"
         },
         {
@@ -5362,7 +5378,7 @@
         },
         {
           "label": "HM Review",
-          "count": 3,
+          "count": 2,
           "color": "#993556"
         },
         {
@@ -5387,7 +5403,7 @@
         },
         {
           "label": "Interview Stage",
-          "count": 10,
+          "count": 11,
           "color": "#534AB7"
         },
         {
@@ -5402,21 +5418,21 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 15
+          "count": 13
         },
         {
           "label": "🟡 3-5",
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 8
+          "count": 7
         },
         {
           "label": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 6
+          "count": 9
         }
       ],
       "funnel": [
@@ -5430,11 +5446,11 @@
         },
         {
           "label": "HM Review",
-          "count": 3
+          "count": 2
         },
         {
           "label": "Interviews",
-          "count": 10
+          "count": 11
         },
         {
           "label": "Offer",
@@ -5462,7 +5478,7 @@
         },
         {
           "label": "Interviews",
-          "value": 10,
+          "value": 11,
           "target": 132,
           "invert": false
         }
