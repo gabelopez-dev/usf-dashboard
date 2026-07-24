@@ -244,7 +244,7 @@ async function main() {
       .filter(v => v !== null && v !== undefined && v > 0);
     const avgTTF = ttfValues.length > 0 ? Math.round(ttfValues.reduce((a,b) => a+b, 0) / ttfValues.length) : 0;
 
-    const filled = allMyRecs.filter(r => getProp(r, 'Stage', 'select') === 'Hired').length;
+    const filled = allMyRecs.filter(r => ['Hired','Filled','Complete'].includes(getProp(r, 'Stage', 'select'))).length;
     const failed = allMyRecs.filter(r => ['Failed Search', 'Canceled'].includes(getProp(r, 'Stage', 'select'))).length;
 
     const funnel = [
@@ -415,7 +415,7 @@ async function main() {
     summary: {
       openReqs: activeRecords.length,
       avgTimeToFill: avgTTFAll,
-      filledYTD: records.filter(r => getProp(r, 'Stage', 'select') === 'Hired').length,
+      filledYTD: records.filter(r => ['Hired','Filled','Complete'].includes(getProp(r, 'Stage', 'select'))).length,
       failedCancelled: records.filter(r => ['Failed Search', 'Canceled'].includes(getProp(r, 'Stage', 'select'))).length,
       inOfferStage: activeRecords.filter(r => getProp(r, 'Stage', 'select') === 'Offer Stage').length
     },
