@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24T14:58:02.080Z",
+  "lastUpdated": "2026-07-24T15:02:11.912Z",
   "summary": {
     "openReqs": 556,
     "avgTimeToFill": 82,
@@ -96,7 +96,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 21
+      "count": 22
     }
   ],
   "agingRecords": [
@@ -1650,6 +1650,16 @@
           "title": "Athletics Production Service Engineer",
           "reqId": "43577",
           "notionUrl": "https://www.notion.so/c4b2ab1eb43b47d38e0431ca9c492b36",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "051000 - Athletic Administration"
+        },
+        {
+          "title": "Manager Athletics Production",
+          "reqId": "43573",
+          "notionUrl": "https://www.notion.so/7332b1275e7a4806b340d2ecf2f1f063",
           "owner": "johncalebrese",
           "campus": "Tampa",
           "stage": "HM Review",
@@ -4792,6 +4802,16 @@
               "department": "051000 - Athletic Administration"
             },
             {
+              "title": "Manager Athletics Production",
+              "reqId": "43573",
+              "notionUrl": "https://www.notion.so/7332b1275e7a4806b340d2ecf2f1f063",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "051000 - Athletic Administration"
+            },
+            {
               "title": "AVP Athletic Business Analytic Strat",
               "reqId": "43428",
               "notionUrl": "https://www.notion.so/a0239e74bd2a46dbb004af24c7ae0ccb",
@@ -4899,7 +4919,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 12
+          "count": 13
         }
       ],
       "funnel": [
