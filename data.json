@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-07-24T11:17:36.852Z",
+  "lastUpdated": "2026-07-24T12:58:48.333Z",
   "summary": {
-    "openReqs": 554,
+    "openReqs": 557,
     "avgTimeToFill": 82,
     "filledYTD": 7,
-    "failedCancelled": 25,
-    "inOfferStage": 38
+    "failedCancelled": 26,
+    "inOfferStage": 39
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 279,
+      "count": 282,
       "color": "#1B6A9C"
     },
     {
@@ -41,15 +41,15 @@
     },
     {
       "label": "HM Review",
-      "count": 169
-    },
-    {
-      "label": "Offer Stage",
-      "count": 38
+      "count": 167
     },
     {
       "label": "Student Hiring",
-      "count": 37
+      "count": 41
+    },
+    {
+      "label": "Offer Stage",
+      "count": 39
     },
     {
       "label": "Backlog",
@@ -57,11 +57,11 @@
     },
     {
       "label": "Pre-boarding",
-      "count": 23
+      "count": 22
     },
     {
       "label": "Interview Stage",
-      "count": 20
+      "count": 21
     },
     {
       "label": "Faculty",
@@ -82,7 +82,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 111
+      "count": 112
     },
     {
       "label": "🟡 3-5",
@@ -96,7 +96,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 16
+      "count": 19
     }
   ],
   "agingRecords": [
@@ -1105,6 +1105,16 @@
           "department": "USF Health"
         },
         {
+          "title": "Simulation Operations Specialist",
+          "reqId": "43470",
+          "notionUrl": "https://www.notion.so/7a5e7ab70e21491faec91cb09b0f2e55",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "Offer Stage",
+          "agingBand": "🔴 6+",
+          "department": "USF Health"
+        },
+        {
           "title": "Psychology Intern",
           "reqId": "43500",
           "notionUrl": "https://www.notion.so/1c9664eb11b0458296956af272ad9ca0",
@@ -1467,6 +1477,16 @@
       "color": "#3B6D11",
       "records": [
         {
+          "title": "Athletics Assistant- FB Strength and Conditioning",
+          "reqId": "44037",
+          "notionUrl": "https://www.notion.so/9887f185135242358bb6f54363caf993",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Offer Stage",
+          "agingBand": "🟢 0–2",
+          "department": "051000 - Athletic Administration"
+        },
+        {
           "title": "Fiscal & Business Analyst Senior",
           "reqId": "43980",
           "notionUrl": "https://www.notion.so/146ef7182be646958af015679cd063dd",
@@ -1475,6 +1495,36 @@
           "stage": "Recruiter Review",
           "agingBand": "🟢 0–2",
           "department": "460100 - Innovative Education"
+        },
+        {
+          "title": "LGI & PSL - OPS",
+          "reqId": "43691",
+          "notionUrl": "https://www.notion.so/f789ffe64f21455385df1716abdf4237",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Pre-boarding",
+          "agingBand": "🟢 0–2",
+          "department": "045000 - Campus Recreation"
+        },
+        {
+          "title": "LGI & PSL - OPS",
+          "reqId": "43693",
+          "notionUrl": "https://www.notion.so/8b36b453b7764f328e7260c0d1d55865",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Pre-boarding",
+          "agingBand": "🟢 0–2",
+          "department": "045000 - Campus Recreation"
+        },
+        {
+          "title": "LGI & PSL - OPS",
+          "reqId": "43695",
+          "notionUrl": "https://www.notion.so/d52fbe7071e94947872d10ed63e2ea8d",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Pre-boarding",
+          "agingBand": "🟢 0–2",
+          "department": "045000 - Campus Recreation"
         },
         {
           "title": "Assistant Director IT Audit",
@@ -1502,7 +1552,7 @@
           "notionUrl": "https://www.notion.so/38f9ddf757a08009af78f51cf4c2bf3f",
           "owner": "johncalebrese",
           "campus": "",
-          "stage": "HM Review",
+          "stage": "Interview Stage",
           "agingBand": "🟢 0–2",
           "department": "027900 - Procurement & Payment Services"
         },
@@ -1615,16 +1665,6 @@
           "stage": "HM Review",
           "agingBand": "🟢 0–2",
           "department": "051000 - Athletic Administration"
-        },
-        {
-          "title": "AVP Athletic Business Analytic Strat",
-          "reqId": "43428",
-          "notionUrl": "https://www.notion.so/a0239e74bd2a46dbb004af24c7ae0ccb",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "HM Review",
-          "agingBand": "🟢 0–2",
-          "department": "051000 - Athletic Administration"
         }
       ]
     }
@@ -1637,7 +1677,7 @@
     },
     {
       "label": "Student",
-      "count": 52,
+      "count": 56,
       "color": "#00A693"
     },
     {
@@ -1647,7 +1687,7 @@
     },
     {
       "label": "Targeted",
-      "count": 18,
+      "count": 17,
       "color": "#CFC483"
     },
     {
@@ -1674,7 +1714,7 @@
     },
     {
       "label": "051000 - Athletic Administration",
-      "count": 19,
+      "count": 18,
       "color": "#CFC483"
     },
     {
@@ -1688,73 +1728,73 @@
       "color": "#5B7A8A"
     },
     {
-      "label": "614400 - Molecular Medicine",
+      "label": "047700 - Career & Professional Dev",
       "count": 9,
       "color": "#534AB7"
     },
     {
+      "label": "614400 - Molecular Medicine",
+      "count": 9,
+      "color": "#993556"
+    },
+    {
       "label": "610001 - MCOM Research/Grad Affairs Supp",
       "count": 8,
-      "color": "#993556"
+      "color": "#006747"
     },
     {
       "label": "026100 - University Police",
       "count": 8,
-      "color": "#006747"
+      "color": "#1B6A9C"
     },
     {
       "label": "620100 - College Of Nurs",
       "count": 7,
-      "color": "#1B6A9C"
+      "color": "#00A693"
     },
     {
       "label": "460100 - Innovative Education",
       "count": 7,
-      "color": "#00A693"
+      "color": "#CFC483"
     },
     {
       "label": "616300 - Health Informatics Institute",
       "count": 7,
-      "color": "#CFC483"
+      "color": "#7A9EB5"
     },
     {
       "label": "614300 - Molecular Pharm & Physiology",
       "count": 7,
-      "color": "#7A9EB5"
+      "color": "#5B7A8A"
     },
     {
       "label": "041500 - Counseling Center",
       "count": 7,
-      "color": "#5B7A8A"
+      "color": "#534AB7"
     },
     {
       "label": "210500 - Mechanical Engineering",
       "count": 6,
-      "color": "#534AB7"
+      "color": "#993556"
     },
     {
       "label": "126100 - Social Work",
       "count": 6,
-      "color": "#993556"
+      "color": "#006747"
     },
     {
       "label": "380600 - UGS Academic Advising - Athletics",
       "count": 6,
-      "color": "#006747"
+      "color": "#1B6A9C"
     },
     {
       "label": "490000 - USF World",
       "count": 6,
-      "color": "#1B6A9C"
-    },
-    {
-      "label": "047700 - Career & Professional Dev",
-      "count": 6,
       "color": "#00A693"
     },
     {
-      "label": "Other (137 depts)",
-      "count": 241,
+      "label": "Other (138 depts)",
+      "count": 242,
       "color": "#c8c7c2"
     }
   ],
@@ -1773,8 +1813,8 @@
     },
     {
       "label": "HM Review",
-      "avgDays": 10,
-      "count": 36,
+      "avgDays": 11,
+      "count": 34,
       "color": "#534AB7"
     },
     {
@@ -1786,7 +1826,7 @@
     {
       "label": "Offer Stage",
       "avgDays": 8,
-      "count": 31,
+      "count": 32,
       "color": "#CFC483"
     },
     {
@@ -2342,6 +2382,16 @@
       "department": "USF Health",
       "ttf": 77,
       "notionUrl": "https://www.notion.so/94786f9457164c66898500a42df739b5"
+    },
+    {
+      "title": "AVP Athletic Business Analytic Strat",
+      "reqId": "43428",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Failed Search",
+      "department": "051000 - Athletic Administration",
+      "ttf": 72,
+      "notionUrl": "https://www.notion.so/a0239e74bd2a46dbb004af24c7ae0ccb"
     },
     {
       "title": "Clinical Research Coordinator I",
@@ -2912,6 +2962,16 @@
       "department": "610601 - MCOM Research&Grad Affairs Supp",
       "ttf": 14,
       "notionUrl": "https://www.notion.so/e6b29640e0b94cc18d65bd98a74be708"
+    },
+    {
+      "title": "Athletics Assistant- FB On Campus Recruiting Assistant",
+      "reqId": "43995",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Filled",
+      "department": "051000 - Athletic Administration",
+      "ttf": 0,
+      "notionUrl": "https://www.notion.so/30825688fc9c4918a87b390fc875f4c0"
     },
     {
       "title": "Research Support Assistant - Mechanical Engineering",
@@ -4021,6 +4081,16 @@
               "department": "USF Health"
             },
             {
+              "title": "Simulation Operations Specialist",
+              "reqId": "43470",
+              "notionUrl": "https://www.notion.so/7a5e7ab70e21491faec91cb09b0f2e55",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "Offer Stage",
+              "agingBand": "🔴 6+",
+              "department": "USF Health"
+            },
+            {
               "title": "Psychology Intern",
               "reqId": "43500",
               "notionUrl": "https://www.notion.so/1c9664eb11b0458296956af272ad9ca0",
@@ -4217,7 +4287,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 72
+          "count": 73
         },
         {
           "label": "🟡 3-5",
@@ -4299,10 +4369,10 @@
       "bgLight": "#e3f2fd",
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
-      "reqs": 120,
+      "reqs": 125,
       "filled": 2,
-      "failed": 4,
-      "ttf": 76,
+      "failed": 5,
+      "ttf": 73,
       "wip": 10,
       "agingRecords": [
         {
@@ -4602,6 +4672,16 @@
           "color": "#3B6D11",
           "records": [
             {
+              "title": "Athletics Assistant- FB Strength and Conditioning",
+              "reqId": "44037",
+              "notionUrl": "https://www.notion.so/9887f185135242358bb6f54363caf993",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Offer Stage",
+              "agingBand": "🟢 0–2",
+              "department": "051000 - Athletic Administration"
+            },
+            {
               "title": "Fiscal & Business Analyst Senior",
               "reqId": "43980",
               "notionUrl": "https://www.notion.so/146ef7182be646958af015679cd063dd",
@@ -4610,6 +4690,36 @@
               "stage": "Recruiter Review",
               "agingBand": "🟢 0–2",
               "department": "460100 - Innovative Education"
+            },
+            {
+              "title": "LGI & PSL - OPS",
+              "reqId": "43691",
+              "notionUrl": "https://www.notion.so/f789ffe64f21455385df1716abdf4237",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Pre-boarding",
+              "agingBand": "🟢 0–2",
+              "department": "045000 - Campus Recreation"
+            },
+            {
+              "title": "LGI & PSL - OPS",
+              "reqId": "43693",
+              "notionUrl": "https://www.notion.so/8b36b453b7764f328e7260c0d1d55865",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Pre-boarding",
+              "agingBand": "🟢 0–2",
+              "department": "045000 - Campus Recreation"
+            },
+            {
+              "title": "LGI & PSL - OPS",
+              "reqId": "43695",
+              "notionUrl": "https://www.notion.so/d52fbe7071e94947872d10ed63e2ea8d",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Pre-boarding",
+              "agingBand": "🟢 0–2",
+              "department": "045000 - Campus Recreation"
             },
             {
               "title": "Assistant Director IT Audit",
@@ -4637,7 +4747,7 @@
               "notionUrl": "https://www.notion.so/38f9ddf757a08009af78f51cf4c2bf3f",
               "owner": "johncalebrese",
               "campus": "",
-              "stage": "HM Review",
+              "stage": "Interview Stage",
               "agingBand": "🟢 0–2",
               "department": "027900 - Procurement & Payment Services"
             },
@@ -4697,7 +4807,7 @@
               "notionUrl": "https://www.notion.so/a0239e74bd2a46dbb004af24c7ae0ccb",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "HM Review",
+              "stage": "Failed Search",
               "agingBand": "🟢 0–2",
               "department": "051000 - Athletic Administration"
             }
@@ -4713,8 +4823,8 @@
         },
         {
           "label": "HM Review",
-          "avgDays": 9,
-          "count": 13,
+          "avgDays": 10,
+          "count": 11,
           "color": "#534AB7"
         },
         {
@@ -4726,7 +4836,7 @@
         {
           "label": "Offer Stage",
           "avgDays": 1,
-          "count": 1,
+          "count": 2,
           "color": "#CFC483"
         },
         {
@@ -4744,19 +4854,24 @@
       ],
       "statuses": [
         {
+          "label": "Student Hiring",
+          "count": 19,
+          "color": "#0F6E56"
+        },
+        {
+          "label": "Offer Stage",
+          "count": 5,
+          "color": "#0F6E56"
+        },
+        {
           "label": "Recruiter Review",
           "count": 8,
           "color": "#185FA5"
         },
         {
           "label": "Pre-boarding",
-          "count": 21,
+          "count": 20,
           "color": "#888780"
-        },
-        {
-          "label": "Student Hiring",
-          "count": 15,
-          "color": "#0F6E56"
         },
         {
           "label": "Backlog",
@@ -4765,17 +4880,12 @@
         },
         {
           "label": "Interview Stage",
-          "count": 9,
+          "count": 10,
           "color": "#534AB7"
         },
         {
-          "label": "Offer Stage",
-          "count": 4,
-          "color": "#0F6E56"
-        },
-        {
           "label": "HM Review",
-          "count": 17,
+          "count": 15,
           "color": "#993556"
         }
       ],
@@ -4799,13 +4909,13 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 10
+          "count": 13
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 77
+          "count": 80
         },
         {
           "label": "Screened",
@@ -4813,15 +4923,15 @@
         },
         {
           "label": "HM Review",
-          "count": 17
+          "count": 15
         },
         {
           "label": "Interviews",
-          "count": 9
+          "count": 10
         },
         {
           "label": "Offer",
-          "count": 4
+          "count": 5
         }
       ],
       "goals": [
@@ -4833,30 +4943,30 @@
         },
         {
           "label": "Time to fill",
-          "value": 76,
+          "value": 73,
           "target": 40,
           "invert": true
         },
         {
           "label": "Screened",
           "value": 0,
-          "target": 120,
+          "target": 125,
           "invert": false
         },
         {
           "label": "Interviews",
-          "value": 9,
-          "target": 120,
+          "value": 10,
+          "target": 125,
           "invert": false
         }
       ],
       "trend": [
-        76,
-        76,
-        76,
-        76,
-        76,
-        76
+        73,
+        73,
+        73,
+        73,
+        73,
+        73
       ]
     },
     {
