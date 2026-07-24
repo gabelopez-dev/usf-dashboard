@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-24T20:35:49.344Z",
+  "lastUpdated": "2026-07-24T22:06:51.662Z",
   "summary": {
-    "openReqs": 555,
+    "openReqs": 554,
     "avgTimeToFill": 81,
     "filledYTD": 115,
     "failedCancelled": 28,
@@ -10,7 +10,7 @@
   "campus": [
     {
       "label": "Tampa",
-      "count": 280,
+      "count": 279,
       "color": "#1B6A9C"
     },
     {
@@ -37,11 +37,11 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 206
+      "count": 203
     },
     {
       "label": "HM Review",
-      "count": 167
+      "count": 169
     },
     {
       "label": "Student Hiring",
@@ -89,7 +89,7 @@
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 23
+      "count": 22
     },
     {
       "label": "🟢 0–2",
@@ -110,7 +110,7 @@
           "notionUrl": "https://www.notion.so/e96fcdac40284d30a2d6e8ba514c415f",
           "owner": "Gabriel",
           "campus": "Tampa",
-          "stage": "Recruiter Review",
+          "stage": "HM Review",
           "agingBand": "🔴 6+",
           "department": "170800 - COE-Student Academic Services"
         },
@@ -1191,16 +1191,6 @@
           "department": "512800 - STP Academic Advising"
         },
         {
-          "title": "Academic Advisor I - Electrical Engineering",
-          "reqId": "43964",
-          "notionUrl": "https://www.notion.so/a29f282d1d2b406383e60efc3d4caba1",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "HM Review",
-          "agingBand": "🟡 3–5",
-          "department": "Engineering"
-        },
-        {
           "title": "Program Director for Residential Student Success",
           "reqId": "43975",
           "notionUrl": "https://www.notion.so/e21deb64954648ffb708c6e7f1cf0fe4",
@@ -1572,7 +1562,7 @@
           "notionUrl": "https://www.notion.so/9f6ec85507494ba589a79349421f4297",
           "owner": "Gabriel",
           "campus": "Tampa",
-          "stage": "Recruiter Review",
+          "stage": "HM Review",
           "agingBand": "🟢 0–2",
           "department": "College of Education "
         },
@@ -1662,7 +1652,7 @@
   "reqType": [
     {
       "label": "Standard",
-      "count": 324,
+      "count": 323,
       "color": "#006747"
     },
     {
@@ -1714,7 +1704,7 @@
     },
     {
       "label": "Engineering",
-      "count": 11,
+      "count": 10,
       "color": "#5B7A8A"
     },
     {
@@ -1793,7 +1783,7 @@
     {
       "label": "Recruiter Review",
       "avgDays": 11,
-      "count": 44,
+      "count": 43,
       "color": "#006747"
     },
     {
@@ -4277,7 +4267,7 @@
       "statuses": [
         {
           "label": "Recruiter Review",
-          "count": 42,
+          "count": 41,
           "color": "#185FA5"
         },
         {
@@ -4287,7 +4277,7 @@
         },
         {
           "label": "HM Review",
-          "count": 149,
+          "count": 150,
           "color": "#993556"
         },
         {
@@ -4350,7 +4340,7 @@
         },
         {
           "label": "HM Review",
-          "count": 149
+          "count": 150
         },
         {
           "label": "Interviews",
@@ -4992,7 +4982,7 @@
       "bgLight": "#e6f2ed",
       "bgDark": "#042e24",
       "campus": "St Pete / Tampa",
-      "reqs": 136,
+      "reqs": 135,
       "filled": 21,
       "failed": 1,
       "ttf": 69,
@@ -5008,7 +4998,7 @@
               "notionUrl": "https://www.notion.so/e96fcdac40284d30a2d6e8ba514c415f",
               "owner": "Gabriel",
               "campus": "Tampa",
-              "stage": "Recruiter Review",
+              "stage": "HM Review",
               "agingBand": "🔴 6+",
               "department": "170800 - COE-Student Academic Services"
             },
@@ -5159,16 +5149,6 @@
               "department": "512800 - STP Academic Advising"
             },
             {
-              "title": "Academic Advisor I - Electrical Engineering",
-              "reqId": "43964",
-              "notionUrl": "https://www.notion.so/a29f282d1d2b406383e60efc3d4caba1",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "HM Review",
-              "agingBand": "🟡 3–5",
-              "department": "Engineering"
-            },
-            {
               "title": "Program Director for Residential Student Success",
               "reqId": "43975",
               "notionUrl": "https://www.notion.so/e21deb64954648ffb708c6e7f1cf0fe4",
@@ -5280,7 +5260,7 @@
               "notionUrl": "https://www.notion.so/9f6ec85507494ba589a79349421f4297",
               "owner": "Gabriel",
               "campus": "Tampa",
-              "stage": "Recruiter Review",
+              "stage": "HM Review",
               "agingBand": "🟢 0–2",
               "department": "College of Education "
             },
@@ -5346,13 +5326,13 @@
         },
         {
           "label": "Recruiter Review",
-          "avgDays": 6,
-          "count": 4,
+          "avgDays": 5,
+          "count": 3,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 6,
+          "avgDays": 9,
           "count": 2,
           "color": "#534AB7"
         },
@@ -5376,8 +5356,13 @@
           "color": "#0F6E56"
         },
         {
+          "label": "HM Review",
+          "count": 4,
+          "color": "#993556"
+        },
+        {
           "label": "Recruiter Review",
-          "count": 6,
+          "count": 4,
           "color": "#185FA5"
         },
         {
@@ -5389,11 +5374,6 @@
           "label": "Sourced",
           "count": 2,
           "color": "#3B6D11"
-        },
-        {
-          "label": "HM Review",
-          "count": 3,
-          "color": "#993556"
         },
         {
           "label": "Targeted",
@@ -5434,7 +5414,7 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 7
+          "count": 6
         },
         {
           "label": "🟢 0–2",
@@ -5447,7 +5427,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 81
+          "count": 80
         },
         {
           "label": "Screened",
@@ -5455,7 +5435,7 @@
         },
         {
           "label": "HM Review",
-          "count": 3
+          "count": 4
         },
         {
           "label": "Interviews",
@@ -5482,13 +5462,13 @@
         {
           "label": "Screened",
           "value": 0,
-          "target": 136,
+          "target": 135,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 11,
-          "target": 136,
+          "target": 135,
           "invert": false
         }
       ],
