@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-24T17:05:45.687Z",
+  "lastUpdated": "2026-07-24T18:58:44.207Z",
   "summary": {
-    "openReqs": 553,
-    "avgTimeToFill": 82,
+    "openReqs": 559,
+    "avgTimeToFill": 81,
     "filledYTD": 114,
     "failedCancelled": 28,
     "inOfferStage": 39
@@ -10,12 +10,12 @@
   "campus": [
     {
       "label": "Tampa",
-      "count": 279,
+      "count": 284,
       "color": "#1B6A9C"
     },
     {
       "label": "St Pete",
-      "count": 38,
+      "count": 39,
       "color": "#006747"
     },
     {
@@ -37,11 +37,11 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 204
+      "count": 205
     },
     {
       "label": "HM Review",
-      "count": 165
+      "count": 167
     },
     {
       "label": "Student Hiring",
@@ -53,7 +53,7 @@
     },
     {
       "label": "Backlog",
-      "count": 22
+      "count": 25
     },
     {
       "label": "Interview Stage",
@@ -82,7 +82,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 108
+      "count": 110
     },
     {
       "label": "🟡 3-5",
@@ -96,7 +96,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 22
+      "count": 26
     }
   ],
   "agingRecords": [
@@ -104,6 +104,26 @@
       "band": "🔴 6+",
       "color": "#A32D2D",
       "records": [
+        {
+          "title": "Academic Advisor I - Electrical Engineering",
+          "reqId": "43964",
+          "notionUrl": "https://www.notion.so/fd8cc142f839444592d134d7f33f9af1",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🔴 6+",
+          "department": "210600 - Electrical Engineering"
+        },
+        {
+          "title": "Academic Services Administrator",
+          "reqId": "43996",
+          "notionUrl": "https://www.notion.so/e96fcdac40284d30a2d6e8ba514c415f",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🔴 6+",
+          "department": "170800 - COE-Student Academic Services"
+        },
         {
           "title": "AV Engineer I",
           "reqId": "43988",
@@ -360,7 +380,7 @@
           "notionUrl": "https://www.notion.so/195f525a10704be39a5760a63c352543",
           "owner": "Rebecca",
           "campus": "USF Health",
-          "stage": "Recruiter Review",
+          "stage": "HM Review",
           "agingBand": "🔴 6+",
           "department": "612500 - Dept Of Neurol"
         },
@@ -1191,6 +1211,16 @@
       "color": "#BA7517",
       "records": [
         {
+          "title": "Project Coordinator",
+          "reqId": "44019",
+          "notionUrl": "https://www.notion.so/e598276a3e1145919c75ea3c303d69e9",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟡 3–5",
+          "department": "171400 - Teaching & Learning"
+        },
+        {
           "title": "Transfer Success Specialist",
           "reqId": "44011",
           "notionUrl": "https://www.notion.so/eec0f79238b040029cfc7f060ebecdf3",
@@ -1371,16 +1401,6 @@
           "department": "College of Education "
         },
         {
-          "title": "Unit Research Administrator II",
-          "reqId": "43545",
-          "notionUrl": "https://www.notion.so/9f6ec85507494ba589a79349421f4297",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🟡 3–5",
-          "department": "College of Education "
-        },
-        {
           "title": "Sr Auditor",
           "reqId": "43657",
           "notionUrl": "https://www.notion.so/76d1090b0d0b4901b3ea22b839c26a42",
@@ -1426,6 +1446,26 @@
       "band": "🟢 0–2",
       "color": "#3B6D11",
       "records": [
+        {
+          "title": "Mail Clerk",
+          "reqId": "44043",
+          "notionUrl": "https://www.notion.so/be758d5834a742e7aa294f3ba7d21d21",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "400100 - Univ Lib Deans Office"
+        },
+        {
+          "title": "Postdoctoral Scholar Research - Mechanical Engineering",
+          "reqId": "44023",
+          "notionUrl": "https://www.notion.so/e1b0cded4086473caf88307afed84219",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "210500 - Mechanical Engineering"
+        },
         {
           "title": "Athletics Assistant- FB Strength and Conditioning",
           "reqId": "44037",
@@ -1497,6 +1537,16 @@
           "department": "STP Student Affairs"
         },
         {
+          "title": "Academic Program Specialist",
+          "reqId": "43901",
+          "notionUrl": "https://www.notion.so/3e0432ca9bd4433bbb2bcfda05833c44",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "MUMA"
+        },
+        {
           "title": "Assistant Director IT Audit",
           "reqId": "43823",
           "notionUrl": "https://www.notion.so/baf0c4c1f29442719ee4bd12a7959953",
@@ -1563,6 +1613,16 @@
           "owner": "Gabriel",
           "campus": "Tampa",
           "stage": "Offer Stage",
+          "agingBand": "🟢 0–2",
+          "department": "College of Education "
+        },
+        {
+          "title": "Unit Research Administrator II",
+          "reqId": "43545",
+          "notionUrl": "https://www.notion.so/9f6ec85507494ba589a79349421f4297",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
           "agingBand": "🟢 0–2",
           "department": "College of Education "
         },
@@ -1652,7 +1712,7 @@
   "reqType": [
     {
       "label": "Standard",
-      "count": 325,
+      "count": 331,
       "color": "#006747"
     },
     {
@@ -1672,7 +1732,7 @@
     },
     {
       "label": "Evergreen",
-      "count": 12,
+      "count": 13,
       "color": "#7A9EB5"
     }
   ],
@@ -1728,32 +1788,32 @@
       "color": "#1B6A9C"
     },
     {
-      "label": "620100 - College Of Nurs",
+      "label": "210500 - Mechanical Engineering",
       "count": 7,
       "color": "#00A693"
     },
     {
-      "label": "616300 - Health Informatics Institute",
+      "label": "620100 - College Of Nurs",
       "count": 7,
       "color": "#CFC483"
     },
     {
-      "label": "614300 - Molecular Pharm & Physiology",
+      "label": "616300 - Health Informatics Institute",
       "count": 7,
       "color": "#7A9EB5"
     },
     {
-      "label": "041500 - Counseling Center",
+      "label": "614300 - Molecular Pharm & Physiology",
       "count": 7,
       "color": "#5B7A8A"
     },
     {
-      "label": "460100 - Innovative Education",
-      "count": 6,
+      "label": "041500 - Counseling Center",
+      "count": 7,
       "color": "#534AB7"
     },
     {
-      "label": "210500 - Mechanical Engineering",
+      "label": "460100 - Innovative Education",
       "count": 6,
       "color": "#993556"
     },
@@ -1768,8 +1828,8 @@
       "color": "#1B6A9C"
     },
     {
-      "label": "Other (138 depts)",
-      "count": 245,
+      "label": "Other (140 depts)",
+      "count": 250,
       "color": "#c8c7c2"
     }
   ],
@@ -1789,7 +1849,7 @@
     {
       "label": "HM Review",
       "avgDays": 11,
-      "count": 33,
+      "count": 34,
       "color": "#534AB7"
     },
     {
@@ -1812,8 +1872,8 @@
     },
     {
       "label": "Backlog",
-      "avgDays": 12,
-      "count": 8,
+      "avgDays": 10,
+      "count": 11,
       "color": "#888780"
     }
   ],
@@ -3479,7 +3539,7 @@
       "filled": 50,
       "failed": 21,
       "ttf": 91,
-      "wip": 10,
+      "wip": 9,
       "agingRecords": [
         {
           "band": "🔴 6+",
@@ -3631,7 +3691,7 @@
               "notionUrl": "https://www.notion.so/195f525a10704be39a5760a63c352543",
               "owner": "Rebecca",
               "campus": "USF Health",
-              "stage": "Recruiter Review",
+              "stage": "HM Review",
               "agingBand": "🔴 6+",
               "department": "612500 - Dept Of Neurol"
             },
@@ -4238,13 +4298,13 @@
         {
           "label": "Recruiter Review",
           "avgDays": 10,
-          "count": 25,
+          "count": 24,
           "color": "#006747"
         },
         {
           "label": "HM Review",
           "avgDays": 12,
-          "count": 20,
+          "count": 21,
           "color": "#534AB7"
         },
         {
@@ -4257,7 +4317,7 @@
       "statuses": [
         {
           "label": "Recruiter Review",
-          "count": 43,
+          "count": 42,
           "color": "#185FA5"
         },
         {
@@ -4267,7 +4327,7 @@
         },
         {
           "label": "HM Review",
-          "count": 148,
+          "count": 149,
           "color": "#993556"
         },
         {
@@ -4330,7 +4390,7 @@
         },
         {
           "label": "HM Review",
-          "count": 148
+          "count": 149
         },
         {
           "label": "Interviews",
@@ -4972,16 +5032,36 @@
       "bgLight": "#e6f2ed",
       "bgDark": "#042e24",
       "campus": "St Pete / Tampa",
-      "reqs": 132,
+      "reqs": 137,
       "filled": 21,
       "failed": 1,
-      "ttf": 72,
-      "wip": 3,
+      "ttf": 71,
+      "wip": 1,
       "agingRecords": [
         {
           "band": "🔴 6+",
           "color": "#A32D2D",
           "records": [
+            {
+              "title": "Academic Advisor I - Electrical Engineering",
+              "reqId": "43964",
+              "notionUrl": "https://www.notion.so/fd8cc142f839444592d134d7f33f9af1",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🔴 6+",
+              "department": "210600 - Electrical Engineering"
+            },
+            {
+              "title": "Academic Services Administrator",
+              "reqId": "43996",
+              "notionUrl": "https://www.notion.so/e96fcdac40284d30a2d6e8ba514c415f",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🔴 6+",
+              "department": "170800 - COE-Student Academic Services"
+            },
             {
               "title": "Student Assistant",
               "reqId": "43984",
@@ -5139,6 +5219,16 @@
           "color": "#BA7517",
           "records": [
             {
+              "title": "Project Coordinator",
+              "reqId": "44019",
+              "notionUrl": "https://www.notion.so/e598276a3e1145919c75ea3c303d69e9",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟡 3–5",
+              "department": "171400 - Teaching & Learning"
+            },
+            {
               "title": "Transfer Success Specialist",
               "reqId": "44011",
               "notionUrl": "https://www.notion.so/eec0f79238b040029cfc7f060ebecdf3",
@@ -5197,16 +5287,6 @@
               "stage": "Offer Stage",
               "agingBand": "🟡 3–5",
               "department": "College of Education "
-            },
-            {
-              "title": "Unit Research Administrator II",
-              "reqId": "43545",
-              "notionUrl": "https://www.notion.so/9f6ec85507494ba589a79349421f4297",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🟡 3–5",
-              "department": "College of Education "
             }
           ]
         },
@@ -5214,6 +5294,26 @@
           "band": "🟢 0–2",
           "color": "#3B6D11",
           "records": [
+            {
+              "title": "Mail Clerk",
+              "reqId": "44043",
+              "notionUrl": "https://www.notion.so/be758d5834a742e7aa294f3ba7d21d21",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "400100 - Univ Lib Deans Office"
+            },
+            {
+              "title": "Postdoctoral Scholar Research - Mechanical Engineering",
+              "reqId": "44023",
+              "notionUrl": "https://www.notion.so/e1b0cded4086473caf88307afed84219",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "210500 - Mechanical Engineering"
+            },
             {
               "title": "Career Counselor",
               "reqId": "43849",
@@ -5235,6 +5335,16 @@
               "department": "STP Student Affairs"
             },
             {
+              "title": "Academic Program Specialist",
+              "reqId": "43901",
+              "notionUrl": "https://www.notion.so/3e0432ca9bd4433bbb2bcfda05833c44",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "MUMA"
+            },
+            {
               "title": "Contract Financial Analyst I",
               "reqId": "43667",
               "notionUrl": "https://www.notion.so/9e2a758823804c93b31beb55cee8d61b",
@@ -5251,6 +5361,16 @@
               "owner": "Gabriel",
               "campus": "Tampa",
               "stage": "Offer Stage",
+              "agingBand": "🟢 0–2",
+              "department": "College of Education "
+            },
+            {
+              "title": "Unit Research Administrator II",
+              "reqId": "43545",
+              "notionUrl": "https://www.notion.so/9f6ec85507494ba589a79349421f4297",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
               "agingBand": "🟢 0–2",
               "department": "College of Education "
             },
@@ -5317,7 +5437,7 @@
         {
           "label": "Recruiter Review",
           "avgDays": 7,
-          "count": 3,
+          "count": 4,
           "color": "#006747"
         },
         {
@@ -5340,30 +5460,30 @@
         },
         {
           "label": "Backlog",
-          "avgDays": 7,
-          "count": 3,
+          "avgDays": 6,
+          "count": 6,
           "color": "#888780"
         }
       ],
       "statuses": [
+        {
+          "label": "Backlog",
+          "count": 10,
+          "color": "#888780"
+        },
+        {
+          "label": "Recruiter Review",
+          "count": 5,
+          "color": "#185FA5"
+        },
         {
           "label": "Sourced",
           "count": 2,
           "color": "#3B6D11"
         },
         {
-          "label": "Backlog",
-          "count": 7,
-          "color": "#888780"
-        },
-        {
-          "label": "Recruiter Review",
-          "count": 3,
-          "color": "#185FA5"
-        },
-        {
           "label": "HM Review",
-          "count": 2,
+          "count": 3,
           "color": "#993556"
         },
         {
@@ -5403,7 +5523,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 13
+          "count": 15
         },
         {
           "label": "🟡 3-5",
@@ -5417,13 +5537,13 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 9
+          "count": 13
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 78
+          "count": 84
         },
         {
           "label": "Screened",
@@ -5431,7 +5551,7 @@
         },
         {
           "label": "HM Review",
-          "count": 2
+          "count": 3
         },
         {
           "label": "Interviews",
@@ -5451,30 +5571,30 @@
         },
         {
           "label": "Time to fill",
-          "value": 72,
+          "value": 71,
           "target": 40,
           "invert": true
         },
         {
           "label": "Screened",
           "value": 0,
-          "target": 132,
+          "target": 137,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 11,
-          "target": 132,
+          "target": 137,
           "invert": false
         }
       ],
       "trend": [
-        72,
-        72,
-        72,
-        72,
-        72,
-        72
+        71,
+        71,
+        71,
+        71,
+        71,
+        71
       ]
     },
     {
