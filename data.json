@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-07-27T14:40:43.071Z",
+  "lastUpdated": "2026-07-27T16:59:58.094Z",
   "summary": {
-    "openReqs": 554,
+    "openReqs": 553,
     "avgTimeToFill": 83,
-    "filledYTD": 115,
+    "filledYTD": 116,
     "failedCancelled": 28,
     "inOfferStage": 42
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 279,
+      "count": 278,
       "color": "#1B6A9C"
     },
     {
@@ -37,11 +37,11 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 202
+      "count": 194
     },
     {
       "label": "HM Review",
-      "count": 169
+      "count": 177
     },
     {
       "label": "Offer Stage",
@@ -61,7 +61,7 @@
     },
     {
       "label": "Pre-boarding",
-      "count": 19
+      "count": 18
     },
     {
       "label": "Faculty",
@@ -1652,7 +1652,7 @@
   "reqType": [
     {
       "label": "Standard",
-      "count": 323,
+      "count": 322,
       "color": "#006747"
     },
     {
@@ -1769,7 +1769,7 @@
     },
     {
       "label": "Other (140 depts)",
-      "count": 248,
+      "count": 247,
       "color": "#c8c7c2"
     }
   ],
@@ -2809,6 +2809,16 @@
       "notionUrl": "https://www.notion.so/5765d411973f46a1bab93527df0ef654"
     },
     {
+      "title": "Director of Strategic Operations & Revenue Development",
+      "reqId": "43807",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Filled",
+      "department": "019000 - Unv Community Partnerships",
+      "ttf": 34,
+      "notionUrl": "https://www.notion.so/32e18d3e905f4c5ba453513e1c5388f1"
+    },
+    {
       "title": "OPS Web Administrator",
       "reqId": "43640",
       "owner": "Gabriel",
@@ -3489,7 +3499,7 @@
       "filled": 50,
       "failed": 21,
       "ttf": 94,
-      "wip": 9,
+      "wip": 12,
       "agingRecords": [
         {
           "band": "🔴 6+",
@@ -4266,19 +4276,19 @@
       ],
       "statuses": [
         {
+          "label": "HM Review",
+          "count": 158,
+          "color": "#993556"
+        },
+        {
           "label": "Recruiter Review",
-          "count": 41,
+          "count": 33,
           "color": "#185FA5"
         },
         {
           "label": "Backlog",
           "count": 8,
           "color": "#888780"
-        },
-        {
-          "label": "HM Review",
-          "count": 150,
-          "color": "#993556"
         },
         {
           "label": "Student Hiring",
@@ -4340,7 +4350,7 @@
         },
         {
           "label": "HM Review",
-          "count": 150
+          "count": 158
         },
         {
           "label": "Interviews",
@@ -4395,7 +4405,7 @@
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
       "reqs": 125,
-      "filled": 43,
+      "filled": 44,
       "failed": 6,
       "ttf": 75,
       "wip": 10,
@@ -4875,7 +4885,7 @@
         },
         {
           "label": "Pre-boarding",
-          "count": 17,
+          "count": 16,
           "color": "#888780"
         },
         {
@@ -4920,7 +4930,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 76
+          "count": 75
         },
         {
           "label": "Screened",
@@ -4942,7 +4952,7 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 43,
+          "value": 44,
           "target": 10,
           "invert": false
         },
