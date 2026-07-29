@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-07-29T17:48:15.760Z",
+  "lastUpdated": "2026-07-29T19:20:11.779Z",
   "summary": {
-    "openReqs": 556,
+    "openReqs": 555,
     "avgTimeToFill": 85,
-    "filledYTD": 116,
+    "filledYTD": 117,
     "failedCancelled": 28,
-    "inOfferStage": 44
+    "inOfferStage": 43
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 281,
+      "count": 280,
       "color": "#1B6A9C"
     },
     {
@@ -45,7 +45,7 @@
     },
     {
       "label": "Offer Stage",
-      "count": 44
+      "count": 43
     },
     {
       "label": "Student Hiring",
@@ -1687,7 +1687,7 @@
     },
     {
       "label": "Student",
-      "count": 57,
+      "count": 56,
       "color": "#00A693"
     },
     {
@@ -1793,13 +1793,8 @@
       "color": "#006747"
     },
     {
-      "label": "380600 - UGS Academic Advising - Athletics",
-      "count": 6,
-      "color": "#1B6A9C"
-    },
-    {
-      "label": "Other (140 depts)",
-      "count": 249,
+      "label": "Other (141 depts)",
+      "count": 254,
       "color": "#c8c7c2"
     }
   ],
@@ -2397,6 +2392,16 @@
       "department": "USF Health",
       "ttf": 83,
       "notionUrl": "https://www.notion.so/07161d22cdf34b8bb16f49a184fad2cc"
+    },
+    {
+      "title": "Student Assistant - Lab Supervisor",
+      "reqId": "43392",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Filled",
+      "department": "380600 - UGS Academic Advising - Athletics",
+      "ttf": 82,
+      "notionUrl": "https://www.notion.so/ed7dc1ca2b41466aa837c2850159f7b0"
     },
     {
       "title": "Office Manager",
@@ -4435,7 +4440,7 @@
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
       "reqs": 128,
-      "filled": 44,
+      "filled": 45,
       "failed": 6,
       "ttf": 75,
       "wip": 10,
@@ -4945,7 +4950,7 @@
         },
         {
           "label": "Offer Stage",
-          "count": 9,
+          "count": 8,
           "color": "#0F6E56"
         },
         {
@@ -4990,7 +4995,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 78
+          "count": 77
         },
         {
           "label": "Screened",
@@ -5006,13 +5011,13 @@
         },
         {
           "label": "Offer",
-          "count": 9
+          "count": 8
         }
       ],
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 44,
+          "value": 45,
           "target": 10,
           "invert": false
         },
