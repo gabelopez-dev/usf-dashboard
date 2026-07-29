@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-07-29T12:29:25.093Z",
+  "lastUpdated": "2026-07-29T14:54:39.165Z",
   "summary": {
     "openReqs": 556,
     "avgTimeToFill": 85,
     "filledYTD": 116,
     "failedCancelled": 28,
-    "inOfferStage": 42
+    "inOfferStage": 44
   },
   "campus": [
     {
@@ -45,11 +45,11 @@
     },
     {
       "label": "Offer Stage",
-      "count": 42
+      "count": 44
     },
     {
       "label": "Student Hiring",
-      "count": 41
+      "count": 40
     },
     {
       "label": "Interview Stage",
@@ -57,7 +57,7 @@
     },
     {
       "label": "Backlog",
-      "count": 20
+      "count": 19
     },
     {
       "label": "Pre-boarding",
@@ -460,7 +460,7 @@
           "notionUrl": "https://www.notion.so/9492201f49cd41ae8898b9f114026461",
           "owner": "johncalebrese",
           "campus": "Tampa",
-          "stage": "Backlog",
+          "stage": "Offer Stage",
           "agingBand": "🔴 6+",
           "department": "041300 - Strategic Initiatives"
         },
@@ -1831,7 +1831,7 @@
     {
       "label": "Offer Stage",
       "avgDays": 12,
-      "count": 34,
+      "count": 35,
       "color": "#CFC483"
     },
     {
@@ -1842,8 +1842,8 @@
     },
     {
       "label": "Backlog",
-      "avgDays": 19,
-      "count": 5,
+      "avgDays": 22,
+      "count": 4,
       "color": "#888780"
     }
   ],
@@ -4540,7 +4540,7 @@
               "notionUrl": "https://www.notion.so/9492201f49cd41ae8898b9f114026461",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "Backlog",
+              "stage": "Offer Stage",
               "agingBand": "🔴 6+",
               "department": "041300 - Strategic Initiatives"
             },
@@ -4911,7 +4911,7 @@
         {
           "label": "Offer Stage",
           "avgDays": 7,
-          "count": 3,
+          "count": 4,
           "color": "#CFC483"
         },
         {
@@ -4922,8 +4922,8 @@
         },
         {
           "label": "Backlog",
-          "avgDays": 13,
-          "count": 3,
+          "avgDays": 16,
+          "count": 2,
           "color": "#888780"
         }
       ],
@@ -4940,12 +4940,12 @@
         },
         {
           "label": "Student Hiring",
-          "count": 19,
+          "count": 18,
           "color": "#0F6E56"
         },
         {
           "label": "Offer Stage",
-          "count": 7,
+          "count": 9,
           "color": "#0F6E56"
         },
         {
@@ -4955,7 +4955,7 @@
         },
         {
           "label": "Backlog",
-          "count": 3,
+          "count": 2,
           "color": "#888780"
         },
         {
@@ -5006,7 +5006,7 @@
         },
         {
           "label": "Offer",
-          "count": 7
+          "count": 9
         }
       ],
       "goals": [
