@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-29T10:09:08.695Z",
+  "lastUpdated": "2026-07-29T12:29:25.093Z",
   "summary": {
     "openReqs": 556,
     "avgTimeToFill": 85,
@@ -82,7 +82,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 142
+      "count": 139
     },
     {
       "label": "🟡 3-5",
@@ -96,7 +96,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 2
+      "count": 5
     }
   ],
   "agingRecords": [
@@ -423,16 +423,6 @@
           "stage": "Offer Stage",
           "agingBand": "🔴 6+",
           "department": "044100 - Ctr For Student Involvement"
-        },
-        {
-          "title": "Temporary Pcard Specialist I",
-          "reqId": "43905",
-          "notionUrl": "https://www.notion.so/a39cda9b278443a4a8b39b28a46df3f2",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 6+",
-          "department": "027900 - Procurement & Payment Services"
         },
         {
           "title": "Employment Job Coach/Transition Specialist",
@@ -825,16 +815,6 @@
           "department": "210800 - AICC Bellini College Department"
         },
         {
-          "title": "Procurement Contract Associate II",
-          "reqId": "43744",
-          "notionUrl": "https://www.notion.so/38f9ddf757a08009af78f51cf4c2bf3f",
-          "owner": "johncalebrese",
-          "campus": "",
-          "stage": "Interview Stage",
-          "agingBand": "🔴 6+",
-          "department": "027900 - Procurement & Payment Services"
-        },
-        {
           "title": "Associate Director of Clinical Research Operations",
           "reqId": "43768",
           "notionUrl": "https://www.notion.so/38f9ddf757a0802fa440ff927aa68147",
@@ -893,16 +873,6 @@
           "stage": "Offer Stage",
           "agingBand": "🔴 6+",
           "department": "612700 - Dept Of Orthopaedics & Sports Medicine"
-        },
-        {
-          "title": "Supplier Services Specialist",
-          "reqId": "43649",
-          "notionUrl": "https://www.notion.so/38f9ddf757a080f1bc04c853567b5c5d",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "HM Review",
-          "agingBand": "🔴 6+",
-          "department": "027900 - Procurement & Payment Services"
         },
         {
           "title": "Associate Director of Project Initiatives",
@@ -1667,6 +1637,36 @@
           "department": "390000 - Graduate Studies"
         },
         {
+          "title": "Temporary Pcard Specialist I",
+          "reqId": "43905",
+          "notionUrl": "https://www.notion.so/a39cda9b278443a4a8b39b28a46df3f2",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Pre-boarding",
+          "agingBand": "🟢 0–2",
+          "department": "027900 - Procurement & Payment Services"
+        },
+        {
+          "title": "Procurement Contract Associate II",
+          "reqId": "43744",
+          "notionUrl": "https://www.notion.so/38f9ddf757a08009af78f51cf4c2bf3f",
+          "owner": "johncalebrese",
+          "campus": "",
+          "stage": "Interview Stage",
+          "agingBand": "🟢 0–2",
+          "department": "027900 - Procurement & Payment Services"
+        },
+        {
+          "title": "Supplier Services Specialist",
+          "reqId": "43649",
+          "notionUrl": "https://www.notion.so/38f9ddf757a080f1bc04c853567b5c5d",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "027900 - Procurement & Payment Services"
+        },
+        {
           "title": "Accounts Payable Manager",
           "reqId": "43615",
           "notionUrl": "https://www.notion.so/38f9ddf757a08063827ecc3530163a97",
@@ -1819,25 +1819,25 @@
     {
       "label": "HM Review",
       "avgDays": 15,
-      "count": 37,
+      "count": 36,
       "color": "#534AB7"
     },
     {
       "label": "Interview Stage",
       "avgDays": 12,
-      "count": 18,
+      "count": 17,
       "color": "#d4880a"
     },
     {
       "label": "Offer Stage",
       "avgDays": 12,
-      "count": 35,
+      "count": 34,
       "color": "#CFC483"
     },
     {
       "label": "Pre-boarding",
       "avgDays": 19,
-      "count": 8,
+      "count": 7,
       "color": "#5B8FA8"
     },
     {
@@ -4515,16 +4515,6 @@
               "department": "044100 - Ctr For Student Involvement"
             },
             {
-              "title": "Temporary Pcard Specialist I",
-              "reqId": "43905",
-              "notionUrl": "https://www.notion.so/a39cda9b278443a4a8b39b28a46df3f2",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🔴 6+",
-              "department": "027900 - Procurement & Payment Services"
-            },
-            {
               "title": "FTIC Out-of-State Recruiter",
               "reqId": "43157",
               "notionUrl": "https://www.notion.so/3979ddf757a08014851ff7ffdce99afd",
@@ -4623,26 +4613,6 @@
               "stage": "Interview Stage",
               "agingBand": "🔴 6+",
               "department": "210800 - AICC Bellini College Department"
-            },
-            {
-              "title": "Procurement Contract Associate II",
-              "reqId": "43744",
-              "notionUrl": "https://www.notion.so/38f9ddf757a08009af78f51cf4c2bf3f",
-              "owner": "johncalebrese",
-              "campus": "",
-              "stage": "Interview Stage",
-              "agingBand": "🔴 6+",
-              "department": "027900 - Procurement & Payment Services"
-            },
-            {
-              "title": "Supplier Services Specialist",
-              "reqId": "43649",
-              "notionUrl": "https://www.notion.so/38f9ddf757a080f1bc04c853567b5c5d",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "HM Review",
-              "agingBand": "🔴 6+",
-              "department": "027900 - Procurement & Payment Services"
             },
             {
               "title": "Associate Director of Project Initiatives",
@@ -4877,6 +4847,36 @@
               "department": "390000 - Graduate Studies"
             },
             {
+              "title": "Temporary Pcard Specialist I",
+              "reqId": "43905",
+              "notionUrl": "https://www.notion.so/a39cda9b278443a4a8b39b28a46df3f2",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Pre-boarding",
+              "agingBand": "🟢 0–2",
+              "department": "027900 - Procurement & Payment Services"
+            },
+            {
+              "title": "Procurement Contract Associate II",
+              "reqId": "43744",
+              "notionUrl": "https://www.notion.so/38f9ddf757a08009af78f51cf4c2bf3f",
+              "owner": "johncalebrese",
+              "campus": "",
+              "stage": "Interview Stage",
+              "agingBand": "🟢 0–2",
+              "department": "027900 - Procurement & Payment Services"
+            },
+            {
+              "title": "Supplier Services Specialist",
+              "reqId": "43649",
+              "notionUrl": "https://www.notion.so/38f9ddf757a080f1bc04c853567b5c5d",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "027900 - Procurement & Payment Services"
+            },
+            {
               "title": "Accounts Payable Manager",
               "reqId": "43615",
               "notionUrl": "https://www.notion.so/38f9ddf757a08063827ecc3530163a97",
@@ -4898,26 +4898,26 @@
         },
         {
           "label": "HM Review",
-          "avgDays": 14,
-          "count": 12,
+          "avgDays": 15,
+          "count": 11,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 14,
-          "count": 8,
+          "avgDays": 15,
+          "count": 7,
           "color": "#d4880a"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 6,
-          "count": 4,
+          "avgDays": 7,
+          "count": 3,
           "color": "#CFC483"
         },
         {
           "label": "Pre-boarding",
           "avgDays": 19,
-          "count": 8,
+          "count": 7,
           "color": "#5B8FA8"
         },
         {
@@ -4970,7 +4970,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 33
+          "count": 30
         },
         {
           "label": "🟡 3-5",
@@ -4984,7 +4984,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 2
+          "count": 5
         }
       ],
       "funnel": [
