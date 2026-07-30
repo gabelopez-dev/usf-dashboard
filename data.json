@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-30T15:32:03.798Z",
+  "lastUpdated": "2026-07-30T17:37:11.296Z",
   "summary": {
     "openReqs": 552,
-    "avgTimeToFill": 86,
+    "avgTimeToFill": 85,
     "filledYTD": 119,
     "failedCancelled": 29,
     "inOfferStage": 44
@@ -82,7 +82,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 143
+      "count": 144
     },
     {
       "label": "🟡 3-5",
@@ -193,6 +193,16 @@
           "stage": "Recruiter Review",
           "agingBand": "🔴 6+",
           "department": "460100 - Innovative Education"
+        },
+        {
+          "title": "Department Operations Manager III",
+          "reqId": "43837",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081468d9dde5b1b79f545",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🔴 6+",
+          "department": "122300 - English"
         },
         {
           "title": "OPS Temporary Research Physical Therapist",
@@ -1712,7 +1722,7 @@
   "reqType": [
     {
       "label": "Standard",
-      "count": 322,
+      "count": 325,
       "color": "#006747"
     },
     {
@@ -1838,7 +1848,7 @@
     {
       "label": "Recruiter Review",
       "avgDays": 17,
-      "count": 43,
+      "count": 44,
       "color": "#006747"
     },
     {
@@ -5655,7 +5665,7 @@
       "reqs": 125,
       "filled": 0,
       "failed": 0,
-      "ttf": 58,
+      "ttf": 56,
       "wip": 0,
       "agingRecords": [
         {
@@ -5671,6 +5681,16 @@
               "stage": "Recruiter Review",
               "agingBand": "🔴 6+",
               "department": "351000 - Information Technology"
+            },
+            {
+              "title": "Department Operations Manager III",
+              "reqId": "43837",
+              "notionUrl": "https://www.notion.so/39f9ddf757a081468d9dde5b1b79f545",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🔴 6+",
+              "department": "122300 - English"
             },
             {
               "title": "IT Service Management Training Specialist",
@@ -5728,8 +5748,8 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 16,
-          "count": 5,
+          "avgDays": 15,
+          "count": 6,
           "color": "#006747"
         }
       ],
@@ -5746,7 +5766,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 5
+          "count": 6
         },
         {
           "label": "🟡 3-5",
@@ -5794,7 +5814,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 58,
+          "value": 56,
           "target": 40,
           "invert": true
         },
@@ -5812,12 +5832,12 @@
         }
       ],
       "trend": [
-        58,
-        58,
-        58,
-        58,
-        58,
-        58
+        56,
+        56,
+        56,
+        56,
+        56,
+        56
       ]
     }
   ]
