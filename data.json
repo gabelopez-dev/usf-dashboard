@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-07-31T17:05:00.775Z",
+  "lastUpdated": "2026-07-31T18:53:08.821Z",
   "summary": {
-    "openReqs": 552,
+    "openReqs": 551,
     "avgTimeToFill": 86,
     "filledYTD": 119,
-    "failedCancelled": 29,
+    "failedCancelled": 30,
     "inOfferStage": 45
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 277,
+      "count": 276,
       "color": "#1B6A9C"
     },
     {
@@ -41,7 +41,7 @@
     },
     {
       "label": "HM Review",
-      "count": 172
+      "count": 171
     },
     {
       "label": "Offer Stage",
@@ -82,7 +82,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 144
+      "count": 143
     },
     {
       "label": "🟡 3-5",
@@ -1085,16 +1085,6 @@
           "department": "Florida Inst of Oceanography"
         },
         {
-          "title": "Sr Dir Finance Athletics",
-          "reqId": "43671",
-          "notionUrl": "https://www.notion.so/8ca10fea36a0457bae2d509337d2c72b",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "HM Review",
-          "agingBand": "🔴 6+",
-          "department": "051000 - Athletic Administration"
-        },
-        {
           "title": "Sr Auditor",
           "reqId": "43657",
           "notionUrl": "https://www.notion.so/76d1090b0d0b4901b3ea22b839c26a42",
@@ -1722,7 +1712,7 @@
   "reqType": [
     {
       "label": "Standard",
-      "count": 325,
+      "count": 324,
       "color": "#006747"
     },
     {
@@ -1764,7 +1754,7 @@
     },
     {
       "label": "051000 - Athletic Administration",
-      "count": 19,
+      "count": 18,
       "color": "#CFC483"
     },
     {
@@ -1854,7 +1844,7 @@
     {
       "label": "HM Review",
       "avgDays": 15,
-      "count": 34,
+      "count": 33,
       "color": "#534AB7"
     },
     {
@@ -2712,6 +2702,16 @@
       "department": "MUMA",
       "ttf": 53,
       "notionUrl": "https://www.notion.so/b9bd5e1275834dbb95f55c40d7b2c669"
+    },
+    {
+      "title": "Sr Dir Finance Athletics",
+      "reqId": "43671",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Canceled",
+      "department": "051000 - Athletic Administration",
+      "ttf": 53,
+      "notionUrl": "https://www.notion.so/8ca10fea36a0457bae2d509337d2c72b"
     },
     {
       "title": "OPS Temporary Sr Shipping & Receiving Clerk",
@@ -4511,7 +4511,7 @@
       "campus": "Tampa",
       "reqs": 128,
       "filled": 47,
-      "failed": 7,
+      "failed": 8,
       "ttf": 77,
       "wip": 10,
       "agingRecords": [
@@ -4718,16 +4718,6 @@
               "stage": "Interview Stage",
               "agingBand": "🔴 6+",
               "department": "042700 - Marshall Student Center"
-            },
-            {
-              "title": "Sr Dir Finance Athletics",
-              "reqId": "43671",
-              "notionUrl": "https://www.notion.so/8ca10fea36a0457bae2d509337d2c72b",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "HM Review",
-              "agingBand": "🔴 6+",
-              "department": "051000 - Athletic Administration"
             },
             {
               "title": "Sr Auditor",
@@ -5004,7 +4994,7 @@
         {
           "label": "HM Review",
           "avgDays": 7,
-          "count": 9,
+          "count": 8,
           "color": "#534AB7"
         },
         {
@@ -5035,7 +5025,7 @@
       "statuses": [
         {
           "label": "HM Review",
-          "count": 10,
+          "count": 9,
           "color": "#993556"
         },
         {
@@ -5075,7 +5065,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 28
+          "count": 27
         },
         {
           "label": "🟡 3-5",
@@ -5095,7 +5085,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 74
+          "count": 73
         },
         {
           "label": "Screened",
@@ -5103,7 +5093,7 @@
         },
         {
           "label": "HM Review",
-          "count": 10
+          "count": 9
         },
         {
           "label": "Interviews",
