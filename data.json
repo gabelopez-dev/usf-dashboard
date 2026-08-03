@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-08-03T10:55:49.425Z",
+  "lastUpdated": "2026-08-03T13:43:03.528Z",
   "summary": {
-    "openReqs": 551,
-    "avgTimeToFill": 89,
+    "openReqs": 555,
+    "avgTimeToFill": 88,
     "filledYTD": 119,
     "failedCancelled": 30,
-    "inOfferStage": 45
+    "inOfferStage": 43
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 276,
+      "count": 280,
       "color": "#1B6A9C"
     },
     {
@@ -45,11 +45,11 @@
     },
     {
       "label": "Offer Stage",
-      "count": 45
+      "count": 43
     },
     {
       "label": "Student Hiring",
-      "count": 39
+      "count": 42
     },
     {
       "label": "Interview Stage",
@@ -57,11 +57,11 @@
     },
     {
       "label": "Backlog",
-      "count": 20
+      "count": 21
     },
     {
       "label": "Pre-boarding",
-      "count": 17
+      "count": 19
     },
     {
       "label": "Faculty",
@@ -89,7 +89,7 @@
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 15
+      "count": 16
     },
     {
       "label": "🟢 0–2",
@@ -940,7 +940,7 @@
           "notionUrl": "https://www.notion.so/86f0979e7dd646348d4e71bc8df786de",
           "owner": "johncalebrese",
           "campus": "Tampa",
-          "stage": "Offer Stage",
+          "stage": "Pre-boarding",
           "agingBand": "🔴 6+",
           "department": "380600 - UGS Academic Advising - Athletics"
         },
@@ -1551,6 +1551,16 @@
       "color": "#BA7517",
       "records": [
         {
+          "title": "Audience Growth Manager",
+          "reqId": "44091",
+          "notionUrl": "https://www.notion.so/de779a0d15284d7fa3558de1c868fb47",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟡 3–5",
+          "department": "066200 - WUSF-FM"
+        },
+        {
           "title": "OPS Licensed Human Services Practitioner",
           "reqId": "42524",
           "notionUrl": "https://www.notion.so/2dd9225ccfed43ce90219e516ed0e5fb",
@@ -1696,7 +1706,7 @@
           "notionUrl": "https://www.notion.so/cb88060ea4ac40c8b2a539dedb68aa0a",
           "owner": "johncalebrese",
           "campus": "Tampa",
-          "stage": "Offer Stage",
+          "stage": "Pre-boarding",
           "agingBand": "🟡 3–5",
           "department": "210800 - AICC Bellini College Department"
         }
@@ -1711,12 +1721,12 @@
   "reqType": [
     {
       "label": "Standard",
-      "count": 324,
+      "count": 325,
       "color": "#006747"
     },
     {
       "label": "Student",
-      "count": 56,
+      "count": 59,
       "color": "#00A693"
     },
     {
@@ -1753,7 +1763,7 @@
     },
     {
       "label": "051000 - Athletic Administration",
-      "count": 18,
+      "count": 19,
       "color": "#CFC483"
     },
     {
@@ -1822,8 +1832,8 @@
       "color": "#006747"
     },
     {
-      "label": "Other (140 depts)",
-      "count": 253,
+      "label": "Other (142 depts)",
+      "count": 256,
       "color": "#c8c7c2"
     }
   ],
@@ -1854,20 +1864,20 @@
     },
     {
       "label": "Offer Stage",
-      "avgDays": 16,
-      "count": 37,
+      "avgDays": 17,
+      "count": 35,
       "color": "#CFC483"
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 30,
-      "count": 9,
+      "avgDays": 26,
+      "count": 11,
       "color": "#5B8FA8"
     },
     {
       "label": "Backlog",
-      "avgDays": 22,
-      "count": 5,
+      "avgDays": 19,
+      "count": 6,
       "color": "#888780"
     }
   ],
@@ -4508,10 +4518,10 @@
       "bgLight": "#e3f2fd",
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
-      "reqs": 128,
+      "reqs": 132,
       "filled": 47,
       "failed": 8,
-      "ttf": 80,
+      "ttf": 77,
       "wip": 10,
       "agingRecords": [
         {
@@ -4714,7 +4724,7 @@
               "notionUrl": "https://www.notion.so/86f0979e7dd646348d4e71bc8df786de",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "Offer Stage",
+              "stage": "Pre-boarding",
               "agingBand": "🔴 6+",
               "department": "380600 - UGS Academic Advising - Athletics"
             },
@@ -4824,6 +4834,16 @@
           "band": "🟡 3-5",
           "color": "#BA7517",
           "records": [
+            {
+              "title": "Audience Growth Manager",
+              "reqId": "44091",
+              "notionUrl": "https://www.notion.so/de779a0d15284d7fa3558de1c868fb47",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟡 3–5",
+              "department": "066200 - WUSF-FM"
+            },
             {
               "title": "OPS Licensed Human Services Practitioner",
               "reqId": "42524",
@@ -4970,7 +4990,7 @@
               "notionUrl": "https://www.notion.so/cb88060ea4ac40c8b2a539dedb68aa0a",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "Offer Stage",
+              "stage": "Pre-boarding",
               "agingBand": "🟡 3–5",
               "department": "210800 - AICC Bellini College Department"
             }
@@ -5004,23 +5024,33 @@
         {
           "label": "Offer Stage",
           "avgDays": 8,
-          "count": 6,
+          "count": 4,
           "color": "#CFC483"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 30,
-          "count": 9,
+          "avgDays": 26,
+          "count": 11,
           "color": "#5B8FA8"
         },
         {
           "label": "Backlog",
-          "avgDays": 15,
-          "count": 3,
+          "avgDays": 13,
+          "count": 4,
           "color": "#888780"
         }
       ],
       "statuses": [
+        {
+          "label": "Student Hiring",
+          "count": 20,
+          "color": "#0F6E56"
+        },
+        {
+          "label": "Backlog",
+          "count": 4,
+          "color": "#888780"
+        },
         {
           "label": "HM Review",
           "count": 9,
@@ -5032,23 +5062,13 @@
           "color": "#185FA5"
         },
         {
-          "label": "Student Hiring",
-          "count": 17,
-          "color": "#0F6E56"
-        },
-        {
           "label": "Offer Stage",
-          "count": 10,
+          "count": 8,
           "color": "#0F6E56"
         },
         {
           "label": "Pre-boarding",
-          "count": 15,
-          "color": "#888780"
-        },
-        {
-          "label": "Backlog",
-          "count": 3,
+          "count": 17,
           "color": "#888780"
         },
         {
@@ -5070,7 +5090,7 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 15
+          "count": 16
         },
         {
           "label": "🟢 0–2",
@@ -5083,7 +5103,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 73
+          "count": 77
         },
         {
           "label": "Screened",
@@ -5099,7 +5119,7 @@
         },
         {
           "label": "Offer",
-          "count": 10
+          "count": 8
         }
       ],
       "goals": [
@@ -5111,30 +5131,30 @@
         },
         {
           "label": "Time to fill",
-          "value": 80,
+          "value": 77,
           "target": 40,
           "invert": true
         },
         {
           "label": "Screened",
           "value": 0,
-          "target": 128,
+          "target": 132,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 12,
-          "target": 128,
+          "target": 132,
           "invert": false
         }
       ],
       "trend": [
-        80,
-        80,
-        80,
-        80,
-        80,
-        80
+        77,
+        77,
+        77,
+        77,
+        77,
+        77
       ]
     },
     {
