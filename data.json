@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-03T13:43:03.528Z",
+  "lastUpdated": "2026-08-03T16:27:56.761Z",
   "summary": {
     "openReqs": 555,
     "avgTimeToFill": 88,
@@ -41,7 +41,7 @@
     },
     {
       "label": "HM Review",
-      "count": 171
+      "count": 170
     },
     {
       "label": "Offer Stage",
@@ -53,7 +53,7 @@
     },
     {
       "label": "Interview Stage",
-      "count": 24
+      "count": 25
     },
     {
       "label": "Backlog",
@@ -96,7 +96,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 0
+      "count": 1
     }
   ],
   "agingRecords": [
@@ -830,7 +830,7 @@
           "notionUrl": "https://www.notion.so/4015be9957c14212b1cd7bb714981168",
           "owner": "johncalebrese",
           "campus": "Tampa",
-          "stage": "HM Review",
+          "stage": "Interview Stage",
           "agingBand": "🔴 6+",
           "department": "213400 - Inst Of Applied Engineering"
         },
@@ -1715,7 +1715,18 @@
     {
       "band": "🟢 0–2",
       "color": "#3B6D11",
-      "records": []
+      "records": [
+        {
+          "title": "WUSF News Intern (Administrative Clerk)",
+          "reqId": "43815",
+          "notionUrl": "https://www.notion.so/c45c1de21aa54863a66a286e09e1ea9b",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "066200 - WUSF-FM"
+        }
+      ]
     }
   ],
   "reqType": [
@@ -1853,13 +1864,13 @@
     {
       "label": "HM Review",
       "avgDays": 18,
-      "count": 33,
+      "count": 32,
       "color": "#534AB7"
     },
     {
       "label": "Interview Stage",
       "avgDays": 14,
-      "count": 21,
+      "count": 22,
       "color": "#d4880a"
     },
     {
@@ -4674,7 +4685,7 @@
               "notionUrl": "https://www.notion.so/4015be9957c14212b1cd7bb714981168",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "HM Review",
+              "stage": "Interview Stage",
               "agingBand": "🔴 6+",
               "department": "213400 - Inst Of Applied Engineering"
             },
@@ -4999,7 +5010,18 @@
         {
           "band": "🟢 0–2",
           "color": "#3B6D11",
-          "records": []
+          "records": [
+            {
+              "title": "WUSF News Intern (Administrative Clerk)",
+              "reqId": "43815",
+              "notionUrl": "https://www.notion.so/c45c1de21aa54863a66a286e09e1ea9b",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "066200 - WUSF-FM"
+            }
+          ]
         }
       ],
       "stageMetrics": [
@@ -5011,14 +5033,14 @@
         },
         {
           "label": "HM Review",
-          "avgDays": 10,
-          "count": 8,
+          "avgDays": 9,
+          "count": 7,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
           "avgDays": 12,
-          "count": 11,
+          "count": 12,
           "color": "#d4880a"
         },
         {
@@ -5053,7 +5075,7 @@
         },
         {
           "label": "HM Review",
-          "count": 9,
+          "count": 8,
           "color": "#993556"
         },
         {
@@ -5073,7 +5095,7 @@
         },
         {
           "label": "Interview Stage",
-          "count": 12,
+          "count": 13,
           "color": "#534AB7"
         }
       ],
@@ -5097,7 +5119,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 0
+          "count": 1
         }
       ],
       "funnel": [
@@ -5111,11 +5133,11 @@
         },
         {
           "label": "HM Review",
-          "count": 9
+          "count": 8
         },
         {
           "label": "Interviews",
-          "count": 12
+          "count": 13
         },
         {
           "label": "Offer",
@@ -5143,7 +5165,7 @@
         },
         {
           "label": "Interviews",
-          "value": 12,
+          "value": 13,
           "target": 132,
           "invert": false
         }
