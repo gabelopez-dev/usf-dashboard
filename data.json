@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-08-04T12:26:23.006Z",
+  "lastUpdated": "2026-08-04T15:03:40.657Z",
   "summary": {
-    "openReqs": 555,
+    "openReqs": 554,
     "avgTimeToFill": 89,
-    "filledYTD": 119,
+    "filledYTD": 120,
     "failedCancelled": 30,
     "inOfferStage": 43
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 280,
+      "count": 279,
       "color": "#1B6A9C"
     },
     {
@@ -41,7 +41,7 @@
     },
     {
       "label": "HM Review",
-      "count": 170
+      "count": 169
     },
     {
       "label": "Offer Stage",
@@ -53,7 +53,7 @@
     },
     {
       "label": "Interview Stage",
-      "count": 25
+      "count": 26
     },
     {
       "label": "Backlog",
@@ -61,7 +61,7 @@
     },
     {
       "label": "Pre-boarding",
-      "count": 19
+      "count": 18
     },
     {
       "label": "Faculty",
@@ -82,7 +82,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 148
+      "count": 147
     },
     {
       "label": "🟡 3-5",
@@ -453,16 +453,6 @@
           "stage": "Offer Stage",
           "agingBand": "🔴 6+",
           "department": "044100 - Ctr For Student Involvement"
-        },
-        {
-          "title": "Temporary Pcard Specialist I",
-          "reqId": "43905",
-          "notionUrl": "https://www.notion.so/a39cda9b278443a4a8b39b28a46df3f2",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 6+",
-          "department": "027900 - Procurement & Payment Services"
         },
         {
           "title": "Employment Job Coach/Transition Specialist",
@@ -940,7 +930,7 @@
           "notionUrl": "https://www.notion.so/38f9ddf757a080f1bc04c853567b5c5d",
           "owner": "johncalebrese",
           "campus": "Tampa",
-          "stage": "HM Review",
+          "stage": "Interview Stage",
           "agingBand": "🔴 6+",
           "department": "027900 - Procurement & Payment Services"
         },
@@ -1732,7 +1722,7 @@
   "reqType": [
     {
       "label": "Standard",
-      "count": 325,
+      "count": 324,
       "color": "#006747"
     },
     {
@@ -1844,7 +1834,7 @@
     },
     {
       "label": "Other (142 depts)",
-      "count": 256,
+      "count": 255,
       "color": "#c8c7c2"
     }
   ],
@@ -1863,14 +1853,14 @@
     },
     {
       "label": "HM Review",
-      "avgDays": 19,
-      "count": 32,
+      "avgDays": 20,
+      "count": 31,
       "color": "#534AB7"
     },
     {
       "label": "Interview Stage",
-      "avgDays": 15,
-      "count": 22,
+      "avgDays": 14,
+      "count": 23,
       "color": "#d4880a"
     },
     {
@@ -1881,8 +1871,8 @@
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 27,
-      "count": 11,
+      "avgDays": 29,
+      "count": 10,
       "color": "#5B8FA8"
     },
     {
@@ -2992,6 +2982,16 @@
       "department": "College of Education ",
       "ttf": 32,
       "notionUrl": "https://www.notion.so/ffcd80e5140c4f9caa4f4c0b3db4f18a"
+    },
+    {
+      "title": "Temporary Pcard Specialist I",
+      "reqId": "43905",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Filled",
+      "department": "027900 - Procurement & Payment Services",
+      "ttf": 29,
+      "notionUrl": "https://www.notion.so/a39cda9b278443a4a8b39b28a46df3f2"
     },
     {
       "title": "Research Support Asst",
@@ -4530,7 +4530,7 @@
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
       "reqs": 132,
-      "filled": 47,
+      "filled": 48,
       "failed": 8,
       "ttf": 78,
       "wip": 10,
@@ -4618,16 +4618,6 @@
               "stage": "Offer Stage",
               "agingBand": "🔴 6+",
               "department": "044100 - Ctr For Student Involvement"
-            },
-            {
-              "title": "Temporary Pcard Specialist I",
-              "reqId": "43905",
-              "notionUrl": "https://www.notion.so/a39cda9b278443a4a8b39b28a46df3f2",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🔴 6+",
-              "department": "027900 - Procurement & Payment Services"
             },
             {
               "title": "LGI & PSL - OPS",
@@ -4735,7 +4725,7 @@
               "notionUrl": "https://www.notion.so/38f9ddf757a080f1bc04c853567b5c5d",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "HM Review",
+              "stage": "Interview Stage",
               "agingBand": "🔴 6+",
               "department": "027900 - Procurement & Payment Services"
             },
@@ -5033,14 +5023,14 @@
         },
         {
           "label": "HM Review",
-          "avgDays": 10,
-          "count": 7,
+          "avgDays": 11,
+          "count": 6,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 13,
-          "count": 12,
+          "avgDays": 12,
+          "count": 13,
           "color": "#d4880a"
         },
         {
@@ -5051,8 +5041,8 @@
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 27,
-          "count": 11,
+          "avgDays": 29,
+          "count": 10,
           "color": "#5B8FA8"
         },
         {
@@ -5075,7 +5065,7 @@
         },
         {
           "label": "HM Review",
-          "count": 8,
+          "count": 7,
           "color": "#993556"
         },
         {
@@ -5090,12 +5080,12 @@
         },
         {
           "label": "Pre-boarding",
-          "count": 17,
+          "count": 16,
           "color": "#888780"
         },
         {
           "label": "Interview Stage",
-          "count": 13,
+          "count": 14,
           "color": "#534AB7"
         }
       ],
@@ -5105,7 +5095,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 32
+          "count": 31
         },
         {
           "label": "🟡 3-5",
@@ -5125,7 +5115,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 77
+          "count": 76
         },
         {
           "label": "Screened",
@@ -5133,11 +5123,11 @@
         },
         {
           "label": "HM Review",
-          "count": 8
+          "count": 7
         },
         {
           "label": "Interviews",
-          "count": 13
+          "count": 14
         },
         {
           "label": "Offer",
@@ -5147,7 +5137,7 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 47,
+          "value": 48,
           "target": 10,
           "invert": false
         },
@@ -5165,7 +5155,7 @@
         },
         {
           "label": "Interviews",
-          "value": 13,
+          "value": 14,
           "target": 132,
           "invert": false
         }
