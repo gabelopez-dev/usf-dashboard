@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-08-05T11:22:32.169Z",
+  "lastUpdated": "2026-08-05T13:11:22.870Z",
   "summary": {
-    "openReqs": 554,
+    "openReqs": 551,
     "avgTimeToFill": 90,
-    "filledYTD": 120,
-    "failedCancelled": 30,
-    "inOfferStage": 43
+    "filledYTD": 122,
+    "failedCancelled": 31,
+    "inOfferStage": 48
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 279,
+      "count": 276,
       "color": "#1B6A9C"
     },
     {
@@ -37,7 +37,7 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 195
+      "count": 194
     },
     {
       "label": "HM Review",
@@ -45,11 +45,11 @@
     },
     {
       "label": "Offer Stage",
-      "count": 43
+      "count": 48
     },
     {
       "label": "Student Hiring",
-      "count": 42
+      "count": 38
     },
     {
       "label": "Interview Stage",
@@ -57,11 +57,11 @@
     },
     {
       "label": "Backlog",
-      "count": 21
+      "count": 20
     },
     {
       "label": "Pre-boarding",
-      "count": 18
+      "count": 16
     },
     {
       "label": "Faculty",
@@ -82,7 +82,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 159
+      "count": 153
     },
     {
       "label": "🟡 3-5",
@@ -96,7 +96,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 1
+      "count": 6
     }
   ],
   "agingRecords": [
@@ -110,19 +110,9 @@
           "notionUrl": "https://www.notion.so/de779a0d15284d7fa3558de1c868fb47",
           "owner": "johncalebrese",
           "campus": "Tampa",
-          "stage": "Backlog",
+          "stage": "Recruiter Review",
           "agingBand": "🔴 6+",
           "department": "066200 - WUSF-FM"
-        },
-        {
-          "title": "Athletics Director CRM Business Analytics",
-          "reqId": "44045",
-          "notionUrl": "https://www.notion.so/edd62ee807d54bfa99c91fae83846275",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "HM Review",
-          "agingBand": "🔴 6+",
-          "department": "051000 - Athletic Administration"
         },
         {
           "title": "Office Assistant - Part Time Temporary",
@@ -175,16 +165,6 @@
           "department": "171400 - Teaching & Learning"
         },
         {
-          "title": "Athletics Assistant- FB Strength and Conditioning",
-          "reqId": "44037",
-          "notionUrl": "https://www.notion.so/9887f185135242358bb6f54363caf993",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Offer Stage",
-          "agingBand": "🔴 6+",
-          "department": "051000 - Athletic Administration"
-        },
-        {
           "title": "Transfer Success Specialist",
           "reqId": "44011",
           "notionUrl": "https://www.notion.so/eec0f79238b040029cfc7f060ebecdf3",
@@ -210,7 +190,7 @@
           "notionUrl": "https://www.notion.so/146ef7182be646958af015679cd063dd",
           "owner": "johncalebrese",
           "campus": "Tampa",
-          "stage": "Recruiter Review",
+          "stage": "Offer Stage",
           "agingBand": "🔴 6+",
           "department": "460100 - Innovative Education"
         },
@@ -383,16 +363,6 @@
           "stage": "Offer Stage",
           "agingBand": "🔴 6+",
           "department": "616300 - Health Informatics Institute"
-        },
-        {
-          "title": "Athletics Assistant/Equipment Operations-FB",
-          "reqId": "43954",
-          "notionUrl": "https://www.notion.so/3cd3c2b9c48b41f19e016df02fd20891",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 6+",
-          "department": "051000 - Athletic Administration"
         },
         {
           "title": "International Program Administrator II",
@@ -1065,16 +1035,6 @@
           "department": "210100 - College Of Engineering - Dean"
         },
         {
-          "title": "Project Manager",
-          "reqId": "43195",
-          "notionUrl": "https://www.notion.so/17ec4aa651664e95b1711e33b14cc1de",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 6+",
-          "department": "380000 - Undergrad Stds-Deans Ofc Opera"
-        },
-        {
           "title": "Learning Specialist",
           "reqId": "43358",
           "notionUrl": "https://www.notion.so/86f0979e7dd646348d4e71bc8df786de",
@@ -1253,26 +1213,6 @@
           "stage": "Interview Stage",
           "agingBand": "🔴 6+",
           "department": "Engineering"
-        },
-        {
-          "title": "Athletics Production Service Engineer",
-          "reqId": "43577",
-          "notionUrl": "https://www.notion.so/c4b2ab1eb43b47d38e0431ca9c492b36",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "HM Review",
-          "agingBand": "🔴 6+",
-          "department": "051000 - Athletic Administration"
-        },
-        {
-          "title": "Manager Athletics Production",
-          "reqId": "43573",
-          "notionUrl": "https://www.notion.so/7332b1275e7a4806b340d2ecf2f1f063",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "HM Review",
-          "agingBand": "🔴 6+",
-          "department": "051000 - Athletic Administration"
         },
         {
           "title": "Assistant Director Information Management",
@@ -1706,14 +1646,64 @@
       "color": "#3B6D11",
       "records": [
         {
+          "title": "Athletics Director CRM Business Analytics",
+          "reqId": "44045",
+          "notionUrl": "https://www.notion.so/edd62ee807d54bfa99c91fae83846275",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "051000 - Athletic Administration"
+        },
+        {
+          "title": "Athletics Assistant- FB Strength and Conditioning",
+          "reqId": "44037",
+          "notionUrl": "https://www.notion.so/9887f185135242358bb6f54363caf993",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Offer Stage",
+          "agingBand": "🟢 0–2",
+          "department": "051000 - Athletic Administration"
+        },
+        {
+          "title": "Athletics Assistant/Equipment Operations-FB",
+          "reqId": "43954",
+          "notionUrl": "https://www.notion.so/3cd3c2b9c48b41f19e016df02fd20891",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Pre-boarding",
+          "agingBand": "🟢 0–2",
+          "department": "051000 - Athletic Administration"
+        },
+        {
           "title": "WUSF News Intern (Administrative Clerk)",
           "reqId": "43815",
           "notionUrl": "https://www.notion.so/c45c1de21aa54863a66a286e09e1ea9b",
           "owner": "johncalebrese",
           "campus": "Tampa",
-          "stage": "Recruiter Review",
+          "stage": "Offer Stage",
           "agingBand": "🟢 0–2",
           "department": "066200 - WUSF-FM"
+        },
+        {
+          "title": "Athletics Production Service Engineer",
+          "reqId": "43577",
+          "notionUrl": "https://www.notion.so/c4b2ab1eb43b47d38e0431ca9c492b36",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "051000 - Athletic Administration"
+        },
+        {
+          "title": "Manager Athletics Production",
+          "reqId": "43573",
+          "notionUrl": "https://www.notion.so/7332b1275e7a4806b340d2ecf2f1f063",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "051000 - Athletic Administration"
         }
       ]
     }
@@ -1721,12 +1711,12 @@
   "reqType": [
     {
       "label": "Standard",
-      "count": 324,
+      "count": 322,
       "color": "#006747"
     },
     {
       "label": "Student",
-      "count": 59,
+      "count": 58,
       "color": "#00A693"
     },
     {
@@ -1763,7 +1753,7 @@
     },
     {
       "label": "051000 - Athletic Administration",
-      "count": 19,
+      "count": 17,
       "color": "#CFC483"
     },
     {
@@ -1832,8 +1822,8 @@
       "color": "#006747"
     },
     {
-      "label": "Other (142 depts)",
-      "count": 255,
+      "label": "Other (141 depts)",
+      "count": 254,
       "color": "#c8c7c2"
     }
   ],
@@ -1847,13 +1837,13 @@
     {
       "label": "Recruiter Review",
       "avgDays": 22,
-      "count": 46,
+      "count": 45,
       "color": "#006747"
     },
     {
       "label": "HM Review",
       "avgDays": 21,
-      "count": 31,
+      "count": 28,
       "color": "#534AB7"
     },
     {
@@ -1864,20 +1854,20 @@
     },
     {
       "label": "Offer Stage",
-      "avgDays": 19,
-      "count": 35,
+      "avgDays": 18,
+      "count": 36,
       "color": "#CFC483"
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 30,
-      "count": 10,
+      "avgDays": 22,
+      "count": 8,
       "color": "#5B8FA8"
     },
     {
       "label": "Backlog",
-      "avgDays": 21,
-      "count": 6,
+      "avgDays": 24,
+      "count": 5,
       "color": "#888780"
     }
   ],
@@ -2113,6 +2103,16 @@
       "notionUrl": "https://www.notion.so/8407620ac8064eac840c628d43240d89"
     },
     {
+      "title": "Athletic Senior Director of Production Services",
+      "reqId": "42955",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Filled",
+      "department": "051000 - Athletic Administration",
+      "ttf": 145,
+      "notionUrl": "https://www.notion.so/2198856c7cf24a248ee475b8aaa7ea52"
+    },
+    {
       "title": "Manager, Fiscal & Business Admin",
       "reqId": "42962",
       "owner": "Rebecca",
@@ -2281,6 +2281,26 @@
       "department": "210800 - AICC Bellini College Department",
       "ttf": 112,
       "notionUrl": "https://www.notion.so/7935a925a41c45c2b80f202d0fa517c4"
+    },
+    {
+      "title": "Student Assistant - FWS - Mens Soccer",
+      "reqId": "43188",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Canceled",
+      "department": "051000 - Athletic Administration",
+      "ttf": 112,
+      "notionUrl": "https://www.notion.so/5f09961461aa439eb22876a5537db5bc"
+    },
+    {
+      "title": "Project Manager",
+      "reqId": "43195",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Filled",
+      "department": "380000 - Undergrad Stds-Deans Ofc Opera",
+      "ttf": 111,
+      "notionUrl": "https://www.notion.so/17ec4aa651664e95b1711e33b14cc1de"
     },
     {
       "title": "Operations Manager",
@@ -4529,8 +4549,8 @@
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
       "reqs": 132,
-      "filled": 48,
-      "failed": 8,
+      "filled": 50,
+      "failed": 9,
       "ttf": 79,
       "wip": 10,
       "agingRecords": [
@@ -4544,19 +4564,9 @@
               "notionUrl": "https://www.notion.so/de779a0d15284d7fa3558de1c868fb47",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "Backlog",
+              "stage": "Recruiter Review",
               "agingBand": "🔴 6+",
               "department": "066200 - WUSF-FM"
-            },
-            {
-              "title": "Athletics Director CRM Business Analytics",
-              "reqId": "44045",
-              "notionUrl": "https://www.notion.so/edd62ee807d54bfa99c91fae83846275",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "HM Review",
-              "agingBand": "🔴 6+",
-              "department": "051000 - Athletic Administration"
             },
             {
               "title": "Office Assistant - Part Time Temporary",
@@ -4579,34 +4589,14 @@
               "department": "027900 - Procurement & Payment Services"
             },
             {
-              "title": "Athletics Assistant- FB Strength and Conditioning",
-              "reqId": "44037",
-              "notionUrl": "https://www.notion.so/9887f185135242358bb6f54363caf993",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Offer Stage",
-              "agingBand": "🔴 6+",
-              "department": "051000 - Athletic Administration"
-            },
-            {
               "title": "Fiscal & Business Analyst Senior",
               "reqId": "43980",
               "notionUrl": "https://www.notion.so/146ef7182be646958af015679cd063dd",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "Recruiter Review",
+              "stage": "Offer Stage",
               "agingBand": "🔴 6+",
               "department": "460100 - Innovative Education"
-            },
-            {
-              "title": "Athletics Assistant/Equipment Operations-FB",
-              "reqId": "43954",
-              "notionUrl": "https://www.notion.so/3cd3c2b9c48b41f19e016df02fd20891",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🔴 6+",
-              "department": "051000 - Athletic Administration"
             },
             {
               "title": "International Program Administrator II",
@@ -4859,16 +4849,6 @@
               "department": "210100 - College Of Engineering - Dean"
             },
             {
-              "title": "Project Manager",
-              "reqId": "43195",
-              "notionUrl": "https://www.notion.so/17ec4aa651664e95b1711e33b14cc1de",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🔴 6+",
-              "department": "380000 - Undergrad Stds-Deans Ofc Opera"
-            },
-            {
               "title": "Learning Specialist",
               "reqId": "43358",
               "notionUrl": "https://www.notion.so/86f0979e7dd646348d4e71bc8df786de",
@@ -4897,26 +4877,6 @@
               "stage": "HM Review",
               "agingBand": "🔴 6+",
               "department": "014000 - Office Of Internal Audit"
-            },
-            {
-              "title": "Athletics Production Service Engineer",
-              "reqId": "43577",
-              "notionUrl": "https://www.notion.so/c4b2ab1eb43b47d38e0431ca9c492b36",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "HM Review",
-              "agingBand": "🔴 6+",
-              "department": "051000 - Athletic Administration"
-            },
-            {
-              "title": "Manager Athletics Production",
-              "reqId": "43573",
-              "notionUrl": "https://www.notion.so/7332b1275e7a4806b340d2ecf2f1f063",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "HM Review",
-              "agingBand": "🔴 6+",
-              "department": "051000 - Athletic Administration"
             },
             {
               "title": "Assistant Director Information Management",
@@ -5000,14 +4960,64 @@
           "color": "#3B6D11",
           "records": [
             {
+              "title": "Athletics Director CRM Business Analytics",
+              "reqId": "44045",
+              "notionUrl": "https://www.notion.so/edd62ee807d54bfa99c91fae83846275",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "051000 - Athletic Administration"
+            },
+            {
+              "title": "Athletics Assistant- FB Strength and Conditioning",
+              "reqId": "44037",
+              "notionUrl": "https://www.notion.so/9887f185135242358bb6f54363caf993",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Offer Stage",
+              "agingBand": "🟢 0–2",
+              "department": "051000 - Athletic Administration"
+            },
+            {
+              "title": "Athletics Assistant/Equipment Operations-FB",
+              "reqId": "43954",
+              "notionUrl": "https://www.notion.so/3cd3c2b9c48b41f19e016df02fd20891",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Pre-boarding",
+              "agingBand": "🟢 0–2",
+              "department": "051000 - Athletic Administration"
+            },
+            {
               "title": "WUSF News Intern (Administrative Clerk)",
               "reqId": "43815",
               "notionUrl": "https://www.notion.so/c45c1de21aa54863a66a286e09e1ea9b",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "Recruiter Review",
+              "stage": "Offer Stage",
               "agingBand": "🟢 0–2",
               "department": "066200 - WUSF-FM"
+            },
+            {
+              "title": "Athletics Production Service Engineer",
+              "reqId": "43577",
+              "notionUrl": "https://www.notion.so/c4b2ab1eb43b47d38e0431ca9c492b36",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "051000 - Athletic Administration"
+            },
+            {
+              "title": "Manager Athletics Production",
+              "reqId": "43573",
+              "notionUrl": "https://www.notion.so/7332b1275e7a4806b340d2ecf2f1f063",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "051000 - Athletic Administration"
             }
           ]
         }
@@ -5016,13 +5026,13 @@
         {
           "label": "Recruiter Review",
           "avgDays": 13,
-          "count": 7,
+          "count": 6,
           "color": "#006747"
         },
         {
           "label": "HM Review",
           "avgDays": 12,
-          "count": 6,
+          "count": 3,
           "color": "#534AB7"
         },
         {
@@ -5033,33 +5043,33 @@
         },
         {
           "label": "Offer Stage",
-          "avgDays": 10,
-          "count": 4,
+          "avgDays": 9,
+          "count": 5,
           "color": "#CFC483"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 30,
-          "count": 10,
+          "avgDays": 22,
+          "count": 8,
           "color": "#5B8FA8"
         },
         {
           "label": "Backlog",
-          "avgDays": 15,
-          "count": 4,
+          "avgDays": 17,
+          "count": 3,
           "color": "#888780"
         }
       ],
       "statuses": [
         {
           "label": "Student Hiring",
-          "count": 20,
+          "count": 16,
           "color": "#0F6E56"
         },
         {
-          "label": "Backlog",
-          "count": 4,
-          "color": "#888780"
+          "label": "Recruiter Review",
+          "count": 6,
+          "color": "#185FA5"
         },
         {
           "label": "HM Review",
@@ -5067,18 +5077,18 @@
           "color": "#993556"
         },
         {
-          "label": "Recruiter Review",
-          "count": 7,
-          "color": "#185FA5"
-        },
-        {
           "label": "Offer Stage",
-          "count": 8,
+          "count": 13,
           "color": "#0F6E56"
         },
         {
           "label": "Pre-boarding",
-          "count": 16,
+          "count": 14,
+          "color": "#888780"
+        },
+        {
+          "label": "Backlog",
+          "count": 3,
           "color": "#888780"
         },
         {
@@ -5093,7 +5103,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 43
+          "count": 37
         },
         {
           "label": "🟡 3-5",
@@ -5107,13 +5117,13 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 1
+          "count": 6
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 76
+          "count": 73
         },
         {
           "label": "Screened",
@@ -5129,13 +5139,13 @@
         },
         {
           "label": "Offer",
-          "count": 8
+          "count": 13
         }
       ],
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 48,
+          "value": 50,
           "target": 10,
           "invert": false
         },
