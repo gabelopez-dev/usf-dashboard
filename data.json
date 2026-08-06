@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-08-06T12:03:58.112Z",
+  "lastUpdated": "2026-08-06T14:54:12.389Z",
   "summary": {
-    "openReqs": 576,
+    "openReqs": 573,
     "avgTimeToFill": 91,
-    "filledYTD": 125,
-    "failedCancelled": 31,
-    "inOfferStage": 48
+    "filledYTD": 127,
+    "failedCancelled": 32,
+    "inOfferStage": 47
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 273,
+      "count": 270,
       "color": "#1B6A9C"
     },
     {
@@ -45,7 +45,7 @@
     },
     {
       "label": "Offer Stage",
-      "count": 48
+      "count": 47
     },
     {
       "label": "Student Hiring",
@@ -64,12 +64,12 @@
       "count": 16
     },
     {
-      "label": "Pre-boarding",
-      "count": 15
-    },
-    {
       "label": "Targeted",
       "count": 14
+    },
+    {
+      "label": "Pre-boarding",
+      "count": 13
     },
     {
       "label": "Sourced",
@@ -82,7 +82,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 173
+      "count": 169
     },
     {
       "label": "🟡 3-5",
@@ -755,36 +755,6 @@
           "department": "047700 - Career & Professional Dev"
         },
         {
-          "title": "LGI & PSL - OPS",
-          "reqId": "43691",
-          "notionUrl": "https://www.notion.so/f789ffe64f21455385df1716abdf4237",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 6+",
-          "department": "045000 - Campus Recreation"
-        },
-        {
-          "title": "LGI & PSL - OPS",
-          "reqId": "43693",
-          "notionUrl": "https://www.notion.so/8b36b453b7764f328e7260c0d1d55865",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 6+",
-          "department": "045000 - Campus Recreation"
-        },
-        {
-          "title": "LGI & PSL - OPS",
-          "reqId": "43695",
-          "notionUrl": "https://www.notion.so/d52fbe7071e94947872d10ed63e2ea8d",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 6+",
-          "department": "045000 - Campus Recreation"
-        },
-        {
           "title": "Fiscal & Business Specialist",
           "reqId": "43880",
           "notionUrl": "https://www.notion.so/063158caa3ca4f73aa16513c575e40c7",
@@ -983,16 +953,6 @@
           "stage": "Interview Stage",
           "agingBand": "🔴 6+",
           "department": "STP Student Affairs"
-        },
-        {
-          "title": "Assistant Director of Small Business Development Center",
-          "reqId": "43900",
-          "notionUrl": "https://www.notion.so/a3255042eb054f188198cbb0c204abff",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Interview Stage",
-          "agingBand": "🔴 6+",
-          "department": "MUMA"
         },
         {
           "title": "Academic Program Specialist",
@@ -1230,7 +1190,7 @@
           "notionUrl": "https://www.notion.so/38f9ddf757a08063827ecc3530163a97",
           "owner": "johncalebrese",
           "campus": "Tampa",
-          "stage": "Offer Stage",
+          "stage": "Pre-boarding",
           "agingBand": "🔴 6+",
           "department": "027900 - Procurement & Payment Services"
         },
@@ -1982,7 +1942,7 @@
   "reqType": [
     {
       "label": "Standard",
-      "count": 347,
+      "count": 344,
       "color": "#006747"
     },
     {
@@ -2098,8 +2058,8 @@
       "color": "#1B6A9C"
     },
     {
-      "label": "Other (148 depts)",
-      "count": 271,
+      "label": "Other (147 depts)",
+      "count": 268,
       "color": "#c8c7c2"
     }
   ],
@@ -2131,13 +2091,13 @@
     {
       "label": "Offer Stage",
       "avgDays": 19,
-      "count": 37,
+      "count": 36,
       "color": "#CFC483"
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 22,
-      "count": 8,
+      "avgDays": 24,
+      "count": 6,
       "color": "#5B8FA8"
     },
     {
@@ -3457,6 +3417,36 @@
       "department": "051000 - Athletic Administration",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/30825688fc9c4918a87b390fc875f4c0"
+    },
+    {
+      "title": "LGI & PSL - OPS",
+      "reqId": "43691",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Failed Search",
+      "department": "045000 - Campus Recreation",
+      "ttf": 0,
+      "notionUrl": "https://www.notion.so/f789ffe64f21455385df1716abdf4237"
+    },
+    {
+      "title": "LGI & PSL - OPS",
+      "reqId": "43693",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Filled",
+      "department": "045000 - Campus Recreation",
+      "ttf": 0,
+      "notionUrl": "https://www.notion.so/8b36b453b7764f328e7260c0d1d55865"
+    },
+    {
+      "title": "LGI & PSL - OPS",
+      "reqId": "43695",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Filled",
+      "department": "045000 - Campus Recreation",
+      "ttf": 0,
+      "notionUrl": "https://www.notion.so/d52fbe7071e94947872d10ed63e2ea8d"
     },
     {
       "title": "Research Support Assistant - Mechanical Engineering",
@@ -5143,8 +5133,8 @@
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
       "reqs": 132,
-      "filled": 51,
-      "failed": 9,
+      "filled": 53,
+      "failed": 10,
       "ttf": 79,
       "wip": 10,
       "agingRecords": [
@@ -5318,27 +5308,7 @@
               "notionUrl": "https://www.notion.so/f789ffe64f21455385df1716abdf4237",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🔴 6+",
-              "department": "045000 - Campus Recreation"
-            },
-            {
-              "title": "LGI & PSL - OPS",
-              "reqId": "43693",
-              "notionUrl": "https://www.notion.so/8b36b453b7764f328e7260c0d1d55865",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🔴 6+",
-              "department": "045000 - Campus Recreation"
-            },
-            {
-              "title": "LGI & PSL - OPS",
-              "reqId": "43695",
-              "notionUrl": "https://www.notion.so/d52fbe7071e94947872d10ed63e2ea8d",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
+              "stage": "Failed Search",
               "agingBand": "🔴 6+",
               "department": "045000 - Campus Recreation"
             },
@@ -5428,7 +5398,7 @@
               "notionUrl": "https://www.notion.so/38f9ddf757a08063827ecc3530163a97",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "Offer Stage",
+              "stage": "Pre-boarding",
               "agingBand": "🔴 6+",
               "department": "027900 - Procurement & Payment Services"
             },
@@ -5629,13 +5599,13 @@
         {
           "label": "Offer Stage",
           "avgDays": 8,
-          "count": 6,
+          "count": 5,
           "color": "#CFC483"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 22,
-          "count": 8,
+          "avgDays": 24,
+          "count": 6,
           "color": "#5B8FA8"
         },
         {
@@ -5663,12 +5633,12 @@
         },
         {
           "label": "Offer Stage",
-          "count": 13,
+          "count": 12,
           "color": "#0F6E56"
         },
         {
           "label": "Pre-boarding",
-          "count": 13,
+          "count": 11,
           "color": "#888780"
         },
         {
@@ -5688,7 +5658,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 36
+          "count": 33
         },
         {
           "label": "🟡 3-5",
@@ -5708,7 +5678,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 72
+          "count": 69
         },
         {
           "label": "Screened",
@@ -5724,13 +5694,13 @@
         },
         {
           "label": "Offer",
-          "count": 13
+          "count": 12
         }
       ],
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 51,
+          "value": 53,
           "target": 10,
           "invert": false
         },
@@ -5879,16 +5849,6 @@
               "stage": "Interview Stage",
               "agingBand": "🔴 6+",
               "department": "STP Student Affairs"
-            },
-            {
-              "title": "Assistant Director of Small Business Development Center",
-              "reqId": "43900",
-              "notionUrl": "https://www.notion.so/a3255042eb054f188198cbb0c204abff",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Interview Stage",
-              "agingBand": "🔴 6+",
-              "department": "MUMA"
             },
             {
               "title": "Academic Program Specialist",
@@ -6193,7 +6153,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 29
+          "count": 28
         },
         {
           "label": "🟡 3-5",
