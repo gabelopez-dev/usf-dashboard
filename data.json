@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-08-07T14:32:36.558Z",
+  "lastUpdated": "2026-08-07T17:00:41.915Z",
   "summary": {
-    "openReqs": 573,
+    "openReqs": 574,
     "avgTimeToFill": 92,
     "filledYTD": 127,
     "failedCancelled": 32,
-    "inOfferStage": 46
+    "inOfferStage": 47
   },
   "campus": [
     {
@@ -45,7 +45,7 @@
     },
     {
       "label": "Offer Stage",
-      "count": 46
+      "count": 47
     },
     {
       "label": "Student Hiring",
@@ -82,7 +82,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 170
+      "count": 169
     },
     {
       "label": "🟡 3-5",
@@ -1055,16 +1055,6 @@
           "department": "MUMA"
         },
         {
-          "title": "Senior Research Scientist",
-          "reqId": "43681",
-          "notionUrl": "https://www.notion.so/c854a11c60a14df5852e0cbf0069c653",
-          "owner": "Rebecca",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "614400 - Molecular Medicine"
-        },
-        {
           "title": "Academic Advisor I ",
           "reqId": "43719",
           "notionUrl": "https://www.notion.so/99ecc3530d9348958159d791ba69bbda",
@@ -1957,7 +1947,7 @@
     },
     {
       "label": "Student",
-      "count": 58,
+      "count": 59,
       "color": "#00A693"
     },
     {
@@ -4466,16 +4456,6 @@
               "department": "600100 - Health Sciences"
             },
             {
-              "title": "Senior Research Scientist",
-              "reqId": "43681",
-              "notionUrl": "https://www.notion.so/c854a11c60a14df5852e0cbf0069c653",
-              "owner": "Rebecca",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "614400 - Molecular Medicine"
-            },
-            {
               "title": "Associate Director of Clinical Research Operations",
               "reqId": "43768",
               "notionUrl": "https://www.notion.so/38f9ddf757a0802fa440ff927aa68147",
@@ -5060,7 +5040,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 94
+          "count": 93
         },
         {
           "label": "🟡 3-5",
@@ -5750,11 +5730,11 @@
       "bgLight": "#e6f2ed",
       "bgDark": "#042e24",
       "campus": "St Pete / Tampa",
-      "reqs": 136,
+      "reqs": 137,
       "filled": 21,
       "failed": 1,
       "ttf": 78,
-      "wip": 5,
+      "wip": 6,
       "agingRecords": [
         {
           "band": "🔴 6+",
@@ -6117,8 +6097,13 @@
       ],
       "statuses": [
         {
+          "label": "Student Hiring",
+          "count": 13,
+          "color": "#0F6E56"
+        },
+        {
           "label": "Offer Stage",
-          "count": 12,
+          "count": 13,
           "color": "#0F6E56"
         },
         {
@@ -6145,11 +6130,6 @@
           "label": "Targeted",
           "count": 13,
           "color": "#888780"
-        },
-        {
-          "label": "Student Hiring",
-          "count": 13,
-          "color": "#0F6E56"
         },
         {
           "label": "Faculty",
@@ -6193,7 +6173,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 81
+          "count": 82
         },
         {
           "label": "Screened",
@@ -6209,7 +6189,7 @@
         },
         {
           "label": "Offer",
-          "count": 12
+          "count": 13
         }
       ],
       "goals": [
@@ -6228,13 +6208,13 @@
         {
           "label": "Screened",
           "value": 0,
-          "target": 136,
+          "target": 137,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 11,
-          "target": 136,
+          "target": 137,
           "invert": false
         }
       ],
