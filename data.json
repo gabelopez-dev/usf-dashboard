@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T14:15:27.618Z",
+  "lastUpdated": "2026-08-07T14:32:36.558Z",
   "summary": {
     "openReqs": 573,
     "avgTimeToFill": 92,
@@ -3945,7 +3945,7 @@
       "bgLight": "#e0f5f3",
       "bgDark": "#3d2504",
       "campus": "Tampa",
-      "reqs": 339,
+      "reqs": 338,
       "filled": 52,
       "failed": 21,
       "ttf": 104,
@@ -5030,7 +5030,7 @@
         },
         {
           "label": "Student Hiring",
-          "count": 9,
+          "count": 8,
           "color": "#0F6E56"
         },
         {
@@ -5080,7 +5080,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 266
+          "count": 265
         },
         {
           "label": "Screened",
@@ -5115,13 +5115,13 @@
         {
           "label": "Screened",
           "value": 0,
-          "target": 339,
+          "target": 338,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 1,
-          "target": 339,
+          "target": 338,
           "invert": false
         }
       ],
@@ -5750,7 +5750,7 @@
       "bgLight": "#e6f2ed",
       "bgDark": "#042e24",
       "campus": "St Pete / Tampa",
-      "reqs": 135,
+      "reqs": 136,
       "filled": 21,
       "failed": 1,
       "ttf": 78,
@@ -6148,7 +6148,7 @@
         },
         {
           "label": "Student Hiring",
-          "count": 12,
+          "count": 13,
           "color": "#0F6E56"
         },
         {
@@ -6193,7 +6193,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 80
+          "count": 81
         },
         {
           "label": "Screened",
@@ -6228,13 +6228,13 @@
         {
           "label": "Screened",
           "value": 0,
-          "target": 135,
+          "target": 136,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 11,
-          "target": 135,
+          "target": 136,
           "invert": false
         }
       ],
