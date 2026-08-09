@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-09T06:08:50.020Z",
+  "lastUpdated": "2026-08-09T07:33:16.132Z",
   "summary": {
     "openReqs": 574,
     "avgTimeToFill": 93,
@@ -82,14 +82,14 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 174
+      "count": 173
     },
     {
       "label": "🟡 3-5",
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 9
+      "count": 8
     },
     {
       "label": "🟢 0–2",
@@ -293,16 +293,6 @@
           "stage": "Backlog",
           "agingBand": "🔴 6+",
           "department": "612900 - Dept Of Neuros"
-        },
-        {
-          "title": "Administrative Specialist",
-          "reqId": "44102",
-          "notionUrl": "https://www.notion.so/02bad5fd33164908b9a1c404d8cf54c3",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Backlog",
-          "agingBand": "🔴 6+",
-          "department": "611900 - Department Of"
         },
         {
           "title": "Student Assistant - Feder",
@@ -1924,16 +1914,6 @@
           "title": "Athletics Production Service Engineer",
           "reqId": "43577",
           "notionUrl": "https://www.notion.so/c4b2ab1eb43b47d38e0431ca9c492b36",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "HM Review",
-          "agingBand": "🟡 3–5",
-          "department": "051000 - Athletic Administration"
-        },
-        {
-          "title": "Manager Athletics Production",
-          "reqId": "43573",
-          "notionUrl": "https://www.notion.so/7332b1275e7a4806b340d2ecf2f1f063",
           "owner": "johncalebrese",
           "campus": "Tampa",
           "stage": "HM Review",
@@ -4145,16 +4125,6 @@
               "department": "612900 - Dept Of Neuros"
             },
             {
-              "title": "Administrative Specialist",
-              "reqId": "44102",
-              "notionUrl": "https://www.notion.so/02bad5fd33164908b9a1c404d8cf54c3",
-              "owner": "Rebecca",
-              "campus": "",
-              "stage": "Backlog",
-              "agingBand": "🔴 6+",
-              "department": "611900 - Department Of"
-            },
-            {
               "title": "Student Assistant - Feder",
               "reqId": "44104",
               "notionUrl": "https://www.notion.so/4a06755c0cce40f390579ad084df3803",
@@ -5058,7 +5028,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 97
+          "count": 96
         },
         {
           "label": "🟡 3-5",
@@ -5565,16 +5535,6 @@
               "stage": "HM Review",
               "agingBand": "🟡 3–5",
               "department": "051000 - Athletic Administration"
-            },
-            {
-              "title": "Manager Athletics Production",
-              "reqId": "43573",
-              "notionUrl": "https://www.notion.so/7332b1275e7a4806b340d2ecf2f1f063",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "HM Review",
-              "agingBand": "🟡 3–5",
-              "department": "051000 - Athletic Administration"
             }
           ]
         },
@@ -5672,7 +5632,7 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 5
+          "count": 4
         },
         {
           "label": "🟢 0–2",
