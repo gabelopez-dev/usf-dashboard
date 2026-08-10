@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-08-10T18:24:18.028Z",
+  "lastUpdated": "2026-08-10T19:31:44.247Z",
   "summary": {
-    "openReqs": 587,
+    "openReqs": 586,
     "avgTimeToFill": 93,
-    "filledYTD": 134,
+    "filledYTD": 135,
     "failedCancelled": 32,
     "inOfferStage": 50
   },
@@ -20,7 +20,7 @@
     },
     {
       "label": "USF Health",
-      "count": 200,
+      "count": 199,
       "color": "#00A693"
     },
     {
@@ -41,7 +41,7 @@
     },
     {
       "label": "HM Review",
-      "count": 163
+      "count": 162
     },
     {
       "label": "Offer Stage",
@@ -82,7 +82,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 183
+      "count": 182
     },
     {
       "label": "🟡 3-5",
@@ -96,7 +96,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 4
+      "count": 5
     }
   ],
   "agingRecords": [
@@ -1405,16 +1405,6 @@
           "department": "STP Parking Services"
         },
         {
-          "title": "Contract Financial Analyst I",
-          "reqId": "43667",
-          "notionUrl": "https://www.notion.so/9e2a758823804c93b31beb55cee8d61b",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Interview Stage",
-          "agingBand": "🔴 6+",
-          "department": "Florida Inst of Oceanography"
-        },
-        {
           "title": "Graphic Designer",
           "reqId": "43732",
           "notionUrl": "https://www.notion.so/c0f94fabea3d41f7b6b4fc7982095677",
@@ -2067,6 +2057,16 @@
           "department": "MUMA"
         },
         {
+          "title": "Contract Financial Analyst I",
+          "reqId": "43667",
+          "notionUrl": "https://www.notion.so/9e2a758823804c93b31beb55cee8d61b",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Interview Stage",
+          "agingBand": "🟢 0–2",
+          "department": "Florida Inst of Oceanography"
+        },
+        {
           "title": "Preschool Teacher",
           "reqId": "43763",
           "notionUrl": "https://www.notion.so/ac43a0376f864f8eae907da516a314f3",
@@ -2082,7 +2082,7 @@
   "reqType": [
     {
       "label": "Standard",
-      "count": 351,
+      "count": 350,
       "color": "#006747"
     },
     {
@@ -2109,7 +2109,7 @@
   "department": [
     {
       "label": "USF Health",
-      "count": 120,
+      "count": 119,
       "color": "#006747"
     },
     {
@@ -2230,7 +2230,7 @@
     {
       "label": "Interview Stage",
       "avgDays": 20,
-      "count": 22,
+      "count": 21,
       "color": "#d4880a"
     },
     {
@@ -2812,6 +2812,16 @@
       "department": "260000 - Honors College",
       "ttf": 109,
       "notionUrl": "https://www.notion.so/b623843d0abf4a018e352aa17d9182e5"
+    },
+    {
+      "title": "Research Technician",
+      "reqId": "43269",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Filled",
+      "department": "USF Health",
+      "ttf": 109,
+      "notionUrl": "https://www.notion.so/d0fe09e855ce457699b707cc2e190d7a"
     },
     {
       "title": "Broadcast Account Executive",
@@ -4151,7 +4161,7 @@
       "bgDark": "#3d2504",
       "campus": "Tampa",
       "reqs": 338,
-      "filled": 59,
+      "filled": 60,
       "failed": 21,
       "ttf": 106,
       "wip": 9,
@@ -5229,7 +5239,7 @@
         },
         {
           "label": "HM Review",
-          "count": 152,
+          "count": 151,
           "color": "#993556"
         },
         {
@@ -5284,7 +5294,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 258
+          "count": 257
         },
         {
           "label": "Screened",
@@ -5292,7 +5302,7 @@
         },
         {
           "label": "HM Review",
-          "count": 152
+          "count": 151
         },
         {
           "label": "Interviews",
@@ -5306,7 +5316,7 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 59,
+          "value": 60,
           "target": 10,
           "invert": false
         },
@@ -6204,16 +6214,6 @@
               "department": "STP Parking Services"
             },
             {
-              "title": "Contract Financial Analyst I",
-              "reqId": "43667",
-              "notionUrl": "https://www.notion.so/9e2a758823804c93b31beb55cee8d61b",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Interview Stage",
-              "agingBand": "🔴 6+",
-              "department": "Florida Inst of Oceanography"
-            },
-            {
               "title": "Marine Captain",
               "reqId": "43711",
               "notionUrl": "https://www.notion.so/9bdf11df472f445b8e8a375bbc2a6596",
@@ -6406,6 +6406,16 @@
               "department": "MUMA"
             },
             {
+              "title": "Contract Financial Analyst I",
+              "reqId": "43667",
+              "notionUrl": "https://www.notion.so/9e2a758823804c93b31beb55cee8d61b",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Interview Stage",
+              "agingBand": "🟢 0–2",
+              "department": "Florida Inst of Oceanography"
+            },
+            {
               "title": "Preschool Teacher",
               "reqId": "43763",
               "notionUrl": "https://www.notion.so/ac43a0376f864f8eae907da516a314f3",
@@ -6439,8 +6449,8 @@
         },
         {
           "label": "Interview Stage",
-          "avgDays": 22,
-          "count": 9,
+          "avgDays": 23,
+          "count": 8,
           "color": "#d4880a"
         },
         {
@@ -6514,7 +6524,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 35
+          "count": 34
         },
         {
           "label": "🟡 3-5",
@@ -6528,7 +6538,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 4
+          "count": 5
         }
       ],
       "funnel": [
