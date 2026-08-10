@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-08-10T16:01:14.635Z",
+  "lastUpdated": "2026-08-10T17:26:08.370Z",
   "summary": {
-    "openReqs": 594,
+    "openReqs": 590,
     "avgTimeToFill": 93,
-    "filledYTD": 127,
+    "filledYTD": 131,
     "failedCancelled": 32,
     "inOfferStage": 50
   },
@@ -20,7 +20,7 @@
     },
     {
       "label": "USF Health",
-      "count": 207,
+      "count": 203,
       "color": "#00A693"
     },
     {
@@ -41,7 +41,7 @@
     },
     {
       "label": "HM Review",
-      "count": 170
+      "count": 166
     },
     {
       "label": "Offer Stage",
@@ -2082,7 +2082,7 @@
   "reqType": [
     {
       "label": "Standard",
-      "count": 357,
+      "count": 353,
       "color": "#006747"
     },
     {
@@ -2109,7 +2109,7 @@
   "department": [
     {
       "label": "USF Health",
-      "count": 127,
+      "count": 123,
       "color": "#006747"
     },
     {
@@ -2404,6 +2404,26 @@
       "notionUrl": "https://www.notion.so/f9424f52e98040d693ebc67e2604ae2e"
     },
     {
+      "title": "Healthcare Risk Manager",
+      "reqId": "42668",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Filled",
+      "department": "USF Health",
+      "ttf": 180,
+      "notionUrl": "https://www.notion.so/6fd3b02e722347ccbb4dbf99c1363a55"
+    },
+    {
+      "title": "Temporary Research Technician",
+      "reqId": "42765",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Filled",
+      "department": "USF Health",
+      "ttf": 173,
+      "notionUrl": "https://www.notion.so/d7b75a0a34544b509b86fbb68211eaa6"
+    },
+    {
       "title": "Division Administrator",
       "reqId": "42028",
       "owner": "Rebecca",
@@ -2432,6 +2452,16 @@
       "department": "MUMA",
       "ttf": 161,
       "notionUrl": "https://www.notion.so/dd24b580669a48a3a13700917732d386"
+    },
+    {
+      "title": "Athletic Trainer - Football",
+      "reqId": "42865",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Hired",
+      "department": "USF Health",
+      "ttf": 161,
+      "notionUrl": "https://www.notion.so/3da40f0d0c144076a54bab06d1798f44"
     },
     {
       "title": "Post-Masters Fellow",
@@ -2472,6 +2502,16 @@
       "department": "USF Health",
       "ttf": 158,
       "notionUrl": "https://www.notion.so/fe91eb6ccb2e45d586b634c01e577816"
+    },
+    {
+      "title": "Data Analyst & Research Compliance Specialist",
+      "reqId": "42903",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Filled",
+      "department": "USF Health",
+      "ttf": 157,
+      "notionUrl": "https://www.notion.so/d859ecbebe4f4cada0a60e09d9200585"
     },
     {
       "title": "Research Lab Technician",
@@ -4081,7 +4121,7 @@
       "bgDark": "#3d2504",
       "campus": "Tampa",
       "reqs": 338,
-      "filled": 52,
+      "filled": 56,
       "failed": 21,
       "ttf": 106,
       "wip": 9,
@@ -5159,7 +5199,7 @@
         },
         {
           "label": "HM Review",
-          "count": 159,
+          "count": 155,
           "color": "#993556"
         },
         {
@@ -5214,7 +5254,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 265
+          "count": 261
         },
         {
           "label": "Screened",
@@ -5222,7 +5262,7 @@
         },
         {
           "label": "HM Review",
-          "count": 159
+          "count": 155
         },
         {
           "label": "Interviews",
@@ -5236,7 +5276,7 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 52,
+          "value": 56,
           "target": 10,
           "invert": false
         },
