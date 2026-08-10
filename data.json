@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T20:44:29.870Z",
+  "lastUpdated": "2026-08-10T21:43:22.153Z",
   "summary": {
     "openReqs": 591,
     "avgTimeToFill": 90,
@@ -37,11 +37,11 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 221
+      "count": 220
     },
     {
       "label": "HM Review",
-      "count": 167
+      "count": 169
     },
     {
       "label": "Offer Stage",
@@ -53,7 +53,7 @@
     },
     {
       "label": "Backlog",
-      "count": 33
+      "count": 32
     },
     {
       "label": "Interview Stage",
@@ -89,7 +89,7 @@
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 11
+      "count": 10
     },
     {
       "label": "🟢 0–2",
@@ -330,7 +330,7 @@
           "notionUrl": "https://www.notion.so/0f5ca7e67fd245658e5d034b6f74bdef",
           "owner": "Rebecca",
           "campus": "",
-          "stage": "Recruiter Review",
+          "stage": "HM Review",
           "agingBand": "🔴 6+",
           "department": "612000 - Department Of"
         },
@@ -340,7 +340,7 @@
           "notionUrl": "https://www.notion.so/6bc974fac569469c8701279cd14e088a",
           "owner": "Rebecca",
           "campus": "",
-          "stage": "Backlog",
+          "stage": "HM Review",
           "agingBand": "🔴 6+",
           "department": "600105 - Health Sciences"
         },
@@ -1931,16 +1931,6 @@
       "color": "#BA7517",
       "records": [
         {
-          "title": "Athletic Trainer - Tennis",
-          "reqId": "44130",
-          "notionUrl": "https://www.notion.so/442f50c1e70d406982fd79d37db3a224",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "agingBand": "🟡 3–5",
-          "department": "611700 - Department Of"
-        },
-        {
           "title": "Project Manager II",
           "reqId": "44129",
           "notionUrl": "https://www.notion.so/0159d0ca8e474e309f13ef338a083cc8",
@@ -2132,7 +2122,7 @@
   "reqType": [
     {
       "label": "Standard",
-      "count": 353,
+      "count": 354,
       "color": "#006747"
     },
     {
@@ -2268,13 +2258,13 @@
     {
       "label": "Recruiter Review",
       "avgDays": 20,
-      "count": 74,
+      "count": 73,
       "color": "#006747"
     },
     {
       "label": "HM Review",
-      "avgDays": 23,
-      "count": 37,
+      "avgDays": 22,
+      "count": 39,
       "color": "#534AB7"
     },
     {
@@ -2297,8 +2287,8 @@
     },
     {
       "label": "Backlog",
-      "avgDays": 16,
-      "count": 13,
+      "avgDays": 17,
+      "count": 12,
       "color": "#888780"
     }
   ],
@@ -4426,7 +4416,7 @@
               "notionUrl": "https://www.notion.so/0f5ca7e67fd245658e5d034b6f74bdef",
               "owner": "Rebecca",
               "campus": "",
-              "stage": "Recruiter Review",
+              "stage": "HM Review",
               "agingBand": "🔴 6+",
               "department": "612000 - Department Of"
             },
@@ -4436,7 +4426,7 @@
               "notionUrl": "https://www.notion.so/6bc974fac569469c8701279cd14e088a",
               "owner": "Rebecca",
               "campus": "",
-              "stage": "Backlog",
+              "stage": "HM Review",
               "agingBand": "🔴 6+",
               "department": "600105 - Health Sciences"
             },
@@ -5297,16 +5287,6 @@
           "color": "#BA7517",
           "records": [
             {
-              "title": "Athletic Trainer - Tennis",
-              "reqId": "44130",
-              "notionUrl": "https://www.notion.so/442f50c1e70d406982fd79d37db3a224",
-              "owner": "Rebecca",
-              "campus": "",
-              "stage": "Recruiter Review",
-              "agingBand": "🟡 3–5",
-              "department": "611700 - Department Of"
-            },
-            {
               "title": "Project Manager II",
               "reqId": "44129",
               "notionUrl": "https://www.notion.so/0159d0ca8e474e309f13ef338a083cc8",
@@ -5375,13 +5355,13 @@
         {
           "label": "Recruiter Review",
           "avgDays": 19,
-          "count": 42,
+          "count": 41,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 26,
-          "count": 27,
+          "avgDays": 25,
+          "count": 29,
           "color": "#534AB7"
         },
         {
@@ -5392,25 +5372,25 @@
         },
         {
           "label": "Backlog",
-          "avgDays": 8,
-          "count": 7,
+          "avgDays": 7,
+          "count": 6,
           "color": "#888780"
         }
       ],
       "statuses": [
         {
           "label": "Recruiter Review",
-          "count": 49,
+          "count": 48,
           "color": "#185FA5"
         },
         {
           "label": "Backlog",
-          "count": 16,
+          "count": 15,
           "color": "#888780"
         },
         {
           "label": "HM Review",
-          "count": 156,
+          "count": 158,
           "color": "#993556"
         },
         {
@@ -5452,7 +5432,7 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 3
+          "count": 2
         },
         {
           "label": "🟢 0–2",
@@ -5473,7 +5453,7 @@
         },
         {
           "label": "HM Review",
-          "count": 156
+          "count": 158
         },
         {
           "label": "Interviews",
@@ -6780,7 +6760,7 @@
       "reqs": 125,
       "filled": 0,
       "failed": 0,
-      "ttf": 66,
+      "ttf": 67,
       "wip": 0,
       "agingRecords": [
         {
@@ -6929,7 +6909,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 66,
+          "value": 67,
           "target": 40,
           "invert": true
         },
@@ -6947,12 +6927,12 @@
         }
       ],
       "trend": [
-        66,
-        66,
-        66,
-        66,
-        66,
-        66
+        67,
+        67,
+        67,
+        67,
+        67,
+        67
       ]
     }
   ]
