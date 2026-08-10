@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-08-10T13:13:48.634Z",
+  "lastUpdated": "2026-08-10T14:37:04.962Z",
   "summary": {
     "openReqs": 574,
     "avgTimeToFill": 94,
     "filledYTD": 127,
     "failedCancelled": 32,
-    "inOfferStage": 47
+    "inOfferStage": 48
   },
   "campus": [
     {
@@ -41,11 +41,11 @@
     },
     {
       "label": "HM Review",
-      "count": 170
+      "count": 169
     },
     {
       "label": "Offer Stage",
-      "count": 47
+      "count": 48
     },
     {
       "label": "Student Hiring",
@@ -82,21 +82,21 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 177
+      "count": 176
     },
     {
       "label": "🟡 3-5",
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 6
+      "count": 5
     },
     {
       "label": "🟢 0–2",
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 0
+      "count": 1
     }
   ],
   "agingRecords": [
@@ -1025,16 +1025,6 @@
           "department": "MUMA"
         },
         {
-          "title": "Academic Program Specialist",
-          "reqId": "43901",
-          "notionUrl": "https://www.notion.so/3e0432ca9bd4433bbb2bcfda05833c44",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "HM Review",
-          "agingBand": "🔴 6+",
-          "department": "MUMA"
-        },
-        {
           "title": "Program Manager",
           "reqId": "43875",
           "notionUrl": "https://www.notion.so/08b522c9248e4f00a71764678aa2028a",
@@ -1929,23 +1919,24 @@
           "stage": "HM Review",
           "agingBand": "🟡 3–5",
           "department": "051000 - Athletic Administration"
-        },
-        {
-          "title": "Manager Athletics Production",
-          "reqId": "43573",
-          "notionUrl": "https://www.notion.so/7332b1275e7a4806b340d2ecf2f1f063",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "HM Review",
-          "agingBand": "🟡 3–5",
-          "department": "051000 - Athletic Administration"
         }
       ]
     },
     {
       "band": "🟢 0–2",
       "color": "#3B6D11",
-      "records": []
+      "records": [
+        {
+          "title": "Academic Program Specialist",
+          "reqId": "43901",
+          "notionUrl": "https://www.notion.so/3e0432ca9bd4433bbb2bcfda05833c44",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Offer Stage",
+          "agingBand": "🟢 0–2",
+          "department": "MUMA"
+        }
+      ]
     }
   ],
   "reqType": [
@@ -2087,8 +2078,8 @@
     },
     {
       "label": "HM Review",
-      "avgDays": 24,
-      "count": 31,
+      "avgDays": 25,
+      "count": 30,
       "color": "#534AB7"
     },
     {
@@ -5565,16 +5556,6 @@
               "stage": "HM Review",
               "agingBand": "🟡 3–5",
               "department": "051000 - Athletic Administration"
-            },
-            {
-              "title": "Manager Athletics Production",
-              "reqId": "43573",
-              "notionUrl": "https://www.notion.so/7332b1275e7a4806b340d2ecf2f1f063",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "HM Review",
-              "agingBand": "🟡 3–5",
-              "department": "051000 - Athletic Administration"
             }
           ]
         },
@@ -5672,7 +5653,7 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 5
+          "count": 4
         },
         {
           "label": "🟢 0–2",
@@ -5864,16 +5845,6 @@
               "owner": "Gabriel",
               "campus": "Tampa",
               "stage": "Interview Stage",
-              "agingBand": "🔴 6+",
-              "department": "MUMA"
-            },
-            {
-              "title": "Academic Program Specialist",
-              "reqId": "43901",
-              "notionUrl": "https://www.notion.so/3e0432ca9bd4433bbb2bcfda05833c44",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "HM Review",
               "agingBand": "🔴 6+",
               "department": "MUMA"
             },
@@ -6077,7 +6048,18 @@
         {
           "band": "🟢 0–2",
           "color": "#3B6D11",
-          "records": []
+          "records": [
+            {
+              "title": "Academic Program Specialist",
+              "reqId": "43901",
+              "notionUrl": "https://www.notion.so/3e0432ca9bd4433bbb2bcfda05833c44",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Offer Stage",
+              "agingBand": "🟢 0–2",
+              "department": "MUMA"
+            }
+          ]
         }
       ],
       "stageMetrics": [
@@ -6095,8 +6077,8 @@
         },
         {
           "label": "HM Review",
-          "avgDays": 21,
-          "count": 4,
+          "avgDays": 23,
+          "count": 3,
           "color": "#534AB7"
         },
         {
@@ -6120,12 +6102,12 @@
         },
         {
           "label": "Offer Stage",
-          "count": 13,
+          "count": 14,
           "color": "#0F6E56"
         },
         {
           "label": "HM Review",
-          "count": 4,
+          "count": 3,
           "color": "#993556"
         },
         {
@@ -6170,7 +6152,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 29
+          "count": 28
         },
         {
           "label": "🟡 3-5",
@@ -6184,7 +6166,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 0
+          "count": 1
         }
       ],
       "funnel": [
@@ -6198,7 +6180,7 @@
         },
         {
           "label": "HM Review",
-          "count": 4
+          "count": 3
         },
         {
           "label": "Interviews",
@@ -6206,7 +6188,7 @@
         },
         {
           "label": "Offer",
-          "count": 13
+          "count": 14
         }
       ],
       "goals": [
