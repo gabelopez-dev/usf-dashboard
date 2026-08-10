@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-08-10T17:26:08.370Z",
+  "lastUpdated": "2026-08-10T18:24:18.028Z",
   "summary": {
-    "openReqs": 590,
+    "openReqs": 587,
     "avgTimeToFill": 93,
-    "filledYTD": 131,
+    "filledYTD": 134,
     "failedCancelled": 32,
     "inOfferStage": 50
   },
@@ -20,7 +20,7 @@
     },
     {
       "label": "USF Health",
-      "count": 203,
+      "count": 200,
       "color": "#00A693"
     },
     {
@@ -41,7 +41,7 @@
     },
     {
       "label": "HM Review",
-      "count": 166
+      "count": 163
     },
     {
       "label": "Offer Stage",
@@ -2082,12 +2082,12 @@
   "reqType": [
     {
       "label": "Standard",
-      "count": 353,
+      "count": 351,
       "color": "#006747"
     },
     {
       "label": "Student",
-      "count": 60,
+      "count": 59,
       "color": "#00A693"
     },
     {
@@ -2109,7 +2109,7 @@
   "department": [
     {
       "label": "USF Health",
-      "count": 123,
+      "count": 120,
       "color": "#006747"
     },
     {
@@ -2554,6 +2554,16 @@
       "notionUrl": "https://www.notion.so/3a53636a33c848b3998f5f67fd0f8b67"
     },
     {
+      "title": "Research Assistant",
+      "reqId": "42975",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Filled",
+      "department": "USF Health",
+      "ttf": 146,
+      "notionUrl": "https://www.notion.so/3fec54dd4d264a6aa8c6cd38215829c4"
+    },
+    {
       "title": "Athletic Senior Director of Production Services",
       "reqId": "42955",
       "owner": "johncalebrese",
@@ -2594,6 +2604,16 @@
       "notionUrl": "https://www.notion.so/724c36b00fbc4700b183fdcf85e00370"
     },
     {
+      "title": "Student Assistant - Temporary",
+      "reqId": "43042",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Filled",
+      "department": "USF Health",
+      "ttf": 137,
+      "notionUrl": "https://www.notion.so/1a44bde46e5a48c5a50e77e05fd22a3a"
+    },
+    {
       "title": "Stragegic Category Mgr II - Scientific/Medical",
       "reqId": "43050",
       "owner": "johncalebrese",
@@ -2612,6 +2632,16 @@
       "department": "391000 - Fl Center For Cybersecurity",
       "ttf": 133,
       "notionUrl": "https://www.notion.so/8586bd559c47427f86434e72bdce61b6"
+    },
+    {
+      "title": "Research Technician",
+      "reqId": "43066",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Filled",
+      "department": "USF Health",
+      "ttf": 133,
+      "notionUrl": "https://www.notion.so/97b2114b6ad94c2380cf0b36ec079834"
     },
     {
       "title": "Clinical Research Associate",
@@ -4121,7 +4151,7 @@
       "bgDark": "#3d2504",
       "campus": "Tampa",
       "reqs": 338,
-      "filled": 56,
+      "filled": 59,
       "failed": 21,
       "ttf": 106,
       "wip": 9,
@@ -5199,7 +5229,7 @@
         },
         {
           "label": "HM Review",
-          "count": 155,
+          "count": 152,
           "color": "#993556"
         },
         {
@@ -5254,7 +5284,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 261
+          "count": 258
         },
         {
           "label": "Screened",
@@ -5262,7 +5292,7 @@
         },
         {
           "label": "HM Review",
-          "count": 155
+          "count": 152
         },
         {
           "label": "Interviews",
@@ -5276,7 +5306,7 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 56,
+          "value": 59,
           "target": 10,
           "invert": false
         },
