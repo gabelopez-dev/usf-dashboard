@@ -151,7 +151,7 @@ async function main() {
     'Recruiter Review', 'Sourced', 'Screened', 'HM Review',
     'Interview Stage', 'Offer Stage', 'Pre-boarding', 'Backlog',
     'Targeted', 'Posted', 'Active (WIP)', 'Student Hiring', 'Faculty',
-    'Open', 'Active'
+    'Open', 'Active', 'Passive', 'Screening'
   ];
 
   const activeRecords = records.filter(r => {
@@ -182,7 +182,8 @@ async function main() {
     'Recruiter Review': '#185FA5', 'Sourced': '#3B6D11', 'Screened': '#BA7517',
     'HM Review': '#993556', 'Interview Stage': '#534AB7', 'Offer Stage': '#0F6E56',
     'Pre-boarding': '#888780', 'Backlog': '#888780', 'Targeted': '#888780',
-    'Student Hiring': '#0F6E56', 'Faculty': '#534AB7'
+    'Student Hiring': '#0F6E56', 'Faculty': '#534AB7',
+    'Passive': '#5B8FA8', 'Active': '#00A693', 'Screening': '#BA7517'
   };
 
   const agingBands = [
