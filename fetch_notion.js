@@ -342,6 +342,7 @@ async function main() {
     if (!label) return label;
     if (label.toLowerCase() === 'basic') return 'Passive';
     if (label.toLowerCase() === 'premier') return 'Active';
+    if (label.toLowerCase() === 'standard') return 'Active';
     return label;
   };
 
