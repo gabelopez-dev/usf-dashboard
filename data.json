@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-08-11T11:20:56.699Z",
+  "lastUpdated": "2026-08-11T12:10:05.766Z",
   "summary": {
-    "openReqs": 591,
-    "avgTimeToFill": 90,
+    "openReqs": 599,
+    "avgTimeToFill": 89,
     "filledYTD": 142,
     "failedCancelled": 32,
-    "inOfferStage": 48
+    "inOfferStage": 47
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 278,
+      "count": 286,
       "color": "#1B6A9C"
     },
     {
@@ -37,7 +37,7 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 220
+      "count": 221
     },
     {
       "label": "HM Review",
@@ -45,11 +45,11 @@
     },
     {
       "label": "Offer Stage",
-      "count": 48
+      "count": 47
     },
     {
       "label": "Student Hiring",
-      "count": 37
+      "count": 44
     },
     {
       "label": "Backlog",
@@ -57,7 +57,7 @@
     },
     {
       "label": "Interview Stage",
-      "count": 26
+      "count": 25
     },
     {
       "label": "Faculty",
@@ -65,7 +65,7 @@
     },
     {
       "label": "Pre-boarding",
-      "count": 14
+      "count": 16
     },
     {
       "label": "Targeted",
@@ -82,7 +82,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 191
+      "count": 192
     },
     {
       "label": "🟡 3-5",
@@ -104,6 +104,16 @@
       "band": "🔴 6+",
       "color": "#A32D2D",
       "records": [
+        {
+          "title": "Front-End Developer I",
+          "reqId": "44105",
+          "notionUrl": "https://www.notion.so/7161dc3b6fd14689826bef885fc4251f",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🔴 6+",
+          "department": "490000 - USF World"
+        },
         {
           "title": "Office Manager",
           "reqId": "44120",
@@ -1440,7 +1450,7 @@
           "notionUrl": "https://www.notion.so/38f9ddf757a0806f914bfc7e3c3d02e6",
           "owner": "johncalebrese",
           "campus": "",
-          "stage": "Interview Stage",
+          "stage": "Pre-boarding",
           "agingBand": "🔴 6+",
           "department": "210100 - College Of Engineering - Dean"
         },
@@ -2132,12 +2142,12 @@
   "reqType": [
     {
       "label": "Standard",
-      "count": 354,
+      "count": 356,
       "color": "#006747"
     },
     {
       "label": "Student",
-      "count": 60,
+      "count": 66,
       "color": "#00A693"
     },
     {
@@ -2174,7 +2184,7 @@
     },
     {
       "label": "051000 - Athletic Administration",
-      "count": 17,
+      "count": 18,
       "color": "#CFC483"
     },
     {
@@ -2253,8 +2263,8 @@
       "color": "#00A693"
     },
     {
-      "label": "Other (154 depts)",
-      "count": 284,
+      "label": "Other (156 depts)",
+      "count": 291,
       "color": "#c8c7c2"
     }
   ],
@@ -2268,7 +2278,7 @@
     {
       "label": "Recruiter Review",
       "avgDays": 21,
-      "count": 73,
+      "count": 74,
       "color": "#006747"
     },
     {
@@ -2280,7 +2290,7 @@
     {
       "label": "Interview Stage",
       "avgDays": 20,
-      "count": 22,
+      "count": 21,
       "color": "#d4880a"
     },
     {
@@ -2291,8 +2301,8 @@
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 27,
-      "count": 7,
+      "avgDays": 26,
+      "count": 8,
       "color": "#5B8FA8"
     },
     {
@@ -5526,16 +5536,26 @@
       "bgLight": "#e3f2fd",
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
-      "reqs": 132,
+      "reqs": 140,
       "filled": 53,
       "failed": 10,
-      "ttf": 83,
-      "wip": 10,
+      "ttf": 78,
+      "wip": 18,
       "agingRecords": [
         {
           "band": "🔴 6+",
           "color": "#A32D2D",
           "records": [
+            {
+              "title": "Front-End Developer I",
+              "reqId": "44105",
+              "notionUrl": "https://www.notion.so/7161dc3b6fd14689826bef885fc4251f",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🔴 6+",
+              "department": "490000 - USF World"
+            },
             {
               "title": "Audience Growth Manager",
               "reqId": "44091",
@@ -5842,7 +5862,7 @@
               "notionUrl": "https://www.notion.so/38f9ddf757a0806f914bfc7e3c3d02e6",
               "owner": "johncalebrese",
               "campus": "",
-              "stage": "Interview Stage",
+              "stage": "Pre-boarding",
               "agingBand": "🔴 6+",
               "department": "210100 - College Of Engineering - Dean"
             },
@@ -5972,8 +5992,8 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 19,
-          "count": 6,
+          "avgDays": 17,
+          "count": 7,
           "color": "#006747"
         },
         {
@@ -5985,7 +6005,7 @@
         {
           "label": "Interview Stage",
           "avgDays": 19,
-          "count": 13,
+          "count": 12,
           "color": "#d4880a"
         },
         {
@@ -5996,8 +6016,8 @@
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 27,
-          "count": 7,
+          "avgDays": 26,
+          "count": 8,
           "color": "#5B8FA8"
         },
         {
@@ -6009,14 +6029,14 @@
       ],
       "statuses": [
         {
-          "label": "Student Hiring",
-          "count": 14,
-          "color": "#0F6E56"
+          "label": "Recruiter Review",
+          "count": 7,
+          "color": "#185FA5"
         },
         {
-          "label": "Recruiter Review",
-          "count": 6,
-          "color": "#185FA5"
+          "label": "Student Hiring",
+          "count": 21,
+          "color": "#0F6E56"
         },
         {
           "label": "HM Review",
@@ -6025,12 +6045,12 @@
         },
         {
           "label": "Offer Stage",
-          "count": 13,
+          "count": 12,
           "color": "#0F6E56"
         },
         {
           "label": "Pre-boarding",
-          "count": 12,
+          "count": 14,
           "color": "#888780"
         },
         {
@@ -6040,7 +6060,7 @@
         },
         {
           "label": "Interview Stage",
-          "count": 14,
+          "count": 13,
           "color": "#534AB7"
         }
       ],
@@ -6050,7 +6070,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 39
+          "count": 40
         },
         {
           "label": "🟡 3-5",
@@ -6070,7 +6090,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 69
+          "count": 77
         },
         {
           "label": "Screened",
@@ -6082,11 +6102,11 @@
         },
         {
           "label": "Interviews",
-          "count": 14
+          "count": 13
         },
         {
           "label": "Offer",
-          "count": 13
+          "count": 12
         }
       ],
       "goals": [
@@ -6098,30 +6118,30 @@
         },
         {
           "label": "Time to fill",
-          "value": 83,
+          "value": 78,
           "target": 40,
           "invert": true
         },
         {
           "label": "Screened",
           "value": 0,
-          "target": 132,
+          "target": 140,
           "invert": false
         },
         {
           "label": "Interviews",
-          "value": 14,
-          "target": 132,
+          "value": 13,
+          "target": 140,
           "invert": false
         }
       ],
       "trend": [
-        83,
-        83,
-        83,
-        83,
-        83,
-        83
+        78,
+        78,
+        78,
+        78,
+        78,
+        78
       ]
     },
     {
