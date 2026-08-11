@@ -350,12 +350,20 @@ function renderMainPage(data) {
         ` : `<div class="donut-pending"><div class="donut-pending-text">No campus<br>data yet</div></div>`}
       </div>
       <div class="card" style="display:flex;flex-direction:column;align-items:center;flex:1;">
-        <div class="card-title" style="width:100%;">Reqs by Req Type</div>
+        <div class="card-title" style="width:100%;">Reqs by Service Level</div>
         ${reqTypeTotal > 0 ? `
         <div class="donut-wrap"><canvas id="donutReqType"></canvas><div class="donut-center"><div class="donut-center-num">${reqTypeTotal}</div><div class="donut-center-lbl">Active</div></div></div>
         <div class="legend">${legendHTML(reqTypeItems)}</div>
-        ` : `<div class="donut-pending"><div class="donut-pending-text">No Req Type<br>data yet</div></div>
-        <p class="pending-note" style="text-align:center;">Field not set on records in Notion</p>`}
+        <div style="margin-top:10px; border-top:0.5px solid var(--border); padding-top:8px;">
+          <div style="font-size:9px; font-weight:700; text-transform:uppercase; letter-spacing:0.05em; color:var(--text-muted); margin-bottom:6px;">Service Level Definitions</div>
+          <div style="font-size:10px; color:var(--text-secondary); margin-bottom:5px;"><strong>Passive</strong> — Basic support: posting, applicant disposition as they apply, offer assistance, and job offer processing. Also used for disposition or pipeline-building for a potential future need.</div>
+          <div style="font-size:10px; color:var(--text-secondary); margin-bottom:5px;"><strong>Active</strong> — Premier support: includes Passive support plus candidate outreach, summaries, screening, interview scheduling, negotiation assistance, and onboarding follow-up.</div>
+          <div style="font-size:10px; color:var(--text-secondary); margin-bottom:5px;"><strong>Evergreen</strong> — Ongoing/open-ended posting or talent pool for recurring hiring needs.</div>
+          <div style="font-size:10px; color:var(--text-secondary); margin-bottom:5px;"><strong>Faculty</strong> — Academic faculty searches following faculty hiring process.</div>
+          <div style="font-size:10px; color:var(--text-secondary);"><strong>Student</strong> — Student employment and OPS positions.</div>
+        </div>
+        ` : `<div class="donut-pending"><div class="donut-pending-text">No Service Level<br>data yet</div></div>
+        <p class="pending-note" style="text-align:center;">Req Type field not set on records in Notion</p>`}
       </div>
     </div>
     <!-- Right column: Aging Heatmap full height -->
