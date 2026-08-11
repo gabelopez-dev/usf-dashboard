@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T14:59:42.507Z",
+  "lastUpdated": "2026-08-11T16:06:58.344Z",
   "summary": {
     "openReqs": 597,
     "avgTimeToFill": 88,
@@ -37,7 +37,7 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 214
+      "count": 215
     },
     {
       "label": "HM Review",
@@ -49,7 +49,7 @@
     },
     {
       "label": "Student Hiring",
-      "count": 44
+      "count": 43
     },
     {
       "label": "Backlog",
@@ -82,7 +82,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 190
+      "count": 181
     },
     {
       "label": "🟡 3-5",
@@ -96,7 +96,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 10
+      "count": 19
     }
   ],
   "agingRecords": [
@@ -104,16 +104,6 @@
       "band": "🔴 6+",
       "color": "#A32D2D",
       "records": [
-        {
-          "title": "Front-End Developer I",
-          "reqId": "44105",
-          "notionUrl": "https://www.notion.so/7161dc3b6fd14689826bef885fc4251f",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "490000 - USF World"
-        },
         {
           "title": "Office Manager",
           "reqId": "44120",
@@ -535,46 +525,6 @@
           "department": "620100 - College Of Nurs"
         },
         {
-          "title": "Audience Growth Manager",
-          "reqId": "44091",
-          "notionUrl": "https://www.notion.so/de779a0d15284d7fa3558de1c868fb47",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "066200 - WUSF-FM"
-        },
-        {
-          "title": "Athletics Director CRM Business Analytics",
-          "reqId": "44045",
-          "notionUrl": "https://www.notion.so/edd62ee807d54bfa99c91fae83846275",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "HM Review",
-          "agingBand": "🔴 6+",
-          "department": "051000 - Athletic Administration"
-        },
-        {
-          "title": "Office Assistant - Part Time Temporary",
-          "reqId": "44054",
-          "notionUrl": "https://www.notion.so/c915d02ef5b84eff8bba2a6b088f21b1",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "390000 - Graduate Studies"
-        },
-        {
-          "title": "Support Services Specialist II",
-          "reqId": "44048",
-          "notionUrl": "https://www.notion.so/7ad43d0ddf704e4092d27c25942cc335",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "027900 - Procurement & Payment Services"
-        },
-        {
           "title": "Academic Advisor I - Electrical Engineering",
           "reqId": "43964",
           "notionUrl": "https://www.notion.so/fd8cc142f839444592d134d7f33f9af1",
@@ -603,16 +553,6 @@
           "stage": "Recruiter Review",
           "agingBand": "🔴 6+",
           "department": "171400 - Teaching & Learning"
-        },
-        {
-          "title": "Athletics Assistant- FB Strength and Conditioning",
-          "reqId": "44037",
-          "notionUrl": "https://www.notion.so/9887f185135242358bb6f54363caf993",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Offer Stage",
-          "agingBand": "🔴 6+",
-          "department": "051000 - Athletic Administration"
         },
         {
           "title": "Transfer Success Specialist",
@@ -823,16 +763,6 @@
           "stage": "Pre-boarding",
           "agingBand": "🔴 6+",
           "department": "051000 - Athletic Administration"
-        },
-        {
-          "title": "International Program Administrator II",
-          "reqId": "43963",
-          "notionUrl": "https://www.notion.so/87cd8d5ea0f946ceab8ac9ce38c8eae8",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Backlog",
-          "agingBand": "🔴 6+",
-          "department": "490000 - USF World"
         },
         {
           "title": "Postdoctoral Fellow Research",
@@ -1345,16 +1275,6 @@
           "department": "066200 - WUSF-FM"
         },
         {
-          "title": "Procurement Contract Associate II",
-          "reqId": "43744",
-          "notionUrl": "https://www.notion.so/38f9ddf757a08009af78f51cf4c2bf3f",
-          "owner": "johncalebrese",
-          "campus": "",
-          "stage": "Interview Stage",
-          "agingBand": "🔴 6+",
-          "department": "027900 - Procurement & Payment Services"
-        },
-        {
           "title": "Community Engagement & Events Manager",
           "reqId": "43743",
           "notionUrl": "https://www.notion.so/38f9ddf757a08019a945fb83f818186d",
@@ -1663,16 +1583,6 @@
           "stage": "Pre-boarding",
           "agingBand": "🔴 6+",
           "department": "460100 - Innovative Education"
-        },
-        {
-          "title": "Assistant Professr of Instruction",
-          "reqId": "42350",
-          "notionUrl": "https://www.notion.so/1ad3f0d0bdec4bc9ab2ef81a5c8b5e0c",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 6+",
-          "department": "260000 - Honors College"
         },
         {
           "title": "Postdoctoral Scholar Research",
@@ -2037,6 +1947,26 @@
       "color": "#3B6D11",
       "records": [
         {
+          "title": "Front-End Developer I",
+          "reqId": "44105",
+          "notionUrl": "https://www.notion.so/7161dc3b6fd14689826bef885fc4251f",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "490000 - USF World"
+        },
+        {
+          "title": "Financial Aid Assistant",
+          "reqId": "44118",
+          "notionUrl": "https://www.notion.so/049940b379a34990bbad88c73a5e8916",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "373000 - Financial Aid"
+        },
+        {
           "title": "Faculty Services Administri",
           "reqId": "44155",
           "notionUrl": "https://www.notion.so/342fa67037f44ccaa0c956a0da106685",
@@ -2075,6 +2005,66 @@
           "stage": "Backlog",
           "agingBand": "🟢 0–2",
           "department": "210500 - Mechanical Engineering"
+        },
+        {
+          "title": "Audience Growth Manager",
+          "reqId": "44091",
+          "notionUrl": "https://www.notion.so/de779a0d15284d7fa3558de1c868fb47",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "066200 - WUSF-FM"
+        },
+        {
+          "title": "Athletics Director CRM Business Analytics",
+          "reqId": "44045",
+          "notionUrl": "https://www.notion.so/edd62ee807d54bfa99c91fae83846275",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "051000 - Athletic Administration"
+        },
+        {
+          "title": "Office Assistant - Part Time Temporary",
+          "reqId": "44054",
+          "notionUrl": "https://www.notion.so/c915d02ef5b84eff8bba2a6b088f21b1",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "390000 - Graduate Studies"
+        },
+        {
+          "title": "Support Services Specialist II",
+          "reqId": "44048",
+          "notionUrl": "https://www.notion.so/7ad43d0ddf704e4092d27c25942cc335",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "027900 - Procurement & Payment Services"
+        },
+        {
+          "title": "Athletics Assistant- FB Strength and Conditioning",
+          "reqId": "44037",
+          "notionUrl": "https://www.notion.so/9887f185135242358bb6f54363caf993",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Offer Stage",
+          "agingBand": "🟢 0–2",
+          "department": "051000 - Athletic Administration"
+        },
+        {
+          "title": "International Program Administrator II",
+          "reqId": "43963",
+          "notionUrl": "https://www.notion.so/87cd8d5ea0f946ceab8ac9ce38c8eae8",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "490000 - USF World"
         },
         {
           "title": "Assistant Director of Small Business Development Center",
@@ -2117,6 +2107,16 @@
           "department": "College of Education "
         },
         {
+          "title": "Sr. Unit Research Administrator",
+          "reqId": "43472",
+          "notionUrl": "https://www.notion.so/94eb77c35ddb4f64ab5afc57bbbcbae8",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Offer Stage",
+          "agingBand": "🟢 0–2",
+          "department": "391000 - Fl Center For Cybersecurity"
+        },
+        {
           "title": "Director of Experiential Learning & Engagement",
           "reqId": "43315",
           "notionUrl": "https://www.notion.so/f417480722cf415ba25ea8072e158bef",
@@ -2142,7 +2142,7 @@
   "reqType": [
     {
       "label": "Standard",
-      "count": 355,
+      "count": 354,
       "color": "#006747"
     },
     {
@@ -2152,7 +2152,7 @@
     },
     {
       "label": "Faculty",
-      "count": 27,
+      "count": 28,
       "color": "#1B6A9C"
     },
     {
@@ -2278,13 +2278,13 @@
     {
       "label": "Recruiter Review",
       "avgDays": 22,
-      "count": 67,
+      "count": 63,
       "color": "#006747"
     },
     {
       "label": "HM Review",
       "avgDays": 22,
-      "count": 45,
+      "count": 44,
       "color": "#534AB7"
     },
     {
@@ -2295,20 +2295,20 @@
     },
     {
       "label": "Offer Stage",
-      "avgDays": 22,
-      "count": 35,
+      "avgDays": 23,
+      "count": 34,
       "color": "#CFC483"
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 26,
-      "count": 8,
+      "avgDays": 21,
+      "count": 7,
       "color": "#5B8FA8"
     },
     {
       "label": "Backlog",
-      "avgDays": 13,
-      "count": 15,
+      "avgDays": 11,
+      "count": 14,
       "color": "#888780"
     }
   ],
@@ -5560,72 +5560,12 @@
       "filled": 55,
       "failed": 10,
       "ttf": 78,
-      "wip": 18,
+      "wip": 13,
       "agingRecords": [
         {
           "band": "🔴 6+",
           "color": "#A32D2D",
           "records": [
-            {
-              "title": "Front-End Developer I",
-              "reqId": "44105",
-              "notionUrl": "https://www.notion.so/7161dc3b6fd14689826bef885fc4251f",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "490000 - USF World"
-            },
-            {
-              "title": "Audience Growth Manager",
-              "reqId": "44091",
-              "notionUrl": "https://www.notion.so/de779a0d15284d7fa3558de1c868fb47",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "066200 - WUSF-FM"
-            },
-            {
-              "title": "Athletics Director CRM Business Analytics",
-              "reqId": "44045",
-              "notionUrl": "https://www.notion.so/edd62ee807d54bfa99c91fae83846275",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "HM Review",
-              "agingBand": "🔴 6+",
-              "department": "051000 - Athletic Administration"
-            },
-            {
-              "title": "Office Assistant - Part Time Temporary",
-              "reqId": "44054",
-              "notionUrl": "https://www.notion.so/c915d02ef5b84eff8bba2a6b088f21b1",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "390000 - Graduate Studies"
-            },
-            {
-              "title": "Support Services Specialist II",
-              "reqId": "44048",
-              "notionUrl": "https://www.notion.so/7ad43d0ddf704e4092d27c25942cc335",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "027900 - Procurement & Payment Services"
-            },
-            {
-              "title": "Athletics Assistant- FB Strength and Conditioning",
-              "reqId": "44037",
-              "notionUrl": "https://www.notion.so/9887f185135242358bb6f54363caf993",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Offer Stage",
-              "agingBand": "🔴 6+",
-              "department": "051000 - Athletic Administration"
-            },
             {
               "title": "Fiscal & Business Analyst Senior",
               "reqId": "43980",
@@ -5645,16 +5585,6 @@
               "stage": "Pre-boarding",
               "agingBand": "🔴 6+",
               "department": "051000 - Athletic Administration"
-            },
-            {
-              "title": "International Program Administrator II",
-              "reqId": "43963",
-              "notionUrl": "https://www.notion.so/87cd8d5ea0f946ceab8ac9ce38c8eae8",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Backlog",
-              "agingBand": "🔴 6+",
-              "department": "490000 - USF World"
             },
             {
               "title": "OPS Licensed Human Services Practitioner",
@@ -5837,16 +5767,6 @@
               "department": "066200 - WUSF-FM"
             },
             {
-              "title": "Procurement Contract Associate II",
-              "reqId": "43744",
-              "notionUrl": "https://www.notion.so/38f9ddf757a08009af78f51cf4c2bf3f",
-              "owner": "johncalebrese",
-              "campus": "",
-              "stage": "Interview Stage",
-              "agingBand": "🔴 6+",
-              "department": "027900 - Procurement & Payment Services"
-            },
-            {
               "title": "Community Engagement & Events Manager",
               "reqId": "43743",
               "notionUrl": "https://www.notion.so/38f9ddf757a08019a945fb83f818186d",
@@ -5965,16 +5885,6 @@
               "stage": "Pre-boarding",
               "agingBand": "🔴 6+",
               "department": "460100 - Innovative Education"
-            },
-            {
-              "title": "Assistant Professr of Instruction",
-              "reqId": "42350",
-              "notionUrl": "https://www.notion.so/1ad3f0d0bdec4bc9ab2ef81a5c8b5e0c",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🔴 6+",
-              "department": "260000 - Honors College"
             }
           ]
         },
@@ -5987,6 +5897,96 @@
           "band": "🟢 0–2",
           "color": "#3B6D11",
           "records": [
+            {
+              "title": "Front-End Developer I",
+              "reqId": "44105",
+              "notionUrl": "https://www.notion.so/7161dc3b6fd14689826bef885fc4251f",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "490000 - USF World"
+            },
+            {
+              "title": "Financial Aid Assistant",
+              "reqId": "44118",
+              "notionUrl": "https://www.notion.so/049940b379a34990bbad88c73a5e8916",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "373000 - Financial Aid"
+            },
+            {
+              "title": "Audience Growth Manager",
+              "reqId": "44091",
+              "notionUrl": "https://www.notion.so/de779a0d15284d7fa3558de1c868fb47",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "066200 - WUSF-FM"
+            },
+            {
+              "title": "Athletics Director CRM Business Analytics",
+              "reqId": "44045",
+              "notionUrl": "https://www.notion.so/edd62ee807d54bfa99c91fae83846275",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "051000 - Athletic Administration"
+            },
+            {
+              "title": "Office Assistant - Part Time Temporary",
+              "reqId": "44054",
+              "notionUrl": "https://www.notion.so/c915d02ef5b84eff8bba2a6b088f21b1",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "390000 - Graduate Studies"
+            },
+            {
+              "title": "Support Services Specialist II",
+              "reqId": "44048",
+              "notionUrl": "https://www.notion.so/7ad43d0ddf704e4092d27c25942cc335",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "027900 - Procurement & Payment Services"
+            },
+            {
+              "title": "Athletics Assistant- FB Strength and Conditioning",
+              "reqId": "44037",
+              "notionUrl": "https://www.notion.so/9887f185135242358bb6f54363caf993",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Offer Stage",
+              "agingBand": "🟢 0–2",
+              "department": "051000 - Athletic Administration"
+            },
+            {
+              "title": "International Program Administrator II",
+              "reqId": "43963",
+              "notionUrl": "https://www.notion.so/87cd8d5ea0f946ceab8ac9ce38c8eae8",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "490000 - USF World"
+            },
+            {
+              "title": "Sr. Unit Research Administrator",
+              "reqId": "43472",
+              "notionUrl": "https://www.notion.so/94eb77c35ddb4f64ab5afc57bbbcbae8",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Offer Stage",
+              "agingBand": "🟢 0–2",
+              "department": "391000 - Fl Center For Cybersecurity"
+            },
             {
               "title": "Director of Experiential Learning & Engagement",
               "reqId": "43315",
@@ -6013,14 +6013,14 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 17,
-          "count": 6,
+          "avgDays": 24,
+          "count": 2,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 12,
-          "count": 6,
+          "avgDays": 13,
+          "count": 5,
           "color": "#534AB7"
         },
         {
@@ -6031,32 +6031,32 @@
         },
         {
           "label": "Offer Stage",
-          "avgDays": 14,
-          "count": 4,
+          "avgDays": 16,
+          "count": 3,
           "color": "#CFC483"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 26,
-          "count": 8,
+          "avgDays": 21,
+          "count": 7,
           "color": "#5B8FA8"
         },
         {
           "label": "Backlog",
-          "avgDays": 21,
-          "count": 2,
+          "avgDays": 12,
+          "count": 1,
           "color": "#888780"
         }
       ],
       "statuses": [
         {
           "label": "Recruiter Review",
-          "count": 6,
+          "count": 7,
           "color": "#185FA5"
         },
         {
           "label": "Student Hiring",
-          "count": 21,
+          "count": 20,
           "color": "#0F6E56"
         },
         {
@@ -6091,7 +6091,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 38
+          "count": 29
         },
         {
           "label": "🟡 3-5",
@@ -6105,7 +6105,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 2
+          "count": 11
         }
       ],
       "funnel": [
