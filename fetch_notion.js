@@ -336,16 +336,41 @@ async function main() {
   const avgTTFAll = ttfAll.length > 0 ? Math.round(ttfAll.reduce((a,b) => a+b, 0) / ttfAll.length) : 0;
   console.log(`TTF values found: ${ttfAll.length}, avg: ${avgTTFAll}`);
 
-  // Req Type breakdown - colors assigned dynamically in case new types appear in Notion
-  const reqTypeColors = ['#006747', '#00A693', '#1B6A9C', '#CFC483', '#7A9EB5', '#5B7A8A'];
+  // Req Type breakdown
+  // Normalize terminology: Basic → Passive, Premier → Active
+  const reqTypeNormalize = label => {
+    if (!label) return label;
+    if (label.toLowerCase() === 'basic') return 'Passive';
+    if (label.toLowerCase() === 'premier') return 'Active';
+    return label;
+  };
+
+  // Consistent colors per service level type
+  const reqTypeColorMap = {
+    'Passive':   '#006747',
+    'Active':    '#00A693',
+    'Standard':  '#006747',
+    'Evergreen': '#7A9EB5',
+    'Faculty':   '#534AB7',
+    'Student':   '#1B6A9C',
+    'Targeted':  '#CFC483'
+  };
+  const reqTypeFallbackColors = ['#5B7A8A','#993556','#d4880a','#888780'];
+
   const reqTypeAgg = {};
   activeRecords.forEach(r => {
-    const t = getProp(r, 'Req Type', 'select');
+    const raw = getProp(r, 'Req Type', 'select');
+    const t = reqTypeNormalize(raw);
     if (t) reqTypeAgg[t] = (reqTypeAgg[t] || 0) + 1;
   });
+  let fallbackIdx = 0;
   const reqTypeBreakdown = Object.entries(reqTypeAgg)
     .sort((a,b) => b[1] - a[1])
-    .map(([label, count], i) => ({ label, count, color: reqTypeColors[i % reqTypeColors.length] }));
+    .map(([label, count]) => ({
+      label,
+      count,
+      color: reqTypeColorMap[label] || reqTypeFallbackColors[fallbackIdx++ % reqTypeFallbackColors.length]
+    }));
 
   // Department/College breakdown - same dynamic approach
   const deptColors = ['#006747', '#1B6A9C', '#00A693', '#CFC483', '#7A9EB5', '#5B7A8A', '#534AB7', '#993556'];
