@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T14:36:30.895Z",
+  "lastUpdated": "2026-08-12T15:59:47.925Z",
   "summary": {
     "openReqs": 601,
     "avgTimeToFill": 89,
@@ -37,11 +37,11 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 211
+      "count": 210
     },
     {
       "label": "HM Review",
-      "count": 179
+      "count": 180
     },
     {
       "label": "Offer Stage",
@@ -3862,7 +3862,7 @@
       "filled": 0,
       "failed": 0,
       "ttf": 78,
-      "wip": 12,
+      "wip": 13,
       "agingRecords": [
         {
           "band": "🔴 6+",
@@ -4089,7 +4089,7 @@
       "filled": 65,
       "failed": 21,
       "ttf": 101,
-      "wip": 16,
+      "wip": 14,
       "agingRecords": [
         {
           "band": "🔴 6+",
@@ -4708,12 +4708,12 @@
       "statuses": [
         {
           "label": "Recruiter Review",
-          "count": 35,
+          "count": 34,
           "color": "#185FA5"
         },
         {
           "label": "HM Review",
-          "count": 168,
+          "count": 169,
           "color": "#993556"
         },
         {
@@ -4781,7 +4781,7 @@
         },
         {
           "label": "HM Review",
-          "count": 168
+          "count": 169
         },
         {
           "label": "Interviews",
