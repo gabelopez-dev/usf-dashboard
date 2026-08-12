@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-08-12T18:26:35.482Z",
+  "lastUpdated": "2026-08-12T19:38:59.696Z",
   "summary": {
-    "openReqs": 601,
+    "openReqs": 599,
     "avgTimeToFill": 89,
-    "filledYTD": 148,
+    "filledYTD": 150,
     "failedCancelled": 32,
-    "inOfferStage": 49
+    "inOfferStage": 51
   },
   "campus": [
     {
@@ -20,7 +20,7 @@
     },
     {
       "label": "USF Health",
-      "count": 194,
+      "count": 192,
       "color": "#00A693"
     },
     {
@@ -37,19 +37,19 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 210
+      "count": 209
     },
     {
       "label": "HM Review",
-      "count": 179
+      "count": 178
     },
     {
       "label": "Offer Stage",
-      "count": 49
+      "count": 51
     },
     {
       "label": "Student Hiring",
-      "count": 43
+      "count": 42
     },
     {
       "label": "Backlog",
@@ -57,7 +57,7 @@
     },
     {
       "label": "Interview Stage",
-      "count": 24
+      "count": 23
     },
     {
       "label": "Faculty",
@@ -534,7 +534,7 @@
           "notionUrl": "https://www.notion.so/3979ddf757a08014851ff7ffdce99afd",
           "owner": "johncalebrese",
           "campus": "",
-          "stage": "Interview Stage",
+          "stage": "Offer Stage",
           "agingBand": "🔴 6+",
           "department": ""
         },
@@ -1861,7 +1861,7 @@
     },
     {
       "label": "Evergreen",
-      "count": 165,
+      "count": 163,
       "color": "#7A9EB5"
     },
     {
@@ -1888,7 +1888,7 @@
   "department": [
     {
       "label": "USF Health",
-      "count": 115,
+      "count": 113,
       "color": "#006747"
     },
     {
@@ -2019,13 +2019,13 @@
     {
       "label": "Interview Stage",
       "avgDays": 21,
-      "count": 20,
+      "count": 19,
       "color": "#d4880a"
     },
     {
       "label": "Offer Stage",
       "avgDays": 22,
-      "count": 36,
+      "count": 37,
       "color": "#CFC483"
     },
     {
@@ -2679,6 +2679,16 @@
       "notionUrl": "https://www.notion.so/ee2e47f882f84966be507e6221c4b460"
     },
     {
+      "title": "Sr Academic Program Specialist",
+      "reqId": "43332",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Filled",
+      "department": "USF Health",
+      "ttf": 103,
+      "notionUrl": "https://www.notion.so/19ff4e621b914126a8ad99b883a52db6"
+    },
+    {
       "title": "Assistant Coach - Womens Tennis",
       "reqId": "43334",
       "owner": "johncalebrese",
@@ -2847,6 +2857,16 @@
       "department": "USF Health",
       "ttf": 86,
       "notionUrl": "https://www.notion.so/ff5a0d7e00d94fa5bf234200119aa8ea"
+    },
+    {
+      "title": "CON Operations Support Specialist",
+      "reqId": "43489",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Filled",
+      "department": "USF Health",
+      "ttf": 84,
+      "notionUrl": "https://www.notion.so/c9a1c56d77724567a854a8ee94db7012"
     },
     {
       "title": "School Improvement Coordinator",
@@ -4086,10 +4106,10 @@
       "bgDark": "#3d2504",
       "campus": "Tampa",
       "reqs": 341,
-      "filled": 65,
+      "filled": 67,
       "failed": 21,
       "ttf": 101,
-      "wip": 13,
+      "wip": 12,
       "agingRecords": [
         {
           "band": "🔴 6+",
@@ -4708,12 +4728,12 @@
       "statuses": [
         {
           "label": "Recruiter Review",
-          "count": 34,
+          "count": 33,
           "color": "#185FA5"
         },
         {
           "label": "HM Review",
-          "count": 169,
+          "count": 168,
           "color": "#993556"
         },
         {
@@ -4773,7 +4793,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 252
+          "count": 250
         },
         {
           "label": "Screened",
@@ -4781,7 +4801,7 @@
         },
         {
           "label": "HM Review",
-          "count": 169
+          "count": 168
         },
         {
           "label": "Interviews",
@@ -4795,7 +4815,7 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 65,
+          "value": 67,
           "target": 10,
           "invert": false
         },
@@ -4891,7 +4911,7 @@
               "notionUrl": "https://www.notion.so/3979ddf757a08014851ff7ffdce99afd",
               "owner": "johncalebrese",
               "campus": "",
-              "stage": "Interview Stage",
+              "stage": "Offer Stage",
               "agingBand": "🔴 6+",
               "department": ""
             },
@@ -5304,14 +5324,14 @@
         },
         {
           "label": "Interview Stage",
-          "avgDays": 20,
-          "count": 12,
+          "avgDays": 21,
+          "count": 11,
           "color": "#d4880a"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 10,
-          "count": 6,
+          "avgDays": 11,
+          "count": 7,
           "color": "#CFC483"
         },
         {
@@ -5335,7 +5355,7 @@
         },
         {
           "label": "Student Hiring",
-          "count": 20,
+          "count": 19,
           "color": "#0F6E56"
         },
         {
@@ -5345,7 +5365,7 @@
         },
         {
           "label": "Offer Stage",
-          "count": 13,
+          "count": 15,
           "color": "#0F6E56"
         },
         {
@@ -5360,7 +5380,7 @@
         },
         {
           "label": "Interview Stage",
-          "count": 13,
+          "count": 12,
           "color": "#534AB7"
         }
       ],
@@ -5402,11 +5422,11 @@
         },
         {
           "label": "Interviews",
-          "count": 13
+          "count": 12
         },
         {
           "label": "Offer",
-          "count": 13
+          "count": 15
         }
       ],
       "goals": [
@@ -5430,7 +5450,7 @@
         },
         {
           "label": "Interviews",
-          "value": 13,
+          "value": 12,
           "target": 139,
           "invert": false
         }
