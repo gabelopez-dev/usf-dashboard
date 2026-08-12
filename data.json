@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2026-08-12T13:14:27.031Z",
+  "lastUpdated": "2026-08-12T14:36:30.895Z",
   "summary": {
-    "openReqs": 603,
+    "openReqs": 601,
     "avgTimeToFill": 89,
-    "filledYTD": 144,
+    "filledYTD": 148,
     "failedCancelled": 32,
     "inOfferStage": 47
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 290,
+      "count": 288,
       "color": "#1B6A9C"
     },
     {
       "label": "St Pete",
-      "count": 55,
+      "count": 54,
       "color": "#006747"
     },
     {
@@ -25,7 +25,7 @@
     },
     {
       "label": "Tallahassee",
-      "count": 7,
+      "count": 8,
       "color": "#7A9EB5"
     },
     {
@@ -41,7 +41,7 @@
     },
     {
       "label": "HM Review",
-      "count": 180
+      "count": 179
     },
     {
       "label": "Offer Stage",
@@ -64,12 +64,8 @@
       "count": 18
     },
     {
-      "label": "Targeted",
-      "count": 13
-    },
-    {
       "label": "Passive",
-      "count": 13
+      "count": 14
     },
     {
       "label": "Sourced",
@@ -78,6 +74,10 @@
     {
       "label": "Pre-boarding",
       "count": 12
+    },
+    {
+      "label": "Targeted",
+      "count": 11
     }
   ],
   "mainAging": [
@@ -86,7 +86,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 148
+      "count": 147
     },
     {
       "label": "🟡 3-5",
@@ -100,7 +100,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 24
+      "count": 25
     }
   ],
   "agingRecords": [
@@ -287,16 +287,6 @@
           "stage": "Offer Stage",
           "agingBand": "🔴 6+",
           "department": "210600 - Electrical Engineering"
-        },
-        {
-          "title": "Academic Services Administrator",
-          "reqId": "43996",
-          "notionUrl": "https://www.notion.so/e96fcdac40284d30a2d6e8ba514c415f",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "HM Review",
-          "agingBand": "🔴 6+",
-          "department": "170800 - COE-Student Academic Services"
         },
         {
           "title": "Project Coordinator",
@@ -1079,6 +1069,16 @@
           "department": "College of Marine Science"
         },
         {
+          "title": "Federal Grant Specialist",
+          "reqId": "43414",
+          "notionUrl": "https://www.notion.so/b7318efb316b4b82acfd719d533cef63",
+          "owner": "Gabriel",
+          "campus": "Tallahassee",
+          "stage": "Passive",
+          "agingBand": "🔴 6+",
+          "department": "Inst For School Comm Partnership"
+        },
+        {
           "title": "Administrative Specialist",
           "reqId": "43427",
           "notionUrl": "https://www.notion.so/affd001d0f77400f95cc677c2c6e47b4",
@@ -1207,16 +1207,6 @@
           "stage": "Offer Stage",
           "agingBand": "🔴 6+",
           "department": "College of Education "
-        },
-        {
-          "title": "Veteran Support Coordinator (Office of Veteran Success)",
-          "reqId": "43612",
-          "notionUrl": "https://www.notion.so/c095bfbe97034da0829cddfbd008b3b6",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Offer Stage",
-          "agingBand": "🔴 6+",
-          "department": "STP Student Success"
         },
         {
           "title": "Unit Research Administrator",
@@ -1761,6 +1751,16 @@
           "department": "027900 - Procurement & Payment Services"
         },
         {
+          "title": "Academic Services Administrator",
+          "reqId": "43996",
+          "notionUrl": "https://www.notion.so/e96fcdac40284d30a2d6e8ba514c415f",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Offer Stage",
+          "agingBand": "🟢 0–2",
+          "department": "170800 - COE-Student Academic Services"
+        },
+        {
           "title": "Athletics Assistant- FB Strength and Conditioning",
           "reqId": "44037",
           "notionUrl": "https://www.notion.so/9887f185135242358bb6f54363caf993",
@@ -1856,7 +1856,7 @@
   "reqType": [
     {
       "label": "Active",
-      "count": 199,
+      "count": 198,
       "color": "#00A693"
     },
     {
@@ -1876,12 +1876,12 @@
     },
     {
       "label": "Targeted",
-      "count": 17,
+      "count": 15,
       "color": "#CFC483"
     },
     {
       "label": "Passive",
-      "count": 13,
+      "count": 14,
       "color": "#006747"
     }
   ],
@@ -1908,7 +1908,7 @@
     },
     {
       "label": "STP Student Success",
-      "count": 13,
+      "count": 12,
       "color": "#7A9EB5"
     },
     {
@@ -1922,18 +1922,18 @@
       "color": "#534AB7"
     },
     {
-      "label": "177500 - Inst For School Comm Partnersh",
+      "label": "620100 - College Of Nurs",
       "count": 9,
       "color": "#993556"
     },
     {
-      "label": "620100 - College Of Nurs",
+      "label": "614400 - Molecular Medicine",
       "count": 9,
       "color": "#006747"
     },
     {
-      "label": "614400 - Molecular Medicine",
-      "count": 9,
+      "label": "177500 - Inst For School Comm Partnersh",
+      "count": 8,
       "color": "#1B6A9C"
     },
     {
@@ -1947,17 +1947,17 @@
       "color": "#CFC483"
     },
     {
-      "label": "611900 - Department Of",
-      "count": 7,
+      "label": "Inst For School Comm Partnership",
+      "count": 8,
       "color": "#7A9EB5"
     },
     {
-      "label": "614300 - Molecular Pharm & Physiology",
+      "label": "611900 - Department Of",
       "count": 7,
       "color": "#5B7A8A"
     },
     {
-      "label": "Inst For School Comm Partnership",
+      "label": "614300 - Molecular Pharm & Physiology",
       "count": 7,
       "color": "#534AB7"
     },
@@ -1992,8 +1992,8 @@
       "color": "#7A9EB5"
     },
     {
-      "label": "Other (157 depts)",
-      "count": 289,
+      "label": "Other (156 depts)",
+      "count": 288,
       "color": "#c8c7c2"
     }
   ],
@@ -2013,7 +2013,7 @@
     {
       "label": "HM Review",
       "avgDays": 26,
-      "count": 11,
+      "count": 10,
       "color": "#534AB7"
     },
     {
@@ -2025,7 +2025,7 @@
     {
       "label": "Offer Stage",
       "avgDays": 23,
-      "count": 36,
+      "count": 35,
       "color": "#CFC483"
     },
     {
@@ -2042,8 +2042,8 @@
     },
     {
       "label": "Passive",
-      "avgDays": 115,
-      "count": 13,
+      "avgDays": 112,
+      "count": 14,
       "color": "#888780"
     }
   ],
@@ -2949,6 +2949,16 @@
       "notionUrl": "https://www.notion.so/4ab3e99c3f664ab598bbb3d006c49b90"
     },
     {
+      "title": "Veteran Support Coordinator (Office of Veteran Success)",
+      "reqId": "43612",
+      "owner": "Gabriel",
+      "campus": "St. Petersburg",
+      "stage": "Hired",
+      "department": "STP Student Success",
+      "ttf": 71,
+      "notionUrl": "https://www.notion.so/c095bfbe97034da0829cddfbd008b3b6"
+    },
+    {
       "title": "Education Abroad Recruiter Advisor",
       "reqId": "43618",
       "owner": "johncalebrese",
@@ -3529,6 +3539,36 @@
       "notionUrl": "https://www.notion.so/30825688fc9c4918a87b390fc875f4c0"
     },
     {
+      "title": "Graduate Assistant",
+      "reqId": "43953",
+      "owner": "Gabriel",
+      "campus": "Tampa",
+      "stage": "Filled",
+      "department": "Inst For School Comm Partnersh",
+      "ttf": 0,
+      "notionUrl": "https://www.notion.so/7646be944f464c19be27a877f281b72f"
+    },
+    {
+      "title": "Graduate Assistant",
+      "reqId": "43951",
+      "owner": "Gabriel",
+      "campus": "Tampa",
+      "stage": "Filled",
+      "department": "177500 - Inst For School Comm Partnersh",
+      "ttf": 0,
+      "notionUrl": "https://www.notion.so/7b62fd3701e1493b81de17e839a30475"
+    },
+    {
+      "title": "Graduate Asst",
+      "reqId": "43949",
+      "owner": "Gabriel",
+      "campus": "Tampa",
+      "stage": "Filled",
+      "department": "177500 - Inst For School Comm Partnersh",
+      "ttf": 0,
+      "notionUrl": "https://www.notion.so/41c855e8c74b4c15838b0f796a1f2e7a"
+    },
+    {
       "title": "LGI & PSL - OPS",
       "reqId": "43691",
       "owner": "johncalebrese",
@@ -3822,7 +3862,7 @@
       "filled": 0,
       "failed": 0,
       "ttf": 78,
-      "wip": 13,
+      "wip": 12,
       "agingRecords": [
         {
           "band": "🔴 6+",
@@ -5413,7 +5453,7 @@
       "bgDark": "#042e24",
       "campus": "St Pete / Tampa",
       "reqs": 160,
-      "filled": 22,
+      "filled": 26,
       "failed": 1,
       "ttf": 74,
       "wip": 5,
@@ -5541,16 +5581,6 @@
               "stage": "Offer Stage",
               "agingBand": "🔴 6+",
               "department": "210600 - Electrical Engineering"
-            },
-            {
-              "title": "Academic Services Administrator",
-              "reqId": "43996",
-              "notionUrl": "https://www.notion.so/e96fcdac40284d30a2d6e8ba514c415f",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "HM Review",
-              "agingBand": "🔴 6+",
-              "department": "170800 - COE-Student Academic Services"
             },
             {
               "title": "Project Coordinator",
@@ -5743,6 +5773,16 @@
               "department": "College of Marine Science"
             },
             {
+              "title": "Federal Grant Specialist",
+              "reqId": "43414",
+              "notionUrl": "https://www.notion.so/b7318efb316b4b82acfd719d533cef63",
+              "owner": "Gabriel",
+              "campus": "Tallahassee",
+              "stage": "Passive",
+              "agingBand": "🔴 6+",
+              "department": "Inst For School Comm Partnership"
+            },
+            {
               "title": "Administrative Specialist",
               "reqId": "43427",
               "notionUrl": "https://www.notion.so/affd001d0f77400f95cc677c2c6e47b4",
@@ -5871,16 +5911,6 @@
               "stage": "Offer Stage",
               "agingBand": "🔴 6+",
               "department": "College of Education "
-            },
-            {
-              "title": "Veteran Support Coordinator (Office of Veteran Success)",
-              "reqId": "43612",
-              "notionUrl": "https://www.notion.so/c095bfbe97034da0829cddfbd008b3b6",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Offer Stage",
-              "agingBand": "🔴 6+",
-              "department": "STP Student Success"
             },
             {
               "title": "Unit Research Administrator",
@@ -6035,6 +6065,16 @@
               "department": "210500 - Mechanical Engineering"
             },
             {
+              "title": "Academic Services Administrator",
+              "reqId": "43996",
+              "notionUrl": "https://www.notion.so/e96fcdac40284d30a2d6e8ba514c415f",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Offer Stage",
+              "agingBand": "🟢 0–2",
+              "department": "170800 - COE-Student Academic Services"
+            },
+            {
               "title": "Assistant Director of Small Business Development Center",
               "reqId": "43900",
               "notionUrl": "https://www.notion.so/a3255042eb054f188198cbb0c204abff",
@@ -6073,6 +6113,16 @@
               "stage": "Offer Stage",
               "agingBand": "🟢 0–2",
               "department": "College of Education "
+            },
+            {
+              "title": "Veteran Support Coordinator (Office of Veteran Success)",
+              "reqId": "43612",
+              "notionUrl": "https://www.notion.so/c095bfbe97034da0829cddfbd008b3b6",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Hired",
+              "agingBand": "🟢 0–2",
+              "department": "STP Student Success"
             }
           ]
         }
@@ -6092,8 +6142,8 @@
         },
         {
           "label": "HM Review",
-          "avgDays": 44,
-          "count": 5,
+          "avgDays": 48,
+          "count": 4,
           "color": "#534AB7"
         },
         {
@@ -6105,7 +6155,7 @@
         {
           "label": "Offer Stage",
           "avgDays": 18,
-          "count": 12,
+          "count": 11,
           "color": "#CFC483"
         },
         {
@@ -6116,8 +6166,8 @@
         },
         {
           "label": "Passive",
-          "avgDays": 115,
-          "count": 13,
+          "avgDays": 112,
+          "count": 14,
           "color": "#888780"
         }
       ],
@@ -6148,18 +6198,18 @@
           "color": "#0F6E56"
         },
         {
-          "label": "HM Review",
-          "count": 5,
-          "color": "#993556"
-        },
-        {
           "label": "Sourced",
           "count": 2,
           "color": "#3B6D11"
         },
         {
+          "label": "HM Review",
+          "count": 4,
+          "color": "#993556"
+        },
+        {
           "label": "Targeted",
-          "count": 12,
+          "count": 10,
           "color": "#888780"
         },
         {
@@ -6169,7 +6219,7 @@
         },
         {
           "label": "Passive",
-          "count": 13,
+          "count": 14,
           "color": "#5B8FA8"
         },
         {
@@ -6184,7 +6234,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 50
+          "count": 49
         },
         {
           "label": "🟡 3-5",
@@ -6198,13 +6248,13 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 11
+          "count": 12
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 120
+          "count": 118
         },
         {
           "label": "Screened",
@@ -6212,7 +6262,7 @@
         },
         {
           "label": "HM Review",
-          "count": 5
+          "count": 4
         },
         {
           "label": "Interviews",
@@ -6226,7 +6276,7 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 22,
+          "value": 26,
           "target": 10,
           "invert": false
         },
