@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-08-13T10:36:51.519Z",
+  "lastUpdated": "2026-08-13T11:49:30.675Z",
   "summary": {
     "openReqs": 599,
     "avgTimeToFill": 90,
     "filledYTD": 150,
     "failedCancelled": 32,
-    "inOfferStage": 51
+    "inOfferStage": 50
   },
   "campus": [
     {
@@ -45,11 +45,11 @@
     },
     {
       "label": "Offer Stage",
-      "count": 51
+      "count": 50
     },
     {
       "label": "Student Hiring",
-      "count": 42
+      "count": 41
     },
     {
       "label": "Backlog",
@@ -64,15 +64,15 @@
       "count": 18
     },
     {
+      "label": "Pre-boarding",
+      "count": 14
+    },
+    {
       "label": "Passive",
       "count": 14
     },
     {
       "label": "Sourced",
-      "count": 12
-    },
-    {
-      "label": "Pre-boarding",
       "count": 12
     },
     {
@@ -5355,8 +5355,13 @@
         },
         {
           "label": "Student Hiring",
-          "count": 19,
+          "count": 18,
           "color": "#0F6E56"
+        },
+        {
+          "label": "Pre-boarding",
+          "count": 12,
+          "color": "#888780"
         },
         {
           "label": "HM Review",
@@ -5365,13 +5370,8 @@
         },
         {
           "label": "Offer Stage",
-          "count": 15,
+          "count": 14,
           "color": "#0F6E56"
-        },
-        {
-          "label": "Pre-boarding",
-          "count": 10,
-          "color": "#888780"
         },
         {
           "label": "Backlog",
@@ -5426,7 +5426,7 @@
         },
         {
           "label": "Offer",
-          "count": 15
+          "count": 14
         }
       ],
       "goals": [
