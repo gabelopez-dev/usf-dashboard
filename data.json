@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T18:28:08.309Z",
+  "lastUpdated": "2026-08-13T19:36:27.968Z",
   "summary": {
     "openReqs": 597,
     "avgTimeToFill": 90,
@@ -86,7 +86,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 141
+      "count": 142
     },
     {
       "label": "🟡 3-5",
@@ -100,7 +100,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 21
+      "count": 20
     }
   ],
   "agingRecords": [
@@ -567,6 +567,16 @@
           "stage": "Pre-boarding",
           "agingBand": "🔴 6+",
           "department": "041300 - Strategic Initiatives"
+        },
+        {
+          "title": "Experiential Learning Coordinator",
+          "reqId": "43662",
+          "notionUrl": "https://www.notion.so/1313cca850574c348980fc427f4dc646",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Interview Stage",
+          "agingBand": "🔴 6+",
+          "department": "047700 - Career & Professional Dev"
         },
         {
           "title": "Director of Industry to Campus Connections",
@@ -1729,16 +1739,6 @@
           "stage": "Offer Stage",
           "agingBand": "🟢 0–2",
           "department": "051000 - Athletic Administration"
-        },
-        {
-          "title": "International Program Administrator II",
-          "reqId": "43963",
-          "notionUrl": "https://www.notion.so/87cd8d5ea0f946ceab8ac9ce38c8eae8",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Backlog",
-          "agingBand": "🟢 0–2",
-          "department": "490000 - USF World"
         },
         {
           "title": "Career Counselor",
@@ -4942,6 +4942,16 @@
               "department": "041300 - Strategic Initiatives"
             },
             {
+              "title": "Experiential Learning Coordinator",
+              "reqId": "43662",
+              "notionUrl": "https://www.notion.so/1313cca850574c348980fc427f4dc646",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Interview Stage",
+              "agingBand": "🔴 6+",
+              "department": "047700 - Career & Professional Dev"
+            },
+            {
               "title": "Director of Industry to Campus Connections",
               "reqId": "43716",
               "notionUrl": "https://www.notion.so/74bc19abe1bb4a2e8ea6afcbd2dc391e",
@@ -5263,16 +5273,6 @@
               "department": "051000 - Athletic Administration"
             },
             {
-              "title": "International Program Administrator II",
-              "reqId": "43963",
-              "notionUrl": "https://www.notion.so/87cd8d5ea0f946ceab8ac9ce38c8eae8",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Backlog",
-              "agingBand": "🟢 0–2",
-              "department": "490000 - USF World"
-            },
-            {
               "title": "Sr. Unit Research Administrator",
               "reqId": "43472",
               "notionUrl": "https://www.notion.so/94eb77c35ddb4f64ab5afc57bbbcbae8",
@@ -5386,7 +5386,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 27
+          "count": 28
         },
         {
           "label": "🟡 3-5",
@@ -5400,7 +5400,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 11
+          "count": 10
         }
       ],
       "funnel": [
