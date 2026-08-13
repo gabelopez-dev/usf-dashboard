@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-08-13T13:16:33.317Z",
+  "lastUpdated": "2026-08-13T16:00:18.801Z",
   "summary": {
-    "openReqs": 599,
+    "openReqs": 597,
     "avgTimeToFill": 90,
-    "filledYTD": 150,
+    "filledYTD": 152,
     "failedCancelled": 32,
     "inOfferStage": 50
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 288,
+      "count": 286,
       "color": "#1B6A9C"
     },
     {
@@ -41,7 +41,7 @@
     },
     {
       "label": "HM Review",
-      "count": 178
+      "count": 177
     },
     {
       "label": "Offer Stage",
@@ -57,7 +57,7 @@
     },
     {
       "label": "Interview Stage",
-      "count": 23
+      "count": 22
     },
     {
       "label": "Faculty",
@@ -86,7 +86,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 146
+      "count": 145
     },
     {
       "label": "🟡 3-5",
@@ -100,7 +100,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 16
+      "count": 17
     }
   ],
   "agingRecords": [
@@ -969,16 +969,6 @@
           "department": "027900 - Procurement & Payment Services"
         },
         {
-          "title": "Accounts Payable Manager",
-          "reqId": "43615",
-          "notionUrl": "https://www.notion.so/38f9ddf757a08063827ecc3530163a97",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 6+",
-          "department": "027900 - Procurement & Payment Services"
-        },
-        {
           "title": "Program Development Specialist",
           "reqId": "41648",
           "notionUrl": "https://www.notion.so/2880aff0a0e9493eb3cf24f079e44a86",
@@ -1839,6 +1829,16 @@
           "stage": "Backlog",
           "agingBand": "🟢 0–2",
           "department": "019000 - Unv Community Partnerships"
+        },
+        {
+          "title": "Cyber Security Analyst II",
+          "reqId": "43254",
+          "notionUrl": "https://www.notion.so/40207259158b465588fac3ea4a5eba6c",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "391000 - Fl Center For Cybersecurity"
         }
       ]
     }
@@ -1846,12 +1846,12 @@
   "reqType": [
     {
       "label": "Active",
-      "count": 199,
+      "count": 198,
       "color": "#00A693"
     },
     {
       "label": "Evergreen",
-      "count": 163,
+      "count": 162,
       "color": "#7A9EB5"
     },
     {
@@ -1982,8 +1982,8 @@
       "color": "#7A9EB5"
     },
     {
-      "label": "Other (156 depts)",
-      "count": 288,
+      "label": "Other (155 depts)",
+      "count": 286,
       "color": "#c8c7c2"
     }
   ],
@@ -2020,8 +2020,8 @@
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 23,
-      "count": 6,
+      "avgDays": 25,
+      "count": 5,
       "color": "#5B8FA8"
     },
     {
@@ -2959,6 +2959,16 @@
       "notionUrl": "https://www.notion.so/4ab3e99c3f664ab598bbb3d006c49b90"
     },
     {
+      "title": "Accounts Payable Manager",
+      "reqId": "43615",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "027900 - Procurement & Payment Services",
+      "ttf": 72,
+      "notionUrl": "https://www.notion.so/38f9ddf757a08063827ecc3530163a97"
+    },
+    {
       "title": "Veteran Support Coordinator (Office of Veteran Success)",
       "reqId": "43612",
       "owner": "Gabriel",
@@ -3127,6 +3137,16 @@
       "department": "USF Health",
       "ttf": 63,
       "notionUrl": "https://www.notion.so/f11d0eb5f3964ea9b336dc2e4eb342e7"
+    },
+    {
+      "title": "Locksmith II",
+      "reqId": "43720",
+      "owner": "Rebecca",
+      "campus": "Tampa",
+      "stage": "Filled",
+      "department": "025102 - Physical Security",
+      "ttf": 62,
+      "notionUrl": "https://www.notion.so/38f9ddf757a080678251e64ed73c0113"
     },
     {
       "title": "Postdoctoral Fellow of Research",
@@ -4096,7 +4116,7 @@
       "bgDark": "#3d2504",
       "campus": "Tampa",
       "reqs": 341,
-      "filled": 67,
+      "filled": 68,
       "failed": 21,
       "ttf": 102,
       "wip": 12,
@@ -4723,7 +4743,7 @@
         },
         {
           "label": "HM Review",
-          "count": 168,
+          "count": 167,
           "color": "#993556"
         },
         {
@@ -4783,7 +4803,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 250
+          "count": 249
         },
         {
           "label": "Screened",
@@ -4791,7 +4811,7 @@
         },
         {
           "label": "HM Review",
-          "count": 168
+          "count": 167
         },
         {
           "label": "Interviews",
@@ -4805,7 +4825,7 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 67,
+          "value": 68,
           "target": 10,
           "invert": false
         },
@@ -4846,10 +4866,10 @@
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
       "reqs": 139,
-      "filled": 56,
+      "filled": 57,
       "failed": 10,
       "ttf": 80,
-      "wip": 12,
+      "wip": 13,
       "agingRecords": [
         {
           "band": "🔴 6+",
@@ -5091,7 +5111,7 @@
               "notionUrl": "https://www.notion.so/38f9ddf757a08063827ecc3530163a97",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "Pre-boarding",
+              "stage": "Hired",
               "agingBand": "🔴 6+",
               "department": "027900 - Procurement & Payment Services"
             },
@@ -5285,6 +5305,16 @@
               "stage": "Backlog",
               "agingBand": "🟢 0–2",
               "department": "019000 - Unv Community Partnerships"
+            },
+            {
+              "title": "Cyber Security Analyst II",
+              "reqId": "43254",
+              "notionUrl": "https://www.notion.so/40207259158b465588fac3ea4a5eba6c",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "391000 - Fl Center For Cybersecurity"
             }
           ]
         }
@@ -5316,8 +5346,8 @@
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 23,
-          "count": 6,
+          "avgDays": 25,
+          "count": 5,
           "color": "#5B8FA8"
         },
         {
@@ -5360,7 +5390,7 @@
         },
         {
           "label": "Interview Stage",
-          "count": 12,
+          "count": 11,
           "color": "#534AB7"
         }
       ],
@@ -5370,7 +5400,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 29
+          "count": 28
         },
         {
           "label": "🟡 3-5",
@@ -5384,13 +5414,13 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 10
+          "count": 11
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 73
+          "count": 72
         },
         {
           "label": "Screened",
@@ -5402,7 +5432,7 @@
         },
         {
           "label": "Interviews",
-          "count": 12
+          "count": 11
         },
         {
           "label": "Offer",
@@ -5412,7 +5442,7 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 56,
+          "value": 57,
           "target": 10,
           "invert": false
         },
@@ -5430,7 +5460,7 @@
         },
         {
           "label": "Interviews",
-          "value": 12,
+          "value": 11,
           "target": 139,
           "invert": false
         }
