@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-14T15:53:56.487Z",
+  "lastUpdated": "2026-08-14T16:55:52.693Z",
   "summary": {
-    "openReqs": 594,
+    "openReqs": 600,
     "avgTimeToFill": 91,
     "filledYTD": 155,
     "failedCancelled": 32,
@@ -10,12 +10,12 @@
   "campus": [
     {
       "label": "Tampa",
-      "count": 286,
+      "count": 290,
       "color": "#1B6A9C"
     },
     {
       "label": "St Pete",
-      "count": 54,
+      "count": 56,
       "color": "#006747"
     },
     {
@@ -37,11 +37,11 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 205
+      "count": 206
     },
     {
       "label": "HM Review",
-      "count": 181
+      "count": 182
     },
     {
       "label": "Offer Stage",
@@ -49,15 +49,15 @@
     },
     {
       "label": "Student Hiring",
-      "count": 41
+      "count": 42
     },
     {
       "label": "Backlog",
-      "count": 29
+      "count": 31
     },
     {
       "label": "Faculty",
-      "count": 18
+      "count": 19
     },
     {
       "label": "Interview Stage",
@@ -100,7 +100,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 11
+      "count": 12
     }
   ],
   "agingRecords": [
@@ -319,16 +319,6 @@
           "department": "122300 - English"
         },
         {
-          "title": "OPS Temporary Research Physical Therapist",
-          "reqId": "43985",
-          "notionUrl": "https://www.notion.so/a4c77c7d41de45f7a1a5674dd0e97b10",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "210500 - Mechanical Engineering"
-        },
-        {
           "title": "Program Director for Residential Student Success",
           "reqId": "43975",
           "notionUrl": "https://www.notion.so/e21deb64954648ffb708c6e7f1cf0fe4",
@@ -537,6 +527,16 @@
           "stage": "Pre-boarding",
           "agingBand": "🔴 6+",
           "department": "041300 - Strategic Initiatives"
+        },
+        {
+          "title": "Experiential Learning Coordinator",
+          "reqId": "43662",
+          "notionUrl": "https://www.notion.so/1313cca850574c348980fc427f4dc646",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Interview Stage",
+          "agingBand": "🔴 6+",
+          "department": "047700 - Career & Professional Dev"
         },
         {
           "title": "Director of Industry to Campus Connections",
@@ -1751,6 +1751,16 @@
           "department": "512800 - STP Academic Advising"
         },
         {
+          "title": "OPS Temporary Research Physical Therapist",
+          "reqId": "43985",
+          "notionUrl": "https://www.notion.so/a4c77c7d41de45f7a1a5674dd0e97b10",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "210500 - Mechanical Engineering"
+        },
+        {
           "title": "Career Counselor",
           "reqId": "43849",
           "notionUrl": "https://www.notion.so/0068d432571146199e96e7108ed067f4",
@@ -1826,7 +1836,7 @@
   "reqType": [
     {
       "label": "Active",
-      "count": 197,
+      "count": 202,
       "color": "#00A693"
     },
     {
@@ -1836,7 +1846,7 @@
     },
     {
       "label": "Student",
-      "count": 64,
+      "count": 65,
       "color": "#1B6A9C"
     },
     {
@@ -1882,13 +1892,13 @@
       "color": "#7A9EB5"
     },
     {
-      "label": "Engineering",
+      "label": "210500 - Mechanical Engineering",
       "count": 11,
       "color": "#5B7A8A"
     },
     {
-      "label": "210500 - Mechanical Engineering",
-      "count": 10,
+      "label": "Engineering",
+      "count": 11,
       "color": "#534AB7"
     },
     {
@@ -1962,8 +1972,8 @@
       "color": "#7A9EB5"
     },
     {
-      "label": "Other (154 depts)",
-      "count": 285,
+      "label": "Other (157 depts)",
+      "count": 290,
       "color": "#c8c7c2"
     }
   ],
@@ -1977,7 +1987,7 @@
     {
       "label": "Recruiter Review",
       "avgDays": 23,
-      "count": 60,
+      "count": 59,
       "color": "#006747"
     },
     {
@@ -4952,6 +4962,16 @@
               "department": "041300 - Strategic Initiatives"
             },
             {
+              "title": "Experiential Learning Coordinator",
+              "reqId": "43662",
+              "notionUrl": "https://www.notion.so/1313cca850574c348980fc427f4dc646",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Interview Stage",
+              "agingBand": "🔴 6+",
+              "department": "047700 - Career & Professional Dev"
+            },
+            {
               "title": "Director of Industry to Campus Connections",
               "reqId": "43716",
               "notionUrl": "https://www.notion.so/74bc19abe1bb4a2e8ea6afcbd2dc391e",
@@ -5396,7 +5416,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 27
+          "count": 28
         },
         {
           "label": "🟡 3-5",
@@ -5478,11 +5498,11 @@
       "bgLight": "#e6f2ed",
       "bgDark": "#042e24",
       "campus": "St Pete / Tampa",
-      "reqs": 160,
+      "reqs": 166,
       "filled": 26,
       "failed": 1,
-      "ttf": 76,
-      "wip": 5,
+      "ttf": 74,
+      "wip": 4,
       "agingRecords": [
         {
           "band": "🔴 6+",
@@ -5607,16 +5627,6 @@
               "stage": "Offer Stage",
               "agingBand": "🔴 6+",
               "department": "210600 - Electrical Engineering"
-            },
-            {
-              "title": "OPS Temporary Research Physical Therapist",
-              "reqId": "43985",
-              "notionUrl": "https://www.notion.so/a4c77c7d41de45f7a1a5674dd0e97b10",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "210500 - Mechanical Engineering"
             },
             {
               "title": "Program Director for Residential Student Success",
@@ -6071,6 +6081,16 @@
               "department": "512800 - STP Academic Advising"
             },
             {
+              "title": "OPS Temporary Research Physical Therapist",
+              "reqId": "43985",
+              "notionUrl": "https://www.notion.so/a4c77c7d41de45f7a1a5674dd0e97b10",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "210500 - Mechanical Engineering"
+            },
+            {
               "title": "Career Counselor",
               "reqId": "43849",
               "notionUrl": "https://www.notion.so/0068d432571146199e96e7108ed067f4",
@@ -6162,8 +6182,8 @@
         },
         {
           "label": "Recruiter Review",
-          "avgDays": 12,
-          "count": 14,
+          "avgDays": 11,
+          "count": 13,
           "color": "#006747"
         },
         {
@@ -6199,28 +6219,28 @@
       ],
       "statuses": [
         {
-          "label": "Student Hiring",
-          "count": 14,
-          "color": "#0F6E56"
-        },
-        {
           "label": "Recruiter Review",
-          "count": 15,
+          "count": 16,
           "color": "#185FA5"
         },
         {
+          "label": "Student Hiring",
+          "count": 15,
+          "color": "#0F6E56"
+        },
+        {
           "label": "Backlog",
-          "count": 13,
+          "count": 15,
           "color": "#888780"
         },
         {
           "label": "HM Review",
-          "count": 9,
+          "count": 10,
           "color": "#993556"
         },
         {
           "label": "Faculty",
-          "count": 17,
+          "count": 18,
           "color": "#534AB7"
         },
         {
@@ -6260,7 +6280,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 41
+          "count": 40
         },
         {
           "label": "🟡 3-5",
@@ -6274,13 +6294,13 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 11
+          "count": 12
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 118
+          "count": 124
         },
         {
           "label": "Screened",
@@ -6288,7 +6308,7 @@
         },
         {
           "label": "HM Review",
-          "count": 9
+          "count": 10
         },
         {
           "label": "Interviews",
@@ -6308,30 +6328,30 @@
         },
         {
           "label": "Time to fill",
-          "value": 76,
+          "value": 74,
           "target": 40,
           "invert": true
         },
         {
           "label": "Screened",
           "value": 0,
-          "target": 160,
+          "target": 166,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 5,
-          "target": 160,
+          "target": 166,
           "invert": false
         }
       ],
       "trend": [
-        76,
-        76,
-        76,
-        76,
-        76,
-        76
+        74,
+        74,
+        74,
+        74,
+        74,
+        74
       ]
     },
     {
