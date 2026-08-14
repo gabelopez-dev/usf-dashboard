@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-08-14T13:11:05.118Z",
+  "lastUpdated": "2026-08-14T14:31:08.547Z",
   "summary": {
-    "openReqs": 595,
+    "openReqs": 594,
     "avgTimeToFill": 91,
-    "filledYTD": 154,
+    "filledYTD": 155,
     "failedCancelled": 32,
     "inOfferStage": 51
   },
@@ -20,7 +20,7 @@
     },
     {
       "label": "USF Health",
-      "count": 190,
+      "count": 189,
       "color": "#00A693"
     },
     {
@@ -37,11 +37,11 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 208
+      "count": 207
     },
     {
       "label": "HM Review",
-      "count": 178
+      "count": 179
     },
     {
       "label": "Offer Stage",
@@ -73,7 +73,7 @@
     },
     {
       "label": "Sourced",
-      "count": 13
+      "count": 12
     },
     {
       "label": "Targeted",
@@ -86,7 +86,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 140
+      "count": 139
     },
     {
       "label": "🟡 3-5",
@@ -100,7 +100,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 7
+      "count": 9
     }
   ],
   "agingRecords": [
@@ -137,16 +137,6 @@
           "stage": "Recruiter Review",
           "agingBand": "🔴 6+",
           "department": "510200 - STP Student Life"
-        },
-        {
-          "title": "Building & Security Assistant II",
-          "reqId": "44059",
-          "notionUrl": "https://www.notion.so/439bf8f48891437db453f1968ed576ed",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "400100 - Univ Lib Deans Office"
         },
         {
           "title": "OPS Hourly Non-Student/Senior Building Manager",
@@ -567,6 +557,16 @@
           "stage": "Pre-boarding",
           "agingBand": "🔴 6+",
           "department": "041300 - Strategic Initiatives"
+        },
+        {
+          "title": "Experiential Learning Coordinator",
+          "reqId": "43662",
+          "notionUrl": "https://www.notion.so/1313cca850574c348980fc427f4dc646",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Interview Stage",
+          "agingBand": "🔴 6+",
+          "department": "047700 - Career & Professional Dev"
         },
         {
           "title": "Director of Industry to Campus Connections",
@@ -1037,16 +1037,6 @@
           "stage": "Passive",
           "agingBand": "🔴 6+",
           "department": "Inst For School Comm Partnership"
-        },
-        {
-          "title": "Administrative Specialist",
-          "reqId": "43427",
-          "notionUrl": "https://www.notion.so/affd001d0f77400f95cc677c2c6e47b4",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Sourced",
-          "agingBand": "🔴 6+",
-          "department": "STP Student Success"
         },
         {
           "title": "Marine Chief Engineer",
@@ -1751,6 +1741,16 @@
       "color": "#3B6D11",
       "records": [
         {
+          "title": "Building & Security Assistant II",
+          "reqId": "44059",
+          "notionUrl": "https://www.notion.so/439bf8f48891437db453f1968ed576ed",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "400100 - Univ Lib Deans Office"
+        },
+        {
           "title": "Academic Services Administrator",
           "reqId": "43996",
           "notionUrl": "https://www.notion.so/e96fcdac40284d30a2d6e8ba514c415f",
@@ -1789,6 +1789,16 @@
           "stage": "Offer Stage",
           "agingBand": "🟢 0–2",
           "department": "MUMA"
+        },
+        {
+          "title": "Administrative Specialist",
+          "reqId": "43427",
+          "notionUrl": "https://www.notion.so/affd001d0f77400f95cc677c2c6e47b4",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "STP Student Success"
         },
         {
           "title": "Assistant Director of Data Visualization (Admin)",
@@ -1831,7 +1841,7 @@
     },
     {
       "label": "Evergreen",
-      "count": 161,
+      "count": 160,
       "color": "#7A9EB5"
     },
     {
@@ -1858,7 +1868,7 @@
   "department": [
     {
       "label": "USF Health",
-      "count": 112,
+      "count": 111,
       "color": "#006747"
     },
     {
@@ -1971,13 +1981,13 @@
     {
       "label": "Sourced",
       "avgDays": 27,
-      "count": 10,
+      "count": 9,
       "color": "#00A693"
     },
     {
       "label": "Recruiter Review",
       "avgDays": 23,
-      "count": 63,
+      "count": 62,
       "color": "#006747"
     },
     {
@@ -2497,6 +2507,16 @@
       "department": "490000 - USF World",
       "ttf": 116,
       "notionUrl": "https://www.notion.so/ec15ebd7cba941009faecf22873efe91"
+    },
+    {
+      "title": "Assistant Director - Department of Opthalmology",
+      "reqId": "43248",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Filled",
+      "department": "USF Health",
+      "ttf": 115,
+      "notionUrl": "https://www.notion.so/0f2cd5adebd844b787cdd391b75b91cb"
     },
     {
       "title": "Research Support Asst",
@@ -4116,7 +4136,7 @@
       "bgDark": "#3d2504",
       "campus": "Tampa",
       "reqs": 341,
-      "filled": 70,
+      "filled": 71,
       "failed": 21,
       "ttf": 102,
       "wip": 12,
@@ -4739,7 +4759,7 @@
         },
         {
           "label": "HM Review",
-          "count": 167,
+          "count": 166,
           "color": "#993556"
         },
         {
@@ -4799,7 +4819,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 247
+          "count": 246
         },
         {
           "label": "Screened",
@@ -4807,7 +4827,7 @@
         },
         {
           "label": "HM Review",
-          "count": 167
+          "count": 166
         },
         {
           "label": "Interviews",
@@ -4821,7 +4841,7 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 70,
+          "value": 71,
           "target": 10,
           "invert": false
         },
@@ -4940,6 +4960,16 @@
               "stage": "Pre-boarding",
               "agingBand": "🔴 6+",
               "department": "041300 - Strategic Initiatives"
+            },
+            {
+              "title": "Experiential Learning Coordinator",
+              "reqId": "43662",
+              "notionUrl": "https://www.notion.so/1313cca850574c348980fc427f4dc646",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Interview Stage",
+              "agingBand": "🔴 6+",
+              "department": "047700 - Career & Professional Dev"
             },
             {
               "title": "Director of Industry to Campus Connections",
@@ -5386,7 +5416,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 27
+          "count": 28
         },
         {
           "label": "🟡 3-5",
@@ -5507,16 +5537,6 @@
               "stage": "Recruiter Review",
               "agingBand": "🔴 6+",
               "department": "510200 - STP Student Life"
-            },
-            {
-              "title": "Building & Security Assistant II",
-              "reqId": "44059",
-              "notionUrl": "https://www.notion.so/439bf8f48891437db453f1968ed576ed",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "400100 - Univ Lib Deans Office"
             },
             {
               "title": "OPS Hourly Non-Student/Senior Building Manager",
@@ -5777,16 +5797,6 @@
               "stage": "Passive",
               "agingBand": "🔴 6+",
               "department": "Inst For School Comm Partnership"
-            },
-            {
-              "title": "Administrative Specialist",
-              "reqId": "43427",
-              "notionUrl": "https://www.notion.so/affd001d0f77400f95cc677c2c6e47b4",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Sourced",
-              "agingBand": "🔴 6+",
-              "department": "STP Student Success"
             },
             {
               "title": "Marine Chief Engineer",
@@ -6061,6 +6071,16 @@
           "color": "#3B6D11",
           "records": [
             {
+              "title": "Building & Security Assistant II",
+              "reqId": "44059",
+              "notionUrl": "https://www.notion.so/439bf8f48891437db453f1968ed576ed",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "400100 - Univ Lib Deans Office"
+            },
+            {
               "title": "Academic Services Administrator",
               "reqId": "43996",
               "notionUrl": "https://www.notion.so/e96fcdac40284d30a2d6e8ba514c415f",
@@ -6099,6 +6119,16 @@
               "stage": "Offer Stage",
               "agingBand": "🟢 0–2",
               "department": "MUMA"
+            },
+            {
+              "title": "Administrative Specialist",
+              "reqId": "43427",
+              "notionUrl": "https://www.notion.so/affd001d0f77400f95cc677c2c6e47b4",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "STP Student Success"
             },
             {
               "title": "Assistant Director of Data Visualization (Admin)",
@@ -6146,14 +6176,14 @@
       "stageMetrics": [
         {
           "label": "Sourced",
-          "avgDays": 13,
-          "count": 2,
+          "avgDays": 1,
+          "count": 1,
           "color": "#00A693"
         },
         {
           "label": "Recruiter Review",
           "avgDays": 14,
-          "count": 17,
+          "count": 16,
           "color": "#006747"
         },
         {
@@ -6195,13 +6225,18 @@
         },
         {
           "label": "Recruiter Review",
-          "count": 18,
+          "count": 17,
           "color": "#185FA5"
         },
         {
           "label": "Backlog",
           "count": 13,
           "color": "#888780"
+        },
+        {
+          "label": "HM Review",
+          "count": 7,
+          "color": "#993556"
         },
         {
           "label": "Faculty",
@@ -6215,13 +6250,8 @@
         },
         {
           "label": "Sourced",
-          "count": 3,
+          "count": 2,
           "color": "#3B6D11"
-        },
-        {
-          "label": "HM Review",
-          "count": 5,
-          "color": "#993556"
         },
         {
           "label": "Targeted",
@@ -6250,7 +6280,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 45
+          "count": 43
         },
         {
           "label": "🟡 3-5",
@@ -6264,7 +6294,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 7
+          "count": 9
         }
       ],
       "funnel": [
@@ -6278,7 +6308,7 @@
         },
         {
           "label": "HM Review",
-          "count": 5
+          "count": 7
         },
         {
           "label": "Interviews",
