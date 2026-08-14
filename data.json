@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T14:31:08.547Z",
+  "lastUpdated": "2026-08-14T15:53:56.487Z",
   "summary": {
     "openReqs": 594,
     "avgTimeToFill": 91,
@@ -37,11 +37,11 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 207
+      "count": 205
     },
     {
       "label": "HM Review",
-      "count": 179
+      "count": 181
     },
     {
       "label": "Offer Stage",
@@ -86,7 +86,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 139
+      "count": 136
     },
     {
       "label": "🟡 3-5",
@@ -100,7 +100,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 9
+      "count": 11
     }
   ],
   "agingRecords": [
@@ -287,26 +287,6 @@
           "stage": "Offer Stage",
           "agingBand": "🔴 6+",
           "department": "210600 - Electrical Engineering"
-        },
-        {
-          "title": "Project Coordinator",
-          "reqId": "44019",
-          "notionUrl": "https://www.notion.so/e598276a3e1145919c75ea3c303d69e9",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "171400 - Teaching & Learning"
-        },
-        {
-          "title": "Transfer Success Specialist",
-          "reqId": "44011",
-          "notionUrl": "https://www.notion.so/eec0f79238b040029cfc7f060ebecdf3",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "512800 - STP Academic Advising"
         },
         {
           "title": "AV Engineer I",
@@ -557,16 +537,6 @@
           "stage": "Pre-boarding",
           "agingBand": "🔴 6+",
           "department": "041300 - Strategic Initiatives"
-        },
-        {
-          "title": "Experiential Learning Coordinator",
-          "reqId": "43662",
-          "notionUrl": "https://www.notion.so/1313cca850574c348980fc427f4dc646",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Interview Stage",
-          "agingBand": "🔴 6+",
-          "department": "047700 - Career & Professional Dev"
         },
         {
           "title": "Director of Industry to Campus Connections",
@@ -1761,6 +1731,26 @@
           "department": "170800 - COE-Student Academic Services"
         },
         {
+          "title": "Project Coordinator",
+          "reqId": "44019",
+          "notionUrl": "https://www.notion.so/e598276a3e1145919c75ea3c303d69e9",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "171400 - Teaching & Learning"
+        },
+        {
+          "title": "Transfer Success Specialist",
+          "reqId": "44011",
+          "notionUrl": "https://www.notion.so/eec0f79238b040029cfc7f060ebecdf3",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "512800 - STP Academic Advising"
+        },
+        {
           "title": "Career Counselor",
           "reqId": "43849",
           "notionUrl": "https://www.notion.so/0068d432571146199e96e7108ed067f4",
@@ -1987,7 +1977,7 @@
     {
       "label": "Recruiter Review",
       "avgDays": 23,
-      "count": 62,
+      "count": 60,
       "color": "#006747"
     },
     {
@@ -4962,16 +4952,6 @@
               "department": "041300 - Strategic Initiatives"
             },
             {
-              "title": "Experiential Learning Coordinator",
-              "reqId": "43662",
-              "notionUrl": "https://www.notion.so/1313cca850574c348980fc427f4dc646",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Interview Stage",
-              "agingBand": "🔴 6+",
-              "department": "047700 - Career & Professional Dev"
-            },
-            {
               "title": "Director of Industry to Campus Connections",
               "reqId": "43716",
               "notionUrl": "https://www.notion.so/74bc19abe1bb4a2e8ea6afcbd2dc391e",
@@ -5416,7 +5396,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 28
+          "count": 27
         },
         {
           "label": "🟡 3-5",
@@ -5627,26 +5607,6 @@
               "stage": "Offer Stage",
               "agingBand": "🔴 6+",
               "department": "210600 - Electrical Engineering"
-            },
-            {
-              "title": "Project Coordinator",
-              "reqId": "44019",
-              "notionUrl": "https://www.notion.so/e598276a3e1145919c75ea3c303d69e9",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "171400 - Teaching & Learning"
-            },
-            {
-              "title": "Transfer Success Specialist",
-              "reqId": "44011",
-              "notionUrl": "https://www.notion.so/eec0f79238b040029cfc7f060ebecdf3",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "512800 - STP Academic Advising"
             },
             {
               "title": "OPS Temporary Research Physical Therapist",
@@ -6091,6 +6051,26 @@
               "department": "170800 - COE-Student Academic Services"
             },
             {
+              "title": "Project Coordinator",
+              "reqId": "44019",
+              "notionUrl": "https://www.notion.so/e598276a3e1145919c75ea3c303d69e9",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "171400 - Teaching & Learning"
+            },
+            {
+              "title": "Transfer Success Specialist",
+              "reqId": "44011",
+              "notionUrl": "https://www.notion.so/eec0f79238b040029cfc7f060ebecdf3",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "512800 - STP Academic Advising"
+            },
+            {
               "title": "Career Counselor",
               "reqId": "43849",
               "notionUrl": "https://www.notion.so/0068d432571146199e96e7108ed067f4",
@@ -6182,8 +6162,8 @@
         },
         {
           "label": "Recruiter Review",
-          "avgDays": 14,
-          "count": 16,
+          "avgDays": 12,
+          "count": 14,
           "color": "#006747"
         },
         {
@@ -6225,7 +6205,7 @@
         },
         {
           "label": "Recruiter Review",
-          "count": 17,
+          "count": 15,
           "color": "#185FA5"
         },
         {
@@ -6235,7 +6215,7 @@
         },
         {
           "label": "HM Review",
-          "count": 7,
+          "count": 9,
           "color": "#993556"
         },
         {
@@ -6280,7 +6260,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 43
+          "count": 41
         },
         {
           "label": "🟡 3-5",
@@ -6294,7 +6274,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 9
+          "count": 11
         }
       ],
       "funnel": [
@@ -6308,7 +6288,7 @@
         },
         {
           "label": "HM Review",
-          "count": 7
+          "count": 9
         },
         {
           "label": "Interviews",
