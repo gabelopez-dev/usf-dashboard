@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-16T14:24:48.165Z",
+  "lastUpdated": "2026-08-16T14:49:47.018Z",
   "summary": {
     "openReqs": 600,
     "avgTimeToFill": 92,
@@ -93,7 +93,7 @@
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 20
+      "count": 21
     },
     {
       "label": "🟢 0–2",
@@ -1564,6 +1564,16 @@
       "band": "🟡 3-5",
       "color": "#BA7517",
       "records": [
+        {
+          "title": "Marine Operational Training Mgr",
+          "reqId": "44171",
+          "notionUrl": "https://www.notion.so/04016ee7439c4c47a5168522fba402a4",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Backlog",
+          "agingBand": "🟡 3–5",
+          "department": "471000 - Florida Inst of Oceanography"
+        },
         {
           "title": "Fiscal & Business Specialist - Research",
           "reqId": "44166",
@@ -5994,6 +6004,16 @@
           "color": "#BA7517",
           "records": [
             {
+              "title": "Marine Operational Training Mgr",
+              "reqId": "44171",
+              "notionUrl": "https://www.notion.so/04016ee7439c4c47a5168522fba402a4",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Backlog",
+              "agingBand": "🟡 3–5",
+              "department": "471000 - Florida Inst of Oceanography"
+            },
+            {
               "title": "Fiscal & Business Specialist - Research",
               "reqId": "44166",
               "notionUrl": "https://www.notion.so/347d4883a32041babda39b085cf29151",
@@ -6266,7 +6286,7 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 9
+          "count": 10
         },
         {
           "label": "🟢 0–2",
