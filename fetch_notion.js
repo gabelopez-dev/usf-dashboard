@@ -130,6 +130,45 @@ async function writeToGitHub(content, sha) {
   return res;
 }
 
+async function getCSVFileSHA() {
+  const [owner, repo] = GITHUB_REPO.split('/');
+  const res = await httpsRequest({
+    hostname: 'api.github.com',
+    path: `/repos/${owner}/${repo}/contents/data_clean.csv`,
+    method: 'GET',
+    headers: {
+      'Authorization': `Bearer ${GITHUB_TOKEN}`,
+      'Accept': 'application/vnd.github.v3+json',
+      'User-Agent': 'USF-Dashboard-Sync'
+    }
+  });
+  return res.body.sha || null;
+}
+
+async function writeCSVToGitHub(content, sha) {
+  const [owner, repo] = GITHUB_REPO.split('/');
+  const encoded = Buffer.from(content).toString('base64');
+  const bodyObj = {
+    message: 'Auto-update data_clean.csv from Notion',
+    content: encoded,
+    ...(sha ? { sha } : {})
+  };
+  const body = JSON.stringify(bodyObj);
+  const res = await httpsRequest({
+    hostname: 'api.github.com',
+    path: `/repos/${owner}/${repo}/contents/data_clean.csv`,
+    method: 'PUT',
+    headers: {
+      'Authorization': `Bearer ${GITHUB_TOKEN}`,
+      'Accept': 'application/vnd.github.v3+json',
+      'Content-Type': 'application/json',
+      'Content-Length': Buffer.byteLength(body),
+      'User-Agent': 'USF-Dashboard-Sync'
+    }
+  }, body);
+  return res;
+}
+
 async function main() {
   console.log('Fetching Notion data...');
   const records = await queryNotion();
@@ -514,6 +553,63 @@ async function main() {
   } else {
     console.error('ERROR:', JSON.stringify(result.body));
     process.exit(1);
+  }
+
+  // Build clean CSV for Power BI
+  const csvHeaders = [
+    'Req Title', 'Req ID', 'Owner', 'Stage', 'Req Type',
+    'Campus', 'Department/College', 'HRBP', 'Hiring Manager',
+    'Time to Fill (Days)', 'Time in Stage (Days)',
+    'Aging Band', 'Posted Date', 'Last Activity', 'Open Req'
+  ];
+
+  // Helper to clean a value for CSV — strip emoji, dashes, rich text artifacts
+  const cleanVal = val => {
+    if (val === null || val === undefined || val === '' || val === '-' || val === '—') return '';
+    let s = String(val);
+    // Strip emoji aging band prefixes — keep just the text part e.g. "6+", "3-5", "0-2"
+    s = s.replace(/🔴\s*/g, '').replace(/🟡\s*/g, '').replace(/🟢\s*/g, '');
+    // Strip other common emoji
+    s = s.replace(/[\u{1F300}-\u{1FFFF}]/gu, '').trim();
+    // Escape quotes for CSV
+    if (s.includes(',') || s.includes('"') || s.includes('\n')) {
+      s = '"' + s.replace(/"/g, '""') + '"';
+    }
+    return s;
+  };
+
+  const csvRows = records.map(r => {
+    const owner = (() => { const p = getProp(r, 'Owner', 'person'); return p?.name || p?.person?.email || ''; })();
+    const raw = getProp(r, 'Req Type', 'select');
+    const reqType = reqTypeNormalize(raw) || '';
+    return [
+      cleanVal(getProp(r, 'Requistion Title', 'title') || getProp(r, 'Requisition Title', 'title') || getProp(r, 'Name', 'title')),
+      cleanVal(getProp(r, 'Requisition ID', 'text') || getProp(r, 'Requisition ID', 'number')),
+      cleanVal(owner),
+      cleanVal(getProp(r, 'Stage', 'select')),
+      cleanVal(reqType),
+      cleanVal(getProp(r, 'Campus', 'select')),
+      cleanVal(getProp(r, 'Department/College', 'text')),
+      cleanVal(getProp(r, 'HRBP', 'text') || getProp(r, 'HRBP', 'select')),
+      cleanVal(getProp(r, 'Hiring Manager', 'text') || getProp(r, 'Hiring Manager', 'select')),
+      cleanVal(getProp(r, 'Time to Fill (Days)', 'formula_number') || ''),
+      cleanVal(getProp(r, 'Time in Stage (Days)', 'formula_number') || ''),
+      cleanVal((getProp(r, 'Aging Band', 'formula_text') || '').replace(/🔴\s*/g,'').replace(/🟡\s*/g,'').replace(/🟢\s*/g,'').trim()),
+      cleanVal(getProp(r, 'Posted Date', 'date') || getProp(r, 'Posted Date', 'text')),
+      cleanVal(getProp(r, 'Last Activity', 'date') || getProp(r, 'Last Activity', 'text')),
+      cleanVal(getProp(r, 'Open Req (Yes/No)', 'checkbox') ? 'Yes' : 'No')
+    ].join(',');
+  });
+
+  const csvContent = [csvHeaders.join(','), ...csvRows].join('\n');
+  console.log(`Built data_clean.csv — ${csvRows.length} rows`);
+
+  const csvSha = await getCSVFileSHA();
+  const csvResult = await writeCSVToGitHub(csvContent, csvSha);
+  if (csvResult.status === 200 || csvResult.status === 201) {
+    console.log('SUCCESS — data_clean.csv updated');
+  } else {
+    console.error('CSV ERROR:', JSON.stringify(csvResult.body));
   }
 }
 
