@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-08-17T16:57:58.839Z",
+  "lastUpdated": "2026-08-17T17:34:43.929Z",
   "summary": {
     "openReqs": 605,
     "avgTimeToFill": 92,
     "filledYTD": 157,
     "failedCancelled": 32,
-    "inOfferStage": 52
+    "inOfferStage": 55
   },
   "campus": [
     {
@@ -45,27 +45,27 @@
     },
     {
       "label": "Offer Stage",
-      "count": 52
+      "count": 55
     },
     {
       "label": "Student Hiring",
-      "count": 45
+      "count": 43
     },
     {
       "label": "Backlog",
-      "count": 31
+      "count": 29
     },
     {
       "label": "Faculty",
       "count": 19
     },
     {
-      "label": "Interview Stage",
-      "count": 17
+      "label": "Pre-boarding",
+      "count": 16
     },
     {
-      "label": "Pre-boarding",
-      "count": 14
+      "label": "Interview Stage",
+      "count": 16
     },
     {
       "label": "Passive",
@@ -1014,7 +1014,7 @@
           "notionUrl": "https://www.notion.so/38f9ddf757a08009af78f51cf4c2bf3f",
           "owner": "johncalebrese",
           "campus": "",
-          "stage": "Interview Stage",
+          "stage": "Offer Stage",
           "agingBand": "🔴 6+",
           "department": "027900 - Procurement & Payment Services"
         },
@@ -1680,7 +1680,7 @@
           "notionUrl": "https://www.notion.so/38ecb21c377048eab43a083edaca63b0",
           "owner": "johncalebrese",
           "campus": "Tampa",
-          "stage": "Backlog",
+          "stage": "Offer Stage",
           "agingBand": "🟡 3–5",
           "department": "051000 - Athletic Administration"
         },
@@ -1700,7 +1700,7 @@
           "notionUrl": "https://www.notion.so/88443e11ab964226b14e66d121643e1e",
           "owner": "johncalebrese",
           "campus": "Tampa",
-          "stage": "Backlog",
+          "stage": "Offer Stage",
           "agingBand": "🟡 3–5",
           "department": "051000 - Athletic Administration"
         },
@@ -2038,14 +2038,14 @@
     },
     {
       "label": "Interview Stage",
-      "avgDays": 27,
-      "count": 14,
+      "avgDays": 28,
+      "count": 13,
       "color": "#d4880a"
     },
     {
       "label": "Offer Stage",
-      "avgDays": 25,
-      "count": 40,
+      "avgDays": 23,
+      "count": 43,
       "color": "#CFC483"
     },
     {
@@ -2056,8 +2056,8 @@
     },
     {
       "label": "Backlog",
-      "avgDays": 14,
-      "count": 14,
+      "avgDays": 16,
+      "count": 12,
       "color": "#888780"
     },
     {
@@ -5256,7 +5256,7 @@
               "notionUrl": "https://www.notion.so/38f9ddf757a08009af78f51cf4c2bf3f",
               "owner": "johncalebrese",
               "campus": "",
-              "stage": "Interview Stage",
+              "stage": "Offer Stage",
               "agingBand": "🔴 6+",
               "department": "027900 - Procurement & Payment Services"
             },
@@ -5412,7 +5412,7 @@
               "notionUrl": "https://www.notion.so/38ecb21c377048eab43a083edaca63b0",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "Backlog",
+              "stage": "Offer Stage",
               "agingBand": "🟡 3–5",
               "department": "051000 - Athletic Administration"
             },
@@ -5432,7 +5432,7 @@
               "notionUrl": "https://www.notion.so/88443e11ab964226b14e66d121643e1e",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "Backlog",
+              "stage": "Offer Stage",
               "agingBand": "🟡 3–5",
               "department": "051000 - Athletic Administration"
             },
@@ -5470,13 +5470,13 @@
         {
           "label": "Interview Stage",
           "avgDays": 26,
-          "count": 11,
+          "count": 10,
           "color": "#d4880a"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 16,
-          "count": 7,
+          "avgDays": 14,
+          "count": 10,
           "color": "#CFC483"
         },
         {
@@ -5487,8 +5487,8 @@
         },
         {
           "label": "Backlog",
-          "avgDays": 7,
-          "count": 6,
+          "avgDays": 9,
+          "count": 4,
           "color": "#888780"
         }
       ],
@@ -5499,18 +5499,18 @@
           "color": "#185FA5"
         },
         {
-          "label": "Backlog",
-          "count": 6,
-          "color": "#888780"
+          "label": "Offer Stage",
+          "count": 17,
+          "color": "#0F6E56"
         },
         {
           "label": "Student Hiring",
-          "count": 19,
+          "count": 17,
           "color": "#0F6E56"
         },
         {
           "label": "Pre-boarding",
-          "count": 12,
+          "count": 14,
           "color": "#888780"
         },
         {
@@ -5519,13 +5519,13 @@
           "color": "#993556"
         },
         {
-          "label": "Offer Stage",
-          "count": 14,
-          "color": "#0F6E56"
+          "label": "Backlog",
+          "count": 4,
+          "color": "#888780"
         },
         {
           "label": "Interview Stage",
-          "count": 11,
+          "count": 10,
           "color": "#534AB7"
         }
       ],
@@ -5567,11 +5567,11 @@
         },
         {
           "label": "Interviews",
-          "count": 11
+          "count": 10
         },
         {
           "label": "Offer",
-          "count": 14
+          "count": 17
         }
       ],
       "goals": [
@@ -5595,7 +5595,7 @@
         },
         {
           "label": "Interviews",
-          "value": 11,
+          "value": 10,
           "target": 146,
           "invert": false
         }
