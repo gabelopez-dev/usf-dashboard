@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-08-17T15:30:24.297Z",
+  "lastUpdated": "2026-08-17T16:29:40.277Z",
   "summary": {
-    "openReqs": 606,
+    "openReqs": 605,
     "avgTimeToFill": 92,
-    "filledYTD": 156,
+    "filledYTD": 157,
     "failedCancelled": 32,
     "inOfferStage": 52
   },
@@ -15,7 +15,7 @@
     },
     {
       "label": "St Pete",
-      "count": 55,
+      "count": 54,
       "color": "#006747"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
       "label": "Backlog",
-      "count": 32
+      "count": 31
     },
     {
       "label": "Faculty",
@@ -86,7 +86,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 159
+      "count": 156
     },
     {
       "label": "🟡 3-5",
@@ -100,7 +100,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 1
+      "count": 3
     }
   ],
   "agingRecords": [
@@ -237,36 +237,6 @@
           "stage": "Recruiter Review",
           "agingBand": "🔴 6+",
           "department": "510100 - STP Administration & Finance"
-        },
-        {
-          "title": "Fitness and Membership Coordinator",
-          "reqId": "44055",
-          "notionUrl": "https://www.notion.so/10ee8b617b8843a1812c944935bdef7e",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "510200 - STP Student Life"
-        },
-        {
-          "title": "OPS Hourly Non-Student/Senior Building Manager",
-          "reqId": "44063",
-          "notionUrl": "https://www.notion.so/f61681743a8940a58e1ce87fe479c541",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "510200 - STP Student Life"
-        },
-        {
-          "title": "Leadership and Student Organizations Coordinator",
-          "reqId": "44079",
-          "notionUrl": "https://www.notion.so/eaeda37817ed46af92feeb202ed01f60",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Backlog",
-          "agingBand": "🔴 6+",
-          "department": "510200 - STP Student Life"
         },
         {
           "title": "Program Director",
@@ -1871,6 +1841,26 @@
       "color": "#3B6D11",
       "records": [
         {
+          "title": "Fitness and Membership Coordinator",
+          "reqId": "44055",
+          "notionUrl": "https://www.notion.so/10ee8b617b8843a1812c944935bdef7e",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "510200 - STP Student Life"
+        },
+        {
+          "title": "Leadership and Student Organizations Coordinator",
+          "reqId": "44079",
+          "notionUrl": "https://www.notion.so/eaeda37817ed46af92feeb202ed01f60",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "510200 - STP Student Life"
+        },
+        {
           "title": "Other Hourly Professional/Support- Human Services Practitioner",
           "reqId": "43809",
           "notionUrl": "https://www.notion.so/2e88f07706a84702835b45669e2b142b",
@@ -1886,7 +1876,7 @@
   "reqType": [
     {
       "label": "Active",
-      "count": 207,
+      "count": 206,
       "color": "#00A693"
     },
     {
@@ -2023,7 +2013,7 @@
     },
     {
       "label": "Other (157 depts)",
-      "count": 293,
+      "count": 292,
       "color": "#c8c7c2"
     }
   ],
@@ -2037,7 +2027,7 @@
     {
       "label": "Recruiter Review",
       "avgDays": 25,
-      "count": 62,
+      "count": 60,
       "color": "#006747"
     },
     {
@@ -2067,7 +2057,7 @@
     {
       "label": "Backlog",
       "avgDays": 14,
-      "count": 15,
+      "count": 14,
       "color": "#888780"
     },
     {
@@ -3637,6 +3627,16 @@
       "department": "512700 - STP Enrollment Management",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/8a91c936baf6419db61b33ab9ffc4f55"
+    },
+    {
+      "title": "OPS Hourly Non-Student/Senior Building Manager",
+      "reqId": "44063",
+      "owner": "Gabriel",
+      "campus": "St. Petersburg",
+      "stage": "Hired",
+      "department": "510200 - STP Student Life",
+      "ttf": 0,
+      "notionUrl": "https://www.notion.so/f61681743a8940a58e1ce87fe479c541"
     },
     {
       "title": "Athletics Assistant- FB On Campus Recruiting Assistant",
@@ -5618,10 +5618,10 @@
       "bgDark": "#042e24",
       "campus": "St Pete / Tampa",
       "reqs": 166,
-      "filled": 27,
+      "filled": 28,
       "failed": 1,
-      "ttf": 76,
-      "wip": 4,
+      "ttf": 75,
+      "wip": 5,
       "agingRecords": [
         {
           "band": "🔴 6+",
@@ -5696,36 +5696,6 @@
               "stage": "Recruiter Review",
               "agingBand": "🔴 6+",
               "department": "510100 - STP Administration & Finance"
-            },
-            {
-              "title": "Fitness and Membership Coordinator",
-              "reqId": "44055",
-              "notionUrl": "https://www.notion.so/10ee8b617b8843a1812c944935bdef7e",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "510200 - STP Student Life"
-            },
-            {
-              "title": "OPS Hourly Non-Student/Senior Building Manager",
-              "reqId": "44063",
-              "notionUrl": "https://www.notion.so/f61681743a8940a58e1ce87fe479c541",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "510200 - STP Student Life"
-            },
-            {
-              "title": "Leadership and Student Organizations Coordinator",
-              "reqId": "44079",
-              "notionUrl": "https://www.notion.so/eaeda37817ed46af92feeb202ed01f60",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Backlog",
-              "agingBand": "🔴 6+",
-              "department": "510200 - STP Student Life"
             },
             {
               "title": "Program Director",
@@ -6270,6 +6240,36 @@
           "color": "#3B6D11",
           "records": [
             {
+              "title": "Fitness and Membership Coordinator",
+              "reqId": "44055",
+              "notionUrl": "https://www.notion.so/10ee8b617b8843a1812c944935bdef7e",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "510200 - STP Student Life"
+            },
+            {
+              "title": "OPS Hourly Non-Student/Senior Building Manager",
+              "reqId": "44063",
+              "notionUrl": "https://www.notion.so/f61681743a8940a58e1ce87fe479c541",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Hired",
+              "agingBand": "🟢 0–2",
+              "department": "510200 - STP Student Life"
+            },
+            {
+              "title": "Leadership and Student Organizations Coordinator",
+              "reqId": "44079",
+              "notionUrl": "https://www.notion.so/eaeda37817ed46af92feeb202ed01f60",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "510200 - STP Student Life"
+            },
+            {
               "title": "Other Hourly Professional/Support- Human Services Practitioner",
               "reqId": "43809",
               "notionUrl": "https://www.notion.so/2e88f07706a84702835b45669e2b142b",
@@ -6291,8 +6291,8 @@
         },
         {
           "label": "Recruiter Review",
-          "avgDays": 13,
-          "count": 12,
+          "avgDays": 12,
+          "count": 10,
           "color": "#006747"
         },
         {
@@ -6315,8 +6315,8 @@
         },
         {
           "label": "Backlog",
-          "avgDays": 9,
-          "count": 5,
+          "avgDays": 6,
+          "count": 4,
           "color": "#888780"
         },
         {
@@ -6339,7 +6339,7 @@
         },
         {
           "label": "Backlog",
-          "count": 14,
+          "count": 13,
           "color": "#888780"
         },
         {
@@ -6389,7 +6389,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 48
+          "count": 45
         },
         {
           "label": "🟡 3-5",
@@ -6403,13 +6403,13 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 1
+          "count": 3
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 123
+          "count": 122
         },
         {
           "label": "Screened",
@@ -6431,13 +6431,13 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 27,
+          "value": 28,
           "target": 10,
           "invert": false
         },
         {
           "label": "Time to fill",
-          "value": 76,
+          "value": 75,
           "target": 40,
           "invert": true
         },
@@ -6455,12 +6455,12 @@
         }
       ],
       "trend": [
-        76,
-        76,
-        76,
-        76,
-        76,
-        76
+        75,
+        75,
+        75,
+        75,
+        75,
+        75
       ]
     },
     {
