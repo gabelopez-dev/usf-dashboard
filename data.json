@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-17T21:31:44.159Z",
+  "lastUpdated": "2026-08-17T22:26:46.121Z",
   "summary": {
-    "openReqs": 604,
+    "openReqs": 619,
     "avgTimeToFill": 92,
     "filledYTD": 158,
     "failedCancelled": 32,
@@ -10,12 +10,12 @@
   "campus": [
     {
       "label": "Tampa",
-      "count": 297,
+      "count": 310,
       "color": "#1B6A9C"
     },
     {
       "label": "St Pete",
-      "count": 54,
+      "count": 56,
       "color": "#006747"
     },
     {
@@ -53,11 +53,11 @@
     },
     {
       "label": "Backlog",
-      "count": 27
+      "count": 32
     },
     {
       "label": "Faculty",
-      "count": 19
+      "count": 29
     },
     {
       "label": "Pre-boarding",
@@ -1876,7 +1876,7 @@
   "reqType": [
     {
       "label": "Active",
-      "count": 201,
+      "count": 206,
       "color": "#00A693"
     },
     {
@@ -1891,7 +1891,7 @@
     },
     {
       "label": "Faculty",
-      "count": 27,
+      "count": 37,
       "color": "#534AB7"
     },
     {
@@ -1927,13 +1927,13 @@
       "color": "#CFC483"
     },
     {
-      "label": "STP Student Success",
-      "count": 12,
+      "label": "210500 - Mechanical Engineering",
+      "count": 16,
       "color": "#7A9EB5"
     },
     {
-      "label": "210500 - Mechanical Engineering",
-      "count": 11,
+      "label": "STP Student Success",
+      "count": 12,
       "color": "#5B7A8A"
     },
     {
@@ -1982,38 +1982,43 @@
       "color": "#534AB7"
     },
     {
-      "label": "460100 - Innovative Education",
+      "label": "210600 - Electrical Engineering",
       "count": 6,
       "color": "#993556"
     },
     {
-      "label": "126100 - Social Work",
+      "label": "460100 - Innovative Education",
       "count": 6,
       "color": "#006747"
     },
     {
-      "label": "041500 - Counseling Center",
+      "label": "126100 - Social Work",
       "count": 6,
       "color": "#1B6A9C"
     },
     {
-      "label": "026100 - University Police",
+      "label": "041500 - Counseling Center",
       "count": 6,
       "color": "#00A693"
     },
     {
-      "label": "College of Marine Science",
+      "label": "026100 - University Police",
       "count": 6,
       "color": "#CFC483"
     },
     {
-      "label": "Florida Inst of Oceanography",
+      "label": "College of Marine Science",
       "count": 6,
       "color": "#7A9EB5"
     },
     {
-      "label": "Other (157 depts)",
-      "count": 291,
+      "label": "Florida Inst of Oceanography",
+      "count": 6,
+      "color": "#5B7A8A"
+    },
+    {
+      "label": "Other (158 depts)",
+      "count": 295,
       "color": "#c8c7c2"
     }
   ],
@@ -5627,11 +5632,11 @@
       "bgLight": "#e6f2ed",
       "bgDark": "#042e24",
       "campus": "St Pete / Tampa",
-      "reqs": 166,
+      "reqs": 181,
       "filled": 29,
       "failed": 1,
       "ttf": 74,
-      "wip": 13,
+      "wip": 14,
       "agingRecords": [
         {
           "band": "🔴 6+",
@@ -6338,6 +6343,16 @@
       ],
       "statuses": [
         {
+          "label": "Faculty",
+          "count": 28,
+          "color": "#534AB7"
+        },
+        {
+          "label": "Backlog",
+          "count": 16,
+          "color": "#888780"
+        },
+        {
           "label": "Recruiter Review",
           "count": 15,
           "color": "#185FA5"
@@ -6348,19 +6363,9 @@
           "color": "#0F6E56"
         },
         {
-          "label": "Backlog",
-          "count": 11,
-          "color": "#888780"
-        },
-        {
           "label": "HM Review",
           "count": 10,
           "color": "#993556"
-        },
-        {
-          "label": "Faculty",
-          "count": 18,
-          "color": "#534AB7"
         },
         {
           "label": "Offer Stage",
@@ -6419,7 +6424,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 121
+          "count": 136
         },
         {
           "label": "Screened",
@@ -6454,13 +6459,13 @@
         {
           "label": "Screened",
           "value": 0,
-          "target": 166,
+          "target": 181,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 4,
-          "target": 166,
+          "target": 181,
           "invert": false
         }
       ],
