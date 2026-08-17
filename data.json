@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-08-17T18:42:01.636Z",
+  "lastUpdated": "2026-08-17T19:29:53.317Z",
   "summary": {
-    "openReqs": 605,
+    "openReqs": 604,
     "avgTimeToFill": 92,
-    "filledYTD": 157,
+    "filledYTD": 158,
     "failedCancelled": 32,
     "inOfferStage": 55
   },
@@ -30,7 +30,7 @@
     },
     {
       "label": "Sarasota",
-      "count": 5,
+      "count": 4,
       "color": "#5B7A8A"
     }
   ],
@@ -49,7 +49,7 @@
     },
     {
       "label": "Student Hiring",
-      "count": 43
+      "count": 42
     },
     {
       "label": "Backlog",
@@ -1886,7 +1886,7 @@
     },
     {
       "label": "Student",
-      "count": 66,
+      "count": 65,
       "color": "#1B6A9C"
     },
     {
@@ -2013,7 +2013,7 @@
     },
     {
       "label": "Other (157 depts)",
-      "count": 292,
+      "count": 291,
       "color": "#c8c7c2"
     }
   ],
@@ -3727,6 +3727,16 @@
       "department": "614300 - Molecular Pharm & Physiology",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/38f9ddf757a080508157eb26fd02aa1f"
+    },
+    {
+      "title": "Asst Dir Student Ctrs & Events",
+      "reqId": "43083",
+      "owner": "Gabriel",
+      "campus": "Sarasota-Manatee",
+      "stage": "Filled",
+      "department": "521800 - SAR Student Services",
+      "ttf": 0,
+      "notionUrl": "https://www.notion.so/33e993e0e4d54166b0adeff9909dfd17"
     },
     {
       "title": "Clerical and Secretarial Support",
@@ -5618,10 +5628,10 @@
       "bgDark": "#042e24",
       "campus": "St Pete / Tampa",
       "reqs": 166,
-      "filled": 28,
+      "filled": 29,
       "failed": 1,
       "ttf": 74,
-      "wip": 12,
+      "wip": 13,
       "agingRecords": [
         {
           "band": "🔴 6+",
@@ -6334,7 +6344,7 @@
         },
         {
           "label": "Student Hiring",
-          "count": 17,
+          "count": 16,
           "color": "#0F6E56"
         },
         {
@@ -6409,7 +6419,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 122
+          "count": 121
         },
         {
           "label": "Screened",
@@ -6431,7 +6441,7 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 28,
+          "value": 29,
           "target": 10,
           "invert": false
         },
