@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T19:53:52.585Z",
+  "lastUpdated": "2026-08-17T20:29:15.380Z",
   "summary": {
     "openReqs": 604,
     "avgTimeToFill": 92,
@@ -49,7 +49,7 @@
     },
     {
       "label": "Student Hiring",
-      "count": 42
+      "count": 43
     },
     {
       "label": "Backlog",
@@ -72,12 +72,12 @@
       "count": 14
     },
     {
-      "label": "Sourced",
+      "label": "Targeted",
       "count": 12
     },
     {
-      "label": "Targeted",
-      "count": 12
+      "label": "Sourced",
+      "count": 11
     }
   ],
   "mainAging": [
@@ -6344,7 +6344,7 @@
         },
         {
           "label": "Student Hiring",
-          "count": 16,
+          "count": 17,
           "color": "#0F6E56"
         },
         {
@@ -6368,11 +6368,6 @@
           "color": "#0F6E56"
         },
         {
-          "label": "Sourced",
-          "count": 2,
-          "color": "#3B6D11"
-        },
-        {
           "label": "Targeted",
           "count": 11,
           "color": "#888780"
@@ -6391,6 +6386,11 @@
           "label": "Pre-boarding",
           "count": 2,
           "color": "#888780"
+        },
+        {
+          "label": "Sourced",
+          "count": 1,
+          "color": "#3B6D11"
         }
       ],
       "aging": [
