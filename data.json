@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T17:34:43.929Z",
+  "lastUpdated": "2026-08-17T18:42:01.636Z",
   "summary": {
     "openReqs": 605,
     "avgTimeToFill": 92,
@@ -37,7 +37,7 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 208
+      "count": 209
     },
     {
       "label": "HM Review",
@@ -53,7 +53,7 @@
     },
     {
       "label": "Backlog",
-      "count": 29
+      "count": 27
     },
     {
       "label": "Faculty",
@@ -77,7 +77,7 @@
     },
     {
       "label": "Targeted",
-      "count": 11
+      "count": 12
     }
   ],
   "mainAging": [
@@ -86,7 +86,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 156
+      "count": 149
     },
     {
       "label": "🟡 3-5",
@@ -100,7 +100,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 3
+      "count": 10
     }
   ],
   "agingRecords": [
@@ -139,16 +139,6 @@
           "department": "177500 - Inst For School Comm Partnersh"
         },
         {
-          "title": "Marine Operational Training Mgr",
-          "reqId": "44171",
-          "notionUrl": "https://www.notion.so/04016ee7439c4c47a5168522fba402a4",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Backlog",
-          "agingBand": "🔴 6+",
-          "department": "471000 - Florida Inst of Oceanography"
-        },
-        {
           "title": "Fiscal & Business Specialist - Research",
           "reqId": "44166",
           "notionUrl": "https://www.notion.so/347d4883a32041babda39b085cf29151",
@@ -177,16 +167,6 @@
           "stage": "Recruiter Review",
           "agingBand": "🔴 6+",
           "department": "177500 - Inst For School Comm Partnersh"
-        },
-        {
-          "title": "Sr Biological Scientist",
-          "reqId": "44167",
-          "notionUrl": "https://www.notion.so/2d1996dcbe9549db9b1075272a92c0c0",
-          "owner": "Gabriel",
-          "campus": "Unknown",
-          "stage": "Backlog",
-          "agingBand": "🔴 6+",
-          "department": "471000 - Florida Inst of Oceanography"
         },
         {
           "title": "Front-End Developer I",
@@ -239,61 +219,11 @@
           "department": "510100 - STP Administration & Finance"
         },
         {
-          "title": "Program Director",
-          "reqId": "44090",
-          "notionUrl": "https://www.notion.so/2135ef73fef4400a96fa589524bf2180",
-          "owner": "Gabriel",
-          "campus": "Tallahassee",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "177500 - Inst For School Comm Partnersh"
-        },
-        {
-          "title": "School Improvement Coordinator",
-          "reqId": "44108",
-          "notionUrl": "https://www.notion.so/cdc1376c7a7c478db2f0385352c38cba",
-          "owner": "Gabriel",
-          "campus": "Unknown",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "177500 - Inst For School Comm Partnersh"
-        },
-        {
           "title": "Postdoctoral Scholar Research",
           "reqId": "44125",
           "notionUrl": "https://www.notion.so/beb1fd1d8176476caf5de82c69eb7ac8",
           "owner": "Gabriel",
           "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "177500 - Inst For School Comm Partnersh"
-        },
-        {
-          "title": "Systems & Business Process Dir",
-          "reqId": "44128",
-          "notionUrl": "https://www.notion.so/731d1ab5680b42ee9a95c7a2807ab25c",
-          "owner": "Gabriel",
-          "campus": "Tallahassee",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "177500 - Inst For School Comm Partnersh"
-        },
-        {
-          "title": "Postdoctoral Scholar Research",
-          "reqId": "44139",
-          "notionUrl": "https://www.notion.so/88ab93184d8f4eeba81c56d9625b530d",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "250000 - College of Marine Science"
-        },
-        {
-          "title": "Support Staff",
-          "reqId": "44150",
-          "notionUrl": "https://www.notion.so/84236d000b4f454fa31b192595a733cf",
-          "owner": "Gabriel",
-          "campus": "Tallahassee",
           "stage": "Recruiter Review",
           "agingBand": "🔴 6+",
           "department": "177500 - Inst For School Comm Partnersh"
@@ -1841,6 +1771,36 @@
       "color": "#3B6D11",
       "records": [
         {
+          "title": "OPS / Temporary Marine Chief Engineer",
+          "reqId": "44180",
+          "notionUrl": "https://www.notion.so/ada6d585591b4c80b74c83d88849fd74",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "471000 - Florida Inst of Oceanography"
+        },
+        {
+          "title": "Marine Operational Training Mgr",
+          "reqId": "44171",
+          "notionUrl": "https://www.notion.so/04016ee7439c4c47a5168522fba402a4",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "471000 - Florida Inst of Oceanography"
+        },
+        {
+          "title": "Sr Biological Scientist",
+          "reqId": "44167",
+          "notionUrl": "https://www.notion.so/2d1996dcbe9549db9b1075272a92c0c0",
+          "owner": "Gabriel",
+          "campus": "Unknown",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "471000 - Florida Inst of Oceanography"
+        },
+        {
           "title": "Fitness and Membership Coordinator",
           "reqId": "44055",
           "notionUrl": "https://www.notion.so/10ee8b617b8843a1812c944935bdef7e",
@@ -1861,6 +1821,46 @@
           "department": "510200 - STP Student Life"
         },
         {
+          "title": "Program Director",
+          "reqId": "44090",
+          "notionUrl": "https://www.notion.so/2135ef73fef4400a96fa589524bf2180",
+          "owner": "Gabriel",
+          "campus": "Tallahassee",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "177500 - Inst For School Comm Partnersh"
+        },
+        {
+          "title": "School Improvement Coordinator",
+          "reqId": "44108",
+          "notionUrl": "https://www.notion.so/cdc1376c7a7c478db2f0385352c38cba",
+          "owner": "Gabriel",
+          "campus": "Unknown",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "177500 - Inst For School Comm Partnersh"
+        },
+        {
+          "title": "Systems & Business Process Dir",
+          "reqId": "44128",
+          "notionUrl": "https://www.notion.so/731d1ab5680b42ee9a95c7a2807ab25c",
+          "owner": "Gabriel",
+          "campus": "Tallahassee",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "177500 - Inst For School Comm Partnersh"
+        },
+        {
+          "title": "Support Staff",
+          "reqId": "44150",
+          "notionUrl": "https://www.notion.so/84236d000b4f454fa31b192595a733cf",
+          "owner": "Gabriel",
+          "campus": "Tallahassee",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "177500 - Inst For School Comm Partnersh"
+        },
+        {
           "title": "Other Hourly Professional/Support- Human Services Practitioner",
           "reqId": "43809",
           "notionUrl": "https://www.notion.so/2e88f07706a84702835b45669e2b142b",
@@ -1876,7 +1876,7 @@
   "reqType": [
     {
       "label": "Active",
-      "count": 206,
+      "count": 201,
       "color": "#00A693"
     },
     {
@@ -1895,14 +1895,14 @@
       "color": "#534AB7"
     },
     {
-      "label": "Targeted",
-      "count": 15,
-      "color": "#CFC483"
+      "label": "Passive",
+      "count": 18,
+      "color": "#006747"
     },
     {
-      "label": "Passive",
-      "count": 14,
-      "color": "#006747"
+      "label": "Targeted",
+      "count": 16,
+      "color": "#CFC483"
     }
   ],
   "department": [
@@ -2026,8 +2026,8 @@
     },
     {
       "label": "Recruiter Review",
-      "avgDays": 25,
-      "count": 60,
+      "avgDays": 26,
+      "count": 55,
       "color": "#006747"
     },
     {
@@ -2056,8 +2056,8 @@
     },
     {
       "label": "Backlog",
-      "avgDays": 16,
-      "count": 12,
+      "avgDays": 18,
+      "count": 10,
       "color": "#888780"
     },
     {
@@ -5620,8 +5620,8 @@
       "reqs": 166,
       "filled": 28,
       "failed": 1,
-      "ttf": 75,
-      "wip": 5,
+      "ttf": 74,
+      "wip": 12,
       "agingRecords": [
         {
           "band": "🔴 6+",
@@ -5636,16 +5636,6 @@
               "stage": "Recruiter Review",
               "agingBand": "🔴 6+",
               "department": "177500 - Inst For School Comm Partnersh"
-            },
-            {
-              "title": "Marine Operational Training Mgr",
-              "reqId": "44171",
-              "notionUrl": "https://www.notion.so/04016ee7439c4c47a5168522fba402a4",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Backlog",
-              "agingBand": "🔴 6+",
-              "department": "471000 - Florida Inst of Oceanography"
             },
             {
               "title": "Fiscal & Business Specialist - Research",
@@ -5678,16 +5668,6 @@
               "department": "177500 - Inst For School Comm Partnersh"
             },
             {
-              "title": "Sr Biological Scientist",
-              "reqId": "44167",
-              "notionUrl": "https://www.notion.so/2d1996dcbe9549db9b1075272a92c0c0",
-              "owner": "Gabriel",
-              "campus": "Unknown",
-              "stage": "Backlog",
-              "agingBand": "🔴 6+",
-              "department": "471000 - Florida Inst of Oceanography"
-            },
-            {
               "title": "Accounting Assistant",
               "reqId": "44051",
               "notionUrl": "https://www.notion.so/be692cd816444d1bb9ea453470b229bd",
@@ -5698,61 +5678,11 @@
               "department": "510100 - STP Administration & Finance"
             },
             {
-              "title": "Program Director",
-              "reqId": "44090",
-              "notionUrl": "https://www.notion.so/2135ef73fef4400a96fa589524bf2180",
-              "owner": "Gabriel",
-              "campus": "Tallahassee",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "177500 - Inst For School Comm Partnersh"
-            },
-            {
-              "title": "School Improvement Coordinator",
-              "reqId": "44108",
-              "notionUrl": "https://www.notion.so/cdc1376c7a7c478db2f0385352c38cba",
-              "owner": "Gabriel",
-              "campus": "Unknown",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "177500 - Inst For School Comm Partnersh"
-            },
-            {
               "title": "Postdoctoral Scholar Research",
               "reqId": "44125",
               "notionUrl": "https://www.notion.so/beb1fd1d8176476caf5de82c69eb7ac8",
               "owner": "Gabriel",
               "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "177500 - Inst For School Comm Partnersh"
-            },
-            {
-              "title": "Systems & Business Process Dir",
-              "reqId": "44128",
-              "notionUrl": "https://www.notion.so/731d1ab5680b42ee9a95c7a2807ab25c",
-              "owner": "Gabriel",
-              "campus": "Tallahassee",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "177500 - Inst For School Comm Partnersh"
-            },
-            {
-              "title": "Postdoctoral Scholar Research",
-              "reqId": "44139",
-              "notionUrl": "https://www.notion.so/88ab93184d8f4eeba81c56d9625b530d",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "250000 - College of Marine Science"
-            },
-            {
-              "title": "Support Staff",
-              "reqId": "44150",
-              "notionUrl": "https://www.notion.so/84236d000b4f454fa31b192595a733cf",
-              "owner": "Gabriel",
-              "campus": "Tallahassee",
               "stage": "Recruiter Review",
               "agingBand": "🔴 6+",
               "department": "177500 - Inst For School Comm Partnersh"
@@ -6240,6 +6170,36 @@
           "color": "#3B6D11",
           "records": [
             {
+              "title": "OPS / Temporary Marine Chief Engineer",
+              "reqId": "44180",
+              "notionUrl": "https://www.notion.so/ada6d585591b4c80b74c83d88849fd74",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "471000 - Florida Inst of Oceanography"
+            },
+            {
+              "title": "Marine Operational Training Mgr",
+              "reqId": "44171",
+              "notionUrl": "https://www.notion.so/04016ee7439c4c47a5168522fba402a4",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "471000 - Florida Inst of Oceanography"
+            },
+            {
+              "title": "Sr Biological Scientist",
+              "reqId": "44167",
+              "notionUrl": "https://www.notion.so/2d1996dcbe9549db9b1075272a92c0c0",
+              "owner": "Gabriel",
+              "campus": "Unknown",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "471000 - Florida Inst of Oceanography"
+            },
+            {
               "title": "Fitness and Membership Coordinator",
               "reqId": "44055",
               "notionUrl": "https://www.notion.so/10ee8b617b8843a1812c944935bdef7e",
@@ -6270,6 +6230,46 @@
               "department": "510200 - STP Student Life"
             },
             {
+              "title": "Program Director",
+              "reqId": "44090",
+              "notionUrl": "https://www.notion.so/2135ef73fef4400a96fa589524bf2180",
+              "owner": "Gabriel",
+              "campus": "Tallahassee",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "177500 - Inst For School Comm Partnersh"
+            },
+            {
+              "title": "School Improvement Coordinator",
+              "reqId": "44108",
+              "notionUrl": "https://www.notion.so/cdc1376c7a7c478db2f0385352c38cba",
+              "owner": "Gabriel",
+              "campus": "Unknown",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "177500 - Inst For School Comm Partnersh"
+            },
+            {
+              "title": "Systems & Business Process Dir",
+              "reqId": "44128",
+              "notionUrl": "https://www.notion.so/731d1ab5680b42ee9a95c7a2807ab25c",
+              "owner": "Gabriel",
+              "campus": "Tallahassee",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "177500 - Inst For School Comm Partnersh"
+            },
+            {
+              "title": "Support Staff",
+              "reqId": "44150",
+              "notionUrl": "https://www.notion.so/84236d000b4f454fa31b192595a733cf",
+              "owner": "Gabriel",
+              "campus": "Tallahassee",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "177500 - Inst For School Comm Partnersh"
+            },
+            {
               "title": "Other Hourly Professional/Support- Human Services Practitioner",
               "reqId": "43809",
               "notionUrl": "https://www.notion.so/2e88f07706a84702835b45669e2b142b",
@@ -6291,8 +6291,8 @@
         },
         {
           "label": "Recruiter Review",
-          "avgDays": 12,
-          "count": 10,
+          "avgDays": 11,
+          "count": 5,
           "color": "#006747"
         },
         {
@@ -6315,8 +6315,8 @@
         },
         {
           "label": "Backlog",
-          "avgDays": 6,
-          "count": 4,
+          "avgDays": 7,
+          "count": 2,
           "color": "#888780"
         },
         {
@@ -6329,7 +6329,7 @@
       "statuses": [
         {
           "label": "Recruiter Review",
-          "count": 14,
+          "count": 15,
           "color": "#185FA5"
         },
         {
@@ -6339,7 +6339,7 @@
         },
         {
           "label": "Backlog",
-          "count": 13,
+          "count": 11,
           "color": "#888780"
         },
         {
@@ -6364,7 +6364,7 @@
         },
         {
           "label": "Targeted",
-          "count": 10,
+          "count": 11,
           "color": "#888780"
         },
         {
@@ -6389,7 +6389,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 45
+          "count": 38
         },
         {
           "label": "🟡 3-5",
@@ -6403,7 +6403,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 3
+          "count": 10
         }
       ],
       "funnel": [
@@ -6437,7 +6437,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 75,
+          "value": 74,
           "target": 40,
           "invert": true
         },
@@ -6455,12 +6455,12 @@
         }
       ],
       "trend": [
-        75,
-        75,
-        75,
-        75,
-        75,
-        75
+        74,
+        74,
+        74,
+        74,
+        74,
+        74
       ]
     },
     {
