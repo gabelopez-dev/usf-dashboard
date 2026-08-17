@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-08-17T11:52:40.160Z",
+  "lastUpdated": "2026-08-17T12:48:15.643Z",
   "summary": {
-    "openReqs": 600,
-    "avgTimeToFill": 93,
+    "openReqs": 607,
+    "avgTimeToFill": 92,
     "filledYTD": 155,
     "failedCancelled": 32,
     "inOfferStage": 51
@@ -10,7 +10,7 @@
   "campus": [
     {
       "label": "Tampa",
-      "count": 290,
+      "count": 297,
       "color": "#1B6A9C"
     },
     {
@@ -37,7 +37,7 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 206
+      "count": 210
     },
     {
       "label": "HM Review",
@@ -49,11 +49,11 @@
     },
     {
       "label": "Student Hiring",
-      "count": 42
+      "count": 43
     },
     {
       "label": "Backlog",
-      "count": 31
+      "count": 33
     },
     {
       "label": "Faculty",
@@ -86,14 +86,14 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 159
+      "count": 161
     },
     {
       "label": "🟡 3-5",
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 12
+      "count": 16
     },
     {
       "label": "🟢 0–2",
@@ -108,6 +108,26 @@
       "band": "🔴 6+",
       "color": "#A32D2D",
       "records": [
+        {
+          "title": "Digital Platforms Developer",
+          "reqId": "44164",
+          "notionUrl": "https://www.notion.so/f211efe4851a4a72a4bd10ff45985bc0",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🔴 6+",
+          "department": "210800 - AICC Bellini College Department"
+        },
+        {
+          "title": "Tax Compliance Analyst",
+          "reqId": "44169",
+          "notionUrl": "https://www.notion.so/6a092d5fbce14bfd85fee7da4e4af56e",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🔴 6+",
+          "department": "023000 - University Treasurer"
+        },
         {
           "title": "Other Hourly Professional/Support",
           "reqId": "44160",
@@ -1705,6 +1725,46 @@
       "color": "#BA7517",
       "records": [
         {
+          "title": "Athletics Asst/Pitching Special Assistant, Video Analyst and Pitching Analytics",
+          "reqId": "44184",
+          "notionUrl": "https://www.notion.so/38ecb21c377048eab43a083edaca63b0",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟡 3–5",
+          "department": "051000 - Athletic Administration"
+        },
+        {
+          "title": "Salesforce Support Administrator",
+          "reqId": "44197",
+          "notionUrl": "https://www.notion.so/b2b3277cb11f4cc582f1430373a9bee3",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟡 3–5",
+          "department": "066200 - WUSF-FM"
+        },
+        {
+          "title": "Athletics Assistant/Special Assistant for Player Development, Recruiting Coordinator on Official Visits, and Offensive Analytics",
+          "reqId": "44186",
+          "notionUrl": "https://www.notion.so/88443e11ab964226b14e66d121643e1e",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟡 3–5",
+          "department": "051000 - Athletic Administration"
+        },
+        {
+          "title": "Client Services Assistant",
+          "reqId": "44207",
+          "notionUrl": "https://www.notion.so/acce8f7bada649cf95ad4d46b80a5bbf",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟡 3–5",
+          "department": "043000 - Student Health Services"
+        },
+        {
           "title": "Building & Security Assistant II",
           "reqId": "44059",
           "notionUrl": "https://www.notion.so/439bf8f48891437db453f1968ed576ed",
@@ -1835,7 +1895,7 @@
   "reqType": [
     {
       "label": "Active",
-      "count": 202,
+      "count": 208,
       "color": "#00A693"
     },
     {
@@ -1845,7 +1905,7 @@
     },
     {
       "label": "Student",
-      "count": 65,
+      "count": 66,
       "color": "#1B6A9C"
     },
     {
@@ -1882,7 +1942,7 @@
     },
     {
       "label": "051000 - Athletic Administration",
-      "count": 15,
+      "count": 17,
       "color": "#CFC483"
     },
     {
@@ -1901,22 +1961,22 @@
       "color": "#534AB7"
     },
     {
-      "label": "620100 - College Of Nurs",
+      "label": "047700 - Career & Professional Dev",
       "count": 9,
       "color": "#993556"
     },
     {
-      "label": "614400 - Molecular Medicine",
+      "label": "620100 - College Of Nurs",
       "count": 9,
       "color": "#006747"
     },
     {
-      "label": "177500 - Inst For School Comm Partnersh",
-      "count": 8,
+      "label": "614400 - Molecular Medicine",
+      "count": 9,
       "color": "#1B6A9C"
     },
     {
-      "label": "047700 - Career & Professional Dev",
+      "label": "177500 - Inst For School Comm Partnersh",
       "count": 8,
       "color": "#00A693"
     },
@@ -1971,8 +2031,8 @@
       "color": "#7A9EB5"
     },
     {
-      "label": "Other (157 depts)",
-      "count": 290,
+      "label": "Other (158 depts)",
+      "count": 294,
       "color": "#c8c7c2"
     }
   ],
@@ -1985,8 +2045,8 @@
     },
     {
       "label": "Recruiter Review",
-      "avgDays": 26,
-      "count": 59,
+      "avgDays": 25,
+      "count": 63,
       "color": "#006747"
     },
     {
@@ -2015,8 +2075,8 @@
     },
     {
       "label": "Backlog",
-      "avgDays": 16,
-      "count": 13,
+      "avgDays": 14,
+      "count": 15,
       "color": "#888780"
     },
     {
@@ -4879,16 +4939,36 @@
       "bgLight": "#e3f2fd",
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
-      "reqs": 139,
+      "reqs": 146,
       "filled": 57,
       "failed": 10,
-      "ttf": 83,
+      "ttf": 80,
       "wip": 13,
       "agingRecords": [
         {
           "band": "🔴 6+",
           "color": "#A32D2D",
           "records": [
+            {
+              "title": "Digital Platforms Developer",
+              "reqId": "44164",
+              "notionUrl": "https://www.notion.so/f211efe4851a4a72a4bd10ff45985bc0",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🔴 6+",
+              "department": "210800 - AICC Bellini College Department"
+            },
+            {
+              "title": "Tax Compliance Analyst",
+              "reqId": "44169",
+              "notionUrl": "https://www.notion.so/6a092d5fbce14bfd85fee7da4e4af56e",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🔴 6+",
+              "department": "023000 - University Treasurer"
+            },
             {
               "title": "Front-End Developer I",
               "reqId": "44105",
@@ -5324,7 +5404,48 @@
         {
           "band": "🟡 3-5",
           "color": "#BA7517",
-          "records": []
+          "records": [
+            {
+              "title": "Athletics Asst/Pitching Special Assistant, Video Analyst and Pitching Analytics",
+              "reqId": "44184",
+              "notionUrl": "https://www.notion.so/38ecb21c377048eab43a083edaca63b0",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟡 3–5",
+              "department": "051000 - Athletic Administration"
+            },
+            {
+              "title": "Salesforce Support Administrator",
+              "reqId": "44197",
+              "notionUrl": "https://www.notion.so/b2b3277cb11f4cc582f1430373a9bee3",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟡 3–5",
+              "department": "066200 - WUSF-FM"
+            },
+            {
+              "title": "Athletics Assistant/Special Assistant for Player Development, Recruiting Coordinator on Official Visits, and Offensive Analytics",
+              "reqId": "44186",
+              "notionUrl": "https://www.notion.so/88443e11ab964226b14e66d121643e1e",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟡 3–5",
+              "department": "051000 - Athletic Administration"
+            },
+            {
+              "title": "Client Services Assistant",
+              "reqId": "44207",
+              "notionUrl": "https://www.notion.so/acce8f7bada649cf95ad4d46b80a5bbf",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟡 3–5",
+              "department": "043000 - Student Health Services"
+            }
+          ]
         },
         {
           "band": "🟢 0–2",
@@ -5335,8 +5456,8 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 13,
-          "count": 7,
+          "avgDays": 10,
+          "count": 11,
           "color": "#006747"
         },
         {
@@ -5365,20 +5486,25 @@
         },
         {
           "label": "Backlog",
-          "avgDays": 9,
-          "count": 4,
+          "avgDays": 7,
+          "count": 6,
           "color": "#888780"
         }
       ],
       "statuses": [
         {
           "label": "Recruiter Review",
-          "count": 7,
+          "count": 11,
           "color": "#185FA5"
         },
         {
+          "label": "Backlog",
+          "count": 6,
+          "color": "#888780"
+        },
+        {
           "label": "Student Hiring",
-          "count": 18,
+          "count": 19,
           "color": "#0F6E56"
         },
         {
@@ -5397,11 +5523,6 @@
           "color": "#0F6E56"
         },
         {
-          "label": "Backlog",
-          "count": 4,
-          "color": "#888780"
-        },
-        {
           "label": "Interview Stage",
           "count": 11,
           "color": "#534AB7"
@@ -5413,14 +5534,14 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 39
+          "count": 41
         },
         {
           "label": "🟡 3-5",
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 0
+          "count": 4
         },
         {
           "label": "🟢 0–2",
@@ -5433,7 +5554,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 72
+          "count": 79
         },
         {
           "label": "Screened",
@@ -5461,30 +5582,30 @@
         },
         {
           "label": "Time to fill",
-          "value": 83,
+          "value": 80,
           "target": 40,
           "invert": true
         },
         {
           "label": "Screened",
           "value": 0,
-          "target": 139,
+          "target": 146,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 11,
-          "target": 139,
+          "target": 146,
           "invert": false
         }
       ],
       "trend": [
-        83,
-        83,
-        83,
-        83,
-        83,
-        83
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
       ]
     },
     {
