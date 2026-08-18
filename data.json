@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T13:43:31.406Z",
+  "lastUpdated": "2026-08-18T14:35:12.910Z",
   "summary": {
     "openReqs": 616,
     "avgTimeToFill": 93,
@@ -37,11 +37,11 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 209
+      "count": 208
     },
     {
       "label": "HM Review",
-      "count": 181
+      "count": 182
     },
     {
       "label": "Offer Stage",
@@ -624,7 +624,7 @@
           "notionUrl": "https://www.notion.so/ff7b5d57d38d4ce3b53f01b401f19259",
           "owner": "johncalebrese",
           "campus": "Tampa",
-          "stage": "Recruiter Review",
+          "stage": "HM Review",
           "agingBand": "🔴 6+",
           "department": "041500 - Counseling Center"
         },
@@ -2002,13 +2002,13 @@
     {
       "label": "Recruiter Review",
       "avgDays": 23,
-      "count": 64,
+      "count": 63,
       "color": "#006747"
     },
     {
       "label": "HM Review",
       "avgDays": 23,
-      "count": 15,
+      "count": 16,
       "color": "#534AB7"
     },
     {
@@ -5141,7 +5141,7 @@
               "notionUrl": "https://www.notion.so/ff7b5d57d38d4ce3b53f01b401f19259",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "Recruiter Review",
+              "stage": "HM Review",
               "agingBand": "🔴 6+",
               "department": "041500 - Counseling Center"
             },
@@ -5442,14 +5442,14 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 11,
-          "count": 11,
+          "avgDays": 10,
+          "count": 10,
           "color": "#006747"
         },
         {
           "label": "HM Review",
           "avgDays": 17,
-          "count": 4,
+          "count": 5,
           "color": "#534AB7"
         },
         {
@@ -5480,7 +5480,7 @@
       "statuses": [
         {
           "label": "Recruiter Review",
-          "count": 11,
+          "count": 10,
           "color": "#185FA5"
         },
         {
@@ -5500,7 +5500,7 @@
         },
         {
           "label": "HM Review",
-          "count": 5,
+          "count": 6,
           "color": "#993556"
         },
         {
@@ -5548,7 +5548,7 @@
         },
         {
           "label": "HM Review",
-          "count": 5
+          "count": 6
         },
         {
           "label": "Interviews",
