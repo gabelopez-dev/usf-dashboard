@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T19:28:57.158Z",
+  "lastUpdated": "2026-08-18T19:51:40.796Z",
   "summary": {
     "openReqs": 615,
     "avgTimeToFill": 93,
@@ -37,7 +37,7 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 207
+      "count": 208
     },
     {
       "label": "HM Review",
@@ -57,7 +57,7 @@
     },
     {
       "label": "Backlog",
-      "count": 29
+      "count": 28
     },
     {
       "label": "Pre-boarding",
@@ -86,7 +86,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 130
+      "count": 131
     },
     {
       "label": "🟡 3-5",
@@ -127,6 +127,16 @@
           "stage": "Recruiter Review",
           "agingBand": "🔴 6+",
           "department": "023000 - University Treasurer"
+        },
+        {
+          "title": "Fiscal & Business Specialist - Research",
+          "reqId": "44166",
+          "notionUrl": "https://www.notion.so/347d4883a32041babda39b085cf29151",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🔴 6+",
+          "department": "170100 - COE Dean's Office"
         },
         {
           "title": "Front-End Developer I",
@@ -1616,7 +1626,7 @@
   "reqType": [
     {
       "label": "Active",
-      "count": 197,
+      "count": 198,
       "color": "#00A693"
     },
     {
@@ -1636,7 +1646,7 @@
     },
     {
       "label": "Passive",
-      "count": 23,
+      "count": 22,
       "color": "#006747"
     },
     {
@@ -1771,8 +1781,8 @@
     },
     {
       "label": "Recruiter Review",
-      "avgDays": 26,
-      "count": 56,
+      "avgDays": 25,
+      "count": 57,
       "color": "#006747"
     },
     {
@@ -5369,13 +5379,23 @@
       "reqs": 180,
       "filled": 29,
       "failed": 1,
-      "ttf": 75,
-      "wip": 14,
+      "ttf": 74,
+      "wip": 15,
       "agingRecords": [
         {
           "band": "🔴 6+",
           "color": "#A32D2D",
           "records": [
+            {
+              "title": "Fiscal & Business Specialist - Research",
+              "reqId": "44166",
+              "notionUrl": "https://www.notion.so/347d4883a32041babda39b085cf29151",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🔴 6+",
+              "department": "170100 - COE Dean's Office"
+            },
             {
               "title": "Accounting Assistant",
               "reqId": "44051",
@@ -5811,7 +5831,7 @@
         {
           "label": "Recruiter Review",
           "avgDays": 4,
-          "count": 7,
+          "count": 8,
           "color": "#006747"
         },
         {
@@ -5841,12 +5861,12 @@
         },
         {
           "label": "Backlog",
-          "count": 13,
+          "count": 12,
           "color": "#888780"
         },
         {
           "label": "Recruiter Review",
-          "count": 14,
+          "count": 15,
           "color": "#185FA5"
         },
         {
@@ -5896,7 +5916,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 22
+          "count": 23
         },
         {
           "label": "🟡 3-5",
@@ -5944,7 +5964,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 75,
+          "value": 74,
           "target": 40,
           "invert": true
         },
@@ -5962,12 +5982,12 @@
         }
       ],
       "trend": [
-        75,
-        75,
-        75,
-        75,
-        75,
-        75
+        74,
+        74,
+        74,
+        74,
+        74,
+        74
       ]
     },
     {
