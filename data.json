@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-08-18T12:50:33.104Z",
+  "lastUpdated": "2026-08-18T13:43:31.406Z",
   "summary": {
-    "openReqs": 619,
+    "openReqs": 616,
     "avgTimeToFill": 93,
-    "filledYTD": 158,
+    "filledYTD": 161,
     "failedCancelled": 32,
-    "inOfferStage": 54
+    "inOfferStage": 53
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 310,
+      "count": 307,
       "color": "#1B6A9C"
     },
     {
@@ -41,11 +41,11 @@
     },
     {
       "label": "HM Review",
-      "count": 182
+      "count": 181
     },
     {
       "label": "Offer Stage",
-      "count": 54
+      "count": 53
     },
     {
       "label": "Student Hiring",
@@ -61,7 +61,7 @@
     },
     {
       "label": "Pre-boarding",
-      "count": 17
+      "count": 16
     },
     {
       "label": "Interview Stage",
@@ -86,7 +86,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 153
+      "count": 150
     },
     {
       "label": "🟡 3-5",
@@ -559,16 +559,6 @@
           "department": "490000 - USF World"
         },
         {
-          "title": "OPS Licensed Human Services Practitioner",
-          "reqId": "42524",
-          "notionUrl": "https://www.notion.so/2dd9225ccfed43ce90219e516ed0e5fb",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Interview Stage",
-          "agingBand": "🔴 6+",
-          "department": "041500 - Counseling Center"
-        },
-        {
           "title": "Student Programs Coordinator",
           "reqId": "42905",
           "notionUrl": "https://www.notion.so/f37b59bd18f94094b3c528c2fe8a15ee",
@@ -594,7 +584,7 @@
           "notionUrl": "https://www.notion.so/3979ddf757a08014851ff7ffdce99afd",
           "owner": "johncalebrese",
           "campus": "",
-          "stage": "Offer Stage",
+          "stage": "Pre-boarding",
           "agingBand": "🔴 6+",
           "department": ""
         },
@@ -607,16 +597,6 @@
           "stage": "HM Review",
           "agingBand": "🔴 6+",
           "department": "043000 - Student Health Services"
-        },
-        {
-          "title": "Business Analyst",
-          "reqId": "43467",
-          "notionUrl": "https://www.notion.so/9492201f49cd41ae8898b9f114026461",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 6+",
-          "department": "041300 - Strategic Initiatives"
         },
         {
           "title": "Experiential Learning Coordinator",
@@ -1109,16 +1089,6 @@
           "department": "STP Academic Affairs"
         },
         {
-          "title": "Learning Specialist",
-          "reqId": "43358",
-          "notionUrl": "https://www.notion.so/86f0979e7dd646348d4e71bc8df786de",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 6+",
-          "department": "380600 - UGS Academic Advising - Athletics"
-        },
-        {
           "title": "Solutions Engineer in Ocean and Environmental Data Visualization Products",
           "reqId": "43381",
           "notionUrl": "https://www.notion.so/8423a311edfe48e19753c7123f529a50",
@@ -1284,7 +1254,7 @@
           "notionUrl": "https://www.notion.so/76d1090b0d0b4901b3ea22b839c26a42",
           "owner": "johncalebrese",
           "campus": "Tampa",
-          "stage": "HM Review",
+          "stage": "Offer Stage",
           "agingBand": "🔴 6+",
           "department": "014000 - Office Of Internal Audit"
         },
@@ -1314,7 +1284,7 @@
           "notionUrl": "https://www.notion.so/7332b1275e7a4806b340d2ecf2f1f063",
           "owner": "johncalebrese",
           "campus": "Tampa",
-          "stage": "Offer Stage",
+          "stage": "Pre-boarding",
           "agingBand": "🔴 6+",
           "department": "051000 - Athletic Administration"
         },
@@ -1876,12 +1846,12 @@
   "reqType": [
     {
       "label": "Active",
-      "count": 206,
+      "count": 203,
       "color": "#00A693"
     },
     {
       "label": "Evergreen",
-      "count": 160,
+      "count": 161,
       "color": "#7A9EB5"
     },
     {
@@ -1901,7 +1871,7 @@
     },
     {
       "label": "Targeted",
-      "count": 16,
+      "count": 15,
       "color": "#CFC483"
     }
   ],
@@ -1922,12 +1892,12 @@
       "color": "#00A693"
     },
     {
-      "label": "051000 - Athletic Administration",
-      "count": 17,
+      "label": "210500 - Mechanical Engineering",
+      "count": 16,
       "color": "#CFC483"
     },
     {
-      "label": "210500 - Mechanical Engineering",
+      "label": "051000 - Athletic Administration",
       "count": 16,
       "color": "#7A9EB5"
     },
@@ -2018,7 +1988,7 @@
     },
     {
       "label": "Other (158 depts)",
-      "count": 295,
+      "count": 293,
       "color": "#c8c7c2"
     }
   ],
@@ -2037,25 +2007,25 @@
     },
     {
       "label": "HM Review",
-      "avgDays": 24,
-      "count": 16,
+      "avgDays": 23,
+      "count": 15,
       "color": "#534AB7"
     },
     {
       "label": "Interview Stage",
-      "avgDays": 29,
-      "count": 13,
+      "avgDays": 30,
+      "count": 12,
       "color": "#d4880a"
     },
     {
       "label": "Offer Stage",
-      "avgDays": 24,
-      "count": 43,
+      "avgDays": 25,
+      "count": 42,
       "color": "#CFC483"
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 28,
+      "avgDays": 26,
       "count": 6,
       "color": "#5B8FA8"
     },
@@ -2724,6 +2694,16 @@
       "notionUrl": "https://www.notion.so/0d23a97925734f28a32fa504d327f1ea"
     },
     {
+      "title": "Learning Specialist",
+      "reqId": "43358",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Filled",
+      "department": "380600 - UGS Academic Advising - Athletics",
+      "ttf": 105,
+      "notionUrl": "https://www.notion.so/86f0979e7dd646348d4e71bc8df786de"
+    },
+    {
       "title": "Donor Retention & Audience Exp",
       "reqId": "43369",
       "owner": "johncalebrese",
@@ -2832,6 +2812,16 @@
       "department": "USF Health",
       "ttf": 97,
       "notionUrl": "https://www.notion.so/e8e516421c7a41889088d5bf63ce238d"
+    },
+    {
+      "title": "Business Analyst",
+      "reqId": "43467",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Filled",
+      "department": "041300 - Strategic Initiatives",
+      "ttf": 95,
+      "notionUrl": "https://www.notion.so/9492201f49cd41ae8898b9f114026461"
     },
     {
       "title": "Customer Experience Coordinator (3 positions)",
@@ -3092,6 +3082,16 @@
       "department": "USF Health",
       "ttf": 71,
       "notionUrl": "https://www.notion.so/22e5ea79cf2b4eb5852c7b2464d5bc1c"
+    },
+    {
+      "title": "Assistant Coach Mens Tennis",
+      "reqId": "43679",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Filled",
+      "department": "051000 - Athletic Administration",
+      "ttf": 70,
+      "notionUrl": "https://www.notion.so/c60530bb567842359be1b75aacb7022f"
     },
     {
       "title": "Athletics Assistant Mens Basketball",
@@ -4956,7 +4956,7 @@
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
       "reqs": 146,
-      "filled": 57,
+      "filled": 60,
       "failed": 10,
       "ttf": 81,
       "wip": 13,
@@ -5086,16 +5086,6 @@
               "department": "490000 - USF World"
             },
             {
-              "title": "OPS Licensed Human Services Practitioner",
-              "reqId": "42524",
-              "notionUrl": "https://www.notion.so/2dd9225ccfed43ce90219e516ed0e5fb",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Interview Stage",
-              "agingBand": "🔴 6+",
-              "department": "041500 - Counseling Center"
-            },
-            {
               "title": "Student Programs Coordinator",
               "reqId": "42905",
               "notionUrl": "https://www.notion.so/f37b59bd18f94094b3c528c2fe8a15ee",
@@ -5111,7 +5101,7 @@
               "notionUrl": "https://www.notion.so/3979ddf757a08014851ff7ffdce99afd",
               "owner": "johncalebrese",
               "campus": "",
-              "stage": "Offer Stage",
+              "stage": "Pre-boarding",
               "agingBand": "🔴 6+",
               "department": ""
             },
@@ -5124,16 +5114,6 @@
               "stage": "HM Review",
               "agingBand": "🔴 6+",
               "department": "043000 - Student Health Services"
-            },
-            {
-              "title": "Business Analyst",
-              "reqId": "43467",
-              "notionUrl": "https://www.notion.so/9492201f49cd41ae8898b9f114026461",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🔴 6+",
-              "department": "041300 - Strategic Initiatives"
             },
             {
               "title": "Experiential Learning Coordinator",
@@ -5306,16 +5286,6 @@
               "department": "027900 - Procurement & Payment Services"
             },
             {
-              "title": "Learning Specialist",
-              "reqId": "43358",
-              "notionUrl": "https://www.notion.so/86f0979e7dd646348d4e71bc8df786de",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🔴 6+",
-              "department": "380600 - UGS Academic Advising - Athletics"
-            },
-            {
               "title": "Media Resources Specialist",
               "reqId": "43473",
               "notionUrl": "https://www.notion.so/b531e03b4a3645f5ab2a0ac1ee2e4a9b",
@@ -5331,7 +5301,7 @@
               "notionUrl": "https://www.notion.so/76d1090b0d0b4901b3ea22b839c26a42",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "HM Review",
+              "stage": "Offer Stage",
               "agingBand": "🔴 6+",
               "department": "014000 - Office Of Internal Audit"
             },
@@ -5351,7 +5321,7 @@
               "notionUrl": "https://www.notion.so/7332b1275e7a4806b340d2ecf2f1f063",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "Offer Stage",
+              "stage": "Pre-boarding",
               "agingBand": "🔴 6+",
               "department": "051000 - Athletic Administration"
             },
@@ -5478,25 +5448,25 @@
         },
         {
           "label": "HM Review",
-          "avgDays": 19,
-          "count": 5,
+          "avgDays": 17,
+          "count": 4,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 27,
-          "count": 10,
+          "avgDays": 28,
+          "count": 9,
           "color": "#d4880a"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 14,
-          "count": 9,
+          "avgDays": 15,
+          "count": 8,
           "color": "#CFC483"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 28,
+          "avgDays": 26,
           "count": 6,
           "color": "#5B8FA8"
         },
@@ -5515,7 +5485,7 @@
         },
         {
           "label": "Offer Stage",
-          "count": 16,
+          "count": 15,
           "color": "#0F6E56"
         },
         {
@@ -5525,12 +5495,12 @@
         },
         {
           "label": "Pre-boarding",
-          "count": 15,
+          "count": 14,
           "color": "#888780"
         },
         {
           "label": "HM Review",
-          "count": 6,
+          "count": 5,
           "color": "#993556"
         },
         {
@@ -5550,7 +5520,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 41
+          "count": 38
         },
         {
           "label": "🟡 3-5",
@@ -5570,7 +5540,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 79
+          "count": 76
         },
         {
           "label": "Screened",
@@ -5578,7 +5548,7 @@
         },
         {
           "label": "HM Review",
-          "count": 6
+          "count": 5
         },
         {
           "label": "Interviews",
@@ -5586,13 +5556,13 @@
         },
         {
           "label": "Offer",
-          "count": 16
+          "count": 15
         }
       ],
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 57,
+          "value": 60,
           "target": 10,
           "invert": false
         },
