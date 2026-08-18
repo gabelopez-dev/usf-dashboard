@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-18T18:46:50.815Z",
+  "lastUpdated": "2026-08-18T19:28:57.158Z",
   "summary": {
-    "openReqs": 616,
+    "openReqs": 615,
     "avgTimeToFill": 93,
     "filledYTD": 161,
     "failedCancelled": 32,
@@ -10,7 +10,7 @@
   "campus": [
     {
       "label": "Tampa",
-      "count": 307,
+      "count": 306,
       "color": "#1B6A9C"
     },
     {
@@ -37,7 +37,7 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 208
+      "count": 207
     },
     {
       "label": "HM Review",
@@ -52,11 +52,11 @@
       "count": 43
     },
     {
-      "label": "Backlog",
+      "label": "Faculty",
       "count": 32
     },
     {
-      "label": "Faculty",
+      "label": "Backlog",
       "count": 29
     },
     {
@@ -86,7 +86,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 150
+      "count": 130
     },
     {
       "label": "🟡 3-5",
@@ -100,7 +100,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 10
+      "count": 7
     }
   ],
   "agingRecords": [
@@ -127,46 +127,6 @@
           "stage": "Recruiter Review",
           "agingBand": "🔴 6+",
           "department": "023000 - University Treasurer"
-        },
-        {
-          "title": "Other Hourly Professional/Support",
-          "reqId": "44160",
-          "notionUrl": "https://www.notion.so/bb3867884125491fb4b5f5cf046a811c",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "177500 - Inst For School Comm Partnersh"
-        },
-        {
-          "title": "Fiscal & Business Specialist - Research",
-          "reqId": "44166",
-          "notionUrl": "https://www.notion.so/347d4883a32041babda39b085cf29151",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Backlog",
-          "agingBand": "🔴 6+",
-          "department": "170100 - COE Dean's Office"
-        },
-        {
-          "title": "Other Hourly Professional/Support",
-          "reqId": "44162",
-          "notionUrl": "https://www.notion.so/4ee0302ebc3b4394b37189d1098207fc",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "177500 - Inst For School Comm Partnersh"
-        },
-        {
-          "title": "Other Hourly Professional/Support",
-          "reqId": "44161",
-          "notionUrl": "https://www.notion.so/6040e10fcd6c446dae8bd7432cffd43e",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "177500 - Inst For School Comm Partnersh"
         },
         {
           "title": "Front-End Developer I",
@@ -217,26 +177,6 @@
           "stage": "Recruiter Review",
           "agingBand": "🔴 6+",
           "department": "510100 - STP Administration & Finance"
-        },
-        {
-          "title": "Postdoctoral Scholar Research",
-          "reqId": "44125",
-          "notionUrl": "https://www.notion.so/beb1fd1d8176476caf5de82c69eb7ac8",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "177500 - Inst For School Comm Partnersh"
-        },
-        {
-          "title": "NRT Program Coordinator - Mechanical Eng",
-          "reqId": "44153",
-          "notionUrl": "https://www.notion.so/a2dd4ade50854b3ea126a274862615ba",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Backlog",
-          "agingBand": "🔴 6+",
-          "department": "210500 - Mechanical Engineering"
         },
         {
           "title": "Research Support Assista",
@@ -869,16 +809,6 @@
           "department": "614300 - Molecular Pharm & Physiology"
         },
         {
-          "title": "Academic Advisor I",
-          "reqId": "42150",
-          "notionUrl": "https://www.notion.so/1d6cdf3873414e1286924f338ccf2ccf",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Passive",
-          "agingBand": "🔴 6+",
-          "department": "MUMA"
-        },
-        {
           "title": "Academic Program Specialist",
           "reqId": "43587",
           "notionUrl": "https://www.notion.so/f5d42d8300c04e39bda664cdb90693c2",
@@ -1019,66 +949,6 @@
           "department": "027900 - Procurement & Payment Services"
         },
         {
-          "title": "Program Development Specialist",
-          "reqId": "41648",
-          "notionUrl": "https://www.notion.so/2880aff0a0e9493eb3cf24f079e44a86",
-          "owner": "Gabriel",
-          "campus": "Tallahassee",
-          "stage": "Passive",
-          "agingBand": "🔴 6+",
-          "department": "Inst For School Comm Partnership"
-        },
-        {
-          "title": "OPS Marine Cook",
-          "reqId": "43063",
-          "notionUrl": "https://www.notion.so/d10e920a1bf048dbbd487f700460566d",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Passive",
-          "agingBand": "🔴 6+",
-          "department": "Florida Inst of Oceanography"
-        },
-        {
-          "title": "Skilled Craft / OPS Mate",
-          "reqId": "43064",
-          "notionUrl": "https://www.notion.so/c1ddc083f13d4503a42ef0138126e9b7",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Passive",
-          "agingBand": "🔴 6+",
-          "department": "Florida Inst of Oceanography"
-        },
-        {
-          "title": "Business Fiscal Operations Coordinator",
-          "reqId": "43073",
-          "notionUrl": "https://www.notion.so/5c968028c5024a24a9f49ec252902b4d",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Passive",
-          "agingBand": "🔴 6+",
-          "department": "Inst For School Comm Partnership"
-        },
-        {
-          "title": "Educational Policy Consultant",
-          "reqId": "43133",
-          "notionUrl": "https://www.notion.so/e34d945b33814440a50ddbcaa3e8559f",
-          "owner": "Gabriel",
-          "campus": "Tallahassee",
-          "stage": "Passive",
-          "agingBand": "🔴 6+",
-          "department": "Inst For School Comm Partnership"
-        },
-        {
-          "title": "Administrative Specialist",
-          "reqId": "43164",
-          "notionUrl": "https://www.notion.so/761f2f265a89430aa5b30c363199c3d1",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Passive",
-          "agingBand": "🔴 6+",
-          "department": "STP Arts And Sciences - Dean"
-        },
-        {
           "title": "Statistical Specialist",
           "reqId": "43163",
           "notionUrl": "https://www.notion.so/7958bb1997854f4cb939090dfc22e6a5",
@@ -1087,36 +957,6 @@
           "stage": "HM Review",
           "agingBand": "🔴 6+",
           "department": "STP Academic Affairs"
-        },
-        {
-          "title": "Solutions Engineer in Ocean and Environmental Data Visualization Products",
-          "reqId": "43381",
-          "notionUrl": "https://www.notion.so/8423a311edfe48e19753c7123f529a50",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Passive",
-          "agingBand": "🔴 6+",
-          "department": "College of Marine Science"
-        },
-        {
-          "title": "Federal Grant Specialist",
-          "reqId": "43414",
-          "notionUrl": "https://www.notion.so/b7318efb316b4b82acfd719d533cef63",
-          "owner": "Gabriel",
-          "campus": "Tallahassee",
-          "stage": "Passive",
-          "agingBand": "🔴 6+",
-          "department": "Inst For School Comm Partnership"
-        },
-        {
-          "title": "Marine Chief Engineer",
-          "reqId": "43460",
-          "notionUrl": "https://www.notion.so/c28d15500d114ccf81cd034b9fec520c",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Passive",
-          "agingBand": "🔴 6+",
-          "department": "Florida Inst of Oceanography"
         },
         {
           "title": "Media Resources Specialist",
@@ -1139,16 +979,6 @@
           "department": "STP Student Success"
         },
         {
-          "title": "Assistant Director of Data Visualization (Admin)",
-          "reqId": "43485",
-          "notionUrl": "https://www.notion.so/8cca609bec144edab210ecc2f566423f",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Passive",
-          "agingBand": "🔴 6+",
-          "department": "STP Library"
-        },
-        {
           "title": "Manager Parking & Transportation Operations",
           "reqId": "43487",
           "notionUrl": "https://www.notion.so/42a29090fab04f719f7ba308696e00de",
@@ -1157,16 +987,6 @@
           "stage": "HM Review",
           "agingBand": "🔴 6+",
           "department": "STP Parking Services"
-        },
-        {
-          "title": "Communications and Marketing Officer",
-          "reqId": "43669",
-          "notionUrl": "https://www.notion.so/1d79545d7d4541eea06430f3a5ff23de",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Passive",
-          "agingBand": "🔴 6+",
-          "department": "Inst For School Comm Partnership"
         },
         {
           "title": "Graphic Designer",
@@ -1197,16 +1017,6 @@
           "stage": "HM Review",
           "agingBand": "🔴 6+",
           "department": "College of Education "
-        },
-        {
-          "title": "Regional Coordinator",
-          "reqId": "43560",
-          "notionUrl": "https://www.notion.so/15768ab30dda46fdaebe9171740963d1",
-          "owner": "Gabriel",
-          "campus": "Tallahassee",
-          "stage": "Passive",
-          "agingBand": "🔴 6+",
-          "department": "Inst For School Comm Partnership"
         },
         {
           "title": "Science Education Specialist",
@@ -1337,16 +1147,6 @@
           "stage": "Recruiter Review",
           "agingBand": "🔴 6+",
           "department": "616300 - Health Informatics Institute"
-        },
-        {
-          "title": "NRT Program Coordinator",
-          "reqId": "42716",
-          "notionUrl": "https://www.notion.so/3db93888e0894b3ebe4f06510e52e43a",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Passive",
-          "agingBand": "🔴 6+",
-          "department": "Engineering"
         },
         {
           "title": "Student Asst FWS",
@@ -1791,41 +1591,11 @@
           "department": "510200 - STP Student Life"
         },
         {
-          "title": "Program Director",
-          "reqId": "44090",
-          "notionUrl": "https://www.notion.so/2135ef73fef4400a96fa589524bf2180",
-          "owner": "Gabriel",
-          "campus": "Tallahassee",
-          "stage": "Recruiter Review",
-          "agingBand": "🟢 0–2",
-          "department": "177500 - Inst For School Comm Partnersh"
-        },
-        {
           "title": "School Improvement Coordinator",
           "reqId": "44108",
           "notionUrl": "https://www.notion.so/cdc1376c7a7c478db2f0385352c38cba",
           "owner": "Gabriel",
           "campus": "Unknown",
-          "stage": "Recruiter Review",
-          "agingBand": "🟢 0–2",
-          "department": "177500 - Inst For School Comm Partnersh"
-        },
-        {
-          "title": "Systems & Business Process Dir",
-          "reqId": "44128",
-          "notionUrl": "https://www.notion.so/731d1ab5680b42ee9a95c7a2807ab25c",
-          "owner": "Gabriel",
-          "campus": "Tallahassee",
-          "stage": "Recruiter Review",
-          "agingBand": "🟢 0–2",
-          "department": "177500 - Inst For School Comm Partnersh"
-        },
-        {
-          "title": "Support Staff",
-          "reqId": "44150",
-          "notionUrl": "https://www.notion.so/84236d000b4f454fa31b192595a733cf",
-          "owner": "Gabriel",
-          "campus": "Tallahassee",
           "stage": "Recruiter Review",
           "agingBand": "🟢 0–2",
           "department": "177500 - Inst For School Comm Partnersh"
@@ -1846,7 +1616,7 @@
   "reqType": [
     {
       "label": "Active",
-      "count": 203,
+      "count": 197,
       "color": "#00A693"
     },
     {
@@ -1866,7 +1636,7 @@
     },
     {
       "label": "Passive",
-      "count": 18,
+      "count": 23,
       "color": "#006747"
     },
     {
@@ -1927,18 +1697,18 @@
       "color": "#1B6A9C"
     },
     {
-      "label": "177500 - Inst For School Comm Partnersh",
+      "label": "610001 - MCOM Research/Grad Affairs Supp",
       "count": 8,
       "color": "#00A693"
     },
     {
-      "label": "610001 - MCOM Research/Grad Affairs Supp",
+      "label": "Inst For School Comm Partnership",
       "count": 8,
       "color": "#CFC483"
     },
     {
-      "label": "Inst For School Comm Partnership",
-      "count": 8,
+      "label": "177500 - Inst For School Comm Partnersh",
+      "count": 7,
       "color": "#7A9EB5"
     },
     {
@@ -2001,8 +1771,8 @@
     },
     {
       "label": "Recruiter Review",
-      "avgDays": 23,
-      "count": 63,
+      "avgDays": 26,
+      "count": 56,
       "color": "#006747"
     },
     {
@@ -2031,14 +1801,8 @@
     },
     {
       "label": "Backlog",
-      "avgDays": 19,
-      "count": 10,
-      "color": "#888780"
-    },
-    {
-      "label": "Passive",
-      "avgDays": 112,
-      "count": 14,
+      "avgDays": 22,
+      "count": 8,
       "color": "#888780"
     }
   ],
@@ -5602,56 +5366,16 @@
       "bgLight": "#e6f2ed",
       "bgDark": "#042e24",
       "campus": "St Pete / Tampa",
-      "reqs": 181,
+      "reqs": 180,
       "filled": 29,
       "failed": 1,
       "ttf": 75,
-      "wip": 13,
+      "wip": 14,
       "agingRecords": [
         {
           "band": "🔴 6+",
           "color": "#A32D2D",
           "records": [
-            {
-              "title": "Other Hourly Professional/Support",
-              "reqId": "44160",
-              "notionUrl": "https://www.notion.so/bb3867884125491fb4b5f5cf046a811c",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "177500 - Inst For School Comm Partnersh"
-            },
-            {
-              "title": "Fiscal & Business Specialist - Research",
-              "reqId": "44166",
-              "notionUrl": "https://www.notion.so/347d4883a32041babda39b085cf29151",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Backlog",
-              "agingBand": "🔴 6+",
-              "department": "170100 - COE Dean's Office"
-            },
-            {
-              "title": "Other Hourly Professional/Support",
-              "reqId": "44162",
-              "notionUrl": "https://www.notion.so/4ee0302ebc3b4394b37189d1098207fc",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "177500 - Inst For School Comm Partnersh"
-            },
-            {
-              "title": "Other Hourly Professional/Support",
-              "reqId": "44161",
-              "notionUrl": "https://www.notion.so/6040e10fcd6c446dae8bd7432cffd43e",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "177500 - Inst For School Comm Partnersh"
-            },
             {
               "title": "Accounting Assistant",
               "reqId": "44051",
@@ -5661,26 +5385,6 @@
               "stage": "Recruiter Review",
               "agingBand": "🔴 6+",
               "department": "510100 - STP Administration & Finance"
-            },
-            {
-              "title": "Postdoctoral Scholar Research",
-              "reqId": "44125",
-              "notionUrl": "https://www.notion.so/beb1fd1d8176476caf5de82c69eb7ac8",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "177500 - Inst For School Comm Partnersh"
-            },
-            {
-              "title": "NRT Program Coordinator - Mechanical Eng",
-              "reqId": "44153",
-              "notionUrl": "https://www.notion.so/a2dd4ade50854b3ea126a274862615ba",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Backlog",
-              "agingBand": "🔴 6+",
-              "department": "210500 - Mechanical Engineering"
             },
             {
               "title": "Academic Advisor I - Electrical Engineering",
@@ -5763,16 +5467,6 @@
               "department": "MUMA"
             },
             {
-              "title": "Academic Advisor I",
-              "reqId": "42150",
-              "notionUrl": "https://www.notion.so/1d6cdf3873414e1286924f338ccf2ccf",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Passive",
-              "agingBand": "🔴 6+",
-              "department": "MUMA"
-            },
-            {
               "title": "Academic Program Specialist",
               "reqId": "43587",
               "notionUrl": "https://www.notion.so/f5d42d8300c04e39bda664cdb90693c2",
@@ -5793,66 +5487,6 @@
               "department": "MUMA"
             },
             {
-              "title": "Program Development Specialist",
-              "reqId": "41648",
-              "notionUrl": "https://www.notion.so/2880aff0a0e9493eb3cf24f079e44a86",
-              "owner": "Gabriel",
-              "campus": "Tallahassee",
-              "stage": "Passive",
-              "agingBand": "🔴 6+",
-              "department": "Inst For School Comm Partnership"
-            },
-            {
-              "title": "OPS Marine Cook",
-              "reqId": "43063",
-              "notionUrl": "https://www.notion.so/d10e920a1bf048dbbd487f700460566d",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Passive",
-              "agingBand": "🔴 6+",
-              "department": "Florida Inst of Oceanography"
-            },
-            {
-              "title": "Skilled Craft / OPS Mate",
-              "reqId": "43064",
-              "notionUrl": "https://www.notion.so/c1ddc083f13d4503a42ef0138126e9b7",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Passive",
-              "agingBand": "🔴 6+",
-              "department": "Florida Inst of Oceanography"
-            },
-            {
-              "title": "Business Fiscal Operations Coordinator",
-              "reqId": "43073",
-              "notionUrl": "https://www.notion.so/5c968028c5024a24a9f49ec252902b4d",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Passive",
-              "agingBand": "🔴 6+",
-              "department": "Inst For School Comm Partnership"
-            },
-            {
-              "title": "Educational Policy Consultant",
-              "reqId": "43133",
-              "notionUrl": "https://www.notion.so/e34d945b33814440a50ddbcaa3e8559f",
-              "owner": "Gabriel",
-              "campus": "Tallahassee",
-              "stage": "Passive",
-              "agingBand": "🔴 6+",
-              "department": "Inst For School Comm Partnership"
-            },
-            {
-              "title": "Administrative Specialist",
-              "reqId": "43164",
-              "notionUrl": "https://www.notion.so/761f2f265a89430aa5b30c363199c3d1",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Passive",
-              "agingBand": "🔴 6+",
-              "department": "STP Arts And Sciences - Dean"
-            },
-            {
               "title": "Statistical Specialist",
               "reqId": "43163",
               "notionUrl": "https://www.notion.so/7958bb1997854f4cb939090dfc22e6a5",
@@ -5861,36 +5495,6 @@
               "stage": "HM Review",
               "agingBand": "🔴 6+",
               "department": "STP Academic Affairs"
-            },
-            {
-              "title": "Solutions Engineer in Ocean and Environmental Data Visualization Products",
-              "reqId": "43381",
-              "notionUrl": "https://www.notion.so/8423a311edfe48e19753c7123f529a50",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Passive",
-              "agingBand": "🔴 6+",
-              "department": "College of Marine Science"
-            },
-            {
-              "title": "Federal Grant Specialist",
-              "reqId": "43414",
-              "notionUrl": "https://www.notion.so/b7318efb316b4b82acfd719d533cef63",
-              "owner": "Gabriel",
-              "campus": "Tallahassee",
-              "stage": "Passive",
-              "agingBand": "🔴 6+",
-              "department": "Inst For School Comm Partnership"
-            },
-            {
-              "title": "Marine Chief Engineer",
-              "reqId": "43460",
-              "notionUrl": "https://www.notion.so/c28d15500d114ccf81cd034b9fec520c",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Passive",
-              "agingBand": "🔴 6+",
-              "department": "Florida Inst of Oceanography"
             },
             {
               "title": "Student Programs Manager",
@@ -5903,16 +5507,6 @@
               "department": "STP Student Success"
             },
             {
-              "title": "Assistant Director of Data Visualization (Admin)",
-              "reqId": "43485",
-              "notionUrl": "https://www.notion.so/8cca609bec144edab210ecc2f566423f",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Passive",
-              "agingBand": "🔴 6+",
-              "department": "STP Library"
-            },
-            {
               "title": "Manager Parking & Transportation Operations",
               "reqId": "43487",
               "notionUrl": "https://www.notion.so/42a29090fab04f719f7ba308696e00de",
@@ -5921,16 +5515,6 @@
               "stage": "HM Review",
               "agingBand": "🔴 6+",
               "department": "STP Parking Services"
-            },
-            {
-              "title": "Communications and Marketing Officer",
-              "reqId": "43669",
-              "notionUrl": "https://www.notion.so/1d79545d7d4541eea06430f3a5ff23de",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Passive",
-              "agingBand": "🔴 6+",
-              "department": "Inst For School Comm Partnership"
             },
             {
               "title": "Marine Captain",
@@ -5971,16 +5555,6 @@
               "stage": "HM Review",
               "agingBand": "🔴 6+",
               "department": "College of Education "
-            },
-            {
-              "title": "Regional Coordinator",
-              "reqId": "43560",
-              "notionUrl": "https://www.notion.so/15768ab30dda46fdaebe9171740963d1",
-              "owner": "Gabriel",
-              "campus": "Tallahassee",
-              "stage": "Passive",
-              "agingBand": "🔴 6+",
-              "department": "Inst For School Comm Partnership"
             },
             {
               "title": "Science Education Specialist",
@@ -6049,16 +5623,6 @@
               "owner": "Gabriel",
               "campus": "Tampa",
               "stage": "Hired",
-              "agingBand": "🔴 6+",
-              "department": "Engineering"
-            },
-            {
-              "title": "NRT Program Coordinator",
-              "reqId": "42716",
-              "notionUrl": "https://www.notion.so/3db93888e0894b3ebe4f06510e52e43a",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Passive",
               "agingBand": "🔴 6+",
               "department": "Engineering"
             }
@@ -6215,41 +5779,11 @@
               "department": "510200 - STP Student Life"
             },
             {
-              "title": "Program Director",
-              "reqId": "44090",
-              "notionUrl": "https://www.notion.so/2135ef73fef4400a96fa589524bf2180",
-              "owner": "Gabriel",
-              "campus": "Tallahassee",
-              "stage": "Recruiter Review",
-              "agingBand": "🟢 0–2",
-              "department": "177500 - Inst For School Comm Partnersh"
-            },
-            {
               "title": "School Improvement Coordinator",
               "reqId": "44108",
               "notionUrl": "https://www.notion.so/cdc1376c7a7c478db2f0385352c38cba",
               "owner": "Gabriel",
               "campus": "Unknown",
-              "stage": "Recruiter Review",
-              "agingBand": "🟢 0–2",
-              "department": "177500 - Inst For School Comm Partnersh"
-            },
-            {
-              "title": "Systems & Business Process Dir",
-              "reqId": "44128",
-              "notionUrl": "https://www.notion.so/731d1ab5680b42ee9a95c7a2807ab25c",
-              "owner": "Gabriel",
-              "campus": "Tallahassee",
-              "stage": "Recruiter Review",
-              "agingBand": "🟢 0–2",
-              "department": "177500 - Inst For School Comm Partnersh"
-            },
-            {
-              "title": "Support Staff",
-              "reqId": "44150",
-              "notionUrl": "https://www.notion.so/84236d000b4f454fa31b192595a733cf",
-              "owner": "Gabriel",
-              "campus": "Tallahassee",
               "stage": "Recruiter Review",
               "agingBand": "🟢 0–2",
               "department": "177500 - Inst For School Comm Partnersh"
@@ -6276,8 +5810,8 @@
         },
         {
           "label": "Recruiter Review",
-          "avgDays": 5,
-          "count": 14,
+          "avgDays": 4,
+          "count": 7,
           "color": "#006747"
         },
         {
@@ -6297,34 +5831,22 @@
           "avgDays": 18,
           "count": 16,
           "color": "#CFC483"
-        },
-        {
-          "label": "Backlog",
-          "avgDays": 8,
-          "count": 2,
-          "color": "#888780"
-        },
-        {
-          "label": "Passive",
-          "avgDays": 112,
-          "count": 14,
-          "color": "#888780"
         }
       ],
       "statuses": [
         {
           "label": "Faculty",
-          "count": 28,
+          "count": 31,
           "color": "#534AB7"
         },
         {
           "label": "Backlog",
-          "count": 16,
+          "count": 13,
           "color": "#888780"
         },
         {
           "label": "Recruiter Review",
-          "count": 15,
+          "count": 14,
           "color": "#185FA5"
         },
         {
@@ -6374,7 +5896,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 42
+          "count": 22
         },
         {
           "label": "🟡 3-5",
@@ -6388,13 +5910,13 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 10
+          "count": 7
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 136
+          "count": 135
         },
         {
           "label": "Screened",
@@ -6429,13 +5951,13 @@
         {
           "label": "Screened",
           "value": 0,
-          "target": 181,
+          "target": 180,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 4,
-          "target": 181,
+          "target": 180,
           "invert": false
         }
       ],
