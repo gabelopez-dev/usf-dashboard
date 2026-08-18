@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-08-18T19:51:40.796Z",
+  "lastUpdated": "2026-08-18T20:26:31.356Z",
   "summary": {
     "openReqs": 615,
-    "avgTimeToFill": 93,
+    "avgTimeToFill": 92,
     "filledYTD": 161,
     "failedCancelled": 32,
-    "inOfferStage": 53
+    "inOfferStage": 54
   },
   "campus": [
     {
@@ -45,7 +45,7 @@
     },
     {
       "label": "Offer Stage",
-      "count": 53
+      "count": 54
     },
     {
       "label": "Student Hiring",
@@ -57,7 +57,7 @@
     },
     {
       "label": "Backlog",
-      "count": 28
+      "count": 27
     },
     {
       "label": "Pre-boarding",
@@ -1626,7 +1626,7 @@
   "reqType": [
     {
       "label": "Active",
-      "count": 198,
+      "count": 196,
       "color": "#00A693"
     },
     {
@@ -1646,7 +1646,7 @@
     },
     {
       "label": "Passive",
-      "count": 22,
+      "count": 24,
       "color": "#006747"
     },
     {
@@ -5379,7 +5379,7 @@
       "reqs": 180,
       "filled": 29,
       "failed": 1,
-      "ttf": 74,
+      "ttf": 73,
       "wip": 15,
       "agingRecords": [
         {
@@ -5860,8 +5860,13 @@
           "color": "#534AB7"
         },
         {
+          "label": "Offer Stage",
+          "count": 19,
+          "color": "#0F6E56"
+        },
+        {
           "label": "Backlog",
-          "count": 12,
+          "count": 11,
           "color": "#888780"
         },
         {
@@ -5878,11 +5883,6 @@
           "label": "HM Review",
           "count": 10,
           "color": "#993556"
-        },
-        {
-          "label": "Offer Stage",
-          "count": 18,
-          "color": "#0F6E56"
         },
         {
           "label": "Targeted",
@@ -5952,7 +5952,7 @@
         },
         {
           "label": "Offer",
-          "count": 18
+          "count": 19
         }
       ],
       "goals": [
@@ -5964,7 +5964,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 74,
+          "value": 73,
           "target": 40,
           "invert": true
         },
@@ -5982,12 +5982,12 @@
         }
       ],
       "trend": [
-        74,
-        74,
-        74,
-        74,
-        74,
-        74
+        73,
+        73,
+        73,
+        73,
+        73,
+        73
       ]
     },
     {
