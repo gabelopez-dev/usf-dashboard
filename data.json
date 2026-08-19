@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T11:27:15.195Z",
+  "lastUpdated": "2026-08-19T11:52:45.559Z",
   "summary": {
     "openReqs": 615,
     "avgTimeToFill": 93,
@@ -37,7 +37,7 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 208
+      "count": 207
     },
     {
       "label": "HM Review",
@@ -61,7 +61,7 @@
     },
     {
       "label": "Pre-boarding",
-      "count": 16
+      "count": 17
     },
     {
       "label": "Interview Stage",
@@ -804,7 +804,7 @@
           "notionUrl": "https://www.notion.so/08b522c9248e4f00a71764678aa2028a",
           "owner": "johncalebrese",
           "campus": "Unknown",
-          "stage": "Recruiter Review",
+          "stage": "Pre-boarding",
           "agingBand": "🔴 6+",
           "department": "386500 - Academic Success Center"
         },
@@ -1782,7 +1782,7 @@
     {
       "label": "Recruiter Review",
       "avgDays": 26,
-      "count": 57,
+      "count": 56,
       "color": "#006747"
     },
     {
@@ -1805,8 +1805,8 @@
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 27,
-      "count": 6,
+      "avgDays": 30,
+      "count": 7,
       "color": "#5B8FA8"
     },
     {
@@ -4985,7 +4985,7 @@
               "notionUrl": "https://www.notion.so/08b522c9248e4f00a71764678aa2028a",
               "owner": "johncalebrese",
               "campus": "Unknown",
-              "stage": "Recruiter Review",
+              "stage": "Pre-boarding",
               "agingBand": "🔴 6+",
               "department": "386500 - Academic Success Center"
             },
@@ -5216,8 +5216,8 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 11,
-          "count": 10,
+          "avgDays": 7,
+          "count": 9,
           "color": "#006747"
         },
         {
@@ -5240,8 +5240,8 @@
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 27,
-          "count": 6,
+          "avgDays": 30,
+          "count": 7,
           "color": "#5B8FA8"
         },
         {
@@ -5254,7 +5254,7 @@
       "statuses": [
         {
           "label": "Recruiter Review",
-          "count": 10,
+          "count": 9,
           "color": "#185FA5"
         },
         {
@@ -5269,7 +5269,7 @@
         },
         {
           "label": "Pre-boarding",
-          "count": 14,
+          "count": 15,
           "color": "#888780"
         },
         {
