@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-08-20T14:37:59.419Z",
+  "lastUpdated": "2026-08-20T15:35:59.838Z",
   "summary": {
-    "openReqs": 638,
+    "openReqs": 636,
     "avgTimeToFill": 93,
-    "filledYTD": 171,
+    "filledYTD": 174,
     "failedCancelled": 32,
     "inOfferStage": 57
   },
@@ -20,7 +20,7 @@
     },
     {
       "label": "USF Health",
-      "count": 189,
+      "count": 188,
       "color": "#00A693"
     },
     {
@@ -37,11 +37,11 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 223
+      "count": 220
     },
     {
       "label": "HM Review",
-      "count": 186
+      "count": 187
     },
     {
       "label": "Offer Stage",
@@ -86,7 +86,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 140
+      "count": 138
     },
     {
       "label": "🟡 3-5",
@@ -309,16 +309,6 @@
           "department": "640108 - COPH Faculty A"
         },
         {
-          "title": "Research Support Assista",
-          "reqId": "44038",
-          "notionUrl": "https://www.notion.so/c45647d72635402391afad63a7b7a7cc",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "620100 - College Of Nurs"
-        },
-        {
           "title": "Police Dispatcher",
           "reqId": "44052",
           "notionUrl": "https://www.notion.so/dc927d8d9c6545d99b0f463e85ea7ae0",
@@ -357,16 +347,6 @@
           "stage": "Recruiter Review",
           "agingBand": "🔴 6+",
           "department": "640100 - COPH Office Of"
-        },
-        {
-          "title": "Research Support Assista",
-          "reqId": "44115",
-          "notionUrl": "https://www.notion.so/dd3cef8a64de4e2d95b3f9c541ba786a",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "620100 - College Of Nurs"
         },
         {
           "title": "Audience Growth Manager",
@@ -1826,7 +1806,7 @@
   "reqType": [
     {
       "label": "Active",
-      "count": 211,
+      "count": 209,
       "color": "#00A693"
     },
     {
@@ -1897,42 +1877,42 @@
       "color": "#993556"
     },
     {
-      "label": "620100 - College Of Nurs",
+      "label": "614400 - Molecular Medicine",
       "count": 9,
       "color": "#006747"
     },
     {
-      "label": "614400 - Molecular Medicine",
-      "count": 9,
-      "color": "#1B6A9C"
-    },
-    {
       "label": "611900 - Department Of",
       "count": 8,
-      "color": "#00A693"
+      "color": "#1B6A9C"
     },
     {
       "label": "610001 - MCOM Research/Grad Affairs Supp",
       "count": 8,
-      "color": "#CFC483"
+      "color": "#00A693"
     },
     {
       "label": "Inst For School Comm Partnership",
       "count": 8,
-      "color": "#7A9EB5"
+      "color": "#CFC483"
     },
     {
       "label": "177500 - Inst For School Comm Partnersh",
       "count": 7,
-      "color": "#5B7A8A"
+      "color": "#7A9EB5"
     },
     {
       "label": "614300 - Molecular Pharm & Physiology",
       "count": 7,
-      "color": "#534AB7"
+      "color": "#5B7A8A"
     },
     {
       "label": "490000 - USF World",
+      "count": 6,
+      "color": "#534AB7"
+    },
+    {
+      "label": "620100 - College Of Nurs",
       "count": 6,
       "color": "#993556"
     },
@@ -1977,7 +1957,7 @@
     {
       "label": "Recruiter Review",
       "avgDays": 22,
-      "count": 69,
+      "count": 67,
       "color": "#006747"
     },
     {
@@ -3583,6 +3563,16 @@
       "notionUrl": "https://www.notion.so/ffcd80e5140c4f9caa4f4c0b3db4f18a"
     },
     {
+      "title": "Simulation Operations Sp",
+      "reqId": "44018",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Filled",
+      "department": "620100 - College Of Nurs",
+      "ttf": 30,
+      "notionUrl": "https://www.notion.so/9dfbf4c9af864d58a3bb901b1d532ef2"
+    },
+    {
       "title": "Temporary Pcard Specialist I",
       "reqId": "43905",
       "owner": "johncalebrese",
@@ -3611,6 +3601,16 @@
       "department": "College of Education ",
       "ttf": 27,
       "notionUrl": "https://www.notion.so/b0316b1977044433b7dd572486a3f518"
+    },
+    {
+      "title": "Research Support Assista",
+      "reqId": "44038",
+      "owner": "Rebecca",
+      "campus": "",
+      "stage": "Filled",
+      "department": "620100 - College Of Nurs",
+      "ttf": 24,
+      "notionUrl": "https://www.notion.so/c45647d72635402391afad63a7b7a7cc"
     },
     {
       "title": "Communications & Mktg Officer - Engineering",
@@ -3681,6 +3681,16 @@
       "department": "510200 - STP Student Life",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/f61681743a8940a58e1ce87fe479c541"
+    },
+    {
+      "title": "Research Support Assista",
+      "reqId": "44115",
+      "owner": "Rebecca",
+      "campus": "",
+      "stage": "Filled",
+      "department": "620100 - College Of Nurs",
+      "ttf": 0,
+      "notionUrl": "https://www.notion.so/dd3cef8a64de4e2d95b3f9c541ba786a"
     },
     {
       "title": "Athletics Assistant- FB On Campus Recruiting Assistant",
@@ -4279,11 +4289,11 @@
       "bgLight": "#e0f5f3",
       "bgDark": "#3d2504",
       "campus": "Tampa",
-      "reqs": 358,
-      "filled": 71,
+      "reqs": 359,
+      "filled": 74,
       "failed": 21,
       "ttf": 108,
-      "wip": 10,
+      "wip": 7,
       "agingRecords": [
         {
           "band": "🔴 6+",
@@ -4410,16 +4420,6 @@
               "department": "640108 - COPH Faculty A"
             },
             {
-              "title": "Research Support Assista",
-              "reqId": "44038",
-              "notionUrl": "https://www.notion.so/c45647d72635402391afad63a7b7a7cc",
-              "owner": "Rebecca",
-              "campus": "",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "620100 - College Of Nurs"
-            },
-            {
               "title": "Police Dispatcher",
               "reqId": "44052",
               "notionUrl": "https://www.notion.so/dc927d8d9c6545d99b0f463e85ea7ae0",
@@ -4458,16 +4458,6 @@
               "stage": "Recruiter Review",
               "agingBand": "🔴 6+",
               "department": "640100 - COPH Office Of"
-            },
-            {
-              "title": "Research Support Assista",
-              "reqId": "44115",
-              "notionUrl": "https://www.notion.so/dd3cef8a64de4e2d95b3f9c541ba786a",
-              "owner": "Rebecca",
-              "campus": "",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "620100 - College Of Nurs"
             },
             {
               "title": "Fiscal & Business Analyst I",
@@ -5003,7 +4993,7 @@
         {
           "label": "Recruiter Review",
           "avgDays": 24,
-          "count": 40,
+          "count": 38,
           "color": "#006747"
         },
         {
@@ -5027,8 +5017,13 @@
       ],
       "statuses": [
         {
+          "label": "HM Review",
+          "count": 168,
+          "color": "#993556"
+        },
+        {
           "label": "Recruiter Review",
-          "count": 43,
+          "count": 40,
           "color": "#185FA5"
         },
         {
@@ -5040,11 +5035,6 @@
           "label": "Backlog",
           "count": 9,
           "color": "#888780"
-        },
-        {
-          "label": "HM Review",
-          "count": 167,
-          "color": "#993556"
         },
         {
           "label": "Sourced",
@@ -5073,7 +5063,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 66
+          "count": 64
         },
         {
           "label": "🟡 3-5",
@@ -5093,7 +5083,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 263
+          "count": 261
         },
         {
           "label": "Screened",
@@ -5101,7 +5091,7 @@
         },
         {
           "label": "HM Review",
-          "count": 167
+          "count": 168
         },
         {
           "label": "Interviews",
@@ -5115,7 +5105,7 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 71,
+          "value": 74,
           "target": 10,
           "invert": false
         },
@@ -5128,13 +5118,13 @@
         {
           "label": "Screened",
           "value": 0,
-          "target": 358,
+          "target": 359,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 3,
-          "target": 358,
+          "target": 359,
           "invert": false
         }
       ],
