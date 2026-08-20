@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-08-20T13:49:17.559Z",
+  "lastUpdated": "2026-08-20T14:37:59.419Z",
   "summary": {
-    "openReqs": 639,
+    "openReqs": 638,
     "avgTimeToFill": 93,
-    "filledYTD": 170,
+    "filledYTD": 171,
     "failedCancelled": 32,
     "inOfferStage": 57
   },
@@ -15,7 +15,7 @@
     },
     {
       "label": "St Pete",
-      "count": 59,
+      "count": 58,
       "color": "#006747"
     },
     {
@@ -37,11 +37,11 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 229
+      "count": 223
     },
     {
       "label": "HM Review",
-      "count": 182
+      "count": 186
     },
     {
       "label": "Offer Stage",
@@ -65,7 +65,7 @@
     },
     {
       "label": "Interview Stage",
-      "count": 14
+      "count": 15
     },
     {
       "label": "Passive",
@@ -86,21 +86,21 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 141
+      "count": 140
     },
     {
       "label": "🟡 3-5",
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 10
+      "count": 7
     },
     {
       "label": "🟢 0–2",
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 20
+      "count": 23
     }
   ],
   "agingRecords": [
@@ -307,16 +307,6 @@
           "stage": "Recruiter Review",
           "agingBand": "🔴 6+",
           "department": "640108 - COPH Faculty A"
-        },
-        {
-          "title": "Accounting Assistant",
-          "reqId": "44051",
-          "notionUrl": "https://www.notion.so/be692cd816444d1bb9ea453470b229bd",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "510100 - STP Administration & Finance"
         },
         {
           "title": "Research Support Assista",
@@ -1565,26 +1555,6 @@
           "department": "612400 - Dept Of Ophtha"
         },
         {
-          "title": "OPS / Temporary Marine Chief Engineer",
-          "reqId": "44180",
-          "notionUrl": "https://www.notion.so/ada6d585591b4c80b74c83d88849fd74",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Recruiter Review",
-          "agingBand": "🟡 3–5",
-          "department": "471000 - Florida Inst of Oceanography"
-        },
-        {
-          "title": "Marine Operational Training Mgr",
-          "reqId": "44171",
-          "notionUrl": "https://www.notion.so/04016ee7439c4c47a5168522fba402a4",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Recruiter Review",
-          "agingBand": "🟡 3–5",
-          "department": "471000 - Florida Inst of Oceanography"
-        },
-        {
           "title": "Sr Biological Scientist",
           "reqId": "44167",
           "notionUrl": "https://www.notion.so/2d1996dcbe9549db9b1075272a92c0c0",
@@ -1593,16 +1563,6 @@
           "stage": "Recruiter Review",
           "agingBand": "🟡 3–5",
           "department": "471000 - Florida Inst of Oceanography"
-        },
-        {
-          "title": "Fitness and Membership Coordinator",
-          "reqId": "44055",
-          "notionUrl": "https://www.notion.so/10ee8b617b8843a1812c944935bdef7e",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Recruiter Review",
-          "agingBand": "🟡 3–5",
-          "department": "510200 - STP Student Life"
         },
         {
           "title": "Leadership and Student Organizations Coordinator",
@@ -1731,6 +1691,16 @@
           "department": "043000 - Student Health Services"
         },
         {
+          "title": "Marine Operational Training Mgr",
+          "reqId": "44171",
+          "notionUrl": "https://www.notion.so/04016ee7439c4c47a5168522fba402a4",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "471000 - Florida Inst of Oceanography"
+        },
+        {
           "title": "Financial Aid Assistant",
           "reqId": "44118",
           "notionUrl": "https://www.notion.so/049940b379a34990bbad88c73a5e8916",
@@ -1739,6 +1709,26 @@
           "stage": "Recruiter Review",
           "agingBand": "🟢 0–2",
           "department": "373000 - Financial Aid"
+        },
+        {
+          "title": "Accounting Assistant",
+          "reqId": "44051",
+          "notionUrl": "https://www.notion.so/be692cd816444d1bb9ea453470b229bd",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "510100 - STP Administration & Finance"
+        },
+        {
+          "title": "Fitness and Membership Coordinator",
+          "reqId": "44055",
+          "notionUrl": "https://www.notion.so/10ee8b617b8843a1812c944935bdef7e",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "510200 - STP Student Life"
         },
         {
           "title": "Building & Security Assistant II",
@@ -1836,12 +1826,12 @@
   "reqType": [
     {
       "label": "Active",
-      "count": 213,
+      "count": 211,
       "color": "#00A693"
     },
     {
       "label": "Evergreen",
-      "count": 161,
+      "count": 162,
       "color": "#7A9EB5"
     },
     {
@@ -1973,7 +1963,7 @@
     },
     {
       "label": "Other (169 depts)",
-      "count": 321,
+      "count": 320,
       "color": "#c8c7c2"
     }
   ],
@@ -1987,7 +1977,7 @@
     {
       "label": "Recruiter Review",
       "avgDays": 22,
-      "count": 73,
+      "count": 69,
       "color": "#006747"
     },
     {
@@ -3653,6 +3643,16 @@
       "notionUrl": "https://www.notion.so/a696cc65adbe4772b722dbe8c44ad44f"
     },
     {
+      "title": "OPS / Temporary Marine Chief Engineer",
+      "reqId": "44180",
+      "owner": "Gabriel",
+      "campus": "St. Petersburg",
+      "stage": "Hired",
+      "department": "471000 - Florida Inst of Oceanography",
+      "ttf": 8,
+      "notionUrl": "https://www.notion.so/ada6d585591b4c80b74c83d88849fd74"
+    },
+    {
       "title": "Clerical and Secretarial",
       "reqId": "44213",
       "owner": "Gabriel",
@@ -5043,13 +5043,18 @@
         },
         {
           "label": "HM Review",
-          "count": 168,
+          "count": 167,
           "color": "#993556"
         },
         {
           "label": "Sourced",
           "count": 10,
           "color": "#3B6D11"
+        },
+        {
+          "label": "Interview Stage",
+          "count": 3,
+          "color": "#534AB7"
         },
         {
           "label": "Offer Stage",
@@ -5060,11 +5065,6 @@
           "label": "Targeted",
           "count": 1,
           "color": "#888780"
-        },
-        {
-          "label": "Interview Stage",
-          "count": 2,
-          "color": "#534AB7"
         }
       ],
       "aging": [
@@ -5101,11 +5101,11 @@
         },
         {
           "label": "HM Review",
-          "count": 168
+          "count": 167
         },
         {
           "label": "Interviews",
-          "count": 2
+          "count": 3
         },
         {
           "label": "Offer",
@@ -5133,7 +5133,7 @@
         },
         {
           "label": "Interviews",
-          "value": 2,
+          "value": 3,
           "target": 358,
           "invert": false
         }
@@ -5814,10 +5814,10 @@
       "bgDark": "#042e24",
       "campus": "St Pete / Tampa",
       "reqs": 189,
-      "filled": 37,
+      "filled": 38,
       "failed": 1,
       "ttf": 69,
-      "wip": 18,
+      "wip": 9,
       "agingRecords": [
         {
           "band": "🔴 6+",
@@ -5832,16 +5832,6 @@
               "stage": "Recruiter Review",
               "agingBand": "🔴 6+",
               "department": "170100 - COE Dean's Office"
-            },
-            {
-              "title": "Accounting Assistant",
-              "reqId": "44051",
-              "notionUrl": "https://www.notion.so/be692cd816444d1bb9ea453470b229bd",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "510100 - STP Administration & Finance"
             },
             {
               "title": "Academic Advisor I - Electrical Engineering",
@@ -6150,26 +6140,6 @@
           "color": "#BA7517",
           "records": [
             {
-              "title": "OPS / Temporary Marine Chief Engineer",
-              "reqId": "44180",
-              "notionUrl": "https://www.notion.so/ada6d585591b4c80b74c83d88849fd74",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Recruiter Review",
-              "agingBand": "🟡 3–5",
-              "department": "471000 - Florida Inst of Oceanography"
-            },
-            {
-              "title": "Marine Operational Training Mgr",
-              "reqId": "44171",
-              "notionUrl": "https://www.notion.so/04016ee7439c4c47a5168522fba402a4",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Recruiter Review",
-              "agingBand": "🟡 3–5",
-              "department": "471000 - Florida Inst of Oceanography"
-            },
-            {
               "title": "Sr Biological Scientist",
               "reqId": "44167",
               "notionUrl": "https://www.notion.so/2d1996dcbe9549db9b1075272a92c0c0",
@@ -6178,16 +6148,6 @@
               "stage": "Recruiter Review",
               "agingBand": "🟡 3–5",
               "department": "471000 - Florida Inst of Oceanography"
-            },
-            {
-              "title": "Fitness and Membership Coordinator",
-              "reqId": "44055",
-              "notionUrl": "https://www.notion.so/10ee8b617b8843a1812c944935bdef7e",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Recruiter Review",
-              "agingBand": "🟡 3–5",
-              "department": "510200 - STP Student Life"
             },
             {
               "title": "OPS Hourly Non-Student/Senior Building Manager",
@@ -6316,6 +6276,46 @@
               "department": "140105 - MCOB Financia"
             },
             {
+              "title": "OPS / Temporary Marine Chief Engineer",
+              "reqId": "44180",
+              "notionUrl": "https://www.notion.so/ada6d585591b4c80b74c83d88849fd74",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Hired",
+              "agingBand": "🟢 0–2",
+              "department": "471000 - Florida Inst of Oceanography"
+            },
+            {
+              "title": "Marine Operational Training Mgr",
+              "reqId": "44171",
+              "notionUrl": "https://www.notion.so/04016ee7439c4c47a5168522fba402a4",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "471000 - Florida Inst of Oceanography"
+            },
+            {
+              "title": "Accounting Assistant",
+              "reqId": "44051",
+              "notionUrl": "https://www.notion.so/be692cd816444d1bb9ea453470b229bd",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "510100 - STP Administration & Finance"
+            },
+            {
+              "title": "Fitness and Membership Coordinator",
+              "reqId": "44055",
+              "notionUrl": "https://www.notion.so/10ee8b617b8843a1812c944935bdef7e",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "510200 - STP Student Life"
+            },
+            {
               "title": "Building & Security Assistant II",
               "reqId": "44059",
               "notionUrl": "https://www.notion.so/439bf8f48891437db453f1968ed576ed",
@@ -6337,8 +6337,8 @@
         },
         {
           "label": "Recruiter Review",
-          "avgDays": 4,
-          "count": 13,
+          "avgDays": 2,
+          "count": 9,
           "color": "#006747"
         },
         {
@@ -6369,7 +6369,7 @@
       "statuses": [
         {
           "label": "Recruiter Review",
-          "count": 25,
+          "count": 19,
           "color": "#185FA5"
         },
         {
@@ -6394,7 +6394,7 @@
         },
         {
           "label": "HM Review",
-          "count": 9,
+          "count": 14,
           "color": "#993556"
         },
         {
@@ -6429,27 +6429,27 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 29
+          "count": 28
         },
         {
           "label": "🟡 3-5",
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 6
+          "count": 3
         },
         {
           "label": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 10
+          "count": 13
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 140
+          "count": 139
         },
         {
           "label": "Screened",
@@ -6457,7 +6457,7 @@
         },
         {
           "label": "HM Review",
-          "count": 9
+          "count": 14
         },
         {
           "label": "Interviews",
@@ -6471,7 +6471,7 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 37,
+          "value": 38,
           "target": 10,
           "invert": false
         },
