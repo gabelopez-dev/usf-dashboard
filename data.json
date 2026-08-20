@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-08-20T12:54:21.873Z",
+  "lastUpdated": "2026-08-20T13:49:17.559Z",
   "summary": {
     "openReqs": 639,
     "avgTimeToFill": 93,
     "filledYTD": 170,
     "failedCancelled": 32,
-    "inOfferStage": 56
+    "inOfferStage": 57
   },
   "campus": [
     {
@@ -45,7 +45,7 @@
     },
     {
       "label": "Offer Stage",
-      "count": 56
+      "count": 57
     },
     {
       "label": "Student Hiring",
@@ -65,7 +65,7 @@
     },
     {
       "label": "Interview Stage",
-      "count": 15
+      "count": 14
     },
     {
       "label": "Passive",
@@ -86,14 +86,14 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 140
+      "count": 141
     },
     {
       "label": "🟡 3-5",
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 11
+      "count": 10
     },
     {
       "label": "🟢 0–2",
@@ -869,6 +869,16 @@
           "department": "610105 - Health Science Center Research"
         },
         {
+          "title": "Research Scientist",
+          "reqId": "43820",
+          "notionUrl": "https://www.notion.so/4850a19a36fb4f82b88f3cc3f09e2bee",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "Recruiter Review",
+          "agingBand": "🔴 6+",
+          "department": "610021 - MCOM Medical Entomology"
+        },
+        {
           "title": "Fiscal & Business Analyst II",
           "reqId": "43818",
           "notionUrl": "https://www.notion.so/0172b7ce335144dc987abfb489051953",
@@ -1605,16 +1615,6 @@
           "department": "510200 - STP Student Life"
         },
         {
-          "title": "School Improvement Coordinator",
-          "reqId": "44108",
-          "notionUrl": "https://www.notion.so/cdc1376c7a7c478db2f0385352c38cba",
-          "owner": "Gabriel",
-          "campus": "Tallahassee",
-          "stage": "Recruiter Review",
-          "agingBand": "🟡 3–5",
-          "department": "177500 - Inst For School Comm Partnersh"
-        },
-        {
           "title": "Other Hourly Professional/Support- Human Services Practitioner",
           "reqId": "43809",
           "notionUrl": "https://www.notion.so/2e88f07706a84702835b45669e2b142b",
@@ -1776,7 +1776,7 @@
           "notionUrl": "https://www.notion.so/1313cca850574c348980fc427f4dc646",
           "owner": "johncalebrese",
           "campus": "Tampa",
-          "stage": "Interview Stage",
+          "stage": "Offer Stage",
           "agingBand": "🟢 0–2",
           "department": "047700 - Career & Professional Dev"
         },
@@ -1836,7 +1836,7 @@
   "reqType": [
     {
       "label": "Active",
-      "count": 214,
+      "count": 213,
       "color": "#00A693"
     },
     {
@@ -1856,7 +1856,7 @@
     },
     {
       "label": "Passive",
-      "count": 24,
+      "count": 25,
       "color": "#006747"
     },
     {
@@ -1986,8 +1986,8 @@
     },
     {
       "label": "Recruiter Review",
-      "avgDays": 21,
-      "count": 74,
+      "avgDays": 22,
+      "count": 73,
       "color": "#006747"
     },
     {
@@ -4610,6 +4610,16 @@
               "department": "610105 - Health Science Center Research"
             },
             {
+              "title": "Research Scientist",
+              "reqId": "43820",
+              "notionUrl": "https://www.notion.so/4850a19a36fb4f82b88f3cc3f09e2bee",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "Recruiter Review",
+              "agingBand": "🔴 6+",
+              "department": "610021 - MCOM Medical Entomology"
+            },
+            {
               "title": "Fiscal & Business Analyst II",
               "reqId": "43818",
               "notionUrl": "https://www.notion.so/0172b7ce335144dc987abfb489051953",
@@ -5063,7 +5073,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 65
+          "count": 66
         },
         {
           "label": "🟡 3-5",
@@ -5583,7 +5593,7 @@
               "notionUrl": "https://www.notion.so/1313cca850574c348980fc427f4dc646",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "Interview Stage",
+              "stage": "Offer Stage",
               "agingBand": "🟢 0–2",
               "department": "047700 - Career & Professional Dev"
             },
@@ -5696,7 +5706,7 @@
         },
         {
           "label": "Offer Stage",
-          "count": 16,
+          "count": 17,
           "color": "#0F6E56"
         },
         {
@@ -5711,7 +5721,7 @@
         },
         {
           "label": "Interview Stage",
-          "count": 10,
+          "count": 9,
           "color": "#534AB7"
         }
       ],
@@ -5753,11 +5763,11 @@
         },
         {
           "label": "Interviews",
-          "count": 10
+          "count": 9
         },
         {
           "label": "Offer",
-          "count": 16
+          "count": 17
         }
       ],
       "goals": [
@@ -5781,7 +5791,7 @@
         },
         {
           "label": "Interviews",
-          "value": 10,
+          "value": 9,
           "target": 149,
           "invert": false
         }
@@ -6200,16 +6210,6 @@
               "department": "510200 - STP Student Life"
             },
             {
-              "title": "School Improvement Coordinator",
-              "reqId": "44108",
-              "notionUrl": "https://www.notion.so/cdc1376c7a7c478db2f0385352c38cba",
-              "owner": "Gabriel",
-              "campus": "Tallahassee",
-              "stage": "Recruiter Review",
-              "agingBand": "🟡 3–5",
-              "department": "177500 - Inst For School Comm Partnersh"
-            },
-            {
               "title": "Other Hourly Professional/Support- Human Services Practitioner",
               "reqId": "43809",
               "notionUrl": "https://www.notion.so/2e88f07706a84702835b45669e2b142b",
@@ -6338,7 +6338,7 @@
         {
           "label": "Recruiter Review",
           "avgDays": 4,
-          "count": 14,
+          "count": 13,
           "color": "#006747"
         },
         {
@@ -6436,7 +6436,7 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 7
+          "count": 6
         },
         {
           "label": "🟢 0–2",
