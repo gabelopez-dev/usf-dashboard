@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-08-21T13:47:48.780Z",
+  "lastUpdated": "2026-08-21T14:37:04.128Z",
   "summary": {
-    "openReqs": 636,
+    "openReqs": 635,
     "avgTimeToFill": 94,
-    "filledYTD": 174,
+    "filledYTD": 175,
     "failedCancelled": 32,
-    "inOfferStage": 57
+    "inOfferStage": 56
   },
   "campus": [
     {
@@ -15,7 +15,7 @@
     },
     {
       "label": "St Pete",
-      "count": 58,
+      "count": 57,
       "color": "#006747"
     },
     {
@@ -41,11 +41,11 @@
     },
     {
       "label": "HM Review",
-      "count": 187
+      "count": 186
     },
     {
       "label": "Offer Stage",
-      "count": 57
+      "count": 56
     },
     {
       "label": "Student Hiring",
@@ -65,7 +65,7 @@
     },
     {
       "label": "Interview Stage",
-      "count": 15
+      "count": 16
     },
     {
       "label": "Passive",
@@ -86,7 +86,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 138
+      "count": 137
     },
     {
       "label": "🟡 3-5",
@@ -1089,16 +1089,6 @@
           "department": "College of Education "
         },
         {
-          "title": "Science Education Specialist",
-          "reqId": "43571",
-          "notionUrl": "https://www.notion.so/dca63cbc77504f178f455fea1c7f0de6",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Offer Stage",
-          "agingBand": "🔴 6+",
-          "department": "Florida Inst of Oceanography"
-        },
-        {
           "title": "Academic Services Administrator",
           "reqId": "43602",
           "notionUrl": "https://www.notion.so/59cd9b5199dc45bc9f3bba29e4d39432",
@@ -1676,7 +1666,7 @@
           "notionUrl": "https://www.notion.so/04016ee7439c4c47a5168522fba402a4",
           "owner": "Gabriel",
           "campus": "St. Petersburg",
-          "stage": "HM Review",
+          "stage": "Interview Stage",
           "agingBand": "🟢 0–2",
           "department": "471000 - Florida Inst of Oceanography"
         },
@@ -1806,7 +1796,7 @@
   "reqType": [
     {
       "label": "Active",
-      "count": 209,
+      "count": 208,
       "color": "#00A693"
     },
     {
@@ -1937,13 +1927,8 @@
       "color": "#CFC483"
     },
     {
-      "label": "Florida Inst of Oceanography",
-      "count": 6,
-      "color": "#7A9EB5"
-    },
-    {
-      "label": "Other (169 depts)",
-      "count": 320,
+      "label": "Other (170 depts)",
+      "count": 325,
       "color": "#c8c7c2"
     }
   ],
@@ -1962,8 +1947,8 @@
     },
     {
       "label": "HM Review",
-      "avgDays": 20,
-      "count": 17,
+      "avgDays": 21,
+      "count": 16,
       "color": "#534AB7"
     },
     {
@@ -1975,7 +1960,7 @@
     {
       "label": "Offer Stage",
       "avgDays": 26,
-      "count": 44,
+      "count": 43,
       "color": "#CFC483"
     },
     {
@@ -2961,6 +2946,16 @@
       "department": "USF Health",
       "ttf": 90,
       "notionUrl": "https://www.notion.so/d3db39b56aeb46baa82e090956bb30db"
+    },
+    {
+      "title": "Science Education Specialist",
+      "reqId": "43571",
+      "owner": "Gabriel",
+      "campus": "St. Petersburg",
+      "stage": "Hired",
+      "department": "Florida Inst of Oceanography",
+      "ttf": 85,
+      "notionUrl": "https://www.notion.so/dca63cbc77504f178f455fea1c7f0de6"
     },
     {
       "title": "Coordinator Athletics Production",
@@ -5804,7 +5799,7 @@
       "bgDark": "#042e24",
       "campus": "St Pete / Tampa",
       "reqs": 189,
-      "filled": 38,
+      "filled": 39,
       "failed": 1,
       "ttf": 70,
       "wip": 9,
@@ -6049,7 +6044,7 @@
               "notionUrl": "https://www.notion.so/dca63cbc77504f178f455fea1c7f0de6",
               "owner": "Gabriel",
               "campus": "St. Petersburg",
-              "stage": "Offer Stage",
+              "stage": "Hired",
               "agingBand": "🔴 6+",
               "department": "Florida Inst of Oceanography"
             },
@@ -6281,7 +6276,7 @@
               "notionUrl": "https://www.notion.so/04016ee7439c4c47a5168522fba402a4",
               "owner": "Gabriel",
               "campus": "St. Petersburg",
-              "stage": "HM Review",
+              "stage": "Interview Stage",
               "agingBand": "🟢 0–2",
               "department": "471000 - Florida Inst of Oceanography"
             },
@@ -6333,8 +6328,8 @@
         },
         {
           "label": "HM Review",
-          "avgDays": 22,
-          "count": 12,
+          "avgDays": 24,
+          "count": 11,
           "color": "#534AB7"
         },
         {
@@ -6345,8 +6340,8 @@
         },
         {
           "label": "Offer Stage",
-          "avgDays": 20,
-          "count": 17,
+          "avgDays": 19,
+          "count": 16,
           "color": "#CFC483"
         },
         {
@@ -6374,7 +6369,7 @@
         },
         {
           "label": "Offer Stage",
-          "count": 20,
+          "count": 19,
           "color": "#0F6E56"
         },
         {
@@ -6383,19 +6378,19 @@
           "color": "#0F6E56"
         },
         {
+          "label": "Interview Stage",
+          "count": 4,
+          "color": "#534AB7"
+        },
+        {
           "label": "HM Review",
-          "count": 14,
+          "count": 13,
           "color": "#993556"
         },
         {
           "label": "Targeted",
           "count": 11,
           "color": "#888780"
-        },
-        {
-          "label": "Interview Stage",
-          "count": 3,
-          "color": "#534AB7"
         },
         {
           "label": "Passive",
@@ -6419,7 +6414,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 28
+          "count": 27
         },
         {
           "label": "🟡 3-5",
@@ -6439,7 +6434,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 139
+          "count": 138
         },
         {
           "label": "Screened",
@@ -6447,21 +6442,21 @@
         },
         {
           "label": "HM Review",
-          "count": 14
+          "count": 13
         },
         {
           "label": "Interviews",
-          "count": 3
+          "count": 4
         },
         {
           "label": "Offer",
-          "count": 20
+          "count": 19
         }
       ],
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 38,
+          "value": 39,
           "target": 10,
           "invert": false
         },
@@ -6479,7 +6474,7 @@
         },
         {
           "label": "Interviews",
-          "value": 3,
+          "value": 4,
           "target": 189,
           "invert": false
         }
