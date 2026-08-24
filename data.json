@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T20:32:16.384Z",
+  "lastUpdated": "2026-08-24T21:31:50.628Z",
   "summary": {
     "openReqs": 658,
     "avgTimeToFill": 94,
@@ -100,7 +100,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 3
+      "count": 5
     }
   ],
   "agingRecords": [
@@ -1839,6 +1839,26 @@
           "stage": "HM Review",
           "agingBand": "🟢 0–2",
           "department": "174600 - Preschool Creative Learning"
+        },
+        {
+          "title": "Academic Svcs. Administrator - Mechanical Eng",
+          "reqId": "44191",
+          "notionUrl": "https://www.notion.so/8969cc003995496488c89087857ac4e5",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "210500 - Mechanical Engineering"
+        },
+        {
+          "title": "Safety and Compliance Officer - Engineering",
+          "reqId": "44192",
+          "notionUrl": "https://www.notion.so/9bbb7fd89efa47a592395a7017855f53",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "211000 - Engineer Facilities & Safety"
         },
         {
           "title": "Fiscal & Business Specialist - Research",
@@ -6520,6 +6540,26 @@
               "department": "174600 - Preschool Creative Learning"
             },
             {
+              "title": "Academic Svcs. Administrator - Mechanical Eng",
+              "reqId": "44191",
+              "notionUrl": "https://www.notion.so/8969cc003995496488c89087857ac4e5",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "210500 - Mechanical Engineering"
+            },
+            {
+              "title": "Safety and Compliance Officer - Engineering",
+              "reqId": "44192",
+              "notionUrl": "https://www.notion.so/9bbb7fd89efa47a592395a7017855f53",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "211000 - Engineer Facilities & Safety"
+            },
+            {
               "title": "Fiscal & Business Specialist - Research",
               "reqId": "44166",
               "notionUrl": "https://www.notion.so/347d4883a32041babda39b085cf29151",
@@ -6647,7 +6687,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 3
+          "count": 5
         }
       ],
       "funnel": [
