@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T14:44:27.233Z",
+  "lastUpdated": "2026-08-24T15:41:10.655Z",
   "summary": {
     "openReqs": 643,
     "avgTimeToFill": 96,
@@ -37,11 +37,11 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 220
+      "count": 217
     },
     {
       "label": "HM Review",
-      "count": 186
+      "count": 189
     },
     {
       "label": "Offer Stage",
@@ -86,7 +86,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 143
+      "count": 142
     },
     {
       "label": "🟡 3-5",
@@ -100,7 +100,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 2
+      "count": 3
     }
   ],
   "agingRecords": [
@@ -897,16 +897,6 @@
           "stage": "Recruiter Review",
           "agingBand": "🔴 6+",
           "department": "610021 - MCOM Medical Entomology"
-        },
-        {
-          "title": "Fiscal & Business Analyst II",
-          "reqId": "43818",
-          "notionUrl": "https://www.notion.so/0172b7ce335144dc987abfb489051953",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Sourced",
-          "agingBand": "🔴 6+",
-          "department": "612300 - Dept Of Internal Medicine"
         },
         {
           "title": "Technical and Paraprofessional",
@@ -1829,6 +1819,16 @@
           "stage": "Backlog",
           "agingBand": "🟢 0–2",
           "department": "210700 - Chemical & Biomedical Engineering"
+        },
+        {
+          "title": "Preschool Assistant Teacher",
+          "reqId": "44187",
+          "notionUrl": "https://www.notion.so/7aca5020ee0d466bb76b00ea8662d35b",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "174600 - Preschool Creative Learning"
         },
         {
           "title": "Fiscal & Business Specialist - Research",
@@ -4685,16 +4685,6 @@
               "department": "610021 - MCOM Medical Entomology"
             },
             {
-              "title": "Fiscal & Business Analyst II",
-              "reqId": "43818",
-              "notionUrl": "https://www.notion.so/0172b7ce335144dc987abfb489051953",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Sourced",
-              "agingBand": "🔴 6+",
-              "department": "612300 - Dept Of Internal Medicine"
-            },
-            {
               "title": "Technical and Paraprofessional",
               "reqId": "43825",
               "notionUrl": "https://www.notion.so/e18379465aff4eee8721db0515313418",
@@ -5107,7 +5097,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 67
+          "count": 66
         },
         {
           "label": "🟡 3-5",
@@ -5850,7 +5840,7 @@
       "filled": 39,
       "failed": 1,
       "ttf": 72,
-      "wip": 8,
+      "wip": 5,
       "agingRecords": [
         {
           "band": "🔴 6+",
@@ -6399,6 +6389,16 @@
               "department": "210700 - Chemical & Biomedical Engineering"
             },
             {
+              "title": "Preschool Assistant Teacher",
+              "reqId": "44187",
+              "notionUrl": "https://www.notion.so/7aca5020ee0d466bb76b00ea8662d35b",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "174600 - Preschool Creative Learning"
+            },
+            {
               "title": "Fiscal & Business Specialist - Research",
               "reqId": "44166",
               "notionUrl": "https://www.notion.so/347d4883a32041babda39b085cf29151",
@@ -6457,7 +6457,7 @@
         },
         {
           "label": "Recruiter Review",
-          "count": 19,
+          "count": 16,
           "color": "#185FA5"
         },
         {
@@ -6476,14 +6476,14 @@
           "color": "#0F6E56"
         },
         {
+          "label": "HM Review",
+          "count": 16,
+          "color": "#993556"
+        },
+        {
           "label": "Interview Stage",
           "count": 5,
           "color": "#534AB7"
-        },
-        {
-          "label": "HM Review",
-          "count": 13,
-          "color": "#993556"
         },
         {
           "label": "Targeted",
@@ -6526,7 +6526,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 2
+          "count": 3
         }
       ],
       "funnel": [
@@ -6540,7 +6540,7 @@
         },
         {
           "label": "HM Review",
-          "count": 13
+          "count": 16
         },
         {
           "label": "Interviews",
