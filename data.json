@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T18:42:21.898Z",
+  "lastUpdated": "2026-08-24T19:31:13.644Z",
   "summary": {
     "openReqs": 658,
     "avgTimeToFill": 94,
@@ -37,11 +37,11 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 218
+      "count": 217
     },
     {
       "label": "HM Review",
-      "count": 189
+      "count": 190
     },
     {
       "label": "Offer Stage",
@@ -6809,7 +6809,7 @@
       "statuses": [
         {
           "label": "Recruiter Review",
-          "count": 127,
+          "count": 126,
           "color": "#185FA5"
         },
         {
@@ -6821,6 +6821,11 @@
           "label": "Backlog",
           "count": 4,
           "color": "#888780"
+        },
+        {
+          "label": "HM Review",
+          "count": 1,
+          "color": "#993556"
         },
         {
           "label": "Student Hiring",
@@ -6862,7 +6867,7 @@
         },
         {
           "label": "HM Review",
-          "count": 0
+          "count": 1
         },
         {
           "label": "Interviews",
