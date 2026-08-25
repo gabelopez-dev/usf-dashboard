@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T17:56:52.868Z",
+  "lastUpdated": "2026-08-25T18:48:48.930Z",
   "summary": {
     "openReqs": 670,
     "avgTimeToFill": 95,
@@ -476,7 +476,7 @@
           "title": "Police Dispatcher",
           "reqId": "44052",
           "notionUrl": "https://www.notion.so/dc927d8d9c6545d99b0f463e85ea7ae0",
-          "owner": "Rebecca",
+          "owner": "johncalebrese",
           "campus": "",
           "stage": "Recruiter Review",
           "agingBand": "🔴 6+",
@@ -896,7 +896,7 @@
           "title": "Temporary Community S",
           "reqId": "43904",
           "notionUrl": "https://www.notion.so/d452a989cf6542948636f309805fc6a5",
-          "owner": "Rebecca",
+          "owner": "johncalebrese",
           "campus": "Tampa",
           "stage": "HM Review",
           "agingBand": "🔴 6+",
@@ -4429,11 +4429,11 @@
       "bgLight": "#e0f5f3",
       "bgDark": "#3d2504",
       "campus": "Tampa",
-      "reqs": 360,
+      "reqs": 351,
       "filled": 73,
       "failed": 21,
-      "ttf": 113,
-      "wip": 7,
+      "ttf": 108,
+      "wip": 6,
       "agingRecords": [
         {
           "band": "🔴 6+",
@@ -4590,16 +4590,6 @@
               "department": "640108 - COPH Faculty A"
             },
             {
-              "title": "Police Dispatcher",
-              "reqId": "44052",
-              "notionUrl": "https://www.notion.so/dc927d8d9c6545d99b0f463e85ea7ae0",
-              "owner": "Rebecca",
-              "campus": "",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "514900 - STP Public Safe"
-            },
-            {
               "title": "Student Assistant",
               "reqId": "44080",
               "notionUrl": "https://www.notion.so/2c416e2100184a05abd559934f09ed3a",
@@ -4748,16 +4738,6 @@
               "stage": "Sourced",
               "agingBand": "🔴 6+",
               "department": "611700 - Department Of"
-            },
-            {
-              "title": "Temporary Community S",
-              "reqId": "43904",
-              "notionUrl": "https://www.notion.so/d452a989cf6542948636f309805fc6a5",
-              "owner": "Rebecca",
-              "campus": "Tampa",
-              "stage": "HM Review",
-              "agingBand": "🔴 6+",
-              "department": "025102 - Physical Securit"
             },
             {
               "title": "Social & Behavioral Researcher",
@@ -5131,15 +5111,9 @@
         },
         {
           "label": "Recruiter Review",
-          "avgDays": 29,
-          "count": 37,
+          "avgDays": 30,
+          "count": 36,
           "color": "#006747"
-        },
-        {
-          "label": "HM Review",
-          "avgDays": 49,
-          "count": 1,
-          "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
@@ -5162,14 +5136,14 @@
       ],
       "statuses": [
         {
-          "label": "Recruiter Review",
-          "count": 40,
-          "color": "#185FA5"
+          "label": "HM Review",
+          "count": 161,
+          "color": "#993556"
         },
         {
-          "label": "HM Review",
-          "count": 168,
-          "color": "#993556"
+          "label": "Recruiter Review",
+          "count": 38,
+          "color": "#185FA5"
         },
         {
           "label": "Student Hiring",
@@ -5213,7 +5187,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 67
+          "count": 65
         },
         {
           "label": "🟡 3-5",
@@ -5233,7 +5207,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 263
+          "count": 254
         },
         {
           "label": "Screened",
@@ -5241,7 +5215,7 @@
         },
         {
           "label": "HM Review",
-          "count": 168
+          "count": 161
         },
         {
           "label": "Interviews",
@@ -5261,30 +5235,30 @@
         },
         {
           "label": "Time to fill",
-          "value": 113,
+          "value": 108,
           "target": 40,
           "invert": true
         },
         {
           "label": "Screened",
           "value": 0,
-          "target": 360,
+          "target": 351,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 4,
-          "target": 360,
+          "target": 351,
           "invert": false
         }
       ],
       "trend": [
-        113,
-        113,
-        113,
-        113,
-        113,
-        113
+        108,
+        108,
+        108,
+        108,
+        108,
+        108
       ]
     },
     {
@@ -5295,11 +5269,11 @@
       "bgLight": "#e3f2fd",
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
-      "reqs": 152,
+      "reqs": 161,
       "filled": 66,
       "failed": 10,
-      "ttf": 82,
-      "wip": 13,
+      "ttf": 97,
+      "wip": 14,
       "agingRecords": [
         {
           "band": "🔴 6+",
@@ -5386,6 +5360,16 @@
               "department": "490000 - USF World"
             },
             {
+              "title": "Police Dispatcher",
+              "reqId": "44052",
+              "notionUrl": "https://www.notion.so/dc927d8d9c6545d99b0f463e85ea7ae0",
+              "owner": "johncalebrese",
+              "campus": "",
+              "stage": "Recruiter Review",
+              "agingBand": "🔴 6+",
+              "department": "514900 - STP Public Safe"
+            },
+            {
               "title": "Audience Growth Manager",
               "reqId": "44091",
               "notionUrl": "https://www.notion.so/de779a0d15284d7fa3558de1c868fb47",
@@ -5444,6 +5428,16 @@
               "stage": "Failed Search",
               "agingBand": "🔴 6+",
               "department": "045000 - Campus Recreation"
+            },
+            {
+              "title": "Temporary Community S",
+              "reqId": "43904",
+              "notionUrl": "https://www.notion.so/d452a989cf6542948636f309805fc6a5",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🔴 6+",
+              "department": "025102 - Physical Securit"
             },
             {
               "title": "Academic Program Specialist - Lynn Pippenger School of Accountancy",
@@ -5743,14 +5737,14 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 11,
-          "count": 8,
+          "avgDays": 13,
+          "count": 9,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 11,
-          "count": 4,
+          "avgDays": 19,
+          "count": 5,
           "color": "#534AB7"
         },
         {
@@ -5787,7 +5781,7 @@
       "statuses": [
         {
           "label": "Recruiter Review",
-          "count": 11,
+          "count": 13,
           "color": "#185FA5"
         },
         {
@@ -5807,7 +5801,7 @@
         },
         {
           "label": "HM Review",
-          "count": 4,
+          "count": 11,
           "color": "#993556"
         },
         {
@@ -5832,7 +5826,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 27
+          "count": 29
         },
         {
           "label": "🟡 3-5",
@@ -5852,7 +5846,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 76
+          "count": 85
         },
         {
           "label": "Screened",
@@ -5860,7 +5854,7 @@
         },
         {
           "label": "HM Review",
-          "count": 4
+          "count": 11
         },
         {
           "label": "Interviews",
@@ -5880,30 +5874,30 @@
         },
         {
           "label": "Time to fill",
-          "value": 82,
+          "value": 97,
           "target": 40,
           "invert": true
         },
         {
           "label": "Screened",
           "value": 0,
-          "target": 152,
+          "target": 161,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 9,
-          "target": 152,
+          "target": 161,
           "invert": false
         }
       ],
       "trend": [
-        82,
-        82,
-        82,
-        82,
-        82,
-        82
+        97,
+        97,
+        97,
+        97,
+        97,
+        97
       ]
     },
     {
@@ -6943,7 +6937,7 @@
         {
           "title": "Community Service Officer",
           "reqId": "37612",
-          "owner": "Rebecca",
+          "owner": "johncalebrese",
           "campus": "",
           "stage": "Recruiter Review",
           "notionUrl": "https://www.notion.so/6d6981ca08bf47c1baa660199afc2002"
@@ -7759,7 +7753,7 @@
         {
           "title": "Community Service Officer",
           "reqId": "37612",
-          "owner": "Rebecca",
+          "owner": "johncalebrese",
           "campus": "",
           "stage": "Recruiter Review",
           "notionUrl": "https://www.notion.so/6d6981ca08bf47c1baa660199afc2002"
@@ -7951,7 +7945,7 @@
         {
           "title": "Police Dispatcher",
           "reqId": "44052",
-          "owner": "Rebecca",
+          "owner": "johncalebrese",
           "campus": "",
           "stage": "Recruiter Review",
           "notionUrl": "https://www.notion.so/dc927d8d9c6545d99b0f463e85ea7ae0"
@@ -8983,7 +8977,7 @@
         {
           "title": "Community Service Officer",
           "reqId": "37612",
-          "owner": "Rebecca",
+          "owner": "johncalebrese",
           "campus": "",
           "stage": "Recruiter Review",
           "notionUrl": "https://www.notion.so/6d6981ca08bf47c1baa660199afc2002"
