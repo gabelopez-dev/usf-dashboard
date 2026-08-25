@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-08-25T17:05:55.501Z",
+  "lastUpdated": "2026-08-25T17:56:52.868Z",
   "summary": {
-    "openReqs": 669,
-    "avgTimeToFill": 94,
+    "openReqs": 670,
+    "avgTimeToFill": 95,
     "filledYTD": 175,
     "failedCancelled": 33,
     "inOfferStage": 53
@@ -37,7 +37,7 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 218
+      "count": 219
     },
     {
       "label": "HM Review",
@@ -1910,7 +1910,7 @@
   "reqType": [
     {
       "label": "Active",
-      "count": 236,
+      "count": 237,
       "color": "#00A693"
     },
     {
@@ -2001,52 +2001,52 @@
       "color": "#CFC483"
     },
     {
-      "label": "177500 - Inst For School Comm Partnersh",
+      "label": "026100 - University Police",
       "count": 7,
       "color": "#7A9EB5"
     },
     {
-      "label": "614300 - Molecular Pharm & Physiology",
+      "label": "177500 - Inst For School Comm Partnersh",
       "count": 7,
       "color": "#5B7A8A"
     },
     {
-      "label": "Florida Inst of Oceanography",
+      "label": "614300 - Molecular Pharm & Physiology",
       "count": 7,
       "color": "#534AB7"
     },
     {
-      "label": "791000 - Research Integrity &Compliance",
-      "count": 6,
+      "label": "Florida Inst of Oceanography",
+      "count": 7,
       "color": "#993556"
     },
     {
-      "label": "210600 - Electrical Engineering",
+      "label": "791000 - Research Integrity &Compliance",
       "count": 6,
       "color": "#006747"
     },
     {
-      "label": "MUMA",
+      "label": "210600 - Electrical Engineering",
       "count": 6,
       "color": "#1B6A9C"
     },
     {
-      "label": "620100 - College Of Nurs",
+      "label": "MUMA",
       "count": 6,
       "color": "#00A693"
     },
     {
-      "label": "126100 - Social Work",
+      "label": "620100 - College Of Nurs",
       "count": 6,
       "color": "#CFC483"
     },
     {
-      "label": "041500 - Counseling Center",
+      "label": "126100 - Social Work",
       "count": 6,
       "color": "#7A9EB5"
     },
     {
-      "label": "026100 - University Police",
+      "label": "041500 - Counseling Center",
       "count": 6,
       "color": "#5B7A8A"
     },
@@ -4429,10 +4429,10 @@
       "bgLight": "#e0f5f3",
       "bgDark": "#3d2504",
       "campus": "Tampa",
-      "reqs": 359,
+      "reqs": 360,
       "filled": 73,
       "failed": 21,
-      "ttf": 112,
+      "ttf": 113,
       "wip": 7,
       "agingRecords": [
         {
@@ -5162,14 +5162,14 @@
       ],
       "statuses": [
         {
+          "label": "Recruiter Review",
+          "count": 40,
+          "color": "#185FA5"
+        },
+        {
           "label": "HM Review",
           "count": 168,
           "color": "#993556"
-        },
-        {
-          "label": "Recruiter Review",
-          "count": 39,
-          "color": "#185FA5"
         },
         {
           "label": "Student Hiring",
@@ -5233,7 +5233,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 262
+          "count": 263
         },
         {
           "label": "Screened",
@@ -5261,30 +5261,30 @@
         },
         {
           "label": "Time to fill",
-          "value": 112,
+          "value": 113,
           "target": 40,
           "invert": true
         },
         {
           "label": "Screened",
           "value": 0,
-          "target": 359,
+          "target": 360,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 4,
-          "target": 359,
+          "target": 360,
           "invert": false
         }
       ],
       "trend": [
-        112,
-        112,
-        112,
-        112,
-        112,
-        112
+        113,
+        113,
+        113,
+        113,
+        113,
+        113
       ]
     },
     {
@@ -6906,14 +6906,14 @@
     {
       "field": "Stage",
       "missingCount": 0,
-      "totalActive": 669,
+      "totalActive": 670,
       "pct": 0,
       "records": []
     },
     {
       "field": "Department/College",
       "missingCount": 2,
-      "totalActive": 669,
+      "totalActive": 670,
       "pct": 0,
       "records": [
         {
@@ -6936,10 +6936,18 @@
     },
     {
       "field": "Last Activity",
-      "missingCount": 321,
-      "totalActive": 669,
+      "missingCount": 322,
+      "totalActive": 670,
       "pct": 48,
       "records": [
+        {
+          "title": "Community Service Officer",
+          "reqId": "37612",
+          "owner": "Rebecca",
+          "campus": "",
+          "stage": "Recruiter Review",
+          "notionUrl": "https://www.notion.so/6d6981ca08bf47c1baa660199afc2002"
+        },
         {
           "title": "Learning & Development Facilitator",
           "reqId": "44222",
@@ -7331,21 +7339,13 @@
           "campus": "USF Health",
           "stage": "Backlog",
           "notionUrl": "https://www.notion.so/1f53f94a8154433899b16748ece0a36f"
-        },
-        {
-          "title": "Project Manager II",
-          "reqId": "44027",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/6d37c03054e5489f980d5c746727d736"
         }
       ]
     },
     {
       "field": "Req Type",
       "missingCount": 109,
-      "totalActive": 669,
+      "totalActive": 670,
       "pct": 16,
       "records": [
         {
@@ -7752,10 +7752,18 @@
     },
     {
       "field": "Campus",
-      "missingCount": 61,
-      "totalActive": 669,
+      "missingCount": 62,
+      "totalActive": 670,
       "pct": 9,
       "records": [
+        {
+          "title": "Community Service Officer",
+          "reqId": "37612",
+          "owner": "Rebecca",
+          "campus": "",
+          "stage": "Recruiter Review",
+          "notionUrl": "https://www.notion.so/6d6981ca08bf47c1baa660199afc2002"
+        },
         {
           "title": "Untitled",
           "reqId": "",
@@ -8147,21 +8155,13 @@
           "campus": "",
           "stage": "Recruiter Review",
           "notionUrl": "https://www.notion.so/e61ddd2334884b39ad55b5954d87238d"
-        },
-        {
-          "title": "Research Scientist-Temporary",
-          "reqId": "43543",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/2ff15207eeca4e818c41600ef6ce55ff"
         }
       ]
     },
     {
       "field": "HRBP",
       "missingCount": 182,
-      "totalActive": 669,
+      "totalActive": 670,
       "pct": 27,
       "records": [
         {
@@ -8569,7 +8569,7 @@
     {
       "field": "Posted Date",
       "missingCount": 176,
-      "totalActive": 669,
+      "totalActive": 670,
       "pct": 26,
       "records": [
         {
@@ -8976,10 +8976,18 @@
     },
     {
       "field": "Unposted Date",
-      "missingCount": 485,
-      "totalActive": 669,
-      "pct": 72,
+      "missingCount": 486,
+      "totalActive": 670,
+      "pct": 73,
       "records": [
+        {
+          "title": "Community Service Officer",
+          "reqId": "37612",
+          "owner": "Rebecca",
+          "campus": "",
+          "stage": "Recruiter Review",
+          "notionUrl": "https://www.notion.so/6d6981ca08bf47c1baa660199afc2002"
+        },
         {
           "title": "Learning & Development Facilitator",
           "reqId": "44222",
@@ -9371,14 +9379,6 @@
           "campus": "",
           "stage": "Recruiter Review",
           "notionUrl": "https://www.notion.so/9b679b108dd74580aea6d2af1c091878"
-        },
-        {
-          "title": "Clinical Research Coordin",
-          "reqId": "44188",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/78e3456debc646fab891b5d430f869b1"
         }
       ]
     }
