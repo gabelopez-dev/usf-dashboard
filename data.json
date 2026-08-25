@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-08-25T13:02:31.341Z",
+  "lastUpdated": "2026-08-25T14:20:05.523Z",
   "summary": {
-    "openReqs": 656,
+    "openReqs": 655,
     "avgTimeToFill": 94,
-    "filledYTD": 188,
+    "filledYTD": 189,
     "failedCancelled": 33,
-    "inOfferStage": 55
+    "inOfferStage": 54
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 307,
+      "count": 333,
       "color": "#1B6A9C"
     },
     {
@@ -37,19 +37,19 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 220
+      "count": 219
     },
     {
       "label": "HM Review",
-      "count": 190
+      "count": 189
     },
     {
       "label": "Offer Stage",
-      "count": 55
+      "count": 54
     },
     {
       "label": "Student Hiring",
-      "count": 53
+      "count": 52
     },
     {
       "label": "Faculty",
@@ -65,7 +65,7 @@
     },
     {
       "label": "Pre-boarding",
-      "count": 14
+      "count": 17
     },
     {
       "label": "Passive",
@@ -86,7 +86,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 151
+      "count": 149
     },
     {
       "label": "🟡 3-5",
@@ -100,7 +100,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 5
+      "count": 6
     }
   ],
   "agingRecords": [
@@ -124,7 +124,7 @@
           "notionUrl": "https://www.notion.so/d0bf830eeb7f426fa73e078b835b5791",
           "owner": "johncalebrese",
           "campus": "Tampa",
-          "stage": "Recruiter Review",
+          "stage": "Offer Stage",
           "agingBand": "🔴 6+",
           "department": "051000 - Athletic Administration"
         },
@@ -374,7 +374,7 @@
           "notionUrl": "https://www.notion.so/38ecb21c377048eab43a083edaca63b0",
           "owner": "johncalebrese",
           "campus": "Tampa",
-          "stage": "Offer Stage",
+          "stage": "Pre-boarding",
           "agingBand": "🔴 6+",
           "department": "051000 - Athletic Administration"
         },
@@ -394,7 +394,7 @@
           "notionUrl": "https://www.notion.so/88443e11ab964226b14e66d121643e1e",
           "owner": "johncalebrese",
           "campus": "Tampa",
-          "stage": "Offer Stage",
+          "stage": "Pre-boarding",
           "agingBand": "🔴 6+",
           "department": "051000 - Athletic Administration"
         },
@@ -593,7 +593,7 @@
           "reqId": "43988",
           "notionUrl": "https://www.notion.so/2fcece10f5df498b8f80f1d991ae97c8",
           "owner": "Tameka Porter",
-          "campus": "",
+          "campus": "Tampa",
           "stage": "Recruiter Review",
           "agingBand": "🔴 6+",
           "department": "351000 - Information Technology"
@@ -767,16 +767,6 @@
           "stage": "Pre-boarding",
           "agingBand": "🔴 6+",
           "department": "051000 - Athletic Administration"
-        },
-        {
-          "title": "International Program Administrator II",
-          "reqId": "43963",
-          "notionUrl": "https://www.notion.so/87cd8d5ea0f946ceab8ac9ce38c8eae8",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Backlog",
-          "agingBand": "🔴 6+",
-          "department": "490000 - USF World"
         },
         {
           "title": "Employment Job Coach/Transition Specialist",
@@ -963,7 +953,7 @@
           "reqId": "43875",
           "notionUrl": "https://www.notion.so/08b522c9248e4f00a71764678aa2028a",
           "owner": "johncalebrese",
-          "campus": "Unknown",
+          "campus": "",
           "stage": "Pre-boarding",
           "agingBand": "🔴 6+",
           "department": "386500 - Academic Success Center"
@@ -1067,16 +1057,6 @@
           "stage": "Offer Stage",
           "agingBand": "🔴 6+",
           "department": "066200 - WUSF-FM"
-        },
-        {
-          "title": "Procurement Contract Associate II",
-          "reqId": "43744",
-          "notionUrl": "https://www.notion.so/38f9ddf757a08009af78f51cf4c2bf3f",
-          "owner": "johncalebrese",
-          "campus": "",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 6+",
-          "department": "027900 - Procurement & Payment Services"
         },
         {
           "title": "Community Engagement & Events Manager",
@@ -1284,7 +1264,7 @@
           "notionUrl": "https://www.notion.so/76d1090b0d0b4901b3ea22b839c26a42",
           "owner": "johncalebrese",
           "campus": "Tampa",
-          "stage": "Offer Stage",
+          "stage": "Pre-boarding",
           "agingBand": "🔴 6+",
           "department": "014000 - Office Of Internal Audit"
         },
@@ -1740,7 +1720,7 @@
           "notionUrl": "https://www.notion.so/1313cca850574c348980fc427f4dc646",
           "owner": "johncalebrese",
           "campus": "Tampa",
-          "stage": "Offer Stage",
+          "stage": "Pre-boarding",
           "agingBand": "🟡 3–5",
           "department": "047700 - Career & Professional Dev"
         },
@@ -1841,6 +1821,16 @@
           "department": "170100 - COE Dean's Office"
         },
         {
+          "title": "International Program Administrator II",
+          "reqId": "43963",
+          "notionUrl": "https://www.notion.so/87cd8d5ea0f946ceab8ac9ce38c8eae8",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "490000 - USF World"
+        },
+        {
           "title": "Student Programs Coordinator",
           "reqId": "42905",
           "notionUrl": "https://www.notion.so/f37b59bd18f94094b3c528c2fe8a15ee",
@@ -1856,7 +1846,7 @@
   "reqType": [
     {
       "label": "Active",
-      "count": 228,
+      "count": 227,
       "color": "#00A693"
     },
     {
@@ -1988,7 +1978,7 @@
     },
     {
       "label": "Other (174 depts)",
-      "count": 340,
+      "count": 339,
       "color": "#c8c7c2"
     }
   ],
@@ -2002,7 +1992,7 @@
     {
       "label": "Recruiter Review",
       "avgDays": 26,
-      "count": 70,
+      "count": 69,
       "color": "#006747"
     },
     {
@@ -2019,20 +2009,20 @@
     },
     {
       "label": "Offer Stage",
-      "avgDays": 30,
-      "count": 42,
+      "avgDays": 31,
+      "count": 39,
       "color": "#CFC483"
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 28,
-      "count": 6,
+      "avgDays": 23,
+      "count": 9,
       "color": "#5B8FA8"
     },
     {
       "label": "Backlog",
       "avgDays": 16,
-      "count": 15,
+      "count": 14,
       "color": "#888780"
     }
   ],
@@ -2041,7 +2031,7 @@
       "title": "Asst. Director, Alumni Engagement",
       "reqId": "40025",
       "owner": "Tameka Porter",
-      "campus": "Unknown",
+      "campus": "",
       "stage": "Canceled",
       "department": "060302 - University Advancement",
       "ttf": 528,
@@ -3306,6 +3296,16 @@
       "department": "043500 - Housing & Residential ED",
       "ttf": 70,
       "notionUrl": "https://www.notion.so/38f9ddf757a0802ca799f1f8aed0fd67"
+    },
+    {
+      "title": "Procurement Contract Associate II",
+      "reqId": "43744",
+      "owner": "johncalebrese",
+      "campus": "",
+      "stage": "Filled",
+      "department": "027900 - Procurement & Payment Services",
+      "ttf": 70,
+      "notionUrl": "https://www.notion.so/38f9ddf757a08009af78f51cf4c2bf3f"
     },
     {
       "title": "Research Support Asst",
@@ -5346,7 +5346,7 @@
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
       "reqs": 152,
-      "filled": 66,
+      "filled": 67,
       "failed": 10,
       "ttf": 82,
       "wip": 13,
@@ -5371,7 +5371,7 @@
               "notionUrl": "https://www.notion.so/d0bf830eeb7f426fa73e078b835b5791",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "Recruiter Review",
+              "stage": "Offer Stage",
               "agingBand": "🔴 6+",
               "department": "051000 - Athletic Administration"
             },
@@ -5401,7 +5401,7 @@
               "notionUrl": "https://www.notion.so/38ecb21c377048eab43a083edaca63b0",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "Offer Stage",
+              "stage": "Pre-boarding",
               "agingBand": "🔴 6+",
               "department": "051000 - Athletic Administration"
             },
@@ -5421,7 +5421,7 @@
               "notionUrl": "https://www.notion.so/88443e11ab964226b14e66d121643e1e",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "Offer Stage",
+              "stage": "Pre-boarding",
               "agingBand": "🔴 6+",
               "department": "051000 - Athletic Administration"
             },
@@ -5496,16 +5496,6 @@
               "department": "051000 - Athletic Administration"
             },
             {
-              "title": "International Program Administrator II",
-              "reqId": "43963",
-              "notionUrl": "https://www.notion.so/87cd8d5ea0f946ceab8ac9ce38c8eae8",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Backlog",
-              "agingBand": "🔴 6+",
-              "department": "490000 - USF World"
-            },
-            {
               "title": "LGI & PSL - OPS",
               "reqId": "43691",
               "notionUrl": "https://www.notion.so/f789ffe64f21455385df1716abdf4237",
@@ -5520,7 +5510,7 @@
               "reqId": "43875",
               "notionUrl": "https://www.notion.so/08b522c9248e4f00a71764678aa2028a",
               "owner": "johncalebrese",
-              "campus": "Unknown",
+              "campus": "",
               "stage": "Pre-boarding",
               "agingBand": "🔴 6+",
               "department": "386500 - Academic Success Center"
@@ -5576,16 +5566,6 @@
               "department": "066200 - WUSF-FM"
             },
             {
-              "title": "Procurement Contract Associate II",
-              "reqId": "43744",
-              "notionUrl": "https://www.notion.so/38f9ddf757a08009af78f51cf4c2bf3f",
-              "owner": "johncalebrese",
-              "campus": "",
-              "stage": "Pre-boarding",
-              "agingBand": "🔴 6+",
-              "department": "027900 - Procurement & Payment Services"
-            },
-            {
               "title": "Community Engagement & Events Manager",
               "reqId": "43743",
               "notionUrl": "https://www.notion.so/38f9ddf757a08019a945fb83f818186d",
@@ -5631,7 +5611,7 @@
               "notionUrl": "https://www.notion.so/76d1090b0d0b4901b3ea22b839c26a42",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "Offer Stage",
+              "stage": "Pre-boarding",
               "agingBand": "🔴 6+",
               "department": "014000 - Office Of Internal Audit"
             },
@@ -5747,7 +5727,7 @@
               "notionUrl": "https://www.notion.so/1313cca850574c348980fc427f4dc646",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "Offer Stage",
+              "stage": "Pre-boarding",
               "agingBand": "🟡 3–5",
               "department": "047700 - Career & Professional Dev"
             },
@@ -5808,6 +5788,16 @@
           "color": "#3B6D11",
           "records": [
             {
+              "title": "International Program Administrator II",
+              "reqId": "43963",
+              "notionUrl": "https://www.notion.so/87cd8d5ea0f946ceab8ac9ce38c8eae8",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "490000 - USF World"
+            },
+            {
               "title": "Student Programs Coordinator",
               "reqId": "42905",
               "notionUrl": "https://www.notion.so/f37b59bd18f94094b3c528c2fe8a15ee",
@@ -5824,7 +5814,7 @@
         {
           "label": "Recruiter Review",
           "avgDays": 11,
-          "count": 10,
+          "count": 9,
           "color": "#006747"
         },
         {
@@ -5842,46 +5832,46 @@
         {
           "label": "Offer Stage",
           "avgDays": 19,
-          "count": 8,
+          "count": 5,
           "color": "#CFC483"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 28,
-          "count": 6,
+          "avgDays": 23,
+          "count": 9,
           "color": "#5B8FA8"
         },
         {
           "label": "Backlog",
-          "avgDays": 12,
-          "count": 4,
+          "avgDays": 11,
+          "count": 3,
           "color": "#888780"
         }
       ],
       "statuses": [
         {
           "label": "Recruiter Review",
-          "count": 13,
+          "count": 12,
           "color": "#185FA5"
         },
         {
-          "label": "Student Hiring",
-          "count": 17,
+          "label": "Offer Stage",
+          "count": 15,
           "color": "#0F6E56"
         },
         {
-          "label": "Pre-boarding",
-          "count": 12,
-          "color": "#888780"
-        },
-        {
-          "label": "Offer Stage",
+          "label": "Student Hiring",
           "count": 16,
           "color": "#0F6E56"
         },
         {
+          "label": "Pre-boarding",
+          "count": 15,
+          "color": "#888780"
+        },
+        {
           "label": "HM Review",
-          "count": 5,
+          "count": 4,
           "color": "#993556"
         },
         {
@@ -5901,7 +5891,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 31
+          "count": 29
         },
         {
           "label": "🟡 3-5",
@@ -5915,13 +5905,13 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 1
+          "count": 2
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 76
+          "count": 75
         },
         {
           "label": "Screened",
@@ -5929,7 +5919,7 @@
         },
         {
           "label": "HM Review",
-          "count": 5
+          "count": 4
         },
         {
           "label": "Interviews",
@@ -5937,13 +5927,13 @@
         },
         {
           "label": "Offer",
-          "count": 16
+          "count": 15
         }
       ],
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 66,
+          "value": 67,
           "target": 10,
           "invert": false
         },
@@ -6776,7 +6766,7 @@
               "reqId": "43988",
               "notionUrl": "https://www.notion.so/2fcece10f5df498b8f80f1d991ae97c8",
               "owner": "Tameka Porter",
-              "campus": "",
+              "campus": "Tampa",
               "stage": "Recruiter Review",
               "agingBand": "🔴 6+",
               "department": "351000 - Information Technology"
