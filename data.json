@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-08-25T11:30:05.808Z",
+  "lastUpdated": "2026-08-25T11:57:45.456Z",
   "summary": {
-    "openReqs": 658,
-    "avgTimeToFill": 95,
+    "openReqs": 661,
+    "avgTimeToFill": 94,
     "filledYTD": 183,
     "failedCancelled": 33,
     "inOfferStage": 56
@@ -10,7 +10,7 @@
   "campus": [
     {
       "label": "Tampa",
-      "count": 308,
+      "count": 311,
       "color": "#1B6A9C"
     },
     {
@@ -37,7 +37,7 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 217
+      "count": 215
     },
     {
       "label": "HM Review",
@@ -52,12 +52,12 @@
       "count": 53
     },
     {
-      "label": "Faculty",
-      "count": 36
+      "label": "Backlog",
+      "count": 38
     },
     {
-      "label": "Backlog",
-      "count": 33
+      "label": "Faculty",
+      "count": 36
     },
     {
       "label": "Interview Stage",
@@ -86,7 +86,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 152
+      "count": 153
     },
     {
       "label": "🟡 3-5",
@@ -114,7 +114,7 @@
           "notionUrl": "https://www.notion.so/c2ba9741acc349868bc006467c11d261",
           "owner": "johncalebrese",
           "campus": "Tampa",
-          "stage": "Recruiter Review",
+          "stage": "Backlog",
           "agingBand": "🔴 6+",
           "department": "027900 - Procurement & Payment Services"
         },
@@ -124,7 +124,7 @@
           "notionUrl": "https://www.notion.so/d0bf830eeb7f426fa73e078b835b5791",
           "owner": "johncalebrese",
           "campus": "Tampa",
-          "stage": "Recruiter Review",
+          "stage": "Backlog",
           "agingBand": "🔴 6+",
           "department": "051000 - Athletic Administration"
         },
@@ -577,6 +577,16 @@
           "stage": "Offer Stage",
           "agingBand": "🔴 6+",
           "department": "051000 - Athletic Administration"
+        },
+        {
+          "title": "Transfer Success Specialist",
+          "reqId": "44011",
+          "notionUrl": "https://www.notion.so/eec0f79238b040029cfc7f060ebecdf3",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "HM Review",
+          "agingBand": "🔴 6+",
+          "department": "512800 - STP Academic Advising"
         },
         {
           "title": "AV Engineer I",
@@ -1866,7 +1876,7 @@
   "reqType": [
     {
       "label": "Active",
-      "count": 227,
+      "count": 230,
       "color": "#00A693"
     },
     {
@@ -2003,7 +2013,7 @@
     },
     {
       "label": "Other (173 depts)",
-      "count": 335,
+      "count": 338,
       "color": "#c8c7c2"
     }
   ],
@@ -2016,8 +2026,8 @@
     },
     {
       "label": "Recruiter Review",
-      "avgDays": 26,
-      "count": 70,
+      "avgDays": 27,
+      "count": 68,
       "color": "#006747"
     },
     {
@@ -2046,8 +2056,8 @@
     },
     {
       "label": "Backlog",
-      "avgDays": 16,
-      "count": 15,
+      "avgDays": 15,
+      "count": 17,
       "color": "#888780"
     }
   ],
@@ -5310,10 +5320,10 @@
       "bgLight": "#e3f2fd",
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
-      "reqs": 149,
+      "reqs": 152,
       "filled": 61,
       "failed": 10,
-      "ttf": 84,
+      "ttf": 82,
       "wip": 13,
       "agingRecords": [
         {
@@ -5326,7 +5336,7 @@
               "notionUrl": "https://www.notion.so/c2ba9741acc349868bc006467c11d261",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "Recruiter Review",
+              "stage": "Backlog",
               "agingBand": "🔴 6+",
               "department": "027900 - Procurement & Payment Services"
             },
@@ -5336,7 +5346,7 @@
               "notionUrl": "https://www.notion.so/d0bf830eeb7f426fa73e078b835b5791",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "Recruiter Review",
+              "stage": "Backlog",
               "agingBand": "🔴 6+",
               "department": "051000 - Athletic Administration"
             },
@@ -5807,8 +5817,8 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 11,
-          "count": 10,
+          "avgDays": 12,
+          "count": 8,
           "color": "#006747"
         },
         {
@@ -5837,21 +5847,26 @@
         },
         {
           "label": "Backlog",
-          "avgDays": 12,
-          "count": 4,
+          "avgDays": 11,
+          "count": 6,
           "color": "#888780"
         }
       ],
       "statuses": [
         {
-          "label": "Recruiter Review",
-          "count": 10,
-          "color": "#185FA5"
+          "label": "Backlog",
+          "count": 9,
+          "color": "#888780"
         },
         {
           "label": "Student Hiring",
           "count": 17,
           "color": "#0F6E56"
+        },
+        {
+          "label": "Recruiter Review",
+          "count": 8,
+          "color": "#185FA5"
         },
         {
           "label": "Pre-boarding",
@@ -5867,11 +5882,6 @@
           "label": "HM Review",
           "count": 5,
           "color": "#993556"
-        },
-        {
-          "label": "Backlog",
-          "count": 4,
-          "color": "#888780"
         },
         {
           "label": "Interview Stage",
@@ -5905,7 +5915,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 78
+          "count": 81
         },
         {
           "label": "Screened",
@@ -5933,30 +5943,30 @@
         },
         {
           "label": "Time to fill",
-          "value": 84,
+          "value": 82,
           "target": 40,
           "invert": true
         },
         {
           "label": "Screened",
           "value": 0,
-          "target": 149,
+          "target": 152,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 9,
-          "target": 149,
+          "target": 152,
           "invert": false
         }
       ],
       "trend": [
-        84,
-        84,
-        84,
-        84,
-        84,
-        84
+        82,
+        82,
+        82,
+        82,
+        82,
+        82
       ]
     },
     {
@@ -6136,6 +6146,16 @@
               "stage": "HM Review",
               "agingBand": "🔴 6+",
               "department": "171400 - Teaching & Learning"
+            },
+            {
+              "title": "Transfer Success Specialist",
+              "reqId": "44011",
+              "notionUrl": "https://www.notion.so/eec0f79238b040029cfc7f060ebecdf3",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "HM Review",
+              "agingBand": "🔴 6+",
+              "department": "512800 - STP Academic Advising"
             },
             {
               "title": "OPS Temporary Research Physical Therapist",
@@ -6653,7 +6673,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 38
+          "count": 39
         },
         {
           "label": "🟡 3-5",
