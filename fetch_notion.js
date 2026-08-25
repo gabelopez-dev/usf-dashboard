@@ -190,7 +190,7 @@ async function main() {
     'Recruiter Review', 'Sourced', 'Screened', 'HM Review',
     'Interview Stage', 'Offer Stage', 'Pre-boarding', 'Backlog',
     'Targeted', 'Posted', 'Active (WIP)', 'Student Hiring', 'Faculty',
-    'Open', 'Active', 'Passive', 'Screening'
+    'Open', 'Active', 'Passive', 'Screening', 'Hired'
   ];
 
   const activeRecords = records.filter(r => {
@@ -222,7 +222,8 @@ async function main() {
     'HM Review': '#993556', 'Interview Stage': '#534AB7', 'Offer Stage': '#0F6E56',
     'Pre-boarding': '#888780', 'Backlog': '#888780', 'Targeted': '#888780',
     'Student Hiring': '#0F6E56', 'Faculty': '#534AB7',
-    'Passive': '#5B8FA8', 'Active': '#00A693', 'Screening': '#BA7517'
+    'Passive': '#5B8FA8', 'Active': '#00A693', 'Screening': '#BA7517',
+    'Hired': '#2E7D32'
   };
 
   const agingBands = [
@@ -284,7 +285,7 @@ async function main() {
       .filter(v => v !== null && v !== undefined && v > 0);
     const avgTTF = ttfValues.length > 0 ? Math.round(ttfValues.reduce((a,b) => a+b, 0) / ttfValues.length) : 0;
 
-    const filled = allMyRecs.filter(r => ['Hired','Filled','Complete'].includes(getProp(r, 'Stage', 'select'))).length;
+    const filled = allMyRecs.filter(r => ['Filled','Complete'].includes(getProp(r, 'Stage', 'select'))).length;
     const failed = allMyRecs.filter(r => ['Failed Search', 'Canceled'].includes(getProp(r, 'Stage', 'select'))).length;
 
     const funnel = [
@@ -481,7 +482,7 @@ async function main() {
     summary: {
       openReqs: activeRecords.length,
       avgTimeToFill: avgTTFAll,
-      filledYTD: records.filter(r => ['Hired','Filled','Complete'].includes(getProp(r, 'Stage', 'select'))).length,
+      filledYTD: records.filter(r => ['Filled','Complete'].includes(getProp(r, 'Stage', 'select'))).length,
       failedCancelled: records.filter(r => ['Failed Search', 'Canceled'].includes(getProp(r, 'Stage', 'select'))).length,
       inOfferStage: activeRecords.filter(r => getProp(r, 'Stage', 'select') === 'Offer Stage').length
     },
@@ -527,7 +528,7 @@ async function main() {
     stageMetrics,
     // Closed reqs for historical wins/losses view
     closedReqs: records
-      .filter(r => ['Hired', 'Filled', 'Canceled', 'Failed Search', 'Complete'].includes(getProp(r, 'Stage', 'select')))
+      .filter(r => ['Filled', 'Canceled', 'Failed Search', 'Complete'].includes(getProp(r, 'Stage', 'select')))
       .map(r => ({
         title: getProp(r, 'Requistion Title', 'title') || getProp(r, 'Requisition Title', 'title') || getProp(r, 'Name', 'title') || 'Untitled',
         reqId: getProp(r, 'Requisition ID', 'text') || getProp(r, 'Requisition ID', 'number') || '',
@@ -539,7 +540,37 @@ async function main() {
         notionUrl: `https://www.notion.so/${(r.id || '').replace(/-/g, '')}`
       }))
       .sort((a, b) => (b.ttf || 0) - (a.ttf || 0)),
-    recruiters
+    recruiters,
+
+    // Data quality — flags records missing critical fields
+    dataQuality: (() => {
+      const criticalFields = [
+        { key: 'stage',      label: 'Stage',              check: r => !getProp(r, 'Stage', 'select') },
+        { key: 'department', label: 'Department/College',  check: r => !getProp(r, 'Department/College', 'text') },
+        { key: 'lastActivity',label: 'Last Activity',     check: r => !getProp(r, 'Last Activity', 'date') && !getProp(r, 'Last Activity', 'text') },
+        { key: 'reqType',    label: 'Req Type',            check: r => !getProp(r, 'Req Type', 'select') },
+        { key: 'campus',     label: 'Campus',              check: r => !getProp(r, 'Campus', 'select') },
+        { key: 'hrbp',       label: 'HRBP',               check: r => !getProp(r, 'HRBP', 'text') && !getProp(r, 'HRBP', 'select') },
+      ];
+
+      return criticalFields.map(f => {
+        const missing = activeRecords.filter(f.check);
+        return {
+          field: f.label,
+          missingCount: missing.length,
+          totalActive: activeRecords.length,
+          pct: activeRecords.length > 0 ? Math.round((missing.length / activeRecords.length) * 100) : 0,
+          records: missing.slice(0, 50).map(r => ({
+            title: getProp(r, 'Requistion Title', 'title') || getProp(r, 'Requisition Title', 'title') || 'Untitled',
+            reqId: getProp(r, 'Requisition ID', 'text') || getProp(r, 'Requisition ID', 'number') || '',
+            owner: (() => { const p = getProp(r, 'Owner', 'person'); return p?.name || p?.person?.email || 'Unassigned'; })(),
+            campus: getProp(r, 'Campus', 'select') || '',
+            stage: getProp(r, 'Stage', 'select') || '',
+            notionUrl: `https://www.notion.so/${(r.id || '').replace(/-/g, '')}`
+          }))
+        };
+      });
+    })()
   };
 
   const json = JSON.stringify(data, null, 2);
