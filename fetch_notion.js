@@ -545,12 +545,14 @@ async function main() {
     // Data quality — flags records missing critical fields
     dataQuality: (() => {
       const criticalFields = [
-        { key: 'stage',      label: 'Stage',              check: r => !getProp(r, 'Stage', 'select') },
-        { key: 'department', label: 'Department/College',  check: r => !getProp(r, 'Department/College', 'text') },
-        { key: 'lastActivity',label: 'Last Activity',     check: r => !getProp(r, 'Last Activity', 'date') && !getProp(r, 'Last Activity', 'text') },
-        { key: 'reqType',    label: 'Req Type',            check: r => !getProp(r, 'Req Type', 'select') },
-        { key: 'campus',     label: 'Campus',              check: r => !getProp(r, 'Campus', 'select') },
-        { key: 'hrbp',       label: 'HRBP',               check: r => !getProp(r, 'HRBP', 'text') && !getProp(r, 'HRBP', 'select') },
+        { key: 'stage',       label: 'Stage',              check: r => !getProp(r, 'Stage', 'select') },
+        { key: 'department',  label: 'Department/College',  check: r => !getProp(r, 'Department/College', 'text') },
+        { key: 'lastActivity',label: 'Last Activity',       check: r => !getProp(r, 'Last Activity', 'date') && !getProp(r, 'Last Activity', 'text') },
+        { key: 'reqType',     label: 'Req Type',            check: r => !getProp(r, 'Req Type', 'select') },
+        { key: 'campus',      label: 'Campus',              check: r => !getProp(r, 'Campus', 'select') },
+        { key: 'hrbp',        label: 'HRBP',               check: r => !getProp(r, 'HRBP', 'text') && !getProp(r, 'HRBP', 'select') },
+        { key: 'postedDate',  label: 'Posted Date',         check: r => !getProp(r, 'Posted Date', 'date') && !getProp(r, 'Posted Date', 'text') },
+        { key: 'unpostedDate',label: 'Unposted Date',       check: r => !getProp(r, 'Unposted Date', 'date') && !getProp(r, 'Unposted Date', 'text') },
       ];
 
       return criticalFields.map(f => {
