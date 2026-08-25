@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T16:08:47.814Z",
+  "lastUpdated": "2026-08-25T17:05:55.501Z",
   "summary": {
     "openReqs": 669,
     "avgTimeToFill": 94,
@@ -61,7 +61,7 @@
     },
     {
       "label": "Interview Stage",
-      "count": 19
+      "count": 18
     },
     {
       "label": "Hired",
@@ -69,7 +69,7 @@
     },
     {
       "label": "Pre-boarding",
-      "count": 16
+      "count": 17
     },
     {
       "label": "Passive",
@@ -90,7 +90,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 154
+      "count": 152
     },
     {
       "label": "🟡 3-5",
@@ -104,7 +104,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 6
+      "count": 8
     }
   ],
   "agingRecords": [
@@ -1023,16 +1023,6 @@
           "department": "MUMA"
         },
         {
-          "title": "Assistant Director IT Audit",
-          "reqId": "43823",
-          "notionUrl": "https://www.notion.so/baf0c4c1f29442719ee4bd12a7959953",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Offer Stage",
-          "agingBand": "🔴 6+",
-          "department": "014000 - Office Of Internal Audit"
-        },
-        {
           "title": "IAE Director of Business Development",
           "reqId": "43796",
           "notionUrl": "https://www.notion.so/4015be9957c14212b1cd7bb714981168",
@@ -1111,16 +1101,6 @@
           "stage": "Offer Stage",
           "agingBand": "🔴 6+",
           "department": "612700 - Dept Of Orthopaedics & Sports Medicine"
-        },
-        {
-          "title": "Supplier Services Specialist",
-          "reqId": "43649",
-          "notionUrl": "https://www.notion.so/38f9ddf757a080f1bc04c853567b5c5d",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Interview Stage",
-          "agingBand": "🔴 6+",
-          "department": "027900 - Procurement & Payment Services"
         },
         {
           "title": "Accounts Payable Manager",
@@ -1903,6 +1883,26 @@
           "stage": "Offer Stage",
           "agingBand": "🟢 0–2",
           "department": "044100 - Ctr For Student Involvement"
+        },
+        {
+          "title": "Assistant Director IT Audit",
+          "reqId": "43823",
+          "notionUrl": "https://www.notion.so/baf0c4c1f29442719ee4bd12a7959953",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Pre-boarding",
+          "agingBand": "🟢 0–2",
+          "department": "014000 - Office Of Internal Audit"
+        },
+        {
+          "title": "Supplier Services Specialist",
+          "reqId": "43649",
+          "notionUrl": "https://www.notion.so/38f9ddf757a080f1bc04c853567b5c5d",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Offer Stage",
+          "agingBand": "🟢 0–2",
+          "department": "027900 - Procurement & Payment Services"
         }
       ]
     }
@@ -2083,13 +2083,13 @@
     {
       "label": "Interview Stage",
       "avgDays": 24,
-      "count": 14,
+      "count": 13,
       "color": "#d4880a"
     },
     {
       "label": "Offer Stage",
-      "avgDays": 32,
-      "count": 38,
+      "avgDays": 31,
+      "count": 37,
       "color": "#CFC483"
     },
     {
@@ -5456,16 +5456,6 @@
               "department": "MUMA"
             },
             {
-              "title": "Assistant Director IT Audit",
-              "reqId": "43823",
-              "notionUrl": "https://www.notion.so/baf0c4c1f29442719ee4bd12a7959953",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Offer Stage",
-              "agingBand": "🔴 6+",
-              "department": "014000 - Office Of Internal Audit"
-            },
-            {
               "title": "IAE Director of Business Development",
               "reqId": "43796",
               "notionUrl": "https://www.notion.so/4015be9957c14212b1cd7bb714981168",
@@ -5504,16 +5494,6 @@
               "stage": "Interview Stage",
               "agingBand": "🔴 6+",
               "department": "066200 - WUSF-FM"
-            },
-            {
-              "title": "Supplier Services Specialist",
-              "reqId": "43649",
-              "notionUrl": "https://www.notion.so/38f9ddf757a080f1bc04c853567b5c5d",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Interview Stage",
-              "agingBand": "🔴 6+",
-              "department": "027900 - Procurement & Payment Services"
             },
             {
               "title": "Accounts Payable Manager",
@@ -5736,6 +5716,26 @@
               "stage": "Offer Stage",
               "agingBand": "🟢 0–2",
               "department": "044100 - Ctr For Student Involvement"
+            },
+            {
+              "title": "Assistant Director IT Audit",
+              "reqId": "43823",
+              "notionUrl": "https://www.notion.so/baf0c4c1f29442719ee4bd12a7959953",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Pre-boarding",
+              "agingBand": "🟢 0–2",
+              "department": "014000 - Office Of Internal Audit"
+            },
+            {
+              "title": "Supplier Services Specialist",
+              "reqId": "43649",
+              "notionUrl": "https://www.notion.so/38f9ddf757a080f1bc04c853567b5c5d",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Offer Stage",
+              "agingBand": "🟢 0–2",
+              "department": "027900 - Procurement & Payment Services"
             }
           ]
         }
@@ -5756,13 +5756,13 @@
         {
           "label": "Interview Stage",
           "avgDays": 27,
-          "count": 9,
+          "count": 8,
           "color": "#d4880a"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 20,
-          "count": 4,
+          "avgDays": 16,
+          "count": 3,
           "color": "#CFC483"
         },
         {
@@ -5802,7 +5802,7 @@
         },
         {
           "label": "Pre-boarding",
-          "count": 14,
+          "count": 15,
           "color": "#888780"
         },
         {
@@ -5812,7 +5812,7 @@
         },
         {
           "label": "Interview Stage",
-          "count": 10,
+          "count": 9,
           "color": "#534AB7"
         },
         {
@@ -5832,7 +5832,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 29
+          "count": 27
         },
         {
           "label": "🟡 3-5",
@@ -5846,7 +5846,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 2
+          "count": 4
         }
       ],
       "funnel": [
@@ -5864,7 +5864,7 @@
         },
         {
           "label": "Interviews",
-          "count": 10
+          "count": 9
         },
         {
           "label": "Offer",
@@ -5892,7 +5892,7 @@
         },
         {
           "label": "Interviews",
-          "value": 10,
+          "value": 9,
           "target": 152,
           "invert": false
         }
