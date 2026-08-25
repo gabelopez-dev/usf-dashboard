@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-08-25T19:33:29.976Z",
+  "lastUpdated": "2026-08-25T20:31:10.664Z",
   "summary": {
-    "openReqs": 672,
+    "openReqs": 669,
     "avgTimeToFill": 95,
-    "filledYTD": 181,
+    "filledYTD": 184,
     "failedCancelled": 33,
     "inOfferStage": 52
   },
@@ -20,7 +20,7 @@
     },
     {
       "label": "USF Health",
-      "count": 183,
+      "count": 180,
       "color": "#00A693"
     },
     {
@@ -37,11 +37,11 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 224
+      "count": 223
     },
     {
       "label": "HM Review",
-      "count": 185
+      "count": 184
     },
     {
       "label": "Student Hiring",
@@ -81,7 +81,7 @@
     },
     {
       "label": "Sourced",
-      "count": 10
+      "count": 9
     }
   ],
   "mainAging": [
@@ -90,7 +90,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 148
+      "count": 146
     },
     {
       "label": "🟡 3-5",
@@ -1543,16 +1543,6 @@
           "department": "USF Health"
         },
         {
-          "title": "Research Scientist-Temporary",
-          "reqId": "43574",
-          "notionUrl": "https://www.notion.so/996db7ca4b5a4a0ea1aca5cf78ed5986",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "512337 - Heart Institute - Core"
-        },
-        {
           "title": "Research Scientist, Temporary",
           "reqId": "43596",
           "notionUrl": "https://www.notion.so/756365030d074055a65b98b31e25038d",
@@ -1561,16 +1551,6 @@
           "stage": "Recruiter Review",
           "agingBand": "🔴 6+",
           "department": "614000 - Molecular Medicine"
-        },
-        {
-          "title": "OPS Temporary Academic Program Specialist",
-          "reqId": "43627",
-          "notionUrl": "https://www.notion.so/7ed4473f9ae741598302f270bf0f02dc",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Sourced",
-          "agingBand": "🔴 6+",
-          "department": "USF Health"
         },
         {
           "title": "Fiscal & Business Analyst I",
@@ -1880,12 +1860,12 @@
   "reqType": [
     {
       "label": "Active",
-      "count": 241,
+      "count": 239,
       "color": "#00A693"
     },
     {
       "label": "Evergreen",
-      "count": 160,
+      "count": 159,
       "color": "#7A9EB5"
     },
     {
@@ -1912,7 +1892,7 @@
   "department": [
     {
       "label": "USF Health",
-      "count": 106,
+      "count": 104,
       "color": "#006747"
     },
     {
@@ -2032,7 +2012,7 @@
     },
     {
       "label": "Other (173 depts)",
-      "count": 333,
+      "count": 332,
       "color": "#c8c7c2"
     }
   ],
@@ -2040,13 +2020,13 @@
     {
       "label": "Sourced",
       "avgDays": 38,
-      "count": 8,
+      "count": 7,
       "color": "#00A693"
     },
     {
       "label": "Recruiter Review",
       "avgDays": 26,
-      "count": 68,
+      "count": 67,
       "color": "#006747"
     },
     {
@@ -3108,6 +3088,26 @@
       "notionUrl": "https://www.notion.so/d3db39b56aeb46baa82e090956bb30db"
     },
     {
+      "title": "Postdoctoral Scholar Research",
+      "reqId": "43553",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Filled",
+      "department": "USF Health",
+      "ttf": 90,
+      "notionUrl": "https://www.notion.so/690a4562e88045a7b43a3cdca486290a"
+    },
+    {
+      "title": "Research Scientist-Temporary",
+      "reqId": "43574",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Filled",
+      "department": "512337 - Heart Institute - Core",
+      "ttf": 89,
+      "notionUrl": "https://www.notion.so/996db7ca4b5a4a0ea1aca5cf78ed5986"
+    },
+    {
       "title": "Coordinator Athletics Production",
       "reqId": "43576",
       "owner": "johncalebrese",
@@ -3226,6 +3226,16 @@
       "department": "USF Health",
       "ttf": 82,
       "notionUrl": "https://www.notion.so/f65bb0ca92484373a5a3009a2c7d5b47"
+    },
+    {
+      "title": "OPS Temporary Academic Program Specialist",
+      "reqId": "43627",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Filled",
+      "department": "USF Health",
+      "ttf": 82,
+      "notionUrl": "https://www.notion.so/7ed4473f9ae741598302f270bf0f02dc"
     },
     {
       "title": "Assistant Curator",
@@ -4465,7 +4475,7 @@
       "bgDark": "#3d2504",
       "campus": "Tampa",
       "reqs": 359,
-      "filled": 79,
+      "filled": 82,
       "failed": 21,
       "ttf": 108,
       "wip": 6,
@@ -5045,16 +5055,6 @@
               "department": "USF Health"
             },
             {
-              "title": "Research Scientist-Temporary",
-              "reqId": "43574",
-              "notionUrl": "https://www.notion.so/996db7ca4b5a4a0ea1aca5cf78ed5986",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "512337 - Heart Institute - Core"
-            },
-            {
               "title": "Research Scientist, Temporary",
               "reqId": "43596",
               "notionUrl": "https://www.notion.so/756365030d074055a65b98b31e25038d",
@@ -5063,16 +5063,6 @@
               "stage": "Recruiter Review",
               "agingBand": "🔴 6+",
               "department": "614000 - Molecular Medicine"
-            },
-            {
-              "title": "OPS Temporary Academic Program Specialist",
-              "reqId": "43627",
-              "notionUrl": "https://www.notion.so/7ed4473f9ae741598302f270bf0f02dc",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Sourced",
-              "agingBand": "🔴 6+",
-              "department": "USF Health"
             },
             {
               "title": "Fiscal & Business Analyst I",
@@ -5111,13 +5101,13 @@
         {
           "label": "Sourced",
           "avgDays": 42,
-          "count": 7,
+          "count": 6,
           "color": "#00A693"
         },
         {
           "label": "Recruiter Review",
-          "avgDays": 30,
-          "count": 36,
+          "avgDays": 29,
+          "count": 35,
           "color": "#006747"
         },
         {
@@ -5142,7 +5132,7 @@
       "statuses": [
         {
           "label": "Recruiter Review",
-          "count": 43,
+          "count": 42,
           "color": "#185FA5"
         },
         {
@@ -5157,7 +5147,7 @@
         },
         {
           "label": "HM Review",
-          "count": 158,
+          "count": 157,
           "color": "#993556"
         },
         {
@@ -5167,7 +5157,7 @@
         },
         {
           "label": "Sourced",
-          "count": 9,
+          "count": 8,
           "color": "#3B6D11"
         },
         {
@@ -5192,7 +5182,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 62
+          "count": 60
         },
         {
           "label": "🟡 3-5",
@@ -5212,7 +5202,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 256
+          "count": 253
         },
         {
           "label": "Screened",
@@ -5220,7 +5210,7 @@
         },
         {
           "label": "HM Review",
-          "count": 158
+          "count": 157
         },
         {
           "label": "Interviews",
@@ -5234,7 +5224,7 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 79,
+          "value": 82,
           "target": 10,
           "invert": false
         },
@@ -6905,14 +6895,14 @@
     {
       "field": "Stage",
       "missingCount": 0,
-      "totalActive": 672,
+      "totalActive": 669,
       "pct": 0,
       "records": []
     },
     {
       "field": "Department/College",
       "missingCount": 2,
-      "totalActive": 672,
+      "totalActive": 669,
       "pct": 0,
       "records": [
         {
@@ -6935,8 +6925,8 @@
     },
     {
       "field": "Last Activity",
-      "missingCount": 327,
-      "totalActive": 672,
+      "missingCount": 326,
+      "totalActive": 669,
       "pct": 49,
       "records": [
         {
@@ -7344,7 +7334,7 @@
     {
       "field": "Req Type",
       "missingCount": 109,
-      "totalActive": 672,
+      "totalActive": 669,
       "pct": 16,
       "records": [
         {
@@ -7752,7 +7742,7 @@
     {
       "field": "Campus",
       "missingCount": 70,
-      "totalActive": 672,
+      "totalActive": 669,
       "pct": 10,
       "records": [
         {
@@ -8160,7 +8150,7 @@
     {
       "field": "HRBP",
       "missingCount": 190,
-      "totalActive": 672,
+      "totalActive": 669,
       "pct": 28,
       "records": [
         {
@@ -8568,8 +8558,8 @@
     {
       "field": "Posted Date",
       "missingCount": 184,
-      "totalActive": 672,
-      "pct": 27,
+      "totalActive": 669,
+      "pct": 28,
       "records": [
         {
           "title": "Research Coverage Analy",
@@ -8975,8 +8965,8 @@
     },
     {
       "field": "Unposted Date",
-      "missingCount": 489,
-      "totalActive": 672,
+      "missingCount": 488,
+      "totalActive": 669,
       "pct": 73,
       "records": [
         {
