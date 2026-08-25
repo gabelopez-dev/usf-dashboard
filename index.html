@@ -885,10 +885,46 @@ function buildPages(recruiters) {
   });
 }
 
+function filterQualityByOwner() {
+  const owner = document.getElementById('qualityOwnerFilter')?.value || 'All Owners';
+  const dq = window._dataQuality || [];
+  const sections = document.getElementById('qualityDetailSections');
+  if (!sections) return;
+
+  const buildRows = (f) => {
+    const filtered = owner === 'All Owners' ? f.records : f.records.filter(r => r.owner === owner);
+    if (filtered.length === 0) return '';
+    const rows = filtered.map(r => `<tr>
+      <td><strong>${r.title || 'Untitled'}</strong>${r.reqId ? `<br><span style="font-size:10px;color:#999;">#${r.reqId}</span>` : ''}</td>
+      <td>${r.owner || '—'}</td>
+      <td>${r.campus || '—'}</td>
+      <td>${r.stage || '—'}</td>
+      <td>${r.notionUrl ? `<a href="${r.notionUrl}" target="_blank" style="display:inline-block;font-size:10px;font-weight:600;padding:3px 8px;background:var(--usf-green);color:#fff;border-radius:4px;text-decoration:none;">Open ↗</a>` : '—'}</td>
+    </tr>`).join('');
+    return `<div class="card" style="margin-bottom:12px;">
+      <div class="card-title" style="color:#c0392b;">🔴 Missing: ${f.field} — ${filtered.length} reqs</div>
+      <div style="overflow-x:auto;"><table class="drill-table">
+        <thead><tr><th>Requisition</th><th>Owner</th><th>Campus</th><th>Stage</th><th>Action</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table></div>
+    </div>`;
+  };
+
+  const html = dq.filter(f => f.missingCount > 0).map(buildRows).filter(Boolean).join('');
+  sections.innerHTML = html || `<div class="card" style="text-align:center;padding:30px;"><div style="font-size:14px;color:#006747;font-weight:700;">✅ No missing data for ${owner}</div></div>`;
+}
+
 function renderQualityPage(dataQuality) {
   if (!dataQuality || dataQuality.length === 0) {
     return `<div class="card"><p class="pending-note">No data quality info available yet — run a sync first.</p></div>`;
   }
+
+  // Get unique owners across all missing records
+  const allOwners = new Set();
+  dataQuality.forEach(f => f.records.forEach(r => { if (r.owner) allOwners.add(r.owner); }));
+  const ownerOptions = ['All Owners', ...Array.from(allOwners).sort()].map(o =>
+    `<option value="${o}">${o}</option>`
+  ).join('');
 
   // Summary cards
   const summaryCards = dataQuality.map(f => {
@@ -902,10 +938,15 @@ function renderQualityPage(dataQuality) {
   }).join('');
 
   // Detail tables per field
-  const detailSections = dataQuality
+  const buildDetailSections = (ownerFilter) => dataQuality
     .filter(f => f.missingCount > 0)
     .map(f => {
-      const rows = f.records.map(r => `<tr>
+      const filtered = ownerFilter === 'All Owners'
+        ? f.records
+        : f.records.filter(r => r.owner === ownerFilter);
+      if (filtered.length === 0) return '';
+
+      const rows = filtered.map(r => `<tr>
         <td><strong>${r.title || 'Untitled'}</strong>${r.reqId ? `<br><span style="font-size:10px;color:#999;">#${r.reqId}</span>` : ''}</td>
         <td>${r.owner || '—'}</td>
         <td>${r.campus || '—'}</td>
@@ -913,10 +954,10 @@ function renderQualityPage(dataQuality) {
         <td>${r.notionUrl ? `<a href="${r.notionUrl}" target="_blank" style="display:inline-block;font-size:10px;font-weight:600;padding:3px 8px;background:var(--usf-green);color:#fff;border-radius:4px;text-decoration:none;">Open ↗</a>` : '—'}</td>
       </tr>`).join('');
 
-      const more = f.missingCount > 50 ? `<p style="font-size:10px;color:#aaa;font-style:italic;margin-top:6px;">Showing 50 of ${f.missingCount} records — fix these first.</p>` : '';
+      const more = f.missingCount > 50 ? `<p style="font-size:10px;color:#aaa;font-style:italic;margin-top:6px;">Showing top 50 records — fix these first.</p>` : '';
 
       return `<div class="card" style="margin-bottom:12px;">
-        <div class="card-title" style="color:#c0392b;">🔴 Missing: ${f.field} — ${f.missingCount} reqs</div>
+        <div class="card-title" style="color:#c0392b;">🔴 Missing: ${f.field} — ${filtered.length} reqs</div>
         <div style="overflow-x:auto;">
           <table class="drill-table">
             <thead><tr><th>Requisition</th><th>Owner</th><th>Campus</th><th>Stage</th><th>Action</th></tr></thead>
@@ -925,23 +966,34 @@ function renderQualityPage(dataQuality) {
         </div>
         ${more}
       </div>`;
-    }).join('');
+    }).filter(Boolean).join('');
 
   const allClean = dataQuality.every(f => f.missingCount === 0);
 
+  // Store dataQuality globally for filter use
+  window._dataQuality = dataQuality;
+
   return `
-    <div style="margin-bottom:12px;">
+    <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:12px; flex-wrap:wrap; gap:8px;">
       <div style="font-size:11px;color:#888;font-style:italic;">Based on ${dataQuality[0]?.totalActive || 0} active reqs. Click "Open ↗" to fix directly in Notion.</div>
+      <div style="display:flex; align-items:center; gap:8px;">
+        <label style="font-size:11px;color:#555;font-weight:600;">Filter by owner:</label>
+        <select id="qualityOwnerFilter" onchange="filterQualityByOwner()" style="font-size:12px;padding:5px 10px;border:0.5px solid var(--border);border-radius:6px;background:var(--surface);color:var(--text-primary);">
+          ${ownerOptions}
+        </select>
+      </div>
     </div>
     <div class="kpi-row" style="margin-bottom:16px;">${summaryCards}</div>
-    ${allClean
-      ? `<div class="card" style="text-align:center;padding:40px;">
-          <div style="font-size:32px;margin-bottom:8px;">✅</div>
-          <div style="font-size:16px;font-weight:700;color:#006747;">All fields complete</div>
-          <div style="font-size:12px;color:#888;margin-top:4px;">No missing data detected across active reqs.</div>
-        </div>`
-      : detailSections
-    }`;
+    <div id="qualityDetailSections">
+      ${allClean
+        ? `<div class="card" style="text-align:center;padding:40px;">
+            <div style="font-size:32px;margin-bottom:8px;">✅</div>
+            <div style="font-size:16px;font-weight:700;color:#006747;">All fields complete</div>
+            <div style="font-size:12px;color:#888;margin-top:4px;">No missing data detected across active reqs.</div>
+          </div>`
+        : buildDetailSections('All Owners')
+      }
+    </div>`;
 }
 
 function renderClosedPage(closedReqs) {
