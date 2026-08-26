@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T16:19:31.125Z",
+  "lastUpdated": "2026-08-26T18:15:28.672Z",
   "summary": {
     "openReqs": 649,
     "avgTimeToFill": 95,
@@ -41,7 +41,7 @@
     },
     {
       "label": "HM Review",
-      "count": 173
+      "count": 172
     },
     {
       "label": "Offer Stage",
@@ -61,7 +61,7 @@
     },
     {
       "label": "Interview Stage",
-      "count": 17
+      "count": 18
     },
     {
       "label": "Hired",
@@ -90,7 +90,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 115
+      "count": 114
     },
     {
       "label": "🟡 3-5",
@@ -104,7 +104,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 13
+      "count": 14
     }
   ],
   "agingRecords": [
@@ -381,16 +381,6 @@
           "stage": "Recruiter Review",
           "agingBand": "🔴 6+",
           "department": "640108 - COPH Faculty A"
-        },
-        {
-          "title": "Accounting Assistant",
-          "reqId": "44051",
-          "notionUrl": "https://www.notion.so/be692cd816444d1bb9ea453470b229bd",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "HM Review",
-          "agingBand": "🔴 6+",
-          "department": "510100 - STP Administration & Finance"
         },
         {
           "title": "Fitness and Membership Coordinator",
@@ -1385,6 +1375,16 @@
           "department": "170100 - COE Dean's Office"
         },
         {
+          "title": "Accounting Assistant",
+          "reqId": "44051",
+          "notionUrl": "https://www.notion.so/be692cd816444d1bb9ea453470b229bd",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Interview Stage",
+          "agingBand": "🟢 0–2",
+          "department": "510100 - STP Administration & Finance"
+        },
+        {
           "title": "International Program Administrator II",
           "reqId": "43963",
           "notionUrl": "https://www.notion.so/87cd8d5ea0f946ceab8ac9ce38c8eae8",
@@ -1606,8 +1606,8 @@
     },
     {
       "label": "HM Review",
-      "avgDays": 18,
-      "count": 16,
+      "avgDays": 19,
+      "count": 15,
       "color": "#534AB7"
     },
     {
@@ -5410,16 +5410,6 @@
               "department": "471000 - Florida Inst of Oceanography"
             },
             {
-              "title": "Accounting Assistant",
-              "reqId": "44051",
-              "notionUrl": "https://www.notion.so/be692cd816444d1bb9ea453470b229bd",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "HM Review",
-              "agingBand": "🔴 6+",
-              "department": "510100 - STP Administration & Finance"
-            },
-            {
               "title": "Fitness and Membership Coordinator",
               "reqId": "44055",
               "notionUrl": "https://www.notion.so/10ee8b617b8843a1812c944935bdef7e",
@@ -5832,6 +5822,16 @@
               "department": "170100 - COE Dean's Office"
             },
             {
+              "title": "Accounting Assistant",
+              "reqId": "44051",
+              "notionUrl": "https://www.notion.so/be692cd816444d1bb9ea453470b229bd",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Interview Stage",
+              "agingBand": "🟢 0–2",
+              "department": "510100 - STP Administration & Finance"
+            },
+            {
               "title": "Enrollment Management Analyst",
               "reqId": "43881",
               "notionUrl": "https://www.notion.so/6d5c12fc312f41c990814a37d5a424c3",
@@ -5859,8 +5859,8 @@
         },
         {
           "label": "HM Review",
-          "avgDays": 17,
-          "count": 11,
+          "avgDays": 18,
+          "count": 10,
           "color": "#534AB7"
         },
         {
@@ -5921,12 +5921,12 @@
         },
         {
           "label": "HM Review",
-          "count": 15,
+          "count": 14,
           "color": "#993556"
         },
         {
           "label": "Interview Stage",
-          "count": 4,
+          "count": 5,
           "color": "#534AB7"
         },
         {
@@ -5956,7 +5956,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 48
+          "count": 47
         },
         {
           "label": "🟡 3-5",
@@ -5970,7 +5970,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 5
+          "count": 6
         }
       ],
       "funnel": [
@@ -5984,11 +5984,11 @@
         },
         {
           "label": "HM Review",
-          "count": 15
+          "count": 14
         },
         {
           "label": "Interviews",
-          "count": 4
+          "count": 5
         },
         {
           "label": "Offer",
@@ -6016,7 +6016,7 @@
         },
         {
           "label": "Interviews",
-          "value": 4,
+          "value": 5,
           "target": 197,
           "invert": false
         }
