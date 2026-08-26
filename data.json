@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-08-26T12:56:26.374Z",
+  "lastUpdated": "2026-08-26T13:57:37.066Z",
   "summary": {
-    "openReqs": 669,
+    "openReqs": 652,
     "avgTimeToFill": 96,
-    "filledYTD": 184,
+    "filledYTD": 201,
     "failedCancelled": 33,
-    "inOfferStage": 52
+    "inOfferStage": 50
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 337,
+      "count": 332,
       "color": "#1B6A9C"
     },
     {
@@ -20,7 +20,7 @@
     },
     {
       "label": "USF Health",
-      "count": 180,
+      "count": 168,
       "color": "#00A693"
     },
     {
@@ -41,15 +41,15 @@
     },
     {
       "label": "HM Review",
-      "count": 184
-    },
-    {
-      "label": "Student Hiring",
-      "count": 53
+      "count": 176
     },
     {
       "label": "Offer Stage",
-      "count": 52
+      "count": 50
+    },
+    {
+      "label": "Student Hiring",
+      "count": 49
     },
     {
       "label": "Faculty",
@@ -57,7 +57,7 @@
     },
     {
       "label": "Backlog",
-      "count": 35
+      "count": 34
     },
     {
       "label": "Interview Stage",
@@ -81,7 +81,7 @@
     },
     {
       "label": "Sourced",
-      "count": 9
+      "count": 7
     }
   ],
   "mainAging": [
@@ -90,7 +90,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 161
+      "count": 157
     },
     {
       "label": "🟡 3-5",
@@ -104,7 +104,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 9
+      "count": 13
     }
   ],
   "agingRecords": [
@@ -1023,26 +1023,6 @@
           "department": "612300 - Dept Of Interna"
         },
         {
-          "title": "Office Manager",
-          "reqId": "43877",
-          "notionUrl": "https://www.notion.so/46d3fdcd34bc4aaabaecc9c1310ae5c6",
-          "owner": "Rebecca",
-          "campus": "Tampa",
-          "stage": "Sourced",
-          "agingBand": "🔴 6+",
-          "department": "600105 - Health Sciences"
-        },
-        {
-          "title": "Registered Dietician – Spc",
-          "reqId": "43894",
-          "notionUrl": "https://www.notion.so/ee4d74ac46834a848ce06deebf4bd223",
-          "owner": "Rebecca",
-          "campus": "Tampa",
-          "stage": "Sourced",
-          "agingBand": "🔴 6+",
-          "department": "611700 - Department Of"
-        },
-        {
           "title": "Temporary Community S",
           "reqId": "43904",
           "notionUrl": "https://www.notion.so/d452a989cf6542948636f309805fc6a5",
@@ -1203,16 +1183,6 @@
           "department": "066200 - WUSF-FM"
         },
         {
-          "title": "Research Support Assistant",
-          "reqId": "43726",
-          "notionUrl": "https://www.notion.so/38f9ddf757a080dabbf3fbb19cce91f5",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Offer Stage",
-          "agingBand": "🔴 6+",
-          "department": "611800 - Department Of Psych & Behavior"
-        },
-        {
           "title": "Postdoctoral Fellow of Research",
           "reqId": "43712",
           "notionUrl": "https://www.notion.so/38f9ddf757a080dea938c9e72f26e03e",
@@ -1221,16 +1191,6 @@
           "stage": "Sourced",
           "agingBand": "🔴 6+",
           "department": "612300 - Dept Of Internal Medicine"
-        },
-        {
-          "title": "OPS - Social & Behavioral Researcher",
-          "reqId": "43705",
-          "notionUrl": "https://www.notion.so/38f9ddf757a08029a5cfc91cfdd71ffa",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Offer Stage",
-          "agingBand": "🔴 6+",
-          "department": "615500 - Center for Aging-Neuroscience"
         },
         {
           "title": "Research Support Asst",
@@ -1765,6 +1725,46 @@
       "color": "#3B6D11",
       "records": [
         {
+          "title": "Community Service Officer",
+          "reqId": "37612",
+          "notionUrl": "https://www.notion.so/6d6981ca08bf47c1baa660199afc2002",
+          "owner": "johncalebrese",
+          "campus": "",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "026100 - University Police"
+        },
+        {
+          "title": "Learning & Development Facilitator",
+          "reqId": "44222",
+          "notionUrl": "https://www.notion.so/48e96c1b25f849809a35d3a9f5b075d4",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "386500 - Academic Success Center"
+        },
+        {
+          "title": "Learning Specialist",
+          "reqId": "44225",
+          "notionUrl": "https://www.notion.so/b4ddee369b2c440e851fbee6849cd451",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "380600 - UGS Academic Advising - Athletics"
+        },
+        {
+          "title": "Registered Nurse NSOPS",
+          "reqId": "44234",
+          "notionUrl": "https://www.notion.so/04d849b056ce4830a827452073624a9b",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "043000 - Student Health Services"
+        },
+        {
           "title": "Preschool Assistant Teacher",
           "reqId": "44187",
           "notionUrl": "https://www.notion.so/7aca5020ee0d466bb76b00ea8662d35b",
@@ -1860,17 +1860,17 @@
   "reqType": [
     {
       "label": "Active",
-      "count": 239,
+      "count": 235,
       "color": "#00A693"
     },
     {
       "label": "Evergreen",
-      "count": 159,
+      "count": 151,
       "color": "#7A9EB5"
     },
     {
       "label": "Student",
-      "count": 76,
+      "count": 71,
       "color": "#1B6A9C"
     },
     {
@@ -1892,7 +1892,7 @@
   "department": [
     {
       "label": "USF Health",
-      "count": 104,
+      "count": 103,
       "color": "#006747"
     },
     {
@@ -1941,86 +1941,81 @@
       "color": "#1B6A9C"
     },
     {
-      "label": "610001 - MCOM Research/Grad Affairs Supp",
-      "count": 8,
-      "color": "#00A693"
-    },
-    {
       "label": "Inst For School Comm Partnership",
       "count": 8,
-      "color": "#CFC483"
-    },
-    {
-      "label": "600105 - Health Sciences",
-      "count": 7,
-      "color": "#7A9EB5"
+      "color": "#00A693"
     },
     {
       "label": "026100 - University Police",
       "count": 7,
-      "color": "#5B7A8A"
+      "color": "#CFC483"
     },
     {
       "label": "177500 - Inst For School Comm Partnersh",
       "count": 7,
-      "color": "#534AB7"
+      "color": "#7A9EB5"
     },
     {
       "label": "614300 - Molecular Pharm & Physiology",
       "count": 7,
-      "color": "#993556"
+      "color": "#5B7A8A"
     },
     {
       "label": "Florida Inst of Oceanography",
       "count": 7,
-      "color": "#006747"
-    },
-    {
-      "label": "791000 - Research Integrity &Compliance",
-      "count": 6,
-      "color": "#1B6A9C"
-    },
-    {
-      "label": "210600 - Electrical Engineering",
-      "count": 6,
-      "color": "#00A693"
-    },
-    {
-      "label": "MUMA",
-      "count": 6,
-      "color": "#CFC483"
-    },
-    {
-      "label": "620100 - College Of Nurs",
-      "count": 6,
-      "color": "#7A9EB5"
-    },
-    {
-      "label": "126100 - Social Work",
-      "count": 6,
-      "color": "#5B7A8A"
-    },
-    {
-      "label": "041500 - Counseling Center",
-      "count": 6,
       "color": "#534AB7"
     },
     {
-      "label": "College of Marine Science",
+      "label": "600105 - Health Sciences",
       "count": 6,
       "color": "#993556"
     },
     {
-      "label": "Other (173 depts)",
-      "count": 332,
+      "label": "791000 - Research Integrity &Compliance",
+      "count": 6,
+      "color": "#006747"
+    },
+    {
+      "label": "210600 - Electrical Engineering",
+      "count": 6,
+      "color": "#1B6A9C"
+    },
+    {
+      "label": "MUMA",
+      "count": 6,
+      "color": "#00A693"
+    },
+    {
+      "label": "620100 - College Of Nurs",
+      "count": 6,
+      "color": "#CFC483"
+    },
+    {
+      "label": "126100 - Social Work",
+      "count": 6,
+      "color": "#7A9EB5"
+    },
+    {
+      "label": "041500 - Counseling Center",
+      "count": 6,
+      "color": "#5B7A8A"
+    },
+    {
+      "label": "College of Marine Science",
+      "count": 6,
+      "color": "#534AB7"
+    },
+    {
+      "label": "Other (167 depts)",
+      "count": 325,
       "color": "#c8c7c2"
     }
   ],
   "stageMetrics": [
     {
       "label": "Sourced",
-      "avgDays": 39,
-      "count": 7,
+      "avgDays": 37,
+      "count": 5,
       "color": "#00A693"
     },
     {
@@ -2043,8 +2038,8 @@
     },
     {
       "label": "Offer Stage",
-      "avgDays": 30,
-      "count": 38,
+      "avgDays": 29,
+      "count": 36,
       "color": "#CFC483"
     },
     {
@@ -3268,6 +3263,16 @@
       "notionUrl": "https://www.notion.so/95454a77455045ef8a5c91bd7e5a9e3f"
     },
     {
+      "title": "Financial Aid Advisor",
+      "reqId": "43660",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Filled",
+      "department": "USF Health",
+      "ttf": 79,
+      "notionUrl": "https://www.notion.so/8d2a0bf55314463fb7744cb67692f26f"
+    },
+    {
       "title": "Athletics Assistant Mens Basketball",
       "reqId": "43677",
       "owner": "johncalebrese",
@@ -3286,6 +3291,26 @@
       "department": "051000 - Athletic Administration",
       "ttf": 78,
       "notionUrl": "https://www.notion.so/aa7758ad1dce411b9d26f14bd9804cdf"
+    },
+    {
+      "title": "Graduate Research Asst",
+      "reqId": "43722",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Filled",
+      "department": "610001 - MCOM Research/Grad Affairs Supp",
+      "ttf": 77,
+      "notionUrl": "https://www.notion.so/38f9ddf757a08077aabdf26bd41e6978"
+    },
+    {
+      "title": "OPS - Social & Behavioral Researcher",
+      "reqId": "43705",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Filled",
+      "department": "615500 - Center for Aging-Neuroscience",
+      "ttf": 77,
+      "notionUrl": "https://www.notion.so/38f9ddf757a08029a5cfc91cfdd71ffa"
     },
     {
       "title": "Assistant Director Academic Advising (UG)",
@@ -3318,6 +3343,16 @@
       "notionUrl": "https://www.notion.so/38f9ddf757a080a9be54c9be80ee6713"
     },
     {
+      "title": "Graduate Research Asst",
+      "reqId": "43714",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Filled",
+      "department": "610001 - MCOM Research/Grad Affairs Supp",
+      "ttf": 76,
+      "notionUrl": "https://www.notion.so/38f9ddf757a080748641f9e73ced1dc7"
+    },
+    {
       "title": "Research Technician",
       "reqId": "43624",
       "owner": "Rebecca",
@@ -3338,6 +3373,16 @@
       "notionUrl": "https://www.notion.so/28606d4448534e8e94004e88c9f171b4"
     },
     {
+      "title": "Research Support Assistant",
+      "reqId": "43726",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Filled",
+      "department": "611800 - Department Of Psych & Behavior",
+      "ttf": 75,
+      "notionUrl": "https://www.notion.so/38f9ddf757a080dabbf3fbb19cce91f5"
+    },
+    {
       "title": "Post-baccalaureate Research Asst",
       "reqId": "43664",
       "owner": "Rebecca",
@@ -3346,6 +3391,26 @@
       "department": "USF Health",
       "ttf": 72,
       "notionUrl": "https://www.notion.so/22e5ea79cf2b4eb5852c7b2464d5bc1c"
+    },
+    {
+      "title": "Technical and Paraprofessional",
+      "reqId": "43746",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Filled",
+      "department": "612337 - Heart Institute - Internal Medicine",
+      "ttf": 71,
+      "notionUrl": "https://www.notion.so/38f9ddf757a08078a06ee3de68201f21"
+    },
+    {
+      "title": "Athletic Trainer - Beach Volleyball",
+      "reqId": "43740",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Filled",
+      "department": "611700 - Department Of Family Medicine",
+      "ttf": 71,
+      "notionUrl": "https://www.notion.so/38f9ddf757a0800ba709cec4710473ca"
     },
     {
       "title": "Academic Program Specialist",
@@ -3458,6 +3523,36 @@
       "notionUrl": "https://www.notion.so/bdaa43fdd2a542b09b4c95fbdc55b3fb"
     },
     {
+      "title": "Graduate Research Assistant",
+      "reqId": "43792",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Filled",
+      "department": "610001 - MCOM Research/Grad Affairs Supp",
+      "ttf": 65,
+      "notionUrl": "https://www.notion.so/8c2919ad03684329994729c12aa89034"
+    },
+    {
+      "title": "Fiscal & Business Analyst I",
+      "reqId": "43787",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Filled",
+      "department": "612000 - Department Of Surgery",
+      "ttf": 65,
+      "notionUrl": "https://www.notion.so/e3637af9d4454392aab12c290622eae0"
+    },
+    {
+      "title": "Graduate Research Assistant",
+      "reqId": "43794",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Filled",
+      "department": "610001 - MCOM Research/Grad Affairs Supp",
+      "ttf": 65,
+      "notionUrl": "https://www.notion.so/c03c4fb2ef29420db669c3773973f71c"
+    },
+    {
       "title": "Graduate Research Asst",
       "reqId": "43736",
       "owner": "Rebecca",
@@ -3476,6 +3571,16 @@
       "department": "025102 - Physical Security",
       "ttf": 62,
       "notionUrl": "https://www.notion.so/38f9ddf757a080678251e64ed73c0113"
+    },
+    {
+      "title": "Asst Dir Facilities & Real Estate",
+      "reqId": "43834",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Filled",
+      "department": "600100 - Health Sciences Center VP",
+      "ttf": 61,
+      "notionUrl": "https://www.notion.so/5c7565e47e914a1c81d9216c1e1e966a"
     },
     {
       "title": "Diesel & Vehicle Mechanic",
@@ -3498,6 +3603,16 @@
       "notionUrl": "https://www.notion.so/e6b29640e0b94cc18d65bd98a74be708"
     },
     {
+      "title": "Security Manager - Health",
+      "reqId": "43854",
+      "owner": "Rebecca",
+      "campus": "Tampa",
+      "stage": "Filled",
+      "department": "600100 - Health Sciences",
+      "ttf": 58,
+      "notionUrl": "https://www.notion.so/ec6646a0db6d4fd192fdae69eb3e98c8"
+    },
+    {
       "title": "Police Dispatcher",
       "reqId": "43538",
       "owner": "Rebecca",
@@ -3506,6 +3621,36 @@
       "department": "514900 - STP Public Safety",
       "ttf": 58,
       "notionUrl": "https://www.notion.so/c63281d25cba4134b813cc8e79ca8cf2"
+    },
+    {
+      "title": "Learning Designer I",
+      "reqId": "43867",
+      "owner": "Rebecca",
+      "campus": "Tampa",
+      "stage": "Filled",
+      "department": "641200 - COPH Acad and",
+      "ttf": 57,
+      "notionUrl": "https://www.notion.so/7d2adb2803a049108dce50215926f301"
+    },
+    {
+      "title": "Office Manager",
+      "reqId": "43877",
+      "owner": "Rebecca",
+      "campus": "Tampa",
+      "stage": "Filled",
+      "department": "600105 - Health Sciences",
+      "ttf": 56,
+      "notionUrl": "https://www.notion.so/46d3fdcd34bc4aaabaecc9c1310ae5c6"
+    },
+    {
+      "title": "Graduate Research Assist",
+      "reqId": "43882",
+      "owner": "Rebecca",
+      "campus": "Tampa",
+      "stage": "Filled",
+      "department": "614300 - Molecular Phar",
+      "ttf": 56,
+      "notionUrl": "https://www.notion.so/65bb29f0406245cda5a8085c607420dd"
     },
     {
       "title": "Program Manager",
@@ -3536,6 +3681,16 @@
       "department": "051000 - Athletic Administration",
       "ttf": 56,
       "notionUrl": "https://www.notion.so/a854ca5728c14bb69e55a795d76b9cd5"
+    },
+    {
+      "title": "Registered Dietician – Spc",
+      "reqId": "43894",
+      "owner": "Rebecca",
+      "campus": "Tampa",
+      "stage": "Filled",
+      "department": "611700 - Department Of",
+      "ttf": 55,
+      "notionUrl": "https://www.notion.so/ee4d74ac46834a848ce06deebf4bd223"
     },
     {
       "title": "Associate Director - Men's BB Athletic Trainer",
@@ -4018,6 +4173,16 @@
       "notionUrl": "https://www.notion.so/cbc432cffcff4e53ad5a97405fd257d8"
     },
     {
+      "title": "Graduate Research Assist",
+      "reqId": "43754",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Filled",
+      "department": "610601 - MCOM Research&Grad Affairs Supp",
+      "ttf": 0,
+      "notionUrl": "https://www.notion.so/38f9ddf757a080968061ee4ccf33aac7"
+    },
+    {
       "title": "Postdoctoral Scholar Research",
       "reqId": "43752",
       "owner": "Rebecca",
@@ -4475,7 +4640,7 @@
       "bgDark": "#3d2504",
       "campus": "Tampa",
       "reqs": 359,
-      "filled": 82,
+      "filled": 99,
       "failed": 21,
       "ttf": 109,
       "wip": 6,
@@ -4765,26 +4930,6 @@
               "department": "612300 - Dept Of Interna"
             },
             {
-              "title": "Office Manager",
-              "reqId": "43877",
-              "notionUrl": "https://www.notion.so/46d3fdcd34bc4aaabaecc9c1310ae5c6",
-              "owner": "Rebecca",
-              "campus": "Tampa",
-              "stage": "Sourced",
-              "agingBand": "🔴 6+",
-              "department": "600105 - Health Sciences"
-            },
-            {
-              "title": "Registered Dietician – Spc",
-              "reqId": "43894",
-              "notionUrl": "https://www.notion.so/ee4d74ac46834a848ce06deebf4bd223",
-              "owner": "Rebecca",
-              "campus": "Tampa",
-              "stage": "Sourced",
-              "agingBand": "🔴 6+",
-              "department": "611700 - Department Of"
-            },
-            {
               "title": "Social & Behavioral Researcher",
               "reqId": "43804",
               "notionUrl": "https://www.notion.so/a1f7cf2660834fac9dbfc96cdccc8489",
@@ -4835,16 +4980,6 @@
               "department": "614400 - Molecular Medicine"
             },
             {
-              "title": "Research Support Assistant",
-              "reqId": "43726",
-              "notionUrl": "https://www.notion.so/38f9ddf757a080dabbf3fbb19cce91f5",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Offer Stage",
-              "agingBand": "🔴 6+",
-              "department": "611800 - Department Of Psych & Behavior"
-            },
-            {
               "title": "Postdoctoral Fellow of Research",
               "reqId": "43712",
               "notionUrl": "https://www.notion.so/38f9ddf757a080dea938c9e72f26e03e",
@@ -4853,16 +4988,6 @@
               "stage": "Sourced",
               "agingBand": "🔴 6+",
               "department": "612300 - Dept Of Internal Medicine"
-            },
-            {
-              "title": "OPS - Social & Behavioral Researcher",
-              "reqId": "43705",
-              "notionUrl": "https://www.notion.so/38f9ddf757a08029a5cfc91cfdd71ffa",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Offer Stage",
-              "agingBand": "🔴 6+",
-              "department": "615500 - Center for Aging-Neuroscience"
             },
             {
               "title": "Research Support Asst",
@@ -5101,7 +5226,7 @@
         {
           "label": "Sourced",
           "avgDays": 43,
-          "count": 6,
+          "count": 4,
           "color": "#00A693"
         },
         {
@@ -5119,7 +5244,7 @@
         {
           "label": "Offer Stage",
           "avgDays": 43,
-          "count": 16,
+          "count": 14,
           "color": "#CFC483"
         },
         {
@@ -5137,17 +5262,17 @@
         },
         {
           "label": "Backlog",
-          "count": 11,
+          "count": 10,
           "color": "#888780"
         },
         {
           "label": "Student Hiring",
-          "count": 12,
+          "count": 8,
           "color": "#0F6E56"
         },
         {
           "label": "HM Review",
-          "count": 157,
+          "count": 149,
           "color": "#993556"
         },
         {
@@ -5157,12 +5282,12 @@
         },
         {
           "label": "Sourced",
-          "count": 8,
+          "count": 6,
           "color": "#3B6D11"
         },
         {
           "label": "Offer Stage",
-          "count": 17,
+          "count": 15,
           "color": "#0F6E56"
         },
         {
@@ -5182,7 +5307,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 60
+          "count": 56
         },
         {
           "label": "🟡 3-5",
@@ -5202,7 +5327,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 253
+          "count": 236
         },
         {
           "label": "Screened",
@@ -5210,7 +5335,7 @@
         },
         {
           "label": "HM Review",
-          "count": 157
+          "count": 149
         },
         {
           "label": "Interviews",
@@ -5218,13 +5343,13 @@
         },
         {
           "label": "Offer",
-          "count": 17
+          "count": 15
         }
       ],
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 82,
+          "value": 99,
           "target": 10,
           "invert": false
         },
@@ -5686,6 +5811,46 @@
           "color": "#3B6D11",
           "records": [
             {
+              "title": "Community Service Officer",
+              "reqId": "37612",
+              "notionUrl": "https://www.notion.so/6d6981ca08bf47c1baa660199afc2002",
+              "owner": "johncalebrese",
+              "campus": "",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "026100 - University Police"
+            },
+            {
+              "title": "Learning & Development Facilitator",
+              "reqId": "44222",
+              "notionUrl": "https://www.notion.so/48e96c1b25f849809a35d3a9f5b075d4",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "386500 - Academic Success Center"
+            },
+            {
+              "title": "Learning Specialist",
+              "reqId": "44225",
+              "notionUrl": "https://www.notion.so/b4ddee369b2c440e851fbee6849cd451",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "380600 - UGS Academic Advising - Athletics"
+            },
+            {
+              "title": "Registered Nurse NSOPS",
+              "reqId": "44234",
+              "notionUrl": "https://www.notion.so/04d849b056ce4830a827452073624a9b",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "043000 - Student Health Services"
+            },
+            {
               "title": "International Program Administrator II",
               "reqId": "43963",
               "notionUrl": "https://www.notion.so/87cd8d5ea0f946ceab8ac9ce38c8eae8",
@@ -5834,7 +5999,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 4
+          "count": 8
         }
       ],
       "funnel": [
@@ -6894,14 +7059,14 @@
     {
       "field": "Stage",
       "missingCount": 0,
-      "totalActive": 669,
+      "totalActive": 652,
       "pct": 0,
       "records": []
     },
     {
       "field": "Department/College",
       "missingCount": 2,
-      "totalActive": 669,
+      "totalActive": 652,
       "pct": 0,
       "records": [
         {
@@ -6924,9 +7089,9 @@
     },
     {
       "field": "Last Activity",
-      "missingCount": 326,
-      "totalActive": 669,
-      "pct": 49,
+      "missingCount": 314,
+      "totalActive": 652,
+      "pct": 48,
       "records": [
         {
           "title": "Research Coverage Analy",
@@ -6991,38 +7156,6 @@
           "campus": "",
           "stage": "Recruiter Review",
           "notionUrl": "https://www.notion.so/afb684804c2a4e1ea53c60aa6ce36f39"
-        },
-        {
-          "title": "Community Service Officer",
-          "reqId": "37612",
-          "owner": "johncalebrese",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/6d6981ca08bf47c1baa660199afc2002"
-        },
-        {
-          "title": "Learning & Development Facilitator",
-          "reqId": "44222",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/48e96c1b25f849809a35d3a9f5b075d4"
-        },
-        {
-          "title": "Learning Specialist",
-          "reqId": "44225",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/b4ddee369b2c440e851fbee6849cd451"
-        },
-        {
-          "title": "Registered Nurse NSOPS",
-          "reqId": "44234",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/04d849b056ce4830a827452073624a9b"
         },
         {
           "title": "Junior Grant Financial Administrator",
@@ -7327,14 +7460,46 @@
           "campus": "Tampa",
           "stage": "Faculty",
           "notionUrl": "https://www.notion.so/8303906d44fc41ebb09ec5eba6e2d3e6"
+        },
+        {
+          "title": "Student Assistant",
+          "reqId": "43999",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "HM Review",
+          "notionUrl": "https://www.notion.so/b11a4111a0514b8d9e7f3fad40ea6864"
+        },
+        {
+          "title": "OPS - Social and Behavio",
+          "reqId": "44000",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "HM Review",
+          "notionUrl": "https://www.notion.so/a0700d0a78fe4932b8f8e29440700165"
+        },
+        {
+          "title": "HR Business Partner II-He",
+          "reqId": "44004",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "HM Review",
+          "notionUrl": "https://www.notion.so/f55b803c747e4287b6e3e4674a46bca8"
+        },
+        {
+          "title": "Clerical and Secretarial",
+          "reqId": "44007",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "Recruiter Review",
+          "notionUrl": "https://www.notion.so/fbaa7c1511994273a7711e135484e7ba"
         }
       ]
     },
     {
       "field": "Req Type",
       "missingCount": 109,
-      "totalActive": 669,
-      "pct": 16,
+      "totalActive": 652,
+      "pct": 17,
       "records": [
         {
           "title": "Open Rank, Full Professor, Associate Professor, Assistant",
@@ -7741,8 +7906,8 @@
     {
       "field": "Campus",
       "missingCount": 70,
-      "totalActive": 669,
-      "pct": 10,
+      "totalActive": 652,
+      "pct": 11,
       "records": [
         {
           "title": "Research Coverage Analy",
@@ -8149,8 +8314,8 @@
     {
       "field": "HRBP",
       "missingCount": 190,
-      "totalActive": 669,
-      "pct": 28,
+      "totalActive": 652,
+      "pct": 29,
       "records": [
         {
           "title": "Research Coverage Analy",
@@ -8556,8 +8721,8 @@
     },
     {
       "field": "Posted Date",
-      "missingCount": 184,
-      "totalActive": 669,
+      "missingCount": 183,
+      "totalActive": 652,
       "pct": 28,
       "records": [
         {
@@ -8964,9 +9129,9 @@
     },
     {
       "field": "Unposted Date",
-      "missingCount": 488,
-      "totalActive": 669,
-      "pct": 73,
+      "missingCount": 482,
+      "totalActive": 652,
+      "pct": 74,
       "records": [
         {
           "title": "Research Coverage Analy",
