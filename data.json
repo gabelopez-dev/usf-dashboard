@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-08-26T18:15:28.672Z",
+  "lastUpdated": "2026-08-26T20:37:22.108Z",
   "summary": {
     "openReqs": 649,
     "avgTimeToFill": 95,
     "filledYTD": 204,
     "failedCancelled": 34,
-    "inOfferStage": 49
+    "inOfferStage": 45
   },
   "campus": [
     {
@@ -41,15 +41,15 @@
     },
     {
       "label": "HM Review",
-      "count": 172
-    },
-    {
-      "label": "Offer Stage",
-      "count": 49
+      "count": 171
     },
     {
       "label": "Student Hiring",
       "count": 48
+    },
+    {
+      "label": "Offer Stage",
+      "count": 45
     },
     {
       "label": "Backlog",
@@ -60,11 +60,11 @@
       "count": 36
     },
     {
-      "label": "Interview Stage",
-      "count": 18
+      "label": "Hired",
+      "count": 23
     },
     {
-      "label": "Hired",
+      "label": "Interview Stage",
       "count": 17
     },
     {
@@ -488,7 +488,7 @@
           "notionUrl": "https://www.notion.so/fd8cc142f839444592d134d7f33f9af1",
           "owner": "Gabriel",
           "campus": "Tampa",
-          "stage": "Offer Stage",
+          "stage": "Hired",
           "agingBand": "🔴 6+",
           "department": "210600 - Electrical Engineering"
         },
@@ -668,7 +668,7 @@
           "notionUrl": "https://www.notion.so/5efcb565cd2047aba833f70ff3bf32f2",
           "owner": "Gabriel",
           "campus": "St. Petersburg",
-          "stage": "HM Review",
+          "stage": "Hired",
           "agingBand": "🔴 6+",
           "department": "STP Secondary Education"
         },
@@ -858,7 +858,7 @@
           "notionUrl": "https://www.notion.so/a3255042eb054f188198cbb0c204abff",
           "owner": "Gabriel",
           "campus": "Tampa",
-          "stage": "Offer Stage",
+          "stage": "Hired",
           "agingBand": "🔴 6+",
           "department": "MUMA"
         },
@@ -1028,7 +1028,7 @@
           "notionUrl": "https://www.notion.so/c0f94fabea3d41f7b6b4fc7982095677",
           "owner": "Gabriel",
           "campus": "Tampa",
-          "stage": "Offer Stage",
+          "stage": "Hired",
           "agingBand": "🔴 6+",
           "department": "College of Education "
         },
@@ -1068,7 +1068,7 @@
           "notionUrl": "https://www.notion.so/59cd9b5199dc45bc9f3bba29e4d39432",
           "owner": "Gabriel",
           "campus": "Tampa",
-          "stage": "Offer Stage",
+          "stage": "Hired",
           "agingBand": "🔴 6+",
           "department": "College of Education "
         },
@@ -1128,7 +1128,7 @@
           "notionUrl": "https://www.notion.so/daf859b10469400e869da77a96ce1b94",
           "owner": "Gabriel",
           "campus": "Tampa",
-          "stage": "Interview Stage",
+          "stage": "Hired",
           "agingBand": "🔴 6+",
           "department": "Engineering"
         },
@@ -1606,20 +1606,20 @@
     },
     {
       "label": "HM Review",
-      "avgDays": 19,
-      "count": 15,
+      "avgDays": 17,
+      "count": 14,
       "color": "#534AB7"
     },
     {
       "label": "Interview Stage",
-      "avgDays": 25,
-      "count": 11,
+      "avgDays": 23,
+      "count": 10,
       "color": "#d4880a"
     },
     {
       "label": "Offer Stage",
-      "avgDays": 23,
-      "count": 24,
+      "avgDays": 21,
+      "count": 20,
       "color": "#CFC483"
     },
     {
@@ -1636,8 +1636,8 @@
     },
     {
       "label": "Hired",
-      "avgDays": 41,
-      "count": 9,
+      "avgDays": 38,
+      "count": 15,
       "color": "#888780"
     }
   ],
@@ -5455,7 +5455,7 @@
               "notionUrl": "https://www.notion.so/fd8cc142f839444592d134d7f33f9af1",
               "owner": "Gabriel",
               "campus": "Tampa",
-              "stage": "Offer Stage",
+              "stage": "Hired",
               "agingBand": "🔴 6+",
               "department": "210600 - Electrical Engineering"
             },
@@ -5515,7 +5515,7 @@
               "notionUrl": "https://www.notion.so/5efcb565cd2047aba833f70ff3bf32f2",
               "owner": "Gabriel",
               "campus": "St. Petersburg",
-              "stage": "HM Review",
+              "stage": "Hired",
               "agingBand": "🔴 6+",
               "department": "STP Secondary Education"
             },
@@ -5545,7 +5545,7 @@
               "notionUrl": "https://www.notion.so/a3255042eb054f188198cbb0c204abff",
               "owner": "Gabriel",
               "campus": "Tampa",
-              "stage": "Offer Stage",
+              "stage": "Hired",
               "agingBand": "🔴 6+",
               "department": "MUMA"
             },
@@ -5635,7 +5635,7 @@
               "notionUrl": "https://www.notion.so/c0f94fabea3d41f7b6b4fc7982095677",
               "owner": "Gabriel",
               "campus": "Tampa",
-              "stage": "Offer Stage",
+              "stage": "Hired",
               "agingBand": "🔴 6+",
               "department": "College of Education "
             },
@@ -5675,7 +5675,7 @@
               "notionUrl": "https://www.notion.so/59cd9b5199dc45bc9f3bba29e4d39432",
               "owner": "Gabriel",
               "campus": "Tampa",
-              "stage": "Offer Stage",
+              "stage": "Hired",
               "agingBand": "🔴 6+",
               "department": "College of Education "
             },
@@ -5725,7 +5725,7 @@
               "notionUrl": "https://www.notion.so/daf859b10469400e869da77a96ce1b94",
               "owner": "Gabriel",
               "campus": "Tampa",
-              "stage": "Interview Stage",
+              "stage": "Hired",
               "agingBand": "🔴 6+",
               "department": "Engineering"
             },
@@ -5859,20 +5859,20 @@
         },
         {
           "label": "HM Review",
-          "avgDays": 18,
-          "count": 10,
+          "avgDays": 15,
+          "count": 9,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 17,
-          "count": 3,
+          "avgDays": 4,
+          "count": 2,
           "color": "#d4880a"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 21,
-          "count": 16,
+          "avgDays": 18,
+          "count": 12,
           "color": "#CFC483"
         },
         {
@@ -5883,8 +5883,8 @@
         },
         {
           "label": "Hired",
-          "avgDays": 41,
-          "count": 7,
+          "avgDays": 37,
+          "count": 13,
           "color": "#888780"
         }
       ],
@@ -5906,12 +5906,12 @@
         },
         {
           "label": "Offer Stage",
-          "count": 19,
+          "count": 15,
           "color": "#0F6E56"
         },
         {
           "label": "Hired",
-          "count": 13,
+          "count": 19,
           "color": "#2E7D32"
         },
         {
@@ -5921,12 +5921,12 @@
         },
         {
           "label": "HM Review",
-          "count": 14,
+          "count": 13,
           "color": "#993556"
         },
         {
           "label": "Interview Stage",
-          "count": 5,
+          "count": 4,
           "color": "#534AB7"
         },
         {
@@ -5984,15 +5984,15 @@
         },
         {
           "label": "HM Review",
-          "count": 14
+          "count": 13
         },
         {
           "label": "Interviews",
-          "count": 5
+          "count": 4
         },
         {
           "label": "Offer",
-          "count": 19
+          "count": 15
         }
       ],
       "goals": [
@@ -6016,7 +6016,7 @@
         },
         {
           "label": "Interviews",
-          "value": 5,
+          "value": 4,
           "target": 197,
           "invert": false
         }
