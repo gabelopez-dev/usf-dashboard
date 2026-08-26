@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-08-26T13:57:37.066Z",
+  "lastUpdated": "2026-08-26T14:52:32.683Z",
   "summary": {
     "openReqs": 652,
-    "avgTimeToFill": 96,
-    "filledYTD": 201,
+    "avgTimeToFill": 94,
+    "filledYTD": 203,
     "failedCancelled": 33,
-    "inOfferStage": 50
+    "inOfferStage": 51
   },
   "campus": [
     {
@@ -20,7 +20,7 @@
     },
     {
       "label": "USF Health",
-      "count": 168,
+      "count": 166,
       "color": "#00A693"
     },
     {
@@ -41,23 +41,23 @@
     },
     {
       "label": "HM Review",
-      "count": 176
+      "count": 174
     },
     {
       "label": "Offer Stage",
-      "count": 50
+      "count": 51
     },
     {
       "label": "Student Hiring",
-      "count": 49
+      "count": 48
+    },
+    {
+      "label": "Backlog",
+      "count": 36
     },
     {
       "label": "Faculty",
       "count": 36
-    },
-    {
-      "label": "Backlog",
-      "count": 34
     },
     {
       "label": "Interview Stage",
@@ -90,7 +90,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 157
+      "count": 122
     },
     {
       "label": "🟡 3-5",
@@ -253,46 +253,6 @@
           "department": "140105 - MCOB Financia"
         },
         {
-          "title": "Postdoctoral Scholar Rese",
-          "reqId": "44170",
-          "notionUrl": "https://www.notion.so/ceb9b738b99749779304e203e95b4a24",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "614400 - Molecular Medi"
-        },
-        {
-          "title": "Hyperbaric Safety Officer",
-          "reqId": "44182",
-          "notionUrl": "https://www.notion.so/9b679b108dd74580aea6d2af1c091878",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "633000 - Hyperbaric Oxy"
-        },
-        {
-          "title": "Clinical Research Coordin",
-          "reqId": "44188",
-          "notionUrl": "https://www.notion.so/78e3456debc646fab891b5d430f869b1",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "612300 - Dept Of Interna"
-        },
-        {
-          "title": "Temporary Simulation Op",
-          "reqId": "44189",
-          "notionUrl": "https://www.notion.so/33b7b68096d44d258e724171191c6778",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "610405 - HPCC"
-        },
-        {
           "title": "Academic Services Admin",
           "reqId": "44196",
           "notionUrl": "https://www.notion.so/00bb5816fa584dca8bafba20e2155cdb",
@@ -301,86 +261,6 @@
           "stage": "Recruiter Review",
           "agingBand": "🔴 6+",
           "department": "643400 - Global Env & Ge"
-        },
-        {
-          "title": "Clinical Research Coordin",
-          "reqId": "44198",
-          "notionUrl": "https://www.notion.so/22e3211532b441a199e545e5352da90c",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "612400 - Dept Of Ophtha"
-        },
-        {
-          "title": "Clinical Research Associat",
-          "reqId": "44199",
-          "notionUrl": "https://www.notion.so/2232224074de4c18939907e579943e2c",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "611900 - Department Of"
-        },
-        {
-          "title": "Technical and Paraprofes",
-          "reqId": "44201",
-          "notionUrl": "https://www.notion.so/90bf27eff4cd44b0985d0a81ff3542e2",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "614400 - Molecular Medi"
-        },
-        {
-          "title": "Clinical Research Assistan",
-          "reqId": "44209",
-          "notionUrl": "https://www.notion.so/75b2d31eeefe481ea115f4a081c04fbd",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "612400 - Dept Of Ophtha"
-        },
-        {
-          "title": "Clinical Research Assistan",
-          "reqId": "44214",
-          "notionUrl": "https://www.notion.so/f0a7d5fe896e443d9eb1432b5c8d1588",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "611800 - Department Of"
-        },
-        {
-          "title": "OPS Bioinformatics I",
-          "reqId": "44206",
-          "notionUrl": "https://www.notion.so/c01c8ec68ea34ab5b88cdb80f53d16a5",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Interview Stage",
-          "agingBand": "🔴 6+",
-          "department": "643400 - Global Env & Ge"
-        },
-        {
-          "title": "Postdoctoral Scholar Rese",
-          "reqId": "44215",
-          "notionUrl": "https://www.notion.so/d5591e8ea69e4498b83987459a5e976c",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "614300 - Molecular Phar"
-        },
-        {
-          "title": "Senior Fiscal & Business A",
-          "reqId": "44211",
-          "notionUrl": "https://www.notion.so/21dae01c08064739bc06f00de763ad1e",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "612400 - Dept Of Ophtha"
         },
         {
           "title": "Digital Platforms Developer",
@@ -563,26 +443,6 @@
           "department": "514900 - STP Public Safe"
         },
         {
-          "title": "Student Assistant",
-          "reqId": "44080",
-          "notionUrl": "https://www.notion.so/2c416e2100184a05abd559934f09ed3a",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Backlog",
-          "agingBand": "🔴 6+",
-          "department": "610405 - HPCC"
-        },
-        {
-          "title": "Student Assistant - Feder",
-          "reqId": "44104",
-          "notionUrl": "https://www.notion.so/4a06755c0cce40f390579ad084df3803",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Backlog",
-          "agingBand": "🔴 6+",
-          "department": "611800 - Department Of"
-        },
-        {
           "title": "Project Manager II",
           "reqId": "44129",
           "notionUrl": "https://www.notion.so/d45556fab31b4bff97806f7df7b5a485",
@@ -731,36 +591,6 @@
           "stage": "Recruiter Review",
           "agingBand": "🔴 6+",
           "department": "351000 - Information Technology"
-        },
-        {
-          "title": "Advanced Research Scientist",
-          "reqId": "43564",
-          "notionUrl": "https://www.notion.so/e61ddd2334884b39ad55b5954d87238d",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "614400 - Molecular Medicine"
-        },
-        {
-          "title": "Research Scientist-Temporary",
-          "reqId": "43543",
-          "notionUrl": "https://www.notion.so/2ff15207eeca4e818c41600ef6ce55ff",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "512337 - Heart Institute - Core"
-        },
-        {
-          "title": "Research Technician",
-          "reqId": "43209",
-          "notionUrl": "https://www.notion.so/72af54c4210147f7b5c6effdfbb0f11e",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "614300 - Molecular Pharm & Physiology"
         },
         {
           "title": "Advanced Research Scientist",
@@ -1013,16 +843,6 @@
           "department": "373000 - Financial Aid"
         },
         {
-          "title": "Postdoctoral Scholar Rese",
-          "reqId": "43878",
-          "notionUrl": "https://www.notion.so/f8affcad58214aa99b51e56a603126ec",
-          "owner": "Rebecca",
-          "campus": "Tampa",
-          "stage": "Sourced",
-          "agingBand": "🔴 6+",
-          "department": "612300 - Dept Of Interna"
-        },
-        {
           "title": "Temporary Community S",
           "reqId": "43904",
           "notionUrl": "https://www.notion.so/d452a989cf6542948636f309805fc6a5",
@@ -1071,46 +891,6 @@
           "stage": "Offer Stage",
           "agingBand": "🔴 6+",
           "department": "MUMA"
-        },
-        {
-          "title": "Social & Behavioral Researcher",
-          "reqId": "43804",
-          "notionUrl": "https://www.notion.so/a1f7cf2660834fac9dbfc96cdccc8489",
-          "owner": "Rebecca",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "610105 - Health Science Center Research"
-        },
-        {
-          "title": "Research Scientist",
-          "reqId": "43820",
-          "notionUrl": "https://www.notion.so/4850a19a36fb4f82b88f3cc3f09e2bee",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "610021 - MCOM Medical Entomology"
-        },
-        {
-          "title": "Fiscal & Business Analyst II",
-          "reqId": "43818",
-          "notionUrl": "https://www.notion.so/0172b7ce335144dc987abfb489051953",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Sourced",
-          "agingBand": "🔴 6+",
-          "department": "612300 - Dept Of Internal Medicine"
-        },
-        {
-          "title": "Technical and Paraprofessional",
-          "reqId": "43825",
-          "notionUrl": "https://www.notion.so/e18379465aff4eee8721db0515313418",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "614300 - Molecular Pharm & Physiology"
         },
         {
           "title": "Academic Program Specialist - Lynn Pippenger School of Accountancy",
@@ -1181,26 +961,6 @@
           "stage": "Interview Stage",
           "agingBand": "🔴 6+",
           "department": "066200 - WUSF-FM"
-        },
-        {
-          "title": "Postdoctoral Fellow of Research",
-          "reqId": "43712",
-          "notionUrl": "https://www.notion.so/38f9ddf757a080dea938c9e72f26e03e",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Sourced",
-          "agingBand": "🔴 6+",
-          "department": "612300 - Dept Of Internal Medicine"
-        },
-        {
-          "title": "Research Support Asst",
-          "reqId": "43702",
-          "notionUrl": "https://www.notion.so/38f9ddf757a080b6a94af50e716b6611",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Offer Stage",
-          "agingBand": "🔴 6+",
-          "department": "612700 - Dept Of Orthopaedics & Sports Medicine"
         },
         {
           "title": "Accounts Payable Manager",
@@ -1533,36 +1293,6 @@
           "department": "USF Health"
         },
         {
-          "title": "Program Manager",
-          "reqId": "43123",
-          "notionUrl": "https://www.notion.so/9435a0f5876c44aead494d56ac11b2d4",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Offer Stage",
-          "agingBand": "🔴 6+",
-          "department": "USF Health"
-        },
-        {
-          "title": "Manager Clinical Research",
-          "reqId": "43116",
-          "notionUrl": "https://www.notion.so/0ca216d86c1442b0be571c0381af654b",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Offer Stage",
-          "agingBand": "🔴 6+",
-          "department": "USF Health"
-        },
-        {
-          "title": "Research Supporrt Assistant",
-          "reqId": "43131",
-          "notionUrl": "https://www.notion.so/6fcd62634fa6456f89e650345310982b",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Sourced",
-          "agingBand": "🔴 6+",
-          "department": "USF Health"
-        },
-        {
           "title": "Advanced Research Scientist",
           "reqId": "43208",
           "notionUrl": "https://www.notion.so/37e18c1e8d5642459b0df9a8a328cb1d",
@@ -1573,59 +1303,9 @@
           "department": "USF Health"
         },
         {
-          "title": "Postdoctoral Scholar Research",
-          "reqId": "43235",
-          "notionUrl": "https://www.notion.so/a6f666bb7c064ba98d433c1ff5df3ae9",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Offer Stage",
-          "agingBand": "🔴 6+",
-          "department": "614400 - Molecular Medicine"
-        },
-        {
           "title": "Assistant Director, Clinical Simulation",
           "reqId": "43310",
           "notionUrl": "https://www.notion.so/cd943d025ff34afa94b967a38a90838d",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Offer Stage",
-          "agingBand": "🔴 6+",
-          "department": "USF Health"
-        },
-        {
-          "title": "Office Administrator",
-          "reqId": "43372",
-          "notionUrl": "https://www.notion.so/ef13a4fb848242f99c820a0c0be21934",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Offer Stage",
-          "agingBand": "🔴 6+",
-          "department": "USF Health"
-        },
-        {
-          "title": "Clinical Research Assistant",
-          "reqId": "43391",
-          "notionUrl": "https://www.notion.so/ec396b57eb15446f831382ab18c13e36",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Offer Stage",
-          "agingBand": "🔴 6+",
-          "department": "USF Health"
-        },
-        {
-          "title": "Temporary Teaching Laboratory Assistant",
-          "reqId": "43420",
-          "notionUrl": "https://www.notion.so/3c395e7678304de9a4c17efa653f42e6",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Offer Stage",
-          "agingBand": "🔴 6+",
-          "department": "USF Health"
-        },
-        {
-          "title": "Simulation Operations Specialist",
-          "reqId": "43470",
-          "notionUrl": "https://www.notion.so/7a5e7ab70e21491faec91cb09b0f2e55",
           "owner": "Rebecca",
           "campus": "USF Health",
           "stage": "Offer Stage",
@@ -1651,36 +1331,6 @@
           "stage": "Offer Stage",
           "agingBand": "🔴 6+",
           "department": "USF Health"
-        },
-        {
-          "title": "Research Scientist, Temporary",
-          "reqId": "43596",
-          "notionUrl": "https://www.notion.so/756365030d074055a65b98b31e25038d",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "614000 - Molecular Medicine"
-        },
-        {
-          "title": "Fiscal & Business Analyst I",
-          "reqId": "43678",
-          "notionUrl": "https://www.notion.so/21be761decb14fddbc44c6d8c876e395",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "616300 - Health Informatics Institute"
-        },
-        {
-          "title": "Research Scientist-Temporary",
-          "reqId": "43598",
-          "notionUrl": "https://www.notion.so/eb13f0376fcc4f6398830c85f2b80489",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "614000 - Molecular Medicine"
         }
       ]
     },
@@ -1860,13 +1510,18 @@
   "reqType": [
     {
       "label": "Active",
-      "count": 235,
+      "count": 202,
       "color": "#00A693"
     },
     {
       "label": "Evergreen",
-      "count": 151,
+      "count": 132,
       "color": "#7A9EB5"
+    },
+    {
+      "label": "Passive",
+      "count": 79,
+      "color": "#006747"
     },
     {
       "label": "Student",
@@ -1877,11 +1532,6 @@
       "label": "Faculty",
       "count": 42,
       "color": "#534AB7"
-    },
-    {
-      "label": "Passive",
-      "count": 27,
-      "color": "#006747"
     },
     {
       "label": "Targeted",
@@ -1926,18 +1576,18 @@
       "color": "#534AB7"
     },
     {
-      "label": "047700 - Career & Professional Dev",
+      "label": "611900 - Department Of",
       "count": 9,
       "color": "#993556"
     },
     {
-      "label": "614400 - Molecular Medicine",
+      "label": "047700 - Career & Professional Dev",
       "count": 9,
       "color": "#006747"
     },
     {
-      "label": "611900 - Department Of",
-      "count": 8,
+      "label": "614400 - Molecular Medicine",
+      "count": 9,
       "color": "#1B6A9C"
     },
     {
@@ -1946,28 +1596,28 @@
       "color": "#00A693"
     },
     {
-      "label": "026100 - University Police",
+      "label": "600105 - Health Sciences",
       "count": 7,
       "color": "#CFC483"
     },
     {
-      "label": "177500 - Inst For School Comm Partnersh",
+      "label": "026100 - University Police",
       "count": 7,
       "color": "#7A9EB5"
     },
     {
-      "label": "614300 - Molecular Pharm & Physiology",
+      "label": "177500 - Inst For School Comm Partnersh",
       "count": 7,
       "color": "#5B7A8A"
     },
     {
-      "label": "Florida Inst of Oceanography",
+      "label": "614300 - Molecular Pharm & Physiology",
       "count": 7,
       "color": "#534AB7"
     },
     {
-      "label": "600105 - Health Sciences",
-      "count": 6,
+      "label": "Florida Inst of Oceanography",
+      "count": 7,
       "color": "#993556"
     },
     {
@@ -2006,22 +1656,22 @@
       "color": "#534AB7"
     },
     {
-      "label": "Other (167 depts)",
-      "count": 325,
+      "label": "Other (166 depts)",
+      "count": 323,
       "color": "#c8c7c2"
     }
   ],
   "stageMetrics": [
     {
       "label": "Sourced",
-      "avgDays": 37,
-      "count": 5,
+      "avgDays": 13,
+      "count": 1,
       "color": "#00A693"
     },
     {
       "label": "Recruiter Review",
-      "avgDays": 27,
-      "count": 67,
+      "avgDays": 28,
+      "count": 47,
       "color": "#006747"
     },
     {
@@ -2032,14 +1682,14 @@
     },
     {
       "label": "Interview Stage",
-      "avgDays": 24,
-      "count": 12,
+      "avgDays": 25,
+      "count": 11,
       "color": "#d4880a"
     },
     {
       "label": "Offer Stage",
-      "avgDays": 29,
-      "count": 36,
+      "avgDays": 25,
+      "count": 28,
       "color": "#CFC483"
     },
     {
@@ -2050,8 +1700,8 @@
     },
     {
       "label": "Backlog",
-      "avgDays": 16,
-      "count": 15,
+      "avgDays": 15,
+      "count": 13,
       "color": "#888780"
     },
     {
@@ -3783,6 +3433,16 @@
       "notionUrl": "https://www.notion.so/26c90d5f12a840abb41b1c45de262fd0"
     },
     {
+      "title": "Temporary Academic Pro",
+      "reqId": "43965",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Filled",
+      "department": "610601 - MCOM Researc",
+      "ttf": 44,
+      "notionUrl": "https://www.notion.so/513becc9875849388fa70cae9e7c1283"
+    },
+    {
       "title": "OPS - Research Support S",
       "reqId": "43907",
       "owner": "Rebecca",
@@ -3801,6 +3461,16 @@
       "department": "633000 - Hyperbaric Oxy",
       "ttf": 43,
       "notionUrl": "https://www.notion.so/563167e173c5456ca44e41429711fe1a"
+    },
+    {
+      "title": "Student Assistant",
+      "reqId": "43999",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Filled",
+      "department": "614400 - Molecular Medi",
+      "ttf": 41,
+      "notionUrl": "https://www.notion.so/b11a4111a0514b8d9e7f3fad40ea6864"
     },
     {
       "title": "Academic Program Specialist",
@@ -4639,56 +4309,16 @@
       "bgLight": "#e0f5f3",
       "bgDark": "#3d2504",
       "campus": "Tampa",
-      "reqs": 359,
-      "filled": 99,
+      "reqs": 360,
+      "filled": 101,
       "failed": 21,
-      "ttf": 109,
-      "wip": 6,
+      "ttf": 106,
+      "wip": 7,
       "agingRecords": [
         {
           "band": "🔴 6+",
           "color": "#A32D2D",
           "records": [
-            {
-              "title": "Postdoctoral Scholar Rese",
-              "reqId": "44170",
-              "notionUrl": "https://www.notion.so/ceb9b738b99749779304e203e95b4a24",
-              "owner": "Rebecca",
-              "campus": "",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "614400 - Molecular Medi"
-            },
-            {
-              "title": "Hyperbaric Safety Officer",
-              "reqId": "44182",
-              "notionUrl": "https://www.notion.so/9b679b108dd74580aea6d2af1c091878",
-              "owner": "Rebecca",
-              "campus": "",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "633000 - Hyperbaric Oxy"
-            },
-            {
-              "title": "Clinical Research Coordin",
-              "reqId": "44188",
-              "notionUrl": "https://www.notion.so/78e3456debc646fab891b5d430f869b1",
-              "owner": "Rebecca",
-              "campus": "",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "612300 - Dept Of Interna"
-            },
-            {
-              "title": "Temporary Simulation Op",
-              "reqId": "44189",
-              "notionUrl": "https://www.notion.so/33b7b68096d44d258e724171191c6778",
-              "owner": "Rebecca",
-              "campus": "",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "610405 - HPCC"
-            },
             {
               "title": "Academic Services Admin",
               "reqId": "44196",
@@ -4698,86 +4328,6 @@
               "stage": "Recruiter Review",
               "agingBand": "🔴 6+",
               "department": "643400 - Global Env & Ge"
-            },
-            {
-              "title": "Clinical Research Coordin",
-              "reqId": "44198",
-              "notionUrl": "https://www.notion.so/22e3211532b441a199e545e5352da90c",
-              "owner": "Rebecca",
-              "campus": "",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "612400 - Dept Of Ophtha"
-            },
-            {
-              "title": "Clinical Research Associat",
-              "reqId": "44199",
-              "notionUrl": "https://www.notion.so/2232224074de4c18939907e579943e2c",
-              "owner": "Rebecca",
-              "campus": "",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "611900 - Department Of"
-            },
-            {
-              "title": "Technical and Paraprofes",
-              "reqId": "44201",
-              "notionUrl": "https://www.notion.so/90bf27eff4cd44b0985d0a81ff3542e2",
-              "owner": "Rebecca",
-              "campus": "",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "614400 - Molecular Medi"
-            },
-            {
-              "title": "Clinical Research Assistan",
-              "reqId": "44209",
-              "notionUrl": "https://www.notion.so/75b2d31eeefe481ea115f4a081c04fbd",
-              "owner": "Rebecca",
-              "campus": "",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "612400 - Dept Of Ophtha"
-            },
-            {
-              "title": "Clinical Research Assistan",
-              "reqId": "44214",
-              "notionUrl": "https://www.notion.so/f0a7d5fe896e443d9eb1432b5c8d1588",
-              "owner": "Rebecca",
-              "campus": "",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "611800 - Department Of"
-            },
-            {
-              "title": "OPS Bioinformatics I",
-              "reqId": "44206",
-              "notionUrl": "https://www.notion.so/c01c8ec68ea34ab5b88cdb80f53d16a5",
-              "owner": "Rebecca",
-              "campus": "",
-              "stage": "Interview Stage",
-              "agingBand": "🔴 6+",
-              "department": "643400 - Global Env & Ge"
-            },
-            {
-              "title": "Postdoctoral Scholar Rese",
-              "reqId": "44215",
-              "notionUrl": "https://www.notion.so/d5591e8ea69e4498b83987459a5e976c",
-              "owner": "Rebecca",
-              "campus": "",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "614300 - Molecular Phar"
-            },
-            {
-              "title": "Senior Fiscal & Business A",
-              "reqId": "44211",
-              "notionUrl": "https://www.notion.so/21dae01c08064739bc06f00de763ad1e",
-              "owner": "Rebecca",
-              "campus": "",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "612400 - Dept Of Ophtha"
             },
             {
               "title": "Faculty Services Administri",
@@ -4800,26 +4350,6 @@
               "department": "640108 - COPH Faculty A"
             },
             {
-              "title": "Student Assistant",
-              "reqId": "44080",
-              "notionUrl": "https://www.notion.so/2c416e2100184a05abd559934f09ed3a",
-              "owner": "Rebecca",
-              "campus": "",
-              "stage": "Backlog",
-              "agingBand": "🔴 6+",
-              "department": "610405 - HPCC"
-            },
-            {
-              "title": "Student Assistant - Feder",
-              "reqId": "44104",
-              "notionUrl": "https://www.notion.so/4a06755c0cce40f390579ad084df3803",
-              "owner": "Rebecca",
-              "campus": "",
-              "stage": "Backlog",
-              "agingBand": "🔴 6+",
-              "department": "611800 - Department Of"
-            },
-            {
               "title": "Project Manager II",
               "reqId": "44129",
               "notionUrl": "https://www.notion.so/d45556fab31b4bff97806f7df7b5a485",
@@ -4838,36 +4368,6 @@
               "stage": "Recruiter Review",
               "agingBand": "🔴 6+",
               "department": "610105 - Health Sciences Center Research"
-            },
-            {
-              "title": "Advanced Research Scientist",
-              "reqId": "43564",
-              "notionUrl": "https://www.notion.so/e61ddd2334884b39ad55b5954d87238d",
-              "owner": "Rebecca",
-              "campus": "",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "614400 - Molecular Medicine"
-            },
-            {
-              "title": "Research Scientist-Temporary",
-              "reqId": "43543",
-              "notionUrl": "https://www.notion.so/2ff15207eeca4e818c41600ef6ce55ff",
-              "owner": "Rebecca",
-              "campus": "",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "512337 - Heart Institute - Core"
-            },
-            {
-              "title": "Research Technician",
-              "reqId": "43209",
-              "notionUrl": "https://www.notion.so/72af54c4210147f7b5c6effdfbb0f11e",
-              "owner": "Rebecca",
-              "campus": "",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "614300 - Molecular Pharm & Physiology"
             },
             {
               "title": "Advanced Research Scientist",
@@ -4920,56 +4420,6 @@
               "department": "616300 - Health Informatics Institute"
             },
             {
-              "title": "Postdoctoral Scholar Rese",
-              "reqId": "43878",
-              "notionUrl": "https://www.notion.so/f8affcad58214aa99b51e56a603126ec",
-              "owner": "Rebecca",
-              "campus": "Tampa",
-              "stage": "Sourced",
-              "agingBand": "🔴 6+",
-              "department": "612300 - Dept Of Interna"
-            },
-            {
-              "title": "Social & Behavioral Researcher",
-              "reqId": "43804",
-              "notionUrl": "https://www.notion.so/a1f7cf2660834fac9dbfc96cdccc8489",
-              "owner": "Rebecca",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "610105 - Health Science Center Research"
-            },
-            {
-              "title": "Research Scientist",
-              "reqId": "43820",
-              "notionUrl": "https://www.notion.so/4850a19a36fb4f82b88f3cc3f09e2bee",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "610021 - MCOM Medical Entomology"
-            },
-            {
-              "title": "Fiscal & Business Analyst II",
-              "reqId": "43818",
-              "notionUrl": "https://www.notion.so/0172b7ce335144dc987abfb489051953",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Sourced",
-              "agingBand": "🔴 6+",
-              "department": "612300 - Dept Of Internal Medicine"
-            },
-            {
-              "title": "Technical and Paraprofessional",
-              "reqId": "43825",
-              "notionUrl": "https://www.notion.so/e18379465aff4eee8721db0515313418",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "614300 - Molecular Pharm & Physiology"
-            },
-            {
               "title": "Senior Research Scientist",
               "reqId": "43681",
               "notionUrl": "https://www.notion.so/c854a11c60a14df5852e0cbf0069c653",
@@ -4978,26 +4428,6 @@
               "stage": "Recruiter Review",
               "agingBand": "🔴 6+",
               "department": "614400 - Molecular Medicine"
-            },
-            {
-              "title": "Postdoctoral Fellow of Research",
-              "reqId": "43712",
-              "notionUrl": "https://www.notion.so/38f9ddf757a080dea938c9e72f26e03e",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Sourced",
-              "agingBand": "🔴 6+",
-              "department": "612300 - Dept Of Internal Medicine"
-            },
-            {
-              "title": "Research Support Asst",
-              "reqId": "43702",
-              "notionUrl": "https://www.notion.so/38f9ddf757a080b6a94af50e716b6611",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Offer Stage",
-              "agingBand": "🔴 6+",
-              "department": "612700 - Dept Of Orthopaedics & Sports Medicine"
             },
             {
               "title": "Assistant Director Research",
@@ -5060,36 +4490,6 @@
               "department": "USF Health"
             },
             {
-              "title": "Program Manager",
-              "reqId": "43123",
-              "notionUrl": "https://www.notion.so/9435a0f5876c44aead494d56ac11b2d4",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Offer Stage",
-              "agingBand": "🔴 6+",
-              "department": "USF Health"
-            },
-            {
-              "title": "Manager Clinical Research",
-              "reqId": "43116",
-              "notionUrl": "https://www.notion.so/0ca216d86c1442b0be571c0381af654b",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Offer Stage",
-              "agingBand": "🔴 6+",
-              "department": "USF Health"
-            },
-            {
-              "title": "Research Supporrt Assistant",
-              "reqId": "43131",
-              "notionUrl": "https://www.notion.so/6fcd62634fa6456f89e650345310982b",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Sourced",
-              "agingBand": "🔴 6+",
-              "department": "USF Health"
-            },
-            {
               "title": "Advanced Research Scientist",
               "reqId": "43208",
               "notionUrl": "https://www.notion.so/37e18c1e8d5642459b0df9a8a328cb1d",
@@ -5100,59 +4500,9 @@
               "department": "USF Health"
             },
             {
-              "title": "Postdoctoral Scholar Research",
-              "reqId": "43235",
-              "notionUrl": "https://www.notion.so/a6f666bb7c064ba98d433c1ff5df3ae9",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Offer Stage",
-              "agingBand": "🔴 6+",
-              "department": "614400 - Molecular Medicine"
-            },
-            {
               "title": "Assistant Director, Clinical Simulation",
               "reqId": "43310",
               "notionUrl": "https://www.notion.so/cd943d025ff34afa94b967a38a90838d",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Offer Stage",
-              "agingBand": "🔴 6+",
-              "department": "USF Health"
-            },
-            {
-              "title": "Office Administrator",
-              "reqId": "43372",
-              "notionUrl": "https://www.notion.so/ef13a4fb848242f99c820a0c0be21934",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Offer Stage",
-              "agingBand": "🔴 6+",
-              "department": "USF Health"
-            },
-            {
-              "title": "Clinical Research Assistant",
-              "reqId": "43391",
-              "notionUrl": "https://www.notion.so/ec396b57eb15446f831382ab18c13e36",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Offer Stage",
-              "agingBand": "🔴 6+",
-              "department": "USF Health"
-            },
-            {
-              "title": "Temporary Teaching Laboratory Assistant",
-              "reqId": "43420",
-              "notionUrl": "https://www.notion.so/3c395e7678304de9a4c17efa653f42e6",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Offer Stage",
-              "agingBand": "🔴 6+",
-              "department": "USF Health"
-            },
-            {
-              "title": "Simulation Operations Specialist",
-              "reqId": "43470",
-              "notionUrl": "https://www.notion.so/7a5e7ab70e21491faec91cb09b0f2e55",
               "owner": "Rebecca",
               "campus": "USF Health",
               "stage": "Offer Stage",
@@ -5178,36 +4528,6 @@
               "stage": "Offer Stage",
               "agingBand": "🔴 6+",
               "department": "USF Health"
-            },
-            {
-              "title": "Research Scientist, Temporary",
-              "reqId": "43596",
-              "notionUrl": "https://www.notion.so/756365030d074055a65b98b31e25038d",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "614000 - Molecular Medicine"
-            },
-            {
-              "title": "Fiscal & Business Analyst I",
-              "reqId": "43678",
-              "notionUrl": "https://www.notion.so/21be761decb14fddbc44c6d8c876e395",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "616300 - Health Informatics Institute"
-            },
-            {
-              "title": "Research Scientist-Temporary",
-              "reqId": "43598",
-              "notionUrl": "https://www.notion.so/eb13f0376fcc4f6398830c85f2b80489",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "614000 - Molecular Medicine"
             }
           ]
         },
@@ -5224,46 +4544,28 @@
       ],
       "stageMetrics": [
         {
-          "label": "Sourced",
-          "avgDays": 43,
-          "count": 4,
-          "color": "#00A693"
-        },
-        {
           "label": "Recruiter Review",
-          "avgDays": 30,
-          "count": 35,
+          "avgDays": 36,
+          "count": 15,
           "color": "#006747"
-        },
-        {
-          "label": "Interview Stage",
-          "avgDays": 12,
-          "count": 1,
-          "color": "#d4880a"
         },
         {
           "label": "Offer Stage",
           "avgDays": 43,
-          "count": 14,
+          "count": 6,
           "color": "#CFC483"
-        },
-        {
-          "label": "Backlog",
-          "avgDays": 27,
-          "count": 2,
-          "color": "#888780"
         }
       ],
       "statuses": [
         {
+          "label": "Backlog",
+          "count": 12,
+          "color": "#888780"
+        },
+        {
           "label": "Recruiter Review",
           "count": 42,
           "color": "#185FA5"
-        },
-        {
-          "label": "Backlog",
-          "count": 10,
-          "color": "#888780"
         },
         {
           "label": "Student Hiring",
@@ -5272,7 +4574,7 @@
         },
         {
           "label": "HM Review",
-          "count": 149,
+          "count": 146,
           "color": "#993556"
         },
         {
@@ -5307,7 +4609,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 56
+          "count": 21
         },
         {
           "label": "🟡 3-5",
@@ -5327,7 +4629,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 236
+          "count": 235
         },
         {
           "label": "Screened",
@@ -5335,7 +4637,7 @@
         },
         {
           "label": "HM Review",
-          "count": 149
+          "count": 146
         },
         {
           "label": "Interviews",
@@ -5349,36 +4651,36 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 99,
+          "value": 101,
           "target": 10,
           "invert": false
         },
         {
           "label": "Time to fill",
-          "value": 109,
+          "value": 106,
           "target": 40,
           "invert": true
         },
         {
           "label": "Screened",
           "value": 0,
-          "target": 359,
+          "target": 360,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 4,
-          "target": 359,
+          "target": 360,
           "invert": false
         }
       ],
       "trend": [
-        109,
-        109,
-        109,
-        109,
-        109,
-        109
+        106,
+        106,
+        106,
+        106,
+        106,
+        106
       ]
     },
     {
@@ -5389,7 +4691,7 @@
       "bgLight": "#e3f2fd",
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
-      "reqs": 161,
+      "reqs": 162,
       "filled": 66,
       "failed": 10,
       "ttf": 98,
@@ -5945,12 +5247,7 @@
         },
         {
           "label": "Offer Stage",
-          "count": 14,
-          "color": "#0F6E56"
-        },
-        {
-          "label": "Student Hiring",
-          "count": 16,
+          "count": 15,
           "color": "#0F6E56"
         },
         {
@@ -5959,8 +5256,13 @@
           "color": "#888780"
         },
         {
+          "label": "Student Hiring",
+          "count": 15,
+          "color": "#0F6E56"
+        },
+        {
           "label": "HM Review",
-          "count": 11,
+          "count": 12,
           "color": "#993556"
         },
         {
@@ -6005,7 +5307,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 85
+          "count": 86
         },
         {
           "label": "Screened",
@@ -6013,7 +5315,7 @@
         },
         {
           "label": "HM Review",
-          "count": 11
+          "count": 12
         },
         {
           "label": "Interviews",
@@ -6021,7 +5323,7 @@
         },
         {
           "label": "Offer",
-          "count": 14
+          "count": 15
         }
       ],
       "goals": [
@@ -6040,13 +5342,13 @@
         {
           "label": "Screened",
           "value": 0,
-          "target": 161,
+          "target": 162,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 9,
-          "target": 161,
+          "target": 162,
           "invert": false
         }
       ],
@@ -7094,6 +6396,22 @@
       "pct": 48,
       "records": [
         {
+          "title": "Human Services Practitioner",
+          "reqId": "44271",
+          "owner": "Rebecca",
+          "campus": "",
+          "stage": "Backlog",
+          "notionUrl": "https://www.notion.so/6d159096805b451a8e4c610b9a0058a1"
+        },
+        {
+          "title": "Office Manager",
+          "reqId": "44272",
+          "owner": "Rebecca",
+          "campus": "",
+          "stage": "Backlog",
+          "notionUrl": "https://www.notion.so/76d9165d5710413fa8c77c7ac61517aa"
+        },
+        {
           "title": "Research Coverage Analy",
           "reqId": "44230",
           "owner": "Rebecca",
@@ -7462,14 +6780,6 @@
           "notionUrl": "https://www.notion.so/8303906d44fc41ebb09ec5eba6e2d3e6"
         },
         {
-          "title": "Student Assistant",
-          "reqId": "43999",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "HM Review",
-          "notionUrl": "https://www.notion.so/b11a4111a0514b8d9e7f3fad40ea6864"
-        },
-        {
           "title": "OPS - Social and Behavio",
           "reqId": "44000",
           "owner": "Rebecca",
@@ -7484,14 +6794,6 @@
           "campus": "USF Health",
           "stage": "HM Review",
           "notionUrl": "https://www.notion.so/f55b803c747e4287b6e3e4674a46bca8"
-        },
-        {
-          "title": "Clerical and Secretarial",
-          "reqId": "44007",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/fbaa7c1511994273a7711e135484e7ba"
         }
       ]
     },
@@ -7905,10 +7207,26 @@
     },
     {
       "field": "Campus",
-      "missingCount": 70,
+      "missingCount": 72,
       "totalActive": 652,
       "pct": 11,
       "records": [
+        {
+          "title": "Human Services Practitioner",
+          "reqId": "44271",
+          "owner": "Rebecca",
+          "campus": "",
+          "stage": "Backlog",
+          "notionUrl": "https://www.notion.so/6d159096805b451a8e4c610b9a0058a1"
+        },
+        {
+          "title": "Office Manager",
+          "reqId": "44272",
+          "owner": "Rebecca",
+          "campus": "",
+          "stage": "Backlog",
+          "notionUrl": "https://www.notion.so/76d9165d5710413fa8c77c7ac61517aa"
+        },
         {
           "title": "Research Coverage Analy",
           "reqId": "44230",
@@ -8292,54 +7610,30 @@
           "campus": "",
           "stage": "HM Review",
           "notionUrl": "https://www.notion.so/02bad5fd33164908b9a1c404d8cf54c3"
-        },
-        {
-          "title": "Student Assistant - Feder",
-          "reqId": "44104",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Backlog",
-          "notionUrl": "https://www.notion.so/4a06755c0cce40f390579ad084df3803"
-        },
-        {
-          "title": "Student Asst - FWS",
-          "reqId": "44106",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "HM Review",
-          "notionUrl": "https://www.notion.so/9de3f35d6e674b708f6cd3c074a12177"
         }
       ]
     },
     {
       "field": "HRBP",
-      "missingCount": 190,
+      "missingCount": 170,
       "totalActive": 652,
-      "pct": 29,
+      "pct": 26,
       "records": [
         {
-          "title": "Research Coverage Analy",
-          "reqId": "44230",
+          "title": "Human Services Practitioner",
+          "reqId": "44271",
           "owner": "Rebecca",
           "campus": "",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/4c62321c9d44426cb8e124b91079bdca"
+          "stage": "Backlog",
+          "notionUrl": "https://www.notion.so/6d159096805b451a8e4c610b9a0058a1"
         },
         {
-          "title": "Manager, Clinical Researc",
-          "reqId": "44231",
+          "title": "Office Manager",
+          "reqId": "44272",
           "owner": "Rebecca",
           "campus": "",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/128e407e67e0454885d626bde9277aa8"
-        },
-        {
-          "title": "Temporary - Clinical Rese",
-          "reqId": "44236",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/eb4c83e808c542af9dfffe70d42432e6"
+          "stage": "Backlog",
+          "notionUrl": "https://www.notion.so/76d9165d5710413fa8c77c7ac61517aa"
         },
         {
           "title": "Fiscal & Business Analyst",
@@ -8348,38 +7642,6 @@
           "campus": "",
           "stage": "Backlog",
           "notionUrl": "https://www.notion.so/f7b76920a26347f9a8f3c19097abfede"
-        },
-        {
-          "title": "Student Assistant",
-          "reqId": "44241",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Student Hiring",
-          "notionUrl": "https://www.notion.so/62ebdf297cc241be94a4b52cdfc4360c"
-        },
-        {
-          "title": "Temporary Instructor - AI",
-          "reqId": "44264",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Backlog",
-          "notionUrl": "https://www.notion.so/21b741dedd2042138ff6c6a168af8b45"
-        },
-        {
-          "title": "Nurse/Researcher",
-          "reqId": "44245",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/c7679928e35e4c0a80cbf5cad16c338d"
-        },
-        {
-          "title": "Assistant Director, Clinical",
-          "reqId": "44256",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/afb684804c2a4e1ea53c60aa6ce36f39"
         },
         {
           "title": "Learning & Development Facilitator",
@@ -8558,132 +7820,12 @@
           "notionUrl": "https://www.notion.so/286d495752c3430eb1f7066772febf9e"
         },
         {
-          "title": "Postdoctoral Scholar Rese",
-          "reqId": "44170",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/ceb9b738b99749779304e203e95b4a24"
-        },
-        {
-          "title": "Student Assistant",
-          "reqId": "44181",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Student Hiring",
-          "notionUrl": "https://www.notion.so/61e27331cb1c4f9f883c063426b19394"
-        },
-        {
-          "title": "Hyperbaric Safety Officer",
-          "reqId": "44182",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/9b679b108dd74580aea6d2af1c091878"
-        },
-        {
-          "title": "Clinical Research Coordin",
-          "reqId": "44188",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/78e3456debc646fab891b5d430f869b1"
-        },
-        {
-          "title": "Temporary Simulation Op",
-          "reqId": "44189",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/33b7b68096d44d258e724171191c6778"
-        },
-        {
-          "title": "Student Assistant - FWS",
-          "reqId": "44195",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Student Hiring",
-          "notionUrl": "https://www.notion.so/15c16a6d3be343a5909e70c3fec50c98"
-        },
-        {
           "title": "Student Assistant - Temp",
           "reqId": "44194",
           "owner": "Rebecca",
           "campus": "",
           "stage": "Backlog",
           "notionUrl": "https://www.notion.so/056d243f8bbe4085bd136741e4a00b4c"
-        },
-        {
-          "title": "Academic Services Admin",
-          "reqId": "44196",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/00bb5816fa584dca8bafba20e2155cdb"
-        },
-        {
-          "title": "Clinical Research Coordin",
-          "reqId": "44198",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/22e3211532b441a199e545e5352da90c"
-        },
-        {
-          "title": "Clinical Research Associat",
-          "reqId": "44199",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/2232224074de4c18939907e579943e2c"
-        },
-        {
-          "title": "Student Assistant - Feder",
-          "reqId": "44200",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Student Hiring",
-          "notionUrl": "https://www.notion.so/0a0bfaeb0a2f4061ae1b3ac8a15dbaee"
-        },
-        {
-          "title": "Technical and Paraprofes",
-          "reqId": "44201",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/90bf27eff4cd44b0985d0a81ff3542e2"
-        },
-        {
-          "title": "Clinical Research Assistan",
-          "reqId": "44209",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/75b2d31eeefe481ea115f4a081c04fbd"
-        },
-        {
-          "title": "Clinical Research Assistan",
-          "reqId": "44214",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/f0a7d5fe896e443d9eb1432b5c8d1588"
-        },
-        {
-          "title": "Postdoctoral Scholar Rese",
-          "reqId": "44215",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/d5591e8ea69e4498b83987459a5e976c"
-        },
-        {
-          "title": "Senior Fiscal & Business A",
-          "reqId": "44211",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/21dae01c08064739bc06f00de763ad1e"
         },
         {
           "title": "AV Engineer I",
@@ -8716,79 +7858,175 @@
           "campus": "Tampa",
           "stage": "Recruiter Review",
           "notionUrl": "https://www.notion.so/39f9ddf757a081a6aab5e434561e7a64"
+        },
+        {
+          "title": "Academic Advisor I",
+          "reqId": "42269",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08109bd26ec2a52aada62"
+        },
+        {
+          "title": "Chair and Professor-Civil & Environmental Engineering",
+          "reqId": "42289",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0813ba36ec440aafa2a39"
+        },
+        {
+          "title": "Adjunct-Extra Comp",
+          "reqId": "42302",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0819995f5e0660e2b0f6c"
+        },
+        {
+          "title": "Assistant Director, Student Conduct",
+          "reqId": "42318",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08146b2b9dfd6fd786b6d"
+        },
+        {
+          "title": "Assistant Professor-Medical Engineering",
+          "reqId": "42383",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08132a271fee191ee2947"
+        },
+        {
+          "title": "Professor-Medical Engineering",
+          "reqId": "42391",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0815ea399e66a1f9e1bee"
+        },
+        {
+          "title": "Associate Professor-Medical Engineering",
+          "reqId": "42392",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081a78e85e4b16a61f6b2"
+        },
+        {
+          "title": "OPS Student Assistant- Computer Vision Video Analytics",
+          "reqId": "42470",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081a6b1eae5efab39ee84"
+        },
+        {
+          "title": "OPS Research assistant",
+          "reqId": "42513",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08117941bcb80ca71d61a"
+        },
+        {
+          "title": "FWS Student Assistant",
+          "reqId": "42585",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08175860edd92b665fdaa"
+        },
+        {
+          "title": "Visiting Research Scholar",
+          "reqId": "42588",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0814ba3f9fd3091c101e4"
+        },
+        {
+          "title": "Visiting Assistant Professor of Instruction",
+          "reqId": "42658",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081c3a880f1fe1e01848c"
+        },
+        {
+          "title": "Administrative Specialist",
+          "reqId": "42692",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0815d8520fc0963188195"
+        },
+        {
+          "title": "OPS Support Assistant",
+          "reqId": "42711",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08192a5fbe0cc9561e81c"
+        },
+        {
+          "title": "Assistant Professor of Criminology, Tenure Track",
+          "reqId": "42719",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0810c9428c8903c3a5bd9"
+        },
+        {
+          "title": "Assistant Professor / Associate Professor, Social Work",
+          "reqId": "42720",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08125aa00ceed314987b1"
+        },
+        {
+          "title": "Assistant/Associate/Full Professor",
+          "reqId": "42723",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08161a016d921deb3ca1c"
+        },
+        {
+          "title": "Contracts and Licensing Manager",
+          "reqId": "42796",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081b3ac12c6611b6cdbd7"
+        },
+        {
+          "title": "Research Support Asst",
+          "reqId": "42812",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08167b935c2d1b6d2b6a9"
+        },
+        {
+          "title": "Asst Prof of Instruction - Mechanical Eng",
+          "reqId": "42869",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0819790f6fb9f3612d2fa"
         }
       ]
     },
     {
       "field": "Posted Date",
-      "missingCount": 183,
+      "missingCount": 174,
       "totalActive": 652,
-      "pct": 28,
+      "pct": 27,
       "records": [
-        {
-          "title": "Research Coverage Analy",
-          "reqId": "44230",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/4c62321c9d44426cb8e124b91079bdca"
-        },
-        {
-          "title": "Manager, Clinical Researc",
-          "reqId": "44231",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/128e407e67e0454885d626bde9277aa8"
-        },
-        {
-          "title": "Temporary - Clinical Rese",
-          "reqId": "44236",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/eb4c83e808c542af9dfffe70d42432e6"
-        },
-        {
-          "title": "Fiscal & Business Analyst",
-          "reqId": "44246",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Backlog",
-          "notionUrl": "https://www.notion.so/f7b76920a26347f9a8f3c19097abfede"
-        },
-        {
-          "title": "Student Assistant",
-          "reqId": "44241",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Student Hiring",
-          "notionUrl": "https://www.notion.so/62ebdf297cc241be94a4b52cdfc4360c"
-        },
-        {
-          "title": "Temporary Instructor - AI",
-          "reqId": "44264",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Backlog",
-          "notionUrl": "https://www.notion.so/21b741dedd2042138ff6c6a168af8b45"
-        },
-        {
-          "title": "Nurse/Researcher",
-          "reqId": "44245",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/c7679928e35e4c0a80cbf5cad16c338d"
-        },
-        {
-          "title": "Assistant Director, Clinical",
-          "reqId": "44256",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/afb684804c2a4e1ea53c60aa6ce36f39"
-        },
         {
           "title": "Mail Clerk",
           "reqId": "44235",
@@ -8908,14 +8146,6 @@
           "campus": "",
           "stage": "Backlog",
           "notionUrl": "https://www.notion.so/056d243f8bbe4085bd136741e4a00b4c"
-        },
-        {
-          "title": "Student Assistant - Feder",
-          "reqId": "44200",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Student Hiring",
-          "notionUrl": "https://www.notion.so/0a0bfaeb0a2f4061ae1b3ac8a15dbaee"
         },
         {
           "title": "Technical and Paraprofes",
@@ -9124,6 +8354,78 @@
           "campus": "",
           "stage": "Backlog",
           "notionUrl": "https://www.notion.so/4a06755c0cce40f390579ad084df3803"
+        },
+        {
+          "title": "Student Asst - FWS",
+          "reqId": "44106",
+          "owner": "Rebecca",
+          "campus": "",
+          "stage": "HM Review",
+          "notionUrl": "https://www.notion.so/9de3f35d6e674b708f6cd3c074a12177"
+        },
+        {
+          "title": "Office Manager",
+          "reqId": "44120",
+          "owner": "Rebecca",
+          "campus": "",
+          "stage": "HM Review",
+          "notionUrl": "https://www.notion.so/264ca58e1abd4b048ca8474c268f9ffa"
+        },
+        {
+          "title": "Postdoctoral Scholar Rese",
+          "reqId": "44016",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "Backlog",
+          "notionUrl": "https://www.notion.so/1f53f94a8154433899b16748ece0a36f"
+        },
+        {
+          "title": "Temporary Instructor - DF",
+          "reqId": "43970",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "Backlog",
+          "notionUrl": "https://www.notion.so/528f9599ae384694999a16d3e2ab75f3"
+        },
+        {
+          "title": "Student Assistant-Athletics Broadcast Crew Member",
+          "reqId": "43982",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Offer Stage",
+          "notionUrl": "https://www.notion.so/b3a9307110974940aa78f911e59ecd53"
+        },
+        {
+          "title": "Open Rank, Full Professor, Associate Professor, Assistant",
+          "reqId": "41549",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0816f8074dd8a3877e686"
+        },
+        {
+          "title": "Assistant Professor of Instruction - Department of Behavioral Health Science and Practice",
+          "reqId": "41637",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08127a68bff7fa2ff7a5f"
+        },
+        {
+          "title": "FWS Student Assistant",
+          "reqId": "42255",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081a6aab5e434561e7a64"
+        },
+        {
+          "title": "Academic Advisor I",
+          "reqId": "42269",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08109bd26ec2a52aada62"
         }
       ]
     },
@@ -9133,6 +8435,22 @@
       "totalActive": 652,
       "pct": 74,
       "records": [
+        {
+          "title": "Human Services Practitioner",
+          "reqId": "44271",
+          "owner": "Rebecca",
+          "campus": "",
+          "stage": "Backlog",
+          "notionUrl": "https://www.notion.so/6d159096805b451a8e4c610b9a0058a1"
+        },
+        {
+          "title": "Office Manager",
+          "reqId": "44272",
+          "owner": "Rebecca",
+          "campus": "",
+          "stage": "Backlog",
+          "notionUrl": "https://www.notion.so/76d9165d5710413fa8c77c7ac61517aa"
+        },
         {
           "title": "Research Coverage Analy",
           "reqId": "44230",
@@ -9516,22 +8834,6 @@
           "campus": "Tampa",
           "stage": "Recruiter Review",
           "notionUrl": "https://www.notion.so/4cf80f19f27443de92cb67064c40723a"
-        },
-        {
-          "title": "OPS / Temporary Marine",
-          "reqId": "44180",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/93a718c56eaf4fd8a3a4c3995b21262b"
-        },
-        {
-          "title": "Safety and Compliance Officer",
-          "reqId": "44192",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/3b53300285bc4ff7bd3a7a3953ec7287"
         }
       ]
     }
