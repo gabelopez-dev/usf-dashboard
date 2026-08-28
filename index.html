@@ -285,7 +285,8 @@ function renderMainPage(data) {
     <div class="kpi"><div class="kpi-label">Filled YTD</div><div class="kpi-val">${s.filledYTD ?? 0}</div><div class="kpi-sub">positions closed</div></div>
     <div class="kpi"><div class="kpi-label">Failed / Cancelled</div><div class="kpi-val kpi-val-red">${s.failedCancelled ?? 0}</div><div class="kpi-sub">searches no hire</div></div>
     <div class="kpi"><div class="kpi-label">In Offer Stage</div><div class="kpi-val kpi-val-blue">${s.inOfferStage ?? 0}</div><div class="kpi-sub">active offers</div></div>
-  </div>`;
+  </div>
+  <p style="font-size:9px;color:#bbb;font-style:italic;margin:6px 0 0;">These numbers reflect this dashboard's live pipeline, synced from Notion every 30 minutes. Power BI numbers may differ — it refreshes on its own schedule and can be filtered to a different subset (e.g. a single stage or date range), so the two aren't expected to match exactly.</p>`;
 
   // Recruiter load vertical bars
   const maxReqs = Math.max(...recruiters.map(r => r.reqs || 0), 1);
