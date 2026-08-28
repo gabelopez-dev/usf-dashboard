@@ -476,6 +476,103 @@ async function main() {
     }));
   console.log('Stage metrics:', JSON.stringify(stageMetrics));
 
+  // Extract closed reqs once so we can reuse it for both the historical view and Insights
+  const closedReqsData = records
+    .filter(r => ['Hired', 'Canceled', 'Failed Search', 'Complete'].includes(getProp(r, 'Stage', 'select')))
+    .map(r => ({
+      title: getProp(r, 'Requistion Title', 'title') || getProp(r, 'Requisition Title', 'title') || getProp(r, 'Name', 'title') || 'Untitled',
+      reqId: getProp(r, 'Requisition ID', 'text') || getProp(r, 'Requisition ID', 'number') || '',
+      owner: (() => { const p = getProp(r, 'Owner', 'person'); return p?.name || p?.person?.email || 'Unassigned'; })(),
+      campus: getProp(r, 'Campus', 'select') || '',
+      stage: getProp(r, 'Stage', 'select') || '',
+      department: getProp(r, 'Department/College', 'text') || '',
+      reqType: reqTypeNormalize(getProp(r, 'Req Type', 'select')) || '',
+      ttf: getProp(r, 'Time to Fill (Days)', 'formula_number') || 0,
+      notionUrl: `https://www.notion.so/${(r.id || '').replace(/-/g, '')}`
+    }))
+    .sort((a, b) => (b.ttf || 0) - (a.ttf || 0));
+
+  // --- Insights tab aggregations ---
+  const insightsData = (() => {
+    const filledStages = ['Hired', 'Complete'];
+
+    // Fill Rate by Department — Cancelled tracked separately, excluded from the rate itself
+    // (a cancellation is budget/org-driven, not a recruiting outcome, so blending it in would
+    // make a department with a hiring freeze look like one with a sourcing problem)
+    const deptAgg = {};
+    closedReqsData.forEach(r => {
+      const dept = r.department || 'No Department';
+      if (!deptAgg[dept]) deptAgg[dept] = { filled: 0, failed: 0, cancelled: 0 };
+      if (filledStages.includes(r.stage)) deptAgg[dept].filled += 1;
+      else if (r.stage === 'Failed Search') deptAgg[dept].failed += 1;
+      else if (r.stage === 'Canceled') deptAgg[dept].cancelled += 1;
+    });
+    const fillRateByDept = Object.entries(deptAgg)
+      .map(([department, v]) => {
+        const denom = v.filled + v.failed;
+        return {
+          department,
+          filled: v.filled,
+          failed: v.failed,
+          cancelled: v.cancelled,
+          fillRatePct: denom > 0 ? Math.round((v.filled / denom) * 100) : null
+        };
+      })
+      .filter(d => (d.filled + d.failed + d.cancelled) > 0)
+      .sort((a, b) => (b.filled + b.failed + b.cancelled) - (a.filled + a.failed + a.cancelled));
+
+    // Avg TTF by Req Type — Hired/Complete only, ttf > 0
+    const reqTypeTTFAgg = {};
+    closedReqsData.filter(r => filledStages.includes(r.stage) && r.ttf > 0).forEach(r => {
+      const t = r.reqType || 'Unspecified';
+      if (!reqTypeTTFAgg[t]) reqTypeTTFAgg[t] = { total: 0, count: 0 };
+      reqTypeTTFAgg[t].total += r.ttf;
+      reqTypeTTFAgg[t].count += 1;
+    });
+    const avgTTFByReqType = Object.entries(reqTypeTTFAgg)
+      .map(([reqType, v]) => ({ reqType, avgDays: Math.round(v.total / v.count), count: v.count }))
+      .sort((a, b) => b.count - a.count);
+
+    // Avg TTF by Campus — Hired/Complete only, ttf > 0
+    const campusTTFAgg = {};
+    closedReqsData.filter(r => filledStages.includes(r.stage) && r.ttf > 0).forEach(r => {
+      const c = r.campus || 'Unspecified';
+      if (!campusTTFAgg[c]) campusTTFAgg[c] = { total: 0, count: 0 };
+      campusTTFAgg[c].total += r.ttf;
+      campusTTFAgg[c].count += 1;
+    });
+    const avgTTFByCampus = Object.entries(campusTTFAgg)
+      .map(([campus, v]) => ({ campus, avgDays: Math.round(v.total / v.count), count: v.count }))
+      .sort((a, b) => b.count - a.count);
+
+    // Top Hiring Departments — volume of reqs opened, across ALL records (active + closed)
+    const topDeptAgg = {};
+    records.forEach(r => {
+      const dept = getProp(r, 'Department/College', 'text');
+      if (!dept) return;
+      topDeptAgg[dept] = (topDeptAgg[dept] || 0) + 1;
+    });
+    const topHiringDepartments = Object.entries(topDeptAgg)
+      .map(([department, count]) => ({ department, count }))
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 10);
+
+    // Stall Rate by Recruiter — % of each recruiter's ACTIVE reqs sitting in the 6+ day band
+    const stallRateByRecruiter = recruiters.map(r => {
+      const totalActive = (r.aging || []).reduce((a, b) => a + b.count, 0);
+      const stalled = (r.aging || []).find(b => b.label.includes('6+'))?.count || 0;
+      return {
+        recruiter: r.name,
+        color: r.color,
+        stalled,
+        totalActive,
+        stallRatePct: totalActive > 0 ? Math.round((stalled / totalActive) * 100) : 0
+      };
+    }).sort((a, b) => b.stallRatePct - a.stallRatePct);
+
+    return { fillRateByDept, avgTTFByReqType, avgTTFByCampus, topHiringDepartments, stallRateByRecruiter };
+  })();
+
   const data = {
     lastUpdated: new Date().toISOString(),
     summary: {
@@ -526,19 +623,8 @@ async function main() {
     department: deptBreakdown,
     stageMetrics,
     // Closed reqs for historical wins/losses view
-    closedReqs: records
-      .filter(r => ['Hired', 'Canceled', 'Failed Search', 'Complete'].includes(getProp(r, 'Stage', 'select')))
-      .map(r => ({
-        title: getProp(r, 'Requistion Title', 'title') || getProp(r, 'Requisition Title', 'title') || getProp(r, 'Name', 'title') || 'Untitled',
-        reqId: getProp(r, 'Requisition ID', 'text') || getProp(r, 'Requisition ID', 'number') || '',
-        owner: (() => { const p = getProp(r, 'Owner', 'person'); return p?.name || p?.person?.email || 'Unassigned'; })(),
-        campus: getProp(r, 'Campus', 'select') || '',
-        stage: getProp(r, 'Stage', 'select') || '',
-        department: getProp(r, 'Department/College', 'text') || '',
-        ttf: getProp(r, 'Time to Fill (Days)', 'formula_number') || 0,
-        notionUrl: `https://www.notion.so/${(r.id || '').replace(/-/g, '')}`
-      }))
-      .sort((a, b) => (b.ttf || 0) - (a.ttf || 0)),
+    closedReqs: closedReqsData,
+    insights: insightsData,
     recruiters,
 
     // Data quality — flags records missing critical fields
