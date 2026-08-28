@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T20:58:50.440Z",
+  "lastUpdated": "2026-08-28T05:17:02.427Z",
   "summary": {
     "openReqs": 832,
     "avgTimeToFill": 94,
@@ -90,21 +90,21 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 183
+      "count": 184
     },
     {
       "label": "🟡 3-5",
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 5
+      "count": 8
     },
     {
       "label": "🟢 0–2",
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 19
+      "count": 14
     }
   ],
   "agingRecords": [
@@ -161,6 +161,16 @@
           "stage": "Backlog",
           "agingBand": "🔴 6+",
           "department": "171400 - Teaching & Learning"
+        },
+        {
+          "title": "Research Support Assistant",
+          "reqId": "44257",
+          "notionUrl": "https://www.notion.so/63373053ede04e6993ba18eae5566b97",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🔴 6+",
+          "department": "210700 - Chemical & Biomedical Engineering"
         },
         {
           "title": "Accounts Payable Specialist I",
@@ -1949,14 +1959,14 @@
       "color": "#BA7517",
       "records": [
         {
-          "title": "Research Support Assistant",
-          "reqId": "44257",
-          "notionUrl": "https://www.notion.so/63373053ede04e6993ba18eae5566b97",
+          "title": "Teaching Artist",
+          "reqId": "44269",
+          "notionUrl": "https://www.notion.so/020d31230ad64304890a553637afc454",
           "owner": "Gabriel",
           "campus": "Tampa",
           "stage": "Backlog",
           "agingBand": "🟡 3–5",
-          "department": "210700 - Chemical & Biomedical Engineering"
+          "department": "177600 - Ctr For Res,Eval,Assmnt&Measre"
         },
         {
           "title": "Preschool Assistant Teacher",
@@ -1997,6 +2007,36 @@
           "stage": "Interview Stage",
           "agingBand": "🟡 3–5",
           "department": "170100 - COE Dean's Office"
+        },
+        {
+          "title": "International Program Administrator II",
+          "reqId": "43963",
+          "notionUrl": "https://www.notion.so/87cd8d5ea0f946ceab8ac9ce38c8eae8",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟡 3–5",
+          "department": "490000 - USF World"
+        },
+        {
+          "title": "Student Programs Coordinator",
+          "reqId": "42905",
+          "notionUrl": "https://www.notion.so/f37b59bd18f94094b3c528c2fe8a15ee",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Offer Stage",
+          "agingBand": "🟡 3–5",
+          "department": "044100 - Ctr For Student Involvement"
+        },
+        {
+          "title": "Enrollment Management Analyst",
+          "reqId": "43881",
+          "notionUrl": "https://www.notion.so/6d5c12fc312f41c990814a37d5a424c3",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Offer Stage",
+          "agingBand": "🟡 3–5",
+          "department": "STP Registrar"
         }
       ]
     },
@@ -2004,16 +2044,6 @@
       "band": "🟢 0–2",
       "color": "#3B6D11",
       "records": [
-        {
-          "title": "Teaching Artist",
-          "reqId": "44269",
-          "notionUrl": "https://www.notion.so/020d31230ad64304890a553637afc454",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Backlog",
-          "agingBand": "🟢 0–2",
-          "department": "177600 - Ctr For Res,Eval,Assmnt&Measre"
-        },
         {
           "title": "Pre-School Teacher",
           "reqId": "44277",
@@ -2115,36 +2145,6 @@
           "department": "College of Education "
         },
         {
-          "title": "International Program Administrator II",
-          "reqId": "43963",
-          "notionUrl": "https://www.notion.so/87cd8d5ea0f946ceab8ac9ce38c8eae8",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Backlog",
-          "agingBand": "🟢 0–2",
-          "department": "490000 - USF World"
-        },
-        {
-          "title": "Student Programs Coordinator",
-          "reqId": "42905",
-          "notionUrl": "https://www.notion.so/f37b59bd18f94094b3c528c2fe8a15ee",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Offer Stage",
-          "agingBand": "🟢 0–2",
-          "department": "044100 - Ctr For Student Involvement"
-        },
-        {
-          "title": "Enrollment Management Analyst",
-          "reqId": "43881",
-          "notionUrl": "https://www.notion.so/6d5c12fc312f41c990814a37d5a424c3",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Offer Stage",
-          "agingBand": "🟢 0–2",
-          "department": "STP Registrar"
-        },
-        {
           "title": "Academic Advisor I ",
           "reqId": "43719",
           "notionUrl": "https://www.notion.so/99ecc3530d9348958159d791ba69bbda",
@@ -2153,16 +2153,6 @@
           "stage": "Offer Stage",
           "agingBand": "🟢 0–2",
           "department": "MUMA"
-        },
-        {
-          "title": "Assistant Director IT Audit",
-          "reqId": "43823",
-          "notionUrl": "https://www.notion.so/baf0c4c1f29442719ee4bd12a7959953",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🟢 0–2",
-          "department": "014000 - Office Of Internal Audit"
         },
         {
           "title": "Supplier Services Specialist",
@@ -2399,49 +2389,49 @@
   "stageMetrics": [
     {
       "label": "Sourced",
-      "avgDays": 14,
+      "avgDays": 15,
       "count": 1,
       "color": "#00A693"
     },
     {
       "label": "Recruiter Review",
-      "avgDays": 26,
-      "count": 47,
+      "avgDays": 27,
+      "count": 48,
       "color": "#006747"
     },
     {
       "label": "HM Review",
-      "avgDays": 18,
-      "count": 11,
+      "avgDays": 17,
+      "count": 12,
       "color": "#534AB7"
     },
     {
       "label": "Interview Stage",
-      "avgDays": 23,
-      "count": 11,
+      "avgDays": 22,
+      "count": 12,
       "color": "#d4880a"
     },
     {
       "label": "Offer Stage",
-      "avgDays": 23,
-      "count": 16,
+      "avgDays": 18,
+      "count": 21,
       "color": "#CFC483"
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 19,
+      "avgDays": 20,
       "count": 9,
       "color": "#5B8FA8"
     },
     {
       "label": "Backlog",
       "avgDays": 16,
-      "count": 12,
+      "count": 13,
       "color": "#888780"
     },
     {
       "label": "Hired",
-      "avgDays": 61,
+      "avgDays": 62,
       "count": 91,
       "color": "#888780"
     }
@@ -2504,7 +2494,7 @@
       "campus": "Tampa",
       "stage": "Canceled",
       "department": "041500 - Counseling Center",
-      "ttf": 216,
+      "ttf": 217,
       "notionUrl": "https://www.notion.so/62b088df4d81447994bcd7e8ccf00a22"
     },
     {
@@ -2564,7 +2554,7 @@
       "campus": "Tampa",
       "stage": "Canceled",
       "department": "047700 - Career & Professional Dev",
-      "ttf": 164,
+      "ttf": 165,
       "notionUrl": "https://www.notion.so/38cc22579bda4f159365f3843a6482e3"
     },
     {
@@ -2644,7 +2634,7 @@
       "campus": "Tampa",
       "stage": "Failed Search",
       "department": "051000 - Athletic Administration",
-      "ttf": 106,
+      "ttf": 107,
       "notionUrl": "https://www.notion.so/a0239e74bd2a46dbb004af24c7ae0ccb"
     },
     {
@@ -2674,7 +2664,7 @@
       "campus": "USF Health",
       "stage": "Canceled",
       "department": "USF Health",
-      "ttf": 84,
+      "ttf": 85,
       "notionUrl": "https://www.notion.so/f65bb0ca92484373a5a3009a2c7d5b47"
     },
     {
@@ -2810,7 +2800,7 @@
       "reqs": 31,
       "filled": 0,
       "failed": 0,
-      "ttf": 93,
+      "ttf": 94,
       "wip": 13,
       "agingRecords": [
         {
@@ -2913,13 +2903,13 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 55,
+          "avgDays": 56,
           "count": 6,
           "color": "#006747"
         },
         {
           "label": "Backlog",
-          "avgDays": 57,
+          "avgDays": 58,
           "count": 2,
           "color": "#888780"
         }
@@ -3000,7 +2990,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 93,
+          "value": 94,
           "target": 40,
           "invert": true
         },
@@ -3018,12 +3008,12 @@
         }
       ],
       "trend": [
-        93,
-        93,
-        93,
-        93,
-        93,
-        93
+        94,
+        94,
+        94,
+        94,
+        94,
+        94
       ]
     },
     {
@@ -3037,7 +3027,7 @@
       "reqs": 358,
       "filled": 0,
       "failed": 21,
-      "ttf": 105,
+      "ttf": 106,
       "wip": 8,
       "agingRecords": [
         {
@@ -3670,25 +3660,25 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 35,
+          "avgDays": 36,
           "count": 12,
           "color": "#006747"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 13,
+          "avgDays": 14,
           "count": 1,
           "color": "#d4880a"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 44,
+          "avgDays": 45,
           "count": 4,
           "color": "#CFC483"
         },
         {
           "label": "Hired",
-          "avgDays": 55,
+          "avgDays": 56,
           "count": 44,
           "color": "#888780"
         }
@@ -3794,7 +3784,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 105,
+          "value": 106,
           "target": 40,
           "invert": true
         },
@@ -3812,12 +3802,12 @@
         }
       ],
       "trend": [
-        105,
-        105,
-        105,
-        105,
-        105,
-        105
+        106,
+        106,
+        106,
+        106,
+        106,
+        106
       ]
     },
     {
@@ -3831,7 +3821,7 @@
       "reqs": 168,
       "filled": 0,
       "failed": 11,
-      "ttf": 97,
+      "ttf": 98,
       "wip": 14,
       "agingRecords": [
         {
@@ -4433,7 +4423,28 @@
         {
           "band": "🟡 3-5",
           "color": "#BA7517",
-          "records": []
+          "records": [
+            {
+              "title": "International Program Administrator II",
+              "reqId": "43963",
+              "notionUrl": "https://www.notion.so/87cd8d5ea0f946ceab8ac9ce38c8eae8",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟡 3–5",
+              "department": "490000 - USF World"
+            },
+            {
+              "title": "Student Programs Coordinator",
+              "reqId": "42905",
+              "notionUrl": "https://www.notion.so/f37b59bd18f94094b3c528c2fe8a15ee",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Offer Stage",
+              "agingBand": "🟡 3–5",
+              "department": "044100 - Ctr For Student Involvement"
+            }
+          ]
         },
         {
           "band": "🟢 0–2",
@@ -4470,36 +4481,6 @@
               "department": "380600 - UGS Academic Advising - Athletics"
             },
             {
-              "title": "International Program Administrator II",
-              "reqId": "43963",
-              "notionUrl": "https://www.notion.so/87cd8d5ea0f946ceab8ac9ce38c8eae8",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Backlog",
-              "agingBand": "🟢 0–2",
-              "department": "490000 - USF World"
-            },
-            {
-              "title": "Student Programs Coordinator",
-              "reqId": "42905",
-              "notionUrl": "https://www.notion.so/f37b59bd18f94094b3c528c2fe8a15ee",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Offer Stage",
-              "agingBand": "🟢 0–2",
-              "department": "044100 - Ctr For Student Involvement"
-            },
-            {
-              "title": "Assistant Director IT Audit",
-              "reqId": "43823",
-              "notionUrl": "https://www.notion.so/baf0c4c1f29442719ee4bd12a7959953",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🟢 0–2",
-              "department": "014000 - Office Of Internal Audit"
-            },
-            {
               "title": "Supplier Services Specialist",
               "reqId": "43649",
               "notionUrl": "https://www.notion.so/38f9ddf757a080f1bc04c853567b5c5d",
@@ -4515,43 +4496,43 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 12,
+          "avgDays": 13,
           "count": 12,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 21,
+          "avgDays": 22,
           "count": 5,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 29,
+          "avgDays": 30,
           "count": 8,
           "color": "#d4880a"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 13,
-          "count": 3,
+          "avgDays": 11,
+          "count": 4,
           "color": "#CFC483"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 19,
+          "avgDays": 20,
           "count": 9,
           "color": "#5B8FA8"
         },
         {
           "label": "Hired",
-          "avgDays": 71,
+          "avgDays": 72,
           "count": 23,
           "color": "#888780"
         },
         {
           "label": "Backlog",
-          "avgDays": 11,
+          "avgDays": 12,
           "count": 3,
           "color": "#888780"
         }
@@ -4616,14 +4597,14 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 0
+          "count": 2
         },
         {
           "label": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 7
+          "count": 4
         }
       ],
       "funnel": [
@@ -4657,7 +4638,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 97,
+          "value": 98,
           "target": 40,
           "invert": true
         },
@@ -4675,12 +4656,12 @@
         }
       ],
       "trend": [
-        97,
-        97,
-        97,
-        97,
-        97,
-        97
+        98,
+        98,
+        98,
+        98,
+        98,
+        98
       ]
     },
     {
@@ -4694,7 +4675,7 @@
       "reqs": 199,
       "filled": 0,
       "failed": 2,
-      "ttf": 74,
+      "ttf": 73,
       "wip": 6,
       "agingRecords": [
         {
@@ -4730,6 +4711,16 @@
               "stage": "Backlog",
               "agingBand": "🔴 6+",
               "department": "171400 - Teaching & Learning"
+            },
+            {
+              "title": "Research Support Assistant",
+              "reqId": "44257",
+              "notionUrl": "https://www.notion.so/63373053ede04e6993ba18eae5566b97",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🔴 6+",
+              "department": "210700 - Chemical & Biomedical Engineering"
             },
             {
               "title": "Preschool Assistant Teacher",
@@ -5238,14 +5229,14 @@
           "color": "#BA7517",
           "records": [
             {
-              "title": "Research Support Assistant",
-              "reqId": "44257",
-              "notionUrl": "https://www.notion.so/63373053ede04e6993ba18eae5566b97",
+              "title": "Teaching Artist",
+              "reqId": "44269",
+              "notionUrl": "https://www.notion.so/020d31230ad64304890a553637afc454",
               "owner": "Gabriel",
               "campus": "Tampa",
               "stage": "Backlog",
               "agingBand": "🟡 3–5",
-              "department": "210700 - Chemical & Biomedical Engineering"
+              "department": "177600 - Ctr For Res,Eval,Assmnt&Measre"
             },
             {
               "title": "Preschool Assistant Teacher",
@@ -5286,6 +5277,16 @@
               "stage": "Interview Stage",
               "agingBand": "🟡 3–5",
               "department": "170100 - COE Dean's Office"
+            },
+            {
+              "title": "Enrollment Management Analyst",
+              "reqId": "43881",
+              "notionUrl": "https://www.notion.so/6d5c12fc312f41c990814a37d5a424c3",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Offer Stage",
+              "agingBand": "🟡 3–5",
+              "department": "STP Registrar"
             }
           ]
         },
@@ -5293,16 +5294,6 @@
           "band": "🟢 0–2",
           "color": "#3B6D11",
           "records": [
-            {
-              "title": "Teaching Artist",
-              "reqId": "44269",
-              "notionUrl": "https://www.notion.so/020d31230ad64304890a553637afc454",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Backlog",
-              "agingBand": "🟢 0–2",
-              "department": "177600 - Ctr For Res,Eval,Assmnt&Measre"
-            },
             {
               "title": "Pre-School Teacher",
               "reqId": "44277",
@@ -5374,16 +5365,6 @@
               "department": "College of Education "
             },
             {
-              "title": "Enrollment Management Analyst",
-              "reqId": "43881",
-              "notionUrl": "https://www.notion.so/6d5c12fc312f41c990814a37d5a424c3",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Offer Stage",
-              "agingBand": "🟢 0–2",
-              "department": "STP Registrar"
-            },
-            {
               "title": "Academic Advisor I ",
               "reqId": "43719",
               "notionUrl": "https://www.notion.so/99ecc3530d9348958159d791ba69bbda",
@@ -5419,43 +5400,43 @@
       "stageMetrics": [
         {
           "label": "Sourced",
-          "avgDays": 14,
+          "avgDays": 15,
           "count": 1,
           "color": "#00A693"
         },
         {
           "label": "Recruiter Review",
-          "avgDays": 7,
-          "count": 11,
+          "avgDays": 8,
+          "count": 12,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 16,
-          "count": 6,
+          "avgDays": 14,
+          "count": 7,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
           "avgDays": 2,
-          "count": 2,
+          "count": 3,
           "color": "#d4880a"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 16,
-          "count": 9,
+          "avgDays": 12,
+          "count": 13,
           "color": "#CFC483"
         },
         {
           "label": "Backlog",
-          "avgDays": 6,
-          "count": 7,
+          "avgDays": 7,
+          "count": 8,
           "color": "#888780"
         },
         {
           "label": "Hired",
-          "avgDays": 63,
+          "avgDays": 64,
           "count": 24,
           "color": "#888780"
         }
@@ -5528,21 +5509,21 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 51
+          "count": 52
         },
         {
           "label": "🟡 3-5",
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 5
+          "count": 6
         },
         {
           "label": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 12
+          "count": 10
         }
       ],
       "funnel": [
@@ -5576,7 +5557,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 74,
+          "value": 73,
           "target": 40,
           "invert": true
         },
@@ -5594,12 +5575,12 @@
         }
       ],
       "trend": [
-        74,
-        74,
-        74,
-        74,
-        74,
-        74
+        73,
+        73,
+        73,
+        73,
+        73,
+        73
       ]
     },
     {
@@ -5613,7 +5594,7 @@
       "reqs": 150,
       "filled": 0,
       "failed": 1,
-      "ttf": 60,
+      "ttf": 61,
       "wip": 0,
       "agingRecords": [
         {
@@ -5696,7 +5677,7 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 43,
+          "avgDays": 44,
           "count": 6,
           "color": "#006747"
         }
@@ -5782,7 +5763,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 60,
+          "value": 61,
           "target": 40,
           "invert": true
         },
@@ -5800,12 +5781,12 @@
         }
       ],
       "trend": [
-        60,
-        60,
-        60,
-        60,
-        60,
-        60
+        61,
+        61,
+        61,
+        61,
+        61,
+        61
       ]
     }
   ],
