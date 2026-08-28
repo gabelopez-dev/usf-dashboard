@@ -215,7 +215,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; b
 
 <div class="nav" id="navTabs">
   <div class="nav-tab" data-page="main" style="background:#006747;" onclick="showPage(this)">Main</div>
-  <div class="nav-tab" data-page="closed" style="background:#5B7A8A;" onclick="showPage(this)">Closed Reqs</div>
+  <div class="nav-tab" data-page="insights" style="background:#00A693;" onclick="showPage(this)">Insights &#10024;</div>
   <div class="nav-tab" data-page="quality" style="background:#993556;" onclick="showPage(this)">Data Quality</div>
 </div>
 
@@ -343,12 +343,13 @@ function renderMainPage(data) {
   html += `<div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:12px;">
     <!-- Left column: Campus + Req Type stacked -->
     <div style="display:flex; flex-direction:column; gap:12px;">
-      <div class="card" style="display:flex;flex-direction:column;align-items:center;flex:1;">
-        <div class="card-title" style="width:100%;">Jobs by Campus</div>
+      <div class="card" style="flex:0;">
+        <div class="card-title">Jobs by Campus</div>
         ${campusTotal > 0 ? `
-        <div class="donut-wrap"><canvas id="donutCampus"></canvas><div class="donut-center"><div class="donut-center-num">${campusTotal}</div><div class="donut-center-lbl">Total</div></div></div>
-        <div class="legend">${legendHTML(campusItems)}</div>
-        ` : `<div class="donut-pending"><div class="donut-pending-text">No campus<br>data yet</div></div>`}
+        <div style="display:flex; flex-wrap:wrap; gap:6px 16px;">
+          ${campusItems.map(c => `<div style="font-size:12px; color:#555;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:${c.color};margin-right:6px;"></span>${c.label} ${Math.round((c.count / campusTotal) * 100)}%</div>`).join('')}
+        </div>
+        ` : `<p class="pending-note">No campus data yet</p>`}
       </div>
       <div class="card" style="display:flex;flex-direction:column;align-items:center;flex:1;">
         <div class="card-title" style="width:100%;">Reqs by Service Level</div>
@@ -372,32 +373,6 @@ function renderMainPage(data) {
       <div class="card-title">Job Aging Heatmap</div>
       <p style="font-size:10px;color:#bbb;font-style:italic;margin-bottom:10px;">Click any band to drill into stalled reqs and highlight departments</p>
       ${(() => { currentAgingRecords = data.agingRecords || null; return renderAgingHeatmap(data.mainAging || [], data.agingRecords || null, 'main'); })()}
-    </div>
-  </div>`;
-
-  html += `<!-- Reqs by College / Department — horizontal bar chart -->
-  <div class="row">
-    <div class="card">
-      <div class="card-title">Reqs by College / Department</div>
-      <div id="deptBarResetHint" style="display:none;font-size:10px;color:#c0392b;font-style:italic;margin-bottom:8px;cursor:pointer;" onclick="clearDeptHighlight()">
-        🔴 Highlighting stalled depts — click here to clear
-      </div>
-      ${deptTotal > 0 ? (() => {
-        const maxCount = Math.max(...deptItems.map(d => d.count), 1);
-        const bars = deptItems.map(d => {
-          const widthPct = Math.max(3, Math.round((d.count / maxCount) * 100));
-          const isOther = d.label.startsWith('Other');
-          return `<div class="dept-bar-row" data-dept="${d.label}" style="display:flex;align-items:center;gap:10px;margin-bottom:6px;transition:opacity .2s;">
-            <span style="font-size:11px;color:${isOther ? '#aaa' : '#555'};font-style:${isOther ? 'italic' : 'normal'};width:320px;flex-shrink:0;text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;" title="${d.label}">${d.label}</span>
-            <div style="flex:1;background:#f0efeb;border-radius:3px;height:20px;">
-              <div class="dept-bar-fill" style="width:${widthPct}%;background:${isOther ? '#c8c7c2' : d.color};border-radius:3px;height:20px;display:flex;align-items:center;padding-left:7px;min-width:28px;transition:box-shadow .2s;">
-                <span style="font-size:11px;font-weight:700;color:${d.color === '#CFC483' ? '#004d35' : '#fff'};">${d.count}</span>
-              </div>
-            </div>
-          </div>`;
-        }).join('');
-        return `${bars}<div style="font-size:10px;color:#bbb;font-style:italic;text-align:right;margin-top:6px;">${deptTotal} active reqs total</div>`;
-      })() : `<p class="pending-note">No Department/College data yet — field not set on records in Notion</p>`}
     </div>
   </div>`;
 
@@ -455,7 +430,18 @@ function renderMainPage(data) {
     </div>`;
   }
 
-  // Stage Conversion Rates (proxy — based on current stage counts)
+  document.getElementById('page-main').innerHTML = html;
+
+  if (statusTotal > 0) {
+    buildDonut('donutWorked', statusEntries.map(([l])=>l), statusEntries.map(([,v])=>v.count), statusEntries.map(([,v])=>v.color));
+  }
+  if (reqTypeTotal > 0) {
+    buildDonut('donutReqType', reqTypeItems.map(r=>r.label), reqTypeItems.map(r=>r.count), reqTypeItems.map(r=>r.color));
+  }
+}
+
+function renderInsightsPage(data) {
+  // Stage Conversion Rates — relocated from Main (live, based on current stage counts)
   const funnelMap = {};
   (data.mainFunnel || []).forEach(f => { funnelMap[f.label] = f.count; });
   const hired = data.summary?.filledYTD || 0;
@@ -498,32 +484,125 @@ function renderMainPage(data) {
 
   const overallPct = totalReqs > 0 ? Math.round((hired / totalReqs) * 100) : 0;
 
-  html += `<div class="row row-half">
+  const placeholderCard = (title, desc, status, statusColor) => `
+    <div class="card">
+      <div class="card-title">${title}</div>
+      <p style="font-size:11px; color:#888; margin-bottom:14px; line-height:1.4;">${desc}</p>
+      <div style="font-size:10px; font-weight:700; color:${statusColor}; text-transform:uppercase; letter-spacing:0.04em;">&#9679; ${status}</div>
+    </div>`;
+
+  const emptyNote = text => `<p class="pending-note">${text}</p>`;
+
+  // Generic horizontal bar list — reused for TTF-by-X and Top Hiring Departments.
+  // Trailing "N reqs" label is skipped when it would just repeat the bar's own value.
+  const barListHTML = (items, labelKey, valueKey, unit, colorFn) => {
+    if (!items.length) return emptyNote('No data yet');
+    const maxVal = Math.max(...items.map(i => i[valueKey]), 1);
+    return items.map(i => {
+      const widthPct = Math.max(8, Math.round((i[valueKey] / maxVal) * 100));
+      const color = colorFn(i);
+      const showTrailingCount = valueKey !== 'count' && i.count !== undefined;
+      return `<div style="display:flex; align-items:center; gap:10px; margin-bottom:8px;">
+        <span style="font-size:11px; color:#555; width:110px; flex-shrink:0; text-align:right; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;" title="${i[labelKey]}">${i[labelKey]}</span>
+        <div style="flex:1; background:#f0efeb; border-radius:4px; height:22px;">
+          <div style="width:${widthPct}%; background:${color}; border-radius:4px; height:22px; display:flex; align-items:center; padding-left:8px; min-width:36px;">
+            <span style="font-size:11px; font-weight:700; color:#fff;">${i[valueKey]}${unit}</span>
+          </div>
+        </div>
+        ${showTrailingCount ? `<span style="font-size:10px; color:#aaa; width:52px; flex-shrink:0; white-space:nowrap;">${i.count} reqs</span>` : `<span style="width:52px; flex-shrink:0;"></span>`}
+      </div>`;
+    }).join('');
+  };
+
+  // Fill Rate by Department — cancellations shown as a separate note, not blended into the rate
+  const fillRateHTML = (() => {
+    const items = data.insights?.fillRateByDept || [];
+    if (!items.length) return emptyNote('No closed reqs yet');
+    return items.slice(0, 8).map(d => {
+      const pct = d.fillRatePct;
+      const barColor = pct === null ? '#ccc' : pct >= 70 ? '#006747' : pct >= 40 ? '#d4880a' : '#c0392b';
+      return `<div style="margin-bottom:11px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:3px;">
+          <span style="font-size:11px; color:#555; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; max-width:200px;" title="${d.department}">${d.department}</span>
+          <span style="font-size:12px; font-weight:700; color:${barColor};">${pct === null ? 'N/A' : pct + '%'}</span>
+        </div>
+        <div style="background:#f0efeb; border-radius:4px; height:8px;">
+          <div style="width:${pct || 0}%; background:${barColor}; border-radius:4px; height:8px;"></div>
+        </div>
+        <div style="font-size:9px; color:#aaa; margin-top:2px;">${d.filled} filled, ${d.failed} failed${d.cancelled ? `, ${d.cancelled} cancelled (excluded from rate)` : ''}</div>
+      </div>`;
+    }).join('');
+  })();
+
+  // Stall Rate by Recruiter
+  const stallRateHTML = (() => {
+    const items = data.insights?.stallRateByRecruiter || [];
+    if (!items.length) return emptyNote('No recruiter data yet');
+    return items.map(r => {
+      const barColor = r.stallRatePct >= 50 ? '#c0392b' : r.stallRatePct >= 25 ? '#d4880a' : '#006747';
+      return `<div style="display:flex; align-items:center; gap:10px; margin-bottom:8px;">
+        <span style="font-size:11px; color:${r.color || '#555'}; font-weight:600; width:70px; flex-shrink:0; text-align:right;">${r.recruiter}</span>
+        <div style="flex:1; background:#f0efeb; border-radius:4px; height:22px;">
+          <div style="width:${Math.max(6, r.stallRatePct)}%; background:${barColor}; border-radius:4px; height:22px; display:flex; align-items:center; padding-left:8px; min-width:32px;">
+            <span style="font-size:11px; font-weight:700; color:#fff;">${r.stallRatePct}%</span>
+          </div>
+        </div>
+        <span style="font-size:10px; color:#aaa; width:78px; flex-shrink:0; white-space:nowrap;">${r.stalled} of ${r.totalActive}</span>
+      </div>`;
+    }).join('');
+  })();
+
+  const ttfByReqType = (data.insights?.avgTTFByReqType || []).map(i => ({ label: i.reqType, avgDays: i.avgDays, count: i.count }));
+  const ttfByCampus = (data.insights?.avgTTFByCampus || []).map(i => ({ label: i.campus, avgDays: i.avgDays, count: i.count }));
+  const topDepts = (data.insights?.topHiringDepartments || []).slice(0, 8).map(i => ({ label: i.department, count: i.count, val: i.count }));
+
+  let html = `
+  <p style="font-size:11px;color:#bbb;font-style:italic;margin-bottom:14px;">Internal Market Intelligence — built on our own recruiting data</p>
+
+  <!-- Row 1: Fill & Conversion Performance -->
+  <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:12px; margin-bottom:12px;">
+    <div class="card">
+      <div class="card-title">Fill Rate by Department</div>
+      <p style="font-size:10px; color:#bbb; font-style:italic; margin-bottom:12px;">Hired ÷ (Hired + Failed). Cancellations tracked separately — not counted against the rate.</p>
+      ${fillRateHTML}
+    </div>
     <div class="card">
       <div class="card-title">Stage Conversion Rates</div>
       <p style="font-size:10px; color:#bbb; font-style:italic; margin-bottom:12px;">Proxy — based on current req counts per stage. N/A = no reqs currently at that stage.</p>
       ${conversionRows}
     </div>
-    <div class="card" style="display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center;">
-      <div class="card-title" style="width:100%;">Overall Conversion</div>
-      <div style="font-size:56px; font-weight:700; color:${overallPct >= 20 ? '#006747' : overallPct >= 10 ? '#d4880a' : '#c0392b'}; line-height:1; margin:16px 0 8px;">${overallPct}%</div>
-      <div style="font-size:12px; color:#888;">${hired} filled YTD of ${totalReqs} active reqs</div>
-      <div style="font-size:10px; color:#bbb; margin-top:8px; font-style:italic;">Filled YTD ÷ Current active pipeline</div>
-      <div style="font-size:10px; color:#bbb; margin-top:4px; font-style:italic;">Not a funnel rate — snapshot metric</div>
+    <div class="card">
+      <div class="card-title">Avg TTF by Req Type</div>
+      <p style="font-size:10px; color:#bbb; font-style:italic; margin-bottom:12px;">Hired/Complete reqs only.</p>
+      ${barListHTML(ttfByReqType, 'label', 'avgDays', 'd', () => '#534AB7')}
     </div>
+  </div>
+
+  <!-- Row 2: Time & Location -->
+  <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:12px; margin-bottom:12px;">
+    <div class="card">
+      <div class="card-title">Avg TTF by Campus</div>
+      <p style="font-size:10px; color:#bbb; font-style:italic; margin-bottom:12px;">Hired/Complete reqs only.</p>
+      ${barListHTML(ttfByCampus, 'label', 'avgDays', 'd', () => '#1B6A9C')}
+    </div>
+    <div class="card">
+      <div class="card-title">Top Hiring Departments</div>
+      <p style="font-size:10px; color:#bbb; font-style:italic; margin-bottom:12px;">Total reqs opened, active + closed.</p>
+      ${barListHTML(topDepts, 'label', 'count', '', () => '#00A693')}
+    </div>
+    <div class="card">
+      <div class="card-title">Stall Rate by Recruiter</div>
+      <p style="font-size:10px; color:#bbb; font-style:italic; margin-bottom:12px;">% of each recruiter's active reqs in the 🔴 6+ day aging band.</p>
+      ${stallRateHTML}
+    </div>
+  </div>
+
+  <!-- Row 3: Trends (isolated — blocked on data quality) -->
+  <div class="row">
+    ${placeholderCard('Seasonal Hiring Trends', 'When does USF hiring spike? Monthly req opens and fills to identify peak seasons and plan ahead.', 'Needs date fields', '#BA7517')}
   </div>`;
 
-  document.getElementById('page-main').innerHTML = html;
-
-  if (statusTotal > 0) {
-    buildDonut('donutWorked', statusEntries.map(([l])=>l), statusEntries.map(([,v])=>v.count), statusEntries.map(([,v])=>v.color));
-  }
-  if (campusTotal > 0) {
-    buildDonut('donutCampus', campusItems.map(c=>c.label), campusItems.map(c=>c.count), campusItems.map(c=>c.color));
-  }
-  if (reqTypeTotal > 0) {
-    buildDonut('donutReqType', reqTypeItems.map(r=>r.label), reqTypeItems.map(r=>r.count), reqTypeItems.map(r=>r.color));
-  }
+  return html;
 }
 
 function renderAgingHeatmap(aging, agingRecords, contextKey) {
@@ -864,11 +943,11 @@ function buildNav(recruiters) {
 function buildPages(recruiters) {
   const content = document.getElementById('content');
 
-  // Closed Reqs page
-  const closedDiv = document.createElement('div');
-  closedDiv.className = 'page';
-  closedDiv.id = 'page-closed';
-  content.appendChild(closedDiv);
+  // Insights page
+  const insightsDiv = document.createElement('div');
+  insightsDiv.className = 'page';
+  insightsDiv.id = 'page-insights';
+  content.appendChild(insightsDiv);
 
   // Data Quality page
   const qualityDiv = document.createElement('div');
@@ -1062,9 +1141,9 @@ async function loadDashboard() {
     buildPages(data.recruiters || []);
     renderMainPage(data);
 
-    // Render closed reqs page
-    const closedPage = document.getElementById('page-closed');
-    if (closedPage) closedPage.innerHTML = renderClosedPage(data.closedReqs || []);
+    // Render insights page
+    const insightsPage = document.getElementById('page-insights');
+    if (insightsPage) insightsPage.innerHTML = renderInsightsPage(data);
 
     // Render data quality page
     const qualityPage = document.getElementById('page-quality');
