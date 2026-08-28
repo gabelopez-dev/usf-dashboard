@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-08-28T15:25:33.995Z",
+  "lastUpdated": "2026-08-28T17:38:25.119Z",
   "summary": {
     "openReqs": 614,
     "avgTimeToFill": 94,
     "filledYTD": 206,
     "failedCancelled": 35,
-    "inOfferStage": 46
+    "inOfferStage": 45
   },
   "campus": [
     {
@@ -41,7 +41,7 @@
     },
     {
       "label": "HM Review",
-      "count": 160
+      "count": 159
     },
     {
       "label": "Student Hiring",
@@ -49,7 +49,7 @@
     },
     {
       "label": "Offer Stage",
-      "count": 46
+      "count": 45
     },
     {
       "label": "Backlog",
@@ -69,7 +69,7 @@
     },
     {
       "label": "Pre-boarding",
-      "count": 14
+      "count": 16
     },
     {
       "label": "Targeted",
@@ -100,7 +100,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 14
+      "count": 15
     }
   ],
   "agingRecords": [
@@ -1151,6 +1151,16 @@
           "department": "380600 - UGS Academic Advising - Athletics"
         },
         {
+          "title": "Department Operations Manager III",
+          "reqId": "44107",
+          "notionUrl": "https://www.notion.so/73095252052c4601bbfe6c53ccc2bba6",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Offer Stage",
+          "agingBand": "🟢 0–2",
+          "department": "121100 - Integrative Biology"
+        },
+        {
           "title": "Mail Clerk",
           "reqId": "44235",
           "notionUrl": "https://www.notion.so/a4730c4c615a4f509ceb8746942c1c48",
@@ -1226,7 +1236,7 @@
           "notionUrl": "https://www.notion.so/99ecc3530d9348958159d791ba69bbda",
           "owner": "Gabriel",
           "campus": "Tampa",
-          "stage": "Offer Stage",
+          "stage": "Pre-boarding",
           "agingBand": "🟢 0–2",
           "department": "MUMA"
         },
@@ -1236,7 +1246,7 @@
           "notionUrl": "https://www.notion.so/38f9ddf757a080f1bc04c853567b5c5d",
           "owner": "johncalebrese",
           "campus": "Tampa",
-          "stage": "Offer Stage",
+          "stage": "Pre-boarding",
           "agingBand": "🟢 0–2",
           "department": "027900 - Procurement & Payment Services"
         },
@@ -1419,14 +1429,14 @@
     },
     {
       "label": "Offer Stage",
-      "avgDays": 19,
-      "count": 22,
+      "avgDays": 21,
+      "count": 20,
       "color": "#CFC483"
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 21,
-      "count": 6,
+      "avgDays": 16,
+      "count": 8,
       "color": "#5B8FA8"
     },
     {
@@ -1444,6 +1454,7 @@
       "campus": "",
       "stage": "Canceled",
       "department": "060302 - University Advancement",
+      "reqType": "Active",
       "ttf": 528,
       "notionUrl": "https://www.notion.so/96c3ab2277434b62ad9616959f04e28a"
     },
@@ -1454,6 +1465,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "371000 - Admissions",
+      "reqType": "Active",
       "ttf": 429,
       "notionUrl": "https://www.notion.so/2a85ca3343cc4371b12a1a433a11b3b8"
     },
@@ -1464,6 +1476,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 387,
       "notionUrl": "https://www.notion.so/42232074dd554a04ae78261f43d9ca76"
     },
@@ -1474,6 +1487,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 359,
       "notionUrl": "https://www.notion.so/86594a4a41f44ffcb729ea10ad48b6fe"
     },
@@ -1484,6 +1498,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "460100 - Innovative Education",
+      "reqType": "Active",
       "ttf": 350,
       "notionUrl": "https://www.notion.so/2be25b77fd4a4dc998ca53259e5a7dda"
     },
@@ -1494,6 +1509,7 @@
       "campus": "USF Health",
       "stage": "Canceled",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 316,
       "notionUrl": "https://www.notion.so/3cdd601c74fe4596b6f64df24546ab86"
     },
@@ -1504,6 +1520,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 285,
       "notionUrl": "https://www.notion.so/32fe4521ae3e4bdd81675ddcce5edbf2"
     },
@@ -1514,6 +1531,7 @@
       "campus": "St. Petersburg",
       "stage": "Hired",
       "department": "250000 - College of Marine Science",
+      "reqType": "Evergreen",
       "ttf": 263,
       "notionUrl": "https://www.notion.so/7cee793ddc894f59b4439a451c5491d3"
     },
@@ -1524,6 +1542,7 @@
       "campus": "USF Health",
       "stage": "Canceled",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 259,
       "notionUrl": "https://www.notion.so/2383cf7580834bc9b49b1238b32f16a6"
     },
@@ -1534,6 +1553,7 @@
       "campus": "USF Health",
       "stage": "Canceled",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 259,
       "notionUrl": "https://www.notion.so/2efbb3084f1c478d8edcd9c5a8a9fd3e"
     },
@@ -1544,6 +1564,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 258,
       "notionUrl": "https://www.notion.so/6ce3d462907046f3a51f797586292e4f"
     },
@@ -1554,6 +1575,7 @@
       "campus": "USF Health",
       "stage": "Canceled",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 247,
       "notionUrl": "https://www.notion.so/8e380d9cc7274dda9b15105067cd8754"
     },
@@ -1564,6 +1586,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 245,
       "notionUrl": "https://www.notion.so/0cbe02330df84abea5cafdca09c524d1"
     },
@@ -1574,6 +1597,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "460100 - Innovative Education",
+      "reqType": "Active",
       "ttf": 233,
       "notionUrl": "https://www.notion.so/d0e2554a818948939ca9baa54a27956c"
     },
@@ -1584,6 +1608,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 222,
       "notionUrl": "https://www.notion.so/dd4acc2077034382a3f32a36665276e1"
     },
@@ -1594,6 +1619,7 @@
       "campus": "Tampa",
       "stage": "Canceled",
       "department": "041500 - Counseling Center",
+      "reqType": "Active",
       "ttf": 217,
       "notionUrl": "https://www.notion.so/62b088df4d81447994bcd7e8ccf00a22"
     },
@@ -1604,6 +1630,7 @@
       "campus": "USF Health",
       "stage": "Canceled",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 215,
       "notionUrl": "https://www.notion.so/27f7341f30f0440badb316559dabb365"
     },
@@ -1614,6 +1641,7 @@
       "campus": "Tampa",
       "stage": "Canceled",
       "department": "041500 - Counseling Center",
+      "reqType": "Active",
       "ttf": 203,
       "notionUrl": "https://www.notion.so/f7f7c7c0f7764184a29a13a1317ed71e"
     },
@@ -1624,6 +1652,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 186,
       "notionUrl": "https://www.notion.so/f9424f52e98040d693ebc67e2604ae2e"
     },
@@ -1634,6 +1663,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 182,
       "notionUrl": "https://www.notion.so/d7b75a0a34544b509b86fbb68211eaa6"
     },
@@ -1644,6 +1674,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 180,
       "notionUrl": "https://www.notion.so/6fd3b02e722347ccbb4dbf99c1363a55"
     },
@@ -1654,6 +1685,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 179,
       "notionUrl": "https://www.notion.so/3da40f0d0c144076a54bab06d1798f44"
     },
@@ -1664,6 +1696,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "041500 - Counseling Center",
+      "reqType": "Active",
       "ttf": 177,
       "notionUrl": "https://www.notion.so/122d77b8cf8e4f168002e58160986d73"
     },
@@ -1674,6 +1707,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Student",
       "ttf": 176,
       "notionUrl": "https://www.notion.so/1d5ac0b6b17642daadd710021d5d03b2"
     },
@@ -1684,6 +1718,7 @@
       "campus": "USF Health",
       "stage": "Canceled",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 168,
       "notionUrl": "https://www.notion.so/d625e919383944769926bc0c7e42e69c"
     },
@@ -1694,6 +1729,7 @@
       "campus": "USF Health",
       "stage": "Canceled",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 168,
       "notionUrl": "https://www.notion.so/b16dba877c4c4a21b901561f641ee526"
     },
@@ -1704,6 +1740,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 167,
       "notionUrl": "https://www.notion.so/fe91eb6ccb2e45d586b634c01e577816"
     },
@@ -1714,6 +1751,7 @@
       "campus": "USF Health",
       "stage": "Canceled",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 166,
       "notionUrl": "https://www.notion.so/8407620ac8064eac840c628d43240d89"
     },
@@ -1724,6 +1762,7 @@
       "campus": "Tampa",
       "stage": "Canceled",
       "department": "047700 - Career & Professional Dev",
+      "reqType": "Active",
       "ttf": 165,
       "notionUrl": "https://www.notion.so/38cc22579bda4f159365f3843a6482e3"
     },
@@ -1734,6 +1773,7 @@
       "campus": "Tampa",
       "stage": "Canceled",
       "department": "MUMA",
+      "reqType": "Evergreen",
       "ttf": 161,
       "notionUrl": "https://www.notion.so/dd24b580669a48a3a13700917732d386"
     },
@@ -1744,6 +1784,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 159,
       "notionUrl": "https://www.notion.so/e44fc327244d483d9db6ed4e1da13cb2"
     },
@@ -1754,6 +1795,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 156,
       "notionUrl": "https://www.notion.so/3a53636a33c848b3998f5f67fd0f8b67"
     },
@@ -1764,6 +1806,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "043600 - Residential Education",
+      "reqType": "Active",
       "ttf": 155,
       "notionUrl": "https://www.notion.so/724c36b00fbc4700b183fdcf85e00370"
     },
@@ -1774,6 +1817,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 155,
       "notionUrl": "https://www.notion.so/3fec54dd4d264a6aa8c6cd38215829c4"
     },
@@ -1784,6 +1828,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "027900 - Procurement & Payment Services",
+      "reqType": "Active",
       "ttf": 154,
       "notionUrl": "https://www.notion.so/38f9ddf757a08000aa11d2cbaa39d7b5"
     },
@@ -1794,6 +1839,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 152,
       "notionUrl": "https://www.notion.so/98435dc82294484681c541a5a0500c3b"
     },
@@ -1804,6 +1850,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "391000 - Fl Center For Cybersecurity",
+      "reqType": "Active",
       "ttf": 151,
       "notionUrl": "https://www.notion.so/8586bd559c47427f86434e72bdce61b6"
     },
@@ -1814,6 +1861,7 @@
       "campus": "USF Health",
       "stage": "Canceled",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 148,
       "notionUrl": "https://www.notion.so/7a13b88486144c1c83b02735e27454d8"
     },
@@ -1824,6 +1872,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "460100 - Innovative Education",
+      "reqType": "Active",
       "ttf": 147,
       "notionUrl": "https://www.notion.so/f4727e2535a24fb9b89d50bfb5890ae7"
     },
@@ -1834,6 +1883,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Student",
       "ttf": 146,
       "notionUrl": "https://www.notion.so/1a44bde46e5a48c5a50e77e05fd22a3a"
     },
@@ -1844,6 +1894,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "051000 - Athletic Administration",
+      "reqType": "Active",
       "ttf": 145,
       "notionUrl": "https://www.notion.so/2198856c7cf24a248ee475b8aaa7ea52"
     },
@@ -1854,6 +1905,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 142,
       "notionUrl": "https://www.notion.so/97b2114b6ad94c2380cf0b36ec079834"
     },
@@ -1864,6 +1916,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 142,
       "notionUrl": "https://www.notion.so/d11ce175d99d49d1a2645d14ff82e6fa"
     },
@@ -1874,6 +1927,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 141,
       "notionUrl": "https://www.notion.so/0c417e507d9d44039d3996c394b66d86"
     },
@@ -1884,6 +1938,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 138,
       "notionUrl": "https://www.notion.so/cde9bfad758948fa93b76246735b8673"
     },
@@ -1894,6 +1949,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "210800 - AICC Bellini College Department",
+      "reqType": "Active",
       "ttf": 135,
       "notionUrl": "https://www.notion.so/7935a925a41c45c2b80f202d0fa517c4"
     },
@@ -1904,6 +1960,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "026100 - University Police",
+      "reqType": "Active",
       "ttf": 132,
       "notionUrl": "https://www.notion.so/577448b373394db49c0cfd79e851a893"
     },
@@ -1914,6 +1971,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 131,
       "notionUrl": "https://www.notion.so/89e3694d5e70445fa8a37f83a2662af1"
     },
@@ -1924,6 +1982,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 131,
       "notionUrl": "https://www.notion.so/e053b871e90445c0a5862ca336432cb5"
     },
@@ -1934,6 +1993,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "MUMA",
+      "reqType": "Active",
       "ttf": 129,
       "notionUrl": "https://www.notion.so/b0ba6ceabf1d4b5586f6920af1512da3"
     },
@@ -1944,6 +2004,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 128,
       "notionUrl": "https://www.notion.so/5765d411973f46a1bab93527df0ef654"
     },
@@ -1954,6 +2015,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "047700 - Career & Professional Dev",
+      "reqType": "Active",
       "ttf": 127,
       "notionUrl": "https://www.notion.so/ab19ab2139fb4e7ba0df7a22058ed77e"
     },
@@ -1964,6 +2026,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "330000 - School of Architecture & Community Design",
+      "reqType": "Active",
       "ttf": 127,
       "notionUrl": "https://www.notion.so/004d89b5081c4e69abde7f93bceb88aa"
     },
@@ -1974,6 +2037,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "260000 - Honors College",
+      "reqType": "Active",
       "ttf": 127,
       "notionUrl": "https://www.notion.so/b623843d0abf4a018e352aa17d9182e5"
     },
@@ -1984,6 +2048,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 127,
       "notionUrl": "https://www.notion.so/fc51d4cc12014d6581b0160af3096b0c"
     },
@@ -1994,6 +2059,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 127,
       "notionUrl": "https://www.notion.so/0ec9384cf44948fdbf61529dcc1b2a99"
     },
@@ -2004,6 +2070,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "066200 - WUSF-FM",
+      "reqType": "Active",
       "ttf": 126,
       "notionUrl": "https://www.notion.so/38f9ddf757a080f9b350f669cf06128a"
     },
@@ -2014,6 +2081,7 @@
       "campus": "USF Health",
       "stage": "Canceled",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 126,
       "notionUrl": "https://www.notion.so/2ec59391fac949e2a96ceba67d1caed1"
     },
@@ -2024,6 +2092,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 124,
       "notionUrl": "https://www.notion.so/4bdb1118819740e7aaa80e744875b8eb"
     },
@@ -2034,6 +2103,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "388200 - UGS - Academic Advocacy",
+      "reqType": "Student",
       "ttf": 122,
       "notionUrl": "https://www.notion.so/372bdfc4d8134c0cb8d3387d06cd7361"
     },
@@ -2044,6 +2114,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Evergreen",
       "ttf": 120,
       "notionUrl": "https://www.notion.so/0f2cd5adebd844b787cdd391b75b91cb"
     },
@@ -2054,6 +2125,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 120,
       "notionUrl": "https://www.notion.so/68b8e4be9f644593b5aa7b7a32482a9e"
     },
@@ -2064,6 +2136,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 120,
       "notionUrl": "https://www.notion.so/78c847ff5fc64544859bc7a6695f9bf4"
     },
@@ -2074,6 +2147,7 @@
       "campus": "Tallahassee",
       "stage": "Canceled",
       "department": "Inst For School Comm Partnership",
+      "reqType": "Passive",
       "ttf": 119,
       "notionUrl": "https://www.notion.so/b82556a79b3948579ab83251c8624135"
     },
@@ -2084,6 +2158,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 118,
       "notionUrl": "https://www.notion.so/d0fe09e855ce457699b707cc2e190d7a"
     },
@@ -2094,6 +2169,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 117,
       "notionUrl": "https://www.notion.so/404951cb83f2471f92d4eb3f500b5ddc"
     },
@@ -2104,6 +2180,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "390000 - Graduate Studies",
+      "reqType": "Active",
       "ttf": 116,
       "notionUrl": "https://www.notion.so/0d23a97925734f28a32fa504d327f1ea"
     },
@@ -2114,6 +2191,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "490000 - USF World",
+      "reqType": "Active",
       "ttf": 116,
       "notionUrl": "https://www.notion.so/ec15ebd7cba941009faecf22873efe91"
     },
@@ -2124,6 +2202,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "066200 - WUSF-FM",
+      "reqType": "Active",
       "ttf": 114,
       "notionUrl": "https://www.notion.so/38f9ddf757a08002a178cf4a30cc7360"
     },
@@ -2134,6 +2213,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "490000 - USF World",
+      "reqType": "Active",
       "ttf": 113,
       "notionUrl": "https://www.notion.so/d64f2c3a23b247c592a95ef8550dac82"
     },
@@ -2144,6 +2224,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 113,
       "notionUrl": "https://www.notion.so/521fb65492bf4bedad9a8a6634971d5d"
     },
@@ -2154,6 +2235,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 113,
       "notionUrl": "https://www.notion.so/f5268fcc4a02469abb4df8823310d45e"
     },
@@ -2164,6 +2246,7 @@
       "campus": "Tampa",
       "stage": "Canceled",
       "department": "051000 - Athletic Administration",
+      "reqType": "Student",
       "ttf": 112,
       "notionUrl": "https://www.notion.so/5f09961461aa439eb22876a5537db5bc"
     },
@@ -2174,6 +2257,7 @@
       "campus": "USF Health",
       "stage": "Canceled",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 112,
       "notionUrl": "https://www.notion.so/94786f9457164c66898500a42df739b5"
     },
@@ -2184,6 +2268,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "380000 - Undergrad Stds-Deans Ofc Opera",
+      "reqType": "Active",
       "ttf": 111,
       "notionUrl": "https://www.notion.so/17ec4aa651664e95b1711e33b14cc1de"
     },
@@ -2194,6 +2279,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 111,
       "notionUrl": "https://www.notion.so/066c0418711d48d5abf3c3da0645a3a4"
     },
@@ -2204,6 +2290,7 @@
       "campus": "USF Health",
       "stage": "Canceled",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 111,
       "notionUrl": "https://www.notion.so/ee2e47f882f84966be507e6221c4b460"
     },
@@ -2214,6 +2301,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 108,
       "notionUrl": "https://www.notion.so/7ac018ef417142209c58244b1064e9ec"
     },
@@ -2224,6 +2312,7 @@
       "campus": "Tampa",
       "stage": "Failed Search",
       "department": "051000 - Athletic Administration",
+      "reqType": "Active",
       "ttf": 107,
       "notionUrl": "https://www.notion.so/a0239e74bd2a46dbb004af24c7ae0ccb"
     },
@@ -2234,6 +2323,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 107,
       "notionUrl": "https://www.notion.so/f11d0eb5f3964ea9b336dc2e4eb342e7"
     },
@@ -2244,6 +2334,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "026100 - University Police",
+      "reqType": "Active",
       "ttf": 107,
       "notionUrl": "https://www.notion.so/3d5ae48180dd4f73b3895e4dfb00073d"
     },
@@ -2254,6 +2345,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "616300 - Health Informatics Institute",
+      "reqType": "Active",
       "ttf": 107,
       "notionUrl": "https://www.notion.so/582c00cb6c8a4b11a78521a83fd06883"
     },
@@ -2264,6 +2356,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 107,
       "notionUrl": "https://www.notion.so/9b895a18281d42a9b3b9f723645d413f"
     },
@@ -2274,6 +2367,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 107,
       "notionUrl": "https://www.notion.so/e8e516421c7a41889088d5bf63ce238d"
     },
@@ -2284,6 +2378,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Evergreen",
       "ttf": 106,
       "notionUrl": "https://www.notion.so/e699e885676e4f2494ed239c18ef4807"
     },
@@ -2294,6 +2389,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "371000 - Admissions",
+      "reqType": "Active",
       "ttf": 105,
       "notionUrl": "https://www.notion.so/ecf0538eba8c497a9a7dd2072b087305"
     },
@@ -2304,6 +2400,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "380600 - UGS Academic Advising - Athletics",
+      "reqType": "Active",
       "ttf": 105,
       "notionUrl": "https://www.notion.so/86f0979e7dd646348d4e71bc8df786de"
     },
@@ -2314,6 +2411,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 105,
       "notionUrl": "https://www.notion.so/8d05e24bc21e48ccb1eb6b84410fa469"
     },
@@ -2324,6 +2422,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 105,
       "notionUrl": "https://www.notion.so/53a7a3cba4eb43e89e4b466acaf2d769"
     },
@@ -2334,6 +2433,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 104,
       "notionUrl": "https://www.notion.so/41d5acfe85d24ae7bf2a0cde407e57fc"
     },
@@ -2344,6 +2444,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Evergreen",
       "ttf": 103,
       "notionUrl": "https://www.notion.so/19ff4e621b914126a8ad99b883a52db6"
     },
@@ -2354,6 +2455,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 103,
       "notionUrl": "https://www.notion.so/36a2fba1a84a4af88e7382e498296ab7"
     },
@@ -2364,6 +2466,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "051000 - Athletic Administration",
+      "reqType": "Active",
       "ttf": 102,
       "notionUrl": "https://www.notion.so/858576eee41c48589eb158d289e93e0f"
     },
@@ -2374,6 +2477,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 102,
       "notionUrl": "https://www.notion.so/d0fa5ae69cf04af4b28e1b025a8b176c"
     },
@@ -2384,6 +2488,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 102,
       "notionUrl": "https://www.notion.so/e28434546da142e782618d6ab66c1026"
     },
@@ -2394,6 +2499,7 @@
       "campus": "Tampa",
       "stage": "Canceled",
       "department": "391000 - Fl Center For Cybersecurity",
+      "reqType": "Active",
       "ttf": 100,
       "notionUrl": "https://www.notion.so/94eb77c35ddb4f64ab5afc57bbbcbae8"
     },
@@ -2404,6 +2510,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "174400 - Fla Ctr For Instr Technology",
+      "reqType": "Active",
       "ttf": 98,
       "notionUrl": "https://www.notion.so/b13a698b9819468a90959bdcd9c6bf97"
     },
@@ -2414,6 +2521,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Evergreen",
       "ttf": 98,
       "notionUrl": "https://www.notion.so/1831ee35866640cfa12865cc37c35ba8"
     },
@@ -2424,6 +2532,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 97,
       "notionUrl": "https://www.notion.so/1c9664eb11b0458296956af272ad9ca0"
     },
@@ -2434,6 +2543,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Evergreen",
       "ttf": 97,
       "notionUrl": "https://www.notion.so/2daea70e6ba14715b7e524eb05987697"
     },
@@ -2444,6 +2554,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 97,
       "notionUrl": "https://www.notion.so/75ab67496ccd45d1bfd453372e3f712e"
     },
@@ -2454,6 +2565,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "041300 - Strategic Initiatives",
+      "reqType": "Active",
       "ttf": 95,
       "notionUrl": "https://www.notion.so/9492201f49cd41ae8898b9f114026461"
     },
@@ -2464,6 +2576,7 @@
       "campus": "USF Health",
       "stage": "Canceled",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 93,
       "notionUrl": "https://www.notion.so/ff5a0d7e00d94fa5bf234200119aa8ea"
     },
@@ -2474,6 +2587,7 @@
       "campus": "St. Petersburg",
       "stage": "Hired",
       "department": "Florida Inst of Oceanography",
+      "reqType": "Active",
       "ttf": 92,
       "notionUrl": "https://www.notion.so/dca63cbc77504f178f455fea1c7f0de6"
     },
@@ -2484,6 +2598,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "Engineering",
+      "reqType": "Active",
       "ttf": 91,
       "notionUrl": "https://www.notion.so/daf859b10469400e869da77a96ce1b94"
     },
@@ -2494,6 +2609,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "051000 - Athletic Administration",
+      "reqType": "Active",
       "ttf": 91,
       "notionUrl": "https://www.notion.so/2d45bdb8ba834c8080b7784bf7b678df"
     },
@@ -2504,6 +2620,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 91,
       "notionUrl": "https://www.notion.so/e5bc9d2365c943f0883be1a2ff7196e8"
     },
@@ -2514,6 +2631,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 90,
       "notionUrl": "https://www.notion.so/d3db39b56aeb46baa82e090956bb30db"
     },
@@ -2524,6 +2642,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Evergreen",
       "ttf": 90,
       "notionUrl": "https://www.notion.so/690a4562e88045a7b43a3cdca486290a"
     },
@@ -2534,6 +2653,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "512337 - Heart Institute - Core",
+      "reqType": "Active",
       "ttf": 89,
       "notionUrl": "https://www.notion.so/996db7ca4b5a4a0ea1aca5cf78ed5986"
     },
@@ -2544,6 +2664,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 88,
       "notionUrl": "https://www.notion.so/4ab3e99c3f664ab598bbb3d006c49b90"
     },
@@ -2554,6 +2675,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "027900 - Procurement & Payment Services",
+      "reqType": "Active",
       "ttf": 87,
       "notionUrl": "https://www.notion.so/38f9ddf757a08063827ecc3530163a97"
     },
@@ -2564,6 +2686,7 @@
       "campus": "St. Petersburg",
       "stage": "Hired",
       "department": "STP Student Success",
+      "reqType": "Active",
       "ttf": 87,
       "notionUrl": "https://www.notion.so/c095bfbe97034da0829cddfbd008b3b6"
     },
@@ -2574,6 +2697,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "490100 - EA Overseas Study Program",
+      "reqType": "Active",
       "ttf": 86,
       "notionUrl": "https://www.notion.so/bbcdcc837d6743e49c549a06f4d95c68"
     },
@@ -2584,6 +2708,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 85,
       "notionUrl": "https://www.notion.so/960775a2366b445fbb4070c705fb04b8"
     },
@@ -2594,6 +2719,7 @@
       "campus": "USF Health",
       "stage": "Canceled",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 85,
       "notionUrl": "https://www.notion.so/f65bb0ca92484373a5a3009a2c7d5b47"
     },
@@ -2604,6 +2730,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Evergreen",
       "ttf": 84,
       "notionUrl": "https://www.notion.so/c9a1c56d77724567a854a8ee94db7012"
     },
@@ -2614,6 +2741,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Student",
       "ttf": 84,
       "notionUrl": "https://www.notion.so/49c56d73897a43918833df2bed389d12"
     },
@@ -2624,6 +2752,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 84,
       "notionUrl": "https://www.notion.so/42602cb984a4488c98290da2dc903052"
     },
@@ -2634,6 +2763,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 83,
       "notionUrl": "https://www.notion.so/07161d22cdf34b8bb16f49a184fad2cc"
     },
@@ -2644,6 +2774,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 83,
       "notionUrl": "https://www.notion.so/ae2c4c1213354e16aa430d7ddd8d4e4a"
     },
@@ -2654,6 +2785,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "380600 - UGS Academic Advising - Athletics",
+      "reqType": "Student",
       "ttf": 82,
       "notionUrl": "https://www.notion.so/ed7dc1ca2b41466aa837c2850159f7b0"
     },
@@ -2664,6 +2796,7 @@
       "campus": "USF Health",
       "stage": "Canceled",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 82,
       "notionUrl": "https://www.notion.so/9e853a320736445e8ed50e3131b64023"
     },
@@ -2674,6 +2807,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 82,
       "notionUrl": "https://www.notion.so/7ed4473f9ae741598302f270bf0f02dc"
     },
@@ -2684,6 +2818,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "047700 - Career & Professional Dev",
+      "reqType": "Active",
       "ttf": 80,
       "notionUrl": "https://www.notion.so/95454a77455045ef8a5c91bd7e5a9e3f"
     },
@@ -2694,6 +2829,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "051000 - Athletic Administration",
+      "reqType": "Targeted",
       "ttf": 80,
       "notionUrl": "https://www.notion.so/5157c2a41ee04bf0b76f83ca15da8a35"
     },
@@ -2704,6 +2840,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "051000 - Athletic Administration",
+      "reqType": "Targeted",
       "ttf": 80,
       "notionUrl": "https://www.notion.so/aa7758ad1dce411b9d26f14bd9804cdf"
     },
@@ -2714,6 +2851,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "210800 - AICC Bellini College Department",
+      "reqType": "Active",
       "ttf": 79,
       "notionUrl": "https://www.notion.so/b9396d7906684d679a24935af6bfbb79"
     },
@@ -2724,6 +2862,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Evergreen",
       "ttf": 79,
       "notionUrl": "https://www.notion.so/8d2a0bf55314463fb7744cb67692f26f"
     },
@@ -2734,6 +2873,7 @@
       "campus": "",
       "stage": "Hired",
       "department": "051000 - Athletic Administration",
+      "reqType": "Targeted",
       "ttf": 78,
       "notionUrl": "https://www.notion.so/38f9ddf757a080a9be54c9be80ee6713"
     },
@@ -2744,6 +2884,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "610001 - MCOM Research/Grad Affairs Supp",
+      "reqType": "Student",
       "ttf": 77,
       "notionUrl": "https://www.notion.so/38f9ddf757a08077aabdf26bd41e6978"
     },
@@ -2754,6 +2895,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "615500 - Center for Aging-Neuroscience",
+      "reqType": "Active",
       "ttf": 77,
       "notionUrl": "https://www.notion.so/38f9ddf757a08029a5cfc91cfdd71ffa"
     },
@@ -2764,6 +2906,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "051000 - Athletic Administration",
+      "reqType": "Student",
       "ttf": 77,
       "notionUrl": "https://www.notion.so/8778727a4bef465097f939142cfaf680"
     },
@@ -2774,6 +2917,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "610001 - MCOM Research/Grad Affairs Supp",
+      "reqType": "Student",
       "ttf": 76,
       "notionUrl": "https://www.notion.so/38f9ddf757a080748641f9e73ced1dc7"
     },
@@ -2784,6 +2928,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 76,
       "notionUrl": "https://www.notion.so/e4e8379ed140406aa3c6a39f1409a9e0"
     },
@@ -2794,6 +2939,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 76,
       "notionUrl": "https://www.notion.so/28606d4448534e8e94004e88c9f171b4"
     },
@@ -2804,6 +2950,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "611800 - Department Of Psych & Behavior",
+      "reqType": "Active",
       "ttf": 75,
       "notionUrl": "https://www.notion.so/38f9ddf757a080dabbf3fbb19cce91f5"
     },
@@ -2814,6 +2961,7 @@
       "campus": "",
       "stage": "Hired",
       "department": "043500 - Housing & Residential ED",
+      "reqType": "Active",
       "ttf": 73,
       "notionUrl": "https://www.notion.so/38f9ddf757a0802ca799f1f8aed0fd67"
     },
@@ -2824,6 +2972,7 @@
       "campus": "USF Health",
       "stage": "Canceled",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 72,
       "notionUrl": "https://www.notion.so/22e5ea79cf2b4eb5852c7b2464d5bc1c"
     },
@@ -2834,6 +2983,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "612337 - Heart Institute - Internal Medicine",
+      "reqType": "Evergreen",
       "ttf": 71,
       "notionUrl": "https://www.notion.so/38f9ddf757a08078a06ee3de68201f21"
     },
@@ -2844,6 +2994,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "611700 - Department Of Family Medicine",
+      "reqType": "Evergreen",
       "ttf": 71,
       "notionUrl": "https://www.notion.so/38f9ddf757a0800ba709cec4710473ca"
     },
@@ -2854,6 +3005,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "MUMA",
+      "reqType": "Active",
       "ttf": 70,
       "notionUrl": "https://www.notion.so/f5d42d8300c04e39bda664cdb90693c2"
     },
@@ -2864,6 +3016,7 @@
       "campus": "",
       "stage": "Hired",
       "department": "027900 - Procurement & Payment Services",
+      "reqType": "Active",
       "ttf": 70,
       "notionUrl": "https://www.notion.so/38f9ddf757a08009af78f51cf4c2bf3f"
     },
@@ -2874,6 +3027,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "612700 - Dept Of Orthopaedics & Sports Medicine",
+      "reqType": "Active",
       "ttf": 70,
       "notionUrl": "https://www.notion.so/38f9ddf757a080948cb5dd9dec08163f"
     },
@@ -2884,6 +3038,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "613400 - Dept Of Dermatology & Cutaneous Surgery",
+      "reqType": "Active",
       "ttf": 70,
       "notionUrl": "https://www.notion.so/38f9ddf757a0801ea6bcd1cd542acf95"
     },
@@ -2894,6 +3049,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "051000 - Athletic Administration",
+      "reqType": "Targeted",
       "ttf": 70,
       "notionUrl": "https://www.notion.so/c60530bb567842359be1b75aacb7022f"
     },
@@ -2904,6 +3060,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "051000 - Athletic Administration",
+      "reqType": "Targeted",
       "ttf": 70,
       "notionUrl": "https://www.notion.so/4243a5063457419988e3cbf9b5804dd1"
     },
@@ -2914,6 +3071,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "210800 - AICC Bellini College Department",
+      "reqType": "Active",
       "ttf": 70,
       "notionUrl": "https://www.notion.so/cb88060ea4ac40c8b2a539dedb68aa0a"
     },
@@ -2924,6 +3082,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "College of Education ",
+      "reqType": "Active",
       "ttf": 69,
       "notionUrl": "https://www.notion.so/84118cd256574be7a622ed2deb16d267"
     },
@@ -2934,6 +3093,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "410000 - Office Of Decision Support",
+      "reqType": "Student",
       "ttf": 69,
       "notionUrl": "https://www.notion.so/96a3a13de84343978ab46da8798826e9"
     },
@@ -2944,6 +3104,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "611700 - Department Of Family Medicine",
+      "reqType": "Active",
       "ttf": 68,
       "notionUrl": "https://www.notion.so/38f9ddf757a080788d59d32e57e7264b"
     },
@@ -2954,6 +3115,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 67,
       "notionUrl": "https://www.notion.so/bdaa43fdd2a542b09b4c95fbdc55b3fb"
     },
@@ -2964,6 +3126,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "610001 - MCOM Research/Grad Affairs Supp",
+      "reqType": "Student",
       "ttf": 65,
       "notionUrl": "https://www.notion.so/8c2919ad03684329994729c12aa89034"
     },
@@ -2974,6 +3137,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "612000 - Department Of Surgery",
+      "reqType": "Evergreen",
       "ttf": 65,
       "notionUrl": "https://www.notion.so/e3637af9d4454392aab12c290622eae0"
     },
@@ -2984,6 +3148,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "610001 - MCOM Research/Grad Affairs Supp",
+      "reqType": "Student",
       "ttf": 65,
       "notionUrl": "https://www.notion.so/c03c4fb2ef29420db669c3773973f71c"
     },
@@ -2994,6 +3159,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "610601 - MCOM Research&Grad Affairs Supp",
+      "reqType": "Active",
       "ttf": 65,
       "notionUrl": "https://www.notion.so/38f9ddf757a080ee821ff639b827dcc1"
     },
@@ -3004,6 +3170,7 @@
       "campus": "St. Petersburg",
       "stage": "Hired",
       "department": "Florida Inst of Oceanography",
+      "reqType": "Active",
       "ttf": 64,
       "notionUrl": "https://www.notion.so/09966205206c4af298b51ddcd19d7284"
     },
@@ -3014,6 +3181,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "025102 - Physical Security",
+      "reqType": "Evergreen",
       "ttf": 62,
       "notionUrl": "https://www.notion.so/38f9ddf757a080678251e64ed73c0113"
     },
@@ -3024,6 +3192,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "600100 - Health Sciences Center VP",
+      "reqType": "Evergreen",
       "ttf": 61,
       "notionUrl": "https://www.notion.so/5c7565e47e914a1c81d9216c1e1e966a"
     },
@@ -3034,6 +3203,7 @@
       "campus": "St. Petersburg",
       "stage": "Hired",
       "department": "STP Secondary Education",
+      "reqType": "Active",
       "ttf": 58,
       "notionUrl": "https://www.notion.so/5efcb565cd2047aba833f70ff3bf32f2"
     },
@@ -3044,6 +3214,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "610601 - MCOM Research&Grad Affairs Supp",
+      "reqType": "Student",
       "ttf": 58,
       "notionUrl": "https://www.notion.so/e6b29640e0b94cc18d65bd98a74be708"
     },
@@ -3054,6 +3225,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "600100 - Health Sciences",
+      "reqType": "Evergreen",
       "ttf": 58,
       "notionUrl": "https://www.notion.so/ec6646a0db6d4fd192fdae69eb3e98c8"
     },
@@ -3064,6 +3236,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "MUMA",
+      "reqType": "Active",
       "ttf": 58,
       "notionUrl": "https://www.notion.so/4e73930f374b4e4ca685e5ecddb61229"
     },
@@ -3074,6 +3247,7 @@
       "campus": "St. Petersburg",
       "stage": "Canceled",
       "department": "514900 - STP Public Safety",
+      "reqType": "Active",
       "ttf": 58,
       "notionUrl": "https://www.notion.so/c63281d25cba4134b813cc8e79ca8cf2"
     },
@@ -3084,6 +3258,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "641200 - COPH Acad and",
+      "reqType": "Evergreen",
       "ttf": 57,
       "notionUrl": "https://www.notion.so/7d2adb2803a049108dce50215926f301"
     },
@@ -3094,6 +3269,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "600105 - Health Sciences",
+      "reqType": "Active",
       "ttf": 56,
       "notionUrl": "https://www.notion.so/46d3fdcd34bc4aaabaecc9c1310ae5c6"
     },
@@ -3104,6 +3280,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "614300 - Molecular Phar",
+      "reqType": "Evergreen",
       "ttf": 56,
       "notionUrl": "https://www.notion.so/65bb29f0406245cda5a8085c607420dd"
     },
@@ -3114,6 +3291,7 @@
       "campus": "",
       "stage": "Hired",
       "department": "386500 - Academic Success Center",
+      "reqType": "Active",
       "ttf": 56,
       "notionUrl": "https://www.notion.so/08b522c9248e4f00a71764678aa2028a"
     },
@@ -3124,6 +3302,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "490000 - USF World",
+      "reqType": "Student",
       "ttf": 56,
       "notionUrl": "https://www.notion.so/4aab95ae38b9463885ba78c12746474b"
     },
@@ -3134,6 +3313,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "051000 - Athletic Administration",
+      "reqType": "Active",
       "ttf": 56,
       "notionUrl": "https://www.notion.so/a854ca5728c14bb69e55a795d76b9cd5"
     },
@@ -3144,6 +3324,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "611700 - Department Of",
+      "reqType": "Active",
       "ttf": 55,
       "notionUrl": "https://www.notion.so/ee4d74ac46834a848ce06deebf4bd223"
     },
@@ -3154,6 +3335,7 @@
       "campus": "USF Health",
       "stage": "Canceled",
       "department": "611700 - Department Of Family Medicine",
+      "reqType": "Active",
       "ttf": 54,
       "notionUrl": "https://www.notion.so/c33ed8079fe448648a802761e03e6e56"
     },
@@ -3164,6 +3346,7 @@
       "campus": "USF Health",
       "stage": "Canceled",
       "department": "600105 - Health Sciences Center Research",
+      "reqType": "Active",
       "ttf": 54,
       "notionUrl": "https://www.notion.so/5815577dff8744eb822668a9e69d2b53"
     },
@@ -3174,6 +3357,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "MUMA",
+      "reqType": "Active",
       "ttf": 53,
       "notionUrl": "https://www.notion.so/a3255042eb054f188198cbb0c204abff"
     },
@@ -3184,6 +3368,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "MUMA",
+      "reqType": "Active",
       "ttf": 53,
       "notionUrl": "https://www.notion.so/b9bd5e1275834dbb95f55c40d7b2c669"
     },
@@ -3194,6 +3379,7 @@
       "campus": "Tampa",
       "stage": "Canceled",
       "department": "051000 - Athletic Administration",
+      "reqType": "Active",
       "ttf": 53,
       "notionUrl": "https://www.notion.so/8ca10fea36a0457bae2d509337d2c72b"
     },
@@ -3204,6 +3390,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "Engineering",
+      "reqType": "Active",
       "ttf": 53,
       "notionUrl": "https://www.notion.so/125e888c504c4739813405aef24d5d31"
     },
@@ -3214,6 +3401,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "051000 - Athletic Administration",
+      "reqType": "Active",
       "ttf": 52,
       "notionUrl": "https://www.notion.so/54e433eca57243d1a1d7010c7d7b4050"
     },
@@ -3224,6 +3412,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "210600 - Electrical Engineering",
+      "reqType": "Passive",
       "ttf": 51,
       "notionUrl": "https://www.notion.so/752e9180aa10474a87cd4f636d0ee1f3"
     },
@@ -3234,6 +3423,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "588500 - CBCS Management Info Services",
+      "reqType": "Active",
       "ttf": 49,
       "notionUrl": "https://www.notion.so/39f9ddf757a081d4b4ecffe919c7335c"
     },
@@ -3244,6 +3434,7 @@
       "campus": "Tampa",
       "stage": "Canceled",
       "department": "611900 - Department Of",
+      "reqType": "Active",
       "ttf": 48,
       "notionUrl": "https://www.notion.so/63e36de860fa4b2c92cf97b2a07f9a6b"
     },
@@ -3254,6 +3445,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "460100 - Innovative Education",
+      "reqType": "Student",
       "ttf": 46,
       "notionUrl": "https://www.notion.so/7c3b263fec274cf9970b1fad10476ea9"
     },
@@ -3264,6 +3456,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "460100 - Innovative Education",
+      "reqType": "Student",
       "ttf": 46,
       "notionUrl": "https://www.notion.so/7607ab1c736f4d1cb37fc4ac6ea4cf56"
     },
@@ -3274,6 +3467,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "051000 - Athletic Administration",
+      "reqType": "Active",
       "ttf": 46,
       "notionUrl": "https://www.notion.so/3cd3c2b9c48b41f19e016df02fd20891"
     },
@@ -3284,6 +3478,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "460100 - Innovative Education",
+      "reqType": "Active",
       "ttf": 46,
       "notionUrl": "https://www.notion.so/26c90d5f12a840abb41b1c45de262fd0"
     },
@@ -3294,6 +3489,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "210600 - Electrical Engineering",
+      "reqType": "Active",
       "ttf": 45,
       "notionUrl": "https://www.notion.so/fd8cc142f839444592d134d7f33f9af1"
     },
@@ -3304,6 +3500,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "610601 - MCOM Researc",
+      "reqType": "Evergreen",
       "ttf": 44,
       "notionUrl": "https://www.notion.so/513becc9875849388fa70cae9e7c1283"
     },
@@ -3314,6 +3511,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "612400 - Dept Of Ophthe",
+      "reqType": "Evergreen",
       "ttf": 44,
       "notionUrl": "https://www.notion.so/57787b40c45a4f16a034de7532d4b062"
     },
@@ -3324,6 +3522,7 @@
       "campus": "Tampa",
       "stage": "Canceled",
       "department": "633000 - Hyperbaric Oxy",
+      "reqType": "Active",
       "ttf": 43,
       "notionUrl": "https://www.notion.so/563167e173c5456ca44e41429711fe1a"
     },
@@ -3334,6 +3533,7 @@
       "campus": "St. Petersburg",
       "stage": "Hired",
       "department": "STP Academic Affairs",
+      "reqType": "Active",
       "ttf": 43,
       "notionUrl": "https://www.notion.so/7958bb1997854f4cb939090dfc22e6a5"
     },
@@ -3344,6 +3544,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "614400 - Molecular Medi",
+      "reqType": "Evergreen",
       "ttf": 41,
       "notionUrl": "https://www.notion.so/b11a4111a0514b8d9e7f3fad40ea6864"
     },
@@ -3354,6 +3555,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "College of Education ",
+      "reqType": "Active",
       "ttf": 37,
       "notionUrl": "https://www.notion.so/fde36f889c1f4558b24fa9052520b45f"
     },
@@ -3364,6 +3566,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "MUMA",
+      "reqType": "Active",
       "ttf": 36,
       "notionUrl": "https://www.notion.so/ffc389ca5b084015b72af9b447e0df8c"
     },
@@ -3374,6 +3577,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "Engineering",
+      "reqType": "Active",
       "ttf": 36,
       "notionUrl": "https://www.notion.so/483718ea067541e7a36561041a8dcdbf"
     },
@@ -3384,6 +3588,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "460100 - Innovative Education",
+      "reqType": "Active",
       "ttf": 35,
       "notionUrl": "https://www.notion.so/146ef7182be646958af015679cd063dd"
     },
@@ -3394,6 +3599,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "019000 - Unv Community Partnerships",
+      "reqType": "Active",
       "ttf": 34,
       "notionUrl": "https://www.notion.so/32e18d3e905f4c5ba453513e1c5388f1"
     },
@@ -3404,6 +3610,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "College of Education ",
+      "reqType": "Active",
       "ttf": 33,
       "notionUrl": "https://www.notion.so/ad4baa985e084128bcf78de918c17b82"
     },
@@ -3414,6 +3621,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "College of Education ",
+      "reqType": "Active",
       "ttf": 32,
       "notionUrl": "https://www.notion.so/ffcd80e5140c4f9caa4f4c0b3db4f18a"
     },
@@ -3424,6 +3632,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "620100 - College Of Nurs",
+      "reqType": "Active",
       "ttf": 30,
       "notionUrl": "https://www.notion.so/9dfbf4c9af864d58a3bb901b1d532ef2"
     },
@@ -3434,6 +3643,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "027900 - Procurement & Payment Services",
+      "reqType": "Active",
       "ttf": 29,
       "notionUrl": "https://www.notion.so/a39cda9b278443a4a8b39b28a46df3f2"
     },
@@ -3444,6 +3654,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "College of Education ",
+      "reqType": "Active",
       "ttf": 29,
       "notionUrl": "https://www.notion.so/59cd9b5199dc45bc9f3bba29e4d39432"
     },
@@ -3454,6 +3665,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "College of Education ",
+      "reqType": "Active",
       "ttf": 29,
       "notionUrl": "https://www.notion.so/3a3b7604d5df450c80b7edfeb05e64dd"
     },
@@ -3464,6 +3676,7 @@
       "campus": "Tampa",
       "stage": "Canceled",
       "department": "388600 - UGS - Transfer Student Success",
+      "reqType": "Active",
       "ttf": 28,
       "notionUrl": "https://www.notion.so/4933435ce5994718831574f13e919c34"
     },
@@ -3474,6 +3687,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "College of Education ",
+      "reqType": "Active",
       "ttf": 27,
       "notionUrl": "https://www.notion.so/b0316b1977044433b7dd572486a3f518"
     },
@@ -3484,6 +3698,7 @@
       "campus": "",
       "stage": "Hired",
       "department": "620100 - College Of Nurs",
+      "reqType": "Active",
       "ttf": 24,
       "notionUrl": "https://www.notion.so/c45647d72635402391afad63a7b7a7cc"
     },
@@ -3494,6 +3709,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "051000 - Athletic Administration",
+      "reqType": "Targeted",
       "ttf": 21,
       "notionUrl": "https://www.notion.so/06da65c4dbbb40f087fbda6dd1cc50de"
     },
@@ -3504,6 +3720,7 @@
       "campus": "St. Petersburg",
       "stage": "Hired",
       "department": "471000 - Florida Inst of Oceanography",
+      "reqType": "Active",
       "ttf": 16,
       "notionUrl": "https://www.notion.so/ada6d585591b4c80b74c83d88849fd74"
     },
@@ -3514,6 +3731,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "College of Education ",
+      "reqType": "Active",
       "ttf": 16,
       "notionUrl": "https://www.notion.so/c0f94fabea3d41f7b6b4fc7982095677"
     },
@@ -3524,6 +3742,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "051000 - Athletic Administration",
+      "reqType": "Active",
       "ttf": 15,
       "notionUrl": "https://www.notion.so/38ecb21c377048eab43a083edaca63b0"
     },
@@ -3534,6 +3753,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "051000 - Athletic Administration",
+      "reqType": "Active",
       "ttf": 15,
       "notionUrl": "https://www.notion.so/88443e11ab964226b14e66d121643e1e"
     },
@@ -3544,6 +3764,7 @@
       "campus": "St. Petersburg",
       "stage": "Hired",
       "department": "510200 - STP Student Life",
+      "reqType": "Passive",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/983a92a9c61e4b71b050f24e626230d8"
     },
@@ -3554,6 +3775,7 @@
       "campus": "St. Petersburg",
       "stage": "Hired",
       "department": "510200 - STP Student Life",
+      "reqType": "Active",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/f61681743a8940a58e1ce87fe479c541"
     },
@@ -3564,6 +3786,7 @@
       "campus": "",
       "stage": "Hired",
       "department": "620100 - College Of Nurs",
+      "reqType": "Active",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/dd3cef8a64de4e2d95b3f9c541ba786a"
     },
@@ -3574,6 +3797,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "051000 - Athletic Administration",
+      "reqType": "Active",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/9887f185135242358bb6f54363caf993"
     },
@@ -3584,6 +3808,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "051000 - Athletic Administration",
+      "reqType": "Targeted",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/30825688fc9c4918a87b390fc875f4c0"
     },
@@ -3594,6 +3819,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "122900 - School Of Aging Studies",
+      "reqType": "",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/39f9ddf757a081d58986f0b11aa75d53"
     },
@@ -3604,6 +3830,7 @@
       "campus": "",
       "stage": "Hired",
       "department": "",
+      "reqType": "Active",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/3979ddf757a08014851ff7ffdce99afd"
     },
@@ -3614,6 +3841,7 @@
       "campus": "Tampa",
       "stage": "Failed Search",
       "department": "045000 - Campus Recreation",
+      "reqType": "Active",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/f789ffe64f21455385df1716abdf4237"
     },
@@ -3624,6 +3852,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "045000 - Campus Recreation",
+      "reqType": "Active",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/8b36b453b7764f328e7260c0d1d55865"
     },
@@ -3634,6 +3863,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "045000 - Campus Recreation",
+      "reqType": "Active",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/d52fbe7071e94947872d10ed63e2ea8d"
     },
@@ -3644,6 +3874,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "610601 - MCOM Research&Grad Affairs Supp",
+      "reqType": "Student",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/38f9ddf757a080968061ee4ccf33aac7"
     },
@@ -3654,6 +3885,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "614300 - Molecular Pharm & Physiology",
+      "reqType": "Student",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/38f9ddf757a080508157eb26fd02aa1f"
     },
@@ -3664,6 +3896,7 @@
       "campus": "St. Petersburg",
       "stage": "Hired",
       "department": "250000 - College of Marine Science",
+      "reqType": "Targeted",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/18d2babd674c4720bbdb825e06ddd4a5"
     },
@@ -3674,6 +3907,7 @@
       "campus": "St. Petersburg",
       "stage": "Hired",
       "department": "250000 - College of Marine Science",
+      "reqType": "Targeted",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/ad671333f77b427a97ba3187c9368ba8"
     },
@@ -3684,6 +3918,7 @@
       "campus": "St. Petersburg",
       "stage": "Hired",
       "department": "Florida Inst of Oceanography",
+      "reqType": "Active",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/9bdf11df472f445b8e8a375bbc2a6596"
     },
@@ -3694,6 +3929,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "051000 - Athletic Administration",
+      "reqType": "Targeted",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/b451cbafac7f4da9a52f6a6d8a57486c"
     },
@@ -3704,6 +3940,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "051000 - Athletic Administration",
+      "reqType": "Active",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/c8e00ea9d23a4f59b9a5d336b9b163ec"
     },
@@ -3714,6 +3951,7 @@
       "campus": "Tampa",
       "stage": "Canceled",
       "department": "490000 - USF World",
+      "reqType": "Active",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/6593f8e4b855430fb6d4d7b328d928ef"
     },
@@ -3724,6 +3962,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "460100 - Innovative Education",
+      "reqType": "Active",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/9930f771ae9046cd8b0fc120ddc025c5"
     },
@@ -3734,6 +3973,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "260000 - Honors College",
+      "reqType": "Active",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/99d658e895fb4b67aeb10d796f0c4b98"
     },
@@ -3744,6 +3984,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "210800 - AICC Bellini College Department",
+      "reqType": "Active",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/c0f7ef8ffbcd40878ce55ca717a2fc06"
     },
@@ -3754,6 +3995,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "014000 - Office Of Internal Audit",
+      "reqType": "Active",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/9041c65f300c4fc7a4b5aecddd82c0d2"
     },
@@ -3764,6 +4006,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "019000 - Unv Community Partnerships",
+      "reqType": "Active",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/861cfa190d0445b887ef08e9b6e58ca5"
     },
@@ -3774,6 +4017,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "051000 - Athletic Administration",
+      "reqType": "Active",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/34fcaac21af74fc8a8d72a6c0f44b386"
     },
@@ -3784,6 +4028,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "390000 - Graduate Studies",
+      "reqType": "Active",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/7f12e7c9d0ba42059d774ad29ef4b803"
     },
@@ -3794,6 +4039,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "490000 - USF World",
+      "reqType": "Active",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/ac7163863315455ba5ae56337715503e"
     },
@@ -3804,6 +4050,7 @@
       "campus": "Tampa",
       "stage": "Hired",
       "department": "051000 - Athletic Administration",
+      "reqType": "Active",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/30982bcdbaf74fd39832975dbb8e74cc"
     },
@@ -3814,6 +4061,7 @@
       "campus": "Tampa",
       "stage": "Canceled",
       "department": "019000 - Unv Community Partnerships",
+      "reqType": "Active",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/2b1c29799fda4ae4982f2a35bf7bd3f9"
     },
@@ -3824,6 +4072,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/903d7838c37f431998daaf8ca942e14f"
     },
@@ -3834,6 +4083,7 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Active",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/cd8b188e1f54439394c4021ecd4e2250"
     },
@@ -3844,10 +4094,647 @@
       "campus": "USF Health",
       "stage": "Hired",
       "department": "USF Health",
+      "reqType": "Student",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/e6038f44870d404ca76834fc53d7c837"
     }
   ],
+  "insights": {
+    "fillRateByDept": [
+      {
+        "department": "USF Health",
+        "filled": 69,
+        "failed": 0,
+        "cancelled": 16,
+        "fillRatePct": 100
+      },
+      {
+        "department": "051000 - Athletic Administration",
+        "filled": 21,
+        "failed": 1,
+        "cancelled": 2,
+        "fillRatePct": 95
+      },
+      {
+        "department": "460100 - Innovative Education",
+        "filled": 8,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "College of Education ",
+        "filled": 8,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "MUMA",
+        "filled": 6,
+        "failed": 0,
+        "cancelled": 1,
+        "fillRatePct": 100
+      },
+      {
+        "department": "490000 - USF World",
+        "filled": 4,
+        "failed": 0,
+        "cancelled": 1,
+        "fillRatePct": 100
+      },
+      {
+        "department": "027900 - Procurement & Payment Services",
+        "filled": 4,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "210800 - AICC Bellini College Department",
+        "filled": 4,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "610001 - MCOM Research/Grad Affairs Supp",
+        "filled": 4,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "250000 - College of Marine Science",
+        "filled": 3,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "041500 - Counseling Center",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 2,
+        "fillRatePct": 100
+      },
+      {
+        "department": "047700 - Career & Professional Dev",
+        "filled": 2,
+        "failed": 0,
+        "cancelled": 1,
+        "fillRatePct": 100
+      },
+      {
+        "department": "Florida Inst of Oceanography",
+        "filled": 3,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "Engineering",
+        "filled": 3,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "611700 - Department Of Family Medicine",
+        "filled": 2,
+        "failed": 0,
+        "cancelled": 1,
+        "fillRatePct": 100
+      },
+      {
+        "department": "610601 - MCOM Research&Grad Affairs Supp",
+        "filled": 3,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "019000 - Unv Community Partnerships",
+        "filled": 2,
+        "failed": 0,
+        "cancelled": 1,
+        "fillRatePct": 100
+      },
+      {
+        "department": "620100 - College Of Nurs",
+        "filled": 3,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "045000 - Campus Recreation",
+        "filled": 2,
+        "failed": 1,
+        "cancelled": 0,
+        "fillRatePct": 67
+      },
+      {
+        "department": "371000 - Admissions",
+        "filled": 2,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "391000 - Fl Center For Cybersecurity",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 1,
+        "fillRatePct": 100
+      },
+      {
+        "department": "026100 - University Police",
+        "filled": 2,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "260000 - Honors College",
+        "filled": 2,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "066200 - WUSF-FM",
+        "filled": 2,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "390000 - Graduate Studies",
+        "filled": 2,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "380600 - UGS Academic Advising - Athletics",
+        "filled": 2,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "210600 - Electrical Engineering",
+        "filled": 2,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "510200 - STP Student Life",
+        "filled": 2,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "060302 - University Advancement",
+        "filled": 0,
+        "failed": 0,
+        "cancelled": 1,
+        "fillRatePct": null
+      },
+      {
+        "department": "043600 - Residential Education",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "330000 - School of Architecture & Community Design",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "388200 - UGS - Academic Advocacy",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "Inst For School Comm Partnership",
+        "filled": 0,
+        "failed": 0,
+        "cancelled": 1,
+        "fillRatePct": null
+      },
+      {
+        "department": "380000 - Undergrad Stds-Deans Ofc Opera",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "616300 - Health Informatics Institute",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "174400 - Fla Ctr For Instr Technology",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "041300 - Strategic Initiatives",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "512337 - Heart Institute - Core",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "STP Student Success",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "490100 - EA Overseas Study Program",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "615500 - Center for Aging-Neuroscience",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "611800 - Department Of Psych & Behavior",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "043500 - Housing & Residential ED",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "612337 - Heart Institute - Internal Medicine",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "612700 - Dept Of Orthopaedics & Sports Medicine",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "613400 - Dept Of Dermatology & Cutaneous Surgery",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "410000 - Office Of Decision Support",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "612000 - Department Of Surgery",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "025102 - Physical Security",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "600100 - Health Sciences Center VP",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "STP Secondary Education",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "600100 - Health Sciences",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "514900 - STP Public Safety",
+        "filled": 0,
+        "failed": 0,
+        "cancelled": 1,
+        "fillRatePct": null
+      },
+      {
+        "department": "641200 - COPH Acad and",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "600105 - Health Sciences",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "614300 - Molecular Phar",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "386500 - Academic Success Center",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "611700 - Department Of",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "600105 - Health Sciences Center Research",
+        "filled": 0,
+        "failed": 0,
+        "cancelled": 1,
+        "fillRatePct": null
+      },
+      {
+        "department": "588500 - CBCS Management Info Services",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "611900 - Department Of",
+        "filled": 0,
+        "failed": 0,
+        "cancelled": 1,
+        "fillRatePct": null
+      },
+      {
+        "department": "610601 - MCOM Researc",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "612400 - Dept Of Ophthe",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "633000 - Hyperbaric Oxy",
+        "filled": 0,
+        "failed": 0,
+        "cancelled": 1,
+        "fillRatePct": null
+      },
+      {
+        "department": "STP Academic Affairs",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "614400 - Molecular Medi",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "388600 - UGS - Transfer Student Success",
+        "filled": 0,
+        "failed": 0,
+        "cancelled": 1,
+        "fillRatePct": null
+      },
+      {
+        "department": "471000 - Florida Inst of Oceanography",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "122900 - School Of Aging Studies",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "No Department",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "614300 - Molecular Pharm & Physiology",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "014000 - Office Of Internal Audit",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      }
+    ],
+    "avgTTFByReqType": [
+      {
+        "reqType": "Active",
+        "avgDays": 107,
+        "count": 136
+      },
+      {
+        "reqType": "Evergreen",
+        "avgDays": 84,
+        "count": 20
+      },
+      {
+        "reqType": "Student",
+        "avgDays": 83,
+        "count": 15
+      },
+      {
+        "reqType": "Targeted",
+        "avgDays": 67,
+        "count": 6
+      },
+      {
+        "reqType": "Passive",
+        "avgDays": 51,
+        "count": 1
+      }
+    ],
+    "avgTTFByCampus": [
+      {
+        "campus": "USF Health",
+        "avgDays": 117,
+        "count": 87
+      },
+      {
+        "campus": "Tampa",
+        "avgDays": 87,
+        "count": 79
+      },
+      {
+        "campus": "St. Petersburg",
+        "avgDays": 89,
+        "count": 7
+      },
+      {
+        "campus": "Unspecified",
+        "avgDays": 60,
+        "count": 5
+      }
+    ],
+    "topHiringDepartments": [
+      {
+        "department": "USF Health",
+        "count": 187
+      },
+      {
+        "department": "051000 - Athletic Administration",
+        "count": 38
+      },
+      {
+        "department": "351000 - Information Technology",
+        "count": 33
+      },
+      {
+        "department": "College of Education ",
+        "count": 26
+      },
+      {
+        "department": "210500 - Mechanical Engineering",
+        "count": 20
+      },
+      {
+        "department": "Engineering",
+        "count": 20
+      },
+      {
+        "department": "STP Student Success",
+        "count": 13
+      },
+      {
+        "department": "047700 - Career & Professional Dev",
+        "count": 12
+      },
+      {
+        "department": "611900 - Department Of",
+        "count": 11
+      },
+      {
+        "department": "177500 - Inst For School Comm Partnersh",
+        "count": 11
+      }
+    ],
+    "stallRateByRecruiter": [
+      {
+        "recruiter": "Katherine",
+        "color": "#1B7A5A",
+        "stalled": 8,
+        "totalActive": 8,
+        "stallRatePct": 100
+      },
+      {
+        "recruiter": "Rebecca",
+        "color": "#1B6A9C",
+        "stalled": 17,
+        "totalActive": 17,
+        "stallRatePct": 100
+      },
+      {
+        "recruiter": "Tameka",
+        "color": "#00A693",
+        "stalled": 6,
+        "totalActive": 7,
+        "stallRatePct": 86
+      },
+      {
+        "recruiter": "John",
+        "color": "#1B6A9C",
+        "stalled": 31,
+        "totalActive": 38,
+        "stallRatePct": 82
+      },
+      {
+        "recruiter": "Gabriel",
+        "color": "#00A693",
+        "stalled": 28,
+        "totalActive": 44,
+        "stallRatePct": 64
+      }
+    ]
+  },
   "recruiters": [
     {
       "id": "katherine",
@@ -5545,7 +6432,7 @@
               "notionUrl": "https://www.notion.so/38f9ddf757a080f1bc04c853567b5c5d",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "Offer Stage",
+              "stage": "Pre-boarding",
               "agingBand": "🟢 0–2",
               "department": "027900 - Procurement & Payment Services"
             }
@@ -5573,14 +6460,14 @@
         },
         {
           "label": "Offer Stage",
-          "avgDays": 16,
-          "count": 5,
+          "avgDays": 19,
+          "count": 4,
           "color": "#CFC483"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 21,
-          "count": 6,
+          "avgDays": 18,
+          "count": 7,
           "color": "#5B8FA8"
         },
         {
@@ -5603,7 +6490,7 @@
         },
         {
           "label": "Offer Stage",
-          "count": 13,
+          "count": 12,
           "color": "#0F6E56"
         },
         {
@@ -5613,7 +6500,7 @@
         },
         {
           "label": "Pre-boarding",
-          "count": 12,
+          "count": 13,
           "color": "#888780"
         },
         {
@@ -5674,7 +6561,7 @@
         },
         {
           "label": "Offer",
-          "count": 13
+          "count": 12
         }
       ],
       "goals": [
@@ -6418,7 +7305,7 @@
               "notionUrl": "https://www.notion.so/99ecc3530d9348958159d791ba69bbda",
               "owner": "Gabriel",
               "campus": "Tampa",
-              "stage": "Offer Stage",
+              "stage": "Pre-boarding",
               "agingBand": "🟢 0–2",
               "department": "MUMA"
             },
@@ -6472,9 +7359,15 @@
         },
         {
           "label": "Offer Stage",
-          "avgDays": 12,
-          "count": 13,
+          "avgDays": 13,
+          "count": 12,
           "color": "#CFC483"
+        },
+        {
+          "label": "Pre-boarding",
+          "avgDays": 1,
+          "count": 1,
+          "color": "#5B8FA8"
         },
         {
           "label": "Backlog",
@@ -6501,7 +7394,7 @@
         },
         {
           "label": "Offer Stage",
-          "count": 17,
+          "count": 16,
           "color": "#0F6E56"
         },
         {
@@ -6531,7 +7424,7 @@
         },
         {
           "label": "Pre-boarding",
-          "count": 2,
+          "count": 3,
           "color": "#888780"
         },
         {
@@ -6582,7 +7475,7 @@
         },
         {
           "label": "Offer",
-          "count": 17
+          "count": 16
         }
       ],
       "goals": [
@@ -6708,7 +7601,18 @@
         {
           "band": "🟢 0–2",
           "color": "#3B6D11",
-          "records": []
+          "records": [
+            {
+              "title": "Department Operations Manager III",
+              "reqId": "44107",
+              "notionUrl": "https://www.notion.so/73095252052c4601bbfe6c53ccc2bba6",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Offer Stage",
+              "agingBand": "🟢 0–2",
+              "department": "121100 - Integrative Biology"
+            }
+          ]
         }
       ],
       "stageMetrics": [
@@ -6736,9 +7640,9 @@
           "color": "#888780"
         },
         {
-          "label": "HM Review",
+          "label": "Offer Stage",
           "count": 1,
-          "color": "#993556"
+          "color": "#0F6E56"
         },
         {
           "label": "Student Hiring",
@@ -6766,7 +7670,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 0
+          "count": 1
         }
       ],
       "funnel": [
@@ -6780,7 +7684,7 @@
         },
         {
           "label": "HM Review",
-          "count": 1
+          "count": 0
         },
         {
           "label": "Interviews",
@@ -6788,7 +7692,7 @@
         },
         {
           "label": "Offer",
-          "count": 0
+          "count": 1
         }
       ],
       "goals": [
@@ -6853,7 +7757,7 @@
     },
     {
       "field": "Last Activity",
-      "missingCount": 290,
+      "missingCount": 289,
       "totalActive": 614,
       "pct": 47,
       "records": [
@@ -6912,14 +7816,6 @@
           "campus": "Tampa",
           "stage": "Backlog",
           "notionUrl": "https://www.notion.so/1baee1ec4e7142b58ce21817527857cc"
-        },
-        {
-          "title": "Department Operations Manager III",
-          "reqId": "44107",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "HM Review",
-          "notionUrl": "https://www.notion.so/73095252052c4601bbfe6c53ccc2bba6"
         },
         {
           "title": "Student Assistant ERP Analyst",
@@ -7256,6 +8152,14 @@
           "campus": "USF Health",
           "stage": "Backlog",
           "notionUrl": "https://www.notion.so/528f9599ae384694999a16d3e2ab75f3"
+        },
+        {
+          "title": "Academic Services Admin",
+          "reqId": "43969",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "HM Review",
+          "notionUrl": "https://www.notion.so/de09b5a897c842a990a7cbf49b31ae1f"
         }
       ]
     },
@@ -8629,7 +9533,7 @@
     },
     {
       "field": "Unposted Date",
-      "missingCount": 461,
+      "missingCount": 460,
       "totalActive": 614,
       "pct": 75,
       "records": [
@@ -8858,14 +9762,6 @@
           "notionUrl": "https://www.notion.so/1baee1ec4e7142b58ce21817527857cc"
         },
         {
-          "title": "Department Operations Manager III",
-          "reqId": "44107",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "HM Review",
-          "notionUrl": "https://www.notion.so/73095252052c4601bbfe6c53ccc2bba6"
-        },
-        {
           "title": "Student Assistant ERP Analyst",
           "reqId": "44154",
           "owner": "Tameka Porter",
@@ -9032,6 +9928,14 @@
           "campus": "Tampa",
           "stage": "Faculty",
           "notionUrl": "https://www.notion.so/fca453ce800c47d892f23845c345f983"
+        },
+        {
+          "title": "Adjunct APK 2092",
+          "reqId": "44250",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Faculty",
+          "notionUrl": "https://www.notion.so/7398e741d27c42a2ae9b368b59e4f62a"
         }
       ]
     }
