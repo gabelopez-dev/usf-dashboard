@@ -570,7 +570,24 @@ async function main() {
       };
     }).sort((a, b) => b.stallRatePct - a.stallRatePct);
 
-    return { fillRateByDept, avgTTFByReqType, avgTTFByCampus, topHiringDepartments, stallRateByRecruiter };
+    // Seasonal Hiring Trends — reqs posted per month, from Posted Date
+    // (same field Power BI's Recruitment Trend chart uses, confirmed with Corey)
+    const monthNames = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    const seasonalAgg = {};
+    records.forEach(r => {
+      const raw = getProp(r, 'Posted Date', 'date') || getProp(r, 'Posted Date', 'text');
+      if (!raw) return;
+      const d = new Date(raw);
+      if (isNaN(d.getTime())) return;
+      const key = `${d.getFullYear()}-${d.getMonth()}`;
+      if (!seasonalAgg[key]) seasonalAgg[key] = { year: d.getFullYear(), month: d.getMonth(), count: 0 };
+      seasonalAgg[key].count += 1;
+    });
+    const seasonalHiringTrends = Object.values(seasonalAgg)
+      .sort((a, b) => a.year - b.year || a.month - b.month)
+      .map(v => ({ label: `${monthNames[v.month]} '${String(v.year).slice(2)}`, count: v.count }));
+
+    return { fillRateByDept, avgTTFByReqType, avgTTFByCampus, topHiringDepartments, stallRateByRecruiter, seasonalHiringTrends };
   })();
 
   const data = {
