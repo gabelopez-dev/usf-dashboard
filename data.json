@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-08-31T13:48:38.803Z",
+  "lastUpdated": "2026-08-31T15:57:28.931Z",
   "summary": {
-    "openReqs": 614,
+    "openReqs": 615,
     "avgTimeToFill": 96,
-    "filledYTD": 206,
+    "filledYTD": 213,
     "failedCancelled": 35,
-    "inOfferStage": 42
+    "inOfferStage": 38
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 313,
+      "count": 314,
       "color": "#1B6A9C"
     },
     {
@@ -49,11 +49,11 @@
     },
     {
       "label": "Offer Stage",
-      "count": 42
+      "count": 38
     },
     {
       "label": "Backlog",
-      "count": 37
+      "count": 36
     },
     {
       "label": "Faculty",
@@ -61,7 +61,7 @@
     },
     {
       "label": "Pre-boarding",
-      "count": 19
+      "count": 25
     },
     {
       "label": "Passive",
@@ -69,7 +69,7 @@
     },
     {
       "label": "Interview Stage",
-      "count": 17
+      "count": 18
     },
     {
       "label": "Targeted",
@@ -77,7 +77,7 @@
     },
     {
       "label": "Sourced",
-      "count": 7
+      "count": 6
     }
   ],
   "mainAging": [
@@ -86,7 +86,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 99
+      "count": 100
     },
     {
       "label": "🟡 3-5",
@@ -100,7 +100,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 0
+      "count": 1
     }
   ],
   "agingRecords": [
@@ -199,16 +199,6 @@
           "department": "051000 - Athletic Administration"
         },
         {
-          "title": "Preschool Assistant Teacher",
-          "reqId": "44187",
-          "notionUrl": "https://www.notion.so/1e40a9c7f6584839bb19d89a70223543",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "174600 - Preschool Creat"
-        },
-        {
           "title": "Academic Svcs. Administrator",
           "reqId": "44191",
           "notionUrl": "https://www.notion.so/4cf80f19f27443de92cb67064c40723a",
@@ -284,7 +274,7 @@
           "notionUrl": "https://www.notion.so/286d495752c3430eb1f7066772febf9e",
           "owner": "Gabriel",
           "campus": "Tampa",
-          "stage": "Backlog",
+          "stage": "Recruiter Review",
           "agingBand": "🔴 6+",
           "department": "140105 - MCOB Financia"
         },
@@ -504,7 +494,7 @@
           "notionUrl": "https://www.notion.so/e96fcdac40284d30a2d6e8ba514c415f",
           "owner": "Gabriel",
           "campus": "Tampa",
-          "stage": "Offer Stage",
+          "stage": "Pre-boarding",
           "agingBand": "🔴 6+",
           "department": "170800 - COE-Student Academic Services"
         },
@@ -949,12 +939,32 @@
           "department": "Florida Inst of Oceanography"
         },
         {
-          "title": "Preschool Teacher",
-          "reqId": "43763",
-          "notionUrl": "https://www.notion.so/ac43a0376f864f8eae907da516a314f3",
+          "title": "Graphic Designer",
+          "reqId": "43732",
+          "notionUrl": "https://www.notion.so/c0f94fabea3d41f7b6b4fc7982095677",
           "owner": "Gabriel",
           "campus": "Tampa",
-          "stage": "Offer Stage",
+          "stage": "Pre-boarding",
+          "agingBand": "🔴 6+",
+          "department": "College of Education "
+        },
+        {
+          "title": "Academic Services Administrator",
+          "reqId": "43602",
+          "notionUrl": "https://www.notion.so/59cd9b5199dc45bc9f3bba29e4d39432",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Pre-boarding",
+          "agingBand": "🔴 6+",
+          "department": "College of Education "
+        },
+        {
+          "title": "Budget & Fiscal Services Analyst II",
+          "reqId": "43604",
+          "notionUrl": "https://www.notion.so/3a3b7604d5df450c80b7edfeb05e64dd",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Pre-boarding",
           "agingBand": "🔴 6+",
           "department": "College of Education "
         },
@@ -964,7 +974,7 @@
           "notionUrl": "https://www.notion.so/b61fd564bb694ef5ba51e3e56d04562b",
           "owner": "Gabriel",
           "campus": "St. Petersburg",
-          "stage": "Sourced",
+          "stage": "Recruiter Review",
           "agingBand": "🔴 6+",
           "department": "College of Marine Science"
         },
@@ -1200,7 +1210,7 @@
           "notionUrl": "https://www.notion.so/e598276a3e1145919c75ea3c303d69e9",
           "owner": "Gabriel",
           "campus": "Tampa",
-          "stage": "Offer Stage",
+          "stage": "Pre-boarding",
           "agingBand": "🟡 3–5",
           "department": "171400 - Teaching & Learning"
         },
@@ -1220,7 +1230,7 @@
           "notionUrl": "https://www.notion.so/e21deb64954648ffb708c6e7f1cf0fe4",
           "owner": "Gabriel",
           "campus": "Tampa",
-          "stage": "Offer Stage",
+          "stage": "Pre-boarding",
           "agingBand": "🟡 3–5",
           "department": "College of Education "
         },
@@ -1259,13 +1269,24 @@
     {
       "band": "🟢 0–2",
       "color": "#3B6D11",
-      "records": []
+      "records": [
+        {
+          "title": "Preschool Assistant Teacher",
+          "reqId": "44187",
+          "notionUrl": "https://www.notion.so/1e40a9c7f6584839bb19d89a70223543",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Interview Stage",
+          "agingBand": "🟢 0–2",
+          "department": "174600 - Preschool Creat"
+        }
+      ]
     }
   ],
   "reqType": [
     {
       "label": "Active",
-      "count": 183,
+      "count": 185,
       "color": "#00A693"
     },
     {
@@ -1307,7 +1328,7 @@
     },
     {
       "label": "College of Education ",
-      "count": 18,
+      "count": 20,
       "color": "#00A693"
     },
     {
@@ -1396,22 +1417,16 @@
       "color": "#CFC483"
     },
     {
-      "label": "Other (165 depts)",
-      "count": 319,
+      "label": "Other (164 depts)",
+      "count": 318,
       "color": "#c8c7c2"
     }
   ],
   "stageMetrics": [
     {
-      "label": "Sourced",
-      "avgDays": 18,
-      "count": 1,
-      "color": "#00A693"
-    },
-    {
       "label": "Recruiter Review",
       "avgDays": 30,
-      "count": 47,
+      "count": 48,
       "color": "#006747"
     },
     {
@@ -1428,20 +1443,20 @@
     },
     {
       "label": "Offer Stage",
-      "avgDays": 21,
-      "count": 21,
+      "avgDays": 23,
+      "count": 17,
       "color": "#CFC483"
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 21,
-      "count": 9,
+      "avgDays": 22,
+      "count": 15,
       "color": "#5B8FA8"
     },
     {
       "label": "Backlog",
       "avgDays": 18,
-      "count": 14,
+      "count": 13,
       "color": "#888780"
     }
   ],
@@ -2569,6 +2584,17 @@
       "notionUrl": "https://www.notion.so/9492201f49cd41ae8898b9f114026461"
     },
     {
+      "title": "Administrative Specialist",
+      "reqId": "41646",
+      "owner": "Gabriel",
+      "campus": "Tallahassee",
+      "stage": "Hired",
+      "department": "177500 - Inst For School Comm Partnersh",
+      "reqType": "Evergreen",
+      "ttf": 94,
+      "notionUrl": "https://www.notion.so/c8cf1bcb3972492ea3e033ae5f4343ba"
+    },
+    {
       "title": "Simulation Operations Specialist",
       "reqId": "43474",
       "owner": "Rebecca",
@@ -2743,6 +2769,17 @@
       "reqType": "Active",
       "ttf": 84,
       "notionUrl": "https://www.notion.so/f65bb0ca92484373a5a3009a2c7d5b47"
+    },
+    {
+      "title": "School Improvement Coordinator",
+      "reqId": "43238",
+      "owner": "Gabriel",
+      "campus": "Tallahassee",
+      "stage": "Hired",
+      "department": "177500 - Inst For School Comm Partnersh",
+      "reqType": "Evergreen",
+      "ttf": 83,
+      "notionUrl": "https://www.notion.so/39eb77654ee643c6bddbcb82b61c0e67"
     },
     {
       "title": "FCN Outreach Coordinator",
@@ -3172,6 +3209,17 @@
       "reqType": "Active",
       "ttf": 64,
       "notionUrl": "https://www.notion.so/09966205206c4af298b51ddcd19d7284"
+    },
+    {
+      "title": "Academic Program Specialist",
+      "reqId": "43870",
+      "owner": "Tameka Porter",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "126300 - Sociology & Inter Social Sci",
+      "reqType": "Active",
+      "ttf": 62,
+      "notionUrl": "https://www.notion.so/39f9ddf757a081d49859cb9a42c506c5"
     },
     {
       "title": "Locksmith II",
@@ -3647,28 +3695,6 @@
       "notionUrl": "https://www.notion.so/a39cda9b278443a4a8b39b28a46df3f2"
     },
     {
-      "title": "Academic Services Administrator",
-      "reqId": "43602",
-      "owner": "Gabriel",
-      "campus": "Tampa",
-      "stage": "Hired",
-      "department": "College of Education ",
-      "reqType": "Active",
-      "ttf": 29,
-      "notionUrl": "https://www.notion.so/59cd9b5199dc45bc9f3bba29e4d39432"
-    },
-    {
-      "title": "Budget & Fiscal Services Analyst II",
-      "reqId": "43604",
-      "owner": "Gabriel",
-      "campus": "Tampa",
-      "stage": "Hired",
-      "department": "College of Education ",
-      "reqType": "Active",
-      "ttf": 29,
-      "notionUrl": "https://www.notion.so/3a3b7604d5df450c80b7edfeb05e64dd"
-    },
-    {
       "title": "Transfer Success Specialist",
       "reqId": "43819",
       "owner": "johncalebrese",
@@ -3713,17 +3739,6 @@
       "notionUrl": "https://www.notion.so/06da65c4dbbb40f087fbda6dd1cc50de"
     },
     {
-      "title": "Graphic Designer",
-      "reqId": "43732",
-      "owner": "Gabriel",
-      "campus": "Tampa",
-      "stage": "Hired",
-      "department": "College of Education ",
-      "reqType": "Active",
-      "ttf": 16,
-      "notionUrl": "https://www.notion.so/c0f94fabea3d41f7b6b4fc7982095677"
-    },
-    {
       "title": "Athletics Asst/Pitching Special Assistant, Video Analyst and Pitching Analytics",
       "reqId": "44184",
       "owner": "johncalebrese",
@@ -3755,6 +3770,17 @@
       "reqType": "Active",
       "ttf": 15,
       "notionUrl": "https://www.notion.so/ada6d585591b4c80b74c83d88849fd74"
+    },
+    {
+      "title": "Preschool Teacher",
+      "reqId": "43763",
+      "owner": "Gabriel",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "College of Education ",
+      "reqType": "Active",
+      "ttf": 14,
+      "notionUrl": "https://www.notion.so/ac43a0376f864f8eae907da516a314f3"
     },
     {
       "title": "Clerical and Secretarial",
@@ -3823,6 +3849,39 @@
       "notionUrl": "https://www.notion.so/39f9ddf757a081d58986f0b11aa75d53"
     },
     {
+      "title": "Graduate Assistant",
+      "reqId": "43953",
+      "owner": "Gabriel",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "Inst For School Comm Partnersh",
+      "reqType": "Targeted",
+      "ttf": 0,
+      "notionUrl": "https://www.notion.so/7646be944f464c19be27a877f281b72f"
+    },
+    {
+      "title": "Graduate Assistant",
+      "reqId": "43951",
+      "owner": "Gabriel",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "177500 - Inst For School Comm Partnersh",
+      "reqType": "Targeted",
+      "ttf": 0,
+      "notionUrl": "https://www.notion.so/7b62fd3701e1493b81de17e839a30475"
+    },
+    {
+      "title": "Graduate Asst",
+      "reqId": "43949",
+      "owner": "Gabriel",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "177500 - Inst For School Comm Partnersh",
+      "reqType": "Targeted",
+      "ttf": 0,
+      "notionUrl": "https://www.notion.so/41c855e8c74b4c15838b0f796a1f2e7a"
+    },
+    {
       "title": "FTIC Out-of-State Recruiter",
       "reqId": "43157",
       "owner": "johncalebrese",
@@ -3867,6 +3926,17 @@
       "notionUrl": "https://www.notion.so/d52fbe7071e94947872d10ed63e2ea8d"
     },
     {
+      "title": "Research Support Assistant - Mechanical Engineering",
+      "reqId": "43759",
+      "owner": "Gabriel",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "210500 - Mechanical Engineering",
+      "reqType": "Targeted",
+      "ttf": 0,
+      "notionUrl": "https://www.notion.so/cbc432cffcff4e53ad5a97405fd257d8"
+    },
+    {
       "title": "Graduate Research Assist",
       "reqId": "43754",
       "owner": "Rebecca",
@@ -3887,6 +3957,28 @@
       "reqType": "Student",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/38f9ddf757a080508157eb26fd02aa1f"
+    },
+    {
+      "title": "Clerical and Secretarial Support",
+      "reqId": "43200",
+      "owner": "Gabriel",
+      "campus": "St. Petersburg",
+      "stage": "Hired",
+      "department": "STP Regional Chancellor",
+      "reqType": "Targeted",
+      "ttf": 0,
+      "notionUrl": "https://www.notion.so/73dd171802ce4207aa9926a9c32de92d"
+    },
+    {
+      "title": "OPS Staff Assistant",
+      "reqId": "43390",
+      "owner": "Gabriel",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "177700 - David C Anchin Center",
+      "reqType": "Targeted",
+      "ttf": 0,
+      "notionUrl": "https://www.notion.so/8212df5745d04313914a16f0b57726b4"
     },
     {
       "title": "Other Hourly Professional/Support",
@@ -4122,17 +4214,17 @@
         "fillRatePct": 100
       },
       {
-        "department": "College of Education ",
-        "filled": 8,
-        "failed": 0,
-        "cancelled": 0,
-        "fillRatePct": 100
-      },
-      {
         "department": "MUMA",
         "filled": 6,
         "failed": 0,
         "cancelled": 1,
+        "fillRatePct": 100
+      },
+      {
+        "department": "College of Education ",
+        "filled": 6,
+        "failed": 0,
+        "cancelled": 0,
         "fillRatePct": 100
       },
       {
@@ -4151,6 +4243,13 @@
       },
       {
         "department": "210800 - AICC Bellini College Department",
+        "filled": 4,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "177500 - Inst For School Comm Partnersh",
         "filled": 4,
         "failed": 0,
         "cancelled": 0,
@@ -4437,6 +4536,13 @@
         "fillRatePct": 100
       },
       {
+        "department": "126300 - Sociology & Inter Social Sci",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
         "department": "025102 - Physical Security",
         "filled": 1,
         "failed": 0,
@@ -4584,6 +4690,13 @@
         "fillRatePct": 100
       },
       {
+        "department": "Inst For School Comm Partnersh",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
         "department": "No Department",
         "filled": 1,
         "failed": 0,
@@ -4591,7 +4704,28 @@
         "fillRatePct": 100
       },
       {
+        "department": "210500 - Mechanical Engineering",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
         "department": "614300 - Molecular Pharm & Physiology",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "STP Regional Chancellor",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "177700 - David C Anchin Center",
         "filled": 1,
         "failed": 0,
         "cancelled": 0,
@@ -4608,13 +4742,13 @@
     "avgTTFByReqType": [
       {
         "reqType": "Active",
-        "avgDays": 107,
-        "count": 136
+        "avgDays": 108,
+        "count": 135
       },
       {
         "reqType": "Evergreen",
         "avgDays": 84,
-        "count": 20
+        "count": 22
       },
       {
         "reqType": "Student",
@@ -4640,8 +4774,8 @@
       },
       {
         "campus": "Tampa",
-        "avgDays": 87,
-        "count": 79
+        "avgDays": 88,
+        "count": 78
       },
       {
         "campus": "St. Petersburg",
@@ -4652,6 +4786,11 @@
         "campus": "Unspecified",
         "avgDays": 60,
         "count": 5
+      },
+      {
+        "campus": "Tallahassee",
+        "avgDays": 89,
+        "count": 2
       }
     ],
     "topHiringDepartments": [
@@ -4728,9 +4867,9 @@
       {
         "recruiter": "Gabriel",
         "color": "#00A693",
-        "stalled": 34,
-        "totalActive": 45,
-        "stallRatePct": 76
+        "stalled": 35,
+        "totalActive": 47,
+        "stallRatePct": 74
       }
     ],
     "seasonalHiringTrends": [
@@ -4788,7 +4927,7 @@
       },
       {
         "label": "Jun '26",
-        "count": 146
+        "count": 147
       },
       {
         "label": "Jul '26",
@@ -4796,7 +4935,7 @@
       },
       {
         "label": "Aug '26",
-        "count": 114
+        "count": 115
       }
     ]
   },
@@ -5942,10 +6081,10 @@
       "bgDark": "#042e24",
       "campus": "St Pete / Tampa",
       "reqs": 200,
-      "filled": 30,
+      "filled": 36,
       "failed": 2,
       "ttf": 74,
-      "wip": 5,
+      "wip": 8,
       "agingRecords": [
         {
           "band": "🔴 6+",
@@ -6000,16 +6139,6 @@
               "stage": "Backlog",
               "agingBand": "🔴 6+",
               "department": "210700 - Chemical & Biomedical Engineering"
-            },
-            {
-              "title": "Preschool Assistant Teacher",
-              "reqId": "44187",
-              "notionUrl": "https://www.notion.so/1e40a9c7f6584839bb19d89a70223543",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "174600 - Preschool Creat"
             },
             {
               "title": "Academic Svcs. Administrator",
@@ -6087,7 +6216,7 @@
               "notionUrl": "https://www.notion.so/286d495752c3430eb1f7066772febf9e",
               "owner": "Gabriel",
               "campus": "Tampa",
-              "stage": "Backlog",
+              "stage": "Recruiter Review",
               "agingBand": "🔴 6+",
               "department": "140105 - MCOB Financia"
             },
@@ -6177,7 +6306,7 @@
               "notionUrl": "https://www.notion.so/e96fcdac40284d30a2d6e8ba514c415f",
               "owner": "Gabriel",
               "campus": "Tampa",
-              "stage": "Offer Stage",
+              "stage": "Pre-boarding",
               "agingBand": "🔴 6+",
               "department": "170800 - COE-Student Academic Services"
             },
@@ -6272,12 +6401,32 @@
               "department": "Florida Inst of Oceanography"
             },
             {
-              "title": "Preschool Teacher",
-              "reqId": "43763",
-              "notionUrl": "https://www.notion.so/ac43a0376f864f8eae907da516a314f3",
+              "title": "Graphic Designer",
+              "reqId": "43732",
+              "notionUrl": "https://www.notion.so/c0f94fabea3d41f7b6b4fc7982095677",
               "owner": "Gabriel",
               "campus": "Tampa",
-              "stage": "Offer Stage",
+              "stage": "Pre-boarding",
+              "agingBand": "🔴 6+",
+              "department": "College of Education "
+            },
+            {
+              "title": "Academic Services Administrator",
+              "reqId": "43602",
+              "notionUrl": "https://www.notion.so/59cd9b5199dc45bc9f3bba29e4d39432",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Pre-boarding",
+              "agingBand": "🔴 6+",
+              "department": "College of Education "
+            },
+            {
+              "title": "Budget & Fiscal Services Analyst II",
+              "reqId": "43604",
+              "notionUrl": "https://www.notion.so/3a3b7604d5df450c80b7edfeb05e64dd",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Pre-boarding",
               "agingBand": "🔴 6+",
               "department": "College of Education "
             },
@@ -6287,7 +6436,7 @@
               "notionUrl": "https://www.notion.so/b61fd564bb694ef5ba51e3e56d04562b",
               "owner": "Gabriel",
               "campus": "St. Petersburg",
-              "stage": "Sourced",
+              "stage": "Recruiter Review",
               "agingBand": "🔴 6+",
               "department": "College of Marine Science"
             },
@@ -6383,7 +6532,7 @@
               "notionUrl": "https://www.notion.so/e598276a3e1145919c75ea3c303d69e9",
               "owner": "Gabriel",
               "campus": "Tampa",
-              "stage": "Offer Stage",
+              "stage": "Pre-boarding",
               "agingBand": "🟡 3–5",
               "department": "171400 - Teaching & Learning"
             },
@@ -6403,7 +6552,7 @@
               "notionUrl": "https://www.notion.so/e21deb64954648ffb708c6e7f1cf0fe4",
               "owner": "Gabriel",
               "campus": "Tampa",
-              "stage": "Offer Stage",
+              "stage": "Pre-boarding",
               "agingBand": "🟡 3–5",
               "department": "College of Education "
             },
@@ -6432,20 +6581,25 @@
         {
           "band": "🟢 0–2",
           "color": "#3B6D11",
-          "records": []
+          "records": [
+            {
+              "title": "Preschool Assistant Teacher",
+              "reqId": "44187",
+              "notionUrl": "https://www.notion.so/1e40a9c7f6584839bb19d89a70223543",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Interview Stage",
+              "agingBand": "🟢 0–2",
+              "department": "174600 - Preschool Creat"
+            }
+          ]
         }
       ],
       "stageMetrics": [
         {
-          "label": "Sourced",
-          "avgDays": 18,
-          "count": 1,
-          "color": "#00A693"
-        },
-        {
           "label": "Recruiter Review",
           "avgDays": 11,
-          "count": 12,
+          "count": 13,
           "color": "#006747"
         },
         {
@@ -6462,32 +6616,32 @@
         },
         {
           "label": "Offer Stage",
-          "avgDays": 15,
-          "count": 13,
+          "avgDays": 17,
+          "count": 9,
           "color": "#CFC483"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 4,
-          "count": 1,
+          "avgDays": 21,
+          "count": 7,
           "color": "#5B8FA8"
         },
         {
           "label": "Backlog",
-          "avgDays": 9,
-          "count": 9,
+          "avgDays": 8,
+          "count": 8,
           "color": "#888780"
         }
       ],
       "statuses": [
         {
           "label": "Backlog",
-          "count": 14,
+          "count": 13,
           "color": "#888780"
         },
         {
           "label": "Recruiter Review",
-          "count": 17,
+          "count": 18,
           "color": "#185FA5"
         },
         {
@@ -6496,8 +6650,13 @@
           "color": "#534AB7"
         },
         {
+          "label": "Interview Stage",
+          "count": 5,
+          "color": "#534AB7"
+        },
+        {
           "label": "Offer Stage",
-          "count": 16,
+          "count": 12,
           "color": "#0F6E56"
         },
         {
@@ -6511,9 +6670,9 @@
           "color": "#993556"
         },
         {
-          "label": "Interview Stage",
-          "count": 4,
-          "color": "#534AB7"
+          "label": "Pre-boarding",
+          "count": 9,
+          "color": "#888780"
         },
         {
           "label": "Targeted",
@@ -6524,16 +6683,6 @@
           "label": "Passive",
           "count": 14,
           "color": "#5B8FA8"
-        },
-        {
-          "label": "Pre-boarding",
-          "count": 3,
-          "color": "#888780"
-        },
-        {
-          "label": "Sourced",
-          "count": 1,
-          "color": "#3B6D11"
         }
       ],
       "aging": [
@@ -6542,7 +6691,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 34
+          "count": 35
         },
         {
           "label": "🟡 3-5",
@@ -6556,13 +6705,13 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 0
+          "count": 1
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 139
+          "count": 141
         },
         {
           "label": "Screened",
@@ -6574,17 +6723,17 @@
         },
         {
           "label": "Interviews",
-          "count": 4
+          "count": 5
         },
         {
           "label": "Offer",
-          "count": 16
+          "count": 12
         }
       ],
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 30,
+          "value": 36,
           "target": 10,
           "invert": false
         },
@@ -6602,7 +6751,7 @@
         },
         {
           "label": "Interviews",
-          "value": 4,
+          "value": 5,
           "target": 200,
           "invert": false
         }
@@ -6625,7 +6774,7 @@
       "bgDark": "#1c1852",
       "campus": "Tampa",
       "reqs": 150,
-      "filled": 2,
+      "filled": 3,
       "failed": 1,
       "ttf": 64,
       "wip": 0,
@@ -6735,7 +6884,7 @@
       "statuses": [
         {
           "label": "Recruiter Review",
-          "count": 124,
+          "count": 123,
           "color": "#185FA5"
         },
         {
@@ -6785,7 +6934,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 138
+          "count": 137
         },
         {
           "label": "Screened",
@@ -6807,7 +6956,7 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 2,
+          "value": 3,
           "target": 10,
           "invert": false
         },
@@ -6844,14 +6993,14 @@
     {
       "field": "Stage",
       "missingCount": 0,
-      "totalActive": 614,
+      "totalActive": 615,
       "pct": 0,
       "records": []
     },
     {
       "field": "Department/College",
       "missingCount": 1,
-      "totalActive": 614,
+      "totalActive": 615,
       "pct": 0,
       "records": [
         {
@@ -6866,8 +7015,8 @@
     },
     {
       "field": "Last Activity",
-      "missingCount": 289,
-      "totalActive": 614,
+      "missingCount": 288,
+      "totalActive": 615,
       "pct": 47,
       "records": [
         {
@@ -7274,8 +7423,8 @@
     },
     {
       "field": "Req Type",
-      "missingCount": 107,
-      "totalActive": 614,
+      "missingCount": 106,
+      "totalActive": 615,
       "pct": 17,
       "records": [
         {
@@ -7683,7 +7832,7 @@
     {
       "field": "Campus",
       "missingCount": 16,
-      "totalActive": 614,
+      "totalActive": 615,
       "pct": 3,
       "records": [
         {
@@ -7818,9 +7967,9 @@
     },
     {
       "field": "HRBP",
-      "missingCount": 164,
-      "totalActive": 614,
-      "pct": 27,
+      "missingCount": 161,
+      "totalActive": 615,
+      "pct": 26,
       "records": [
         {
           "title": "Teaching Artist",
@@ -7973,22 +8122,6 @@
           "campus": "St. Petersburg",
           "stage": "Backlog",
           "notionUrl": "https://www.notion.so/dce4509cc90f424493db779bf68c3014"
-        },
-        {
-          "title": "Fiscal & Business Specialist",
-          "reqId": "44216",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/38e792423e584dab9016ca44c74c161a"
-        },
-        {
-          "title": "Applications Developer I",
-          "reqId": "44220",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Backlog",
-          "notionUrl": "https://www.notion.so/286d495752c3430eb1f7066772febf9e"
         },
         {
           "title": "Student Assistant - Temp",
@@ -8221,13 +8354,29 @@
           "campus": "Tampa",
           "stage": "Recruiter Review",
           "notionUrl": "https://www.notion.so/39f9ddf757a0813d8302ca1e4ba39304"
+        },
+        {
+          "title": "AVC Student Developer",
+          "reqId": "42959",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081ebaedcfdb533ed8645"
+        },
+        {
+          "title": "Sr. Lab Animal Tech",
+          "reqId": "42964",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081dc8e30c04e28cc5f75"
         }
       ]
     },
     {
       "field": "Posted Date",
-      "missingCount": 162,
-      "totalActive": 614,
+      "missingCount": 160,
+      "totalActive": 615,
       "pct": 26,
       "records": [
         {
@@ -8285,14 +8434,6 @@
           "campus": "St. Petersburg",
           "stage": "Backlog",
           "notionUrl": "https://www.notion.so/dce4509cc90f424493db779bf68c3014"
-        },
-        {
-          "title": "Applications Developer I",
-          "reqId": "44220",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Backlog",
-          "notionUrl": "https://www.notion.so/286d495752c3430eb1f7066772febf9e"
         },
         {
           "title": "Student Assistant",
@@ -8629,14 +8770,22 @@
           "campus": "Tampa",
           "stage": "Recruiter Review",
           "notionUrl": "https://www.notion.so/39f9ddf757a08175860edd92b665fdaa"
+        },
+        {
+          "title": "Visiting Research Scholar",
+          "reqId": "42588",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0814ba3f9fd3091c101e4"
         }
       ]
     },
     {
       "field": "Unposted Date",
-      "missingCount": 460,
-      "totalActive": 614,
-      "pct": 75,
+      "missingCount": 455,
+      "totalActive": 615,
+      "pct": 74,
       "records": [
         {
           "title": "Maintenance Technician",
@@ -8983,14 +9132,6 @@
           "notionUrl": "https://www.notion.so/669f5515421240afbfcc65d4f8613f08"
         },
         {
-          "title": "Mail Clerk",
-          "reqId": "44235",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/a4730c4c615a4f509ceb8746942c1c48"
-        },
-        {
           "title": "Unit Research Administrator",
           "reqId": "44239",
           "owner": "Gabriel",
@@ -9037,6 +9178,14 @@
           "campus": "Tampa",
           "stage": "Faculty",
           "notionUrl": "https://www.notion.so/7398e741d27c42a2ae9b368b59e4f62a"
+        },
+        {
+          "title": "Research Support Assistant",
+          "reqId": "44257",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "notionUrl": "https://www.notion.so/63373053ede04e6993ba18eae5566b97"
         }
       ]
     }
