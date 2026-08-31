@@ -239,6 +239,25 @@ async function main() {
     return normalize(recordValue) === normalize(bandLabel);
   }
 
+  // Aging Band is now computed automatically from Notion's built-in last_edited_time
+  // (returned on every page by the API, no manual field or Notion formula needed).
+  // Replaces the old manual "Last Activity" field, which required recruiters to
+  // remember to update it and was a recurring Data Quality gap.
+  function daysSinceLastEdit(page) {
+    if (!page.last_edited_time) return null;
+    const editedMs = new Date(page.last_edited_time).getTime();
+    if (isNaN(editedMs)) return null;
+    return Math.floor((Date.now() - editedMs) / 86400000);
+  }
+
+  function computeAgingBand(page) {
+    const days = daysSinceLastEdit(page);
+    if (days === null) return null;
+    if (days >= 6) return agingBands[0].label; // '🔴 6+'
+    if (days >= 3) return agingBands[1].label; // '🟡 3-5'
+    return agingBands[2].label;                // '🟢 0–2'
+  }
+
   // Stage colors and order — defined here so they're available in both
   // per-recruiter stageMetrics and the main team-wide stageMetrics
   const stageColors = {
@@ -276,7 +295,7 @@ async function main() {
 
     const aging = agingBands.map(band => ({
       ...band,
-      count: myActive.filter(r => matchAgingBand(getProp(r, 'Aging Band', 'formula_text'), band.label)).length
+      count: myActive.filter(r => matchAgingBand(computeAgingBand(r), band.label)).length
     }));
 
     const ttfValues = allMyRecs
@@ -306,7 +325,7 @@ async function main() {
         band: band.label,
         color: band.color,
         records: allMyRecs
-          .filter(r => matchAgingBand(getProp(r, 'Aging Band', 'formula_text'), band.label))
+          .filter(r => matchAgingBand(computeAgingBand(r), band.label))
           .map(r => ({
             title: getProp(r, 'Requistion Title', 'title') || getProp(r, 'Requisition Title', 'title') || getProp(r, 'Name', 'title') || 'Untitled',
             reqId: getProp(r, 'Requisition ID', 'text') || getProp(r, 'Requisition ID', 'number') || '',
@@ -315,7 +334,7 @@ async function main() {
             owner: (() => { const p = getProp(r, 'Owner', 'person'); return p?.name || p?.person?.email || 'Unassigned'; })(),
             campus: getProp(r, 'Campus', 'select') || '',
             stage: getProp(r, 'Stage', 'select') || '',
-            agingBand: getProp(r, 'Aging Band', 'formula_text') || '',
+            agingBand: computeAgingBand(r) || '',
             department: getProp(r, 'Department/College', 'text') || ''
           }))
       })),
@@ -434,11 +453,11 @@ async function main() {
 
   console.log('Req Type breakdown:', JSON.stringify(reqTypeBreakdown));
   // DEBUG: verify formula fields are being read correctly
-  const sampleAging = activeRecords.slice(0, 5).map(r => getProp(r, 'Aging Band', 'formula_text'));
+  const sampleAging = activeRecords.slice(0, 5).map(r => computeAgingBand(r));
   console.log('Sample Aging Band values (raw):', JSON.stringify(sampleAging));
   const agingCounts = agingBands.map(b => ({
     band: b.label,
-    count: activeRecords.filter(r => matchAgingBand(getProp(r, 'Aging Band', 'formula_text'), b.label)).length
+    count: activeRecords.filter(r => matchAgingBand(computeAgingBand(r), b.label)).length
   }));
   console.log('Aging band counts:', JSON.stringify(agingCounts));
   console.log('Department breakdown:', JSON.stringify(deptBreakdown));
@@ -617,14 +636,14 @@ async function main() {
     .map(([label, count]) => ({ label, count })),
     mainAging: agingBands.map(band => ({
       ...band,
-      count: activeRecords.filter(r => matchAgingBand(getProp(r, 'Aging Band', 'formula_text'), band.label)).length
+      count: activeRecords.filter(r => matchAgingBand(computeAgingBand(r), band.label)).length
     })),
     // Per-record aging data for heatmap drill-down click functionality
     agingRecords: agingBands.map(band => ({
       band: band.label,
       color: band.color,
       records: activeRecords
-        .filter(r => matchAgingBand(getProp(r, 'Aging Band', 'formula_text'), band.label))
+        .filter(r => matchAgingBand(computeAgingBand(r), band.label))
         .map(r => ({
           title: getProp(r, 'Requistion Title', 'title') || getProp(r, 'Requisition Title', 'title') || getProp(r, 'Name', 'title') || 'Untitled',
           reqId: getProp(r, 'Requisition ID', 'text') || getProp(r, 'Requisition ID', 'number') || '',
@@ -632,7 +651,7 @@ async function main() {
           owner: (() => { const p = getProp(r, 'Owner', 'person'); return p?.name || p?.person?.email || 'Unassigned'; })(),
           campus: getProp(r, 'Campus', 'select') || '',
           stage: getProp(r, 'Stage', 'select') || '',
-          agingBand: getProp(r, 'Aging Band', 'formula_text') || '',
+          agingBand: computeAgingBand(r) || '',
           department: getProp(r, 'Department/College', 'text') || ''
         }))
     })),
@@ -649,7 +668,6 @@ async function main() {
       const criticalFields = [
         { key: 'stage',       label: 'Stage',              check: r => !getProp(r, 'Stage', 'select') },
         { key: 'department',  label: 'Department/College',  check: r => !getProp(r, 'Department/College', 'text') },
-        { key: 'lastActivity',label: 'Last Activity',       check: r => !getProp(r, 'Last Activity', 'date') && !getProp(r, 'Last Activity', 'text') },
         { key: 'reqType',     label: 'Req Type',            check: r => !getProp(r, 'Req Type', 'select') },
         { key: 'campus',      label: 'Campus',              check: r => !getProp(r, 'Campus', 'select') },
         { key: 'hrbp',        label: 'HRBP',               check: r => !getProp(r, 'HRBP', 'text') && !getProp(r, 'HRBP', 'select') },
@@ -729,7 +747,7 @@ async function main() {
       cleanVal(getProp(r, 'Hiring Manager', 'text') || getProp(r, 'Hiring Manager', 'select')),
       cleanVal(getProp(r, 'Time to Fill (Days)', 'formula_number') || ''),
       cleanVal(getProp(r, 'Time in Stage (Days)', 'formula_number') || ''),
-      cleanVal((getProp(r, 'Aging Band', 'formula_text') || '').replace(/🔴\s*/g,'').replace(/🟡\s*/g,'').replace(/🟢\s*/g,'').trim()),
+      cleanVal((computeAgingBand(r) || '').replace(/🔴\s*/g,'').replace(/🟡\s*/g,'').replace(/🟢\s*/g,'').trim()),
       cleanVal(getProp(r, 'Posted Date', 'date') || getProp(r, 'Posted Date', 'text')),
       cleanVal(getProp(r, 'Last Activity', 'date') || getProp(r, 'Last Activity', 'text')),
       cleanVal(getProp(r, 'Open Req (Yes/No)', 'checkbox') ? 'Yes' : 'No')
