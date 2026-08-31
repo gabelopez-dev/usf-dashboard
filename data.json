@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-08-31T07:34:04.770Z",
+  "lastUpdated": "2026-08-31T13:48:38.803Z",
   "summary": {
-    "openReqs": 615,
+    "openReqs": 614,
     "avgTimeToFill": 96,
     "filledYTD": 206,
     "failedCancelled": 35,
-    "inOfferStage": 45
+    "inOfferStage": 42
   },
   "campus": [
     {
@@ -37,7 +37,7 @@
   "mainFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 221
+      "count": 220
     },
     {
       "label": "HM Review",
@@ -49,7 +49,7 @@
     },
     {
       "label": "Offer Stage",
-      "count": 45
+      "count": 42
     },
     {
       "label": "Backlog",
@@ -60,16 +60,16 @@
       "count": 36
     },
     {
+      "label": "Pre-boarding",
+      "count": 19
+    },
+    {
       "label": "Passive",
       "count": 18
     },
     {
       "label": "Interview Stage",
       "count": 17
-    },
-    {
-      "label": "Pre-boarding",
-      "count": 16
     },
     {
       "label": "Targeted",
@@ -93,7 +93,7 @@
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 16
+      "count": 15
     },
     {
       "label": "🟢 0–2",
@@ -894,7 +894,7 @@
           "notionUrl": "https://www.notion.so/38f9ddf757a08019a945fb83f818186d",
           "owner": "johncalebrese",
           "campus": "",
-          "stage": "Offer Stage",
+          "stage": "Pre-boarding",
           "agingBand": "🔴 6+",
           "department": "066200 - WUSF-FM"
         },
@@ -1125,16 +1125,6 @@
           "department": "174600 - Preschool Creative Learning"
         },
         {
-          "title": "Community Service Officer",
-          "reqId": "37612",
-          "notionUrl": "https://www.notion.so/6d6981ca08bf47c1baa660199afc2002",
-          "owner": "johncalebrese",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "agingBand": "🟡 3–5",
-          "department": "026100 - University Police"
-        },
-        {
           "title": "Learning & Development Facilitator",
           "reqId": "44222",
           "notionUrl": "https://www.notion.so/48e96c1b25f849809a35d3a9f5b075d4",
@@ -1275,7 +1265,7 @@
   "reqType": [
     {
       "label": "Active",
-      "count": 184,
+      "count": 183,
       "color": "#00A693"
     },
     {
@@ -1406,8 +1396,8 @@
       "color": "#CFC483"
     },
     {
-      "label": "Other (166 depts)",
-      "count": 320,
+      "label": "Other (165 depts)",
+      "count": 319,
       "color": "#c8c7c2"
     }
   ],
@@ -1421,7 +1411,7 @@
     {
       "label": "Recruiter Review",
       "avgDays": 30,
-      "count": 48,
+      "count": 47,
       "color": "#006747"
     },
     {
@@ -1438,14 +1428,14 @@
     },
     {
       "label": "Offer Stage",
-      "avgDays": 22,
-      "count": 22,
+      "avgDays": 21,
+      "count": 21,
       "color": "#CFC483"
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 19,
-      "count": 8,
+      "avgDays": 21,
+      "count": 9,
       "color": "#5B8FA8"
     },
     {
@@ -4725,8 +4715,8 @@
         "recruiter": "John",
         "color": "#1B6A9C",
         "stalled": 34,
-        "totalActive": 38,
-        "stallRatePct": 89
+        "totalActive": 37,
+        "stallRatePct": 92
       },
       {
         "recruiter": "Tameka",
@@ -4741,6 +4731,72 @@
         "stalled": 34,
         "totalActive": 45,
         "stallRatePct": 76
+      }
+    ],
+    "seasonalHiringTrends": [
+      {
+        "label": "Mar '25",
+        "count": 6
+      },
+      {
+        "label": "Jun '25",
+        "count": 2
+      },
+      {
+        "label": "Jul '25",
+        "count": 1
+      },
+      {
+        "label": "Aug '25",
+        "count": 1
+      },
+      {
+        "label": "Sep '25",
+        "count": 3
+      },
+      {
+        "label": "Oct '25",
+        "count": 4
+      },
+      {
+        "label": "Nov '25",
+        "count": 8
+      },
+      {
+        "label": "Dec '25",
+        "count": 10
+      },
+      {
+        "label": "Jan '26",
+        "count": 20
+      },
+      {
+        "label": "Feb '26",
+        "count": 29
+      },
+      {
+        "label": "Mar '26",
+        "count": 54
+      },
+      {
+        "label": "Apr '26",
+        "count": 75
+      },
+      {
+        "label": "May '26",
+        "count": 102
+      },
+      {
+        "label": "Jun '26",
+        "count": 146
+      },
+      {
+        "label": "Jul '26",
+        "count": 120
+      },
+      {
+        "label": "Aug '26",
+        "count": 114
       }
     ]
   },
@@ -5599,7 +5655,7 @@
               "notionUrl": "https://www.notion.so/38f9ddf757a08019a945fb83f818186d",
               "owner": "johncalebrese",
               "campus": "",
-              "stage": "Offer Stage",
+              "stage": "Pre-boarding",
               "agingBand": "🔴 6+",
               "department": "066200 - WUSF-FM"
             },
@@ -5680,16 +5736,6 @@
           "color": "#BA7517",
           "records": [
             {
-              "title": "Community Service Officer",
-              "reqId": "37612",
-              "notionUrl": "https://www.notion.so/6d6981ca08bf47c1baa660199afc2002",
-              "owner": "johncalebrese",
-              "campus": "",
-              "stage": "Recruiter Review",
-              "agingBand": "🟡 3–5",
-              "department": "026100 - University Police"
-            },
-            {
               "title": "Learning & Development Facilitator",
               "reqId": "44222",
               "notionUrl": "https://www.notion.so/48e96c1b25f849809a35d3a9f5b075d4",
@@ -5730,8 +5776,8 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 16,
-          "count": 12,
+          "avgDays": 17,
+          "count": 11,
           "color": "#006747"
         },
         {
@@ -5748,14 +5794,14 @@
         },
         {
           "label": "Offer Stage",
-          "avgDays": 22,
-          "count": 4,
+          "avgDays": 17,
+          "count": 3,
           "color": "#CFC483"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 21,
-          "count": 7,
+          "avgDays": 23,
+          "count": 8,
           "color": "#5B8FA8"
         },
         {
@@ -5768,7 +5814,7 @@
       "statuses": [
         {
           "label": "Recruiter Review",
-          "count": 12,
+          "count": 11,
           "color": "#185FA5"
         },
         {
@@ -5777,9 +5823,9 @@
           "color": "#0F6E56"
         },
         {
-          "label": "Offer Stage",
-          "count": 12,
-          "color": "#0F6E56"
+          "label": "Pre-boarding",
+          "count": 16,
+          "color": "#888780"
         },
         {
           "label": "Passive",
@@ -5787,9 +5833,9 @@
           "color": "#5B8FA8"
         },
         {
-          "label": "Pre-boarding",
-          "count": 13,
-          "color": "#888780"
+          "label": "Offer Stage",
+          "count": 9,
+          "color": "#0F6E56"
         },
         {
           "label": "Interview Stage",
@@ -5820,7 +5866,7 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 4
+          "count": 3
         },
         {
           "label": "🟢 0–2",
@@ -5833,7 +5879,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 73
+          "count": 72
         },
         {
           "label": "Screened",
@@ -5849,7 +5895,7 @@
         },
         {
           "label": "Offer",
-          "count": 12
+          "count": 9
         }
       ],
       "goals": [
@@ -6798,14 +6844,14 @@
     {
       "field": "Stage",
       "missingCount": 0,
-      "totalActive": 615,
+      "totalActive": 614,
       "pct": 0,
       "records": []
     },
     {
       "field": "Department/College",
       "missingCount": 1,
-      "totalActive": 615,
+      "totalActive": 614,
       "pct": 0,
       "records": [
         {
@@ -6821,7 +6867,7 @@
     {
       "field": "Last Activity",
       "missingCount": 289,
-      "totalActive": 615,
+      "totalActive": 614,
       "pct": 47,
       "records": [
         {
@@ -7229,7 +7275,7 @@
     {
       "field": "Req Type",
       "missingCount": 107,
-      "totalActive": 615,
+      "totalActive": 614,
       "pct": 17,
       "records": [
         {
@@ -7636,18 +7682,10 @@
     },
     {
       "field": "Campus",
-      "missingCount": 17,
-      "totalActive": 615,
+      "missingCount": 16,
+      "totalActive": 614,
       "pct": 3,
       "records": [
-        {
-          "title": "Community Service Officer",
-          "reqId": "37612",
-          "owner": "johncalebrese",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/6d6981ca08bf47c1baa660199afc2002"
-        },
         {
           "title": "Police Dispatcher",
           "reqId": "44052",
@@ -7765,7 +7803,7 @@
           "reqId": "43743",
           "owner": "johncalebrese",
           "campus": "",
-          "stage": "Offer Stage",
+          "stage": "Pre-boarding",
           "notionUrl": "https://www.notion.so/38f9ddf757a08019a945fb83f818186d"
         },
         {
@@ -7781,7 +7819,7 @@
     {
       "field": "HRBP",
       "missingCount": 164,
-      "totalActive": 615,
+      "totalActive": 614,
       "pct": 27,
       "records": [
         {
@@ -8189,7 +8227,7 @@
     {
       "field": "Posted Date",
       "missingCount": 162,
-      "totalActive": 615,
+      "totalActive": 614,
       "pct": 26,
       "records": [
         {
@@ -8596,8 +8634,8 @@
     },
     {
       "field": "Unposted Date",
-      "missingCount": 461,
-      "totalActive": 615,
+      "missingCount": 460,
+      "totalActive": 614,
       "pct": 75,
       "records": [
         {
@@ -8653,7 +8691,7 @@
           "reqId": "44266",
           "owner": "johncalebrese",
           "campus": "Tampa",
-          "stage": "Offer Stage",
+          "stage": "Pre-boarding",
           "notionUrl": "https://www.notion.so/e8a7ccd60e574aa385d3c5169367cd78"
         },
         {
@@ -8743,14 +8781,6 @@
           "campus": "USF Health",
           "stage": "Recruiter Review",
           "notionUrl": "https://www.notion.so/afb684804c2a4e1ea53c60aa6ce36f39"
-        },
-        {
-          "title": "Community Service Officer",
-          "reqId": "37612",
-          "owner": "johncalebrese",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/6d6981ca08bf47c1baa660199afc2002"
         },
         {
           "title": "Learning & Development Facilitator",
@@ -8999,6 +9029,14 @@
           "campus": "Tampa",
           "stage": "Faculty",
           "notionUrl": "https://www.notion.so/fca453ce800c47d892f23845c345f983"
+        },
+        {
+          "title": "Adjunct APK 2092",
+          "reqId": "44250",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Faculty",
+          "notionUrl": "https://www.notion.so/7398e741d27c42a2ae9b368b59e4f62a"
         }
       ]
     }
