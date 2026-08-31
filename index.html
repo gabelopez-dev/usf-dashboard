@@ -598,9 +598,26 @@ function renderInsightsPage(data) {
     </div>
   </div>
 
-  <!-- Row 3: Trends (isolated — blocked on data quality) -->
+  <!-- Row 3: Seasonal Hiring Trends — reqs posted per month, from Posted Date -->
   <div class="row">
-    ${placeholderCard('Seasonal Hiring Trends', 'When does USF hiring spike? Monthly req opens and fills to identify peak seasons and plan ahead.', 'Needs date fields', '#BA7517')}
+    <div class="card">
+      <div class="card-title">Seasonal Hiring Trends</div>
+      <p style="font-size:10px; color:#bbb; font-style:italic; margin-bottom:14px;">Reqs posted per month, from Posted Date. Same source field as Power BI's Recruitment Trend chart.</p>
+      ${(() => {
+        const items = data.insights?.seasonalHiringTrends || [];
+        if (!items.length) return emptyNote('No Posted Date data yet');
+        const maxCount = Math.max(...items.map(i => i.count), 1);
+        const bars = items.map(i => {
+          const heightPx = Math.max(6, Math.round((i.count / maxCount) * 90));
+          return `<div style="display:flex; flex-direction:column; align-items:center; gap:6px; flex:1; min-width:36px;">
+            <span style="font-size:10px; font-weight:700; color:#555;">${i.count}</span>
+            <div style="width:100%; max-width:32px; height:${heightPx}px; background:#00A693; border-radius:3px 3px 0 0;"></div>
+            <span style="font-size:9px; color:#888; white-space:nowrap;">${i.label}</span>
+          </div>`;
+        }).join('');
+        return `<div style="display:flex; align-items:flex-end; gap:4px; height:130px; padding:0 4px;">${bars}</div>`;
+      })()}
+    </div>
   </div>`;
 
   return html;
