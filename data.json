@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T08:27:28.738Z",
+  "lastUpdated": "2026-09-06T12:17:14.790Z",
   "summary": {
     "openReqs": 606,
     "avgTimeToFill": 96,
@@ -86,14 +86,14 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 423
+      "count": 426
     },
     {
       "label": "🟡 3-5",
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 132
+      "count": 129
     },
     {
       "label": "🟢 0–2",
@@ -1007,6 +1007,16 @@
           "stage": "Recruiter Review",
           "agingBand": "🔴 6+",
           "department": "066200 - WUSF-FM"
+        },
+        {
+          "title": "Athletics Assistant- Partnership Activation, Intern",
+          "reqId": "44099",
+          "notionUrl": "https://www.notion.so/aea8aad3b703406eb3cec3b0a1e530eb",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Pre-boarding",
+          "agingBand": "🔴 6+",
+          "department": "051000 - Athletic Administration"
         },
         {
           "title": "Office Assistant - Part Time Temporary",
@@ -2969,6 +2979,16 @@
           "department": "612000 - Department Of Surgery"
         },
         {
+          "title": "Adjunct",
+          "reqId": "43846",
+          "notionUrl": "https://www.notion.so/e7c9c9ecdf6448a2926720f2b6912f32",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Pre-boarding",
+          "agingBand": "🔴 6+",
+          "department": "260000 - Honors College"
+        },
+        {
           "title": "Assistant Director IT Audit",
           "reqId": "43823",
           "notionUrl": "https://www.notion.so/baf0c4c1f29442719ee4bd12a7959953",
@@ -3327,6 +3347,16 @@
           "stage": "Offer Stage",
           "agingBand": "🔴 6+",
           "department": "051000 - Athletic Administration"
+        },
+        {
+          "title": "FWS Student Assistant - Provost",
+          "reqId": "43182",
+          "notionUrl": "https://www.notion.so/2c236c9efe954680a648ab319628885b",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Pre-boarding",
+          "agingBand": "🔴 6+",
+          "department": "410200 - Academic Planning/Institutional Effectiveness"
         },
         {
           "title": "NRT Program Coordinator",
@@ -4955,16 +4985,6 @@
           "department": "640100 - COPH Office Of"
         },
         {
-          "title": "Athletics Assistant- Partnership Activation, Intern",
-          "reqId": "44099",
-          "notionUrl": "https://www.notion.so/aea8aad3b703406eb3cec3b0a1e530eb",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🟡 3-5",
-          "department": "051000 - Athletic Administration"
-        },
-        {
           "title": "Athletics Director CRM Business Analytics",
           "reqId": "44045",
           "notionUrl": "https://www.notion.so/edd62ee807d54bfa99c91fae83846275",
@@ -5315,16 +5335,6 @@
           "department": "614400 - Molecular Medicine"
         },
         {
-          "title": "Adjunct",
-          "reqId": "43846",
-          "notionUrl": "https://www.notion.so/e7c9c9ecdf6448a2926720f2b6912f32",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🟡 3-5",
-          "department": "260000 - Honors College"
-        },
-        {
           "title": "Postdoctoral Fellow of Research",
           "reqId": "43712",
           "notionUrl": "https://www.notion.so/38f9ddf757a080dea938c9e72f26e03e",
@@ -5503,16 +5513,6 @@
           "stage": "HM Review",
           "agingBand": "🟡 3-5",
           "department": "051000 - Athletic Administration"
-        },
-        {
-          "title": "FWS Student Assistant - Provost",
-          "reqId": "43182",
-          "notionUrl": "https://www.notion.so/2c236c9efe954680a648ab319628885b",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🟡 3-5",
-          "department": "410200 - Academic Planning/Institutional Effectiveness"
         },
         {
           "title": "Research Support Asst",
@@ -10409,9 +10409,9 @@
       {
         "recruiter": "John",
         "color": "#1B6A9C",
-        "stalled": 51,
+        "stalled": 54,
         "totalActive": 74,
-        "stallRatePct": 69
+        "stallRatePct": 73
       },
       {
         "recruiter": "Gabriel",
@@ -15086,6 +15086,16 @@
               "department": "066200 - WUSF-FM"
             },
             {
+              "title": "Athletics Assistant- Partnership Activation, Intern",
+              "reqId": "44099",
+              "notionUrl": "https://www.notion.so/aea8aad3b703406eb3cec3b0a1e530eb",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Pre-boarding",
+              "agingBand": "🔴 6+",
+              "department": "051000 - Athletic Administration"
+            },
+            {
               "title": "Office Assistant - Part Time Temporary",
               "reqId": "44054",
               "notionUrl": "https://www.notion.so/c915d02ef5b84eff8bba2a6b088f21b1",
@@ -15534,6 +15544,16 @@
               "stage": "Hired",
               "agingBand": "🔴 6+",
               "department": "MUMA"
+            },
+            {
+              "title": "Adjunct",
+              "reqId": "43846",
+              "notionUrl": "https://www.notion.so/e7c9c9ecdf6448a2926720f2b6912f32",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Pre-boarding",
+              "agingBand": "🔴 6+",
+              "department": "260000 - Honors College"
             },
             {
               "title": "Assistant Director IT Audit",
@@ -16126,6 +16146,16 @@
               "department": "051000 - Athletic Administration"
             },
             {
+              "title": "FWS Student Assistant - Provost",
+              "reqId": "43182",
+              "notionUrl": "https://www.notion.so/2c236c9efe954680a648ab319628885b",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Pre-boarding",
+              "agingBand": "🔴 6+",
+              "department": "410200 - Academic Planning/Institutional Effectiveness"
+            },
+            {
               "title": "Peace Corps Strategic Campus Recruiter",
               "reqId": "43181",
               "notionUrl": "https://www.notion.so/ac7163863315455ba5ae56337715503e",
@@ -16382,16 +16412,6 @@
               "department": "373000 - Financial Aid"
             },
             {
-              "title": "Athletics Assistant- Partnership Activation, Intern",
-              "reqId": "44099",
-              "notionUrl": "https://www.notion.so/aea8aad3b703406eb3cec3b0a1e530eb",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🟡 3-5",
-              "department": "051000 - Athletic Administration"
-            },
-            {
               "title": "Athletics Director CRM Business Analytics",
               "reqId": "44045",
               "notionUrl": "https://www.notion.so/edd62ee807d54bfa99c91fae83846275",
@@ -16432,14 +16452,14 @@
               "department": "047700 - Career & Professional Dev"
             },
             {
-              "title": "Adjunct",
-              "reqId": "43846",
-              "notionUrl": "https://www.notion.so/e7c9c9ecdf6448a2926720f2b6912f32",
+              "title": "Community Engagement & Events Manager",
+              "reqId": "43743",
+              "notionUrl": "https://www.notion.so/38f9ddf757a08019a945fb83f818186d",
               "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
+              "campus": "",
+              "stage": "Hired",
               "agingBand": "🟡 3-5",
-              "department": "260000 - Honors College"
+              "department": "066200 - WUSF-FM"
             },
             {
               "title": "Athletics Production Service Engineer",
@@ -16450,16 +16470,6 @@
               "stage": "HM Review",
               "agingBand": "🟡 3-5",
               "department": "051000 - Athletic Administration"
-            },
-            {
-              "title": "FWS Student Assistant - Provost",
-              "reqId": "43182",
-              "notionUrl": "https://www.notion.so/2c236c9efe954680a648ab319628885b",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🟡 3-5",
-              "department": "410200 - Academic Planning/Institutional Effectiveness"
             },
             {
               "title": "Part-Time Police Services Assistant",
@@ -16588,16 +16598,6 @@
               "department": "041500 - Counseling Center"
             },
             {
-              "title": "Community Engagement & Events Manager",
-              "reqId": "43743",
-              "notionUrl": "https://www.notion.so/38f9ddf757a08019a945fb83f818186d",
-              "owner": "johncalebrese",
-              "campus": "",
-              "stage": "Hired",
-              "agingBand": "🟢 0–2",
-              "department": "066200 - WUSF-FM"
-            },
-            {
               "title": "Manager Athletics Production",
               "reqId": "43573",
               "notionUrl": "https://www.notion.so/7332b1275e7a4806b340d2ecf2f1f063",
@@ -16706,14 +16706,14 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 51
+          "count": 54
         },
         {
           "label": "🟡 3-5",
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 14
+          "count": 11
         },
         {
           "label": "🟢 0–2",
