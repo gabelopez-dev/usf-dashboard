@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T05:48:38.731Z",
+  "lastUpdated": "2026-09-07T11:54:40.672Z",
   "summary": {
     "openReqs": 606,
     "avgTimeToFill": 97,
@@ -86,14 +86,14 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 432
+      "count": 435
     },
     {
       "label": "🟡 3-5",
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 155
+      "count": 152
     },
     {
       "label": "🟢 0–2",
@@ -108,6 +108,16 @@
       "band": "🔴 6+",
       "color": "#A32D2D",
       "records": [
+        {
+          "title": "Student Assistant/Sports Medicine",
+          "reqId": "44288",
+          "notionUrl": "https://www.notion.so/f20d8c4622024d9ba02b0557a060bda9",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Pre-boarding",
+          "agingBand": "🔴 6+",
+          "department": "051000 - Athletic Administration"
+        },
         {
           "title": "Executive Administrative Spec.",
           "reqId": "44227",
@@ -137,6 +147,16 @@
           "stage": "Student Hiring",
           "agingBand": "🔴 6+",
           "department": "371000 - Admissions"
+        },
+        {
+          "title": "Student Assistant/ Equipment Operations-Football",
+          "reqId": "44266",
+          "notionUrl": "https://www.notion.so/e8a7ccd60e574aa385d3c5169367cd78",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Pre-boarding",
+          "agingBand": "🔴 6+",
+          "department": "051000 - Athletic Administration"
         },
         {
           "title": "Student Assistant - FWS",
@@ -457,6 +477,16 @@
           "stage": "Recruiter Review",
           "agingBand": "🔴 6+",
           "department": "027900 - Procurement & Payment Services"
+        },
+        {
+          "title": "Athletics Events Coordinator",
+          "reqId": "44208",
+          "notionUrl": "https://www.notion.so/d0bf830eeb7f426fa73e078b835b5791",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Pre-boarding",
+          "agingBand": "🔴 6+",
+          "department": "051000 - Athletic Administration"
         },
         {
           "title": "Student Assistant",
@@ -4695,16 +4725,6 @@
           "department": "120100 - Arts And Sciences - Dean"
         },
         {
-          "title": "Student Assistant/Sports Medicine",
-          "reqId": "44288",
-          "notionUrl": "https://www.notion.so/f20d8c4622024d9ba02b0557a060bda9",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🟡 3-5",
-          "department": "051000 - Athletic Administration"
-        },
-        {
           "title": "Teaching Artist",
           "reqId": "44269",
           "notionUrl": "https://www.notion.so/020d31230ad64304890a553637afc454",
@@ -4713,16 +4733,6 @@
           "stage": "Targeted",
           "agingBand": "🟡 3-5",
           "department": "177600 - Ctr For Res,Eval,Assmnt&Measre"
-        },
-        {
-          "title": "Student Assistant/ Equipment Operations-Football",
-          "reqId": "44266",
-          "notionUrl": "https://www.notion.so/e8a7ccd60e574aa385d3c5169367cd78",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🟡 3-5",
-          "department": "051000 - Athletic Administration"
         },
         {
           "title": "Research Coverage Analy",
@@ -4823,16 +4833,6 @@
           "stage": "Passive",
           "agingBand": "🟡 3-5",
           "department": "210700 - Chemical & Biomedical Engineering"
-        },
-        {
-          "title": "Athletics Events Coordinator",
-          "reqId": "44208",
-          "notionUrl": "https://www.notion.so/d0bf830eeb7f426fa73e078b835b5791",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🟡 3-5",
-          "department": "051000 - Athletic Administration"
         },
         {
           "title": "Academic Svcs. Administrator",
@@ -10400,18 +10400,18 @@
         "stallRatePct": 88
       },
       {
+        "recruiter": "John",
+        "color": "#1B6A9C",
+        "stalled": 57,
+        "totalActive": 74,
+        "stallRatePct": 77
+      },
+      {
         "recruiter": "Rebecca",
         "color": "#1B6A9C",
         "stalled": 180,
         "totalActive": 239,
         "stallRatePct": 75
-      },
-      {
-        "recruiter": "John",
-        "color": "#1B6A9C",
-        "stalled": 54,
-        "totalActive": 74,
-        "stallRatePct": 73
       },
       {
         "recruiter": "Gabriel",
@@ -14855,6 +14855,16 @@
           "color": "#A32D2D",
           "records": [
             {
+              "title": "Student Assistant/Sports Medicine",
+              "reqId": "44288",
+              "notionUrl": "https://www.notion.so/f20d8c4622024d9ba02b0557a060bda9",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Pre-boarding",
+              "agingBand": "🔴 6+",
+              "department": "051000 - Athletic Administration"
+            },
+            {
               "title": "Executive Administrative Spec.",
               "reqId": "44227",
               "notionUrl": "https://www.notion.so/70ae4d6b4ba34c2782ead0ca8ef70024",
@@ -14883,6 +14893,16 @@
               "stage": "Student Hiring",
               "agingBand": "🔴 6+",
               "department": "371000 - Admissions"
+            },
+            {
+              "title": "Student Assistant/ Equipment Operations-Football",
+              "reqId": "44266",
+              "notionUrl": "https://www.notion.so/e8a7ccd60e574aa385d3c5169367cd78",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Pre-boarding",
+              "agingBand": "🔴 6+",
+              "department": "051000 - Athletic Administration"
             },
             {
               "title": "Student Assistant - FWS",
@@ -14923,6 +14943,16 @@
               "stage": "Recruiter Review",
               "agingBand": "🔴 6+",
               "department": "027900 - Procurement & Payment Services"
+            },
+            {
+              "title": "Athletics Events Coordinator",
+              "reqId": "44208",
+              "notionUrl": "https://www.notion.so/d0bf830eeb7f426fa73e078b835b5791",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Pre-boarding",
+              "agingBand": "🔴 6+",
+              "department": "051000 - Athletic Administration"
             },
             {
               "title": "Student Assistant",
@@ -16391,26 +16421,6 @@
               "department": "373000 - Financial Aid"
             },
             {
-              "title": "Student Assistant/Sports Medicine",
-              "reqId": "44288",
-              "notionUrl": "https://www.notion.so/f20d8c4622024d9ba02b0557a060bda9",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🟡 3-5",
-              "department": "051000 - Athletic Administration"
-            },
-            {
-              "title": "Student Assistant/ Equipment Operations-Football",
-              "reqId": "44266",
-              "notionUrl": "https://www.notion.so/e8a7ccd60e574aa385d3c5169367cd78",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🟡 3-5",
-              "department": "051000 - Athletic Administration"
-            },
-            {
               "title": "Community Service Officer",
               "reqId": "37612",
               "notionUrl": "https://www.notion.so/6d6981ca08bf47c1baa660199afc2002",
@@ -16429,16 +16439,6 @@
               "stage": "Passive",
               "agingBand": "🟡 3-5",
               "department": "043000 - Student Health Services"
-            },
-            {
-              "title": "Athletics Events Coordinator",
-              "reqId": "44208",
-              "notionUrl": "https://www.notion.so/d0bf830eeb7f426fa73e078b835b5791",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🟡 3-5",
-              "department": "051000 - Athletic Administration"
             },
             {
               "title": "Client Services Assistant",
@@ -16705,14 +16705,14 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 54
+          "count": 57
         },
         {
           "label": "🟡 3-5",
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 19
+          "count": 16
         },
         {
           "label": "🟢 0–2",
