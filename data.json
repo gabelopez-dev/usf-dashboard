@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-08T08:42:02.322Z",
+  "lastUpdated": "2026-09-08T13:23:31.914Z",
   "summary": {
     "openReqs": 606,
     "avgTimeToFill": 97,
@@ -49,19 +49,19 @@
     },
     {
       "label": "Student Hiring",
-      "count": 45
+      "count": 43
     },
     {
       "label": "Backlog",
       "count": 35
     },
     {
-      "label": "Passive",
-      "count": 32
+      "label": "Pre-boarding",
+      "count": 33
     },
     {
-      "label": "Pre-boarding",
-      "count": 31
+      "label": "Passive",
+      "count": 32
     },
     {
       "label": "Offer Stage",
@@ -86,7 +86,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 457
+      "count": 454
     },
     {
       "label": "🟡 3-5",
@@ -100,7 +100,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 0
+      "count": 3
     }
   ],
   "agingRecords": [
@@ -599,16 +599,6 @@
           "department": "051000 - Athletic Administration"
         },
         {
-          "title": "Student Assistant",
-          "reqId": "44219",
-          "notionUrl": "https://www.notion.so/2c67b612dee04fc2aa86214c65849a01",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 6+",
-          "department": "490000 - USF World"
-        },
-        {
           "title": "Student Assistant - FWS",
           "reqId": "44178",
           "notionUrl": "https://www.notion.so/07740228a5ed4393b9865237a519d25e",
@@ -897,16 +887,6 @@
           "stage": "Interview Stage",
           "agingBand": "🔴 6+",
           "department": "051000 - Athletic Administration"
-        },
-        {
-          "title": "Student Asst - FWS",
-          "reqId": "44147",
-          "notionUrl": "https://www.notion.so/f42912b6429046eeb486691bded00c64",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Student Hiring",
-          "agingBand": "🔴 6+",
-          "department": "490100 - EA Overseas Study Program"
         },
         {
           "title": "Student Asst - FWS",
@@ -1287,16 +1267,6 @@
           "stage": "Student Hiring",
           "agingBand": "🔴 6+",
           "department": "047700 - Career & Professional Dev"
-        },
-        {
-          "title": "FWS Student Assistant - Office of Graduate Studies",
-          "reqId": "44021",
-          "notionUrl": "https://www.notion.so/71f899297e2a439f9457f8287100c555",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Student Hiring",
-          "agingBand": "🔴 6+",
-          "department": "390000 - Graduate Studies"
         },
         {
           "title": "Career Peer Intern (Student Assistant - FWS)",
@@ -6179,7 +6149,38 @@
     {
       "band": "🟢 0–2",
       "color": "#3B6D11",
-      "records": []
+      "records": [
+        {
+          "title": "Student Assistant",
+          "reqId": "44219",
+          "notionUrl": "https://www.notion.so/2c67b612dee04fc2aa86214c65849a01",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Pre-boarding",
+          "agingBand": "🟢 0–2",
+          "department": "490000 - USF World"
+        },
+        {
+          "title": "Student Asst - FWS",
+          "reqId": "44147",
+          "notionUrl": "https://www.notion.so/f42912b6429046eeb486691bded00c64",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Pre-boarding",
+          "agingBand": "🟢 0–2",
+          "department": "490100 - EA Overseas Study Program"
+        },
+        {
+          "title": "FWS Student Assistant - Office of Graduate Studies",
+          "reqId": "44021",
+          "notionUrl": "https://www.notion.so/71f899297e2a439f9457f8287100c555",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Pre-boarding",
+          "agingBand": "🟢 0–2",
+          "department": "390000 - Graduate Studies"
+        }
+      ]
     }
   ],
   "reqType": [
@@ -10401,9 +10402,9 @@
       {
         "recruiter": "John",
         "color": "#1B6A9C",
-        "stalled": 65,
+        "stalled": 62,
         "totalActive": 74,
-        "stallRatePct": 88
+        "stallRatePct": 84
       },
       {
         "recruiter": "Rebecca",
@@ -14974,16 +14975,6 @@
               "department": "051000 - Athletic Administration"
             },
             {
-              "title": "Student Assistant",
-              "reqId": "44219",
-              "notionUrl": "https://www.notion.so/2c67b612dee04fc2aa86214c65849a01",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🔴 6+",
-              "department": "490000 - USF World"
-            },
-            {
               "title": "Digital Platforms Developer",
               "reqId": "44164",
               "notionUrl": "https://www.notion.so/f211efe4851a4a72a4bd10ff45985bc0",
@@ -15095,16 +15086,6 @@
             },
             {
               "title": "Student Asst - FWS",
-              "reqId": "44147",
-              "notionUrl": "https://www.notion.so/f42912b6429046eeb486691bded00c64",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Student Hiring",
-              "agingBand": "🔴 6+",
-              "department": "490100 - EA Overseas Study Program"
-            },
-            {
-              "title": "Student Asst - FWS",
               "reqId": "44148",
               "notionUrl": "https://www.notion.so/4bfc791b565f4f83a94a7f158d4b4c5d",
               "owner": "johncalebrese",
@@ -15202,16 +15183,6 @@
               "stage": "Student Hiring",
               "agingBand": "🔴 6+",
               "department": "047700 - Career & Professional Dev"
-            },
-            {
-              "title": "FWS Student Assistant - Office of Graduate Studies",
-              "reqId": "44021",
-              "notionUrl": "https://www.notion.so/71f899297e2a439f9457f8287100c555",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Student Hiring",
-              "agingBand": "🔴 6+",
-              "department": "390000 - Graduate Studies"
             },
             {
               "title": "Career Peer Intern (Student Assistant - FWS)",
@@ -16614,7 +16585,38 @@
         {
           "band": "🟢 0–2",
           "color": "#3B6D11",
-          "records": []
+          "records": [
+            {
+              "title": "Student Assistant",
+              "reqId": "44219",
+              "notionUrl": "https://www.notion.so/2c67b612dee04fc2aa86214c65849a01",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Pre-boarding",
+              "agingBand": "🟢 0–2",
+              "department": "490000 - USF World"
+            },
+            {
+              "title": "Student Asst - FWS",
+              "reqId": "44147",
+              "notionUrl": "https://www.notion.so/f42912b6429046eeb486691bded00c64",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Pre-boarding",
+              "agingBand": "🟢 0–2",
+              "department": "490100 - EA Overseas Study Program"
+            },
+            {
+              "title": "FWS Student Assistant - Office of Graduate Studies",
+              "reqId": "44021",
+              "notionUrl": "https://www.notion.so/71f899297e2a439f9457f8287100c555",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Pre-boarding",
+              "agingBand": "🟢 0–2",
+              "department": "390000 - Graduate Studies"
+            }
+          ]
         }
       ],
       "stageMetrics": [
@@ -16658,12 +16660,12 @@
       "statuses": [
         {
           "label": "Student Hiring",
-          "count": 19,
+          "count": 17,
           "color": "#0F6E56"
         },
         {
           "label": "Pre-boarding",
-          "count": 18,
+          "count": 20,
           "color": "#888780"
         },
         {
@@ -16703,7 +16705,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 65
+          "count": 62
         },
         {
           "label": "🟡 3-5",
@@ -16717,7 +16719,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 0
+          "count": 3
         }
       ],
       "funnel": [
