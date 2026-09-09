@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-09T19:22:21.140Z",
+  "lastUpdated": "2026-09-09T21:51:12.373Z",
   "summary": {
-    "openReqs": 603,
+    "openReqs": 604,
     "avgTimeToFill": 98,
     "filledYTD": 262,
     "failedCancelled": 41,
@@ -10,7 +10,7 @@
   "campus": [
     {
       "label": "Tampa",
-      "count": 305,
+      "count": 306,
       "color": "#1B6A9C"
     },
     {
@@ -57,7 +57,7 @@
     },
     {
       "label": "Passive",
-      "count": 32
+      "count": 33
     },
     {
       "label": "Offer Stage",
@@ -100,7 +100,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 11
+      "count": 12
     }
   ],
   "agingRecords": [
@@ -6041,6 +6041,16 @@
       "color": "#3B6D11",
       "records": [
         {
+          "title": "Administrative Specialist - Mechanical Engineering",
+          "reqId": "44344",
+          "notionUrl": "https://www.notion.so/c826a655ebdb4300ac0133e7dd16e102",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Passive",
+          "agingBand": "🟢 0–2",
+          "department": "210500 - Mechanical Engineering"
+        },
+        {
           "title": "Residence Life Coordinator",
           "reqId": "44335",
           "notionUrl": "https://www.notion.so/60119a7efa4344dcbc5561863e3f4bea",
@@ -6166,7 +6176,7 @@
     },
     {
       "label": "Passive",
-      "count": 103,
+      "count": 104,
       "color": "#006747"
     },
     {
@@ -6198,7 +6208,7 @@
     },
     {
       "label": "210500 - Mechanical Engineering",
-      "count": 19,
+      "count": 20,
       "color": "#00A693"
     },
     {
@@ -10411,7 +10421,7 @@
       },
       {
         "department": "210500 - Mechanical Engineering",
-        "count": 21
+        "count": 22
       },
       {
         "department": "Engineering",
@@ -10467,7 +10477,7 @@
         "recruiter": "Gabriel",
         "color": "#00A693",
         "stalled": 101,
-        "totalActive": 121,
+        "totalActive": 122,
         "stallRatePct": 83
       }
     ],
@@ -10538,7 +10548,7 @@
       },
       {
         "label": "Sep '26",
-        "count": 18
+        "count": 19
       }
     ]
   },
@@ -16866,7 +16876,7 @@
       "bgLight": "#e6f2ed",
       "bgDark": "#042e24",
       "campus": "St Pete / Tampa",
-      "reqs": 201,
+      "reqs": 202,
       "filled": 67,
       "failed": 4,
       "ttf": 79,
@@ -17197,6 +17207,16 @@
               "department": "171700 - Lang, Lit, EdD, Excep Ed, PE"
             },
             {
+              "title": "Student Assistant - FWS",
+              "reqId": "44178",
+              "notionUrl": "https://www.notion.so/1bfe7dba54914c8e9a7bb727c2307f04",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Hired",
+              "agingBand": "🔴 6+",
+              "department": "510402 - STP Student Conduct"
+            },
+            {
               "title": "OPS / Temporary Marine Chief Engineer",
               "reqId": "44180",
               "notionUrl": "https://www.notion.so/ada6d585591b4c80b74c83d88849fd74",
@@ -17225,6 +17245,16 @@
               "stage": "Passive",
               "agingBand": "🔴 6+",
               "department": "211000 - Engineer Facilities & Safety"
+            },
+            {
+              "title": "Student Assistant- Deputy Supervisor Of Elections (SGA)",
+              "reqId": "44159",
+              "notionUrl": "https://www.notion.so/f6ff091d8bef4ef4b6cda9d2c17df730",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Hired",
+              "agingBand": "🔴 6+",
+              "department": "510800 - STP Student Government"
             },
             {
               "title": "Other Hourly Professional/Support",
@@ -17355,6 +17385,16 @@
               "stage": "Faculty",
               "agingBand": "🔴 6+",
               "department": "210500 - Mechanical Engineering"
+            },
+            {
+              "title": "Student Assistant- Student Accessibility Services",
+              "reqId": "44078",
+              "notionUrl": "https://www.notion.so/cf35dd0cb16d4d4db0bda9e7ff0cb7cf",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Hired",
+              "agingBand": "🔴 6+",
+              "department": "510700 - STP Counseling Center"
             },
             {
               "title": "Program Director",
@@ -17717,6 +17757,16 @@
               "department": "511213 - STP Chemistry"
             },
             {
+              "title": "Career Counselor",
+              "reqId": "43849",
+              "notionUrl": "https://www.notion.so/0068d432571146199e96e7108ed067f4",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Hired",
+              "agingBand": "🔴 6+",
+              "department": "STP Student Success"
+            },
+            {
               "title": "Postdoctoral Scholar Research - Electrical Eng",
               "reqId": "43893",
               "notionUrl": "https://www.notion.so/79c2d880e84c49f085103bc867b6c52d",
@@ -17837,6 +17887,16 @@
               "department": "250000 - College of Marine Science"
             },
             {
+              "title": "Student Programs Manager",
+              "reqId": "42076",
+              "notionUrl": "https://www.notion.so/816e775acd6e43958bef3593cc1dea41",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Hired",
+              "agingBand": "🔴 6+",
+              "department": "STP Student Success"
+            },
+            {
               "title": "Assistant Professor of Instruction",
               "reqId": "42096",
               "notionUrl": "https://www.notion.so/b7278cecc8a54817a0a61ce1c72f1f30",
@@ -17867,6 +17927,16 @@
               "department": "Inst For School Comm Partnership"
             },
             {
+              "title": "Student Gov- Deputy Chief of Staff",
+              "reqId": "42278",
+              "notionUrl": "https://www.notion.so/5c4707cafa2e460dbc3ea8d31bf8f740",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Hired",
+              "agingBand": "🔴 6+",
+              "department": "STP Student Success"
+            },
+            {
               "title": "Tenure-Track Faculty in Geological Oceanography, with an Emphasis in Hydrography or Marine Geophysics",
               "reqId": "42288",
               "notionUrl": "https://www.notion.so/41f68775b31347439c54f77f3ea00695",
@@ -17875,6 +17945,16 @@
               "stage": "Hired",
               "agingBand": "🔴 6+",
               "department": "College of Marine Science"
+            },
+            {
+              "title": "Student Assistant- SGA Associate Justice",
+              "reqId": "42632",
+              "notionUrl": "https://www.notion.so/789e3c2f8b1140ef8e05cb41acf77f1a",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Hired",
+              "agingBand": "🔴 6+",
+              "department": "STP Student Success"
             },
             {
               "title": "Assistant Professor of Instruction",
@@ -18097,6 +18177,16 @@
               "department": "250000 - College of Marine Science"
             },
             {
+              "title": "Exam Proctor & Front Desk Associate - Student Success Center",
+              "reqId": "43450",
+              "notionUrl": "https://www.notion.so/fa3db11be95d4ae2a10aef0dee80f22a",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Hired",
+              "agingBand": "🔴 6+",
+              "department": "STP Student Success"
+            },
+            {
               "title": "Administrative Specialist",
               "reqId": "43427",
               "notionUrl": "https://www.notion.so/affd001d0f77400f95cc677c2c6e47b4",
@@ -18125,6 +18215,16 @@
               "stage": "Student Hiring",
               "agingBand": "🔴 6+",
               "department": "College of Education "
+            },
+            {
+              "title": "Student Programs Coordinator (Operations & Outreach)",
+              "reqId": "43425",
+              "notionUrl": "https://www.notion.so/ba7fcb31569844d992a9a9df41c8b087",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Hired",
+              "agingBand": "🔴 6+",
+              "department": "STP Student Success"
             },
             {
               "title": "Assistant Director of Data Visualization (Faculty)",
@@ -18257,6 +18357,16 @@
               "department": "College of Education "
             },
             {
+              "title": "Student Programs Coordinator (Residential Education)",
+              "reqId": "43749",
+              "notionUrl": "https://www.notion.so/3c9bc911be9c4da8a60077a5cc9ea114",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Hired",
+              "agingBand": "🔴 6+",
+              "department": "610001 - MCOM Research/Grad Affairs Supp"
+            },
+            {
               "title": "Preschool Teacher",
               "reqId": "43763",
               "notionUrl": "https://www.notion.so/ac43a0376f864f8eae907da516a314f3",
@@ -18265,6 +18375,26 @@
               "stage": "Hired",
               "agingBand": "🔴 6+",
               "department": "College of Education "
+            },
+            {
+              "title": "Postdoctoral Research Scholar",
+              "reqId": "43750",
+              "notionUrl": "https://www.notion.so/45deccaffa5c4eca9c1cd3ca72cfe306",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Canceled",
+              "agingBand": "🔴 6+",
+              "department": "College of Marine Science"
+            },
+            {
+              "title": "Student Assistant- USC Setup Crew",
+              "reqId": "43751",
+              "notionUrl": "https://www.notion.so/850d676fe1bc4232b4075a7ca3e500fb",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Hired",
+              "agingBand": "🔴 6+",
+              "department": "STP Student Success"
             },
             {
               "title": "Regional Coordinator",
@@ -18305,6 +18435,16 @@
               "stage": "Hired",
               "agingBand": "🔴 6+",
               "department": "College of Education "
+            },
+            {
+              "title": "Student Assistant - Social Media Manager",
+              "reqId": "43764",
+              "notionUrl": "https://www.notion.so/b3b39a2ade33415584c0f324f308e7e9",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Hired",
+              "agingBand": "🔴 6+",
+              "department": "STP Student Success"
             },
             {
               "title": "Adjunct",
@@ -18583,16 +18723,6 @@
               "department": "170100 - COE Dean's Office"
             },
             {
-              "title": "Student Assistant - FWS",
-              "reqId": "44178",
-              "notionUrl": "https://www.notion.so/1bfe7dba54914c8e9a7bb727c2307f04",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Hired",
-              "agingBand": "🟡 3-5",
-              "department": "510402 - STP Student Conduct"
-            },
-            {
               "title": "Preschool Assistant Teacher",
               "reqId": "44187",
               "notionUrl": "https://www.notion.so/7aca5020ee0d466bb76b00ea8662d35b",
@@ -18603,16 +18733,6 @@
               "department": "174600 - Preschool Creative Learning"
             },
             {
-              "title": "Student Assistant- Deputy Supervisor Of Elections (SGA)",
-              "reqId": "44159",
-              "notionUrl": "https://www.notion.so/f6ff091d8bef4ef4b6cda9d2c17df730",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Hired",
-              "agingBand": "🟡 3-5",
-              "department": "510800 - STP Student Government"
-            },
-            {
               "title": "Fiscal & Business Specialist - Research",
               "reqId": "44166",
               "notionUrl": "https://www.notion.so/347d4883a32041babda39b085cf29151",
@@ -18621,16 +18741,6 @@
               "stage": "Pre-boarding",
               "agingBand": "🟡 3-5",
               "department": "170100 - COE Dean's Office"
-            },
-            {
-              "title": "Student Assistant- Student Accessibility Services",
-              "reqId": "44078",
-              "notionUrl": "https://www.notion.so/cf35dd0cb16d4d4db0bda9e7ff0cb7cf",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Hired",
-              "agingBand": "🟡 3-5",
-              "department": "510700 - STP Counseling Center"
             },
             {
               "title": "NRT Program Coordinator - Mechanical Eng",
@@ -18673,16 +18783,6 @@
               "department": "Engineering"
             },
             {
-              "title": "Career Counselor",
-              "reqId": "43849",
-              "notionUrl": "https://www.notion.so/0068d432571146199e96e7108ed067f4",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Hired",
-              "agingBand": "🟡 3-5",
-              "department": "STP Student Success"
-            },
-            {
               "title": "Academic Program Specialist",
               "reqId": "43901",
               "notionUrl": "https://www.notion.so/3e0432ca9bd4433bbb2bcfda05833c44",
@@ -18703,56 +18803,6 @@
               "department": "MUMA"
             },
             {
-              "title": "Student Programs Manager",
-              "reqId": "42076",
-              "notionUrl": "https://www.notion.so/816e775acd6e43958bef3593cc1dea41",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Hired",
-              "agingBand": "🟡 3-5",
-              "department": "STP Student Success"
-            },
-            {
-              "title": "Student Gov- Deputy Chief of Staff",
-              "reqId": "42278",
-              "notionUrl": "https://www.notion.so/5c4707cafa2e460dbc3ea8d31bf8f740",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Hired",
-              "agingBand": "🟡 3-5",
-              "department": "STP Student Success"
-            },
-            {
-              "title": "Student Assistant- SGA Associate Justice",
-              "reqId": "42632",
-              "notionUrl": "https://www.notion.so/789e3c2f8b1140ef8e05cb41acf77f1a",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Hired",
-              "agingBand": "🟡 3-5",
-              "department": "STP Student Success"
-            },
-            {
-              "title": "Exam Proctor & Front Desk Associate - Student Success Center",
-              "reqId": "43450",
-              "notionUrl": "https://www.notion.so/fa3db11be95d4ae2a10aef0dee80f22a",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Hired",
-              "agingBand": "🟡 3-5",
-              "department": "STP Student Success"
-            },
-            {
-              "title": "Student Programs Coordinator (Operations & Outreach)",
-              "reqId": "43425",
-              "notionUrl": "https://www.notion.so/ba7fcb31569844d992a9a9df41c8b087",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Hired",
-              "agingBand": "🟡 3-5",
-              "department": "STP Student Success"
-            },
-            {
               "title": "Manager Parking & Transportation Operations",
               "reqId": "43487",
               "notionUrl": "https://www.notion.so/42a29090fab04f719f7ba308696e00de",
@@ -18771,36 +18821,6 @@
               "stage": "Hired",
               "agingBand": "🟡 3-5",
               "department": "College of Education "
-            },
-            {
-              "title": "Student Programs Coordinator (Residential Education)",
-              "reqId": "43749",
-              "notionUrl": "https://www.notion.so/3c9bc911be9c4da8a60077a5cc9ea114",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Hired",
-              "agingBand": "🟡 3-5",
-              "department": "610001 - MCOM Research/Grad Affairs Supp"
-            },
-            {
-              "title": "Postdoctoral Research Scholar",
-              "reqId": "43750",
-              "notionUrl": "https://www.notion.so/45deccaffa5c4eca9c1cd3ca72cfe306",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Canceled",
-              "agingBand": "🟡 3-5",
-              "department": "College of Marine Science"
-            },
-            {
-              "title": "Student Assistant- USC Setup Crew",
-              "reqId": "43751",
-              "notionUrl": "https://www.notion.so/850d676fe1bc4232b4075a7ca3e500fb",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Hired",
-              "agingBand": "🟡 3-5",
-              "department": "STP Student Success"
             },
             {
               "title": "Unit Research Administrator II",
@@ -18831,16 +18851,6 @@
               "stage": "Hired",
               "agingBand": "🟡 3-5",
               "department": "College of Education "
-            },
-            {
-              "title": "Student Assistant - Social Media Manager",
-              "reqId": "43764",
-              "notionUrl": "https://www.notion.so/b3b39a2ade33415584c0f324f308e7e9",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Hired",
-              "agingBand": "🟡 3-5",
-              "department": "STP Student Success"
             }
           ]
         },
@@ -18848,6 +18858,16 @@
           "band": "🟢 0–2",
           "color": "#3B6D11",
           "records": [
+            {
+              "title": "Administrative Specialist - Mechanical Engineering",
+              "reqId": "44344",
+              "notionUrl": "https://www.notion.so/c826a655ebdb4300ac0133e7dd16e102",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Passive",
+              "agingBand": "🟢 0–2",
+              "department": "210500 - Mechanical Engineering"
+            },
             {
               "title": "Accounting Assistant",
               "reqId": "44051",
@@ -18929,6 +18949,11 @@
       ],
       "statuses": [
         {
+          "label": "Passive",
+          "count": 29,
+          "color": "#5B8FA8"
+        },
+        {
           "label": "Faculty",
           "count": 47,
           "color": "#534AB7"
@@ -18937,11 +18962,6 @@
           "label": "Recruiter Review",
           "count": 3,
           "color": "#185FA5"
-        },
-        {
-          "label": "Passive",
-          "count": 28,
-          "color": "#5B8FA8"
         },
         {
           "label": "Targeted",
@@ -18999,13 +19019,13 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 4
+          "count": 5
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 121
+          "count": 122
         },
         {
           "label": "Screened",
@@ -19040,13 +19060,13 @@
         {
           "label": "Screened",
           "value": 0,
-          "target": 201,
+          "target": 202,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 3,
-          "target": 201,
+          "target": 202,
           "invert": false
         }
       ],
@@ -20797,14 +20817,14 @@
     {
       "field": "Stage",
       "missingCount": 0,
-      "totalActive": 603,
+      "totalActive": 604,
       "pct": 0,
       "records": []
     },
     {
       "field": "Department/College",
       "missingCount": 1,
-      "totalActive": 603,
+      "totalActive": 604,
       "pct": 0,
       "records": [
         {
@@ -20820,7 +20840,7 @@
     {
       "field": "Req Type",
       "missingCount": 93,
-      "totalActive": 603,
+      "totalActive": 604,
       "pct": 15,
       "records": [
         {
@@ -21228,7 +21248,7 @@
     {
       "field": "Campus",
       "missingCount": 34,
-      "totalActive": 603,
+      "totalActive": 604,
       "pct": 6,
       "records": [
         {
@@ -21507,10 +21527,18 @@
     },
     {
       "field": "HRBP",
-      "missingCount": 165,
-      "totalActive": 603,
+      "missingCount": 166,
+      "totalActive": 604,
       "pct": 27,
       "records": [
+        {
+          "title": "Administrative Specialist - Mechanical Engineering",
+          "reqId": "44344",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Passive",
+          "notionUrl": "https://www.notion.so/c826a655ebdb4300ac0133e7dd16e102"
+        },
         {
           "title": "Postdoctoral Scholar Research",
           "reqId": "44275",
@@ -21902,21 +21930,13 @@
           "campus": "Tampa",
           "stage": "Recruiter Review",
           "notionUrl": "https://www.notion.so/39f9ddf757a0810c9428c8903c3a5bd9"
-        },
-        {
-          "title": "Assistant Professor / Associate Professor, Social Work",
-          "reqId": "42720",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/39f9ddf757a08125aa00ceed314987b1"
         }
       ]
     },
     {
       "field": "Posted Date",
       "missingCount": 149,
-      "totalActive": 603,
+      "totalActive": 604,
       "pct": 25,
       "records": [
         {
@@ -22324,7 +22344,7 @@
     {
       "field": "Unposted Date",
       "missingCount": 455,
-      "totalActive": 603,
+      "totalActive": 604,
       "pct": 75,
       "records": [
         {
