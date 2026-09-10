@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-09-10T08:45:34.191Z",
+  "lastUpdated": "2026-09-10T13:23:13.020Z",
   "summary": {
     "openReqs": 604,
     "avgTimeToFill": 98,
     "filledYTD": 262,
     "failedCancelled": 41,
-    "inOfferStage": 29
+    "inOfferStage": 28
   },
   "campus": [
     {
@@ -60,12 +60,12 @@
       "count": 33
     },
     {
-      "label": "Offer Stage",
-      "count": 29
+      "label": "Pre-boarding",
+      "count": 28
     },
     {
-      "label": "Pre-boarding",
-      "count": 27
+      "label": "Offer Stage",
+      "count": 28
     },
     {
       "label": "Interview Stage",
@@ -6146,7 +6146,7 @@
           "notionUrl": "https://www.notion.so/c4b2ab1eb43b47d38e0431ca9c492b36",
           "owner": "johncalebrese",
           "campus": "Tampa",
-          "stage": "Offer Stage",
+          "stage": "Pre-boarding",
           "agingBand": "🟢 0–2",
           "department": "051000 - Athletic Administration"
         },
@@ -16681,7 +16681,7 @@
               "notionUrl": "https://www.notion.so/c4b2ab1eb43b47d38e0431ca9c492b36",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "Offer Stage",
+              "stage": "Pre-boarding",
               "agingBand": "🟢 0–2",
               "department": "051000 - Athletic Administration"
             },
@@ -16764,7 +16764,7 @@
         },
         {
           "label": "Pre-boarding",
-          "count": 16,
+          "count": 17,
           "color": "#888780"
         },
         {
@@ -16779,7 +16779,7 @@
         },
         {
           "label": "Offer Stage",
-          "count": 8,
+          "count": 7,
           "color": "#0F6E56"
         },
         {
@@ -16830,7 +16830,7 @@
         },
         {
           "label": "Offer",
-          "count": 8
+          "count": 7
         }
       ],
       "goals": [
