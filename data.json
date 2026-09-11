@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2026-09-11T14:08:32.055Z",
+  "lastUpdated": "2026-09-11T17:49:49.053Z",
   "summary": {
-    "openReqs": 596,
-    "avgTimeToFill": 99,
-    "filledYTD": 272,
-    "failedCancelled": 41,
-    "inOfferStage": 28
+    "openReqs": 593,
+    "avgTimeToFill": 98,
+    "filledYTD": 278,
+    "failedCancelled": 42,
+    "inOfferStage": 26
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 298,
+      "count": 297,
       "color": "#1B6A9C"
     },
     {
       "label": "St Pete",
-      "count": 39,
+      "count": 37,
       "color": "#006747"
     },
     {
@@ -41,7 +41,7 @@
     },
     {
       "label": "Recruiter Review",
-      "count": 162
+      "count": 161
     },
     {
       "label": "Faculty",
@@ -49,7 +49,7 @@
     },
     {
       "label": "Student Hiring",
-      "count": 42
+      "count": 44
     },
     {
       "label": "Backlog",
@@ -57,15 +57,15 @@
     },
     {
       "label": "Passive",
-      "count": 29
+      "count": 31
     },
     {
       "label": "Offer Stage",
-      "count": 28
+      "count": 26
     },
     {
       "label": "Pre-boarding",
-      "count": 27
+      "count": 23
     },
     {
       "label": "Interview Stage",
@@ -86,21 +86,21 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 580
+      "count": 534
     },
     {
       "label": "🟡 3-5",
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 3
+      "count": 2
     },
     {
       "label": "🟢 0–2",
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 13
+      "count": 57
     }
   ],
   "agingRecords": [
@@ -279,16 +279,6 @@
           "department": "210100 - College Of Engineering - Dean"
         },
         {
-          "title": "Office Admin & Executive Asst to the Dean",
-          "reqId": "44297",
-          "notionUrl": "https://www.notion.so/cd0f7b66c65e4f74a73699da6334d390",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "170100 - COE Dean's Office"
-        },
-        {
           "title": "Research Support Asst - 210500",
           "reqId": "44309",
           "notionUrl": "https://www.notion.so/d42b8745bddb4c8d8e4a91773964583e",
@@ -407,16 +397,6 @@
           "stage": "Targeted",
           "agingBand": "🔴 6+",
           "department": "177600 - Ctr For Res,Eval,Assmnt&Measre"
-        },
-        {
-          "title": "Pre-School Teacher",
-          "reqId": "44277",
-          "notionUrl": "https://www.notion.so/b1fe72cb68e547dd85227c7db20483a7",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Offer Stage",
-          "agingBand": "🔴 6+",
-          "department": "174600 - Preschool Creative Learning"
         },
         {
           "title": "Executive Administrative Spec.",
@@ -587,16 +567,6 @@
           "stage": "Passive",
           "agingBand": "🔴 6+",
           "department": "043000 - Student Health Services"
-        },
-        {
-          "title": "Junior Grant Financial Administrator",
-          "reqId": "44047",
-          "notionUrl": "https://www.notion.so/9a0d4b89ab4f483f9266c8a07017f53c",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "790300 - Sponsored Research"
         },
         {
           "title": "AI and Tools Enablement Facilitator",
@@ -899,16 +869,6 @@
           "department": "210500 - Mechanical Eng"
         },
         {
-          "title": "OPS / Temporary Marine",
-          "reqId": "44180",
-          "notionUrl": "https://www.notion.so/93a718c56eaf4fd8a3a4c3995b21262b",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 6+",
-          "department": "471000 - Florida Inst of C"
-        },
-        {
           "title": "Safety and Compliance Officer",
           "reqId": "44192",
           "notionUrl": "https://www.notion.so/3b53300285bc4ff7bd3a7a3953ec7287",
@@ -1179,16 +1139,6 @@
           "department": "210300 - Industrial & Mgmt Systems"
         },
         {
-          "title": "Academic Advisor II",
-          "reqId": "42179",
-          "notionUrl": "https://www.notion.so/604507be283a458eafa25297cda07fef",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Passive",
-          "agingBand": "🔴 6+",
-          "department": "210500 - Mechanical Engineering"
-        },
-        {
           "title": "Associate Professor, Electrical Engineering",
           "reqId": "42123",
           "notionUrl": "https://www.notion.so/eec8aaf2d6f74d9eb1a286fe4be1b5c9",
@@ -1269,16 +1219,6 @@
           "department": "047700 - Career & Professional Dev"
         },
         {
-          "title": "OPS / Temporary Marine Chief Engineer",
-          "reqId": "44180",
-          "notionUrl": "https://www.notion.so/ada6d585591b4c80b74c83d88849fd74",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 6+",
-          "department": "471000 - Florida Inst of Oceanography"
-        },
-        {
           "title": "Preschool Assistant Teacher",
           "reqId": "44187",
           "notionUrl": "https://www.notion.so/7aca5020ee0d466bb76b00ea8662d35b",
@@ -1307,26 +1247,6 @@
           "stage": "Passive",
           "agingBand": "🔴 6+",
           "department": "211000 - Engineer Facilities & Safety"
-        },
-        {
-          "title": "Marine Operational Training Mgr",
-          "reqId": "44171",
-          "notionUrl": "https://www.notion.so/04016ee7439c4c47a5168522fba402a4",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 6+",
-          "department": "471000 - Florida Inst of Oceanography"
-        },
-        {
-          "title": "Fiscal & Business Specialist - Research",
-          "reqId": "44166",
-          "notionUrl": "https://www.notion.so/347d4883a32041babda39b085cf29151",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 6+",
-          "department": "170100 - COE Dean's Office"
         },
         {
           "title": "Sr Biological Scientist",
@@ -1837,26 +1757,6 @@
           "stage": "Interview Stage",
           "agingBand": "🔴 6+",
           "department": "027900 - Procurement & Payment Services"
-        },
-        {
-          "title": "Academic Services Administrator",
-          "reqId": "43996",
-          "notionUrl": "https://www.notion.so/e96fcdac40284d30a2d6e8ba514c415f",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 6+",
-          "department": "170800 - COE-Student Academic Services"
-        },
-        {
-          "title": "Project Coordinator",
-          "reqId": "44019",
-          "notionUrl": "https://www.notion.so/e598276a3e1145919c75ea3c303d69e9",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 6+",
-          "department": "171400 - Teaching & Learning"
         },
         {
           "title": "Guest Relations Intern (Student Assistant-FWS)",
@@ -3359,16 +3259,6 @@
           "department": "616300 - Health Informatics Institute"
         },
         {
-          "title": "Health Promotion Associate",
-          "reqId": "43936",
-          "notionUrl": "https://www.notion.so/3c693691147647c6992982c3e6257a0d",
-          "owner": "Katherine Friborg",
-          "campus": "Sarasota-Manatee",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "041100 - Center For Student Well-Being"
-        },
-        {
           "title": "Adjunct - Civil & Environmental Engineering",
           "reqId": "43935",
           "notionUrl": "https://www.notion.so/8a3ecf161dbc40e09a8240608a901b50",
@@ -3699,86 +3589,6 @@
           "department": "047700 - Career & Professional Dev"
         },
         {
-          "title": "Fiscal & Business Specialist",
-          "reqId": "43880",
-          "notionUrl": "https://www.notion.so/063158caa3ca4f73aa16513c575e40c7",
-          "owner": "Katherine Friborg",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "040700 - SA&SS Resource Mgmt & Devel"
-        },
-        {
-          "title": "Transfer Relationship Manager",
-          "reqId": "43884",
-          "notionUrl": "https://www.notion.so/3d19c7abd8da4736afc56a5488879bba",
-          "owner": "Katherine Friborg",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "371000 - Admissions"
-        },
-        {
-          "title": "Transfer Customer Service Representative",
-          "reqId": "43883",
-          "notionUrl": "https://www.notion.so/2246a1a7be384beeb49c679cd148f9fe",
-          "owner": "Katherine Friborg",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "371000 - Admissions"
-        },
-        {
-          "title": "Director of Evaluations",
-          "reqId": "43906",
-          "notionUrl": "https://www.notion.so/d5c54b6f66484b9b893354a5ef2fd115",
-          "owner": "Katherine Friborg",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "371000 - Admissions"
-        },
-        {
-          "title": "Dir Student Gov Advising",
-          "reqId": "43888",
-          "notionUrl": "https://www.notion.so/a316c76327d549acb910a83c11d23935",
-          "owner": "Katherine Friborg",
-          "campus": "Tampa",
-          "stage": "Backlog",
-          "agingBand": "🔴 6+",
-          "department": "080000 - SG Branches And Agencies"
-        },
-        {
-          "title": "Director Student Government Advising",
-          "reqId": "43889",
-          "notionUrl": "https://www.notion.so/4f6f2ee1aaf145008cd7fcfd30514449",
-          "owner": "Katherine Friborg",
-          "campus": "Tampa",
-          "stage": "Backlog",
-          "agingBand": "🔴 6+",
-          "department": "080000 - SG Branches And Agencies"
-        },
-        {
-          "title": "Enrollment Management Assistant",
-          "reqId": "43911",
-          "notionUrl": "https://www.notion.so/8c28afa7653044889db61fb411ffaaa0",
-          "owner": "Katherine Friborg",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "372000 - Registrar's Office"
-        },
-        {
-          "title": "Compliance Advisor",
-          "reqId": "43898",
-          "notionUrl": "https://www.notion.so/e5080d6b767548b0b880129429109208",
-          "owner": "Katherine Friborg",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "373000 - Financial Aid"
-        },
-        {
           "title": "Technical and Paraprofes",
           "reqId": "43872",
           "notionUrl": "https://www.notion.so/97ac4c4e1bb348e2a4cf0ed58dbc6769",
@@ -3869,166 +3679,6 @@
           "department": "511213 - STP Chemistry"
         },
         {
-          "title": "Student Programs Coordinator (Operations & Outreach)",
-          "reqId": "43899",
-          "notionUrl": "https://www.notion.so/2b9f5fe4fb0947bcb7d4294646e0e2bd",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 6+",
-          "department": "STP Student Affairs"
-        },
-        {
-          "title": "Academic Program Specialist",
-          "reqId": "43901",
-          "notionUrl": "https://www.notion.so/3e0432ca9bd4433bbb2bcfda05833c44",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 6+",
-          "department": "MUMA"
-        },
-        {
-          "title": "Human Services Practitioner - ITDS",
-          "reqId": "42589",
-          "notionUrl": "https://www.notion.so/283f16a79df1499cbe4371dcee2703f7",
-          "owner": "Katherine Friborg",
-          "campus": "USF Health",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "611900 - Department Of Pediatrics"
-        },
-        {
-          "title": "CLINICAL TRIAL RESEARCH ASSISTANT/MEDICAL ASSISTANT",
-          "reqId": "42510",
-          "notionUrl": "https://www.notion.so/dce2f77ab9604a0d9490b720cb7bab65",
-          "owner": "Katherine Friborg",
-          "campus": "USF Health",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "611900 - Department Of Pediatrics"
-        },
-        {
-          "title": "Senior Social Worker LCSW",
-          "reqId": "42652",
-          "notionUrl": "https://www.notion.so/586b0612d663499886f34cef8b7700a0",
-          "owner": "Katherine Friborg",
-          "campus": "USF Health",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "611900 - Department Of Pediatrics"
-        },
-        {
-          "title": "Clinical Research Assoc.",
-          "reqId": "42621",
-          "notionUrl": "https://www.notion.so/b47bfcb562d747ce967577e007cae45f",
-          "owner": "Katherine Friborg",
-          "campus": "USF Health",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "612200 - Dept Of OB/GYN"
-        },
-        {
-          "title": "HR Business Partner II",
-          "reqId": "42857",
-          "notionUrl": "https://www.notion.so/f4431886612543f19cd13433a763b49c",
-          "owner": "Katherine Friborg",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "032100 - Academic Human Resources"
-        },
-        {
-          "title": "Payroll Analyst II",
-          "reqId": "42984",
-          "notionUrl": "https://www.notion.so/2aeac1ddb180416eb712971d4d8f9863",
-          "owner": "Katherine Friborg",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "035000 - CHR Payroll Services"
-        },
-        {
-          "title": "Student Asst -Leave- FWS",
-          "reqId": "43118",
-          "notionUrl": "https://www.notion.so/73b3806520364afda1704149bf70e6f3",
-          "owner": "Katherine Friborg",
-          "campus": "Tampa",
-          "stage": "Student Hiring",
-          "agingBand": "🔴 6+",
-          "department": "032000 - Central Human Resources"
-        },
-        {
-          "title": "Associate VP & Chief Experience Officer",
-          "reqId": "43522",
-          "notionUrl": "https://www.notion.so/6c64cfc41d7b4c9b9af0af916d62a03f",
-          "owner": "Katherine Friborg",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "020100 - SVP Administrative Operations"
-        },
-        {
-          "title": "HR Business Partner I Academic",
-          "reqId": "43731",
-          "notionUrl": "https://www.notion.so/ed9f1eabab6b4cfc94bcce1a43845a16",
-          "owner": "Katherine Friborg",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "032100 - Academic Human Resources"
-        },
-        {
-          "title": "Privacy Investigator & Operations Administrator",
-          "reqId": "43663",
-          "notionUrl": "https://www.notion.so/9a4929e2102747f6901dad6a79948fae",
-          "owner": "Katherine Friborg",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "017000 - Office Of Compliance-Ethics"
-        },
-        {
-          "title": "Supplier Relations Specialist",
-          "reqId": "43782",
-          "notionUrl": "https://www.notion.so/29b7f18d1cca414e9cf9a0d96138caf6",
-          "owner": "Katherine Friborg",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "041300 - Strategic Initiatives"
-        },
-        {
-          "title": "Recruiting HR Partner",
-          "reqId": "43785",
-          "notionUrl": "https://www.notion.so/83b10591e5ea4b88854235ab5b9f1eae",
-          "owner": "Katherine Friborg",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "032000 - Central Human Resources"
-        },
-        {
-          "title": "Client Services Assistant",
-          "reqId": "43797",
-          "notionUrl": "https://www.notion.so/bc49be4d10fa4c729bd9409a3aaf687f",
-          "owner": "Katherine Friborg",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "041500 - Counseling Center"
-        },
-        {
-          "title": "Admin Specialist",
-          "reqId": "43798",
-          "notionUrl": "https://www.notion.so/fd78c9d95c904900a4ce165697116790",
-          "owner": "Katherine Friborg",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "041500 - Counseling Center"
-        },
-        {
           "title": "Social & Behavioral Researcher",
           "reqId": "43804",
           "notionUrl": "https://www.notion.so/a1f7cf2660834fac9dbfc96cdccc8489",
@@ -4039,26 +3689,6 @@
           "department": "610105 - Health Science Center Research"
         },
         {
-          "title": "Human Services Practitioner",
-          "reqId": "43811",
-          "notionUrl": "https://www.notion.so/87823e1016ad4175a302ab06337e8c32",
-          "owner": "Katherine Friborg",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "041500 - Counseling Center"
-        },
-        {
-          "title": "FTIC In-State Recruiter",
-          "reqId": "43805",
-          "notionUrl": "https://www.notion.so/47c22b5814274565b575ec441f58fdcd",
-          "owner": "Katherine Friborg",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "371000 - Admissions"
-        },
-        {
           "title": "Dean",
           "reqId": "43814",
           "notionUrl": "https://www.notion.so/ed4d347280b54251b9b6fec0a65389ce",
@@ -4067,56 +3697,6 @@
           "stage": "Faculty",
           "agingBand": "🔴 6+",
           "department": "400100 - Univ Lib Deans Office"
-        },
-        {
-          "title": "Laboratory Technician",
-          "reqId": "43868",
-          "notionUrl": "https://www.notion.so/70e2c22f586d459996ab344614d77502",
-          "owner": "Katherine Friborg",
-          "campus": "Sarasota-Manatee",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "521211 - SAR Integrative Biology"
-        },
-        {
-          "title": "Victim Advocate",
-          "reqId": "43852",
-          "notionUrl": "https://www.notion.so/6d2f17cb80a84a7da9b487c709de714e",
-          "owner": "Katherine Friborg",
-          "campus": "Sarasota-Manatee",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "043100 - Center for Victim Advocacy"
-        },
-        {
-          "title": "Assistant Vice President for Financial Aid",
-          "reqId": "43833",
-          "notionUrl": "https://www.notion.so/08b528bdb7dc4bf58f0facb48bae2a89",
-          "owner": "Katherine Friborg",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "373000 - Financial Aid"
-        },
-        {
-          "title": "Freshmen Success Representative",
-          "reqId": "43873",
-          "notionUrl": "https://www.notion.so/6889faef6fe34338be6765c7801bbe3c",
-          "owner": "Katherine Friborg",
-          "campus": "Sarasota-Manatee",
-          "stage": "Backlog",
-          "agingBand": "🔴 6+",
-          "department": "521800 - SAR Student Services"
-        },
-        {
-          "title": "Dir Student Gov Advising",
-          "reqId": "43876",
-          "notionUrl": "https://www.notion.so/56fefa44dd354389afbb3d37edcb5f37",
-          "owner": "Katherine Friborg",
-          "campus": "Tampa",
-          "stage": "Backlog",
-          "agingBand": "🔴 6+",
-          "department": "080000 - SG Branches And Agencies"
         },
         {
           "title": "Research Scientist",
@@ -4187,16 +3767,6 @@
           "stage": "Sourced",
           "agingBand": "🔴 6+",
           "department": "614400 - Molecular Medicine"
-        },
-        {
-          "title": "Academic Advisor I ",
-          "reqId": "43719",
-          "notionUrl": "https://www.notion.so/99ecc3530d9348958159d791ba69bbda",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 6+",
-          "department": "MUMA"
         },
         {
           "title": "Adjunct",
@@ -4429,16 +3999,6 @@
           "department": "College of Education "
         },
         {
-          "title": "OPS Marine Cook",
-          "reqId": "43063",
-          "notionUrl": "https://www.notion.so/d10e920a1bf048dbbd487f700460566d",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Passive",
-          "agingBand": "🔴 6+",
-          "department": "Florida Inst of Oceanography"
-        },
-        {
           "title": "Administrative Specialist",
           "reqId": "43164",
           "notionUrl": "https://www.notion.so/761f2f265a89430aa5b30c363199c3d1",
@@ -4559,16 +4119,6 @@
           "department": "042700 - Marshall Student Center"
         },
         {
-          "title": "Student Programs Manager",
-          "reqId": "43483",
-          "notionUrl": "https://www.notion.so/041f763606694fada1953edfd30d688e",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 6+",
-          "department": "STP Student Success"
-        },
-        {
           "title": "Assistant Director of Data Visualization (Admin)",
           "reqId": "43485",
           "notionUrl": "https://www.notion.so/8cca609bec144edab210ecc2f566423f",
@@ -4615,16 +4165,6 @@
           "owner": "Gabriel",
           "campus": "Tampa",
           "stage": "Faculty",
-          "agingBand": "🔴 6+",
-          "department": "College of Education "
-        },
-        {
-          "title": "Unit Research Administrator II",
-          "reqId": "43545",
-          "notionUrl": "https://www.notion.so/9f6ec85507494ba589a79349421f4297",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
           "agingBand": "🔴 6+",
           "department": "College of Education "
         },
@@ -5933,16 +5473,6 @@
           "stage": "Pre-boarding",
           "agingBand": "🟡 3-5",
           "department": "390000 - Graduate Studies"
-        },
-        {
-          "title": "Unit Research Administrator",
-          "reqId": "43788",
-          "notionUrl": "https://www.notion.so/b61fd564bb694ef5ba51e3e56d04562b",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Recruiter Review",
-          "agingBand": "🟡 3-5",
-          "department": "College of Marine Science"
         }
       ]
     },
@@ -5950,6 +5480,46 @@
       "band": "🟢 0–2",
       "color": "#3B6D11",
       "records": [
+        {
+          "title": "FWS Student Assistant - Electrical Engineering",
+          "reqId": "44346",
+          "notionUrl": "https://www.notion.so/1a626de7cb504476ae573bed52c30bda",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Student Hiring",
+          "agingBand": "🟢 0–2",
+          "department": "210600 - Electrical Engineering"
+        },
+        {
+          "title": "Research Support Specialist",
+          "reqId": "44348",
+          "notionUrl": "https://www.notion.so/5791cab1c6bc44b7aa43de3e2d5817e0",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Passive",
+          "agingBand": "🟢 0–2",
+          "department": "511255 - STP Psychology"
+        },
+        {
+          "title": "Manager Teaching Laboratory - Engineering Tech Support Svcs",
+          "reqId": "44349",
+          "notionUrl": "https://www.notion.so/0902fd9b145e480a83c6db6a69b53f64",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Passive",
+          "agingBand": "🟢 0–2",
+          "department": "210900 - Engr Tech Support Svcs"
+        },
+        {
+          "title": "Student Assistant",
+          "reqId": "44358",
+          "notionUrl": "https://www.notion.so/603163ef22624c13bd841ba5b00db43f",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Student Hiring",
+          "agingBand": "🟢 0–2",
+          "department": "512700 - STP Enrollment Management"
+        },
         {
           "title": "Administrative Specialist - Mechanical Engineering",
           "reqId": "44344",
@@ -5991,6 +5561,26 @@
           "department": "490000 - USF World"
         },
         {
+          "title": "Office Admin & Executive Asst to the Dean",
+          "reqId": "44297",
+          "notionUrl": "https://www.notion.so/cd0f7b66c65e4f74a73699da6334d390",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "170100 - COE Dean's Office"
+        },
+        {
+          "title": "Pre-School Teacher",
+          "reqId": "44277",
+          "notionUrl": "https://www.notion.so/b1fe72cb68e547dd85227c7db20483a7",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Pre-boarding",
+          "agingBand": "🟢 0–2",
+          "department": "174600 - Preschool Creative Learning"
+        },
+        {
           "title": "Applications Developer II",
           "reqId": "44218",
           "notionUrl": "https://www.notion.so/6233d98428bd464fb007dc8b24a4babf",
@@ -6021,14 +5611,124 @@
           "department": "140105 - MCOB Financia"
         },
         {
+          "title": "Academic Advisor II",
+          "reqId": "42179",
+          "notionUrl": "https://www.notion.so/604507be283a458eafa25297cda07fef",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Passive",
+          "agingBand": "🟢 0–2",
+          "department": "210500 - Mechanical Engineering"
+        },
+        {
           "title": "Accounting Assistant",
           "reqId": "44051",
           "notionUrl": "https://www.notion.so/be692cd816444d1bb9ea453470b229bd",
           "owner": "Gabriel",
           "campus": "St. Petersburg",
-          "stage": "Offer Stage",
+          "stage": "Pre-boarding",
           "agingBand": "🟢 0–2",
           "department": "510100 - STP Administration & Finance"
+        },
+        {
+          "title": "Academic Services Administrator",
+          "reqId": "43996",
+          "notionUrl": "https://www.notion.so/e96fcdac40284d30a2d6e8ba514c415f",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Pre-boarding",
+          "agingBand": "🟢 0–2",
+          "department": "170800 - COE-Student Academic Services"
+        },
+        {
+          "title": "Health Promotion Associate",
+          "reqId": "43936",
+          "notionUrl": "https://www.notion.so/3c693691147647c6992982c3e6257a0d",
+          "owner": "Katherine Friborg",
+          "campus": "Sarasota-Manatee",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "041100 - Center For Student Well-Being"
+        },
+        {
+          "title": "Fiscal & Business Specialist",
+          "reqId": "43880",
+          "notionUrl": "https://www.notion.so/063158caa3ca4f73aa16513c575e40c7",
+          "owner": "Katherine Friborg",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "040700 - SA&SS Resource Mgmt & Devel"
+        },
+        {
+          "title": "Transfer Relationship Manager",
+          "reqId": "43884",
+          "notionUrl": "https://www.notion.so/3d19c7abd8da4736afc56a5488879bba",
+          "owner": "Katherine Friborg",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "371000 - Admissions"
+        },
+        {
+          "title": "Transfer Customer Service Representative",
+          "reqId": "43883",
+          "notionUrl": "https://www.notion.so/2246a1a7be384beeb49c679cd148f9fe",
+          "owner": "Katherine Friborg",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "371000 - Admissions"
+        },
+        {
+          "title": "Director of Evaluations",
+          "reqId": "43906",
+          "notionUrl": "https://www.notion.so/d5c54b6f66484b9b893354a5ef2fd115",
+          "owner": "Katherine Friborg",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "371000 - Admissions"
+        },
+        {
+          "title": "Dir Student Gov Advising",
+          "reqId": "43888",
+          "notionUrl": "https://www.notion.so/a316c76327d549acb910a83c11d23935",
+          "owner": "Katherine Friborg",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "080000 - SG Branches And Agencies"
+        },
+        {
+          "title": "Director Student Government Advising",
+          "reqId": "43889",
+          "notionUrl": "https://www.notion.so/4f6f2ee1aaf145008cd7fcfd30514449",
+          "owner": "Katherine Friborg",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "080000 - SG Branches And Agencies"
+        },
+        {
+          "title": "Enrollment Management Assistant",
+          "reqId": "43911",
+          "notionUrl": "https://www.notion.so/8c28afa7653044889db61fb411ffaaa0",
+          "owner": "Katherine Friborg",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "372000 - Registrar's Office"
+        },
+        {
+          "title": "Compliance Advisor",
+          "reqId": "43898",
+          "notionUrl": "https://www.notion.so/e5080d6b767548b0b880129429109208",
+          "owner": "Katherine Friborg",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "373000 - Financial Aid"
         },
         {
           "title": "Enrollment Management Analyst",
@@ -6041,6 +5741,236 @@
           "department": "STP Registrar"
         },
         {
+          "title": "Academic Program Specialist",
+          "reqId": "43901",
+          "notionUrl": "https://www.notion.so/3e0432ca9bd4433bbb2bcfda05833c44",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Pre-boarding",
+          "agingBand": "🟢 0–2",
+          "department": "MUMA"
+        },
+        {
+          "title": "Human Services Practitioner - ITDS",
+          "reqId": "42589",
+          "notionUrl": "https://www.notion.so/283f16a79df1499cbe4371dcee2703f7",
+          "owner": "Katherine Friborg",
+          "campus": "USF Health",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "611900 - Department Of Pediatrics"
+        },
+        {
+          "title": "CLINICAL TRIAL RESEARCH ASSISTANT/MEDICAL ASSISTANT",
+          "reqId": "42510",
+          "notionUrl": "https://www.notion.so/dce2f77ab9604a0d9490b720cb7bab65",
+          "owner": "Katherine Friborg",
+          "campus": "USF Health",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "611900 - Department Of Pediatrics"
+        },
+        {
+          "title": "Senior Social Worker LCSW",
+          "reqId": "42652",
+          "notionUrl": "https://www.notion.so/586b0612d663499886f34cef8b7700a0",
+          "owner": "Katherine Friborg",
+          "campus": "USF Health",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "611900 - Department Of Pediatrics"
+        },
+        {
+          "title": "Clinical Research Assoc.",
+          "reqId": "42621",
+          "notionUrl": "https://www.notion.so/b47bfcb562d747ce967577e007cae45f",
+          "owner": "Katherine Friborg",
+          "campus": "USF Health",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "612200 - Dept Of OB/GYN"
+        },
+        {
+          "title": "HR Business Partner II",
+          "reqId": "42857",
+          "notionUrl": "https://www.notion.so/f4431886612543f19cd13433a763b49c",
+          "owner": "Katherine Friborg",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "032100 - Academic Human Resources"
+        },
+        {
+          "title": "Payroll Analyst II",
+          "reqId": "42984",
+          "notionUrl": "https://www.notion.so/2aeac1ddb180416eb712971d4d8f9863",
+          "owner": "Katherine Friborg",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "035000 - CHR Payroll Services"
+        },
+        {
+          "title": "Student Asst -Leave- FWS",
+          "reqId": "43118",
+          "notionUrl": "https://www.notion.so/73b3806520364afda1704149bf70e6f3",
+          "owner": "Katherine Friborg",
+          "campus": "Tampa",
+          "stage": "Student Hiring",
+          "agingBand": "🟢 0–2",
+          "department": "032000 - Central Human Resources"
+        },
+        {
+          "title": "Associate VP & Chief Experience Officer",
+          "reqId": "43522",
+          "notionUrl": "https://www.notion.so/6c64cfc41d7b4c9b9af0af916d62a03f",
+          "owner": "Katherine Friborg",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "020100 - SVP Administrative Operations"
+        },
+        {
+          "title": "HR Business Partner I Academic",
+          "reqId": "43731",
+          "notionUrl": "https://www.notion.so/ed9f1eabab6b4cfc94bcce1a43845a16",
+          "owner": "Katherine Friborg",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "032100 - Academic Human Resources"
+        },
+        {
+          "title": "Privacy Investigator & Operations Administrator",
+          "reqId": "43663",
+          "notionUrl": "https://www.notion.so/9a4929e2102747f6901dad6a79948fae",
+          "owner": "Katherine Friborg",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "017000 - Office Of Compliance-Ethics"
+        },
+        {
+          "title": "Supplier Relations Specialist",
+          "reqId": "43782",
+          "notionUrl": "https://www.notion.so/29b7f18d1cca414e9cf9a0d96138caf6",
+          "owner": "Katherine Friborg",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "041300 - Strategic Initiatives"
+        },
+        {
+          "title": "Recruiting HR Partner",
+          "reqId": "43785",
+          "notionUrl": "https://www.notion.so/83b10591e5ea4b88854235ab5b9f1eae",
+          "owner": "Katherine Friborg",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "032000 - Central Human Resources"
+        },
+        {
+          "title": "Client Services Assistant",
+          "reqId": "43797",
+          "notionUrl": "https://www.notion.so/bc49be4d10fa4c729bd9409a3aaf687f",
+          "owner": "Katherine Friborg",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "041500 - Counseling Center"
+        },
+        {
+          "title": "Admin Specialist",
+          "reqId": "43798",
+          "notionUrl": "https://www.notion.so/fd78c9d95c904900a4ce165697116790",
+          "owner": "Katherine Friborg",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "041500 - Counseling Center"
+        },
+        {
+          "title": "Human Services Practitioner",
+          "reqId": "43811",
+          "notionUrl": "https://www.notion.so/87823e1016ad4175a302ab06337e8c32",
+          "owner": "Katherine Friborg",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "041500 - Counseling Center"
+        },
+        {
+          "title": "FTIC In-State Recruiter",
+          "reqId": "43805",
+          "notionUrl": "https://www.notion.so/47c22b5814274565b575ec441f58fdcd",
+          "owner": "Katherine Friborg",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "371000 - Admissions"
+        },
+        {
+          "title": "Laboratory Technician",
+          "reqId": "43868",
+          "notionUrl": "https://www.notion.so/70e2c22f586d459996ab344614d77502",
+          "owner": "Katherine Friborg",
+          "campus": "Sarasota-Manatee",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "521211 - SAR Integrative Biology"
+        },
+        {
+          "title": "Victim Advocate",
+          "reqId": "43852",
+          "notionUrl": "https://www.notion.so/6d2f17cb80a84a7da9b487c709de714e",
+          "owner": "Katherine Friborg",
+          "campus": "Sarasota-Manatee",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "043100 - Center for Victim Advocacy"
+        },
+        {
+          "title": "Assistant Vice President for Financial Aid",
+          "reqId": "43833",
+          "notionUrl": "https://www.notion.so/08b528bdb7dc4bf58f0facb48bae2a89",
+          "owner": "Katherine Friborg",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "373000 - Financial Aid"
+        },
+        {
+          "title": "Freshmen Success Representative",
+          "reqId": "43873",
+          "notionUrl": "https://www.notion.so/6889faef6fe34338be6765c7801bbe3c",
+          "owner": "Katherine Friborg",
+          "campus": "Sarasota-Manatee",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "521800 - SAR Student Services"
+        },
+        {
+          "title": "Dir Student Gov Advising",
+          "reqId": "43876",
+          "notionUrl": "https://www.notion.so/56fefa44dd354389afbb3d37edcb5f37",
+          "owner": "Katherine Friborg",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "080000 - SG Branches And Agencies"
+        },
+        {
+          "title": "Academic Advisor I ",
+          "reqId": "43719",
+          "notionUrl": "https://www.notion.so/99ecc3530d9348958159d791ba69bbda",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Pre-boarding",
+          "agingBand": "🟢 0–2",
+          "department": "MUMA"
+        },
+        {
           "title": "Communication & Marketing Officer",
           "reqId": "43830",
           "notionUrl": "https://www.notion.so/81c055c863d84f29abe7481191345722",
@@ -6049,6 +5979,46 @@
           "stage": "Pre-boarding",
           "agingBand": "🟢 0–2",
           "department": "210800 - AICC Bellini College Department"
+        },
+        {
+          "title": "OPS Marine Cook",
+          "reqId": "43063",
+          "notionUrl": "https://www.notion.so/d10e920a1bf048dbbd487f700460566d",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Passive",
+          "agingBand": "🟢 0–2",
+          "department": "Florida Inst of Oceanography"
+        },
+        {
+          "title": "Student Programs Manager",
+          "reqId": "43483",
+          "notionUrl": "https://www.notion.so/041f763606694fada1953edfd30d688e",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Pre-boarding",
+          "agingBand": "🟢 0–2",
+          "department": "STP Student Success"
+        },
+        {
+          "title": "Unit Research Administrator II",
+          "reqId": "43545",
+          "notionUrl": "https://www.notion.so/9f6ec85507494ba589a79349421f4297",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Pre-boarding",
+          "agingBand": "🟢 0–2",
+          "department": "College of Education "
+        },
+        {
+          "title": "Unit Research Administrator",
+          "reqId": "43788",
+          "notionUrl": "https://www.notion.so/b61fd564bb694ef5ba51e3e56d04562b",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "College of Marine Science"
         },
         {
           "title": "Other Hourly Professional/Support- Human Services Practitioner",
@@ -6085,8 +6055,13 @@
   ],
   "reqType": [
     {
+      "label": "Passive",
+      "count": 132,
+      "color": "#006747"
+    },
+    {
       "label": "Active",
-      "count": 166,
+      "count": 130,
       "color": "#00A693"
     },
     {
@@ -6095,13 +6070,8 @@
       "color": "#7A9EB5"
     },
     {
-      "label": "Passive",
-      "count": 100,
-      "color": "#006747"
-    },
-    {
       "label": "Student",
-      "count": 65,
+      "count": 66,
       "color": "#1B6A9C"
     },
     {
@@ -6218,15 +6188,15 @@
     },
     {
       "label": "Other (159 depts)",
-      "count": 311,
+      "count": 308,
       "color": "#c8c7c2"
     }
   ],
   "stageMetrics": [
     {
       "label": "Recruiter Review",
-      "avgDays": 40,
-      "count": 27,
+      "avgDays": 31,
+      "count": 21,
       "color": "#006747"
     },
     {
@@ -6243,20 +6213,20 @@
     },
     {
       "label": "Offer Stage",
-      "avgDays": 18,
-      "count": 8,
+      "avgDays": 22,
+      "count": 6,
       "color": "#CFC483"
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 16,
-      "count": 19,
+      "avgDays": 20,
+      "count": 12,
       "color": "#5B8FA8"
     },
     {
       "label": "Backlog",
-      "avgDays": 18,
-      "count": 15,
+      "avgDays": 10,
+      "count": 13,
       "color": "#888780"
     }
   ],
@@ -8429,6 +8399,17 @@
       "notionUrl": "https://www.notion.so/65bb29f0406245cda5a8085c607420dd"
     },
     {
+      "title": "Student Programs Coordinator (Operations & Outreach)",
+      "reqId": "43899",
+      "owner": "Gabriel",
+      "campus": "St. Petersburg",
+      "stage": "Hired",
+      "department": "STP Student Affairs",
+      "reqType": "Active",
+      "ttf": 56,
+      "notionUrl": "https://www.notion.so/2b9f5fe4fb0947bcb7d4294646e0e2bd"
+    },
+    {
       "title": "Program Manager",
       "reqId": "43875",
       "owner": "johncalebrese",
@@ -8581,6 +8562,17 @@
       "reqType": "Active",
       "ttf": 50,
       "notionUrl": "https://www.notion.so/62d7ebeecaa84d3ba2f342f587c6a283"
+    },
+    {
+      "title": "Junior Grant Financial Administrator",
+      "reqId": "44047",
+      "owner": "Tameka Porter",
+      "campus": "Tampa",
+      "stage": "Canceled",
+      "department": "790300 - Sponsored Research",
+      "reqType": "Active",
+      "ttf": 49,
+      "notionUrl": "https://www.notion.so/9a0d4b89ab4f483f9266c8a07017f53c"
     },
     {
       "title": "Fiscal & Business Analyst",
@@ -8768,6 +8760,17 @@
       "reqType": "Active",
       "ttf": 37,
       "notionUrl": "https://www.notion.so/fde36f889c1f4558b24fa9052520b45f"
+    },
+    {
+      "title": "Project Coordinator",
+      "reqId": "44019",
+      "owner": "Gabriel",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "171400 - Teaching & Learning",
+      "reqType": "Active",
+      "ttf": 36,
+      "notionUrl": "https://www.notion.so/e598276a3e1145919c75ea3c303d69e9"
     },
     {
       "title": "Academic Service Administrator - Baldwin Group School of Risk Management & Insurance",
@@ -9034,6 +9037,17 @@
       "notionUrl": "https://www.notion.so/c0f94fabea3d41f7b6b4fc7982095677"
     },
     {
+      "title": "OPS / Temporary Marine",
+      "reqId": "44180",
+      "owner": "Gabriel",
+      "campus": "St. Petersburg",
+      "stage": "Hired",
+      "department": "471000 - Florida Inst of C",
+      "reqType": "Active",
+      "ttf": 15,
+      "notionUrl": "https://www.notion.so/93a718c56eaf4fd8a3a4c3995b21262b"
+    },
+    {
       "title": "Athletics Asst/Pitching Special Assistant, Video Analyst and Pitching Analytics",
       "reqId": "44184",
       "owner": "johncalebrese",
@@ -9067,6 +9081,28 @@
       "notionUrl": "https://www.notion.so/1bfe7dba54914c8e9a7bb727c2307f04"
     },
     {
+      "title": "OPS / Temporary Marine Chief Engineer",
+      "reqId": "44180",
+      "owner": "Gabriel",
+      "campus": "St. Petersburg",
+      "stage": "Hired",
+      "department": "471000 - Florida Inst of Oceanography",
+      "reqType": "Active",
+      "ttf": 15,
+      "notionUrl": "https://www.notion.so/ada6d585591b4c80b74c83d88849fd74"
+    },
+    {
+      "title": "Marine Operational Training Mgr",
+      "reqId": "44171",
+      "owner": "Gabriel",
+      "campus": "St. Petersburg",
+      "stage": "Hired",
+      "department": "471000 - Florida Inst of Oceanography",
+      "reqType": "Active",
+      "ttf": 15,
+      "notionUrl": "https://www.notion.so/04016ee7439c4c47a5168522fba402a4"
+    },
+    {
       "title": "Preschool Teacher",
       "reqId": "43763",
       "owner": "Gabriel",
@@ -9087,6 +9123,17 @@
       "reqType": "Active",
       "ttf": 13,
       "notionUrl": "https://www.notion.so/d0bf830eeb7f426fa73e078b835b5791"
+    },
+    {
+      "title": "Fiscal & Business Specialist - Research",
+      "reqId": "44166",
+      "owner": "Gabriel",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "170100 - COE Dean's Office",
+      "reqType": "Active",
+      "ttf": 10,
+      "notionUrl": "https://www.notion.so/347d4883a32041babda39b085cf29151"
     },
     {
       "title": "Student Assistant",
@@ -9939,6 +9986,20 @@
         "fillRatePct": 100
       },
       {
+        "department": "171400 - Teaching & Learning",
+        "filled": 2,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "471000 - Florida Inst of Oceanography",
+        "filled": 2,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
         "department": "510200 - STP Student Life",
         "filled": 2,
         "failed": 0,
@@ -10156,6 +10217,13 @@
         "fillRatePct": 100
       },
       {
+        "department": "STP Student Affairs",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
         "department": "386500 - Academic Success Center",
         "filled": 1,
         "failed": 0,
@@ -10182,6 +10250,13 @@
         "failed": 0,
         "cancelled": 0,
         "fillRatePct": 100
+      },
+      {
+        "department": "790300 - Sponsored Research",
+        "filled": 0,
+        "failed": 0,
+        "cancelled": 1,
+        "fillRatePct": null
       },
       {
         "department": "588500 - CBCS Management Info Services",
@@ -10296,6 +10371,13 @@
         "fillRatePct": 100
       },
       {
+        "department": "471000 - Florida Inst of C",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
         "department": "510402 - STP Student Conduct",
         "filled": 1,
         "failed": 0,
@@ -10303,7 +10385,7 @@
         "fillRatePct": 100
       },
       {
-        "department": "171400 - Teaching & Learning",
+        "department": "170100 - COE Dean's Office",
         "filled": 1,
         "failed": 0,
         "cancelled": 0,
@@ -10383,8 +10465,8 @@
     "avgTTFByReqType": [
       {
         "reqType": "Active",
-        "avgDays": 104,
-        "count": 148
+        "avgDays": 101,
+        "count": 154
       },
       {
         "reqType": "Student",
@@ -10415,8 +10497,8 @@
     "avgTTFByCampus": [
       {
         "campus": "Tampa",
-        "avgDays": 86,
-        "count": 105
+        "avgDays": 85,
+        "count": 107
       },
       {
         "campus": "USF Health",
@@ -10425,8 +10507,8 @@
       },
       {
         "campus": "St. Petersburg",
-        "avgDays": 95,
-        "count": 16
+        "avgDays": 81,
+        "count": 20
       },
       {
         "campus": "Unspecified",
@@ -10483,13 +10565,6 @@
     ],
     "stallRateByRecruiter": [
       {
-        "recruiter": "Katherine",
-        "color": "#1B7A5A",
-        "stalled": 31,
-        "totalActive": 31,
-        "stallRatePct": 100
-      },
-      {
         "recruiter": "Rebecca",
         "color": "#1B6A9C",
         "stalled": 239,
@@ -10499,16 +10574,9 @@
       {
         "recruiter": "Tameka",
         "color": "#00A693",
-        "stalled": 138,
-        "totalActive": 138,
+        "stalled": 137,
+        "totalActive": 137,
         "stallRatePct": 100
-      },
-      {
-        "recruiter": "Gabriel",
-        "color": "#00A693",
-        "stalled": 108,
-        "totalActive": 116,
-        "stallRatePct": 93
       },
       {
         "recruiter": "John",
@@ -10516,6 +10584,20 @@
         "stalled": 62,
         "totalActive": 70,
         "stallRatePct": 89
+      },
+      {
+        "recruiter": "Gabriel",
+        "color": "#00A693",
+        "stalled": 93,
+        "totalActive": 114,
+        "stallRatePct": 82
+      },
+      {
+        "recruiter": "Katherine",
+        "color": "#1B7A5A",
+        "stalled": 1,
+        "totalActive": 31,
+        "stallRatePct": 3
       }
     ],
     "seasonalHiringTrends": [
@@ -10585,7 +10667,7 @@
       },
       {
         "label": "Sep '26",
-        "count": 19
+        "count": 23
       }
     ]
   },
@@ -10609,256 +10691,6 @@
           "color": "#A32D2D",
           "records": [
             {
-              "title": "Health Promotion Associate",
-              "reqId": "43936",
-              "notionUrl": "https://www.notion.so/3c693691147647c6992982c3e6257a0d",
-              "owner": "Katherine Friborg",
-              "campus": "Sarasota-Manatee",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "041100 - Center For Student Well-Being"
-            },
-            {
-              "title": "Fiscal & Business Specialist",
-              "reqId": "43880",
-              "notionUrl": "https://www.notion.so/063158caa3ca4f73aa16513c575e40c7",
-              "owner": "Katherine Friborg",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "040700 - SA&SS Resource Mgmt & Devel"
-            },
-            {
-              "title": "Transfer Relationship Manager",
-              "reqId": "43884",
-              "notionUrl": "https://www.notion.so/3d19c7abd8da4736afc56a5488879bba",
-              "owner": "Katherine Friborg",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "371000 - Admissions"
-            },
-            {
-              "title": "Transfer Customer Service Representative",
-              "reqId": "43883",
-              "notionUrl": "https://www.notion.so/2246a1a7be384beeb49c679cd148f9fe",
-              "owner": "Katherine Friborg",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "371000 - Admissions"
-            },
-            {
-              "title": "Director of Evaluations",
-              "reqId": "43906",
-              "notionUrl": "https://www.notion.so/d5c54b6f66484b9b893354a5ef2fd115",
-              "owner": "Katherine Friborg",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "371000 - Admissions"
-            },
-            {
-              "title": "Dir Student Gov Advising",
-              "reqId": "43888",
-              "notionUrl": "https://www.notion.so/a316c76327d549acb910a83c11d23935",
-              "owner": "Katherine Friborg",
-              "campus": "Tampa",
-              "stage": "Backlog",
-              "agingBand": "🔴 6+",
-              "department": "080000 - SG Branches And Agencies"
-            },
-            {
-              "title": "Director Student Government Advising",
-              "reqId": "43889",
-              "notionUrl": "https://www.notion.so/4f6f2ee1aaf145008cd7fcfd30514449",
-              "owner": "Katherine Friborg",
-              "campus": "Tampa",
-              "stage": "Backlog",
-              "agingBand": "🔴 6+",
-              "department": "080000 - SG Branches And Agencies"
-            },
-            {
-              "title": "Enrollment Management Assistant",
-              "reqId": "43911",
-              "notionUrl": "https://www.notion.so/8c28afa7653044889db61fb411ffaaa0",
-              "owner": "Katherine Friborg",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "372000 - Registrar's Office"
-            },
-            {
-              "title": "Compliance Advisor",
-              "reqId": "43898",
-              "notionUrl": "https://www.notion.so/e5080d6b767548b0b880129429109208",
-              "owner": "Katherine Friborg",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "373000 - Financial Aid"
-            },
-            {
-              "title": "Human Services Practitioner - ITDS",
-              "reqId": "42589",
-              "notionUrl": "https://www.notion.so/283f16a79df1499cbe4371dcee2703f7",
-              "owner": "Katherine Friborg",
-              "campus": "USF Health",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "611900 - Department Of Pediatrics"
-            },
-            {
-              "title": "CLINICAL TRIAL RESEARCH ASSISTANT/MEDICAL ASSISTANT",
-              "reqId": "42510",
-              "notionUrl": "https://www.notion.so/dce2f77ab9604a0d9490b720cb7bab65",
-              "owner": "Katherine Friborg",
-              "campus": "USF Health",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "611900 - Department Of Pediatrics"
-            },
-            {
-              "title": "Senior Social Worker LCSW",
-              "reqId": "42652",
-              "notionUrl": "https://www.notion.so/586b0612d663499886f34cef8b7700a0",
-              "owner": "Katherine Friborg",
-              "campus": "USF Health",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "611900 - Department Of Pediatrics"
-            },
-            {
-              "title": "Clinical Research Assoc.",
-              "reqId": "42621",
-              "notionUrl": "https://www.notion.so/b47bfcb562d747ce967577e007cae45f",
-              "owner": "Katherine Friborg",
-              "campus": "USF Health",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "612200 - Dept Of OB/GYN"
-            },
-            {
-              "title": "HR Business Partner II",
-              "reqId": "42857",
-              "notionUrl": "https://www.notion.so/f4431886612543f19cd13433a763b49c",
-              "owner": "Katherine Friborg",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "032100 - Academic Human Resources"
-            },
-            {
-              "title": "Payroll Analyst II",
-              "reqId": "42984",
-              "notionUrl": "https://www.notion.so/2aeac1ddb180416eb712971d4d8f9863",
-              "owner": "Katherine Friborg",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "035000 - CHR Payroll Services"
-            },
-            {
-              "title": "Student Asst -Leave- FWS",
-              "reqId": "43118",
-              "notionUrl": "https://www.notion.so/73b3806520364afda1704149bf70e6f3",
-              "owner": "Katherine Friborg",
-              "campus": "Tampa",
-              "stage": "Student Hiring",
-              "agingBand": "🔴 6+",
-              "department": "032000 - Central Human Resources"
-            },
-            {
-              "title": "Associate VP & Chief Experience Officer",
-              "reqId": "43522",
-              "notionUrl": "https://www.notion.so/6c64cfc41d7b4c9b9af0af916d62a03f",
-              "owner": "Katherine Friborg",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "020100 - SVP Administrative Operations"
-            },
-            {
-              "title": "HR Business Partner I Academic",
-              "reqId": "43731",
-              "notionUrl": "https://www.notion.so/ed9f1eabab6b4cfc94bcce1a43845a16",
-              "owner": "Katherine Friborg",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "032100 - Academic Human Resources"
-            },
-            {
-              "title": "Privacy Investigator & Operations Administrator",
-              "reqId": "43663",
-              "notionUrl": "https://www.notion.so/9a4929e2102747f6901dad6a79948fae",
-              "owner": "Katherine Friborg",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "017000 - Office Of Compliance-Ethics"
-            },
-            {
-              "title": "Supplier Relations Specialist",
-              "reqId": "43782",
-              "notionUrl": "https://www.notion.so/29b7f18d1cca414e9cf9a0d96138caf6",
-              "owner": "Katherine Friborg",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "041300 - Strategic Initiatives"
-            },
-            {
-              "title": "Recruiting HR Partner",
-              "reqId": "43785",
-              "notionUrl": "https://www.notion.so/83b10591e5ea4b88854235ab5b9f1eae",
-              "owner": "Katherine Friborg",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "032000 - Central Human Resources"
-            },
-            {
-              "title": "Client Services Assistant",
-              "reqId": "43797",
-              "notionUrl": "https://www.notion.so/bc49be4d10fa4c729bd9409a3aaf687f",
-              "owner": "Katherine Friborg",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "041500 - Counseling Center"
-            },
-            {
-              "title": "Admin Specialist",
-              "reqId": "43798",
-              "notionUrl": "https://www.notion.so/fd78c9d95c904900a4ce165697116790",
-              "owner": "Katherine Friborg",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "041500 - Counseling Center"
-            },
-            {
-              "title": "Human Services Practitioner",
-              "reqId": "43811",
-              "notionUrl": "https://www.notion.so/87823e1016ad4175a302ab06337e8c32",
-              "owner": "Katherine Friborg",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "041500 - Counseling Center"
-            },
-            {
-              "title": "FTIC In-State Recruiter",
-              "reqId": "43805",
-              "notionUrl": "https://www.notion.so/47c22b5814274565b575ec441f58fdcd",
-              "owner": "Katherine Friborg",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "371000 - Admissions"
-            },
-            {
               "title": "Dean",
               "reqId": "43814",
               "notionUrl": "https://www.notion.so/ed4d347280b54251b9b6fec0a65389ce",
@@ -10867,56 +10699,6 @@
               "stage": "Faculty",
               "agingBand": "🔴 6+",
               "department": "400100 - Univ Lib Deans Office"
-            },
-            {
-              "title": "Laboratory Technician",
-              "reqId": "43868",
-              "notionUrl": "https://www.notion.so/70e2c22f586d459996ab344614d77502",
-              "owner": "Katherine Friborg",
-              "campus": "Sarasota-Manatee",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "521211 - SAR Integrative Biology"
-            },
-            {
-              "title": "Victim Advocate",
-              "reqId": "43852",
-              "notionUrl": "https://www.notion.so/6d2f17cb80a84a7da9b487c709de714e",
-              "owner": "Katherine Friborg",
-              "campus": "Sarasota-Manatee",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "043100 - Center for Victim Advocacy"
-            },
-            {
-              "title": "Assistant Vice President for Financial Aid",
-              "reqId": "43833",
-              "notionUrl": "https://www.notion.so/08b528bdb7dc4bf58f0facb48bae2a89",
-              "owner": "Katherine Friborg",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "373000 - Financial Aid"
-            },
-            {
-              "title": "Freshmen Success Representative",
-              "reqId": "43873",
-              "notionUrl": "https://www.notion.so/6889faef6fe34338be6765c7801bbe3c",
-              "owner": "Katherine Friborg",
-              "campus": "Sarasota-Manatee",
-              "stage": "Backlog",
-              "agingBand": "🔴 6+",
-              "department": "521800 - SAR Student Services"
-            },
-            {
-              "title": "Dir Student Gov Advising",
-              "reqId": "43876",
-              "notionUrl": "https://www.notion.so/56fefa44dd354389afbb3d37edcb5f37",
-              "owner": "Katherine Friborg",
-              "campus": "Tampa",
-              "stage": "Backlog",
-              "agingBand": "🔴 6+",
-              "department": "080000 - SG Branches And Agencies"
             }
           ]
         },
@@ -10928,23 +10710,311 @@
         {
           "band": "🟢 0–2",
           "color": "#3B6D11",
-          "records": []
+          "records": [
+            {
+              "title": "Health Promotion Associate",
+              "reqId": "43936",
+              "notionUrl": "https://www.notion.so/3c693691147647c6992982c3e6257a0d",
+              "owner": "Katherine Friborg",
+              "campus": "Sarasota-Manatee",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "041100 - Center For Student Well-Being"
+            },
+            {
+              "title": "Fiscal & Business Specialist",
+              "reqId": "43880",
+              "notionUrl": "https://www.notion.so/063158caa3ca4f73aa16513c575e40c7",
+              "owner": "Katherine Friborg",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "040700 - SA&SS Resource Mgmt & Devel"
+            },
+            {
+              "title": "Transfer Relationship Manager",
+              "reqId": "43884",
+              "notionUrl": "https://www.notion.so/3d19c7abd8da4736afc56a5488879bba",
+              "owner": "Katherine Friborg",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "371000 - Admissions"
+            },
+            {
+              "title": "Transfer Customer Service Representative",
+              "reqId": "43883",
+              "notionUrl": "https://www.notion.so/2246a1a7be384beeb49c679cd148f9fe",
+              "owner": "Katherine Friborg",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "371000 - Admissions"
+            },
+            {
+              "title": "Director of Evaluations",
+              "reqId": "43906",
+              "notionUrl": "https://www.notion.so/d5c54b6f66484b9b893354a5ef2fd115",
+              "owner": "Katherine Friborg",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "371000 - Admissions"
+            },
+            {
+              "title": "Dir Student Gov Advising",
+              "reqId": "43888",
+              "notionUrl": "https://www.notion.so/a316c76327d549acb910a83c11d23935",
+              "owner": "Katherine Friborg",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "080000 - SG Branches And Agencies"
+            },
+            {
+              "title": "Director Student Government Advising",
+              "reqId": "43889",
+              "notionUrl": "https://www.notion.so/4f6f2ee1aaf145008cd7fcfd30514449",
+              "owner": "Katherine Friborg",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "080000 - SG Branches And Agencies"
+            },
+            {
+              "title": "Enrollment Management Assistant",
+              "reqId": "43911",
+              "notionUrl": "https://www.notion.so/8c28afa7653044889db61fb411ffaaa0",
+              "owner": "Katherine Friborg",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "372000 - Registrar's Office"
+            },
+            {
+              "title": "Compliance Advisor",
+              "reqId": "43898",
+              "notionUrl": "https://www.notion.so/e5080d6b767548b0b880129429109208",
+              "owner": "Katherine Friborg",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "373000 - Financial Aid"
+            },
+            {
+              "title": "Human Services Practitioner - ITDS",
+              "reqId": "42589",
+              "notionUrl": "https://www.notion.so/283f16a79df1499cbe4371dcee2703f7",
+              "owner": "Katherine Friborg",
+              "campus": "USF Health",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "611900 - Department Of Pediatrics"
+            },
+            {
+              "title": "CLINICAL TRIAL RESEARCH ASSISTANT/MEDICAL ASSISTANT",
+              "reqId": "42510",
+              "notionUrl": "https://www.notion.so/dce2f77ab9604a0d9490b720cb7bab65",
+              "owner": "Katherine Friborg",
+              "campus": "USF Health",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "611900 - Department Of Pediatrics"
+            },
+            {
+              "title": "Senior Social Worker LCSW",
+              "reqId": "42652",
+              "notionUrl": "https://www.notion.so/586b0612d663499886f34cef8b7700a0",
+              "owner": "Katherine Friborg",
+              "campus": "USF Health",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "611900 - Department Of Pediatrics"
+            },
+            {
+              "title": "Clinical Research Assoc.",
+              "reqId": "42621",
+              "notionUrl": "https://www.notion.so/b47bfcb562d747ce967577e007cae45f",
+              "owner": "Katherine Friborg",
+              "campus": "USF Health",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "612200 - Dept Of OB/GYN"
+            },
+            {
+              "title": "HR Business Partner II",
+              "reqId": "42857",
+              "notionUrl": "https://www.notion.so/f4431886612543f19cd13433a763b49c",
+              "owner": "Katherine Friborg",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "032100 - Academic Human Resources"
+            },
+            {
+              "title": "Payroll Analyst II",
+              "reqId": "42984",
+              "notionUrl": "https://www.notion.so/2aeac1ddb180416eb712971d4d8f9863",
+              "owner": "Katherine Friborg",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "035000 - CHR Payroll Services"
+            },
+            {
+              "title": "Student Asst -Leave- FWS",
+              "reqId": "43118",
+              "notionUrl": "https://www.notion.so/73b3806520364afda1704149bf70e6f3",
+              "owner": "Katherine Friborg",
+              "campus": "Tampa",
+              "stage": "Student Hiring",
+              "agingBand": "🟢 0–2",
+              "department": "032000 - Central Human Resources"
+            },
+            {
+              "title": "Associate VP & Chief Experience Officer",
+              "reqId": "43522",
+              "notionUrl": "https://www.notion.so/6c64cfc41d7b4c9b9af0af916d62a03f",
+              "owner": "Katherine Friborg",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "020100 - SVP Administrative Operations"
+            },
+            {
+              "title": "HR Business Partner I Academic",
+              "reqId": "43731",
+              "notionUrl": "https://www.notion.so/ed9f1eabab6b4cfc94bcce1a43845a16",
+              "owner": "Katherine Friborg",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "032100 - Academic Human Resources"
+            },
+            {
+              "title": "Privacy Investigator & Operations Administrator",
+              "reqId": "43663",
+              "notionUrl": "https://www.notion.so/9a4929e2102747f6901dad6a79948fae",
+              "owner": "Katherine Friborg",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "017000 - Office Of Compliance-Ethics"
+            },
+            {
+              "title": "Supplier Relations Specialist",
+              "reqId": "43782",
+              "notionUrl": "https://www.notion.so/29b7f18d1cca414e9cf9a0d96138caf6",
+              "owner": "Katherine Friborg",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "041300 - Strategic Initiatives"
+            },
+            {
+              "title": "Recruiting HR Partner",
+              "reqId": "43785",
+              "notionUrl": "https://www.notion.so/83b10591e5ea4b88854235ab5b9f1eae",
+              "owner": "Katherine Friborg",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "032000 - Central Human Resources"
+            },
+            {
+              "title": "Client Services Assistant",
+              "reqId": "43797",
+              "notionUrl": "https://www.notion.so/bc49be4d10fa4c729bd9409a3aaf687f",
+              "owner": "Katherine Friborg",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "041500 - Counseling Center"
+            },
+            {
+              "title": "Admin Specialist",
+              "reqId": "43798",
+              "notionUrl": "https://www.notion.so/fd78c9d95c904900a4ce165697116790",
+              "owner": "Katherine Friborg",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "041500 - Counseling Center"
+            },
+            {
+              "title": "Human Services Practitioner",
+              "reqId": "43811",
+              "notionUrl": "https://www.notion.so/87823e1016ad4175a302ab06337e8c32",
+              "owner": "Katherine Friborg",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "041500 - Counseling Center"
+            },
+            {
+              "title": "FTIC In-State Recruiter",
+              "reqId": "43805",
+              "notionUrl": "https://www.notion.so/47c22b5814274565b575ec441f58fdcd",
+              "owner": "Katherine Friborg",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "371000 - Admissions"
+            },
+            {
+              "title": "Laboratory Technician",
+              "reqId": "43868",
+              "notionUrl": "https://www.notion.so/70e2c22f586d459996ab344614d77502",
+              "owner": "Katherine Friborg",
+              "campus": "Sarasota-Manatee",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "521211 - SAR Integrative Biology"
+            },
+            {
+              "title": "Victim Advocate",
+              "reqId": "43852",
+              "notionUrl": "https://www.notion.so/6d2f17cb80a84a7da9b487c709de714e",
+              "owner": "Katherine Friborg",
+              "campus": "Sarasota-Manatee",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "043100 - Center for Victim Advocacy"
+            },
+            {
+              "title": "Assistant Vice President for Financial Aid",
+              "reqId": "43833",
+              "notionUrl": "https://www.notion.so/08b528bdb7dc4bf58f0facb48bae2a89",
+              "owner": "Katherine Friborg",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "373000 - Financial Aid"
+            },
+            {
+              "title": "Freshmen Success Representative",
+              "reqId": "43873",
+              "notionUrl": "https://www.notion.so/6889faef6fe34338be6765c7801bbe3c",
+              "owner": "Katherine Friborg",
+              "campus": "Sarasota-Manatee",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "521800 - SAR Student Services"
+            },
+            {
+              "title": "Dir Student Gov Advising",
+              "reqId": "43876",
+              "notionUrl": "https://www.notion.so/56fefa44dd354389afbb3d37edcb5f37",
+              "owner": "Katherine Friborg",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "080000 - SG Branches And Agencies"
+            }
+          ]
         }
       ],
-      "stageMetrics": [
-        {
-          "label": "Recruiter Review",
-          "avgDays": 70,
-          "count": 6,
-          "color": "#006747"
-        },
-        {
-          "label": "Backlog",
-          "avgDays": 72,
-          "count": 2,
-          "color": "#888780"
-        }
-      ],
+      "stageMetrics": [],
       "statuses": [
         {
           "label": "Recruiter Review",
@@ -10973,7 +11043,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 31
+          "count": 1
         },
         {
           "label": "🟡 3-5",
@@ -10987,7 +11057,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 0
+          "count": 30
         }
       ],
       "funnel": [
@@ -16587,6 +16657,16 @@
           "color": "#BA7517",
           "records": [
             {
+              "title": "Athletics Events Coordinator",
+              "reqId": "44208",
+              "notionUrl": "https://www.notion.so/d0bf830eeb7f426fa73e078b835b5791",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Hired",
+              "agingBand": "🟡 3-5",
+              "department": "051000 - Athletic Administration"
+            },
+            {
               "title": "Student Asst - FWS",
               "reqId": "44147",
               "notionUrl": "https://www.notion.so/f42912b6429046eeb486691bded00c64",
@@ -16595,6 +16675,16 @@
               "stage": "Pre-boarding",
               "agingBand": "🟡 3-5",
               "department": "490100 - EA Overseas Study Program"
+            },
+            {
+              "title": "Athletics Assistant- Partnership Activation, Intern",
+              "reqId": "44099",
+              "notionUrl": "https://www.notion.so/aea8aad3b703406eb3cec3b0a1e530eb",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Hired",
+              "agingBand": "🟡 3-5",
+              "department": "051000 - Athletic Administration"
             },
             {
               "title": "FWS Student Assistant - Office of Graduate Studies",
@@ -16653,16 +16743,6 @@
               "department": "051000 - Athletic Administration"
             },
             {
-              "title": "Athletics Events Coordinator",
-              "reqId": "44208",
-              "notionUrl": "https://www.notion.so/d0bf830eeb7f426fa73e078b835b5791",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Hired",
-              "agingBand": "🟢 0–2",
-              "department": "051000 - Athletic Administration"
-            },
-            {
               "title": "Student Assistant",
               "reqId": "44219",
               "notionUrl": "https://www.notion.so/2c67b612dee04fc2aa86214c65849a01",
@@ -16681,16 +16761,6 @@
               "stage": "Hired",
               "agingBand": "🟢 0–2",
               "department": "174400 - Fla Ctr For Instr Technology"
-            },
-            {
-              "title": "Athletics Assistant- Partnership Activation, Intern",
-              "reqId": "44099",
-              "notionUrl": "https://www.notion.so/aea8aad3b703406eb3cec3b0a1e530eb",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Hired",
-              "agingBand": "🟢 0–2",
-              "department": "051000 - Athletic Administration"
             },
             {
               "title": "Student Programs Coordinator",
@@ -16913,11 +16983,11 @@
       "bgLight": "#e6f2ed",
       "bgDark": "#042e24",
       "campus": "St Pete / Tampa",
-      "reqs": 202,
-      "filled": 75,
+      "reqs": 206,
+      "filled": 81,
       "failed": 4,
-      "ttf": 79,
-      "wip": 1,
+      "ttf": 77,
+      "wip": 4,
       "agingRecords": [
         {
           "band": "🔴 6+",
@@ -16932,16 +17002,6 @@
               "stage": "Faculty",
               "agingBand": "🔴 6+",
               "department": "210100 - College Of Engineering - Dean"
-            },
-            {
-              "title": "Office Admin & Executive Asst to the Dean",
-              "reqId": "44297",
-              "notionUrl": "https://www.notion.so/cd0f7b66c65e4f74a73699da6334d390",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "170100 - COE Dean's Office"
             },
             {
               "title": "Research Support Asst - 210500",
@@ -16972,16 +17032,6 @@
               "stage": "Targeted",
               "agingBand": "🔴 6+",
               "department": "177600 - Ctr For Res,Eval,Assmnt&Measre"
-            },
-            {
-              "title": "Pre-School Teacher",
-              "reqId": "44277",
-              "notionUrl": "https://www.notion.so/b1fe72cb68e547dd85227c7db20483a7",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Offer Stage",
-              "agingBand": "🔴 6+",
-              "department": "174600 - Preschool Creative Learning"
             },
             {
               "title": "Mail Clerk",
@@ -17084,16 +17134,6 @@
               "department": "210500 - Mechanical Eng"
             },
             {
-              "title": "OPS / Temporary Marine",
-              "reqId": "44180",
-              "notionUrl": "https://www.notion.so/93a718c56eaf4fd8a3a4c3995b21262b",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Pre-boarding",
-              "agingBand": "🔴 6+",
-              "department": "471000 - Florida Inst of C"
-            },
-            {
               "title": "Safety and Compliance Officer",
               "reqId": "44192",
               "notionUrl": "https://www.notion.so/3b53300285bc4ff7bd3a7a3953ec7287",
@@ -17194,16 +17234,6 @@
               "department": "210300 - Industrial & Mgmt Systems"
             },
             {
-              "title": "Academic Advisor II",
-              "reqId": "42179",
-              "notionUrl": "https://www.notion.so/604507be283a458eafa25297cda07fef",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Passive",
-              "agingBand": "🔴 6+",
-              "department": "210500 - Mechanical Engineering"
-            },
-            {
               "title": "Associate Professor, Electrical Engineering",
               "reqId": "42123",
               "notionUrl": "https://www.notion.so/eec8aaf2d6f74d9eb1a286fe4be1b5c9",
@@ -17284,16 +17314,6 @@
               "department": "510402 - STP Student Conduct"
             },
             {
-              "title": "OPS / Temporary Marine Chief Engineer",
-              "reqId": "44180",
-              "notionUrl": "https://www.notion.so/ada6d585591b4c80b74c83d88849fd74",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Pre-boarding",
-              "agingBand": "🔴 6+",
-              "department": "471000 - Florida Inst of Oceanography"
-            },
-            {
               "title": "Preschool Assistant Teacher",
               "reqId": "44187",
               "notionUrl": "https://www.notion.so/7aca5020ee0d466bb76b00ea8662d35b",
@@ -17342,26 +17362,6 @@
               "stage": "Hired",
               "agingBand": "🔴 6+",
               "department": "177500 - Inst For School Comm Partnersh"
-            },
-            {
-              "title": "Marine Operational Training Mgr",
-              "reqId": "44171",
-              "notionUrl": "https://www.notion.so/04016ee7439c4c47a5168522fba402a4",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Pre-boarding",
-              "agingBand": "🔴 6+",
-              "department": "471000 - Florida Inst of Oceanography"
-            },
-            {
-              "title": "Fiscal & Business Specialist - Research",
-              "reqId": "44166",
-              "notionUrl": "https://www.notion.so/347d4883a32041babda39b085cf29151",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🔴 6+",
-              "department": "170100 - COE Dean's Office"
             },
             {
               "title": "Other Hourly Professional/Support",
@@ -17564,36 +17564,6 @@
               "department": "177500 - Inst For School Comm Partnersh"
             },
             {
-              "title": "Academic Advisor I - Electrical Engineering",
-              "reqId": "43964",
-              "notionUrl": "https://www.notion.so/fd8cc142f839444592d134d7f33f9af1",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Hired",
-              "agingBand": "🔴 6+",
-              "department": "210600 - Electrical Engineering"
-            },
-            {
-              "title": "Academic Services Administrator",
-              "reqId": "43996",
-              "notionUrl": "https://www.notion.so/e96fcdac40284d30a2d6e8ba514c415f",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🔴 6+",
-              "department": "170800 - COE-Student Academic Services"
-            },
-            {
-              "title": "Project Coordinator",
-              "reqId": "44019",
-              "notionUrl": "https://www.notion.so/e598276a3e1145919c75ea3c303d69e9",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🔴 6+",
-              "department": "171400 - Teaching & Learning"
-            },
-            {
               "title": "Postdoctoral Scholar Research - Mechanical Engineering",
               "reqId": "44023",
               "notionUrl": "https://www.notion.so/e1b0cded4086473caf88307afed84219",
@@ -17764,16 +17734,6 @@
               "department": "College of Marine Science"
             },
             {
-              "title": "Assistant State Director of School Improvement",
-              "reqId": "43914",
-              "notionUrl": "https://www.notion.so/2edae9a13be04cefae33e9bffd40db6d",
-              "owner": "Gabriel",
-              "campus": "Tallahassee",
-              "stage": "Hired",
-              "agingBand": "🔴 6+",
-              "department": "Inst For School Comm Partnership"
-            },
-            {
               "title": "Graphic Designer Student Assistant - CUTR",
               "reqId": "43915",
               "notionUrl": "https://www.notion.so/edb8fded0da8428fbaf530d53691e746",
@@ -17802,16 +17762,6 @@
               "stage": "Student Hiring",
               "agingBand": "🔴 6+",
               "department": "Engineering"
-            },
-            {
-              "title": "Employment Job Coach/Transition Specialist",
-              "reqId": "43874",
-              "notionUrl": "https://www.notion.so/5efcb565cd2047aba833f70ff3bf32f2",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Hired",
-              "agingBand": "🔴 6+",
-              "department": "STP Secondary Education"
             },
             {
               "title": "Temporary Instructor - Science Education",
@@ -17874,32 +17824,12 @@
               "department": "STP Student Success"
             },
             {
-              "title": "Student Programs Coordinator (Operations & Outreach)",
-              "reqId": "43899",
-              "notionUrl": "https://www.notion.so/2b9f5fe4fb0947bcb7d4294646e0e2bd",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Pre-boarding",
-              "agingBand": "🔴 6+",
-              "department": "STP Student Affairs"
-            },
-            {
               "title": "Assistant Director of Small Business Development Center",
               "reqId": "43900",
               "notionUrl": "https://www.notion.so/a3255042eb054f188198cbb0c204abff",
               "owner": "Gabriel",
               "campus": "Tampa",
               "stage": "Hired",
-              "agingBand": "🔴 6+",
-              "department": "MUMA"
-            },
-            {
-              "title": "Academic Program Specialist",
-              "reqId": "43901",
-              "notionUrl": "https://www.notion.so/3e0432ca9bd4433bbb2bcfda05833c44",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
               "agingBand": "🔴 6+",
               "department": "MUMA"
             },
@@ -17950,16 +17880,6 @@
               "owner": "Gabriel",
               "campus": "Tampa",
               "stage": "Hired",
-              "agingBand": "🔴 6+",
-              "department": "MUMA"
-            },
-            {
-              "title": "Academic Advisor I ",
-              "reqId": "43719",
-              "notionUrl": "https://www.notion.so/99ecc3530d9348958159d791ba69bbda",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
               "agingBand": "🔴 6+",
               "department": "MUMA"
             },
@@ -18114,16 +18034,6 @@
               "department": "College of Education "
             },
             {
-              "title": "OPS Marine Cook",
-              "reqId": "43063",
-              "notionUrl": "https://www.notion.so/d10e920a1bf048dbbd487f700460566d",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Passive",
-              "agingBand": "🔴 6+",
-              "department": "Florida Inst of Oceanography"
-            },
-            {
               "title": "Skilled Craft / OPS Mate",
               "reqId": "43064",
               "notionUrl": "https://www.notion.so/c1ddc083f13d4503a42ef0138126e9b7",
@@ -18154,16 +18064,6 @@
               "department": "College of Education "
             },
             {
-              "title": "Educational Policy Consultant",
-              "reqId": "43133",
-              "notionUrl": "https://www.notion.so/e34d945b33814440a50ddbcaa3e8559f",
-              "owner": "Gabriel",
-              "campus": "Tallahassee",
-              "stage": "Hired",
-              "agingBand": "🔴 6+",
-              "department": "Inst For School Comm Partnership"
-            },
-            {
               "title": "Asst Dir Student Ctrs & Events",
               "reqId": "43083",
               "notionUrl": "https://www.notion.so/33e993e0e4d54166b0adeff9909dfd17",
@@ -18182,16 +18082,6 @@
               "stage": "Passive",
               "agingBand": "🔴 6+",
               "department": "STP Arts And Sciences - Dean"
-            },
-            {
-              "title": "Statistical Specialist",
-              "reqId": "43163",
-              "notionUrl": "https://www.notion.so/7958bb1997854f4cb939090dfc22e6a5",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Hired",
-              "agingBand": "🔴 6+",
-              "department": "STP Academic Affairs"
             },
             {
               "title": "Camp Counselor (OPS Hourly)",
@@ -18394,16 +18284,6 @@
               "department": "College of Marine Science"
             },
             {
-              "title": "Student Programs Manager",
-              "reqId": "43483",
-              "notionUrl": "https://www.notion.so/041f763606694fada1953edfd30d688e",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Pre-boarding",
-              "agingBand": "🔴 6+",
-              "department": "STP Student Success"
-            },
-            {
               "title": "Assistant Director of Data Visualization (Admin)",
               "reqId": "43485",
               "notionUrl": "https://www.notion.so/8cca609bec144edab210ecc2f566423f",
@@ -18440,26 +18320,6 @@
               "owner": "Gabriel",
               "campus": "St. Petersburg",
               "stage": "HM Review",
-              "agingBand": "🔴 6+",
-              "department": "Florida Inst of Oceanography"
-            },
-            {
-              "title": "Communications and Marketing Officer",
-              "reqId": "43669",
-              "notionUrl": "https://www.notion.so/1d79545d7d4541eea06430f3a5ff23de",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Hired",
-              "agingBand": "🔴 6+",
-              "department": "Inst For School Comm Partnership"
-            },
-            {
-              "title": "Marine Captain",
-              "reqId": "43711",
-              "notionUrl": "https://www.notion.so/9bdf11df472f445b8e8a375bbc2a6596",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Hired",
               "agingBand": "🔴 6+",
               "department": "Florida Inst of Oceanography"
             },
@@ -18504,16 +18364,6 @@
               "department": "610001 - MCOM Research/Grad Affairs Supp"
             },
             {
-              "title": "Preschool Teacher",
-              "reqId": "43763",
-              "notionUrl": "https://www.notion.so/ac43a0376f864f8eae907da516a314f3",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Hired",
-              "agingBand": "🔴 6+",
-              "department": "College of Education "
-            },
-            {
               "title": "Postdoctoral Research Scholar",
               "reqId": "43750",
               "notionUrl": "https://www.notion.so/45deccaffa5c4eca9c1cd3ca72cfe306",
@@ -18534,16 +18384,6 @@
               "department": "STP Student Success"
             },
             {
-              "title": "Unit Research Administrator II",
-              "reqId": "43545",
-              "notionUrl": "https://www.notion.so/9f6ec85507494ba589a79349421f4297",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🔴 6+",
-              "department": "College of Education "
-            },
-            {
               "title": "Regional Coordinator",
               "reqId": "43560",
               "notionUrl": "https://www.notion.so/15768ab30dda46fdaebe9171740963d1",
@@ -18552,16 +18392,6 @@
               "stage": "Passive",
               "agingBand": "🔴 6+",
               "department": "Inst For School Comm Partnership"
-            },
-            {
-              "title": "Science Education Specialist",
-              "reqId": "43571",
-              "notionUrl": "https://www.notion.so/dca63cbc77504f178f455fea1c7f0de6",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Hired",
-              "agingBand": "🔴 6+",
-              "department": "Florida Inst of Oceanography"
             },
             {
               "title": "Academic Services Administrator",
@@ -18714,26 +18544,6 @@
               "department": "Engineering"
             },
             {
-              "title": "Associate Director of Project Initiatives - Engineering",
-              "reqId": "43582",
-              "notionUrl": "https://www.notion.so/daf859b10469400e869da77a96ce1b94",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Hired",
-              "agingBand": "🔴 6+",
-              "department": "Engineering"
-            },
-            {
-              "title": "Communications & Mktg Officer - Engineering",
-              "reqId": "43417",
-              "notionUrl": "https://www.notion.so/b1dcf7de42f84da589bf89d2cb8a0039",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Hired",
-              "agingBand": "🔴 6+",
-              "department": "Engineering"
-            },
-            {
               "title": "OPS Temorary Research Engineer",
               "reqId": "43402",
               "notionUrl": "https://www.notion.so/483718ea067541e7a36561041a8dcdbf",
@@ -18778,23 +18588,52 @@
         {
           "band": "🟡 3-5",
           "color": "#BA7517",
-          "records": [
-            {
-              "title": "Unit Research Administrator",
-              "reqId": "43788",
-              "notionUrl": "https://www.notion.so/b61fd564bb694ef5ba51e3e56d04562b",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Recruiter Review",
-              "agingBand": "🟡 3-5",
-              "department": "College of Marine Science"
-            }
-          ]
+          "records": []
         },
         {
           "band": "🟢 0–2",
           "color": "#3B6D11",
           "records": [
+            {
+              "title": "FWS Student Assistant - Electrical Engineering",
+              "reqId": "44346",
+              "notionUrl": "https://www.notion.so/1a626de7cb504476ae573bed52c30bda",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Student Hiring",
+              "agingBand": "🟢 0–2",
+              "department": "210600 - Electrical Engineering"
+            },
+            {
+              "title": "Research Support Specialist",
+              "reqId": "44348",
+              "notionUrl": "https://www.notion.so/5791cab1c6bc44b7aa43de3e2d5817e0",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Passive",
+              "agingBand": "🟢 0–2",
+              "department": "511255 - STP Psychology"
+            },
+            {
+              "title": "Manager Teaching Laboratory - Engineering Tech Support Svcs",
+              "reqId": "44349",
+              "notionUrl": "https://www.notion.so/0902fd9b145e480a83c6db6a69b53f64",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Passive",
+              "agingBand": "🟢 0–2",
+              "department": "210900 - Engr Tech Support Svcs"
+            },
+            {
+              "title": "Student Assistant",
+              "reqId": "44358",
+              "notionUrl": "https://www.notion.so/603163ef22624c13bd841ba5b00db43f",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Student Hiring",
+              "agingBand": "🟢 0–2",
+              "department": "512700 - STP Enrollment Management"
+            },
             {
               "title": "Administrative Specialist - Mechanical Engineering",
               "reqId": "44344",
@@ -18804,6 +18643,36 @@
               "stage": "Passive",
               "agingBand": "🟢 0–2",
               "department": "210500 - Mechanical Engineering"
+            },
+            {
+              "title": "Office Admin & Executive Asst to the Dean",
+              "reqId": "44297",
+              "notionUrl": "https://www.notion.so/cd0f7b66c65e4f74a73699da6334d390",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "170100 - COE Dean's Office"
+            },
+            {
+              "title": "Pre-School Teacher",
+              "reqId": "44277",
+              "notionUrl": "https://www.notion.so/b1fe72cb68e547dd85227c7db20483a7",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Pre-boarding",
+              "agingBand": "🟢 0–2",
+              "department": "174600 - Preschool Creative Learning"
+            },
+            {
+              "title": "OPS / Temporary Marine",
+              "reqId": "44180",
+              "notionUrl": "https://www.notion.so/93a718c56eaf4fd8a3a4c3995b21262b",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Hired",
+              "agingBand": "🟢 0–2",
+              "department": "471000 - Florida Inst of C"
             },
             {
               "title": "Applications Developer II",
@@ -18846,12 +18715,52 @@
               "department": "210400 - Civil & Environmental Engr"
             },
             {
+              "title": "Academic Advisor II",
+              "reqId": "42179",
+              "notionUrl": "https://www.notion.so/604507be283a458eafa25297cda07fef",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Passive",
+              "agingBand": "🟢 0–2",
+              "department": "210500 - Mechanical Engineering"
+            },
+            {
+              "title": "OPS / Temporary Marine Chief Engineer",
+              "reqId": "44180",
+              "notionUrl": "https://www.notion.so/ada6d585591b4c80b74c83d88849fd74",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Hired",
+              "agingBand": "🟢 0–2",
+              "department": "471000 - Florida Inst of Oceanography"
+            },
+            {
+              "title": "Marine Operational Training Mgr",
+              "reqId": "44171",
+              "notionUrl": "https://www.notion.so/04016ee7439c4c47a5168522fba402a4",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Hired",
+              "agingBand": "🟢 0–2",
+              "department": "471000 - Florida Inst of Oceanography"
+            },
+            {
+              "title": "Fiscal & Business Specialist - Research",
+              "reqId": "44166",
+              "notionUrl": "https://www.notion.so/347d4883a32041babda39b085cf29151",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Hired",
+              "agingBand": "🟢 0–2",
+              "department": "170100 - COE Dean's Office"
+            },
+            {
               "title": "Accounting Assistant",
               "reqId": "44051",
               "notionUrl": "https://www.notion.so/be692cd816444d1bb9ea453470b229bd",
               "owner": "Gabriel",
               "campus": "St. Petersburg",
-              "stage": "Offer Stage",
+              "stage": "Pre-boarding",
               "agingBand": "🟢 0–2",
               "department": "510100 - STP Administration & Finance"
             },
@@ -18866,6 +18775,36 @@
               "department": "210500 - Mechanical Engineering"
             },
             {
+              "title": "Academic Advisor I - Electrical Engineering",
+              "reqId": "43964",
+              "notionUrl": "https://www.notion.so/fd8cc142f839444592d134d7f33f9af1",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Hired",
+              "agingBand": "🟢 0–2",
+              "department": "210600 - Electrical Engineering"
+            },
+            {
+              "title": "Academic Services Administrator",
+              "reqId": "43996",
+              "notionUrl": "https://www.notion.so/e96fcdac40284d30a2d6e8ba514c415f",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Pre-boarding",
+              "agingBand": "🟢 0–2",
+              "department": "170800 - COE-Student Academic Services"
+            },
+            {
+              "title": "Project Coordinator",
+              "reqId": "44019",
+              "notionUrl": "https://www.notion.so/e598276a3e1145919c75ea3c303d69e9",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Hired",
+              "agingBand": "🟢 0–2",
+              "department": "171400 - Teaching & Learning"
+            },
+            {
               "title": "OPS Temporary Research Physical Therapist",
               "reqId": "43985",
               "notionUrl": "https://www.notion.so/a4c77c7d41de45f7a1a5674dd0e97b10",
@@ -18874,6 +18813,26 @@
               "stage": "Hired",
               "agingBand": "🟢 0–2",
               "department": "210500 - Mechanical Engineering"
+            },
+            {
+              "title": "Assistant State Director of School Improvement",
+              "reqId": "43914",
+              "notionUrl": "https://www.notion.so/2edae9a13be04cefae33e9bffd40db6d",
+              "owner": "Gabriel",
+              "campus": "Tallahassee",
+              "stage": "Hired",
+              "agingBand": "🟢 0–2",
+              "department": "Inst For School Comm Partnership"
+            },
+            {
+              "title": "Employment Job Coach/Transition Specialist",
+              "reqId": "43874",
+              "notionUrl": "https://www.notion.so/5efcb565cd2047aba833f70ff3bf32f2",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Hired",
+              "agingBand": "🟢 0–2",
+              "department": "STP Secondary Education"
             },
             {
               "title": "Postdoctoral Scholar Research - Electrical Eng",
@@ -18896,6 +18855,66 @@
               "department": "STP Registrar"
             },
             {
+              "title": "Student Programs Coordinator (Operations & Outreach)",
+              "reqId": "43899",
+              "notionUrl": "https://www.notion.so/2b9f5fe4fb0947bcb7d4294646e0e2bd",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Hired",
+              "agingBand": "🟢 0–2",
+              "department": "STP Student Affairs"
+            },
+            {
+              "title": "Academic Program Specialist",
+              "reqId": "43901",
+              "notionUrl": "https://www.notion.so/3e0432ca9bd4433bbb2bcfda05833c44",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Pre-boarding",
+              "agingBand": "🟢 0–2",
+              "department": "MUMA"
+            },
+            {
+              "title": "Academic Advisor I ",
+              "reqId": "43719",
+              "notionUrl": "https://www.notion.so/99ecc3530d9348958159d791ba69bbda",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Pre-boarding",
+              "agingBand": "🟢 0–2",
+              "department": "MUMA"
+            },
+            {
+              "title": "OPS Marine Cook",
+              "reqId": "43063",
+              "notionUrl": "https://www.notion.so/d10e920a1bf048dbbd487f700460566d",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Passive",
+              "agingBand": "🟢 0–2",
+              "department": "Florida Inst of Oceanography"
+            },
+            {
+              "title": "Educational Policy Consultant",
+              "reqId": "43133",
+              "notionUrl": "https://www.notion.so/e34d945b33814440a50ddbcaa3e8559f",
+              "owner": "Gabriel",
+              "campus": "Tallahassee",
+              "stage": "Hired",
+              "agingBand": "🟢 0–2",
+              "department": "Inst For School Comm Partnership"
+            },
+            {
+              "title": "Statistical Specialist",
+              "reqId": "43163",
+              "notionUrl": "https://www.notion.so/7958bb1997854f4cb939090dfc22e6a5",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Hired",
+              "agingBand": "🟢 0–2",
+              "department": "STP Academic Affairs"
+            },
+            {
               "title": "Federal Grant Specialist",
               "reqId": "43414",
               "notionUrl": "https://www.notion.so/b7318efb316b4b82acfd719d533cef63",
@@ -18904,6 +18923,76 @@
               "stage": "Hired",
               "agingBand": "🟢 0–2",
               "department": "Inst For School Comm Partnership"
+            },
+            {
+              "title": "Student Programs Manager",
+              "reqId": "43483",
+              "notionUrl": "https://www.notion.so/041f763606694fada1953edfd30d688e",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Pre-boarding",
+              "agingBand": "🟢 0–2",
+              "department": "STP Student Success"
+            },
+            {
+              "title": "Communications and Marketing Officer",
+              "reqId": "43669",
+              "notionUrl": "https://www.notion.so/1d79545d7d4541eea06430f3a5ff23de",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Hired",
+              "agingBand": "🟢 0–2",
+              "department": "Inst For School Comm Partnership"
+            },
+            {
+              "title": "Marine Captain",
+              "reqId": "43711",
+              "notionUrl": "https://www.notion.so/9bdf11df472f445b8e8a375bbc2a6596",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Hired",
+              "agingBand": "🟢 0–2",
+              "department": "Florida Inst of Oceanography"
+            },
+            {
+              "title": "Preschool Teacher",
+              "reqId": "43763",
+              "notionUrl": "https://www.notion.so/ac43a0376f864f8eae907da516a314f3",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Hired",
+              "agingBand": "🟢 0–2",
+              "department": "College of Education "
+            },
+            {
+              "title": "Unit Research Administrator II",
+              "reqId": "43545",
+              "notionUrl": "https://www.notion.so/9f6ec85507494ba589a79349421f4297",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Pre-boarding",
+              "agingBand": "🟢 0–2",
+              "department": "College of Education "
+            },
+            {
+              "title": "Science Education Specialist",
+              "reqId": "43571",
+              "notionUrl": "https://www.notion.so/dca63cbc77504f178f455fea1c7f0de6",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Hired",
+              "agingBand": "🟢 0–2",
+              "department": "Florida Inst of Oceanography"
+            },
+            {
+              "title": "Unit Research Administrator",
+              "reqId": "43788",
+              "notionUrl": "https://www.notion.so/b61fd564bb694ef5ba51e3e56d04562b",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "College of Marine Science"
             },
             {
               "title": "Other Hourly Professional/Support- Human Services Practitioner",
@@ -18919,6 +19008,26 @@
               "title": "HR Student Assistant - Engineering",
               "reqId": "43646",
               "notionUrl": "https://www.notion.so/b70add8c912242069e977bcd76fc7c12",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Hired",
+              "agingBand": "🟢 0–2",
+              "department": "Engineering"
+            },
+            {
+              "title": "Associate Director of Project Initiatives - Engineering",
+              "reqId": "43582",
+              "notionUrl": "https://www.notion.so/daf859b10469400e869da77a96ce1b94",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Hired",
+              "agingBand": "🟢 0–2",
+              "department": "Engineering"
+            },
+            {
+              "title": "Communications & Mktg Officer - Engineering",
+              "reqId": "43417",
+              "notionUrl": "https://www.notion.so/b1dcf7de42f84da589bf89d2cb8a0039",
               "owner": "Gabriel",
               "campus": "Tampa",
               "stage": "Hired",
@@ -18973,21 +19082,26 @@
         },
         {
           "label": "Offer Stage",
-          "avgDays": 8,
-          "count": 6,
+          "avgDays": 9,
+          "count": 4,
           "color": "#CFC483"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 9,
-          "count": 10,
+          "avgDays": 7,
+          "count": 3,
           "color": "#5B8FA8"
         }
       ],
       "statuses": [
         {
+          "label": "Student Hiring",
+          "count": 8,
+          "color": "#0F6E56"
+        },
+        {
           "label": "Passive",
-          "count": 25,
+          "count": 27,
           "color": "#5B8FA8"
         },
         {
@@ -19006,9 +19120,9 @@
           "color": "#888780"
         },
         {
-          "label": "Offer Stage",
-          "count": 6,
-          "color": "#0F6E56"
+          "label": "Pre-boarding",
+          "count": 7,
+          "color": "#888780"
         },
         {
           "label": "Interview Stage",
@@ -19016,18 +19130,13 @@
           "color": "#534AB7"
         },
         {
-          "label": "Pre-boarding",
-          "count": 11,
-          "color": "#888780"
-        },
-        {
           "label": "HM Review",
           "count": 6,
           "color": "#993556"
         },
         {
-          "label": "Student Hiring",
-          "count": 6,
+          "label": "Offer Stage",
+          "count": 4,
           "color": "#0F6E56"
         },
         {
@@ -19042,27 +19151,27 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 108
+          "count": 93
         },
         {
           "label": "🟡 3-5",
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 1
+          "count": 0
         },
         {
           "label": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 7
+          "count": 21
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 116
+          "count": 114
         },
         {
           "label": "Screened",
@@ -19078,42 +19187,42 @@
         },
         {
           "label": "Offer",
-          "count": 6
+          "count": 4
         }
       ],
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 75,
+          "value": 81,
           "target": 10,
           "invert": false
         },
         {
           "label": "Time to fill",
-          "value": 79,
+          "value": 77,
           "target": 40,
           "invert": true
         },
         {
           "label": "Screened",
           "value": 0,
-          "target": 202,
+          "target": 206,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 6,
-          "target": 202,
+          "target": 206,
           "invert": false
         }
       ],
       "trend": [
-        79,
-        79,
-        79,
-        79,
-        79,
-        79
+        77,
+        77,
+        77,
+        77,
+        77,
+        77
       ]
     },
     {
@@ -19126,7 +19235,7 @@
       "campus": "Tampa",
       "reqs": 158,
       "filled": 8,
-      "failed": 3,
+      "failed": 4,
       "ttf": 63,
       "wip": 0,
       "agingRecords": [
@@ -19223,26 +19332,6 @@
               "stage": "",
               "agingBand": "🔴 6+",
               "department": ""
-            },
-            {
-              "title": "Asst. Director, Alumni Engagement",
-              "reqId": "40025",
-              "notionUrl": "https://www.notion.so/96c3ab2277434b62ad9616959f04e28a",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Canceled",
-              "agingBand": "🔴 6+",
-              "department": "060302 - University Advancement"
-            },
-            {
-              "title": "Junior Grant Financial Administrator",
-              "reqId": "44047",
-              "notionUrl": "https://www.notion.so/9a0d4b89ab4f483f9266c8a07017f53c",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6+",
-              "department": "790300 - Sponsored Research"
             },
             {
               "title": "AI and Tools Enablement Facilitator",
@@ -20724,7 +20813,28 @@
         {
           "band": "🟢 0–2",
           "color": "#3B6D11",
-          "records": []
+          "records": [
+            {
+              "title": "Asst. Director, Alumni Engagement",
+              "reqId": "40025",
+              "notionUrl": "https://www.notion.so/96c3ab2277434b62ad9616959f04e28a",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Canceled",
+              "agingBand": "🟢 0–2",
+              "department": "060302 - University Advancement"
+            },
+            {
+              "title": "Junior Grant Financial Administrator",
+              "reqId": "44047",
+              "notionUrl": "https://www.notion.so/9a0d4b89ab4f483f9266c8a07017f53c",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Canceled",
+              "agingBand": "🟢 0–2",
+              "department": "790300 - Sponsored Research"
+            }
+          ]
         }
       ],
       "stageMetrics": [
@@ -20754,7 +20864,7 @@
         },
         {
           "label": "Recruiter Review",
-          "count": 117,
+          "count": 116,
           "color": "#185FA5"
         },
         {
@@ -20774,7 +20884,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 138
+          "count": 137
         },
         {
           "label": "🟡 3-5",
@@ -20794,7 +20904,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 138
+          "count": 137
         },
         {
           "label": "Screened",
@@ -20853,14 +20963,14 @@
     {
       "field": "Stage",
       "missingCount": 0,
-      "totalActive": 596,
+      "totalActive": 593,
       "pct": 0,
       "records": []
     },
     {
       "field": "Department/College",
       "missingCount": 1,
-      "totalActive": 596,
+      "totalActive": 593,
       "pct": 0,
       "records": [
         {
@@ -20876,7 +20986,7 @@
     {
       "field": "Req Type",
       "missingCount": 93,
-      "totalActive": 596,
+      "totalActive": 593,
       "pct": 16,
       "records": [
         {
@@ -21284,7 +21394,7 @@
     {
       "field": "Campus",
       "missingCount": 34,
-      "totalActive": 596,
+      "totalActive": 593,
       "pct": 6,
       "records": [
         {
@@ -21563,10 +21673,26 @@
     },
     {
       "field": "HRBP",
-      "missingCount": 166,
-      "totalActive": 596,
+      "missingCount": 168,
+      "totalActive": 593,
       "pct": 28,
       "records": [
+        {
+          "title": "FWS Student Assistant - Electrical Engineering",
+          "reqId": "44346",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Student Hiring",
+          "notionUrl": "https://www.notion.so/1a626de7cb504476ae573bed52c30bda"
+        },
+        {
+          "title": "Student Assistant",
+          "reqId": "44358",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Student Hiring",
+          "notionUrl": "https://www.notion.so/603163ef22624c13bd841ba5b00db43f"
+        },
         {
           "title": "Administrative Specialist - Mechanical Engineering",
           "reqId": "44344",
@@ -21950,29 +22076,13 @@
           "campus": "Tampa",
           "stage": "Recruiter Review",
           "notionUrl": "https://www.notion.so/39f9ddf757a0815d8520fc0963188195"
-        },
-        {
-          "title": "OPS Support Assistant",
-          "reqId": "42711",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/39f9ddf757a08192a5fbe0cc9561e81c"
-        },
-        {
-          "title": "Assistant Professor of Criminology, Tenure Track",
-          "reqId": "42719",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0810c9428c8903c3a5bd9"
         }
       ]
     },
     {
       "field": "Posted Date",
       "missingCount": 147,
-      "totalActive": 596,
+      "totalActive": 593,
       "pct": 25,
       "records": [
         {
@@ -22379,10 +22489,42 @@
     },
     {
       "field": "Unposted Date",
-      "missingCount": 451,
-      "totalActive": 596,
-      "pct": 76,
+      "missingCount": 454,
+      "totalActive": 593,
+      "pct": 77,
       "records": [
+        {
+          "title": "FWS Student Assistant - Electrical Engineering",
+          "reqId": "44346",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Student Hiring",
+          "notionUrl": "https://www.notion.so/1a626de7cb504476ae573bed52c30bda"
+        },
+        {
+          "title": "Research Support Specialist",
+          "reqId": "44348",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Passive",
+          "notionUrl": "https://www.notion.so/5791cab1c6bc44b7aa43de3e2d5817e0"
+        },
+        {
+          "title": "Manager Teaching Laboratory - Engineering Tech Support Svcs",
+          "reqId": "44349",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Passive",
+          "notionUrl": "https://www.notion.so/0902fd9b145e480a83c6db6a69b53f64"
+        },
+        {
+          "title": "Student Assistant",
+          "reqId": "44358",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Student Hiring",
+          "notionUrl": "https://www.notion.so/603163ef22624c13bd841ba5b00db43f"
+        },
         {
           "title": "Residence Life Coordinator",
           "reqId": "44335",
@@ -22750,38 +22892,6 @@
           "campus": "Tampa",
           "stage": "Recruiter Review",
           "notionUrl": "https://www.notion.so/48e96c1b25f849809a35d3a9f5b075d4"
-        },
-        {
-          "title": "Learning Specialist",
-          "reqId": "44225",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/b4ddee369b2c440e851fbee6849cd451"
-        },
-        {
-          "title": "Registered Nurse NSOPS",
-          "reqId": "44234",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Passive",
-          "notionUrl": "https://www.notion.so/04d849b056ce4830a827452073624a9b"
-        },
-        {
-          "title": "Junior Grant Financial Administrator",
-          "reqId": "44047",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/9a0d4b89ab4f483f9266c8a07017f53c"
-        },
-        {
-          "title": "AI and Tools Enablement Facilitator",
-          "reqId": "44064",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/8f5b7d100c4d450aa0cc8752877ca7a1"
         }
       ]
     }
