@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T23:03:25.519Z",
+  "lastUpdated": "2026-09-12T01:23:21.296Z",
   "summary": {
     "openReqs": 592,
     "avgTimeToFill": 98,
@@ -6185,37 +6185,37 @@
   "stageMetrics": [
     {
       "label": "Recruiter Review",
-      "avgDays": 31,
+      "avgDays": 32,
       "count": 21,
       "color": "#006747"
     },
     {
       "label": "HM Review",
-      "avgDays": 16,
+      "avgDays": 17,
       "count": 14,
       "color": "#534AB7"
     },
     {
       "label": "Interview Stage",
-      "avgDays": 22,
+      "avgDays": 23,
       "count": 11,
       "color": "#d4880a"
     },
     {
       "label": "Offer Stage",
-      "avgDays": 22,
+      "avgDays": 23,
       "count": 6,
       "color": "#CFC483"
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 20,
-      "count": 11,
+      "avgDays": 17,
+      "count": 14,
       "color": "#5B8FA8"
     },
     {
       "label": "Backlog",
-      "avgDays": 10,
+      "avgDays": 11,
       "count": 13,
       "color": "#888780"
     }
@@ -10684,7 +10684,7 @@
       "reqs": 31,
       "filled": 0,
       "failed": 0,
-      "ttf": 108,
+      "ttf": 109,
       "wip": 13,
       "agingRecords": [
         {
@@ -11092,7 +11092,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 108,
+          "value": 109,
           "target": 40,
           "invert": true
         },
@@ -11110,12 +11110,12 @@
         }
       ],
       "trend": [
-        108,
-        108,
-        108,
-        108,
-        108,
-        108
+        109,
+        109,
+        109,
+        109,
+        109,
+        109
       ]
     },
     {
@@ -11129,7 +11129,7 @@
       "reqs": 370,
       "filled": 105,
       "failed": 22,
-      "ttf": 111,
+      "ttf": 112,
       "wip": 2,
       "agingRecords": [
         {
@@ -14852,31 +14852,31 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 21,
+          "avgDays": 22,
           "count": 2,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 12,
+          "avgDays": 13,
           "count": 6,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 28,
+          "avgDays": 29,
           "count": 1,
           "color": "#d4880a"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 59,
+          "avgDays": 60,
           "count": 1,
           "color": "#CFC483"
         },
         {
           "label": "Backlog",
-          "avgDays": 8,
+          "avgDays": 9,
           "count": 9,
           "color": "#888780"
         }
@@ -14977,7 +14977,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 111,
+          "value": 112,
           "target": 40,
           "invert": true
         },
@@ -14995,12 +14995,12 @@
         }
       ],
       "trend": [
-        111,
-        111,
-        111,
-        111,
-        111,
-        111
+        112,
+        112,
+        112,
+        112,
+        112,
+        112
       ]
     },
     {
@@ -15014,7 +15014,7 @@
       "reqs": 178,
       "filled": 85,
       "failed": 12,
-      "ttf": 98,
+      "ttf": 99,
       "wip": 14,
       "agingRecords": [
         {
@@ -16819,37 +16819,37 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 24,
+          "avgDays": 25,
           "count": 13,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 44,
+          "avgDays": 45,
           "count": 2,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 47,
+          "avgDays": 48,
           "count": 4,
           "color": "#d4880a"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 39,
+          "avgDays": 40,
           "count": 1,
           "color": "#CFC483"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 25,
+          "avgDays": 26,
           "count": 8,
           "color": "#5B8FA8"
         },
         {
           "label": "Backlog",
-          "avgDays": 31,
+          "avgDays": 32,
           "count": 1,
           "color": "#888780"
         }
@@ -16950,7 +16950,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 98,
+          "value": 99,
           "target": 40,
           "invert": true
         },
@@ -16968,12 +16968,12 @@
         }
       ],
       "trend": [
-        98,
-        98,
-        98,
-        98,
-        98,
-        98
+        99,
+        99,
+        99,
+        99,
+        99,
+        99
       ]
     },
     {
@@ -19071,26 +19071,26 @@
       "stageMetrics": [
         {
           "label": "HM Review",
-          "avgDays": 10,
+          "avgDays": 11,
           "count": 6,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 5,
+          "avgDays": 6,
           "count": 6,
           "color": "#d4880a"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 9,
+          "avgDays": 10,
           "count": 4,
           "color": "#CFC483"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 7,
-          "count": 3,
+          "avgDays": 5,
+          "count": 6,
           "color": "#5B8FA8"
         }
       ],
@@ -19237,7 +19237,7 @@
       "reqs": 158,
       "filled": 8,
       "failed": 4,
-      "ttf": 63,
+      "ttf": 64,
       "wip": 0,
       "agingRecords": [
         {
@@ -20841,13 +20841,13 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 50,
+          "avgDays": 51,
           "count": 6,
           "color": "#006747"
         },
         {
           "label": "Backlog",
-          "avgDays": 10,
+          "avgDays": 11,
           "count": 3,
           "color": "#888780"
         }
@@ -20933,7 +20933,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 63,
+          "value": 64,
           "target": 40,
           "invert": true
         },
@@ -20951,12 +20951,12 @@
         }
       ],
       "trend": [
-        63,
-        63,
-        63,
-        63,
-        63,
-        63
+        64,
+        64,
+        64,
+        64,
+        64,
+        64
       ]
     }
   ],
