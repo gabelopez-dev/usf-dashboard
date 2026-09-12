@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T17:21:51.617Z",
+  "lastUpdated": "2026-09-12T19:34:06.471Z",
   "summary": {
     "openReqs": 592,
     "avgTimeToFill": 98,
@@ -93,14 +93,14 @@
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 4
+      "count": 8
     },
     {
       "label": "🟢 0–2",
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 56
+      "count": 52
     }
   ],
   "agingRecords": [
@@ -5435,6 +5435,36 @@
       "color": "#BA7517",
       "records": [
         {
+          "title": "Residence Life Coordinator",
+          "reqId": "44335",
+          "notionUrl": "https://www.notion.so/60119a7efa4344dcbc5561863e3f4bea",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Passive",
+          "agingBand": "🟡 3-5",
+          "department": "043600 - Residential Education"
+        },
+        {
+          "title": "Cyber Range Analyst",
+          "reqId": "44328",
+          "notionUrl": "https://www.notion.so/caffa76f17ae41179936ab8903c5afc1",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟡 3-5",
+          "department": "391000 - Fl Center For Cybersecurity"
+        },
+        {
+          "title": "Senior International Programs Administrator",
+          "reqId": "44324",
+          "notionUrl": "https://www.notion.so/9334df4dfdf34f949a4336dad260abd9",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟡 3-5",
+          "department": "490000 - USF World"
+        },
+        {
           "title": "Student Asst - FWS",
           "reqId": "44147",
           "notionUrl": "https://www.notion.so/f42912b6429046eeb486691bded00c64",
@@ -5473,6 +5503,16 @@
           "stage": "Offer Stage",
           "agingBand": "🟡 3-5",
           "department": "STP Student Success"
+        },
+        {
+          "title": "Cyber Security Analyst II",
+          "reqId": "43254",
+          "notionUrl": "https://www.notion.so/40207259158b465588fac3ea4a5eba6c",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Interview Stage",
+          "agingBand": "🟡 3-5",
+          "department": "391000 - Fl Center For Cybersecurity"
         }
       ]
     },
@@ -5529,36 +5569,6 @@
           "stage": "Passive",
           "agingBand": "🟢 0–2",
           "department": "210500 - Mechanical Engineering"
-        },
-        {
-          "title": "Residence Life Coordinator",
-          "reqId": "44335",
-          "notionUrl": "https://www.notion.so/60119a7efa4344dcbc5561863e3f4bea",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Passive",
-          "agingBand": "🟢 0–2",
-          "department": "043600 - Residential Education"
-        },
-        {
-          "title": "Cyber Range Analyst",
-          "reqId": "44328",
-          "notionUrl": "https://www.notion.so/caffa76f17ae41179936ab8903c5afc1",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🟢 0–2",
-          "department": "391000 - Fl Center For Cybersecurity"
-        },
-        {
-          "title": "Senior International Programs Administrator",
-          "reqId": "44324",
-          "notionUrl": "https://www.notion.so/9334df4dfdf34f949a4336dad260abd9",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🟢 0–2",
-          "department": "490000 - USF World"
         },
         {
           "title": "Office Admin & Executive Asst to the Dean",
@@ -6029,16 +6039,6 @@
           "stage": "Pre-boarding",
           "agingBand": "🟢 0–2",
           "department": "051000 - Athletic Administration"
-        },
-        {
-          "title": "Cyber Security Analyst II",
-          "reqId": "43254",
-          "notionUrl": "https://www.notion.so/40207259158b465588fac3ea4a5eba6c",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Interview Stage",
-          "agingBand": "🟢 0–2",
-          "department": "391000 - Fl Center For Cybersecurity"
         }
       ]
     }
@@ -16638,6 +16638,36 @@
           "color": "#BA7517",
           "records": [
             {
+              "title": "Residence Life Coordinator",
+              "reqId": "44335",
+              "notionUrl": "https://www.notion.so/60119a7efa4344dcbc5561863e3f4bea",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Passive",
+              "agingBand": "🟡 3-5",
+              "department": "043600 - Residential Education"
+            },
+            {
+              "title": "Cyber Range Analyst",
+              "reqId": "44328",
+              "notionUrl": "https://www.notion.so/caffa76f17ae41179936ab8903c5afc1",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟡 3-5",
+              "department": "391000 - Fl Center For Cybersecurity"
+            },
+            {
+              "title": "Senior International Programs Administrator",
+              "reqId": "44324",
+              "notionUrl": "https://www.notion.so/9334df4dfdf34f949a4336dad260abd9",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟡 3-5",
+              "department": "490000 - USF World"
+            },
+            {
               "title": "Athletics Events Coordinator",
               "reqId": "44208",
               "notionUrl": "https://www.notion.so/d0bf830eeb7f426fa73e078b835b5791",
@@ -16646,6 +16676,16 @@
               "stage": "Hired",
               "agingBand": "🟡 3-5",
               "department": "051000 - Athletic Administration"
+            },
+            {
+              "title": "Student Assistant",
+              "reqId": "44219",
+              "notionUrl": "https://www.notion.so/2c67b612dee04fc2aa86214c65849a01",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Hired",
+              "agingBand": "🟡 3-5",
+              "department": "490000 - USF World"
             },
             {
               "title": "Student Asst - FWS",
@@ -16676,6 +16716,36 @@
               "stage": "Pre-boarding",
               "agingBand": "🟡 3-5",
               "department": "390000 - Graduate Studies"
+            },
+            {
+              "title": "Student Programs Coordinator",
+              "reqId": "42905",
+              "notionUrl": "https://www.notion.so/f37b59bd18f94094b3c528c2fe8a15ee",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Hired",
+              "agingBand": "🟡 3-5",
+              "department": "044100 - Ctr For Student Involvement"
+            },
+            {
+              "title": "Cyber Security Analyst II",
+              "reqId": "43254",
+              "notionUrl": "https://www.notion.so/40207259158b465588fac3ea4a5eba6c",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Interview Stage",
+              "agingBand": "🟡 3-5",
+              "department": "391000 - Fl Center For Cybersecurity"
+            },
+            {
+              "title": "FWS Student Assistant - Provost",
+              "reqId": "43182",
+              "notionUrl": "https://www.notion.so/2c236c9efe954680a648ab319628885b",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Hired",
+              "agingBand": "🟡 3-5",
+              "department": "410200 - Academic Planning/Institutional Effectiveness"
             }
           ]
         },
@@ -16683,36 +16753,6 @@
           "band": "🟢 0–2",
           "color": "#3B6D11",
           "records": [
-            {
-              "title": "Residence Life Coordinator",
-              "reqId": "44335",
-              "notionUrl": "https://www.notion.so/60119a7efa4344dcbc5561863e3f4bea",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Passive",
-              "agingBand": "🟢 0–2",
-              "department": "043600 - Residential Education"
-            },
-            {
-              "title": "Cyber Range Analyst",
-              "reqId": "44328",
-              "notionUrl": "https://www.notion.so/caffa76f17ae41179936ab8903c5afc1",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🟢 0–2",
-              "department": "391000 - Fl Center For Cybersecurity"
-            },
-            {
-              "title": "Senior International Programs Administrator",
-              "reqId": "44324",
-              "notionUrl": "https://www.notion.so/9334df4dfdf34f949a4336dad260abd9",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🟢 0–2",
-              "department": "490000 - USF World"
-            },
             {
               "title": "Student Assistant/ Equipment Operations-Football",
               "reqId": "44266",
@@ -16724,16 +16764,6 @@
               "department": "051000 - Athletic Administration"
             },
             {
-              "title": "Student Assistant",
-              "reqId": "44219",
-              "notionUrl": "https://www.notion.so/2c67b612dee04fc2aa86214c65849a01",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Hired",
-              "agingBand": "🟢 0–2",
-              "department": "490000 - USF World"
-            },
-            {
               "title": "FWS -USF Youth Experiences Social Media Intern",
               "reqId": "44087",
               "notionUrl": "https://www.notion.so/dbc6ee707c3e4ae9b68279b68b43e4b0",
@@ -16742,16 +16772,6 @@
               "stage": "Hired",
               "agingBand": "🟢 0–2",
               "department": "174400 - Fla Ctr For Instr Technology"
-            },
-            {
-              "title": "Student Programs Coordinator",
-              "reqId": "42905",
-              "notionUrl": "https://www.notion.so/f37b59bd18f94094b3c528c2fe8a15ee",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Hired",
-              "agingBand": "🟢 0–2",
-              "department": "044100 - Ctr For Student Involvement"
             },
             {
               "title": "Student Assistant",
@@ -16792,26 +16812,6 @@
               "stage": "Pre-boarding",
               "agingBand": "🟢 0–2",
               "department": "051000 - Athletic Administration"
-            },
-            {
-              "title": "Cyber Security Analyst II",
-              "reqId": "43254",
-              "notionUrl": "https://www.notion.so/40207259158b465588fac3ea4a5eba6c",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Interview Stage",
-              "agingBand": "🟢 0–2",
-              "department": "391000 - Fl Center For Cybersecurity"
-            },
-            {
-              "title": "FWS Student Assistant - Provost",
-              "reqId": "43182",
-              "notionUrl": "https://www.notion.so/2c236c9efe954680a648ab319628885b",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Hired",
-              "agingBand": "🟢 0–2",
-              "department": "410200 - Academic Planning/Institutional Effectiveness"
             }
           ]
         }
@@ -16909,14 +16909,14 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 2
+          "count": 6
         },
         {
           "label": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 7
+          "count": 3
         }
       ],
       "funnel": [
