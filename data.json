@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T11:07:23.466Z",
+  "lastUpdated": "2026-09-12T14:17:26.303Z",
   "summary": {
     "openReqs": 592,
     "avgTimeToFill": 98,
@@ -93,14 +93,14 @@
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 2
+      "count": 3
     },
     {
       "label": "🟢 0–2",
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 58
+      "count": 57
     }
   ],
   "agingRecords": [
@@ -5453,6 +5453,16 @@
           "stage": "Pre-boarding",
           "agingBand": "🟡 3-5",
           "department": "390000 - Graduate Studies"
+        },
+        {
+          "title": "Other Hourly Professional/Support- Human Services Practitioner",
+          "reqId": "43809",
+          "notionUrl": "https://www.notion.so/2e88f07706a84702835b45669e2b142b",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Offer Stage",
+          "agingBand": "🟡 3-5",
+          "department": "STP Student Success"
         }
       ]
     },
@@ -6009,16 +6019,6 @@
           "stage": "Recruiter Review",
           "agingBand": "🟢 0–2",
           "department": "College of Marine Science"
-        },
-        {
-          "title": "Other Hourly Professional/Support- Human Services Practitioner",
-          "reqId": "43809",
-          "notionUrl": "https://www.notion.so/2e88f07706a84702835b45669e2b142b",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Offer Stage",
-          "agingBand": "🟢 0–2",
-          "department": "STP Student Success"
         },
         {
           "title": "Athletics Production Service Engineer",
@@ -18589,7 +18589,18 @@
         {
           "band": "🟡 3-5",
           "color": "#BA7517",
-          "records": []
+          "records": [
+            {
+              "title": "Other Hourly Professional/Support- Human Services Practitioner",
+              "reqId": "43809",
+              "notionUrl": "https://www.notion.so/2e88f07706a84702835b45669e2b142b",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Offer Stage",
+              "agingBand": "🟡 3-5",
+              "department": "STP Student Success"
+            }
+          ]
         },
         {
           "band": "🟢 0–2",
@@ -18996,16 +19007,6 @@
               "department": "College of Marine Science"
             },
             {
-              "title": "Other Hourly Professional/Support- Human Services Practitioner",
-              "reqId": "43809",
-              "notionUrl": "https://www.notion.so/2e88f07706a84702835b45669e2b142b",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Offer Stage",
-              "agingBand": "🟢 0–2",
-              "department": "STP Student Success"
-            },
-            {
               "title": "HR Student Assistant - Engineering",
               "reqId": "43646",
               "notionUrl": "https://www.notion.so/b70add8c912242069e977bcd76fc7c12",
@@ -19159,14 +19160,14 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 0
+          "count": 1
         },
         {
           "label": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 21
+          "count": 20
         }
       ],
       "funnel": [
