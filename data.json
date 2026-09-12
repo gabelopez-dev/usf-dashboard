@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T14:17:26.303Z",
+  "lastUpdated": "2026-09-12T17:21:51.617Z",
   "summary": {
     "openReqs": 592,
     "avgTimeToFill": 98,
@@ -93,14 +93,14 @@
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 3
+      "count": 4
     },
     {
       "label": "🟢 0–2",
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 57
+      "count": 56
     }
   ],
   "agingRecords": [
@@ -5455,6 +5455,16 @@
           "department": "390000 - Graduate Studies"
         },
         {
+          "title": "Enrollment Management Analyst",
+          "reqId": "43881",
+          "notionUrl": "https://www.notion.so/6d5c12fc312f41c990814a37d5a424c3",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Offer Stage",
+          "agingBand": "🟡 3-5",
+          "department": "STP Registrar"
+        },
+        {
           "title": "Other Hourly Professional/Support- Human Services Practitioner",
           "reqId": "43809",
           "notionUrl": "https://www.notion.so/2e88f07706a84702835b45669e2b142b",
@@ -5729,16 +5739,6 @@
           "stage": "Recruiter Review",
           "agingBand": "🟢 0–2",
           "department": "373000 - Financial Aid"
-        },
-        {
-          "title": "Enrollment Management Analyst",
-          "reqId": "43881",
-          "notionUrl": "https://www.notion.so/6d5c12fc312f41c990814a37d5a424c3",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Offer Stage",
-          "agingBand": "🟢 0–2",
-          "department": "STP Registrar"
         },
         {
           "title": "Academic Program Specialist",
@@ -18591,6 +18591,26 @@
           "color": "#BA7517",
           "records": [
             {
+              "title": "Enrollment Management Analyst",
+              "reqId": "43881",
+              "notionUrl": "https://www.notion.so/6d5c12fc312f41c990814a37d5a424c3",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Offer Stage",
+              "agingBand": "🟡 3-5",
+              "department": "STP Registrar"
+            },
+            {
+              "title": "Federal Grant Specialist",
+              "reqId": "43414",
+              "notionUrl": "https://www.notion.so/b7318efb316b4b82acfd719d533cef63",
+              "owner": "Gabriel",
+              "campus": "Tallahassee",
+              "stage": "Hired",
+              "agingBand": "🟡 3-5",
+              "department": "Inst For School Comm Partnership"
+            },
+            {
               "title": "Other Hourly Professional/Support- Human Services Practitioner",
               "reqId": "43809",
               "notionUrl": "https://www.notion.so/2e88f07706a84702835b45669e2b142b",
@@ -18857,16 +18877,6 @@
               "department": "Engineering"
             },
             {
-              "title": "Enrollment Management Analyst",
-              "reqId": "43881",
-              "notionUrl": "https://www.notion.so/6d5c12fc312f41c990814a37d5a424c3",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Offer Stage",
-              "agingBand": "🟢 0–2",
-              "department": "STP Registrar"
-            },
-            {
               "title": "Student Programs Coordinator (Operations & Outreach)",
               "reqId": "43899",
               "notionUrl": "https://www.notion.so/2b9f5fe4fb0947bcb7d4294646e0e2bd",
@@ -18925,16 +18935,6 @@
               "stage": "Hired",
               "agingBand": "🟢 0–2",
               "department": "STP Academic Affairs"
-            },
-            {
-              "title": "Federal Grant Specialist",
-              "reqId": "43414",
-              "notionUrl": "https://www.notion.so/b7318efb316b4b82acfd719d533cef63",
-              "owner": "Gabriel",
-              "campus": "Tallahassee",
-              "stage": "Hired",
-              "agingBand": "🟢 0–2",
-              "department": "Inst For School Comm Partnership"
             },
             {
               "title": "Student Programs Manager",
@@ -19160,14 +19160,14 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 1
+          "count": 2
         },
         {
           "label": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 20
+          "count": 19
         }
       ],
       "funnel": [
