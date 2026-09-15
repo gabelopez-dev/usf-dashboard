@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-09-15T19:09:11.352Z",
+  "lastUpdated": "2026-09-15T22:24:06.981Z",
   "summary": {
     "openReqs": 492,
     "avgTimeToFill": 99,
-    "filledYTD": 296,
+    "filledYTD": 297,
     "failedCancelled": 43,
     "inOfferStage": 26
   },
@@ -6517,6 +6517,17 @@
       "notionUrl": "https://www.notion.so/ff5a0d7e00d94fa5bf234200119aa8ea"
     },
     {
+      "title": "Regional Coordinator",
+      "reqId": "43560",
+      "owner": "Gabriel",
+      "campus": "Tallahassee",
+      "stage": "Hired",
+      "department": "Inst For School Comm Partnership",
+      "reqType": "Passive",
+      "ttf": 91,
+      "notionUrl": "https://www.notion.so/15768ab30dda46fdaebe9171740963d1"
+    },
+    {
       "title": "Science Education Specialist",
       "reqId": "43571",
       "owner": "Gabriel",
@@ -8963,6 +8974,13 @@
         "fillRatePct": 100
       },
       {
+        "department": "Inst For School Comm Partnership",
+        "filled": 6,
+        "failed": 0,
+        "cancelled": 1,
+        "fillRatePct": 100
+      },
+      {
         "department": "177500 - Inst For School Comm Partnersh",
         "filled": 7,
         "failed": 0,
@@ -8974,13 +8992,6 @@
         "filled": 6,
         "failed": 0,
         "cancelled": 0,
-        "fillRatePct": 100
-      },
-      {
-        "department": "Inst For School Comm Partnership",
-        "filled": 5,
-        "failed": 0,
-        "cancelled": 1,
         "fillRatePct": 100
       },
       {
@@ -9681,8 +9692,8 @@
       },
       {
         "reqType": "Passive",
-        "avgDays": 111,
-        "count": 12
+        "avgDays": 109,
+        "count": 13
       },
       {
         "reqType": "Targeted",
@@ -9717,14 +9728,14 @@
         "count": 21
       },
       {
-        "campus": "Unspecified",
-        "avgDays": 62,
+        "campus": "Tallahassee",
+        "avgDays": 81,
         "count": 6
       },
       {
-        "campus": "Tallahassee",
-        "avgDays": 79,
-        "count": 5
+        "campus": "Unspecified",
+        "avgDays": 62,
+        "count": 6
       }
     ],
     "topHiringDepartments": [
@@ -16236,7 +16247,7 @@
       "bgDark": "#042e24",
       "campus": "St Pete / Tampa",
       "reqs": 207,
-      "filled": 83,
+      "filled": 84,
       "failed": 4,
       "ttf": 78,
       "wip": 5,
@@ -18223,7 +18234,7 @@
               "notionUrl": "https://www.notion.so/15768ab30dda46fdaebe9171740963d1",
               "owner": "Gabriel",
               "campus": "Tallahassee",
-              "stage": "Passive Hiring",
+              "stage": "Hired",
               "agingBand": "🟢 0–2",
               "department": "Inst For School Comm Partnership"
             },
@@ -18442,7 +18453,7 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 83,
+          "value": 84,
           "target": 10,
           "invert": false
         },
