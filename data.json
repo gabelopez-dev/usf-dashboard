@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-16T19:02:06.456Z",
+  "lastUpdated": "2026-09-16T22:15:53.021Z",
   "summary": {
-    "openReqs": 485,
-    "avgTimeToFill": 100,
+    "openReqs": 486,
+    "avgTimeToFill": 99,
     "filledYTD": 298,
     "failedCancelled": 44,
     "inOfferStage": 25
@@ -10,7 +10,7 @@
   "campus": [
     {
       "label": "Tampa",
-      "count": 218,
+      "count": 219,
       "color": "#1B6A9C"
     },
     {
@@ -37,7 +37,7 @@
   "mainFunnel": [
     {
       "label": "HM Review",
-      "count": 183
+      "count": 182
     },
     {
       "label": "Recruiter Review",
@@ -49,7 +49,7 @@
     },
     {
       "label": "Backlog",
-      "count": 36
+      "count": 37
     },
     {
       "label": "Offer Stage",
@@ -61,7 +61,7 @@
     },
     {
       "label": "Interview Stage",
-      "count": 15
+      "count": 16
     },
     {
       "label": "Sourced",
@@ -81,14 +81,14 @@
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 37
+      "count": 36
     },
     {
       "label": "🟢 0–2",
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 38
+      "count": 40
     }
   ],
   "agingRecords": [
@@ -805,16 +805,6 @@
           "stage": "Recruiter Review",
           "agingBand": "🔴 6+",
           "department": "640108 - COPH Faculty A"
-        },
-        {
-          "title": "Fitness and Membership Coordinator",
-          "reqId": "44055",
-          "notionUrl": "https://www.notion.so/10ee8b617b8843a1812c944935bdef7e",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "HM Review",
-          "agingBand": "🔴 6+",
-          "department": "510200 - STP Student Life"
         },
         {
           "title": "Clinical Research Associat",
@@ -2867,6 +2857,16 @@
           "department": "213400 - Inst Of Applied Engineering"
         },
         {
+          "title": "Communication & Marketing Officer",
+          "reqId": "43830",
+          "notionUrl": "https://www.notion.so/81c055c863d84f29abe7481191345722",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Pre-boarding",
+          "agingBand": "🔴 6+",
+          "department": "210800 - AICC Bellini College Department"
+        },
+        {
           "title": "\nPostdoctoral Scholar Research",
           "reqId": "43786",
           "notionUrl": "https://www.notion.so/38f9ddf757a08091859ff43539764ef0",
@@ -4543,16 +4543,6 @@
           "department": "080000 - SG Branches And Agencies"
         },
         {
-          "title": "Communication & Marketing Officer",
-          "reqId": "43830",
-          "notionUrl": "https://www.notion.so/81c055c863d84f29abe7481191345722",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🟡 3-5",
-          "department": "210800 - AICC Bellini College Department"
-        },
-        {
           "title": "Student Programs Manager",
           "reqId": "43483",
           "notionUrl": "https://www.notion.so/041f763606694fada1953edfd30d688e",
@@ -4578,6 +4568,16 @@
       "band": "🟢 0–2",
       "color": "#3B6D11",
       "records": [
+        {
+          "title": "Coordinator of Library Operations",
+          "reqId": "44371",
+          "notionUrl": "https://www.notion.so/77d1424f85ae427895dcf315d7d13014",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "400100 - Univ Lib Deans Office"
+        },
         {
           "title": "Human Services Practitio",
           "reqId": "44329",
@@ -4879,6 +4879,16 @@
           "department": "410000 - Office Of Decision Support"
         },
         {
+          "title": "Fitness and Membership Coordinator",
+          "reqId": "44055",
+          "notionUrl": "https://www.notion.so/10ee8b617b8843a1812c944935bdef7e",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Interview Stage",
+          "agingBand": "🟢 0–2",
+          "department": "510200 - STP Student Life"
+        },
+        {
           "title": "Building & Security Assistant II",
           "reqId": "44059",
           "notionUrl": "https://www.notion.so/439bf8f48891437db453f1968ed576ed",
@@ -4964,12 +4974,12 @@
   "reqType": [
     {
       "label": "Active",
-      "count": 111,
+      "count": 113,
       "color": "#00A693"
     },
     {
       "label": "Passive",
-      "count": 109,
+      "count": 108,
       "color": "#006747"
     },
     {
@@ -5061,7 +5071,7 @@
     },
     {
       "label": "Other (135 depts)",
-      "count": 262,
+      "count": 263,
       "color": "#c8c7c2"
     }
   ],
@@ -5074,8 +5084,8 @@
     },
     {
       "label": "HM Review",
-      "avgDays": 22,
-      "count": 11,
+      "avgDays": 23,
+      "count": 10,
       "color": "#534AB7"
     },
     {
@@ -5099,7 +5109,7 @@
     {
       "label": "Backlog",
       "avgDays": 14,
-      "count": 7,
+      "count": 8,
       "color": "#888780"
     }
   ],
@@ -9750,16 +9760,16 @@
       {
         "recruiter": "John",
         "color": "#1B6A9C",
-        "stalled": 45,
+        "stalled": 46,
         "totalActive": 54,
-        "stallRatePct": 83
+        "stallRatePct": 85
       },
       {
         "recruiter": "Gabriel",
         "color": "#00A693",
-        "stalled": 14,
-        "totalActive": 29,
-        "stallRatePct": 48
+        "stalled": 13,
+        "totalActive": 30,
+        "stallRatePct": 43
       },
       {
         "recruiter": "Katherine",
@@ -9836,7 +9846,7 @@
       },
       {
         "label": "Sep '26",
-        "count": 31
+        "count": 32
       }
     ]
   },
@@ -10293,7 +10303,7 @@
       "filled": 107,
       "failed": 22,
       "ttf": 113,
-      "wip": 4,
+      "wip": 5,
       "agingRecords": [
         {
           "band": "🔴 6+",
@@ -14100,8 +14110,8 @@
         },
         {
           "label": "Backlog",
-          "avgDays": 6,
-          "count": 3,
+          "avgDays": 8,
+          "count": 4,
           "color": "#888780"
         }
       ],
@@ -14981,6 +14991,16 @@
               "department": "213400 - Inst Of Applied Engineering"
             },
             {
+              "title": "Communication & Marketing Officer",
+              "reqId": "43830",
+              "notionUrl": "https://www.notion.so/81c055c863d84f29abe7481191345722",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Pre-boarding",
+              "agingBand": "🔴 6+",
+              "department": "210800 - AICC Bellini College Department"
+            },
+            {
               "title": "Director of Strategic Operations & Revenue Development",
               "reqId": "43807",
               "notionUrl": "https://www.notion.so/32e18d3e905f4c5ba453513e1c5388f1",
@@ -15777,16 +15797,6 @@
               "department": "490000 - USF World"
             },
             {
-              "title": "Communication & Marketing Officer",
-              "reqId": "43830",
-              "notionUrl": "https://www.notion.so/81c055c863d84f29abe7481191345722",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🟡 3-5",
-              "department": "210800 - AICC Bellini College Department"
-            },
-            {
               "title": "Supplier Services Specialist",
               "reqId": "43649",
               "notionUrl": "https://www.notion.so/38f9ddf757a080f1bc04c853567b5c5d",
@@ -16116,14 +16126,14 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 45
+          "count": 46
         },
         {
           "label": "🟡 3-5",
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 2
+          "count": 1
         },
         {
           "label": "🟢 0–2",
@@ -16198,7 +16208,7 @@
       "bgLight": "#e6f2ed",
       "bgDark": "#042e24",
       "campus": "St Pete / Tampa",
-      "reqs": 207,
+      "reqs": 208,
       "filled": 84,
       "failed": 4,
       "ttf": 78,
@@ -16347,16 +16357,6 @@
               "stage": "Hired",
               "agingBand": "🔴 6+",
               "department": "512700 - STP Enrollment Management"
-            },
-            {
-              "title": "Fitness and Membership Coordinator",
-              "reqId": "44055",
-              "notionUrl": "https://www.notion.so/10ee8b617b8843a1812c944935bdef7e",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "HM Review",
-              "agingBand": "🔴 6+",
-              "department": "510200 - STP Student Life"
             },
             {
               "title": "OPS Hourly Non-Student/Senior Building Manager",
@@ -17321,6 +17321,16 @@
           "color": "#3B6D11",
           "records": [
             {
+              "title": "Coordinator of Library Operations",
+              "reqId": "44371",
+              "notionUrl": "https://www.notion.so/77d1424f85ae427895dcf315d7d13014",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "400100 - Univ Lib Deans Office"
+            },
+            {
               "title": "Other Hourly Professional/Support",
               "reqId": "44368",
               "notionUrl": "https://www.notion.so/b051edfb096f4e8caaa43a0ef0b283ac",
@@ -17709,6 +17719,16 @@
               "stage": "Passive Hiring",
               "agingBand": "🟢 0–2",
               "department": "471000 - Florida Inst of Oceanography"
+            },
+            {
+              "title": "Fitness and Membership Coordinator",
+              "reqId": "44055",
+              "notionUrl": "https://www.notion.so/10ee8b617b8843a1812c944935bdef7e",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Interview Stage",
+              "agingBand": "🟢 0–2",
+              "department": "510200 - STP Student Life"
             },
             {
               "title": "Building & Security Assistant II",
@@ -18296,8 +18316,8 @@
       "stageMetrics": [
         {
           "label": "HM Review",
-          "avgDays": 13,
-          "count": 3,
+          "avgDays": 14,
+          "count": 2,
           "color": "#534AB7"
         },
         {
@@ -18321,6 +18341,11 @@
       ],
       "statuses": [
         {
+          "label": "Backlog",
+          "count": 1,
+          "color": "#888780"
+        },
+        {
           "label": "Student Hiring",
           "count": 9,
           "color": "#0F6E56"
@@ -18337,12 +18362,12 @@
         },
         {
           "label": "HM Review",
-          "count": 3,
+          "count": 2,
           "color": "#993556"
         },
         {
           "label": "Interview Stage",
-          "count": 6,
+          "count": 7,
           "color": "#534AB7"
         }
       ],
@@ -18352,7 +18377,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 14
+          "count": 13
         },
         {
           "label": "🟡 3-5",
@@ -18366,13 +18391,13 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 10
+          "count": 12
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 29
+          "count": 30
         },
         {
           "label": "Screened",
@@ -18380,11 +18405,11 @@
         },
         {
           "label": "HM Review",
-          "count": 3
+          "count": 2
         },
         {
           "label": "Interviews",
-          "count": 6
+          "count": 7
         },
         {
           "label": "Offer",
@@ -18407,13 +18432,13 @@
         {
           "label": "Screened",
           "value": 0,
-          "target": 207,
+          "target": 208,
           "invert": false
         },
         {
           "label": "Interviews",
-          "value": 6,
-          "target": 207,
+          "value": 7,
+          "target": 208,
           "invert": false
         }
       ],
@@ -20155,14 +20180,14 @@
     {
       "field": "Stage",
       "missingCount": 0,
-      "totalActive": 485,
+      "totalActive": 486,
       "pct": 0,
       "records": []
     },
     {
       "field": "Department/College",
       "missingCount": 1,
-      "totalActive": 485,
+      "totalActive": 486,
       "pct": 0,
       "records": [
         {
@@ -20178,7 +20203,7 @@
     {
       "field": "Req Type",
       "missingCount": 92,
-      "totalActive": 485,
+      "totalActive": 486,
       "pct": 19,
       "records": [
         {
@@ -20586,7 +20611,7 @@
     {
       "field": "Campus",
       "missingCount": 20,
-      "totalActive": 485,
+      "totalActive": 486,
       "pct": 4,
       "records": [
         {
@@ -20754,7 +20779,7 @@
     {
       "field": "HRBP",
       "missingCount": 159,
-      "totalActive": 485,
+      "totalActive": 486,
       "pct": 33,
       "records": [
         {
@@ -21162,7 +21187,7 @@
     {
       "field": "Posted Date",
       "missingCount": 108,
-      "totalActive": 485,
+      "totalActive": 486,
       "pct": 22,
       "records": [
         {
@@ -21569,10 +21594,18 @@
     },
     {
       "field": "Unposted Date",
-      "missingCount": 485,
-      "totalActive": 485,
+      "missingCount": 486,
+      "totalActive": 486,
       "pct": 100,
       "records": [
+        {
+          "title": "Coordinator of Library Operations",
+          "reqId": "44371",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "notionUrl": "https://www.notion.so/77d1424f85ae427895dcf315d7d13014"
+        },
         {
           "title": "Human Services Practitio",
           "reqId": "44329",
@@ -21964,14 +21997,6 @@
           "campus": "Tampa",
           "stage": "Recruiter Review",
           "notionUrl": "https://www.notion.so/b4ddee369b2c440e851fbee6849cd451"
-        },
-        {
-          "title": "AI and Tools Enablement Facilitator",
-          "reqId": "44064",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/8f5b7d100c4d450aa0cc8752877ca7a1"
         }
       ]
     }
