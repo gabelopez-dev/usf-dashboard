@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-09-16T15:29:46.345Z",
+  "lastUpdated": "2026-09-16T19:02:06.456Z",
   "summary": {
-    "openReqs": 486,
+    "openReqs": 485,
     "avgTimeToFill": 100,
     "filledYTD": 298,
     "failedCancelled": 44,
-    "inOfferStage": 24
+    "inOfferStage": 25
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 219,
+      "count": 218,
       "color": "#1B6A9C"
     },
     {
@@ -37,11 +37,11 @@
   "mainFunnel": [
     {
       "label": "HM Review",
-      "count": 184
+      "count": 183
     },
     {
       "label": "Recruiter Review",
-      "count": 152
+      "count": 151
     },
     {
       "label": "Student Hiring",
@@ -53,7 +53,7 @@
     },
     {
       "label": "Offer Stage",
-      "count": 24
+      "count": 25
     },
     {
       "label": "Pre-boarding",
@@ -74,7 +74,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 413
+      "count": 410
     },
     {
       "label": "🟡 3-5",
@@ -88,7 +88,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 36
+      "count": 38
     }
   ],
   "agingRecords": [
@@ -537,16 +537,6 @@
           "department": "583001 - Dept Child And Family Studies"
         },
         {
-          "title": "Mail Clerk",
-          "reqId": "44235",
-          "notionUrl": "https://www.notion.so/a4730c4c615a4f509ceb8746942c1c48",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Interview Stage",
-          "agingBand": "🔴 6+",
-          "department": "514000 - STP Facilities Services"
-        },
-        {
           "title": "Accounts Payable Specialist I",
           "reqId": "44210",
           "notionUrl": "https://www.notion.so/c2ba9741acc349868bc006467c11d261",
@@ -565,16 +555,6 @@
           "stage": "HM Review",
           "agingBand": "🔴 6+",
           "department": "511413 - STP MCOB Unc"
-        },
-        {
-          "title": "Fiscal & Business Specialist",
-          "reqId": "44216",
-          "notionUrl": "https://www.notion.so/38e792423e584dab9016ca44c74c161a",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Interview Stage",
-          "agingBand": "🔴 6+",
-          "department": "140105 - MCOB Financia"
         },
         {
           "title": "Postdoctoral Scholar Rese",
@@ -830,16 +810,6 @@
           "title": "Fitness and Membership Coordinator",
           "reqId": "44055",
           "notionUrl": "https://www.notion.so/10ee8b617b8843a1812c944935bdef7e",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "HM Review",
-          "agingBand": "🔴 6+",
-          "department": "510200 - STP Student Life"
-        },
-        {
-          "title": "Leadership and Student Organizations Coordinator",
-          "reqId": "44079",
-          "notionUrl": "https://www.notion.so/eaeda37817ed46af92feeb202ed01f60",
           "owner": "Gabriel",
           "campus": "St. Petersburg",
           "stage": "HM Review",
@@ -4819,16 +4789,6 @@
           "department": "638000 - College Of Phar"
         },
         {
-          "title": "Office Admin & Executive Asst to the Dean",
-          "reqId": "44297",
-          "notionUrl": "https://www.notion.so/cd0f7b66c65e4f74a73699da6334d390",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🟢 0–2",
-          "department": "170100 - COE Dean's Office"
-        },
-        {
           "title": "Events Coordinator",
           "reqId": "44228",
           "notionUrl": "https://www.notion.so/be8b30695c614a3f86121cfc54efa704",
@@ -4839,9 +4799,29 @@
           "department": "210800 - AICC Bellini College Department"
         },
         {
+          "title": "Mail Clerk",
+          "reqId": "44235",
+          "notionUrl": "https://www.notion.so/a4730c4c615a4f509ceb8746942c1c48",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Offer Stage",
+          "agingBand": "🟢 0–2",
+          "department": "514000 - STP Facilities Services"
+        },
+        {
           "title": "Applications Developer II",
           "reqId": "44218",
           "notionUrl": "https://www.notion.so/6233d98428bd464fb007dc8b24a4babf",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Interview Stage",
+          "agingBand": "🟢 0–2",
+          "department": "140105 - MCOB Financia"
+        },
+        {
+          "title": "Fiscal & Business Specialist",
+          "reqId": "44216",
+          "notionUrl": "https://www.notion.so/38e792423e584dab9016ca44c74c161a",
           "owner": "Gabriel",
           "campus": "Tampa",
           "stage": "Interview Stage",
@@ -4909,6 +4889,16 @@
           "department": "400100 - Univ Lib Deans Office"
         },
         {
+          "title": "Leadership and Student Organizations Coordinator",
+          "reqId": "44079",
+          "notionUrl": "https://www.notion.so/eaeda37817ed46af92feeb202ed01f60",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Interview Stage",
+          "agingBand": "🟢 0–2",
+          "department": "510200 - STP Student Life"
+        },
+        {
           "title": "Office Assistant - Part Time Temporary",
           "reqId": "44054",
           "notionUrl": "https://www.notion.so/c915d02ef5b84eff8bba2a6b088f21b1",
@@ -4974,7 +4964,7 @@
   "reqType": [
     {
       "label": "Active",
-      "count": 112,
+      "count": 111,
       "color": "#00A693"
     },
     {
@@ -5071,27 +5061,27 @@
     },
     {
       "label": "Other (135 depts)",
-      "count": 263,
+      "count": 262,
       "color": "#c8c7c2"
     }
   ],
   "stageMetrics": [
     {
       "label": "Recruiter Review",
-      "avgDays": 37,
-      "count": 18,
+      "avgDays": 38,
+      "count": 17,
       "color": "#006747"
     },
     {
       "label": "HM Review",
-      "avgDays": 21,
-      "count": 12,
+      "avgDays": 22,
+      "count": 11,
       "color": "#534AB7"
     },
     {
       "label": "Interview Stage",
-      "avgDays": 28,
-      "count": 9,
+      "avgDays": 33,
+      "count": 7,
       "color": "#d4880a"
     },
     {
@@ -9767,9 +9757,9 @@
       {
         "recruiter": "Gabriel",
         "color": "#00A693",
-        "stalled": 17,
-        "totalActive": 30,
-        "stallRatePct": 57
+        "stalled": 14,
+        "totalActive": 29,
+        "stallRatePct": 48
       },
       {
         "recruiter": "Katherine",
@@ -16212,22 +16202,12 @@
       "filled": 84,
       "failed": 4,
       "ttf": 78,
-      "wip": 4,
+      "wip": 3,
       "agingRecords": [
         {
           "band": "🔴 6+",
           "color": "#A32D2D",
           "records": [
-            {
-              "title": "Mail Clerk",
-              "reqId": "44235",
-              "notionUrl": "https://www.notion.so/a4730c4c615a4f509ceb8746942c1c48",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Interview Stage",
-              "agingBand": "🔴 6+",
-              "department": "514000 - STP Facilities Services"
-            },
             {
               "title": "Postdoctoral Scholar Research",
               "reqId": "44238",
@@ -16257,16 +16237,6 @@
               "stage": "HM Review",
               "agingBand": "🔴 6+",
               "department": "511413 - STP MCOB Unc"
-            },
-            {
-              "title": "Fiscal & Business Specialist",
-              "reqId": "44216",
-              "notionUrl": "https://www.notion.so/38e792423e584dab9016ca44c74c161a",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Interview Stage",
-              "agingBand": "🔴 6+",
-              "department": "140105 - MCOB Financia"
             },
             {
               "title": "Open Rank, Civil and Environmental Engineering",
@@ -16395,16 +16365,6 @@
               "owner": "Gabriel",
               "campus": "St. Petersburg",
               "stage": "Hired",
-              "agingBand": "🔴 6+",
-              "department": "510200 - STP Student Life"
-            },
-            {
-              "title": "Leadership and Student Organizations Coordinator",
-              "reqId": "44079",
-              "notionUrl": "https://www.notion.so/eaeda37817ed46af92feeb202ed01f60",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "HM Review",
               "agingBand": "🔴 6+",
               "department": "510200 - STP Student Life"
             },
@@ -17436,7 +17396,7 @@
               "notionUrl": "https://www.notion.so/cd0f7b66c65e4f74a73699da6334d390",
               "owner": "Gabriel",
               "campus": "Tampa",
-              "stage": "Recruiter Review",
+              "stage": "Passive Hiring",
               "agingBand": "🟢 0–2",
               "department": "170100 - COE Dean's Office"
             },
@@ -17469,6 +17429,16 @@
               "stage": "Targeted Hiring",
               "agingBand": "🟢 0–2",
               "department": "177600 - Ctr For Res,Eval,Assmnt&Measre"
+            },
+            {
+              "title": "Mail Clerk",
+              "reqId": "44235",
+              "notionUrl": "https://www.notion.so/a4730c4c615a4f509ceb8746942c1c48",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Offer Stage",
+              "agingBand": "🟢 0–2",
+              "department": "514000 - STP Facilities Services"
             },
             {
               "title": "Unit Research Administrator",
@@ -17569,6 +17539,16 @@
               "stage": "Targeted Hiring",
               "agingBand": "🟢 0–2",
               "department": "510200 - STP Student Lif"
+            },
+            {
+              "title": "Fiscal & Business Specialist",
+              "reqId": "44216",
+              "notionUrl": "https://www.notion.so/38e792423e584dab9016ca44c74c161a",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Interview Stage",
+              "agingBand": "🟢 0–2",
+              "department": "140105 - MCOB Financia"
             },
             {
               "title": "Applications Developer I",
@@ -17749,6 +17729,16 @@
               "stage": "Faculty Hiring",
               "agingBand": "🟢 0–2",
               "department": "210500 - Mechanical Engineering"
+            },
+            {
+              "title": "Leadership and Student Organizations Coordinator",
+              "reqId": "44079",
+              "notionUrl": "https://www.notion.so/eaeda37817ed46af92feeb202ed01f60",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Interview Stage",
+              "agingBand": "🟢 0–2",
+              "department": "510200 - STP Student Life"
             },
             {
               "title": "Associate Professor of Instruction - Mechanical Eng",
@@ -18305,21 +18295,15 @@
       ],
       "stageMetrics": [
         {
-          "label": "Recruiter Review",
-          "avgDays": 14,
-          "count": 1,
-          "color": "#006747"
-        },
-        {
           "label": "HM Review",
-          "avgDays": 14,
-          "count": 4,
+          "avgDays": 13,
+          "count": 3,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 12,
-          "count": 4,
+          "avgDays": 15,
+          "count": 2,
           "color": "#d4880a"
         },
         {
@@ -18342,29 +18326,24 @@
           "color": "#0F6E56"
         },
         {
-          "label": "Recruiter Review",
-          "count": 1,
-          "color": "#185FA5"
-        },
-        {
           "label": "Pre-boarding",
           "count": 7,
           "color": "#888780"
         },
         {
-          "label": "Interview Stage",
-          "count": 6,
-          "color": "#534AB7"
+          "label": "Offer Stage",
+          "count": 4,
+          "color": "#0F6E56"
         },
         {
           "label": "HM Review",
-          "count": 4,
+          "count": 3,
           "color": "#993556"
         },
         {
-          "label": "Offer Stage",
-          "count": 3,
-          "color": "#0F6E56"
+          "label": "Interview Stage",
+          "count": 6,
+          "color": "#534AB7"
         }
       ],
       "aging": [
@@ -18373,7 +18352,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 17
+          "count": 14
         },
         {
           "label": "🟡 3-5",
@@ -18387,13 +18366,13 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 8
+          "count": 10
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 30
+          "count": 29
         },
         {
           "label": "Screened",
@@ -18401,7 +18380,7 @@
         },
         {
           "label": "HM Review",
-          "count": 4
+          "count": 3
         },
         {
           "label": "Interviews",
@@ -18409,7 +18388,7 @@
         },
         {
           "label": "Offer",
-          "count": 3
+          "count": 4
         }
       ],
       "goals": [
@@ -20176,14 +20155,14 @@
     {
       "field": "Stage",
       "missingCount": 0,
-      "totalActive": 486,
+      "totalActive": 485,
       "pct": 0,
       "records": []
     },
     {
       "field": "Department/College",
       "missingCount": 1,
-      "totalActive": 486,
+      "totalActive": 485,
       "pct": 0,
       "records": [
         {
@@ -20199,7 +20178,7 @@
     {
       "field": "Req Type",
       "missingCount": 92,
-      "totalActive": 486,
+      "totalActive": 485,
       "pct": 19,
       "records": [
         {
@@ -20607,7 +20586,7 @@
     {
       "field": "Campus",
       "missingCount": 20,
-      "totalActive": 486,
+      "totalActive": 485,
       "pct": 4,
       "records": [
         {
@@ -20775,7 +20754,7 @@
     {
       "field": "HRBP",
       "missingCount": 159,
-      "totalActive": 486,
+      "totalActive": 485,
       "pct": 33,
       "records": [
         {
@@ -21183,7 +21162,7 @@
     {
       "field": "Posted Date",
       "missingCount": 108,
-      "totalActive": 486,
+      "totalActive": 485,
       "pct": 22,
       "records": [
         {
@@ -21590,8 +21569,8 @@
     },
     {
       "field": "Unposted Date",
-      "missingCount": 486,
-      "totalActive": 486,
+      "missingCount": 485,
+      "totalActive": 485,
       "pct": 100,
       "records": [
         {
@@ -21803,14 +21782,6 @@
           "notionUrl": "https://www.notion.so/f66a162483b749b48820109027d9f5c3"
         },
         {
-          "title": "Office Admin & Executive Asst to the Dean",
-          "reqId": "44297",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "notionUrl": "https://www.notion.so/cd0f7b66c65e4f74a73699da6334d390"
-        },
-        {
           "title": "Other Hourly Professional/Support",
           "reqId": "44274",
           "owner": "Tameka Porter",
@@ -21993,6 +21964,14 @@
           "campus": "Tampa",
           "stage": "Recruiter Review",
           "notionUrl": "https://www.notion.so/b4ddee369b2c440e851fbee6849cd451"
+        },
+        {
+          "title": "AI and Tools Enablement Facilitator",
+          "reqId": "44064",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "notionUrl": "https://www.notion.so/8f5b7d100c4d450aa0cc8752877ca7a1"
         }
       ]
     }
