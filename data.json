@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-09-18T11:39:12.203Z",
+  "lastUpdated": "2026-09-18T16:02:33.207Z",
   "summary": {
-    "openReqs": 495,
+    "openReqs": 493,
     "avgTimeToFill": 99,
-    "filledYTD": 300,
+    "filledYTD": 302,
     "failedCancelled": 44,
-    "inOfferStage": 26
+    "inOfferStage": 25
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 221,
+      "count": 219,
       "color": "#1B6A9C"
     },
     {
@@ -53,11 +53,11 @@
     },
     {
       "label": "Offer Stage",
-      "count": 26
+      "count": 25
     },
     {
       "label": "Pre-boarding",
-      "count": 23
+      "count": 22
     },
     {
       "label": "Interview Stage",
@@ -74,21 +74,21 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 441
+      "count": 440
     },
     {
       "label": "🟡 3-5",
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 19
+      "count": 21
     },
     {
       "label": "🟢 0–2",
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 35
+      "count": 32
     }
   ],
   "agingRecords": [
@@ -3377,16 +3377,6 @@
           "department": "460100 - Innovative Education"
         },
         {
-          "title": "Athletics Production Service Engineer",
-          "reqId": "43577",
-          "notionUrl": "https://www.notion.so/c4b2ab1eb43b47d38e0431ca9c492b36",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 6+",
-          "department": "051000 - Athletic Administration"
-        },
-        {
           "title": "Director of Experiential Learning & Engagement",
           "reqId": "43315",
           "notionUrl": "https://www.notion.so/f417480722cf415ba25ea8072e158bef",
@@ -4563,6 +4553,16 @@
           "department": "612500 - Dept Of Neurol"
         },
         {
+          "title": "FWS Student Assistant - Electrical Engineering",
+          "reqId": "44346",
+          "notionUrl": "https://www.notion.so/1a626de7cb504476ae573bed52c30bda",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Student Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "210600 - Electrical Engineering"
+        },
+        {
           "title": "Cyber Range Analyst",
           "reqId": "44328",
           "notionUrl": "https://www.notion.so/caffa76f17ae41179936ab8903c5afc1",
@@ -4671,6 +4671,16 @@
           "stage": "Interview Stage",
           "agingBand": "🟡 3-5",
           "department": "643400 - Global Env & Ge"
+        },
+        {
+          "title": "Front-End Developer I",
+          "reqId": "44105",
+          "notionUrl": "https://www.notion.so/7161dc3b6fd14689826bef885fc4251f",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Pre-boarding",
+          "agingBand": "🟡 3-5",
+          "department": "490000 - USF World"
         },
         {
           "title": "Building & Security Assistant II",
@@ -4849,16 +4859,6 @@
           "department": "640100 - COPH Office Of"
         },
         {
-          "title": "FWS Student Assistant - Electrical Engineering",
-          "reqId": "44346",
-          "notionUrl": "https://www.notion.so/1a626de7cb504476ae573bed52c30bda",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Student Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "210600 - Electrical Engineering"
-        },
-        {
           "title": "Student Assistant",
           "reqId": "44358",
           "notionUrl": "https://www.notion.so/603163ef22624c13bd841ba5b00db43f",
@@ -4949,16 +4949,6 @@
           "department": "140105 - MCOB Financia"
         },
         {
-          "title": "Front-End Developer I",
-          "reqId": "44105",
-          "notionUrl": "https://www.notion.so/7161dc3b6fd14689826bef885fc4251f",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🟢 0–2",
-          "department": "490000 - USF World"
-        },
-        {
           "title": "Student Assistant - Web Support and Data Specialist",
           "reqId": "44136",
           "notionUrl": "https://www.notion.so/7c1343e019bb41d3b10ad5b257a4aabd",
@@ -5004,19 +4994,9 @@
           "notionUrl": "https://www.notion.so/c915d02ef5b84eff8bba2a6b088f21b1",
           "owner": "johncalebrese",
           "campus": "Tampa",
-          "stage": "Offer Stage",
-          "agingBand": "🟢 0–2",
-          "department": "390000 - Graduate Studies"
-        },
-        {
-          "title": "Event Planner",
-          "reqId": "43717",
-          "notionUrl": "https://www.notion.so/5badcb684b5d450fab0e81cf164f49d9",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
           "stage": "Pre-boarding",
           "agingBand": "🟢 0–2",
-          "department": "047700 - Career & Professional Dev"
+          "department": "390000 - Graduate Studies"
         },
         {
           "title": "Career Coach",
@@ -5069,7 +5049,7 @@
     },
     {
       "label": "Passive",
-      "count": 110,
+      "count": 108,
       "color": "#006747"
     },
     {
@@ -5126,7 +5106,7 @@
     },
     {
       "label": "047700 - Career & Professional Dev",
-      "count": 8,
+      "count": 7,
       "color": "#993556"
     },
     {
@@ -5161,7 +5141,7 @@
     },
     {
       "label": "Other (139 depts)",
-      "count": 271,
+      "count": 270,
       "color": "#c8c7c2"
     }
   ],
@@ -5186,13 +5166,13 @@
     },
     {
       "label": "Offer Stage",
-      "avgDays": 20,
-      "count": 5,
+      "avgDays": 25,
+      "count": 4,
       "color": "#CFC483"
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 14,
+      "avgDays": 15,
       "count": 15,
       "color": "#5B8FA8"
     },
@@ -6470,6 +6450,17 @@
       "notionUrl": "https://www.notion.so/74bc19abe1bb4a2e8ea6afcbd2dc391e"
     },
     {
+      "title": "Event Planner",
+      "reqId": "43717",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "047700 - Career & Professional Dev",
+      "reqType": "Passive",
+      "ttf": 97,
+      "notionUrl": "https://www.notion.so/5badcb684b5d450fab0e81cf164f49d9"
+    },
+    {
       "title": "Business Fiscal Operations Coordinator",
       "reqId": "43073",
       "owner": "Gabriel",
@@ -6622,6 +6613,17 @@
       "reqType": "Active",
       "ttf": 90,
       "notionUrl": "https://www.notion.so/daf859b10469400e869da77a96ce1b94"
+    },
+    {
+      "title": "Athletics Production Service Engineer",
+      "reqId": "43577",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "051000 - Athletic Administration",
+      "reqType": "Passive",
+      "ttf": 90,
+      "notionUrl": "https://www.notion.so/c4b2ab1eb43b47d38e0431ca9c492b36"
     },
     {
       "title": "Coordinator Athletics Production",
@@ -9000,7 +9002,7 @@
       },
       {
         "department": "051000 - Athletic Administration",
-        "filled": 29,
+        "filled": 30,
         "failed": 1,
         "cancelled": 2,
         "fillRatePct": 97
@@ -9076,6 +9078,13 @@
         "fillRatePct": 100
       },
       {
+        "department": "047700 - Career & Professional Dev",
+        "filled": 3,
+        "failed": 1,
+        "cancelled": 1,
+        "fillRatePct": 75
+      },
+      {
         "department": "610001 - MCOM Research/Grad Affairs Supp",
         "filled": 5,
         "failed": 0,
@@ -9088,13 +9097,6 @@
         "failed": 0,
         "cancelled": 0,
         "fillRatePct": 100
-      },
-      {
-        "department": "047700 - Career & Professional Dev",
-        "filled": 2,
-        "failed": 1,
-        "cancelled": 1,
-        "fillRatePct": 67
       },
       {
         "department": "Florida Inst of Oceanography",
@@ -9766,8 +9768,8 @@
       },
       {
         "reqType": "Passive",
-        "avgDays": 109,
-        "count": 13
+        "avgDays": 107,
+        "count": 15
       },
       {
         "reqType": "Targeted",
@@ -9788,8 +9790,8 @@
     "avgTTFByCampus": [
       {
         "campus": "Tampa",
-        "avgDays": 82,
-        "count": 121
+        "avgDays": 83,
+        "count": 123
       },
       {
         "campus": "USF Health",
@@ -9879,9 +9881,9 @@
       {
         "recruiter": "John",
         "color": "#1B6A9C",
-        "stalled": 45,
-        "totalActive": 57,
-        "stallRatePct": 79
+        "stalled": 44,
+        "totalActive": 55,
+        "stallRatePct": 80
       },
       {
         "recruiter": "Gabriel",
@@ -14424,7 +14426,7 @@
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
       "reqs": 186,
-      "filled": 95,
+      "filled": 97,
       "failed": 14,
       "ttf": 96,
       "wip": 13,
@@ -15494,16 +15496,6 @@
               "department": "051000 - Athletic Administration"
             },
             {
-              "title": "Athletics Production Service Engineer",
-              "reqId": "43577",
-              "notionUrl": "https://www.notion.so/c4b2ab1eb43b47d38e0431ca9c492b36",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🔴 6+",
-              "department": "051000 - Athletic Administration"
-            },
-            {
               "title": "Coordinator Athletics Production",
               "reqId": "43576",
               "notionUrl": "https://www.notion.so/2d45bdb8ba834c8080b7784bf7b678df",
@@ -16000,6 +15992,16 @@
               "department": "490000 - USF World"
             },
             {
+              "title": "Student Assistant/ Equipment Operations-Football",
+              "reqId": "44266",
+              "notionUrl": "https://www.notion.so/e8a7ccd60e574aa385d3c5169367cd78",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Hired",
+              "agingBand": "🟡 3-5",
+              "department": "051000 - Athletic Administration"
+            },
+            {
               "title": "Registered Nurse NSOPS",
               "reqId": "44234",
               "notionUrl": "https://www.notion.so/04d849b056ce4830a827452073624a9b",
@@ -16020,6 +16022,16 @@
               "department": "043000 - Student Health Services"
             },
             {
+              "title": "Front-End Developer I",
+              "reqId": "44105",
+              "notionUrl": "https://www.notion.so/7161dc3b6fd14689826bef885fc4251f",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Pre-boarding",
+              "agingBand": "🟡 3-5",
+              "department": "490000 - USF World"
+            },
+            {
               "title": "Financial Aid Assistant",
               "reqId": "44118",
               "notionUrl": "https://www.notion.so/049940b379a34990bbad88c73a5e8916",
@@ -16028,6 +16040,46 @@
               "stage": "Passive Hiring",
               "agingBand": "🟡 3-5",
               "department": "373000 - Financial Aid"
+            },
+            {
+              "title": "Student Assistant - FWS/ Athletics Compliance",
+              "reqId": "44142",
+              "notionUrl": "https://www.notion.so/1832c53d6e5c48c798badda3e129ff48",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Hired",
+              "agingBand": "🟡 3-5",
+              "department": "051000 - Athletic Administration"
+            },
+            {
+              "title": "FWS Student Assistant - Office of Graduate Studies",
+              "reqId": "44021",
+              "notionUrl": "https://www.notion.so/71f899297e2a439f9457f8287100c555",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Hired",
+              "agingBand": "🟡 3-5",
+              "department": "390000 - Graduate Studies"
+            },
+            {
+              "title": "Student Assistant - FWS/Athletics Sports Nutrition",
+              "reqId": "43997",
+              "notionUrl": "https://www.notion.so/bfe842823e444c9281856140382fc285",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Hired",
+              "agingBand": "🟡 3-5",
+              "department": "051000 - Athletic Administration"
+            },
+            {
+              "title": "Student Assistant - FWS/Men's GOLF",
+              "reqId": "43998",
+              "notionUrl": "https://www.notion.so/f94cfc8038824eb5b109eba365036dcc",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Hired",
+              "agingBand": "🟡 3-5",
+              "department": "051000 - Athletic Administration"
             },
             {
               "title": "Adjunct",
@@ -16156,26 +16208,6 @@
               "department": "210800 - AICC Bellini College Department"
             },
             {
-              "title": "Student Assistant/ Equipment Operations-Football",
-              "reqId": "44266",
-              "notionUrl": "https://www.notion.so/e8a7ccd60e574aa385d3c5169367cd78",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Hired",
-              "agingBand": "🟢 0–2",
-              "department": "051000 - Athletic Administration"
-            },
-            {
-              "title": "Front-End Developer I",
-              "reqId": "44105",
-              "notionUrl": "https://www.notion.so/7161dc3b6fd14689826bef885fc4251f",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🟢 0–2",
-              "department": "490000 - USF World"
-            },
-            {
               "title": "Student Assistant - Web Support and Data Specialist",
               "reqId": "44136",
               "notionUrl": "https://www.notion.so/7c1343e019bb41d3b10ad5b257a4aabd",
@@ -16186,22 +16218,12 @@
               "department": "410000 - Office Of Decision Support"
             },
             {
-              "title": "Student Assistant - FWS/ Athletics Compliance",
-              "reqId": "44142",
-              "notionUrl": "https://www.notion.so/1832c53d6e5c48c798badda3e129ff48",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Hired",
-              "agingBand": "🟢 0–2",
-              "department": "051000 - Athletic Administration"
-            },
-            {
               "title": "Office Assistant - Part Time Temporary",
               "reqId": "44054",
               "notionUrl": "https://www.notion.so/c915d02ef5b84eff8bba2a6b088f21b1",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "Offer Stage",
+              "stage": "Pre-boarding",
               "agingBand": "🟢 0–2",
               "department": "390000 - Graduate Studies"
             },
@@ -16214,36 +16236,6 @@
               "stage": "Hired",
               "agingBand": "🟢 0–2",
               "department": "027900 - Procurement & Payment Services"
-            },
-            {
-              "title": "FWS Student Assistant - Office of Graduate Studies",
-              "reqId": "44021",
-              "notionUrl": "https://www.notion.so/71f899297e2a439f9457f8287100c555",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Hired",
-              "agingBand": "🟢 0–2",
-              "department": "390000 - Graduate Studies"
-            },
-            {
-              "title": "Student Assistant - FWS/Athletics Sports Nutrition",
-              "reqId": "43997",
-              "notionUrl": "https://www.notion.so/bfe842823e444c9281856140382fc285",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Hired",
-              "agingBand": "🟢 0–2",
-              "department": "051000 - Athletic Administration"
-            },
-            {
-              "title": "Student Assistant - FWS/Men's GOLF",
-              "reqId": "43998",
-              "notionUrl": "https://www.notion.so/f94cfc8038824eb5b109eba365036dcc",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Hired",
-              "agingBand": "🟢 0–2",
-              "department": "051000 - Athletic Administration"
             },
             {
               "title": "Director of Industry to Campus Connections",
@@ -16261,7 +16253,7 @@
               "notionUrl": "https://www.notion.so/5badcb684b5d450fab0e81cf164f49d9",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "Pre-boarding",
+              "stage": "Hired",
               "agingBand": "🟢 0–2",
               "department": "047700 - Career & Professional Dev"
             },
@@ -16296,6 +16288,16 @@
               "department": "460100 - Innovative Education"
             },
             {
+              "title": "Athletics Production Service Engineer",
+              "reqId": "43577",
+              "notionUrl": "https://www.notion.so/c4b2ab1eb43b47d38e0431ca9c492b36",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Hired",
+              "agingBand": "🟢 0–2",
+              "department": "051000 - Athletic Administration"
+            },
+            {
               "title": "Student Assistant - FWS - Mens Soccer",
               "reqId": "43190",
               "notionUrl": "https://www.notion.so/3232950ffe484adf81b1f5215f547aca",
@@ -16328,12 +16330,6 @@
           "color": "#d4880a"
         },
         {
-          "label": "Offer Stage",
-          "avgDays": 3,
-          "count": 1,
-          "color": "#CFC483"
-        },
-        {
           "label": "Pre-boarding",
           "avgDays": 25,
           "count": 7,
@@ -16359,7 +16355,7 @@
         },
         {
           "label": "Offer Stage",
-          "count": 8,
+          "count": 7,
           "color": "#0F6E56"
         },
         {
@@ -16369,7 +16365,7 @@
         },
         {
           "label": "Pre-boarding",
-          "count": 15,
+          "count": 14,
           "color": "#888780"
         },
         {
@@ -16389,27 +16385,27 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 45
+          "count": 44
         },
         {
           "label": "🟡 3-5",
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 1
+          "count": 2
         },
         {
           "label": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 11
+          "count": 9
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 57
+          "count": 55
         },
         {
           "label": "Screened",
@@ -16425,13 +16421,13 @@
         },
         {
           "label": "Offer",
-          "count": 8
+          "count": 7
         }
       ],
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 95,
+          "value": 97,
           "target": 10,
           "invert": false
         },
@@ -17558,6 +17554,16 @@
           "color": "#BA7517",
           "records": [
             {
+              "title": "FWS Student Assistant - Electrical Engineering",
+              "reqId": "44346",
+              "notionUrl": "https://www.notion.so/1a626de7cb504476ae573bed52c30bda",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Student Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "210600 - Electrical Engineering"
+            },
+            {
               "title": "Administrative Specialist - Mechanical Engineering",
               "reqId": "44344",
               "notionUrl": "https://www.notion.so/c826a655ebdb4300ac0133e7dd16e102",
@@ -18354,16 +18360,6 @@
               "department": "177400 - Center For Migrant Education"
             },
             {
-              "title": "FWS Student Assistant - Electrical Engineering",
-              "reqId": "44346",
-              "notionUrl": "https://www.notion.so/1a626de7cb504476ae573bed52c30bda",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Student Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "210600 - Electrical Engineering"
-            },
-            {
               "title": "Research Support Specialist",
               "reqId": "44348",
               "notionUrl": "https://www.notion.so/5791cab1c6bc44b7aa43de3e2d5817e0",
@@ -18603,7 +18599,7 @@
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 5,
+          "avgDays": 6,
           "count": 8,
           "color": "#5B8FA8"
         }
@@ -18653,14 +18649,14 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 2
+          "count": 3
         },
         {
           "label": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 12
+          "count": 11
         }
       ],
       "funnel": [
@@ -20255,6 +20251,16 @@
               "department": "125700 - Rehabilitation Counseling"
             },
             {
+              "title": "Academic Program Specialist",
+              "reqId": "44121",
+              "notionUrl": "https://www.notion.so/8dbf8f1d5aed46ea9199c4c5dc2b76bb",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Hired",
+              "agingBand": "🟡 3-5",
+              "department": "124900 - Mathematics & Statistics"
+            },
+            {
               "title": "Assistant-Associate Professor",
               "reqId": "44251",
               "notionUrl": "https://www.notion.so/669f5515421240afbfcc65d4f8613f08",
@@ -20270,16 +20276,6 @@
           "band": "🟢 0–2",
           "color": "#3B6D11",
           "records": [
-            {
-              "title": "Academic Program Specialist",
-              "reqId": "44121",
-              "notionUrl": "https://www.notion.so/8dbf8f1d5aed46ea9199c4c5dc2b76bb",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Hired",
-              "agingBand": "🟢 0–2",
-              "department": "124900 - Mathematics & Statistics"
-            },
             {
               "title": "Hearing Technician",
               "reqId": "43519",
@@ -20449,14 +20445,14 @@
     {
       "field": "Stage",
       "missingCount": 0,
-      "totalActive": 495,
+      "totalActive": 493,
       "pct": 0,
       "records": []
     },
     {
       "field": "Department/College",
       "missingCount": 1,
-      "totalActive": 495,
+      "totalActive": 493,
       "pct": 0,
       "records": [
         {
@@ -20472,7 +20468,7 @@
     {
       "field": "Req Type",
       "missingCount": 92,
-      "totalActive": 495,
+      "totalActive": 493,
       "pct": 19,
       "records": [
         {
@@ -20880,7 +20876,7 @@
     {
       "field": "Campus",
       "missingCount": 27,
-      "totalActive": 495,
+      "totalActive": 493,
       "pct": 5,
       "records": [
         {
@@ -21104,7 +21100,7 @@
     {
       "field": "HRBP",
       "missingCount": 165,
-      "totalActive": 495,
+      "totalActive": 493,
       "pct": 33,
       "records": [
         {
@@ -21512,7 +21508,7 @@
     {
       "field": "Posted Date",
       "missingCount": 107,
-      "totalActive": 495,
+      "totalActive": 493,
       "pct": 22,
       "records": [
         {
@@ -21919,8 +21915,8 @@
     },
     {
       "field": "Unposted Date",
-      "missingCount": 495,
-      "totalActive": 495,
+      "missingCount": 493,
+      "totalActive": 493,
       "pct": 100,
       "records": [
         {
