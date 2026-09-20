@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T16:23:21.486Z",
+  "lastUpdated": "2026-09-20T18:58:04.759Z",
   "summary": {
     "openReqs": 493,
     "avgTimeToFill": 100,
@@ -74,21 +74,21 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 442
+      "count": 459
     },
     {
       "label": "🟡 3-5",
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 38
+      "count": 33
     },
     {
       "label": "🟢 0–2",
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 13
+      "count": 1
     }
   ],
   "agingRecords": [
@@ -96,6 +96,56 @@
       "band": "🔴 6+",
       "color": "#A32D2D",
       "records": [
+        {
+          "title": "Human Services Practitio",
+          "reqId": "44329",
+          "notionUrl": "https://www.notion.so/d64c564daea548219b6829b3e54a5039",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "Recruiter Review",
+          "agingBand": "🔴 6+",
+          "department": "611900 - Department Of"
+        },
+        {
+          "title": "Data Analysis Student",
+          "reqId": "44339",
+          "notionUrl": "https://www.notion.so/d2af079ccd3041228f4aba4f0f20e4f8",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "Student Hiring",
+          "agingBand": "🔴 6+",
+          "department": "620100 - College Of Nurs"
+        },
+        {
+          "title": "Student Assistant",
+          "reqId": "44350",
+          "notionUrl": "https://www.notion.so/e45f9de6744f484992ba055c9299d4e4",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "Student Hiring",
+          "agingBand": "🔴 6+",
+          "department": "614400 - Molecular Medi"
+        },
+        {
+          "title": "Senior Research Support",
+          "reqId": "44356",
+          "notionUrl": "https://www.notion.so/ec761ce0644a432eb19a281c03bf6b81",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "Backlog",
+          "agingBand": "🔴 6+",
+          "department": "611900 - Department Of"
+        },
+        {
+          "title": "Clinical Research Coordin",
+          "reqId": "44359",
+          "notionUrl": "https://www.notion.so/26784c2d0a554b318c5646de9895466c",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "Backlog",
+          "agingBand": "🔴 6+",
+          "department": "612500 - Dept Of Neurol"
+        },
         {
           "title": "Cyber Range Analyst",
           "reqId": "44328",
@@ -105,6 +155,86 @@
           "stage": "Recruiter Review",
           "agingBand": "🔴 6+",
           "department": "391000 - Fl Center For Cybersecurity"
+        },
+        {
+          "title": "Postdoctoral Scholar Research",
+          "reqId": "44275",
+          "notionUrl": "https://www.notion.so/2549056becab4c6e9853582476970db4",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "Backlog",
+          "agingBand": "🔴 6+",
+          "department": "612300 - Dept Of Interna"
+        },
+        {
+          "title": "Student Asst - FWS",
+          "reqId": "44282",
+          "notionUrl": "https://www.notion.so/3fd383874a784dfe8761aa43af3e2d90",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "Student Hiring",
+          "agingBand": "🔴 6+",
+          "department": "614400 - Molecular Medi"
+        },
+        {
+          "title": "Project Manager",
+          "reqId": "44295",
+          "notionUrl": "https://www.notion.so/bf7dc9196b1c47639e4d803bcabf2728",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "HM Review",
+          "agingBand": "🔴 6+",
+          "department": "643200 - Health Policy &"
+        },
+        {
+          "title": "Simulation Operations Sp",
+          "reqId": "44280",
+          "notionUrl": "https://www.notion.so/fc04f3fff7e94625b12cdc2a7e7e51b7",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "Backlog",
+          "agingBand": "🔴 6+",
+          "department": "610405 - HPCC"
+        },
+        {
+          "title": "Fiscal & Business Analyst",
+          "reqId": "44303",
+          "notionUrl": "https://www.notion.so/66c9ae038f70424b914ac918eff3e9ed",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "Backlog",
+          "agingBand": "🔴 6+",
+          "department": "600105 - Health Sciences"
+        },
+        {
+          "title": "Clinical Research Coordinator",
+          "reqId": "44305",
+          "notionUrl": "https://www.notion.so/776dc32b4f0e49a28b1368c67da27932",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "Backlog",
+          "agingBand": "🔴 6+",
+          "department": "612000 - Department Of"
+        },
+        {
+          "title": "Student Assistant - FWS",
+          "reqId": "44322",
+          "notionUrl": "https://www.notion.so/a9a3219deab14c6eb0172537057137af",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "Student Hiring",
+          "agingBand": "🔴 6+",
+          "department": "612500 - Dept Of Neurol"
+        },
+        {
+          "title": "Administrative Specialist",
+          "reqId": "44325",
+          "notionUrl": "https://www.notion.so/6c77342276cb49f2978596825657dbe3",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "Backlog",
+          "agingBand": "🔴 6+",
+          "department": "612200 - Dept Of OB/GY"
         },
         {
           "title": "Student Asst - FWS",
@@ -647,6 +777,16 @@
           "department": "660100 - USF Health Shir"
         },
         {
+          "title": "Academic Services Admin",
+          "reqId": "44196",
+          "notionUrl": "https://www.notion.so/00bb5816fa584dca8bafba20e2155cdb",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "HM Review",
+          "agingBand": "🔴 6+",
+          "department": "643400 - Global Env & Ge"
+        },
+        {
           "title": "Clinical Research Coordin",
           "reqId": "44198",
           "notionUrl": "https://www.notion.so/22e3211532b441a199e545e5352da90c",
@@ -705,6 +845,16 @@
           "stage": "HM Review",
           "agingBand": "🔴 6+",
           "department": "611800 - Department Of"
+        },
+        {
+          "title": "OPS Bioinformatics I",
+          "reqId": "44206",
+          "notionUrl": "https://www.notion.so/c01c8ec68ea34ab5b88cdb80f53d16a5",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "Interview Stage",
+          "agingBand": "🔴 6+",
+          "department": "643400 - Global Env & Ge"
         },
         {
           "title": "Postdoctoral Scholar Rese",
@@ -1145,6 +1295,16 @@
           "stage": "HM Review",
           "agingBand": "🔴 6+",
           "department": "032300 - Health Human I"
+        },
+        {
+          "title": "Clerical and Secretarial",
+          "reqId": "44007",
+          "notionUrl": "https://www.notion.so/fbaa7c1511994273a7711e135484e7ba",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "Recruiter Review",
+          "agingBand": "🔴 6+",
+          "department": "620100 - College Of Nurs"
         },
         {
           "title": "Manager Fiscal and Busin",
@@ -2345,6 +2505,16 @@
           "stage": "Pre-boarding",
           "agingBand": "🔴 6+",
           "department": "College of Education "
+        },
+        {
+          "title": "Student Assistant",
+          "reqId": "43979",
+          "notionUrl": "https://www.notion.so/4284385c9b7843a3bacabe70152fad60",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Student Hiring",
+          "agingBand": "🔴 6+",
+          "department": "STP Special Education"
         },
         {
           "title": "Fiscal & Business Analyst I",
@@ -4523,6 +4693,76 @@
       "color": "#BA7517",
       "records": [
         {
+          "title": "Manager Project Research",
+          "reqId": "44375",
+          "notionUrl": "https://www.notion.so/b54398b0207c448e9901746386706684",
+          "owner": "Rebecca",
+          "campus": "",
+          "stage": "Recruiter Review",
+          "agingBand": "🟡 3-5",
+          "department": "614800 - Emergency Medicine"
+        },
+        {
+          "title": "Biostatistician",
+          "reqId": "44380",
+          "notionUrl": "https://www.notion.so/048f6cdafe0e4cc28233030f19dc771e",
+          "owner": "Rebecca",
+          "campus": "",
+          "stage": "Backlog",
+          "agingBand": "🟡 3-5",
+          "department": "620100 - College Of Nursing"
+        },
+        {
+          "title": "Assistant Director, Finance",
+          "reqId": "44381",
+          "notionUrl": "https://www.notion.so/b5e2269d7b44456c8c22e34d6e7a7c86",
+          "owner": "Rebecca",
+          "campus": "",
+          "stage": "Backlog",
+          "agingBand": "🟡 3-5",
+          "department": "610200 - MCOM Clinical"
+        },
+        {
+          "title": "Senior Financial Analyst -",
+          "reqId": "44382",
+          "notionUrl": "https://www.notion.so/0031a8324a6042db93078478144748ca",
+          "owner": "Rebecca",
+          "campus": "",
+          "stage": "Backlog",
+          "agingBand": "🟡 3-5",
+          "department": "610200 - MCOM Clinical"
+        },
+        {
+          "title": "Student Asst",
+          "reqId": "44385",
+          "notionUrl": "https://www.notion.so/57169d44ab144683800c82d7ab996948",
+          "owner": "Rebecca",
+          "campus": "",
+          "stage": "Backlog",
+          "agingBand": "🟡 3-5",
+          "department": "610405 - HPCC"
+        },
+        {
+          "title": "Student Assistant",
+          "reqId": "44393",
+          "notionUrl": "https://www.notion.so/3f9be251eae34e9a837506787a6a422b",
+          "owner": "Rebecca",
+          "campus": "",
+          "stage": "Backlog",
+          "agingBand": "🟡 3-5",
+          "department": "614800 - Emergency Medicine"
+        },
+        {
+          "title": "Other Hourly Prof Support",
+          "reqId": "44387",
+          "notionUrl": "https://www.notion.so/9f58d480dc0c4fa0952d1e8495c17a08",
+          "owner": "Rebecca",
+          "campus": "",
+          "stage": "Backlog",
+          "agingBand": "🟡 3-5",
+          "department": "611900 - Department Of"
+        },
+        {
           "title": "Admissions Evaluator",
           "reqId": "44355",
           "notionUrl": "https://www.notion.so/4908056bebdc463db0bf5c3feea63521",
@@ -4573,54 +4813,24 @@
           "department": "400100 - Univ Lib Deans Office"
         },
         {
-          "title": "Human Services Practitio",
-          "reqId": "44329",
-          "notionUrl": "https://www.notion.so/d64c564daea548219b6829b3e54a5039",
+          "title": "Research Support Assista",
+          "reqId": "44337",
+          "notionUrl": "https://www.notion.so/1d8e6630b1bb4db4a276fbc11a624cad",
           "owner": "Rebecca",
           "campus": "USF Health",
           "stage": "Recruiter Review",
           "agingBand": "🟡 3-5",
-          "department": "611900 - Department Of"
-        },
-        {
-          "title": "Data Analysis Student",
-          "reqId": "44339",
-          "notionUrl": "https://www.notion.so/d2af079ccd3041228f4aba4f0f20e4f8",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Student Hiring",
-          "agingBand": "🟡 3-5",
           "department": "620100 - College Of Nurs"
         },
         {
-          "title": "Student Assistant",
-          "reqId": "44350",
-          "notionUrl": "https://www.notion.so/e45f9de6744f484992ba055c9299d4e4",
+          "title": "Admin Specialist",
+          "reqId": "44360",
+          "notionUrl": "https://www.notion.so/a1eb8e6db2b74226b740a9a9c2e569ba",
           "owner": "Rebecca",
           "campus": "USF Health",
-          "stage": "Student Hiring",
+          "stage": "Recruiter Review",
           "agingBand": "🟡 3-5",
-          "department": "614400 - Molecular Medi"
-        },
-        {
-          "title": "Senior Research Support",
-          "reqId": "44356",
-          "notionUrl": "https://www.notion.so/ec761ce0644a432eb19a281c03bf6b81",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Backlog",
-          "agingBand": "🟡 3-5",
-          "department": "611900 - Department Of"
-        },
-        {
-          "title": "Clinical Research Coordin",
-          "reqId": "44359",
-          "notionUrl": "https://www.notion.so/26784c2d0a554b318c5646de9895466c",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Backlog",
-          "agingBand": "🟡 3-5",
-          "department": "612500 - Dept Of Neurol"
+          "department": "640100 - COPH Office Of"
         },
         {
           "title": "FWS Student Assistant - Electrical Engineering",
@@ -4643,84 +4853,34 @@
           "department": "512700 - STP Enrollment Management"
         },
         {
-          "title": "Postdoctoral Scholar Research",
-          "reqId": "44275",
-          "notionUrl": "https://www.notion.so/2549056becab4c6e9853582476970db4",
+          "title": "Prelicensure Placement M",
+          "reqId": "44293",
+          "notionUrl": "https://www.notion.so/006a79fbde3148b8a802dc2e18f15594",
           "owner": "Rebecca",
           "campus": "USF Health",
-          "stage": "Backlog",
+          "stage": "Recruiter Review",
           "agingBand": "🟡 3-5",
-          "department": "612300 - Dept Of Interna"
+          "department": "620100 - College Of Nurs"
         },
         {
-          "title": "Student Asst - FWS",
-          "reqId": "44282",
-          "notionUrl": "https://www.notion.so/3fd383874a784dfe8761aa43af3e2d90",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Student Hiring",
-          "agingBand": "🟡 3-5",
-          "department": "614400 - Molecular Medi"
-        },
-        {
-          "title": "Project Manager",
-          "reqId": "44295",
-          "notionUrl": "https://www.notion.so/bf7dc9196b1c47639e4d803bcabf2728",
+          "title": "Senior Dept Administrator",
+          "reqId": "44311",
+          "notionUrl": "https://www.notion.so/add219c906f24815930529f7db96cac7",
           "owner": "Rebecca",
           "campus": "USF Health",
           "stage": "HM Review",
           "agingBand": "🟡 3-5",
-          "department": "643200 - Health Policy &"
-        },
-        {
-          "title": "Simulation Operations Sp",
-          "reqId": "44280",
-          "notionUrl": "https://www.notion.so/fc04f3fff7e94625b12cdc2a7e7e51b7",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Backlog",
-          "agingBand": "🟡 3-5",
-          "department": "610405 - HPCC"
-        },
-        {
-          "title": "Fiscal & Business Analyst",
-          "reqId": "44303",
-          "notionUrl": "https://www.notion.so/66c9ae038f70424b914ac918eff3e9ed",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Backlog",
-          "agingBand": "🟡 3-5",
-          "department": "600105 - Health Sciences"
-        },
-        {
-          "title": "Clinical Research Coordinator",
-          "reqId": "44305",
-          "notionUrl": "https://www.notion.so/776dc32b4f0e49a28b1368c67da27932",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Backlog",
-          "agingBand": "🟡 3-5",
           "department": "612000 - Department Of"
         },
         {
-          "title": "Student Assistant - FWS",
-          "reqId": "44322",
-          "notionUrl": "https://www.notion.so/a9a3219deab14c6eb0172537057137af",
+          "title": "Assistant Director of Grad",
+          "reqId": "44323",
+          "notionUrl": "https://www.notion.so/8a82496a50c247d18c2c946c6fa902af",
           "owner": "Rebecca",
           "campus": "USF Health",
-          "stage": "Student Hiring",
+          "stage": "Recruiter Review",
           "agingBand": "🟡 3-5",
-          "department": "612500 - Dept Of Neurol"
-        },
-        {
-          "title": "Administrative Specialist",
-          "reqId": "44325",
-          "notionUrl": "https://www.notion.so/6c77342276cb49f2978596825657dbe3",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Backlog",
-          "agingBand": "🟡 3-5",
-          "department": "612200 - Dept Of OB/GY"
+          "department": "638000 - College Of Phar"
         },
         {
           "title": "Events Coordinator",
@@ -4773,26 +4933,6 @@
           "department": "140105 - MCOB Financia"
         },
         {
-          "title": "Academic Services Admin",
-          "reqId": "44196",
-          "notionUrl": "https://www.notion.so/00bb5816fa584dca8bafba20e2155cdb",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "HM Review",
-          "agingBand": "🟡 3-5",
-          "department": "643400 - Global Env & Ge"
-        },
-        {
-          "title": "OPS Bioinformatics I",
-          "reqId": "44206",
-          "notionUrl": "https://www.notion.so/c01c8ec68ea34ab5b88cdb80f53d16a5",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Interview Stage",
-          "agingBand": "🟡 3-5",
-          "department": "643400 - Global Env & Ge"
-        },
-        {
           "title": "Front-End Developer I",
           "reqId": "44105",
           "notionUrl": "https://www.notion.so/7161dc3b6fd14689826bef885fc4251f",
@@ -4843,26 +4983,6 @@
           "department": "510200 - STP Student Life"
         },
         {
-          "title": "Clerical and Secretarial",
-          "reqId": "44007",
-          "notionUrl": "https://www.notion.so/fbaa7c1511994273a7711e135484e7ba",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Recruiter Review",
-          "agingBand": "🟡 3-5",
-          "department": "620100 - College Of Nurs"
-        },
-        {
-          "title": "Student Assistant",
-          "reqId": "43979",
-          "notionUrl": "https://www.notion.so/4284385c9b7843a3bacabe70152fad60",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Student Hiring",
-          "agingBand": "🟡 3-5",
-          "department": "STP Special Education"
-        },
-        {
           "title": "Career Coach",
           "reqId": "43724",
           "notionUrl": "https://www.notion.so/5e9d385e283c4133af129ca80cdf3388",
@@ -4908,126 +5028,6 @@
       "band": "🟢 0–2",
       "color": "#3B6D11",
       "records": [
-        {
-          "title": "Manager Project Research",
-          "reqId": "44375",
-          "notionUrl": "https://www.notion.so/b54398b0207c448e9901746386706684",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Recruiter Review",
-          "agingBand": "🟢 0–2",
-          "department": "614800 - Emergency Medicine"
-        },
-        {
-          "title": "Biostatistician",
-          "reqId": "44380",
-          "notionUrl": "https://www.notion.so/048f6cdafe0e4cc28233030f19dc771e",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Backlog",
-          "agingBand": "🟢 0–2",
-          "department": "620100 - College Of Nursing"
-        },
-        {
-          "title": "Assistant Director, Finance",
-          "reqId": "44381",
-          "notionUrl": "https://www.notion.so/b5e2269d7b44456c8c22e34d6e7a7c86",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Backlog",
-          "agingBand": "🟢 0–2",
-          "department": "610200 - MCOM Clinical"
-        },
-        {
-          "title": "Senior Financial Analyst -",
-          "reqId": "44382",
-          "notionUrl": "https://www.notion.so/0031a8324a6042db93078478144748ca",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Backlog",
-          "agingBand": "🟢 0–2",
-          "department": "610200 - MCOM Clinical"
-        },
-        {
-          "title": "Student Asst",
-          "reqId": "44385",
-          "notionUrl": "https://www.notion.so/57169d44ab144683800c82d7ab996948",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Backlog",
-          "agingBand": "🟢 0–2",
-          "department": "610405 - HPCC"
-        },
-        {
-          "title": "Student Assistant",
-          "reqId": "44393",
-          "notionUrl": "https://www.notion.so/3f9be251eae34e9a837506787a6a422b",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Backlog",
-          "agingBand": "🟢 0–2",
-          "department": "614800 - Emergency Medicine"
-        },
-        {
-          "title": "Other Hourly Prof Support",
-          "reqId": "44387",
-          "notionUrl": "https://www.notion.so/9f58d480dc0c4fa0952d1e8495c17a08",
-          "owner": "Rebecca",
-          "campus": "",
-          "stage": "Backlog",
-          "agingBand": "🟢 0–2",
-          "department": "611900 - Department Of"
-        },
-        {
-          "title": "Research Support Assista",
-          "reqId": "44337",
-          "notionUrl": "https://www.notion.so/1d8e6630b1bb4db4a276fbc11a624cad",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Recruiter Review",
-          "agingBand": "🟢 0–2",
-          "department": "620100 - College Of Nurs"
-        },
-        {
-          "title": "Admin Specialist",
-          "reqId": "44360",
-          "notionUrl": "https://www.notion.so/a1eb8e6db2b74226b740a9a9c2e569ba",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Recruiter Review",
-          "agingBand": "🟢 0–2",
-          "department": "640100 - COPH Office Of"
-        },
-        {
-          "title": "Prelicensure Placement M",
-          "reqId": "44293",
-          "notionUrl": "https://www.notion.so/006a79fbde3148b8a802dc2e18f15594",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Recruiter Review",
-          "agingBand": "🟢 0–2",
-          "department": "620100 - College Of Nurs"
-        },
-        {
-          "title": "Senior Dept Administrator",
-          "reqId": "44311",
-          "notionUrl": "https://www.notion.so/add219c906f24815930529f7db96cac7",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "HM Review",
-          "agingBand": "🟢 0–2",
-          "department": "612000 - Department Of"
-        },
-        {
-          "title": "Assistant Director of Grad",
-          "reqId": "44323",
-          "notionUrl": "https://www.notion.so/8a82496a50c247d18c2c946c6fa902af",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Recruiter Review",
-          "agingBand": "🟢 0–2",
-          "department": "638000 - College Of Phar"
-        },
         {
           "title": "Office Assistant - Part Time Temporary",
           "reqId": "44054",
@@ -9874,9 +9874,9 @@
       {
         "recruiter": "Rebecca",
         "color": "#1B6A9C",
-        "stalled": 222,
+        "stalled": 238,
         "totalActive": 250,
-        "stallRatePct": 89
+        "stallRatePct": 95
       },
       {
         "recruiter": "John",
@@ -9888,9 +9888,9 @@
       {
         "recruiter": "Gabriel",
         "color": "#00A693",
-        "stalled": 17,
+        "stalled": 18,
         "totalActive": 30,
-        "stallRatePct": 57
+        "stallRatePct": 60
       }
     ],
     "seasonalHiringTrends": [
@@ -10424,6 +10424,136 @@
           "color": "#A32D2D",
           "records": [
             {
+              "title": "Human Services Practitio",
+              "reqId": "44329",
+              "notionUrl": "https://www.notion.so/d64c564daea548219b6829b3e54a5039",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "Recruiter Review",
+              "agingBand": "🔴 6+",
+              "department": "611900 - Department Of"
+            },
+            {
+              "title": "Data Analysis Student",
+              "reqId": "44339",
+              "notionUrl": "https://www.notion.so/d2af079ccd3041228f4aba4f0f20e4f8",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "Student Hiring",
+              "agingBand": "🔴 6+",
+              "department": "620100 - College Of Nurs"
+            },
+            {
+              "title": "Student Assistant",
+              "reqId": "44350",
+              "notionUrl": "https://www.notion.so/e45f9de6744f484992ba055c9299d4e4",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "Student Hiring",
+              "agingBand": "🔴 6+",
+              "department": "614400 - Molecular Medi"
+            },
+            {
+              "title": "Senior Research Support",
+              "reqId": "44356",
+              "notionUrl": "https://www.notion.so/ec761ce0644a432eb19a281c03bf6b81",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "Backlog",
+              "agingBand": "🔴 6+",
+              "department": "611900 - Department Of"
+            },
+            {
+              "title": "Clinical Research Coordin",
+              "reqId": "44359",
+              "notionUrl": "https://www.notion.so/26784c2d0a554b318c5646de9895466c",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "Backlog",
+              "agingBand": "🔴 6+",
+              "department": "612500 - Dept Of Neurol"
+            },
+            {
+              "title": "Postdoctoral Scholar Research",
+              "reqId": "44275",
+              "notionUrl": "https://www.notion.so/2549056becab4c6e9853582476970db4",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "Backlog",
+              "agingBand": "🔴 6+",
+              "department": "612300 - Dept Of Interna"
+            },
+            {
+              "title": "Student Asst - FWS",
+              "reqId": "44282",
+              "notionUrl": "https://www.notion.so/3fd383874a784dfe8761aa43af3e2d90",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "Student Hiring",
+              "agingBand": "🔴 6+",
+              "department": "614400 - Molecular Medi"
+            },
+            {
+              "title": "Project Manager",
+              "reqId": "44295",
+              "notionUrl": "https://www.notion.so/bf7dc9196b1c47639e4d803bcabf2728",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "HM Review",
+              "agingBand": "🔴 6+",
+              "department": "643200 - Health Policy &"
+            },
+            {
+              "title": "Simulation Operations Sp",
+              "reqId": "44280",
+              "notionUrl": "https://www.notion.so/fc04f3fff7e94625b12cdc2a7e7e51b7",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "Backlog",
+              "agingBand": "🔴 6+",
+              "department": "610405 - HPCC"
+            },
+            {
+              "title": "Fiscal & Business Analyst",
+              "reqId": "44303",
+              "notionUrl": "https://www.notion.so/66c9ae038f70424b914ac918eff3e9ed",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "Backlog",
+              "agingBand": "🔴 6+",
+              "department": "600105 - Health Sciences"
+            },
+            {
+              "title": "Clinical Research Coordinator",
+              "reqId": "44305",
+              "notionUrl": "https://www.notion.so/776dc32b4f0e49a28b1368c67da27932",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "Backlog",
+              "agingBand": "🔴 6+",
+              "department": "612000 - Department Of"
+            },
+            {
+              "title": "Student Assistant - FWS",
+              "reqId": "44322",
+              "notionUrl": "https://www.notion.so/a9a3219deab14c6eb0172537057137af",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "Student Hiring",
+              "agingBand": "🔴 6+",
+              "department": "612500 - Dept Of Neurol"
+            },
+            {
+              "title": "Administrative Specialist",
+              "reqId": "44325",
+              "notionUrl": "https://www.notion.so/6c77342276cb49f2978596825657dbe3",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "Backlog",
+              "agingBand": "🔴 6+",
+              "department": "612200 - Dept Of OB/GY"
+            },
+            {
               "title": "Human Services Practitioner",
               "reqId": "44271",
               "notionUrl": "https://www.notion.so/6d159096805b451a8e4c610b9a0058a1",
@@ -10594,6 +10724,16 @@
               "department": "660100 - USF Health Shir"
             },
             {
+              "title": "Academic Services Admin",
+              "reqId": "44196",
+              "notionUrl": "https://www.notion.so/00bb5816fa584dca8bafba20e2155cdb",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "HM Review",
+              "agingBand": "🔴 6+",
+              "department": "643400 - Global Env & Ge"
+            },
+            {
               "title": "Clinical Research Coordin",
               "reqId": "44198",
               "notionUrl": "https://www.notion.so/22e3211532b441a199e545e5352da90c",
@@ -10652,6 +10792,16 @@
               "stage": "HM Review",
               "agingBand": "🔴 6+",
               "department": "611800 - Department Of"
+            },
+            {
+              "title": "OPS Bioinformatics I",
+              "reqId": "44206",
+              "notionUrl": "https://www.notion.so/c01c8ec68ea34ab5b88cdb80f53d16a5",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "Interview Stage",
+              "agingBand": "🔴 6+",
+              "department": "643400 - Global Env & Ge"
             },
             {
               "title": "Postdoctoral Scholar Rese",
@@ -11012,6 +11162,16 @@
               "stage": "HM Review",
               "agingBand": "🔴 6+",
               "department": "032300 - Health Human I"
+            },
+            {
+              "title": "Clerical and Secretarial",
+              "reqId": "44007",
+              "notionUrl": "https://www.notion.so/fbaa7c1511994273a7711e135484e7ba",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "Recruiter Review",
+              "agingBand": "🔴 6+",
+              "department": "620100 - College Of Nurs"
             },
             {
               "title": "Manager Fiscal and Busin",
@@ -13970,164 +14130,124 @@
           "color": "#BA7517",
           "records": [
             {
-              "title": "Human Services Practitio",
-              "reqId": "44329",
-              "notionUrl": "https://www.notion.so/d64c564daea548219b6829b3e54a5039",
+              "title": "Manager Project Research",
+              "reqId": "44375",
+              "notionUrl": "https://www.notion.so/b54398b0207c448e9901746386706684",
               "owner": "Rebecca",
-              "campus": "USF Health",
+              "campus": "",
               "stage": "Recruiter Review",
               "agingBand": "🟡 3-5",
-              "department": "611900 - Department Of"
+              "department": "614800 - Emergency Medicine"
             },
             {
-              "title": "Data Analysis Student",
-              "reqId": "44339",
-              "notionUrl": "https://www.notion.so/d2af079ccd3041228f4aba4f0f20e4f8",
+              "title": "Biostatistician",
+              "reqId": "44380",
+              "notionUrl": "https://www.notion.so/048f6cdafe0e4cc28233030f19dc771e",
               "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Student Hiring",
-              "agingBand": "🟡 3-5",
-              "department": "620100 - College Of Nurs"
-            },
-            {
-              "title": "Student Assistant",
-              "reqId": "44350",
-              "notionUrl": "https://www.notion.so/e45f9de6744f484992ba055c9299d4e4",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Student Hiring",
-              "agingBand": "🟡 3-5",
-              "department": "614400 - Molecular Medi"
-            },
-            {
-              "title": "Senior Research Support",
-              "reqId": "44356",
-              "notionUrl": "https://www.notion.so/ec761ce0644a432eb19a281c03bf6b81",
-              "owner": "Rebecca",
-              "campus": "USF Health",
+              "campus": "",
               "stage": "Backlog",
               "agingBand": "🟡 3-5",
-              "department": "611900 - Department Of"
+              "department": "620100 - College Of Nursing"
             },
             {
-              "title": "Clinical Research Coordin",
-              "reqId": "44359",
-              "notionUrl": "https://www.notion.so/26784c2d0a554b318c5646de9895466c",
+              "title": "Assistant Director, Finance",
+              "reqId": "44381",
+              "notionUrl": "https://www.notion.so/b5e2269d7b44456c8c22e34d6e7a7c86",
               "owner": "Rebecca",
-              "campus": "USF Health",
+              "campus": "",
               "stage": "Backlog",
               "agingBand": "🟡 3-5",
-              "department": "612500 - Dept Of Neurol"
+              "department": "610200 - MCOM Clinical"
             },
             {
-              "title": "Postdoctoral Scholar Research",
-              "reqId": "44275",
-              "notionUrl": "https://www.notion.so/2549056becab4c6e9853582476970db4",
+              "title": "Senior Financial Analyst -",
+              "reqId": "44382",
+              "notionUrl": "https://www.notion.so/0031a8324a6042db93078478144748ca",
               "owner": "Rebecca",
-              "campus": "USF Health",
+              "campus": "",
               "stage": "Backlog",
               "agingBand": "🟡 3-5",
-              "department": "612300 - Dept Of Interna"
+              "department": "610200 - MCOM Clinical"
             },
             {
-              "title": "Student Asst - FWS",
-              "reqId": "44282",
-              "notionUrl": "https://www.notion.so/3fd383874a784dfe8761aa43af3e2d90",
+              "title": "Student Asst",
+              "reqId": "44385",
+              "notionUrl": "https://www.notion.so/57169d44ab144683800c82d7ab996948",
               "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Student Hiring",
-              "agingBand": "🟡 3-5",
-              "department": "614400 - Molecular Medi"
-            },
-            {
-              "title": "Project Manager",
-              "reqId": "44295",
-              "notionUrl": "https://www.notion.so/bf7dc9196b1c47639e4d803bcabf2728",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "HM Review",
-              "agingBand": "🟡 3-5",
-              "department": "643200 - Health Policy &"
-            },
-            {
-              "title": "Simulation Operations Sp",
-              "reqId": "44280",
-              "notionUrl": "https://www.notion.so/fc04f3fff7e94625b12cdc2a7e7e51b7",
-              "owner": "Rebecca",
-              "campus": "USF Health",
+              "campus": "",
               "stage": "Backlog",
               "agingBand": "🟡 3-5",
               "department": "610405 - HPCC"
             },
             {
-              "title": "Fiscal & Business Analyst",
-              "reqId": "44303",
-              "notionUrl": "https://www.notion.so/66c9ae038f70424b914ac918eff3e9ed",
+              "title": "Student Assistant",
+              "reqId": "44393",
+              "notionUrl": "https://www.notion.so/3f9be251eae34e9a837506787a6a422b",
               "owner": "Rebecca",
-              "campus": "USF Health",
+              "campus": "",
               "stage": "Backlog",
               "agingBand": "🟡 3-5",
-              "department": "600105 - Health Sciences"
+              "department": "614800 - Emergency Medicine"
             },
             {
-              "title": "Clinical Research Coordinator",
-              "reqId": "44305",
-              "notionUrl": "https://www.notion.so/776dc32b4f0e49a28b1368c67da27932",
+              "title": "Other Hourly Prof Support",
+              "reqId": "44387",
+              "notionUrl": "https://www.notion.so/9f58d480dc0c4fa0952d1e8495c17a08",
               "owner": "Rebecca",
-              "campus": "USF Health",
+              "campus": "",
               "stage": "Backlog",
               "agingBand": "🟡 3-5",
-              "department": "612000 - Department Of"
+              "department": "611900 - Department Of"
             },
             {
-              "title": "Student Assistant - FWS",
-              "reqId": "44322",
-              "notionUrl": "https://www.notion.so/a9a3219deab14c6eb0172537057137af",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Student Hiring",
-              "agingBand": "🟡 3-5",
-              "department": "612500 - Dept Of Neurol"
-            },
-            {
-              "title": "Administrative Specialist",
-              "reqId": "44325",
-              "notionUrl": "https://www.notion.so/6c77342276cb49f2978596825657dbe3",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Backlog",
-              "agingBand": "🟡 3-5",
-              "department": "612200 - Dept Of OB/GY"
-            },
-            {
-              "title": "Academic Services Admin",
-              "reqId": "44196",
-              "notionUrl": "https://www.notion.so/00bb5816fa584dca8bafba20e2155cdb",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "HM Review",
-              "agingBand": "🟡 3-5",
-              "department": "643400 - Global Env & Ge"
-            },
-            {
-              "title": "OPS Bioinformatics I",
-              "reqId": "44206",
-              "notionUrl": "https://www.notion.so/c01c8ec68ea34ab5b88cdb80f53d16a5",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Interview Stage",
-              "agingBand": "🟡 3-5",
-              "department": "643400 - Global Env & Ge"
-            },
-            {
-              "title": "Clerical and Secretarial",
-              "reqId": "44007",
-              "notionUrl": "https://www.notion.so/fbaa7c1511994273a7711e135484e7ba",
+              "title": "Research Support Assista",
+              "reqId": "44337",
+              "notionUrl": "https://www.notion.so/1d8e6630b1bb4db4a276fbc11a624cad",
               "owner": "Rebecca",
               "campus": "USF Health",
               "stage": "Recruiter Review",
               "agingBand": "🟡 3-5",
               "department": "620100 - College Of Nurs"
+            },
+            {
+              "title": "Admin Specialist",
+              "reqId": "44360",
+              "notionUrl": "https://www.notion.so/a1eb8e6db2b74226b740a9a9c2e569ba",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "Recruiter Review",
+              "agingBand": "🟡 3-5",
+              "department": "640100 - COPH Office Of"
+            },
+            {
+              "title": "Prelicensure Placement M",
+              "reqId": "44293",
+              "notionUrl": "https://www.notion.so/006a79fbde3148b8a802dc2e18f15594",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "Recruiter Review",
+              "agingBand": "🟡 3-5",
+              "department": "620100 - College Of Nurs"
+            },
+            {
+              "title": "Senior Dept Administrator",
+              "reqId": "44311",
+              "notionUrl": "https://www.notion.so/add219c906f24815930529f7db96cac7",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "HM Review",
+              "agingBand": "🟡 3-5",
+              "department": "612000 - Department Of"
+            },
+            {
+              "title": "Assistant Director of Grad",
+              "reqId": "44323",
+              "notionUrl": "https://www.notion.so/8a82496a50c247d18c2c946c6fa902af",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "Recruiter Review",
+              "agingBand": "🟡 3-5",
+              "department": "638000 - College Of Phar"
             },
             {
               "title": "Standardized Patient",
@@ -14144,128 +14264,7 @@
         {
           "band": "🟢 0–2",
           "color": "#3B6D11",
-          "records": [
-            {
-              "title": "Manager Project Research",
-              "reqId": "44375",
-              "notionUrl": "https://www.notion.so/b54398b0207c448e9901746386706684",
-              "owner": "Rebecca",
-              "campus": "",
-              "stage": "Recruiter Review",
-              "agingBand": "🟢 0–2",
-              "department": "614800 - Emergency Medicine"
-            },
-            {
-              "title": "Biostatistician",
-              "reqId": "44380",
-              "notionUrl": "https://www.notion.so/048f6cdafe0e4cc28233030f19dc771e",
-              "owner": "Rebecca",
-              "campus": "",
-              "stage": "Backlog",
-              "agingBand": "🟢 0–2",
-              "department": "620100 - College Of Nursing"
-            },
-            {
-              "title": "Assistant Director, Finance",
-              "reqId": "44381",
-              "notionUrl": "https://www.notion.so/b5e2269d7b44456c8c22e34d6e7a7c86",
-              "owner": "Rebecca",
-              "campus": "",
-              "stage": "Backlog",
-              "agingBand": "🟢 0–2",
-              "department": "610200 - MCOM Clinical"
-            },
-            {
-              "title": "Senior Financial Analyst -",
-              "reqId": "44382",
-              "notionUrl": "https://www.notion.so/0031a8324a6042db93078478144748ca",
-              "owner": "Rebecca",
-              "campus": "",
-              "stage": "Backlog",
-              "agingBand": "🟢 0–2",
-              "department": "610200 - MCOM Clinical"
-            },
-            {
-              "title": "Student Asst",
-              "reqId": "44385",
-              "notionUrl": "https://www.notion.so/57169d44ab144683800c82d7ab996948",
-              "owner": "Rebecca",
-              "campus": "",
-              "stage": "Backlog",
-              "agingBand": "🟢 0–2",
-              "department": "610405 - HPCC"
-            },
-            {
-              "title": "Student Assistant",
-              "reqId": "44393",
-              "notionUrl": "https://www.notion.so/3f9be251eae34e9a837506787a6a422b",
-              "owner": "Rebecca",
-              "campus": "",
-              "stage": "Backlog",
-              "agingBand": "🟢 0–2",
-              "department": "614800 - Emergency Medicine"
-            },
-            {
-              "title": "Other Hourly Prof Support",
-              "reqId": "44387",
-              "notionUrl": "https://www.notion.so/9f58d480dc0c4fa0952d1e8495c17a08",
-              "owner": "Rebecca",
-              "campus": "",
-              "stage": "Backlog",
-              "agingBand": "🟢 0–2",
-              "department": "611900 - Department Of"
-            },
-            {
-              "title": "Research Support Assista",
-              "reqId": "44337",
-              "notionUrl": "https://www.notion.so/1d8e6630b1bb4db4a276fbc11a624cad",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Recruiter Review",
-              "agingBand": "🟢 0–2",
-              "department": "620100 - College Of Nurs"
-            },
-            {
-              "title": "Admin Specialist",
-              "reqId": "44360",
-              "notionUrl": "https://www.notion.so/a1eb8e6db2b74226b740a9a9c2e569ba",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Recruiter Review",
-              "agingBand": "🟢 0–2",
-              "department": "640100 - COPH Office Of"
-            },
-            {
-              "title": "Prelicensure Placement M",
-              "reqId": "44293",
-              "notionUrl": "https://www.notion.so/006a79fbde3148b8a802dc2e18f15594",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Recruiter Review",
-              "agingBand": "🟢 0–2",
-              "department": "620100 - College Of Nurs"
-            },
-            {
-              "title": "Senior Dept Administrator",
-              "reqId": "44311",
-              "notionUrl": "https://www.notion.so/add219c906f24815930529f7db96cac7",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "HM Review",
-              "agingBand": "🟢 0–2",
-              "department": "612000 - Department Of"
-            },
-            {
-              "title": "Assistant Director of Grad",
-              "reqId": "44323",
-              "notionUrl": "https://www.notion.so/8a82496a50c247d18c2c946c6fa902af",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Recruiter Review",
-              "agingBand": "🟢 0–2",
-              "department": "638000 - College Of Phar"
-            }
-          ]
+          "records": []
         }
       ],
       "stageMetrics": [
@@ -14343,21 +14342,21 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 222
+          "count": 238
         },
         {
           "label": "🟡 3-5",
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 16
+          "count": 12
         },
         {
           "label": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 12
+          "count": 0
         }
       ],
       "funnel": [
@@ -14444,6 +14443,16 @@
               "stage": "Recruiter Review",
               "agingBand": "🔴 6+",
               "department": "391000 - Fl Center For Cybersecurity"
+            },
+            {
+              "title": "Senior International Programs Administrator",
+              "reqId": "44324",
+              "notionUrl": "https://www.notion.so/9334df4dfdf34f949a4336dad260abd9",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Canceled",
+              "agingBand": "🔴 6+",
+              "department": "490000 - USF World"
             },
             {
               "title": "Student Asst - FWS",
@@ -16092,16 +16101,6 @@
               "department": "043600 - Residential Education"
             },
             {
-              "title": "Senior International Programs Administrator",
-              "reqId": "44324",
-              "notionUrl": "https://www.notion.so/9334df4dfdf34f949a4336dad260abd9",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Canceled",
-              "agingBand": "🟡 3-5",
-              "department": "490000 - USF World"
-            },
-            {
               "title": "Events Coordinator",
               "reqId": "44228",
               "notionUrl": "https://www.notion.so/be8b30695c614a3f86121cfc54efa704",
@@ -16508,6 +16507,16 @@
               "department": "171400 - Teaching & Learning"
             },
             {
+              "title": "Student Assistant - FWS",
+              "reqId": "44178",
+              "notionUrl": "https://www.notion.so/07740228a5ed4393b9865237a519d25e",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Hired",
+              "agingBand": "🔴 6+",
+              "department": "510402 - STP Student Cc"
+            },
+            {
               "title": "OPS / Temporary Marine",
               "reqId": "44180",
               "notionUrl": "https://www.notion.so/93a718c56eaf4fd8a3a4c3995b21262b",
@@ -16806,6 +16815,16 @@
               "stage": "Hired",
               "agingBand": "🔴 6+",
               "department": "210500 - Mechanical Engineering"
+            },
+            {
+              "title": "Student Assistant",
+              "reqId": "43979",
+              "notionUrl": "https://www.notion.so/4284385c9b7843a3bacabe70152fad60",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Student Hiring",
+              "agingBand": "🔴 6+",
+              "department": "STP Special Education"
             },
             {
               "title": "Graduate Assistant",
@@ -17156,6 +17175,16 @@
               "stage": "Hired",
               "agingBand": "🔴 6+",
               "department": "STP Academic Affairs"
+            },
+            {
+              "title": "Camp Counselor (OPS Hourly)",
+              "reqId": "43165",
+              "notionUrl": "https://www.notion.so/f72eabbd2cb44cf9bb82a382750886e0",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Hired",
+              "agingBand": "🔴 6+",
+              "department": "STP Student Success"
             },
             {
               "title": "Clerical and Secretarial Support",
@@ -17754,16 +17783,6 @@
               "department": "210700 - Chemical & Biomedical Engineering"
             },
             {
-              "title": "Student Assistant - FWS",
-              "reqId": "44178",
-              "notionUrl": "https://www.notion.so/07740228a5ed4393b9865237a519d25e",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Hired",
-              "agingBand": "🟡 3-5",
-              "department": "510402 - STP Student Cc"
-            },
-            {
               "title": "Academic Svcs. Administrator",
               "reqId": "44191",
               "notionUrl": "https://www.notion.so/4cf80f19f27443de92cb67064c40723a",
@@ -18114,16 +18133,6 @@
               "department": "Engineering"
             },
             {
-              "title": "Student Assistant",
-              "reqId": "43979",
-              "notionUrl": "https://www.notion.so/4284385c9b7843a3bacabe70152fad60",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Student Hiring",
-              "agingBand": "🟡 3-5",
-              "department": "STP Special Education"
-            },
-            {
               "title": "Adjunct - Civil & Environmental Engineering",
               "reqId": "43935",
               "notionUrl": "https://www.notion.so/8a3ecf161dbc40e09a8240608a901b50",
@@ -18312,16 +18321,6 @@
               "stage": "Passive Hiring",
               "agingBand": "🟡 3-5",
               "department": "STP Arts And Sciences - Dean"
-            },
-            {
-              "title": "Camp Counselor (OPS Hourly)",
-              "reqId": "43165",
-              "notionUrl": "https://www.notion.so/f72eabbd2cb44cf9bb82a382750886e0",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Hired",
-              "agingBand": "🟡 3-5",
-              "department": "STP Student Success"
             },
             {
               "title": "School Improvement Coordinator",
@@ -18641,14 +18640,14 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 17
+          "count": 18
         },
         {
           "label": "🟡 3-5",
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 13
+          "count": 12
         },
         {
           "label": "🟢 0–2",
