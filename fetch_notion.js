@@ -190,7 +190,12 @@ async function main() {
     'Recruiter Review', 'Sourced', 'Screened', 'HM Review',
     'Interview Stage', 'Offer Stage', 'Pre-boarding', 'Backlog',
     'Targeted', 'Posted', 'Active (WIP)', 'Student Hiring', 'Faculty',
-    'Open', 'Active', 'Passive', 'Screening'
+    'Open', 'Active', 'Passive', 'Screening',
+    // Current Notion Stage dropdown values as of Sep 2026 — the four below were
+    // renamed/added at some point without this list being updated, which silently
+    // excluded ~154 genuinely-open reqs from every active-based calculation
+    // (Open Reqs, aging heatmap, Insights tab) dashboard-wide.
+    'Passive Hiring', 'Faculty Hiring', 'Evergreen / Continuous Pool', 'Targeted Hiring'
   ];
 
   const activeRecords = records.filter(r => {
@@ -222,7 +227,9 @@ async function main() {
     'HM Review': '#993556', 'Interview Stage': '#534AB7', 'Offer Stage': '#0F6E56',
     'Pre-boarding': '#888780', 'Backlog': '#888780', 'Targeted': '#888780',
     'Student Hiring': '#0F6E56', 'Faculty': '#534AB7',
-    'Passive': '#5B8FA8', 'Active': '#00A693', 'Screening': '#BA7517'
+    'Passive': '#5B8FA8', 'Active': '#00A693', 'Screening': '#BA7517',
+    'Passive Hiring': '#5B8FA8', 'Faculty Hiring': '#534AB7',
+    'Evergreen / Continuous Pool': '#6B8E4E', 'Targeted Hiring': '#888780'
   };
 
   const agingBands = [
@@ -264,7 +271,9 @@ async function main() {
     'Recruiter Review': '#006747', 'Sourced': '#00A693', 'Screened': '#1B6A9C',
     'HM Review': '#534AB7', 'Interview Stage': '#d4880a', 'Offer Stage': '#CFC483',
     'Pre-boarding': '#5B8FA8', 'Backlog': '#888780', 'Targeted': '#7A9EB5',
-    'Student Hiring': '#0F6E56', 'Faculty': '#993556'
+    'Student Hiring': '#0F6E56', 'Faculty': '#993556',
+    'Passive Hiring': '#5B8FA8', 'Faculty Hiring': '#993556',
+    'Evergreen / Continuous Pool': '#6B8E4E', 'Targeted Hiring': '#7A9EB5'
   };
   const stageOrder = ['Sourced','Recruiter Review','Screened','HM Review','Interview Stage','Offer Stage','Pre-boarding'];
 
@@ -319,6 +328,7 @@ async function main() {
       color: meta.color, bgLight: meta.bgLight, bgDark: meta.bgDark,
       campus: meta.campus,
       reqs: allMyRecs.length,
+      activeReqs: myActive.length,
       filled, failed, ttf: avgTTF,
       wip: allMyRecs.filter(r => getProp(r, 'WIP ✅', 'checkbox') === true).length,
       agingRecords: agingBands.map(band => ({
