@@ -289,13 +289,13 @@ function renderMainPage(data) {
   <p style="font-size:9px;color:#bbb;font-style:italic;margin:6px 0 0;">These numbers reflect this dashboard's live pipeline, synced from Notion every 30 minutes. Power BI numbers may differ — it refreshes on its own schedule and can be filtered to a different subset (e.g. a single stage or date range), so the two aren't expected to match exactly.</p>`;
 
   // Recruiter load vertical bars
-  const maxReqs = Math.max(...recruiters.map(r => r.reqs || 0), 1);
+  const maxReqs = Math.max(...recruiters.map(r => r.activeReqs || 0), 1);
   const vbarCols = recruiters.map(r => {
-    const hasData = (r.reqs || 0) > 0;
-    const heightPx = hasData ? Math.max(8, Math.round((r.reqs / maxReqs) * 110)) : 8;
+    const hasData = (r.activeReqs || 0) > 0;
+    const heightPx = hasData ? Math.max(8, Math.round((r.activeReqs / maxReqs) * 110)) : 8;
     const barStyle = hasData ? `height:${heightPx}px; width:100%; background:${r.color || '#888'};` : 'height:8px; width:100%;';
     const barClass = hasData ? 'vbar-bar' : 'vbar-bar vbar-pending';
-    const countText = hasData ? r.reqs : '-';
+    const countText = hasData ? r.activeReqs : '-';
     const countColor = hasData ? (r.color || '#1a1a1a') : '#bbb';
     return `<div class="vbar-col">
       <span class="vbar-count" style="color:${countColor};">${countText}</span>
