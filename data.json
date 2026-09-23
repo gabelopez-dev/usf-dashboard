@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-09-23T07:30:44.122Z",
+  "lastUpdated": "2026-09-23T13:26:31.415Z",
   "summary": {
     "openReqs": 458,
     "avgTimeToFill": 101,
     "filledYTD": 308,
     "failedCancelled": 45,
-    "inOfferStage": 27
+    "inOfferStage": 26
   },
   "campus": [
     {
@@ -45,7 +45,7 @@
     },
     {
       "label": "Student Hiring",
-      "count": 45
+      "count": 44
     },
     {
       "label": "Backlog",
@@ -53,11 +53,11 @@
     },
     {
       "label": "Offer Stage",
-      "count": 27
+      "count": 26
     },
     {
       "label": "Pre-boarding",
-      "count": 24
+      "count": 26
     },
     {
       "label": "Interview Stage",
@@ -74,21 +74,21 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 423
+      "count": 426
     },
     {
       "label": "🟡 3-5",
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 15
+      "count": 11
     },
     {
       "label": "🟢 0–2",
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 20
+      "count": 21
     }
   ],
   "agingRecords": [
@@ -96,6 +96,46 @@
       "band": "🔴 6+",
       "color": "#A32D2D",
       "records": [
+        {
+          "title": "Admissions Evaluator",
+          "reqId": "44355",
+          "notionUrl": "https://www.notion.so/4908056bebdc463db0bf5c3feea63521",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🔴 6+",
+          "department": "371000 - Admissions"
+        },
+        {
+          "title": "Student Assistant",
+          "reqId": "44384",
+          "notionUrl": "https://www.notion.so/e344a43c07a54519b28f915dd8b7ad6c",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Student Hiring",
+          "agingBand": "🔴 6+",
+          "department": "040402 - Leadership & Civic Engagement"
+        },
+        {
+          "title": "Athletics Assistant/Strength & Conditioning",
+          "reqId": "44366",
+          "notionUrl": "https://www.notion.so/912da91924294b049872e1667bc6756c",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Offer Stage",
+          "agingBand": "🔴 6+",
+          "department": "051000 - Athletic Administration"
+        },
+        {
+          "title": "Athletics Assistant- Equipment Operations/Football",
+          "reqId": "44378",
+          "notionUrl": "https://www.notion.so/1d0ccaa1a8c442cc96f421bbb9788b85",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Offer Stage",
+          "agingBand": "🔴 6+",
+          "department": "051000 - Athletic Administration"
+        },
         {
           "title": "Human Services Practitio",
           "reqId": "44329",
@@ -1225,16 +1265,6 @@
           "stage": "HM Review",
           "agingBand": "🔴 6+",
           "department": "611900 - Department Of"
-        },
-        {
-          "title": "Graduate Assistant - ROTC Living Learning Community",
-          "reqId": "44083",
-          "notionUrl": "https://www.notion.so/422470aaa92349488c515ad6279bc075",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Student Hiring",
-          "agingBand": "🔴 6+",
-          "department": "060310 - Joint Military Leadership Ctr"
         },
         {
           "title": "Audience Growth Manager",
@@ -4343,46 +4373,6 @@
           "department": "614800 - Emergency Medicine"
         },
         {
-          "title": "Admissions Evaluator",
-          "reqId": "44355",
-          "notionUrl": "https://www.notion.so/4908056bebdc463db0bf5c3feea63521",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "HM Review",
-          "agingBand": "🟡 3-5",
-          "department": "371000 - Admissions"
-        },
-        {
-          "title": "Student Assistant",
-          "reqId": "44384",
-          "notionUrl": "https://www.notion.so/e344a43c07a54519b28f915dd8b7ad6c",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Student Hiring",
-          "agingBand": "🟡 3-5",
-          "department": "040402 - Leadership & Civic Engagement"
-        },
-        {
-          "title": "Athletics Assistant/Strength & Conditioning",
-          "reqId": "44366",
-          "notionUrl": "https://www.notion.so/912da91924294b049872e1667bc6756c",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Offer Stage",
-          "agingBand": "🟡 3-5",
-          "department": "051000 - Athletic Administration"
-        },
-        {
-          "title": "Athletics Assistant- Equipment Operations/Football",
-          "reqId": "44378",
-          "notionUrl": "https://www.notion.so/1d0ccaa1a8c442cc96f421bbb9788b85",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Offer Stage",
-          "agingBand": "🟡 3-5",
-          "department": "051000 - Athletic Administration"
-        },
-        {
           "title": "Research Support Assista",
           "reqId": "44337",
           "notionUrl": "https://www.notion.so/1d8e6630b1bb4db4a276fbc11a624cad",
@@ -4554,7 +4544,7 @@
           "notionUrl": "https://www.notion.so/b901d072995945cbad955cf56a430067",
           "owner": "johncalebrese",
           "campus": "Tampa",
-          "stage": "Offer Stage",
+          "stage": "Pre-boarding",
           "agingBand": "🟢 0–2",
           "department": "391000 - Fl Center For Cybersecurity"
         },
@@ -4649,6 +4639,16 @@
           "department": "510200 - STP Student Life"
         },
         {
+          "title": "Graduate Assistant - ROTC Living Learning Community",
+          "reqId": "44083",
+          "notionUrl": "https://www.notion.so/422470aaa92349488c515ad6279bc075",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Offer Stage",
+          "agingBand": "🟢 0–2",
+          "department": "060310 - Joint Military Leadership Ctr"
+        },
+        {
           "title": "Transfer Success Specialist",
           "reqId": "44011",
           "notionUrl": "https://www.notion.so/eec0f79238b040029cfc7f060ebecdf3",
@@ -4664,7 +4664,7 @@
           "notionUrl": "https://www.notion.so/b30325fbd4984ae490370c473f99df8d",
           "owner": "johncalebrese",
           "campus": "Tampa",
-          "stage": "Offer Stage",
+          "stage": "Pre-boarding",
           "agingBand": "🟢 0–2",
           "department": "041500 - Counseling Center"
         },
@@ -9612,9 +9612,9 @@
       {
         "recruiter": "John",
         "color": "#1B6A9C",
-        "stalled": 45,
+        "stalled": 48,
         "totalActive": 57,
-        "stallRatePct": 79
+        "stallRatePct": 84
       },
       {
         "recruiter": "Gabriel",
@@ -14187,6 +14187,76 @@
           "color": "#A32D2D",
           "records": [
             {
+              "title": "Academic Advisor I",
+              "reqId": "44340",
+              "notionUrl": "https://www.notion.so/380ff7b9dc6948aaad0868f1234014c5",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🔴 6+",
+              "department": "388600 - UGS - Transfer Student Success"
+            },
+            {
+              "title": "Admissions Evaluator",
+              "reqId": "44355",
+              "notionUrl": "https://www.notion.so/4908056bebdc463db0bf5c3feea63521",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🔴 6+",
+              "department": "371000 - Admissions"
+            },
+            {
+              "title": "Administrative Specialist",
+              "reqId": "44357",
+              "notionUrl": "https://www.notion.so/d83041b002724737ba7ab74fd3071a69",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🔴 6+",
+              "department": "043000 - Student Health Services"
+            },
+            {
+              "title": "Student Assistant",
+              "reqId": "44384",
+              "notionUrl": "https://www.notion.so/e344a43c07a54519b28f915dd8b7ad6c",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Student Hiring",
+              "agingBand": "🔴 6+",
+              "department": "040402 - Leadership & Civic Engagement"
+            },
+            {
+              "title": "Business Analyst",
+              "reqId": "44369",
+              "notionUrl": "https://www.notion.so/fdcd9c15744441ab9fe9a1dfea8beee0",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🔴 6+",
+              "department": "041300 - Strategic Initiatives"
+            },
+            {
+              "title": "Athletics Assistant/Strength & Conditioning",
+              "reqId": "44366",
+              "notionUrl": "https://www.notion.so/912da91924294b049872e1667bc6756c",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Offer Stage",
+              "agingBand": "🔴 6+",
+              "department": "051000 - Athletic Administration"
+            },
+            {
+              "title": "Athletics Assistant- Equipment Operations/Football",
+              "reqId": "44378",
+              "notionUrl": "https://www.notion.so/1d0ccaa1a8c442cc96f421bbb9788b85",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Offer Stage",
+              "agingBand": "🔴 6+",
+              "department": "051000 - Athletic Administration"
+            },
+            {
               "title": "Residence Life Coordinator",
               "reqId": "44335",
               "notionUrl": "https://www.notion.so/60119a7efa4344dcbc5561863e3f4bea",
@@ -14555,16 +14625,6 @@
               "stage": "Hired",
               "agingBand": "🔴 6+",
               "department": "174400 - Fla Ctr For Instr Technology"
-            },
-            {
-              "title": "Graduate Assistant - ROTC Living Learning Community",
-              "reqId": "44083",
-              "notionUrl": "https://www.notion.so/422470aaa92349488c515ad6279bc075",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Student Hiring",
-              "agingBand": "🔴 6+",
-              "department": "060310 - Joint Military Leadership Ctr"
             },
             {
               "title": "Audience Growth Manager",
@@ -15883,76 +15943,6 @@
           "color": "#BA7517",
           "records": [
             {
-              "title": "Academic Advisor I",
-              "reqId": "44340",
-              "notionUrl": "https://www.notion.so/380ff7b9dc6948aaad0868f1234014c5",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟡 3-5",
-              "department": "388600 - UGS - Transfer Student Success"
-            },
-            {
-              "title": "Admissions Evaluator",
-              "reqId": "44355",
-              "notionUrl": "https://www.notion.so/4908056bebdc463db0bf5c3feea63521",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "HM Review",
-              "agingBand": "🟡 3-5",
-              "department": "371000 - Admissions"
-            },
-            {
-              "title": "Administrative Specialist",
-              "reqId": "44357",
-              "notionUrl": "https://www.notion.so/d83041b002724737ba7ab74fd3071a69",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟡 3-5",
-              "department": "043000 - Student Health Services"
-            },
-            {
-              "title": "Student Assistant",
-              "reqId": "44384",
-              "notionUrl": "https://www.notion.so/e344a43c07a54519b28f915dd8b7ad6c",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Student Hiring",
-              "agingBand": "🟡 3-5",
-              "department": "040402 - Leadership & Civic Engagement"
-            },
-            {
-              "title": "Business Analyst",
-              "reqId": "44369",
-              "notionUrl": "https://www.notion.so/fdcd9c15744441ab9fe9a1dfea8beee0",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟡 3-5",
-              "department": "041300 - Strategic Initiatives"
-            },
-            {
-              "title": "Athletics Assistant/Strength & Conditioning",
-              "reqId": "44366",
-              "notionUrl": "https://www.notion.so/912da91924294b049872e1667bc6756c",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Offer Stage",
-              "agingBand": "🟡 3-5",
-              "department": "051000 - Athletic Administration"
-            },
-            {
-              "title": "Athletics Assistant- Equipment Operations/Football",
-              "reqId": "44378",
-              "notionUrl": "https://www.notion.so/1d0ccaa1a8c442cc96f421bbb9788b85",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Offer Stage",
-              "agingBand": "🟡 3-5",
-              "department": "051000 - Athletic Administration"
-            },
-            {
               "title": "Office Assistant - Part Time Temporary",
               "reqId": "44054",
               "notionUrl": "https://www.notion.so/c915d02ef5b84eff8bba2a6b088f21b1",
@@ -16034,7 +16024,7 @@
               "notionUrl": "https://www.notion.so/b901d072995945cbad955cf56a430067",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "Offer Stage",
+              "stage": "Pre-boarding",
               "agingBand": "🟢 0–2",
               "department": "391000 - Fl Center For Cybersecurity"
             },
@@ -16049,12 +16039,22 @@
               "department": "210800 - AICC Bellini College Department"
             },
             {
+              "title": "Graduate Assistant - ROTC Living Learning Community",
+              "reqId": "44083",
+              "notionUrl": "https://www.notion.so/422470aaa92349488c515ad6279bc075",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Offer Stage",
+              "agingBand": "🟢 0–2",
+              "department": "060310 - Joint Military Leadership Ctr"
+            },
+            {
               "title": "Licensed Human Services Practitioner",
               "reqId": "43715",
               "notionUrl": "https://www.notion.so/b30325fbd4984ae490370c473f99df8d",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "Offer Stage",
+              "stage": "Pre-boarding",
               "agingBand": "🟢 0–2",
               "department": "041500 - Counseling Center"
             },
@@ -16126,17 +16126,17 @@
         },
         {
           "label": "Student Hiring",
-          "count": 15,
+          "count": 14,
           "color": "#0F6E56"
         },
         {
           "label": "Offer Stage",
-          "count": 7,
+          "count": 6,
           "color": "#0F6E56"
         },
         {
           "label": "Pre-boarding",
-          "count": 15,
+          "count": 17,
           "color": "#888780"
         },
         {
@@ -16156,21 +16156,21 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 45
+          "count": 48
         },
         {
           "label": "🟡 3-5",
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 6
+          "count": 2
         },
         {
           "label": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 6
+          "count": 7
         }
       ],
       "funnel": [
@@ -16192,7 +16192,7 @@
         },
         {
           "label": "Offer",
-          "count": 7
+          "count": 6
         }
       ],
       "goals": [
@@ -21776,7 +21776,7 @@
           "reqId": "44386",
           "owner": "johncalebrese",
           "campus": "Tampa",
-          "stage": "Offer Stage",
+          "stage": "Pre-boarding",
           "notionUrl": "https://www.notion.so/b901d072995945cbad955cf56a430067"
         },
         {
