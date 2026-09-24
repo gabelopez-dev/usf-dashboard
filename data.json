@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-23T23:53:18.536Z",
+  "lastUpdated": "2026-09-24T03:46:52.751Z",
   "summary": {
     "openReqs": 621,
-    "avgTimeToFill": 97,
+    "avgTimeToFill": 98,
     "filledYTD": 307,
     "failedCancelled": 46,
     "inOfferStage": 26
@@ -6484,43 +6484,43 @@
   "stageMetrics": [
     {
       "label": "Recruiter Review",
-      "avgDays": 23,
-      "count": 19,
+      "avgDays": 22,
+      "count": 21,
       "color": "#006747"
     },
     {
       "label": "HM Review",
-      "avgDays": 29,
+      "avgDays": 30,
       "count": 9,
       "color": "#534AB7"
     },
     {
       "label": "Interview Stage",
-      "avgDays": 32,
+      "avgDays": 33,
       "count": 9,
       "color": "#d4880a"
     },
     {
       "label": "Offer Stage",
-      "avgDays": 18,
+      "avgDays": 19,
       "count": 6,
       "color": "#CFC483"
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 14,
+      "avgDays": 15,
       "count": 17,
       "color": "#5B8FA8"
     },
     {
       "label": "Backlog",
-      "avgDays": 11,
-      "count": 5,
+      "avgDays": 4,
+      "count": 16,
       "color": "#888780"
     },
     {
       "label": "Passive Hiring",
-      "avgDays": 9,
+      "avgDays": 10,
       "count": 2,
       "color": "#5B8FA8"
     }
@@ -11391,7 +11391,7 @@
       "activeReqs": 31,
       "filled": 0,
       "failed": 0,
-      "ttf": 120,
+      "ttf": 121,
       "wip": 13,
       "agingRecords": [
         {
@@ -11794,7 +11794,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 120,
+          "value": 121,
           "target": 40,
           "invert": true
         },
@@ -11812,12 +11812,12 @@
         }
       ],
       "trend": [
-        120,
-        120,
-        120,
-        120,
-        120,
-        120
+        121,
+        121,
+        121,
+        121,
+        121,
+        121
       ]
     },
     {
@@ -15716,31 +15716,31 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 12,
+          "avgDays": 13,
           "count": 8,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 22,
+          "avgDays": 23,
           "count": 6,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 40,
+          "avgDays": 41,
           "count": 1,
           "color": "#d4880a"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 71,
+          "avgDays": 72,
           "count": 1,
           "color": "#CFC483"
         },
         {
           "label": "Backlog",
-          "avgDays": 3,
+          "avgDays": 4,
           "count": 3,
           "color": "#888780"
         }
@@ -17794,37 +17794,37 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 33,
+          "avgDays": 34,
           "count": 10,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 56,
+          "avgDays": 57,
           "count": 2,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 64,
+          "avgDays": 65,
           "count": 3,
           "color": "#d4880a"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 19,
+          "avgDays": 20,
           "count": 8,
           "color": "#5B8FA8"
         },
         {
           "label": "Passive Hiring",
-          "avgDays": 9,
+          "avgDays": 10,
           "count": 1,
           "color": "#5B8FA8"
         },
         {
           "label": "Backlog",
-          "avgDays": 43,
+          "avgDays": 44,
           "count": 1,
           "color": "#888780"
         }
@@ -17968,7 +17968,7 @@
       "activeReqs": 121,
       "filled": 85,
       "failed": 4,
-      "ttf": 80,
+      "ttf": 81,
       "wip": 5,
       "agingRecords": [
         {
@@ -20102,25 +20102,25 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 6,
+          "avgDays": 7,
           "count": 1,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 21,
+          "avgDays": 22,
           "count": 1,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 11,
+          "avgDays": 12,
           "count": 5,
           "color": "#d4880a"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 8,
+          "avgDays": 9,
           "count": 5,
           "color": "#CFC483"
         },
@@ -20132,13 +20132,13 @@
         },
         {
           "label": "Backlog",
-          "avgDays": 2,
+          "avgDays": 3,
           "count": 1,
           "color": "#888780"
         },
         {
           "label": "Passive Hiring",
-          "avgDays": 9,
+          "avgDays": 10,
           "count": 1,
           "color": "#5B8FA8"
         }
@@ -20254,7 +20254,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 80,
+          "value": 81,
           "target": 40,
           "invert": true
         },
@@ -20272,12 +20272,12 @@
         }
       ],
       "trend": [
-        80,
-        80,
-        80,
-        80,
-        80,
-        80
+        81,
+        81,
+        81,
+        81,
+        81,
+        81
       ]
     },
     {
@@ -21883,7 +21883,20 @@
           ]
         }
       ],
-      "stageMetrics": [],
+      "stageMetrics": [
+        {
+          "label": "Recruiter Review",
+          "avgDays": 1,
+          "count": 2,
+          "color": "#006747"
+        },
+        {
+          "label": "Backlog",
+          "avgDays": 1,
+          "count": 11,
+          "color": "#888780"
+        }
+      ],
       "statuses": [
         {
           "label": "Faculty Hiring",
