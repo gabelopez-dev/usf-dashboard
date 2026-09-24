@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-09-24T18:35:17.819Z",
+  "lastUpdated": "2026-09-24T22:05:31.525Z",
   "summary": {
-    "openReqs": 621,
+    "openReqs": 620,
     "avgTimeToFill": 97,
-    "filledYTD": 309,
+    "filledYTD": 310,
     "failedCancelled": 46,
     "inOfferStage": 22
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 316,
+      "count": 315,
       "color": "#1B6A9C"
     },
     {
@@ -49,7 +49,7 @@
     },
     {
       "label": "Student Hiring",
-      "count": 48
+      "count": 47
     },
     {
       "label": "Backlog",
@@ -104,7 +104,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 297
+      "count": 296
     }
   ],
   "agingRecords": [
@@ -3805,16 +3805,6 @@
           "department": "791000 - Research Integrity &Compliance"
         },
         {
-          "title": "Student Asst - FWS",
-          "reqId": "44248",
-          "notionUrl": "https://www.notion.so/46e36ed2d2ea4f5c8fb227466fbdf6cc",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Student Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "583001 - Dept Child And Family Studies"
-        },
-        {
           "title": "Applications Developer II",
           "reqId": "44218",
           "notionUrl": "https://www.notion.so/6233d98428bd464fb007dc8b24a4babf",
@@ -6355,7 +6345,7 @@
     },
     {
       "label": "Student",
-      "count": 66,
+      "count": 65,
       "color": "#1B6A9C"
     },
     {
@@ -6477,7 +6467,7 @@
     },
     {
       "label": "Other (166 depts)",
-      "count": 328,
+      "count": 327,
       "color": "#c8c7c2"
     }
   ],
@@ -9783,6 +9773,17 @@
       "notionUrl": "https://www.notion.so/2c67b612dee04fc2aa86214c65849a01"
     },
     {
+      "title": "Student Asst - FWS",
+      "reqId": "44248",
+      "owner": "Tameka Porter",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "583001 - Dept Child And Family Studies",
+      "reqType": "Student",
+      "ttf": 6,
+      "notionUrl": "https://www.notion.so/46e36ed2d2ea4f5c8fb227466fbdf6cc"
+    },
+    {
       "title": "Student Assistant/ Equipment Operations-Football",
       "reqId": "44266",
       "owner": "johncalebrese",
@@ -10694,6 +10695,13 @@
         "fillRatePct": 100
       },
       {
+        "department": "583001 - Dept Child And Family Studies",
+        "filled": 2,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
         "department": "510200 - STP Student Life",
         "filled": 2,
         "failed": 0,
@@ -11142,13 +11150,6 @@
         "fillRatePct": 0
       },
       {
-        "department": "583001 - Dept Child And Family Studies",
-        "filled": 1,
-        "failed": 0,
-        "cancelled": 0,
-        "fillRatePct": 100
-      },
-      {
         "department": "122900 - School Of Aging Studies",
         "filled": 1,
         "failed": 0,
@@ -11199,8 +11200,8 @@
       },
       {
         "reqType": "Student",
-        "avgDays": 69,
-        "count": 38
+        "avgDays": 68,
+        "count": 39
       },
       {
         "reqType": "Evergreen",
@@ -11226,8 +11227,8 @@
     "avgTTFByCampus": [
       {
         "campus": "Tampa",
-        "avgDays": 82,
-        "count": 127
+        "avgDays": 81,
+        "count": 128
       },
       {
         "campus": "USF Health",
@@ -11325,7 +11326,7 @@
         "recruiter": "Tameka",
         "color": "#00A693",
         "stalled": 2,
-        "totalActive": 140,
+        "totalActive": 139,
         "stallRatePct": 1
       }
     ],
@@ -20326,8 +20327,8 @@
       "bgDark": "#1c1852",
       "campus": "Tampa",
       "reqs": 157,
-      "activeReqs": 140,
-      "filled": 13,
+      "activeReqs": 139,
+      "filled": 14,
       "failed": 4,
       "ttf": 69,
       "wip": 10,
@@ -20743,7 +20744,7 @@
               "notionUrl": "https://www.notion.so/46e36ed2d2ea4f5c8fb227466fbdf6cc",
               "owner": "Tameka Porter",
               "campus": "Tampa",
-              "stage": "Student Hiring",
+              "stage": "Hired",
               "agingBand": "🟢 0–2",
               "department": "583001 - Dept Child And Family Studies"
             },
@@ -21947,7 +21948,7 @@
         },
         {
           "label": "Student Hiring",
-          "count": 12,
+          "count": 11,
           "color": "#0F6E56"
         },
         {
@@ -21991,13 +21992,13 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 138
+          "count": 137
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 140
+          "count": 139
         },
         {
           "label": "Screened",
@@ -22019,7 +22020,7 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 13,
+          "value": 14,
           "target": 10,
           "invert": false
         },
@@ -22056,14 +22057,14 @@
     {
       "field": "Stage",
       "missingCount": 0,
-      "totalActive": 621,
+      "totalActive": 620,
       "pct": 0,
       "records": []
     },
     {
       "field": "Department/College",
       "missingCount": 1,
-      "totalActive": 621,
+      "totalActive": 620,
       "pct": 0,
       "records": [
         {
@@ -22079,7 +22080,7 @@
     {
       "field": "Req Type",
       "missingCount": 6,
-      "totalActive": 621,
+      "totalActive": 620,
       "pct": 1,
       "records": [
         {
@@ -22135,7 +22136,7 @@
     {
       "field": "Campus",
       "missingCount": 17,
-      "totalActive": 621,
+      "totalActive": 620,
       "pct": 3,
       "records": [
         {
@@ -22279,8 +22280,8 @@
     {
       "field": "HRBP",
       "missingCount": 183,
-      "totalActive": 621,
-      "pct": 29,
+      "totalActive": 620,
+      "pct": 30,
       "records": [
         {
           "title": "Transit Safety Consultant - CUTR",
@@ -22687,7 +22688,7 @@
     {
       "field": "Posted Date",
       "missingCount": 57,
-      "totalActive": 621,
+      "totalActive": 620,
       "pct": 9,
       "records": [
         {
@@ -23094,8 +23095,8 @@
     },
     {
       "field": "Unposted Date",
-      "missingCount": 621,
-      "totalActive": 621,
+      "missingCount": 620,
+      "totalActive": 620,
       "pct": 100,
       "records": [
         {
