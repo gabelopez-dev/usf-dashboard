@@ -216,7 +216,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; b
 <div class="nav" id="navTabs">
   <div class="nav-tab" data-page="main" style="background:#006747;" onclick="showPage(this)">Main</div>
   <div class="nav-tab" data-page="insights" style="background:#00A693;" onclick="showPage(this)">Insights &#10024;</div>
-  <div class="nav-tab" data-page="quality" style="background:#993556;" onclick="showPage(this)">Data Quality</div>
+  
 </div>
 
 <!-- Drill-down panel -->
@@ -967,12 +967,6 @@ function buildPages(recruiters) {
   insightsDiv.id = 'page-insights';
   content.appendChild(insightsDiv);
 
-  // Data Quality page
-  const qualityDiv = document.createElement('div');
-  qualityDiv.className = 'page';
-  qualityDiv.id = 'page-quality';
-  content.appendChild(qualityDiv);
-
   recruiters.forEach(r => {
     const div = document.createElement('div');
     div.className = 'page';
@@ -980,117 +974,6 @@ function buildPages(recruiters) {
     div.innerHTML = renderRecruiterPage(r);
     content.appendChild(div);
   });
-}
-
-function filterQualityByOwner() {
-  const owner = document.getElementById('qualityOwnerFilter')?.value || 'All Owners';
-  const dq = window._dataQuality || [];
-  const sections = document.getElementById('qualityDetailSections');
-  if (!sections) return;
-
-  const buildRows = (f) => {
-    const filtered = owner === 'All Owners' ? f.records : f.records.filter(r => r.owner === owner);
-    if (filtered.length === 0) return '';
-    const rows = filtered.map(r => `<tr>
-      <td><strong>${r.title || 'Untitled'}</strong>${r.reqId ? `<br><span style="font-size:10px;color:#999;">#${r.reqId}</span>` : ''}</td>
-      <td>${r.owner || '—'}</td>
-      <td>${r.campus || '—'}</td>
-      <td>${r.stage || '—'}</td>
-      <td>${r.notionUrl ? `<a href="${r.notionUrl}" target="_blank" style="display:inline-block;font-size:10px;font-weight:600;padding:3px 8px;background:var(--usf-green);color:#fff;border-radius:4px;text-decoration:none;">Open ↗</a>` : '—'}</td>
-    </tr>`).join('');
-    return `<div class="card" style="margin-bottom:12px;">
-      <div class="card-title" style="color:#c0392b;">🔴 Missing: ${f.field} — ${filtered.length} reqs</div>
-      <div style="overflow-x:auto;"><table class="drill-table">
-        <thead><tr><th>Requisition</th><th>Owner</th><th>Campus</th><th>Stage</th><th>Action</th></tr></thead>
-        <tbody>${rows}</tbody>
-      </table></div>
-    </div>`;
-  };
-
-  const html = dq.filter(f => f.missingCount > 0).map(buildRows).filter(Boolean).join('');
-  sections.innerHTML = html || `<div class="card" style="text-align:center;padding:30px;"><div style="font-size:14px;color:#006747;font-weight:700;">✅ No missing data for ${owner}</div></div>`;
-}
-
-function renderQualityPage(dataQuality) {
-  if (!dataQuality || dataQuality.length === 0) {
-    return `<div class="card"><p class="pending-note">No data quality info available yet — run a sync first.</p></div>`;
-  }
-
-  // Get unique owners across all missing records
-  const allOwners = new Set();
-  dataQuality.forEach(f => f.records.forEach(r => { if (r.owner) allOwners.add(r.owner); }));
-  const ownerOptions = ['All Owners', ...Array.from(allOwners).sort()].map(o =>
-    `<option value="${o}">${o}</option>`
-  ).join('');
-
-  // Summary cards
-  const summaryCards = dataQuality.map(f => {
-    const pctColor = f.pct === 0 ? '#006747' : f.pct < 20 ? '#d4880a' : '#c0392b';
-    const status = f.pct === 0 ? '✅' : f.pct < 20 ? '⚠️' : '🔴';
-    return `<div class="kpi" style="border-top:2px solid ${pctColor};">
-      <div class="kpi-label">${f.field}</div>
-      <div class="kpi-val" style="color:${pctColor}; font-size:22px;">${status} ${f.missingCount}</div>
-      <div class="kpi-sub">${f.pct}% of active reqs missing</div>
-    </div>`;
-  }).join('');
-
-  // Detail tables per field
-  const buildDetailSections = (ownerFilter) => dataQuality
-    .filter(f => f.missingCount > 0)
-    .map(f => {
-      const filtered = ownerFilter === 'All Owners'
-        ? f.records
-        : f.records.filter(r => r.owner === ownerFilter);
-      if (filtered.length === 0) return '';
-
-      const rows = filtered.map(r => `<tr>
-        <td><strong>${r.title || 'Untitled'}</strong>${r.reqId ? `<br><span style="font-size:10px;color:#999;">#${r.reqId}</span>` : ''}</td>
-        <td>${r.owner || '—'}</td>
-        <td>${r.campus || '—'}</td>
-        <td>${r.stage || '—'}</td>
-        <td>${r.notionUrl ? `<a href="${r.notionUrl}" target="_blank" style="display:inline-block;font-size:10px;font-weight:600;padding:3px 8px;background:var(--usf-green);color:#fff;border-radius:4px;text-decoration:none;">Open ↗</a>` : '—'}</td>
-      </tr>`).join('');
-
-      const more = f.missingCount > 50 ? `<p style="font-size:10px;color:#aaa;font-style:italic;margin-top:6px;">Showing top 50 records — fix these first.</p>` : '';
-
-      return `<div class="card" style="margin-bottom:12px;">
-        <div class="card-title" style="color:#c0392b;">🔴 Missing: ${f.field} — ${filtered.length} reqs</div>
-        <div style="overflow-x:auto;">
-          <table class="drill-table">
-            <thead><tr><th>Requisition</th><th>Owner</th><th>Campus</th><th>Stage</th><th>Action</th></tr></thead>
-            <tbody>${rows}</tbody>
-          </table>
-        </div>
-        ${more}
-      </div>`;
-    }).filter(Boolean).join('');
-
-  const allClean = dataQuality.every(f => f.missingCount === 0);
-
-  // Store dataQuality globally for filter use
-  window._dataQuality = dataQuality;
-
-  return `
-    <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:12px; flex-wrap:wrap; gap:8px;">
-      <div style="font-size:11px;color:#888;font-style:italic;">Based on ${dataQuality[0]?.totalActive || 0} active reqs. Click "Open ↗" to fix directly in Notion.</div>
-      <div style="display:flex; align-items:center; gap:8px;">
-        <label style="font-size:11px;color:#555;font-weight:600;">Filter by owner:</label>
-        <select id="qualityOwnerFilter" onchange="filterQualityByOwner()" style="font-size:12px;padding:5px 10px;border:0.5px solid var(--border);border-radius:6px;background:var(--surface);color:var(--text-primary);">
-          ${ownerOptions}
-        </select>
-      </div>
-    </div>
-    <div class="kpi-row" style="margin-bottom:16px;">${summaryCards}</div>
-    <div id="qualityDetailSections">
-      ${allClean
-        ? `<div class="card" style="text-align:center;padding:40px;">
-            <div style="font-size:32px;margin-bottom:8px;">✅</div>
-            <div style="font-size:16px;font-weight:700;color:#006747;">All fields complete</div>
-            <div style="font-size:12px;color:#888;margin-top:4px;">No missing data detected across active reqs.</div>
-          </div>`
-        : buildDetailSections('All Owners')
-      }
-    </div>`;
 }
 
 function renderClosedPage(closedReqs) {
@@ -1162,10 +1045,6 @@ async function loadDashboard() {
     // Render insights page
     const insightsPage = document.getElementById('page-insights');
     if (insightsPage) insightsPage.innerHTML = renderInsightsPage(data);
-
-    // Render data quality page
-    const qualityPage = document.getElementById('page-quality');
-    if (qualityPage) qualityPage.innerHTML = renderQualityPage(data.dataQuality || []);
 
     document.querySelector('.nav-tab[data-page="main"]').classList.add('active');
     document.getElementById('page-main').style.display = 'block';
