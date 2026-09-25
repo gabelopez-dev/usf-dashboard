@@ -305,14 +305,25 @@ function renderMainPage(data) {
     </div>`;
   }).join('');
 
-  // Jobs Actively Being Worked donut - aggregate statuses across all recruiters
+  // Jobs Actively Being Worked donut - aggregate statuses across all recruiters.
+  // Capped at top 6 + "Other" so the legend stays readable as more Stage values
+  // get added over time, rather than growing unbounded.
   const statusAgg = {};
   recruiters.forEach(r => (r.statuses || []).forEach(st => {
     if (!statusAgg[st.label]) statusAgg[st.label] = { count: 0, color: st.color };
     statusAgg[st.label].count += st.count;
   }));
-  const statusEntries = Object.entries(statusAgg).filter(([,v]) => v.count > 0);
-  const statusTotal = statusEntries.reduce((a,[,v]) => a + v.count, 0);
+  const statusAllEntries = Object.entries(statusAgg)
+    .filter(([,v]) => v.count > 0)
+    .sort((a,b) => b[1].count - a[1].count);
+  const STATUS_TOP_N = 6;
+  const statusEntries = statusAllEntries.slice(0, STATUS_TOP_N);
+  const statusOverflow = statusAllEntries.slice(STATUS_TOP_N);
+  if (statusOverflow.length > 0) {
+    const otherCount = statusOverflow.reduce((a,[,v]) => a + v.count, 0);
+    statusEntries.push([`Other (${statusOverflow.length})`, { count: otherCount, color: '#888780' }]);
+  }
+  const statusTotal = statusAllEntries.reduce((a,[,v]) => a + v.count, 0);
 
   html += `
   <div class="row row-2-1">
@@ -378,33 +389,67 @@ function renderMainPage(data) {
     </div>
   </div>`;
 
-  // Pipeline funnel - ordered by pipeline sequence, not count
-  const funnelOrder = ['Sourced','Recruiter Review','Screened','HM Review','Interview Stage','Offer Stage','Pre-boarding','Student Hiring','Faculty','Targeted','Backlog'];
+  // Pipeline funnel — true sequential stages only. A req moves through these
+  // in order, so a linear-width funnel is a meaningful visual here.
+  // Service-type categories (Passive/Faculty/Student Hiring, Evergreen, Targeted,
+  // Backlog) aren't steps in that sequence — they're a different classification
+  // entirely, so they get their own "Reqs by Type" view below instead of being
+  // mixed into the funnel, where a high-volume type category would otherwise
+  // dominate the scale and make the real stage-to-stage comparison unreadable.
+  const funnelOrder = ['Sourced','Recruiter Review','HM Review','Interview Stage','Offer Stage','Pre-boarding'];
+  const typeCategories = ['Passive Hiring','Faculty Hiring','Student Hiring','Evergreen / Continuous Pool','Targeted Hiring','Backlog'];
   const funnelRaw = data.mainFunnel || [];
   const funnelMap2 = {};
   funnelRaw.forEach(f => { funnelMap2[f.label] = f.count; });
 
-  // Build ordered funnel — pipeline stages first in sequence, then any remaining
+  // Sequential stages in order, then any genuinely unrecognized stage value
+  // (not a known sequence step or type category) falls through here too, so a
+  // future new Stage option doesn't silently vanish from the dashboard.
   const funnelOrdered = [
-    ...funnelOrder.filter(s => funnelMap2[s] > 0).map(s => ({ label: s, count: funnelMap2[s] })),
-    ...funnelRaw.filter(f => !funnelOrder.includes(f.label) && f.count > 0)
+    ...funnelOrder.filter(s => funnelMap2[s] > 0).map(s => ({ label: s, count: funnelMap2[s], color: (funnelRaw.find(f=>f.label===s)||{}).color })),
+    ...funnelRaw.filter(f => !funnelOrder.includes(f.label) && !typeCategories.includes(f.label) && f.count > 0)
   ];
 
   const maxFunnel = Math.max(...funnelOrdered.map(f => f.count), 1);
-  const funnelColors = ['#006747','#00A693','#1B6A9C','#5B8FA8','#CFC483','#534AB7','#d4880a','#0F6E56','#993556','#7A9EB5','#888780'];
+  const funnelFallbackColors = ['#006747','#00A693','#1B6A9C','#5B8FA8','#CFC483','#534AB7','#d4880a','#0F6E56','#993556','#7A9EB5','#888780'];
   let funnelHTML = '';
   funnelOrdered.forEach((f, i) => {
     const widthPct = Math.max(15, Math.round((f.count / maxFunnel) * 100));
     const indent = i * 5;
-    const color = funnelColors[i % funnelColors.length];
+    const color = f.color || funnelFallbackColors[i % funnelFallbackColors.length];
     const textColor = color === '#CFC483' ? '#004d35' : '#fff';
     funnelHTML += `<div class="funnel-step"><div class="funnel-bar" style="width:${widthPct}%; margin-left:${indent}%; background:${color};"><span class="funnel-bar-label" style="color:${textColor};">${f.label}</span><span class="funnel-bar-count" style="color:${textColor};">${f.count}</span></div></div>`;
   });
 
-  html += `<div class="row">
+  // Reqs by Type — the service-type categories, shown as their own sorted list
+  // rather than mixed into the sequential funnel above.
+  const typeOrdered = funnelRaw
+    .filter(f => typeCategories.includes(f.label) && f.count > 0)
+    .sort((a,b) => b.count - a.count);
+  const maxType = Math.max(...typeOrdered.map(f => f.count), 1);
+  const typeBars = typeOrdered.map(f => {
+    const widthPct = Math.max(8, Math.round((f.count / maxType) * 100));
+    const color = f.color || '#888780';
+    return `<div style="display:flex; align-items:center; gap:10px; margin-bottom:8px;">
+      <span style="font-size:11px; color:#555; width:160px; flex-shrink:0; text-align:right; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${f.label}</span>
+      <div style="flex:1; background:#f0efeb; border-radius:4px; height:24px;">
+        <div style="width:${widthPct}%; background:${color}; border-radius:4px; height:24px; display:flex; align-items:center; padding-left:8px; min-width:40px;">
+          <span style="font-size:11px; font-weight:700; color:#fff;">${f.count}</span>
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+
+  html += `<div class="row row-2-1">
     <div class="card">
       <div class="card-title">Pipeline Funnel</div>
+      <p style="font-size:10px; color:#bbb; font-style:italic; margin-bottom:10px;">Sequential stages only — where reqs are moving vs. stalling.</p>
       ${funnelHTML}
+    </div>
+    <div class="card">
+      <div class="card-title">Reqs by Type</div>
+      <p style="font-size:10px; color:#bbb; font-style:italic; margin-bottom:10px;">Service-level categories — not a sequence, so shown separately from the funnel.</p>
+      ${typeBars}
     </div>
   </div>`;
 
