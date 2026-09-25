@@ -246,19 +246,20 @@ async function main() {
     return normalize(recordValue) === normalize(bandLabel);
   }
 
-  // Aging Band is now computed automatically from Notion's built-in last_edited_time
-  // (returned on every page by the API, no manual field or Notion formula needed).
-  // Replaces the old manual "Last Activity" field, which required recruiters to
-  // remember to update it and was a recurring Data Quality gap.
-  function daysSinceLastEdit(page) {
-    if (!page.last_edited_time) return null;
-    const editedMs = new Date(page.last_edited_time).getTime();
-    if (isNaN(editedMs)) return null;
-    return Math.floor((Date.now() - editedMs) / 86400000);
+  // Aging Band is computed from the "Last Activity" field, which is now kept
+  // current automatically by a native Notion automation that updates it whenever
+  // a req's Stage changes. Replaces the earlier last_edited_time-based workaround,
+  // which was needed only because Last Activity used to require manual entry.
+  function daysSinceLastActivity(page) {
+    const raw = getProp(page, 'Last Activity', 'date') || getProp(page, 'Last Activity', 'text');
+    if (!raw) return null;
+    const activityMs = new Date(raw).getTime();
+    if (isNaN(activityMs)) return null;
+    return Math.floor((Date.now() - activityMs) / 86400000);
   }
 
   function computeAgingBand(page) {
-    const days = daysSinceLastEdit(page);
+    const days = daysSinceLastActivity(page);
     if (days === null) return null;
     if (days >= 6) return agingBands[0].label; // '🔴 6+'
     if (days >= 3) return agingBands[1].label; // '🟡 3-5'
@@ -334,12 +335,11 @@ async function main() {
       agingRecords: agingBands.map(band => ({
         band: band.label,
         color: band.color,
-        records: allMyRecs
+        records: myActive
           .filter(r => matchAgingBand(computeAgingBand(r), band.label))
           .map(r => ({
             title: getProp(r, 'Requistion Title', 'title') || getProp(r, 'Requisition Title', 'title') || getProp(r, 'Name', 'title') || 'Untitled',
             reqId: getProp(r, 'Requisition ID', 'text') || getProp(r, 'Requisition ID', 'number') || '',
-          notionUrl: `https://www.notion.so/${(r.id || '').replace(/-/g, '')}`,
             notionUrl: `https://www.notion.so/${(r.id || '').replace(/-/g, '')}`,
             owner: (() => { const p = getProp(r, 'Owner', 'person'); return p?.name || p?.person?.email || 'Unassigned'; })(),
             campus: getProp(r, 'Campus', 'select') || '',
@@ -671,38 +671,7 @@ async function main() {
     // Closed reqs for historical wins/losses view
     closedReqs: closedReqsData,
     insights: insightsData,
-    recruiters,
-
-    // Data quality — flags records missing critical fields
-    dataQuality: (() => {
-      const criticalFields = [
-        { key: 'stage',       label: 'Stage',              check: r => !getProp(r, 'Stage', 'select') },
-        { key: 'department',  label: 'Department/College',  check: r => !getProp(r, 'Department/College', 'text') },
-        { key: 'reqType',     label: 'Req Type',            check: r => !getProp(r, 'Req Type', 'select') },
-        { key: 'campus',      label: 'Campus',              check: r => !getProp(r, 'Campus', 'select') },
-        { key: 'hrbp',        label: 'HRBP',               check: r => !getProp(r, 'HRBP', 'text') && !getProp(r, 'HRBP', 'select') },
-        { key: 'postedDate',  label: 'Posted Date',         check: r => !getProp(r, 'Posted Date', 'date') && !getProp(r, 'Posted Date', 'text') },
-        { key: 'unpostedDate',label: 'Unposted Date',       check: r => !getProp(r, 'Unposted Date', 'date') && !getProp(r, 'Unposted Date', 'text') },
-      ];
-
-      return criticalFields.map(f => {
-        const missing = activeRecords.filter(f.check);
-        return {
-          field: f.label,
-          missingCount: missing.length,
-          totalActive: activeRecords.length,
-          pct: activeRecords.length > 0 ? Math.round((missing.length / activeRecords.length) * 100) : 0,
-          records: missing.slice(0, 50).map(r => ({
-            title: getProp(r, 'Requistion Title', 'title') || getProp(r, 'Requisition Title', 'title') || 'Untitled',
-            reqId: getProp(r, 'Requisition ID', 'text') || getProp(r, 'Requisition ID', 'number') || '',
-            owner: (() => { const p = getProp(r, 'Owner', 'person'); return p?.name || p?.person?.email || 'Unassigned'; })(),
-            campus: getProp(r, 'Campus', 'select') || '',
-            stage: getProp(r, 'Stage', 'select') || '',
-            notionUrl: `https://www.notion.so/${(r.id || '').replace(/-/g, '')}`
-          }))
-        };
-      });
-    })()
+    recruiters
   };
 
   const json = JSON.stringify(data, null, 2);
