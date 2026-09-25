@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-24T22:05:31.525Z",
+  "lastUpdated": "2026-09-25T00:41:48.581Z",
   "summary": {
     "openReqs": 620,
-    "avgTimeToFill": 97,
+    "avgTimeToFill": 98,
     "filledYTD": 310,
     "failedCancelled": 46,
     "inOfferStage": 22
@@ -6474,43 +6474,43 @@
   "stageMetrics": [
     {
       "label": "Recruiter Review",
-      "avgDays": 22,
-      "count": 20,
+      "avgDays": 20,
+      "count": 23,
       "color": "#006747"
     },
     {
       "label": "HM Review",
-      "avgDays": 33,
-      "count": 8,
+      "avgDays": 10,
+      "count": 31,
       "color": "#534AB7"
     },
     {
       "label": "Interview Stage",
-      "avgDays": 36,
-      "count": 8,
+      "avgDays": 33,
+      "count": 9,
       "color": "#d4880a"
     },
     {
       "label": "Offer Stage",
-      "avgDays": 28,
+      "avgDays": 29,
       "count": 4,
       "color": "#CFC483"
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 16,
-      "count": 16,
+      "avgDays": 14,
+      "count": 19,
       "color": "#5B8FA8"
     },
     {
       "label": "Backlog",
-      "avgDays": 4,
-      "count": 16,
+      "avgDays": 5,
+      "count": 17,
       "color": "#888780"
     },
     {
       "label": "Passive Hiring",
-      "avgDays": 10,
+      "avgDays": 11,
       "count": 2,
       "color": "#5B8FA8"
     }
@@ -9454,6 +9454,17 @@
       "notionUrl": "https://www.notion.so/3a3b7604d5df450c80b7edfeb05e64dd"
     },
     {
+      "title": "Student Assistant/Sports Medicine",
+      "reqId": "44288",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "051000 - Athletic Administration",
+      "reqType": "Student",
+      "ttf": 28,
+      "notionUrl": "https://www.notion.so/f20d8c4622024d9ba02b0557a060bda9"
+    },
+    {
       "title": "Student Assistant- Student Accessibility Services",
       "reqId": "44078",
       "owner": "Gabriel",
@@ -9485,17 +9496,6 @@
       "reqType": "Active",
       "ttf": 28,
       "notionUrl": "https://www.notion.so/4933435ce5994718831574f13e919c34"
-    },
-    {
-      "title": "Student Assistant/Sports Medicine",
-      "reqId": "44288",
-      "owner": "johncalebrese",
-      "campus": "Tampa",
-      "stage": "Hired",
-      "department": "051000 - Athletic Administration",
-      "reqType": "Student",
-      "ttf": 27,
-      "notionUrl": "https://www.notion.so/f20d8c4622024d9ba02b0557a060bda9"
     },
     {
       "title": "Athletics Assistant- Partnership Activation, Intern",
@@ -11414,7 +11414,7 @@
       "activeReqs": 31,
       "filled": 0,
       "failed": 0,
-      "ttf": 121,
+      "ttf": 122,
       "wip": 13,
       "agingRecords": [
         {
@@ -11817,7 +11817,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 121,
+          "value": 122,
           "target": 40,
           "invert": true
         },
@@ -11835,12 +11835,12 @@
         }
       ],
       "trend": [
-        121,
-        121,
-        121,
-        121,
-        121,
-        121
+        122,
+        122,
+        122,
+        122,
+        122,
+        122
       ]
     },
     {
@@ -11855,7 +11855,7 @@
       "activeReqs": 252,
       "filled": 110,
       "failed": 24,
-      "ttf": 114,
+      "ttf": 115,
       "wip": 10,
       "agingRecords": [
         {
@@ -15741,30 +15741,30 @@
         {
           "label": "Recruiter Review",
           "avgDays": 13,
-          "count": 8,
+          "count": 9,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 26,
-          "count": 5,
+          "avgDays": 6,
+          "count": 28,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 41,
-          "count": 1,
+          "avgDays": 22,
+          "count": 2,
           "color": "#d4880a"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 72,
+          "avgDays": 73,
           "count": 1,
           "color": "#CFC483"
         },
         {
           "label": "Backlog",
-          "avgDays": 4,
+          "avgDays": 5,
           "count": 3,
           "color": "#888780"
         }
@@ -15875,7 +15875,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 114,
+          "value": 115,
           "target": 40,
           "invert": true
         },
@@ -15893,12 +15893,12 @@
         }
       ],
       "trend": [
-        114,
-        114,
-        114,
-        114,
-        114,
-        114
+        115,
+        115,
+        115,
+        115,
+        115,
+        115
       ]
     },
     {
@@ -17817,37 +17817,37 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 34,
+          "avgDays": 35,
           "count": 10,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 57,
+          "avgDays": 58,
           "count": 2,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 65,
+          "avgDays": 66,
           "count": 3,
           "color": "#d4880a"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 22,
+          "avgDays": 23,
           "count": 7,
           "color": "#5B8FA8"
         },
         {
           "label": "Passive Hiring",
-          "avgDays": 10,
+          "avgDays": 11,
           "count": 1,
           "color": "#5B8FA8"
         },
         {
           "label": "Backlog",
-          "avgDays": 44,
+          "avgDays": 45,
           "count": 1,
           "color": "#888780"
         }
@@ -20145,38 +20145,44 @@
       ],
       "stageMetrics": [
         {
+          "label": "Recruiter Review",
+          "avgDays": 1,
+          "count": 2,
+          "color": "#006747"
+        },
+        {
           "label": "HM Review",
-          "avgDays": 22,
+          "avgDays": 23,
           "count": 1,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 13,
+          "avgDays": 14,
           "count": 4,
           "color": "#d4880a"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 13,
+          "avgDays": 14,
           "count": 3,
           "color": "#CFC483"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 11,
-          "count": 9,
+          "avgDays": 9,
+          "count": 12,
           "color": "#5B8FA8"
         },
         {
           "label": "Backlog",
           "avgDays": 3,
-          "count": 1,
+          "count": 2,
           "color": "#888780"
         },
         {
           "label": "Passive Hiring",
-          "avgDays": 10,
+          "avgDays": 11,
           "count": 1,
           "color": "#5B8FA8"
         }
@@ -20330,7 +20336,7 @@
       "activeReqs": 139,
       "filled": 14,
       "failed": 4,
-      "ttf": 69,
+      "ttf": 70,
       "wip": 10,
       "agingRecords": [
         {
@@ -21924,13 +21930,13 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 1,
+          "avgDays": 2,
           "count": 2,
           "color": "#006747"
         },
         {
           "label": "Backlog",
-          "avgDays": 1,
+          "avgDays": 2,
           "count": 11,
           "color": "#888780"
         }
@@ -22026,7 +22032,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 69,
+          "value": 70,
           "target": 40,
           "invert": true
         },
@@ -22044,12 +22050,12 @@
         }
       ],
       "trend": [
-        69,
-        69,
-        69,
-        69,
-        69,
-        69
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
       ]
     }
   ],
