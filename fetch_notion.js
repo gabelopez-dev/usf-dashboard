@@ -643,7 +643,7 @@ async function main() {
       }, {})
     )
     .sort((a, b) => b[1] - a[1])
-    .map(([label, count]) => ({ label, count })),
+    .map(([label, count]) => ({ label, count, color: stageColors[label] || '#888780' })),
     mainAging: agingBands.map(band => ({
       ...band,
       count: activeRecords.filter(r => matchAgingBand(computeAgingBand(r), band.label)).length
