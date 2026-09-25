@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-09-25T20:18:40.192Z",
+  "lastUpdated": "2026-09-25T20:42:49.391Z",
   "summary": {
-    "openReqs": 623,
+    "openReqs": 622,
     "avgTimeToFill": 97,
     "filledYTD": 320,
-    "failedCancelled": 49,
+    "failedCancelled": 50,
     "inOfferStage": 24
   },
   "campus": [
@@ -15,7 +15,7 @@
     },
     {
       "label": "St Pete",
-      "count": 40,
+      "count": 39,
       "color": "#006747"
     },
     {
@@ -37,51 +37,63 @@
   "mainFunnel": [
     {
       "label": "Passive Hiring",
-      "count": 183
+      "count": 182,
+      "color": "#5B8FA8"
     },
     {
       "label": "HM Review",
-      "count": 179
+      "count": 179,
+      "color": "#534AB7"
     },
     {
       "label": "Faculty Hiring",
-      "count": 51
+      "count": 51,
+      "color": "#993556"
     },
     {
       "label": "Student Hiring",
-      "count": 47
+      "count": 47,
+      "color": "#0F6E56"
     },
     {
       "label": "Recruiter Review",
-      "count": 34
+      "count": 34,
+      "color": "#006747"
     },
     {
       "label": "Pre-boarding",
-      "count": 28
+      "count": 28,
+      "color": "#5B8FA8"
     },
     {
       "label": "Backlog",
-      "count": 26
+      "count": 26,
+      "color": "#888780"
     },
     {
       "label": "Offer Stage",
-      "count": 24
+      "count": 24,
+      "color": "#CFC483"
     },
     {
       "label": "Evergreen / Continuous Pool",
-      "count": 23
+      "count": 23,
+      "color": "#6B8E4E"
     },
     {
       "label": "Interview Stage",
-      "count": 13
+      "count": 13,
+      "color": "#d4880a"
     },
     {
       "label": "Targeted Hiring",
-      "count": 9
+      "count": 9,
+      "color": "#7A9EB5"
     },
     {
       "label": "Sourced",
-      "count": 6
+      "count": 6,
+      "color": "#00A693"
     }
   ],
   "mainAging": [
@@ -90,21 +102,21 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 277
+      "count": 276
     },
     {
       "label": "🟡 3-5",
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 59
+      "count": 55
     },
     {
       "label": "🟢 0–2",
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 283
+      "count": 287
     }
   ],
   "agingRecords": [
@@ -2293,16 +2305,6 @@
           "department": "STP Arts And Sciences - Dean"
         },
         {
-          "title": "School Improvement Coordinator",
-          "reqId": "43241",
-          "notionUrl": "https://www.notion.so/26c4c26a172a4595b42feaa0299171a7",
-          "owner": "mendoza33@usf.edu",
-          "campus": "Tallahassee",
-          "stage": "Passive Hiring",
-          "agingBand": "🔴 6+",
-          "department": "Inst For School Comm Partnership"
-        },
-        {
           "title": "Solutions Engineer in Ocean and Environmental Data Visualization Products",
           "reqId": "43381",
           "notionUrl": "https://www.notion.so/8423a311edfe48e19753c7123f529a50",
@@ -3037,46 +3039,6 @@
           "stage": "Offer Stage",
           "agingBand": "🟡 3-5",
           "department": "510200 - STP Student Life"
-        },
-        {
-          "title": "Program Director",
-          "reqId": "44090",
-          "notionUrl": "https://www.notion.so/2135ef73fef4400a96fa589524bf2180",
-          "owner": "mendoza33@usf.edu",
-          "campus": "Tallahassee",
-          "stage": "Passive Hiring",
-          "agingBand": "🟡 3-5",
-          "department": "177500 - Inst For School Comm Partnersh"
-        },
-        {
-          "title": "School Improvement Coordinator",
-          "reqId": "44108",
-          "notionUrl": "https://www.notion.so/cdc1376c7a7c478db2f0385352c38cba",
-          "owner": "mendoza33@usf.edu",
-          "campus": "Tallahassee",
-          "stage": "Passive Hiring",
-          "agingBand": "🟡 3-5",
-          "department": "177500 - Inst For School Comm Partnersh"
-        },
-        {
-          "title": "Systems & Business Process Dir",
-          "reqId": "44128",
-          "notionUrl": "https://www.notion.so/731d1ab5680b42ee9a95c7a2807ab25c",
-          "owner": "mendoza33@usf.edu",
-          "campus": "Tallahassee",
-          "stage": "Passive Hiring",
-          "agingBand": "🟡 3-5",
-          "department": "177500 - Inst For School Comm Partnersh"
-        },
-        {
-          "title": "Support Staff",
-          "reqId": "44150",
-          "notionUrl": "https://www.notion.so/84236d000b4f454fa31b192595a733cf",
-          "owner": "mendoza33@usf.edu",
-          "campus": "Tallahassee",
-          "stage": "Passive Hiring",
-          "agingBand": "🟡 3-5",
-          "department": "177500 - Inst For School Comm Partnersh"
         },
         {
           "title": "Transfer Success Specialist",
@@ -4083,6 +4045,46 @@
           "stage": "Pre-boarding",
           "agingBand": "🟢 0–2",
           "department": "140105 - MCOB Financia"
+        },
+        {
+          "title": "Program Director",
+          "reqId": "44090",
+          "notionUrl": "https://www.notion.so/2135ef73fef4400a96fa589524bf2180",
+          "owner": "mendoza33@usf.edu",
+          "campus": "Tallahassee",
+          "stage": "Passive Hiring",
+          "agingBand": "🟢 0–2",
+          "department": "177500 - Inst For School Comm Partnersh"
+        },
+        {
+          "title": "School Improvement Coordinator",
+          "reqId": "44108",
+          "notionUrl": "https://www.notion.so/cdc1376c7a7c478db2f0385352c38cba",
+          "owner": "mendoza33@usf.edu",
+          "campus": "Tallahassee",
+          "stage": "Passive Hiring",
+          "agingBand": "🟢 0–2",
+          "department": "177500 - Inst For School Comm Partnersh"
+        },
+        {
+          "title": "Systems & Business Process Dir",
+          "reqId": "44128",
+          "notionUrl": "https://www.notion.so/731d1ab5680b42ee9a95c7a2807ab25c",
+          "owner": "mendoza33@usf.edu",
+          "campus": "Tallahassee",
+          "stage": "Passive Hiring",
+          "agingBand": "🟢 0–2",
+          "department": "177500 - Inst For School Comm Partnersh"
+        },
+        {
+          "title": "Support Staff",
+          "reqId": "44150",
+          "notionUrl": "https://www.notion.so/84236d000b4f454fa31b192595a733cf",
+          "owner": "mendoza33@usf.edu",
+          "campus": "Tallahassee",
+          "stage": "Passive Hiring",
+          "agingBand": "🟢 0–2",
+          "department": "177500 - Inst For School Comm Partnersh"
         },
         {
           "title": "Student Assistant",
@@ -5455,6 +5457,16 @@
           "department": "Inst For School Comm Partnership"
         },
         {
+          "title": "School Improvement Coordinator",
+          "reqId": "43241",
+          "notionUrl": "https://www.notion.so/26c4c26a172a4595b42feaa0299171a7",
+          "owner": "mendoza33@usf.edu",
+          "campus": "Tallahassee",
+          "stage": "Passive Hiring",
+          "agingBand": "🟢 0–2",
+          "department": "Inst For School Comm Partnership"
+        },
+        {
           "title": "Marine Technician",
           "reqId": "43422",
           "notionUrl": "https://www.notion.so/6b66234d195c4ef49f5f27637e862e2a",
@@ -5473,16 +5485,6 @@
           "stage": "Interview Stage",
           "agingBand": "🟢 0–2",
           "department": "STP Student Success"
-        },
-        {
-          "title": "Unit Research Administrator",
-          "reqId": "43788",
-          "notionUrl": "https://www.notion.so/b61fd564bb694ef5ba51e3e56d04562b",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "College of Marine Science"
         },
         {
           "title": "Digital Marketing Intern",
@@ -6320,7 +6322,7 @@
   "reqType": [
     {
       "label": "Passive",
-      "count": 255,
+      "count": 254,
       "color": "#006747"
     },
     {
@@ -6457,7 +6459,7 @@
     },
     {
       "label": "Other (166 depts)",
-      "count": 333,
+      "count": 332,
       "color": "#c8c7c2"
     }
   ],
@@ -7929,6 +7931,17 @@
       "reqType": "Active",
       "ttf": 95,
       "notionUrl": "https://www.notion.so/9492201f49cd41ae8898b9f114026461"
+    },
+    {
+      "title": "Unit Research Administrator",
+      "reqId": "43788",
+      "owner": "Gabriel",
+      "campus": "St. Petersburg",
+      "stage": "Failed Search",
+      "department": "College of Marine Science",
+      "reqType": "Passive",
+      "ttf": 95,
+      "notionUrl": "https://www.notion.so/b61fd564bb694ef5ba51e3e56d04562b"
     },
     {
       "title": "Administrative Specialist",
@@ -10703,6 +10716,13 @@
         "fillRatePct": 100
       },
       {
+        "department": "College of Marine Science",
+        "filled": 2,
+        "failed": 1,
+        "cancelled": 1,
+        "fillRatePct": 67
+      },
+      {
         "department": "041500 - Counseling Center",
         "filled": 1,
         "failed": 0,
@@ -10735,13 +10755,6 @@
         "filled": 3,
         "failed": 0,
         "cancelled": 0,
-        "fillRatePct": 100
-      },
-      {
-        "department": "College of Marine Science",
-        "filled": 2,
-        "failed": 0,
-        "cancelled": 1,
         "fillRatePct": 100
       },
       {
@@ -11460,8 +11473,8 @@
         "recruiter": "Gabriel",
         "color": "#00A693",
         "stalled": 61,
-        "totalActive": 83,
-        "stallRatePct": 73
+        "totalActive": 82,
+        "stallRatePct": 74
       },
       {
         "recruiter": "Rebecca",
@@ -15671,9 +15684,9 @@
       "bgDark": "#042e24",
       "campus": "St Pete / Tampa",
       "reqs": 175,
-      "activeReqs": 83,
+      "activeReqs": 82,
       "filled": 86,
-      "failed": 5,
+      "failed": 6,
       "ttf": 76,
       "wip": 3,
       "agingRecords": [
@@ -16512,16 +16525,6 @@
               "stage": "Interview Stage",
               "agingBand": "🟢 0–2",
               "department": "STP Student Success"
-            },
-            {
-              "title": "Unit Research Administrator",
-              "reqId": "43788",
-              "notionUrl": "https://www.notion.so/b61fd564bb694ef5ba51e3e56d04562b",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "College of Marine Science"
             }
           ]
         }
@@ -16566,7 +16569,7 @@
         },
         {
           "label": "Passive Hiring",
-          "count": 24,
+          "count": 23,
           "color": "#5B8FA8"
         },
         {
@@ -16630,13 +16633,13 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 8
+          "count": 7
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 83
+          "count": 82
         },
         {
           "label": "Screened",
