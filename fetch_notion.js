@@ -275,7 +275,7 @@ async function main() {
     'Passive Hiring': '#5B8FA8', 'Faculty Hiring': '#993556',
     'Evergreen / Continuous Pool': '#6B8E4E', 'Targeted Hiring': '#7A9EB5'
   };
-  const stageOrder = ['Sourced','Recruiter Review','Screened','HM Review','Interview Stage','Offer Stage','Pre-boarding'];
+  const stageOrder = ['Sourced','Recruiter Review','HM Review','Interview Stage','Offer Stage','Pre-boarding'];
 
   const recruiters = recruiterNames.map(name => {
     const meta = recruiterMeta[name];
