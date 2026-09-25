@@ -449,8 +449,8 @@ function renderInsightsPage(data) {
   const totalReqs = data.summary?.openReqs || 0;
 
   const conversionStages = [
-    { from: 'Sourced',         to: 'Screened',        fromKey: 'Sourced',         toKey: 'Screened',        color: '#006747' },
-    { from: 'Screened',        to: 'HM Review',        fromKey: 'Screened',        toKey: 'HM Review',       color: '#00A693' },
+    { from: 'Sourced',         to: 'Recruiter Review', fromKey: 'Sourced',         toKey: 'Recruiter Review', color: '#006747' },
+    { from: 'Recruiter Review',to: 'HM Review',        fromKey: 'Recruiter Review', toKey: 'HM Review',       color: '#00A693' },
     { from: 'HM Review',       to: 'Interview',        fromKey: 'HM Review',       toKey: 'Interview Stage', color: '#1B6A9C' },
     { from: 'Interview',       to: 'Offer',            fromKey: 'Interview Stage', toKey: 'Offer Stage',     color: '#534AB7' },
     { from: 'Offer',           to: 'Hired',            fromKey: 'Offer Stage',     toKey: null,              color: '#CFC483', toCount: hired }
@@ -899,8 +899,8 @@ function renderRecruiterPage(r) {
   const recTotal = r.reqs || 0;
 
   const recConvStages = [
-    { from: 'Sourced',   to: 'Screened',   fromKey: 'Sourced',         toKey: 'Screened',        color: '#006747' },
-    { from: 'Screened',  to: 'HM Review',  fromKey: 'Screened',        toKey: 'HM Review',       color: '#00A693' },
+    { from: 'Sourced',   to: 'Recruiter Review', fromKey: 'Sourced',         toKey: 'Recruiter Review', color: '#006747' },
+    { from: 'Recruiter Review', to: 'HM Review',  fromKey: 'Recruiter Review', toKey: 'HM Review',      color: '#00A693' },
     { from: 'HM Review', to: 'Interview',  fromKey: 'HM Review',       toKey: 'Interview Stage', color: '#1B6A9C' },
     { from: 'Interview', to: 'Offer',      fromKey: 'Interview Stage', toKey: 'Offer Stage',     color: '#534AB7' },
     { from: 'Offer',     to: 'Hired',      fromKey: 'Offer Stage',     toKey: null,              color: '#CFC483', toCount: recHired }
