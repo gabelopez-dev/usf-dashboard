@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-25T23:25:46.563Z",
+  "lastUpdated": "2026-09-26T01:51:10.113Z",
   "summary": {
     "openReqs": 622,
-    "avgTimeToFill": 97,
+    "avgTimeToFill": 98,
     "filledYTD": 320,
     "failedCancelled": 50,
     "inOfferStage": 24
@@ -109,14 +109,14 @@
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 55
+      "count": 177
     },
     {
       "label": "🟢 0–2",
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 287
+      "count": 165
     }
   ],
   "agingRecords": [
@@ -2951,6 +2951,26 @@
           "department": "643200 - Health Policy &"
         },
         {
+          "title": "AVC Student Developer",
+          "reqId": "44300",
+          "notionUrl": "https://www.notion.so/68b42aada7554990b088f6c3338279a4",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Student Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "351000 - Information Technology"
+        },
+        {
+          "title": "Office Administrator",
+          "reqId": "44298",
+          "notionUrl": "https://www.notion.so/fe671c7fd3f64ac5992ccf96faa8f36d",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟡 3-5",
+          "department": "120100 - Arts And Sciences - Dean"
+        },
+        {
           "title": "Events Coordinator",
           "reqId": "44228",
           "notionUrl": "https://www.notion.so/be8b30695c614a3f86121cfc54efa704",
@@ -2959,6 +2979,176 @@
           "stage": "Pre-boarding",
           "agingBand": "🟡 3-5",
           "department": "210800 - AICC Bellini College Department"
+        },
+        {
+          "title": "AI and Tools Enablement Facilitator",
+          "reqId": "44064",
+          "notionUrl": "https://www.notion.so/8f5b7d100c4d450aa0cc8752877ca7a1",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "351000 - Information Technology"
+        },
+        {
+          "title": "Budget Analyst II",
+          "reqId": "44040",
+          "notionUrl": "https://www.notion.so/e52fb62d4abc435cbf5242ba4366137d",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟡 3-5",
+          "department": "790100 - VP Research"
+        },
+        {
+          "title": "Service Desk Technician",
+          "reqId": "44093",
+          "notionUrl": "https://www.notion.so/0e7a253fd3114984a1c3ec5f4daf7edd",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "351000 - Information Technology"
+        },
+        {
+          "title": "IT Scrum Master III",
+          "reqId": "44112",
+          "notionUrl": "https://www.notion.so/a8e9ddf2f83a411190a0613cf45aa1d7",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "351000 - Information Technology"
+        },
+        {
+          "title": "Fiscal and Business Specialist - OPS",
+          "reqId": "44114",
+          "notionUrl": "https://www.notion.so/1baee1ec4e7142b58ce21817527857cc",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟡 3-5",
+          "department": "790400 - Technology Transfer Office"
+        },
+        {
+          "title": "Student Assistant ERP Analyst",
+          "reqId": "44154",
+          "notionUrl": "https://www.notion.so/15b1a160dffb4124866ed6c9eeb0895e",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Student Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "351000 - Information Technology"
+        },
+        {
+          "title": "Service Desk Student Technician",
+          "reqId": "44119",
+          "notionUrl": "https://www.notion.so/11e3846b09c946aaac946f33ff5960c1",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟡 3-5",
+          "department": "351000 - Information Technology"
+        },
+        {
+          "title": "Student Assistant - FWS",
+          "reqId": "44140",
+          "notionUrl": "https://www.notion.so/767ccfed81214b199ef847f44b597ecd",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Student Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "583002 - CFS Applied Research & Edu"
+        },
+        {
+          "title": "Student Asst - FWS",
+          "reqId": "44117",
+          "notionUrl": "https://www.notion.so/0fb70037fd0b4ea7a25c227bfbced7a0",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Student Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "581000 - CBCS Dean'S Office"
+        },
+        {
+          "title": "Federal Work-Study (FWS) Student Assistant",
+          "reqId": "44173",
+          "notionUrl": "https://www.notion.so/20ef29b1d44c47dfa349adc17274b2ae",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Student Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "583002 - CFS Applied Research & Edu"
+        },
+        {
+          "title": "FWS Communications and Marketing Intern",
+          "reqId": "44172",
+          "notionUrl": "https://www.notion.so/50317d39d55f46b6b8284a2b1144f80b",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Student Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "581000 - CBCS Dean'S Office"
+        },
+        {
+          "title": "Clerical and Secretarial",
+          "reqId": "44190",
+          "notionUrl": "https://www.notion.so/fa6bbd9d2d1b42958bb88f5a18d810dc",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "121900 - Communication Sciences & Disorders"
+        },
+        {
+          "title": "OPS Research Assistant",
+          "reqId": "44193",
+          "notionUrl": "https://www.notion.so/877cb8004c0a4388bf96b3657d1b3b20",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Targeted Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "122900 - School Of Aging Studies"
+        },
+        {
+          "title": "Service Desk Technician, OPS (Part-Time)",
+          "reqId": "44165",
+          "notionUrl": "https://www.notion.so/1cfab3b08fbb4f1394902b11c7ba6acd",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "351000 - Information Technology"
+        },
+        {
+          "title": "Research Serv Administrator",
+          "reqId": "44240",
+          "notionUrl": "https://www.notion.so/6221893bd8854aae9922300a13617b92",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "790100 - VP Research"
+        },
+        {
+          "title": "Sr Groundskeeper",
+          "reqId": "44204",
+          "notionUrl": "https://www.notion.so/fd8a56e91cb74850b7ecc50b726fbfb5",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟡 3-5",
+          "department": "120100 - Arts And Sciences - Dean"
+        },
+        {
+          "title": "COI Research Compliance Admin II",
+          "reqId": "44226",
+          "notionUrl": "https://www.notion.so/89792e55e28344cf8718029f51e6f8ba",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "791000 - Research Integrity &Compliance"
         },
         {
           "title": "Unit Research Administrator",
@@ -3051,6 +3241,606 @@
           "department": "512800 - STP Academic Advising"
         },
         {
+          "title": "Open Rank, Full Professor, Associate Professor, Assistant",
+          "reqId": "41549",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0816f8074dd8a3877e686",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "122900 - School Of Aging Studies"
+        },
+        {
+          "title": "Assistant Professor of Instruction - Department of Behavioral Health Science and Practice",
+          "reqId": "41637",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08127a68bff7fa2ff7a5f",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "582000 - Behavioral Health Science and Practice"
+        },
+        {
+          "title": "FWS Student Assistant",
+          "reqId": "42255",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081a6aab5e434561e7a64",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "588000 - CBCS Administration"
+        },
+        {
+          "title": "Academic Advisor I",
+          "reqId": "42269",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08109bd26ec2a52aada62",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "387300 - Upward Bound"
+        },
+        {
+          "title": "Chair and Professor-Civil & Environmental Engineering",
+          "reqId": "42289",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0813ba36ec440aafa2a39",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "210400 - Civil & Environmental Engr"
+        },
+        {
+          "title": "Adjunct-Extra Comp",
+          "reqId": "42302",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0819995f5e0660e2b0f6c",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "583001 - Dept Child And Family Studies"
+        },
+        {
+          "title": "Assistant Director, Student Conduct",
+          "reqId": "42318",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08146b2b9dfd6fd786b6d",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "040201 - Student Conduct & Ethical Dev"
+        },
+        {
+          "title": "Assistant Professor-Medical Engineering",
+          "reqId": "42383",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08132a271fee191ee2947",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "212100 - Medical Engineering"
+        },
+        {
+          "title": "Professor-Medical Engineering",
+          "reqId": "42391",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0815ea399e66a1f9e1bee",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "212100 - Medical Engineering"
+        },
+        {
+          "title": "Associate Professor-Medical Engineering",
+          "reqId": "42392",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081a78e85e4b16a61f6b2",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "212100 - Medical Engineering"
+        },
+        {
+          "title": "OPS Student Assistant- Computer Vision Video Analytics",
+          "reqId": "42470",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081a6b1eae5efab39ee84",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "211700 - Ctr For Urban Transportation Research"
+        },
+        {
+          "title": "OPS Research assistant",
+          "reqId": "42513",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08117941bcb80ca71d61a",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "122100 - Criminology"
+        },
+        {
+          "title": "FWS Student Assistant",
+          "reqId": "42585",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08175860edd92b665fdaa",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "211400 - Engineering Student Services"
+        },
+        {
+          "title": "Visiting Research Scholar",
+          "reqId": "42588",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0814ba3f9fd3091c101e4",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "210400 - Civil & Environmental Engr"
+        },
+        {
+          "title": "Visiting Assistant Professor of Instruction",
+          "reqId": "42658",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081c3a880f1fe1e01848c",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "122900 - School Of Aging Studies"
+        },
+        {
+          "title": "Administrative Specialist",
+          "reqId": "42692",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0815d8520fc0963188195",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "044100 - Ctr For Student Involvement"
+        },
+        {
+          "title": "OPS Support Assistant",
+          "reqId": "42711",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08192a5fbe0cc9561e81c",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "210500 - Mechanical Engineering"
+        },
+        {
+          "title": "Assistant Professor of Criminology, Tenure Track",
+          "reqId": "42719",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0810c9428c8903c3a5bd9",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "122100 - Criminology"
+        },
+        {
+          "title": "Assistant Professor / Associate Professor, Social Work",
+          "reqId": "42720",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08125aa00ceed314987b1",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "126100 - Social Work"
+        },
+        {
+          "title": "Assistant/Associate/Full Professor",
+          "reqId": "42723",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08161a016d921deb3ca1c",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "582000 - Behavioral Health Science and Practice"
+        },
+        {
+          "title": "Contracts and Licensing Manager",
+          "reqId": "42796",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081b3ac12c6611b6cdbd7",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "790400 - Technology Transfer Office"
+        },
+        {
+          "title": "Research Support Asst",
+          "reqId": "42812",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08167b935c2d1b6d2b6a9",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "210600 - Electrical Engineering"
+        },
+        {
+          "title": "Asst Prof of Instruction - Mechanical Eng",
+          "reqId": "42869",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0819790f6fb9f3612d2fa",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "210500 - Mechanical Engineering"
+        },
+        {
+          "title": "Assoc Professor of Instruction - Mechanical Engineering",
+          "reqId": "42870",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081549f7beefabe0110fa",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "210500 - Mechanical Engineering"
+        },
+        {
+          "title": "Professor of Instruction - Mechanical Engineering",
+          "reqId": "42871",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081a8a9acdd8d7181e980",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "210500 - Mechanical Engineering"
+        },
+        {
+          "title": "Conflict of Interest Manager",
+          "reqId": "42895",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081e495b0cefddc298e06",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "791000 - Research Integrity &Compliance"
+        },
+        {
+          "title": "Temporary Academic Intern",
+          "reqId": "42902",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0813d8302ca1e4ba39304",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "380600 - UGS Academic Advising - Athletics"
+        },
+        {
+          "title": "AVC Student Developer",
+          "reqId": "42959",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081ebaedcfdb533ed8645",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "351000 - Information Technology"
+        },
+        {
+          "title": "Sr. Lab Animal Tech",
+          "reqId": "42964",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081dc8e30c04e28cc5f75",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "790900 - Comparative Medicine"
+        },
+        {
+          "title": "Biological Scientist",
+          "reqId": "42965",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081498988e5c23c1083c6",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "790900 - Comparative Medicine"
+        },
+        {
+          "title": "Diesel & Vehicle Mechanic",
+          "reqId": "42969",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081c7aa85d3fe45b6e2a6",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "028200 - Parking & Transportation Services"
+        },
+        {
+          "title": "Eng Academic Advisor I",
+          "reqId": "42971",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081f4a4e8c4f2f5df9e88",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "211400 - Engineering Student Services"
+        },
+        {
+          "title": "QA/QI Research Compliance Admin II",
+          "reqId": "42985",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0816e854ad75d0f5016d1",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "791000 - Research Integrity &Compliance"
+        },
+        {
+          "title": "Service Desk Student Technician",
+          "reqId": "43092",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08116a4f8db5dfe83d693",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "351000 - Information Technology"
+        },
+        {
+          "title": "AI Agent Developer Student Assistant",
+          "reqId": "43095",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08142a7e3c2e6c872b0c6",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "351000 - Information Technology"
+        },
+        {
+          "title": "Scrum Master III",
+          "reqId": "43104",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08192b567c30deed4339b",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "351000 - Information Technology"
+        },
+        {
+          "title": "AV Engineer II",
+          "reqId": "43119",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0812d83abee0211412e5c",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "351000 - Information Technology"
+        },
+        {
+          "title": "Structured Cabling Engineer I",
+          "reqId": "43125",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081e5ba6dd784d8811396",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "351000 - Information Technology"
+        },
+        {
+          "title": "Student Assistant, Research Foundation",
+          "reqId": "43141",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0815987d7e339d18303e6",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Student Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "790700 - Research Foundation"
+        },
+        {
+          "title": "Student Assistant, USF CONNECT",
+          "reqId": "43142",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081f9b82ef8ae11c25983",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Student Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "790500 - USF Technology Incubator"
+        },
+        {
+          "title": "Manager Innovation Education Engagement",
+          "reqId": "43153",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081b994a4ccee4fbe1cdd",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "790500 - USF Technology Incubator"
+        },
+        {
+          "title": "Academic Program Specialist",
+          "reqId": "43171",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0814a997ac63fbeff6cb1",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "240100 - CDAP Dean's Office"
+        },
+        {
+          "title": "IT Communications & Client Success Specialist II",
+          "reqId": "43179",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081228eedd382a5bb5ca8",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "351000 - Information Technology"
+        },
+        {
+          "title": "Student Programs Coordinator",
+          "reqId": "43185",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0814f91cedc9ab886ed00",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Student Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "386500 - Academic Success Center"
+        },
+        {
+          "title": "Senior Product Owner",
+          "reqId": "43186",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081ef9846c4998a3e4652",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "351000 - Information Technology"
+        },
+        {
+          "title": "Oracle Cloud Applications Developer IV",
+          "reqId": "43191",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081688a26fb1ce8937ece",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "351000 - Information Technology"
+        },
+        {
+          "title": "Walk Up Desk Technician - St Pete",
+          "reqId": "43194",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081198040c2959058ad62",
+          "owner": "Tameka Porter",
+          "campus": "St. Petersburg",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "351000 - Information Technology"
+        },
+        {
+          "title": "Student Assistant - Athletics Tutor",
+          "reqId": "43196",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081d5bb7df9db3f0887aa",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Student Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "380600 - UGS Academic Advising - Athletics"
+        },
+        {
+          "title": "Student Assistant - Athletics Academic Mentor",
+          "reqId": "43197",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081028abbe413888fc5f7",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Student Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "380600 - UGS Academic Advising - Athletics"
+        },
+        {
+          "title": "Orientation Coordinator",
+          "reqId": "43205",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081608ce3dced13431071",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "387500 - Orientation"
+        },
+        {
+          "title": "Client Support Technician II (MDD)",
+          "reqId": "43220",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081e89e98cb4ece09f204",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "351000 - Information Technology"
+        },
+        {
+          "title": "Grant Financial Admin II",
+          "reqId": "43224",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0817e95aecc9eac4fc12c",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "790300 - Sponsored Research"
+        },
+        {
+          "title": "Director Maintenance",
+          "reqId": "43234",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081d894bac40dbe3bfde2",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "025500 - Maintenance & Special Allocation"
+        },
+        {
+          "title": "Sponsored Research Admin II",
+          "reqId": "43252",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08146be99c023dfec75c5",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "790300 - Sponsored Research"
+        },
+        {
+          "title": "Athletics Academic Mentor",
+          "reqId": "43274",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0815ea37dde76a62719c8",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "380600 - UGS Academic Advising - Athletics"
+        },
+        {
+          "title": "Administrative Specialist - Civil & Environmental Eng",
+          "reqId": "43286",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0818d8612ee7e8ebdb8f7",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "210400 - Civil & Environmental Engr"
+        },
+        {
+          "title": "License and Business Development Manager",
+          "reqId": "43300",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0818a8198e41dfa1f50a1",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "790400 - Technology Transfer Office"
+        },
+        {
+          "title": "Research Services Administrator",
+          "reqId": "43311",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0816c8f60d86c996a766d",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "790700 - Research Foundation"
+        },
+        {
+          "title": "Research Compliance Administrator - Conflict of Interest",
+          "reqId": "43312",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081ab8b6bc287f2e05f5d",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟡 3-5",
+          "department": "791000 - Research Integrity &Compliance"
+        },
+        {
+          "title": "Maintenance & Repair Worker",
+          "reqId": "43313",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0818a8cddfdffcd889145",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "790900 - Comparative Medicine"
+        },
+        {
           "title": "Academic Program Specialist",
           "reqId": "43326",
           "notionUrl": "https://www.notion.so/39f9ddf757a081bda4d3f81ffd1f6b90",
@@ -3059,6 +3849,46 @@
           "stage": "Passive Hiring",
           "agingBand": "🟡 3-5",
           "department": "126100 - Social Work"
+        },
+        {
+          "title": "Sr. Academic Advisor I",
+          "reqId": "43333",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081b6b5dffe2b3bd9e49f",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "210500 - Mechanical Engineering"
+        },
+        {
+          "title": "Adjunct",
+          "reqId": "43371",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08166b824c945e8cf933e",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "121900 - Communication Sciences & Disorders"
+        },
+        {
+          "title": "Community Outreach Coordinator",
+          "reqId": "43387",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081b0b0adf24be89e7dab",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "582000 - Behavioral Health Science and Practice"
+        },
+        {
+          "title": "IT Asset Assistant (OPS)",
+          "reqId": "43398",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081f68a56d421d4057adb",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "351000 - Information Technology"
         },
         {
           "title": "Adjunct",
@@ -3099,6 +3929,376 @@
           "stage": "Passive Hiring",
           "agingBand": "🟡 3-5",
           "department": "126100 - Social Work"
+        },
+        {
+          "title": "Adjunct",
+          "reqId": "43411",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081568b0de816a9fa497c",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "122100 - Criminology"
+        },
+        {
+          "title": "Learning Management & Academic Operations Specialist",
+          "reqId": "43463",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081429c4df9bd19361a9c",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "588000 - CBCS Administration"
+        },
+        {
+          "title": "Administrative Specialist, Research Integrity and Compliance",
+          "reqId": "43509",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081c4942ee8d8a6b864b9",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "791000 - Research Integrity &Compliance"
+        },
+        {
+          "title": "Executive Administrative Spec.",
+          "reqId": "43510",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081b78495df74525333ec",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "790700 - Research Foundation"
+        },
+        {
+          "title": "Clinical Assistant Instructor in Speech-Language Pathology, Department of Communication Sciences and Disorders",
+          "reqId": "43583",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081a78975f6a1f0da9711",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "121900 - Communication Sciences & Disorders"
+        },
+        {
+          "title": "IT Applications Developer I",
+          "reqId": "43600",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081d59892db300c026ead",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "351000 - Information Technology"
+        },
+        {
+          "title": "IT Resource Manager II",
+          "reqId": "43609",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08163bf09e14567ebe935",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟡 3-5",
+          "department": "351000 - Information Technology"
+        },
+        {
+          "title": "IT Quality Assurance Tester III",
+          "reqId": "43611",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08196b1d9ce877136920f",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "351000 - Information Technology"
+        },
+        {
+          "title": "Assistant Curator",
+          "reqId": "43613",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081a5ac86d552b818992c",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟡 3-5",
+          "department": "120100 - Arts And Sciences - Dean"
+        },
+        {
+          "title": "Student Asst - FWS",
+          "reqId": "43641",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0818dadeef6581ac150d2",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "583007 - CFS Rightpath Research Center"
+        },
+        {
+          "title": "Research Compliance Admin I",
+          "reqId": "43656",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081bfbaf2d6c6a84c2765",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "791000 - Research Integrity &Compliance"
+        },
+        {
+          "title": "General Maintenance Tech III",
+          "reqId": "43665",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0813abe12ff2b2aca3572",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "790700 - Research Foundation"
+        },
+        {
+          "title": "Staff Assistant",
+          "reqId": "43696",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081e19fcfec4f51b64370",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟡 3-5",
+          "department": "125500 - Psychology"
+        },
+        {
+          "title": "Teaching Laboratory Specialist",
+          "reqId": "43706",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081c98994d2e99c7988fd",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "121300 - Chemistry"
+        },
+        {
+          "title": "Staff Assistant – Department of Behavioral Health Science & Practice",
+          "reqId": "43729",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081f7b43cc51e853667c1",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "582000 - Behavioral Health Science and Practice"
+        },
+        {
+          "title": "Fiscal & Business Specialist, Research Operations",
+          "reqId": "43730",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0812cab8fef3c045c6542",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "790100 - VP Research"
+        },
+        {
+          "title": "Client Support Technician II",
+          "reqId": "43734",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0815cb91dc15436a155ba",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "351000 - Information Technology"
+        },
+        {
+          "title": "Data Management Analyst II",
+          "reqId": "43735",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0816b92c6d5c7436d84ad",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "351000 - Information Technology"
+        },
+        {
+          "title": "Grant Financial Administrator",
+          "reqId": "43738",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0813fbe6be571a629af36",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "790300 - Sponsored Research"
+        },
+        {
+          "title": "Office Manager II",
+          "reqId": "43739",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08119a12cdb6aa105c976",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "790100 - VP Research"
+        },
+        {
+          "title": "Fiscal & Business Specialist - OT Credentialing & Access Services",
+          "reqId": "43760",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08126869ff405363bdeae",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "351000 - Information Technology"
+        },
+        {
+          "title": "Academic Services Administrator",
+          "reqId": "43766",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081bd8728f8b66de2c504",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟡 3-5",
+          "department": "122300 - English"
+        },
+        {
+          "title": "Walk Up Desk Technician (Nights)",
+          "reqId": "43767",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08131ae3ac105f829e4d0",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "351000 - Information Technology"
+        },
+        {
+          "title": "Conference and Events Planner",
+          "reqId": "43769",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081e5b920ca363d359a59",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟡 3-5",
+          "department": "120100 - Arts And Sciences - Dean"
+        },
+        {
+          "title": "Academic Program Specialist",
+          "reqId": "43791",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081a7b2c5c85096951119",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟡 3-5",
+          "department": "124700 - Mass Communications"
+        },
+        {
+          "title": "Academic Program Specialist",
+          "reqId": "43800",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0816d87e1c7c2ffc69c86",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟡 3-5",
+          "department": "123100 - Sch of Intdisc Global Studies"
+        },
+        {
+          "title": "Walk Up Desk Student Technician - St Pete",
+          "reqId": "43801",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0816b8d7cdbe60a8b5a87",
+          "owner": "Tameka Porter",
+          "campus": "St. Petersburg",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "351000 - Information Technology"
+        },
+        {
+          "title": "Oracle Reporting Analyst III",
+          "reqId": "43808",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0810ea89ce644fbfefe2d",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Evergreen / Continuous Pool",
+          "agingBand": "🟡 3-5",
+          "department": "351000 - Information Technology"
+        },
+        {
+          "title": "Operational Technology Infrastructure Student Developer",
+          "reqId": "43810",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081a58841ea271cc9a2fb",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "351000 - Information Technology"
+        },
+        {
+          "title": "FWS Research Assistant",
+          "reqId": "43821",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081eba358f62c1c8a4511",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "583007 - CFS Rightpath Research Center"
+        },
+        {
+          "title": "Administrative Specialist",
+          "reqId": "43824",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08195a4b9edab11b0a62b",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "125500 - Psychology"
+        },
+        {
+          "title": "Research Facilitator II",
+          "reqId": "43826",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081c98938f6d8c45a52a1",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "351000 - Information Technology"
+        },
+        {
+          "title": "Transit Bus Driver, Part Time, Non-Student",
+          "reqId": "43848",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0819cadf4f4656190dee9",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "028200 - Parking & Transportation Services"
+        },
+        {
+          "title": "Technology & Systems Analyst",
+          "reqId": "43890",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0811c9528f6ddf545aa58",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟡 3-5",
+          "department": "120100 - Arts And Sciences - Dean"
+        },
+        {
+          "title": "Adjunct",
+          "reqId": "43947",
+          "notionUrl": "https://www.notion.so/39f9ddf757a081c6847de424fb1c2c53",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "121900 - Communication Sciences & Disorders"
+        },
+        {
+          "title": "OPS Research Assistant",
+          "reqId": "43952",
+          "notionUrl": "https://www.notion.so/39f9ddf757a0814a83d5e69a114e3335",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "122900 - School Of Aging Studies"
+        },
+        {
+          "title": "Senior Product Owner",
+          "reqId": "43971",
+          "notionUrl": "https://www.notion.so/39f9ddf757a08118a3accc3cd07b8970",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "351000 - Information Technology"
         },
         {
           "title": "Health Promotion Associate",
@@ -3409,6 +4609,26 @@
           "stage": "Passive Hiring",
           "agingBand": "🟡 3-5",
           "department": "080000 - SG Branches And Agencies"
+        },
+        {
+          "title": "Program Development Specialist",
+          "reqId": "41648",
+          "notionUrl": "https://www.notion.so/2880aff0a0e9493eb3cf24f079e44a86",
+          "owner": "mendoza33@usf.edu",
+          "campus": "Tallahassee",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "Inst For School Comm Partnership"
+        },
+        {
+          "title": "Marine Technician",
+          "reqId": "43422",
+          "notionUrl": "https://www.notion.so/6b66234d195c4ef49f5f27637e862e2a",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Passive Hiring",
+          "agingBand": "🟡 3-5",
+          "department": "Florida Inst of Oceanography"
         },
         {
           "title": "Contract Financial Analyst I",
@@ -3767,26 +4987,6 @@
           "department": "020600 - University Controllers Office"
         },
         {
-          "title": "AVC Student Developer",
-          "reqId": "44300",
-          "notionUrl": "https://www.notion.so/68b42aada7554990b088f6c3338279a4",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Student Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "351000 - Information Technology"
-        },
-        {
-          "title": "Office Administrator",
-          "reqId": "44298",
-          "notionUrl": "https://www.notion.so/fe671c7fd3f64ac5992ccf96faa8f36d",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Backlog",
-          "agingBand": "🟢 0–2",
-          "department": "120100 - Arts And Sciences - Dean"
-        },
-        {
           "title": "Executive Administrative Spec.",
           "reqId": "44227",
           "notionUrl": "https://www.notion.so/70ae4d6b4ba34c2782ead0ca8ef70024",
@@ -3835,176 +5035,6 @@
           "stage": "HM Review",
           "agingBand": "🟢 0–2",
           "department": "614000 - School of Phys"
-        },
-        {
-          "title": "AI and Tools Enablement Facilitator",
-          "reqId": "44064",
-          "notionUrl": "https://www.notion.so/8f5b7d100c4d450aa0cc8752877ca7a1",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "351000 - Information Technology"
-        },
-        {
-          "title": "Budget Analyst II",
-          "reqId": "44040",
-          "notionUrl": "https://www.notion.so/e52fb62d4abc435cbf5242ba4366137d",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Backlog",
-          "agingBand": "🟢 0–2",
-          "department": "790100 - VP Research"
-        },
-        {
-          "title": "Service Desk Technician",
-          "reqId": "44093",
-          "notionUrl": "https://www.notion.so/0e7a253fd3114984a1c3ec5f4daf7edd",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "351000 - Information Technology"
-        },
-        {
-          "title": "IT Scrum Master III",
-          "reqId": "44112",
-          "notionUrl": "https://www.notion.so/a8e9ddf2f83a411190a0613cf45aa1d7",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "351000 - Information Technology"
-        },
-        {
-          "title": "Fiscal and Business Specialist - OPS",
-          "reqId": "44114",
-          "notionUrl": "https://www.notion.so/1baee1ec4e7142b58ce21817527857cc",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Backlog",
-          "agingBand": "🟢 0–2",
-          "department": "790400 - Technology Transfer Office"
-        },
-        {
-          "title": "Student Assistant ERP Analyst",
-          "reqId": "44154",
-          "notionUrl": "https://www.notion.so/15b1a160dffb4124866ed6c9eeb0895e",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Student Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "351000 - Information Technology"
-        },
-        {
-          "title": "Service Desk Student Technician",
-          "reqId": "44119",
-          "notionUrl": "https://www.notion.so/11e3846b09c946aaac946f33ff5960c1",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Backlog",
-          "agingBand": "🟢 0–2",
-          "department": "351000 - Information Technology"
-        },
-        {
-          "title": "Student Assistant - FWS",
-          "reqId": "44140",
-          "notionUrl": "https://www.notion.so/767ccfed81214b199ef847f44b597ecd",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Student Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "583002 - CFS Applied Research & Edu"
-        },
-        {
-          "title": "Student Asst - FWS",
-          "reqId": "44117",
-          "notionUrl": "https://www.notion.so/0fb70037fd0b4ea7a25c227bfbced7a0",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Student Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "581000 - CBCS Dean'S Office"
-        },
-        {
-          "title": "Federal Work-Study (FWS) Student Assistant",
-          "reqId": "44173",
-          "notionUrl": "https://www.notion.so/20ef29b1d44c47dfa349adc17274b2ae",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Student Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "583002 - CFS Applied Research & Edu"
-        },
-        {
-          "title": "FWS Communications and Marketing Intern",
-          "reqId": "44172",
-          "notionUrl": "https://www.notion.so/50317d39d55f46b6b8284a2b1144f80b",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Student Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "581000 - CBCS Dean'S Office"
-        },
-        {
-          "title": "Clerical and Secretarial",
-          "reqId": "44190",
-          "notionUrl": "https://www.notion.so/fa6bbd9d2d1b42958bb88f5a18d810dc",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "121900 - Communication Sciences & Disorders"
-        },
-        {
-          "title": "OPS Research Assistant",
-          "reqId": "44193",
-          "notionUrl": "https://www.notion.so/877cb8004c0a4388bf96b3657d1b3b20",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Targeted Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "122900 - School Of Aging Studies"
-        },
-        {
-          "title": "Service Desk Technician, OPS (Part-Time)",
-          "reqId": "44165",
-          "notionUrl": "https://www.notion.so/1cfab3b08fbb4f1394902b11c7ba6acd",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "351000 - Information Technology"
-        },
-        {
-          "title": "Research Serv Administrator",
-          "reqId": "44240",
-          "notionUrl": "https://www.notion.so/6221893bd8854aae9922300a13617b92",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "790100 - VP Research"
-        },
-        {
-          "title": "Sr Groundskeeper",
-          "reqId": "44204",
-          "notionUrl": "https://www.notion.so/fd8a56e91cb74850b7ecc50b726fbfb5",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Backlog",
-          "agingBand": "🟢 0–2",
-          "department": "120100 - Arts And Sciences - Dean"
-        },
-        {
-          "title": "COI Research Compliance Admin II",
-          "reqId": "44226",
-          "notionUrl": "https://www.notion.so/89792e55e28344cf8718029f51e6f8ba",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "791000 - Research Integrity &Compliance"
         },
         {
           "title": "Accounts Payable Specialist I",
@@ -4277,1016 +5307,6 @@
           "department": "614400 - Molecular Medi"
         },
         {
-          "title": "Open Rank, Full Professor, Associate Professor, Assistant",
-          "reqId": "41549",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0816f8074dd8a3877e686",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "122900 - School Of Aging Studies"
-        },
-        {
-          "title": "Assistant Professor of Instruction - Department of Behavioral Health Science and Practice",
-          "reqId": "41637",
-          "notionUrl": "https://www.notion.so/39f9ddf757a08127a68bff7fa2ff7a5f",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "582000 - Behavioral Health Science and Practice"
-        },
-        {
-          "title": "FWS Student Assistant",
-          "reqId": "42255",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081a6aab5e434561e7a64",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "588000 - CBCS Administration"
-        },
-        {
-          "title": "Academic Advisor I",
-          "reqId": "42269",
-          "notionUrl": "https://www.notion.so/39f9ddf757a08109bd26ec2a52aada62",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "387300 - Upward Bound"
-        },
-        {
-          "title": "Chair and Professor-Civil & Environmental Engineering",
-          "reqId": "42289",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0813ba36ec440aafa2a39",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "210400 - Civil & Environmental Engr"
-        },
-        {
-          "title": "Adjunct-Extra Comp",
-          "reqId": "42302",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0819995f5e0660e2b0f6c",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "583001 - Dept Child And Family Studies"
-        },
-        {
-          "title": "Assistant Director, Student Conduct",
-          "reqId": "42318",
-          "notionUrl": "https://www.notion.so/39f9ddf757a08146b2b9dfd6fd786b6d",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "040201 - Student Conduct & Ethical Dev"
-        },
-        {
-          "title": "Assistant Professor-Medical Engineering",
-          "reqId": "42383",
-          "notionUrl": "https://www.notion.so/39f9ddf757a08132a271fee191ee2947",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "212100 - Medical Engineering"
-        },
-        {
-          "title": "Professor-Medical Engineering",
-          "reqId": "42391",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0815ea399e66a1f9e1bee",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "212100 - Medical Engineering"
-        },
-        {
-          "title": "Associate Professor-Medical Engineering",
-          "reqId": "42392",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081a78e85e4b16a61f6b2",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "212100 - Medical Engineering"
-        },
-        {
-          "title": "OPS Student Assistant- Computer Vision Video Analytics",
-          "reqId": "42470",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081a6b1eae5efab39ee84",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "211700 - Ctr For Urban Transportation Research"
-        },
-        {
-          "title": "OPS Research assistant",
-          "reqId": "42513",
-          "notionUrl": "https://www.notion.so/39f9ddf757a08117941bcb80ca71d61a",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "122100 - Criminology"
-        },
-        {
-          "title": "FWS Student Assistant",
-          "reqId": "42585",
-          "notionUrl": "https://www.notion.so/39f9ddf757a08175860edd92b665fdaa",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "211400 - Engineering Student Services"
-        },
-        {
-          "title": "Visiting Research Scholar",
-          "reqId": "42588",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0814ba3f9fd3091c101e4",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "210400 - Civil & Environmental Engr"
-        },
-        {
-          "title": "Visiting Assistant Professor of Instruction",
-          "reqId": "42658",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081c3a880f1fe1e01848c",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "122900 - School Of Aging Studies"
-        },
-        {
-          "title": "Administrative Specialist",
-          "reqId": "42692",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0815d8520fc0963188195",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "044100 - Ctr For Student Involvement"
-        },
-        {
-          "title": "OPS Support Assistant",
-          "reqId": "42711",
-          "notionUrl": "https://www.notion.so/39f9ddf757a08192a5fbe0cc9561e81c",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "210500 - Mechanical Engineering"
-        },
-        {
-          "title": "Assistant Professor of Criminology, Tenure Track",
-          "reqId": "42719",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0810c9428c8903c3a5bd9",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "122100 - Criminology"
-        },
-        {
-          "title": "Assistant Professor / Associate Professor, Social Work",
-          "reqId": "42720",
-          "notionUrl": "https://www.notion.so/39f9ddf757a08125aa00ceed314987b1",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "126100 - Social Work"
-        },
-        {
-          "title": "Assistant/Associate/Full Professor",
-          "reqId": "42723",
-          "notionUrl": "https://www.notion.so/39f9ddf757a08161a016d921deb3ca1c",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "582000 - Behavioral Health Science and Practice"
-        },
-        {
-          "title": "Contracts and Licensing Manager",
-          "reqId": "42796",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081b3ac12c6611b6cdbd7",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "790400 - Technology Transfer Office"
-        },
-        {
-          "title": "Research Support Asst",
-          "reqId": "42812",
-          "notionUrl": "https://www.notion.so/39f9ddf757a08167b935c2d1b6d2b6a9",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "210600 - Electrical Engineering"
-        },
-        {
-          "title": "Asst Prof of Instruction - Mechanical Eng",
-          "reqId": "42869",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0819790f6fb9f3612d2fa",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "210500 - Mechanical Engineering"
-        },
-        {
-          "title": "Assoc Professor of Instruction - Mechanical Engineering",
-          "reqId": "42870",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081549f7beefabe0110fa",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "210500 - Mechanical Engineering"
-        },
-        {
-          "title": "Professor of Instruction - Mechanical Engineering",
-          "reqId": "42871",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081a8a9acdd8d7181e980",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "210500 - Mechanical Engineering"
-        },
-        {
-          "title": "Conflict of Interest Manager",
-          "reqId": "42895",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081e495b0cefddc298e06",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "791000 - Research Integrity &Compliance"
-        },
-        {
-          "title": "Temporary Academic Intern",
-          "reqId": "42902",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0813d8302ca1e4ba39304",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "380600 - UGS Academic Advising - Athletics"
-        },
-        {
-          "title": "AVC Student Developer",
-          "reqId": "42959",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081ebaedcfdb533ed8645",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "351000 - Information Technology"
-        },
-        {
-          "title": "Sr. Lab Animal Tech",
-          "reqId": "42964",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081dc8e30c04e28cc5f75",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "790900 - Comparative Medicine"
-        },
-        {
-          "title": "Biological Scientist",
-          "reqId": "42965",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081498988e5c23c1083c6",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "790900 - Comparative Medicine"
-        },
-        {
-          "title": "Diesel & Vehicle Mechanic",
-          "reqId": "42969",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081c7aa85d3fe45b6e2a6",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "028200 - Parking & Transportation Services"
-        },
-        {
-          "title": "Eng Academic Advisor I",
-          "reqId": "42971",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081f4a4e8c4f2f5df9e88",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "211400 - Engineering Student Services"
-        },
-        {
-          "title": "QA/QI Research Compliance Admin II",
-          "reqId": "42985",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0816e854ad75d0f5016d1",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "791000 - Research Integrity &Compliance"
-        },
-        {
-          "title": "Service Desk Student Technician",
-          "reqId": "43092",
-          "notionUrl": "https://www.notion.so/39f9ddf757a08116a4f8db5dfe83d693",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "351000 - Information Technology"
-        },
-        {
-          "title": "AI Agent Developer Student Assistant",
-          "reqId": "43095",
-          "notionUrl": "https://www.notion.so/39f9ddf757a08142a7e3c2e6c872b0c6",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "351000 - Information Technology"
-        },
-        {
-          "title": "Scrum Master III",
-          "reqId": "43104",
-          "notionUrl": "https://www.notion.so/39f9ddf757a08192b567c30deed4339b",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "351000 - Information Technology"
-        },
-        {
-          "title": "AV Engineer II",
-          "reqId": "43119",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0812d83abee0211412e5c",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "351000 - Information Technology"
-        },
-        {
-          "title": "Structured Cabling Engineer I",
-          "reqId": "43125",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081e5ba6dd784d8811396",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "351000 - Information Technology"
-        },
-        {
-          "title": "Student Assistant, Research Foundation",
-          "reqId": "43141",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0815987d7e339d18303e6",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Student Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "790700 - Research Foundation"
-        },
-        {
-          "title": "Student Assistant, USF CONNECT",
-          "reqId": "43142",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081f9b82ef8ae11c25983",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Student Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "790500 - USF Technology Incubator"
-        },
-        {
-          "title": "Manager Innovation Education Engagement",
-          "reqId": "43153",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081b994a4ccee4fbe1cdd",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "790500 - USF Technology Incubator"
-        },
-        {
-          "title": "Academic Program Specialist",
-          "reqId": "43171",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0814a997ac63fbeff6cb1",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "240100 - CDAP Dean's Office"
-        },
-        {
-          "title": "IT Communications & Client Success Specialist II",
-          "reqId": "43179",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081228eedd382a5bb5ca8",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "351000 - Information Technology"
-        },
-        {
-          "title": "Student Programs Coordinator",
-          "reqId": "43185",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0814f91cedc9ab886ed00",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Student Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "386500 - Academic Success Center"
-        },
-        {
-          "title": "Senior Product Owner",
-          "reqId": "43186",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081ef9846c4998a3e4652",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "351000 - Information Technology"
-        },
-        {
-          "title": "Oracle Cloud Applications Developer IV",
-          "reqId": "43191",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081688a26fb1ce8937ece",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "351000 - Information Technology"
-        },
-        {
-          "title": "Walk Up Desk Technician - St Pete",
-          "reqId": "43194",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081198040c2959058ad62",
-          "owner": "Tameka Porter",
-          "campus": "St. Petersburg",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "351000 - Information Technology"
-        },
-        {
-          "title": "Student Assistant - Athletics Tutor",
-          "reqId": "43196",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081d5bb7df9db3f0887aa",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Student Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "380600 - UGS Academic Advising - Athletics"
-        },
-        {
-          "title": "Student Assistant - Athletics Academic Mentor",
-          "reqId": "43197",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081028abbe413888fc5f7",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Student Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "380600 - UGS Academic Advising - Athletics"
-        },
-        {
-          "title": "Orientation Coordinator",
-          "reqId": "43205",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081608ce3dced13431071",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "387500 - Orientation"
-        },
-        {
-          "title": "Client Support Technician II (MDD)",
-          "reqId": "43220",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081e89e98cb4ece09f204",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "351000 - Information Technology"
-        },
-        {
-          "title": "Grant Financial Admin II",
-          "reqId": "43224",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0817e95aecc9eac4fc12c",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "790300 - Sponsored Research"
-        },
-        {
-          "title": "Director Maintenance",
-          "reqId": "43234",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081d894bac40dbe3bfde2",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "025500 - Maintenance & Special Allocation"
-        },
-        {
-          "title": "Sponsored Research Admin II",
-          "reqId": "43252",
-          "notionUrl": "https://www.notion.so/39f9ddf757a08146be99c023dfec75c5",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "790300 - Sponsored Research"
-        },
-        {
-          "title": "Athletics Academic Mentor",
-          "reqId": "43274",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0815ea37dde76a62719c8",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "380600 - UGS Academic Advising - Athletics"
-        },
-        {
-          "title": "Administrative Specialist - Civil & Environmental Eng",
-          "reqId": "43286",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0818d8612ee7e8ebdb8f7",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "210400 - Civil & Environmental Engr"
-        },
-        {
-          "title": "License and Business Development Manager",
-          "reqId": "43300",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0818a8198e41dfa1f50a1",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "790400 - Technology Transfer Office"
-        },
-        {
-          "title": "Research Services Administrator",
-          "reqId": "43311",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0816c8f60d86c996a766d",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "790700 - Research Foundation"
-        },
-        {
-          "title": "Research Compliance Administrator - Conflict of Interest",
-          "reqId": "43312",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081ab8b6bc287f2e05f5d",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🟢 0–2",
-          "department": "791000 - Research Integrity &Compliance"
-        },
-        {
-          "title": "Maintenance & Repair Worker",
-          "reqId": "43313",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0818a8cddfdffcd889145",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "790900 - Comparative Medicine"
-        },
-        {
-          "title": "Sr. Academic Advisor I",
-          "reqId": "43333",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081b6b5dffe2b3bd9e49f",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "210500 - Mechanical Engineering"
-        },
-        {
-          "title": "Adjunct",
-          "reqId": "43371",
-          "notionUrl": "https://www.notion.so/39f9ddf757a08166b824c945e8cf933e",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "121900 - Communication Sciences & Disorders"
-        },
-        {
-          "title": "Community Outreach Coordinator",
-          "reqId": "43387",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081b0b0adf24be89e7dab",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "582000 - Behavioral Health Science and Practice"
-        },
-        {
-          "title": "IT Asset Assistant (OPS)",
-          "reqId": "43398",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081f68a56d421d4057adb",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "351000 - Information Technology"
-        },
-        {
-          "title": "Adjunct",
-          "reqId": "43411",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081568b0de816a9fa497c",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "122100 - Criminology"
-        },
-        {
-          "title": "Learning Management & Academic Operations Specialist",
-          "reqId": "43463",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081429c4df9bd19361a9c",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "588000 - CBCS Administration"
-        },
-        {
-          "title": "Administrative Specialist, Research Integrity and Compliance",
-          "reqId": "43509",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081c4942ee8d8a6b864b9",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "791000 - Research Integrity &Compliance"
-        },
-        {
-          "title": "Executive Administrative Spec.",
-          "reqId": "43510",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081b78495df74525333ec",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "790700 - Research Foundation"
-        },
-        {
-          "title": "Clinical Assistant Instructor in Speech-Language Pathology, Department of Communication Sciences and Disorders",
-          "reqId": "43583",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081a78975f6a1f0da9711",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "121900 - Communication Sciences & Disorders"
-        },
-        {
-          "title": "IT Applications Developer I",
-          "reqId": "43600",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081d59892db300c026ead",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "351000 - Information Technology"
-        },
-        {
-          "title": "IT Resource Manager II",
-          "reqId": "43609",
-          "notionUrl": "https://www.notion.so/39f9ddf757a08163bf09e14567ebe935",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🟢 0–2",
-          "department": "351000 - Information Technology"
-        },
-        {
-          "title": "IT Quality Assurance Tester III",
-          "reqId": "43611",
-          "notionUrl": "https://www.notion.so/39f9ddf757a08196b1d9ce877136920f",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "351000 - Information Technology"
-        },
-        {
-          "title": "Assistant Curator",
-          "reqId": "43613",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081a5ac86d552b818992c",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Backlog",
-          "agingBand": "🟢 0–2",
-          "department": "120100 - Arts And Sciences - Dean"
-        },
-        {
-          "title": "Student Asst - FWS",
-          "reqId": "43641",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0818dadeef6581ac150d2",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "583007 - CFS Rightpath Research Center"
-        },
-        {
-          "title": "Research Compliance Admin I",
-          "reqId": "43656",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081bfbaf2d6c6a84c2765",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "791000 - Research Integrity &Compliance"
-        },
-        {
-          "title": "General Maintenance Tech III",
-          "reqId": "43665",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0813abe12ff2b2aca3572",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "790700 - Research Foundation"
-        },
-        {
-          "title": "Staff Assistant",
-          "reqId": "43696",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081e19fcfec4f51b64370",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🟢 0–2",
-          "department": "125500 - Psychology"
-        },
-        {
-          "title": "Teaching Laboratory Specialist",
-          "reqId": "43706",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081c98994d2e99c7988fd",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "121300 - Chemistry"
-        },
-        {
-          "title": "Staff Assistant – Department of Behavioral Health Science & Practice",
-          "reqId": "43729",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081f7b43cc51e853667c1",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "582000 - Behavioral Health Science and Practice"
-        },
-        {
-          "title": "Fiscal & Business Specialist, Research Operations",
-          "reqId": "43730",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0812cab8fef3c045c6542",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "790100 - VP Research"
-        },
-        {
-          "title": "Client Support Technician II",
-          "reqId": "43734",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0815cb91dc15436a155ba",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "351000 - Information Technology"
-        },
-        {
-          "title": "Data Management Analyst II",
-          "reqId": "43735",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0816b92c6d5c7436d84ad",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "351000 - Information Technology"
-        },
-        {
-          "title": "Grant Financial Administrator",
-          "reqId": "43738",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0813fbe6be571a629af36",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "790300 - Sponsored Research"
-        },
-        {
-          "title": "Office Manager II",
-          "reqId": "43739",
-          "notionUrl": "https://www.notion.so/39f9ddf757a08119a12cdb6aa105c976",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "790100 - VP Research"
-        },
-        {
-          "title": "Fiscal & Business Specialist - OT Credentialing & Access Services",
-          "reqId": "43760",
-          "notionUrl": "https://www.notion.so/39f9ddf757a08126869ff405363bdeae",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "351000 - Information Technology"
-        },
-        {
-          "title": "Academic Services Administrator",
-          "reqId": "43766",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081bd8728f8b66de2c504",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Backlog",
-          "agingBand": "🟢 0–2",
-          "department": "122300 - English"
-        },
-        {
-          "title": "Walk Up Desk Technician (Nights)",
-          "reqId": "43767",
-          "notionUrl": "https://www.notion.so/39f9ddf757a08131ae3ac105f829e4d0",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "351000 - Information Technology"
-        },
-        {
-          "title": "Conference and Events Planner",
-          "reqId": "43769",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081e5b920ca363d359a59",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Backlog",
-          "agingBand": "🟢 0–2",
-          "department": "120100 - Arts And Sciences - Dean"
-        },
-        {
-          "title": "Academic Program Specialist",
-          "reqId": "43791",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081a7b2c5c85096951119",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Backlog",
-          "agingBand": "🟢 0–2",
-          "department": "124700 - Mass Communications"
-        },
-        {
-          "title": "Academic Program Specialist",
-          "reqId": "43800",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0816d87e1c7c2ffc69c86",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Backlog",
-          "agingBand": "🟢 0–2",
-          "department": "123100 - Sch of Intdisc Global Studies"
-        },
-        {
-          "title": "Walk Up Desk Student Technician - St Pete",
-          "reqId": "43801",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0816b8d7cdbe60a8b5a87",
-          "owner": "Tameka Porter",
-          "campus": "St. Petersburg",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "351000 - Information Technology"
-        },
-        {
-          "title": "Oracle Reporting Analyst III",
-          "reqId": "43808",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0810ea89ce644fbfefe2d",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Evergreen / Continuous Pool",
-          "agingBand": "🟢 0–2",
-          "department": "351000 - Information Technology"
-        },
-        {
-          "title": "Operational Technology Infrastructure Student Developer",
-          "reqId": "43810",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081a58841ea271cc9a2fb",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "351000 - Information Technology"
-        },
-        {
-          "title": "FWS Research Assistant",
-          "reqId": "43821",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081eba358f62c1c8a4511",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "583007 - CFS Rightpath Research Center"
-        },
-        {
-          "title": "Administrative Specialist",
-          "reqId": "43824",
-          "notionUrl": "https://www.notion.so/39f9ddf757a08195a4b9edab11b0a62b",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "125500 - Psychology"
-        },
-        {
-          "title": "Research Facilitator II",
-          "reqId": "43826",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081c98938f6d8c45a52a1",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "351000 - Information Technology"
-        },
-        {
-          "title": "Transit Bus Driver, Part Time, Non-Student",
-          "reqId": "43848",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0819cadf4f4656190dee9",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "028200 - Parking & Transportation Services"
-        },
-        {
-          "title": "Technology & Systems Analyst",
-          "reqId": "43890",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0811c9528f6ddf545aa58",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Backlog",
-          "agingBand": "🟢 0–2",
-          "department": "120100 - Arts And Sciences - Dean"
-        },
-        {
-          "title": "Adjunct",
-          "reqId": "43947",
-          "notionUrl": "https://www.notion.so/39f9ddf757a081c6847de424fb1c2c53",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "121900 - Communication Sciences & Disorders"
-        },
-        {
-          "title": "OPS Research Assistant",
-          "reqId": "43952",
-          "notionUrl": "https://www.notion.so/39f9ddf757a0814a83d5e69a114e3335",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "122900 - School Of Aging Studies"
-        },
-        {
-          "title": "Senior Product Owner",
-          "reqId": "43971",
-          "notionUrl": "https://www.notion.so/39f9ddf757a08118a3accc3cd07b8970",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "351000 - Information Technology"
-        },
-        {
           "title": "Budget Analyst II",
           "reqId": "43918",
           "notionUrl": "https://www.notion.so/e47634d2d9894dddbaa76e706f415b1a",
@@ -5447,16 +5467,6 @@
           "department": "614400 - Molecular Medicine"
         },
         {
-          "title": "Program Development Specialist",
-          "reqId": "41648",
-          "notionUrl": "https://www.notion.so/2880aff0a0e9493eb3cf24f079e44a86",
-          "owner": "mendoza33@usf.edu",
-          "campus": "Tallahassee",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "Inst For School Comm Partnership"
-        },
-        {
           "title": "School Improvement Coordinator",
           "reqId": "43241",
           "notionUrl": "https://www.notion.so/26c4c26a172a4595b42feaa0299171a7",
@@ -5465,16 +5475,6 @@
           "stage": "Passive Hiring",
           "agingBand": "🟢 0–2",
           "department": "Inst For School Comm Partnership"
-        },
-        {
-          "title": "Marine Technician",
-          "reqId": "43422",
-          "notionUrl": "https://www.notion.so/6b66234d195c4ef49f5f27637e862e2a",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Passive Hiring",
-          "agingBand": "🟢 0–2",
-          "department": "Florida Inst of Oceanography"
         },
         {
           "title": "Administrative Specialist",
@@ -6466,39 +6466,45 @@
   "stageMetrics": [
     {
       "label": "Recruiter Review",
-      "avgDays": 21,
-      "count": 18,
+      "avgDays": 13,
+      "count": 30,
       "color": "#006747"
     },
     {
       "label": "HM Review",
-      "avgDays": 9,
-      "count": 28,
+      "avgDays": 10,
+      "count": 30,
       "color": "#534AB7"
     },
     {
       "label": "Interview Stage",
-      "avgDays": 41,
-      "count": 6,
+      "avgDays": 28,
+      "count": 9,
       "color": "#d4880a"
     },
     {
       "label": "Offer Stage",
-      "avgDays": 29,
-      "count": 4,
+      "avgDays": 20,
+      "count": 6,
       "color": "#CFC483"
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 14,
+      "avgDays": 15,
       "count": 19,
       "color": "#5B8FA8"
     },
     {
       "label": "Backlog",
       "avgDays": 5,
-      "count": 14,
+      "count": 18,
       "color": "#888780"
+    },
+    {
+      "label": "Targeted Hiring",
+      "avgDays": 1,
+      "count": 1,
+      "color": "#7A9EB5"
     }
   ],
   "closedReqs": [
@@ -9517,6 +9523,17 @@
       "notionUrl": "https://www.notion.so/9dfbf4c9af864d58a3bb901b1d532ef2"
     },
     {
+      "title": "Student Assistant/Sports Medicine",
+      "reqId": "44288",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "051000 - Athletic Administration",
+      "reqType": "Student",
+      "ttf": 29,
+      "notionUrl": "https://www.notion.so/f20d8c4622024d9ba02b0557a060bda9"
+    },
+    {
       "title": "Temporary Pcard Specialist I",
       "reqId": "43905",
       "owner": "johncalebrese",
@@ -9548,17 +9565,6 @@
       "reqType": "Active",
       "ttf": 29,
       "notionUrl": "https://www.notion.so/3a3b7604d5df450c80b7edfeb05e64dd"
-    },
-    {
-      "title": "Student Assistant/Sports Medicine",
-      "reqId": "44288",
-      "owner": "johncalebrese",
-      "campus": "Tampa",
-      "stage": "Hired",
-      "department": "051000 - Athletic Administration",
-      "reqType": "Student",
-      "ttf": 28,
-      "notionUrl": "https://www.notion.so/f20d8c4622024d9ba02b0557a060bda9"
     },
     {
       "title": "Student Assistant- Student Accessibility Services",
@@ -9623,7 +9629,7 @@
       "stage": "Hired",
       "department": "612000 - Department Of",
       "reqType": "Passive",
-      "ttf": 24,
+      "ttf": 25,
       "notionUrl": "https://www.notion.so/776dc32b4f0e49a28b1368c67da27932"
     },
     {
@@ -11582,7 +11588,7 @@
       "activeReqs": 31,
       "filled": 0,
       "failed": 0,
-      "ttf": 122,
+      "ttf": 123,
       "wip": 13,
       "agingRecords": [
         {
@@ -11974,7 +11980,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 122,
+          "value": 123,
           "target": 40,
           "invert": true
         },
@@ -11992,12 +11998,12 @@
         }
       ],
       "trend": [
-        122,
-        122,
-        122,
-        122,
-        122,
-        122
+        123,
+        123,
+        123,
+        123,
+        123,
+        123
       ]
     },
     {
@@ -12012,7 +12018,7 @@
       "activeReqs": 258,
       "filled": 118,
       "failed": 26,
-      "ttf": 112,
+      "ttf": 111,
       "wip": 10,
       "agingRecords": [
         {
@@ -14617,27 +14623,39 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 14,
-          "count": 7,
+          "avgDays": 6,
+          "count": 19,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 6,
-          "count": 26,
+          "avgDays": 7,
+          "count": 28,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 42,
-          "count": 1,
+          "avgDays": 22,
+          "count": 2,
           "color": "#d4880a"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 73,
+          "avgDays": 74,
           "count": 1,
           "color": "#CFC483"
+        },
+        {
+          "label": "Backlog",
+          "avgDays": 1,
+          "count": 4,
+          "color": "#888780"
+        },
+        {
+          "label": "Targeted Hiring",
+          "avgDays": 1,
+          "count": 1,
+          "color": "#7A9EB5"
         }
       ],
       "statuses": [
@@ -14746,7 +14764,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 112,
+          "value": 111,
           "target": 40,
           "invert": true
         },
@@ -14764,12 +14782,12 @@
         }
       ],
       "trend": [
-        112,
-        112,
-        112,
-        112,
-        112,
-        112
+        111,
+        111,
+        111,
+        111,
+        111,
+        111
       ]
     },
     {
@@ -14784,7 +14802,7 @@
       "activeReqs": 72,
       "filled": 102,
       "failed": 14,
-      "ttf": 97,
+      "ttf": 98,
       "wip": 13,
       "agingRecords": [
         {
@@ -15519,31 +15537,37 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 34,
+          "avgDays": 35,
           "count": 8,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 80,
+          "avgDays": 81,
           "count": 1,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 66,
-          "count": 3,
+          "avgDays": 50,
+          "count": 4,
           "color": "#d4880a"
         },
         {
+          "label": "Offer Stage",
+          "avgDays": 1,
+          "count": 2,
+          "color": "#CFC483"
+        },
+        {
           "label": "Pre-boarding",
-          "avgDays": 23,
+          "avgDays": 24,
           "count": 7,
           "color": "#5B8FA8"
         },
         {
           "label": "Backlog",
-          "avgDays": 45,
+          "avgDays": 46,
           "count": 1,
           "color": "#888780"
         }
@@ -15649,7 +15673,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 97,
+          "value": 98,
           "target": 40,
           "invert": true
         },
@@ -15667,12 +15691,12 @@
         }
       ],
       "trend": [
-        97,
-        97,
-        97,
-        97,
-        97,
-        97
+        98,
+        98,
+        98,
+        98,
+        98,
+        98
       ]
     },
     {
@@ -16421,6 +16445,16 @@
               "department": "512800 - STP Academic Advising"
             },
             {
+              "title": "Marine Technician",
+              "reqId": "43422",
+              "notionUrl": "https://www.notion.so/6b66234d195c4ef49f5f27637e862e2a",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "Florida Inst of Oceanography"
+            },
+            {
               "title": "Contract Financial Analyst I",
               "reqId": "43667",
               "notionUrl": "https://www.notion.so/9e2a758823804c93b31beb55cee8d61b",
@@ -16507,16 +16541,6 @@
               "department": "140105 - MCOB Financia"
             },
             {
-              "title": "Marine Technician",
-              "reqId": "43422",
-              "notionUrl": "https://www.notion.so/6b66234d195c4ef49f5f27637e862e2a",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "Florida Inst of Oceanography"
-            },
-            {
               "title": "Administrative Specialist",
               "reqId": "43427",
               "notionUrl": "https://www.notion.so/affd001d0f77400f95cc677c2c6e47b4",
@@ -16532,31 +16556,31 @@
       "stageMetrics": [
         {
           "label": "HM Review",
-          "avgDays": 23,
+          "avgDays": 24,
           "count": 1,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
           "avgDays": 4,
-          "count": 2,
+          "count": 3,
           "color": "#d4880a"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 10,
+          "avgDays": 11,
           "count": 2,
           "color": "#CFC483"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 7,
+          "avgDays": 8,
           "count": 9,
           "color": "#5B8FA8"
         },
         {
           "label": "Backlog",
-          "avgDays": 1,
+          "avgDays": 2,
           "count": 1,
           "color": "#888780"
         }
@@ -16626,14 +16650,14 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 14
+          "count": 15
         },
         {
           "label": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 7
+          "count": 6
         }
       ],
       "funnel": [
@@ -16705,7 +16729,7 @@
       "activeReqs": 139,
       "filled": 14,
       "failed": 4,
-      "ttf": 73,
+      "ttf": 74,
       "wip": 10,
       "agingRecords": [
         {
@@ -16859,6 +16883,796 @@
           "color": "#BA7517",
           "records": [
             {
+              "title": "AVC Student Developer",
+              "reqId": "44300",
+              "notionUrl": "https://www.notion.so/68b42aada7554990b088f6c3338279a4",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Student Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "351000 - Information Technology"
+            },
+            {
+              "title": "Office Administrator",
+              "reqId": "44298",
+              "notionUrl": "https://www.notion.so/fe671c7fd3f64ac5992ccf96faa8f36d",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟡 3-5",
+              "department": "120100 - Arts And Sciences - Dean"
+            },
+            {
+              "title": "AI and Tools Enablement Facilitator",
+              "reqId": "44064",
+              "notionUrl": "https://www.notion.so/8f5b7d100c4d450aa0cc8752877ca7a1",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "351000 - Information Technology"
+            },
+            {
+              "title": "Budget Analyst II",
+              "reqId": "44040",
+              "notionUrl": "https://www.notion.so/e52fb62d4abc435cbf5242ba4366137d",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟡 3-5",
+              "department": "790100 - VP Research"
+            },
+            {
+              "title": "Service Desk Technician",
+              "reqId": "44093",
+              "notionUrl": "https://www.notion.so/0e7a253fd3114984a1c3ec5f4daf7edd",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "351000 - Information Technology"
+            },
+            {
+              "title": "IT Scrum Master III",
+              "reqId": "44112",
+              "notionUrl": "https://www.notion.so/a8e9ddf2f83a411190a0613cf45aa1d7",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "351000 - Information Technology"
+            },
+            {
+              "title": "Fiscal and Business Specialist - OPS",
+              "reqId": "44114",
+              "notionUrl": "https://www.notion.so/1baee1ec4e7142b58ce21817527857cc",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟡 3-5",
+              "department": "790400 - Technology Transfer Office"
+            },
+            {
+              "title": "Student Assistant ERP Analyst",
+              "reqId": "44154",
+              "notionUrl": "https://www.notion.so/15b1a160dffb4124866ed6c9eeb0895e",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Student Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "351000 - Information Technology"
+            },
+            {
+              "title": "Service Desk Student Technician",
+              "reqId": "44119",
+              "notionUrl": "https://www.notion.so/11e3846b09c946aaac946f33ff5960c1",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟡 3-5",
+              "department": "351000 - Information Technology"
+            },
+            {
+              "title": "Student Assistant - FWS",
+              "reqId": "44140",
+              "notionUrl": "https://www.notion.so/767ccfed81214b199ef847f44b597ecd",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Student Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "583002 - CFS Applied Research & Edu"
+            },
+            {
+              "title": "Student Asst - FWS",
+              "reqId": "44117",
+              "notionUrl": "https://www.notion.so/0fb70037fd0b4ea7a25c227bfbced7a0",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Student Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "581000 - CBCS Dean'S Office"
+            },
+            {
+              "title": "Federal Work-Study (FWS) Student Assistant",
+              "reqId": "44173",
+              "notionUrl": "https://www.notion.so/20ef29b1d44c47dfa349adc17274b2ae",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Student Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "583002 - CFS Applied Research & Edu"
+            },
+            {
+              "title": "FWS Communications and Marketing Intern",
+              "reqId": "44172",
+              "notionUrl": "https://www.notion.so/50317d39d55f46b6b8284a2b1144f80b",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Student Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "581000 - CBCS Dean'S Office"
+            },
+            {
+              "title": "Clerical and Secretarial",
+              "reqId": "44190",
+              "notionUrl": "https://www.notion.so/fa6bbd9d2d1b42958bb88f5a18d810dc",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "121900 - Communication Sciences & Disorders"
+            },
+            {
+              "title": "OPS Research Assistant",
+              "reqId": "44193",
+              "notionUrl": "https://www.notion.so/877cb8004c0a4388bf96b3657d1b3b20",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Targeted Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "122900 - School Of Aging Studies"
+            },
+            {
+              "title": "Service Desk Technician, OPS (Part-Time)",
+              "reqId": "44165",
+              "notionUrl": "https://www.notion.so/1cfab3b08fbb4f1394902b11c7ba6acd",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "351000 - Information Technology"
+            },
+            {
+              "title": "Research Serv Administrator",
+              "reqId": "44240",
+              "notionUrl": "https://www.notion.so/6221893bd8854aae9922300a13617b92",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "790100 - VP Research"
+            },
+            {
+              "title": "Sr Groundskeeper",
+              "reqId": "44204",
+              "notionUrl": "https://www.notion.so/fd8a56e91cb74850b7ecc50b726fbfb5",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟡 3-5",
+              "department": "120100 - Arts And Sciences - Dean"
+            },
+            {
+              "title": "COI Research Compliance Admin II",
+              "reqId": "44226",
+              "notionUrl": "https://www.notion.so/89792e55e28344cf8718029f51e6f8ba",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "791000 - Research Integrity &Compliance"
+            },
+            {
+              "title": "Open Rank, Full Professor, Associate Professor, Assistant",
+              "reqId": "41549",
+              "notionUrl": "https://www.notion.so/39f9ddf757a0816f8074dd8a3877e686",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "122900 - School Of Aging Studies"
+            },
+            {
+              "title": "Assistant Professor of Instruction - Department of Behavioral Health Science and Practice",
+              "reqId": "41637",
+              "notionUrl": "https://www.notion.so/39f9ddf757a08127a68bff7fa2ff7a5f",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "582000 - Behavioral Health Science and Practice"
+            },
+            {
+              "title": "FWS Student Assistant",
+              "reqId": "42255",
+              "notionUrl": "https://www.notion.so/39f9ddf757a081a6aab5e434561e7a64",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "588000 - CBCS Administration"
+            },
+            {
+              "title": "Academic Advisor I",
+              "reqId": "42269",
+              "notionUrl": "https://www.notion.so/39f9ddf757a08109bd26ec2a52aada62",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "387300 - Upward Bound"
+            },
+            {
+              "title": "Chair and Professor-Civil & Environmental Engineering",
+              "reqId": "42289",
+              "notionUrl": "https://www.notion.so/39f9ddf757a0813ba36ec440aafa2a39",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "210400 - Civil & Environmental Engr"
+            },
+            {
+              "title": "Adjunct-Extra Comp",
+              "reqId": "42302",
+              "notionUrl": "https://www.notion.so/39f9ddf757a0819995f5e0660e2b0f6c",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "583001 - Dept Child And Family Studies"
+            },
+            {
+              "title": "Assistant Director, Student Conduct",
+              "reqId": "42318",
+              "notionUrl": "https://www.notion.so/39f9ddf757a08146b2b9dfd6fd786b6d",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "040201 - Student Conduct & Ethical Dev"
+            },
+            {
+              "title": "Assistant Professor-Medical Engineering",
+              "reqId": "42383",
+              "notionUrl": "https://www.notion.so/39f9ddf757a08132a271fee191ee2947",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "212100 - Medical Engineering"
+            },
+            {
+              "title": "Professor-Medical Engineering",
+              "reqId": "42391",
+              "notionUrl": "https://www.notion.so/39f9ddf757a0815ea399e66a1f9e1bee",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "212100 - Medical Engineering"
+            },
+            {
+              "title": "Associate Professor-Medical Engineering",
+              "reqId": "42392",
+              "notionUrl": "https://www.notion.so/39f9ddf757a081a78e85e4b16a61f6b2",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "212100 - Medical Engineering"
+            },
+            {
+              "title": "OPS Student Assistant- Computer Vision Video Analytics",
+              "reqId": "42470",
+              "notionUrl": "https://www.notion.so/39f9ddf757a081a6b1eae5efab39ee84",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "211700 - Ctr For Urban Transportation Research"
+            },
+            {
+              "title": "OPS Research assistant",
+              "reqId": "42513",
+              "notionUrl": "https://www.notion.so/39f9ddf757a08117941bcb80ca71d61a",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "122100 - Criminology"
+            },
+            {
+              "title": "FWS Student Assistant",
+              "reqId": "42585",
+              "notionUrl": "https://www.notion.so/39f9ddf757a08175860edd92b665fdaa",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "211400 - Engineering Student Services"
+            },
+            {
+              "title": "Visiting Research Scholar",
+              "reqId": "42588",
+              "notionUrl": "https://www.notion.so/39f9ddf757a0814ba3f9fd3091c101e4",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "210400 - Civil & Environmental Engr"
+            },
+            {
+              "title": "Visiting Assistant Professor of Instruction",
+              "reqId": "42658",
+              "notionUrl": "https://www.notion.so/39f9ddf757a081c3a880f1fe1e01848c",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "122900 - School Of Aging Studies"
+            },
+            {
+              "title": "Administrative Specialist",
+              "reqId": "42692",
+              "notionUrl": "https://www.notion.so/39f9ddf757a0815d8520fc0963188195",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "044100 - Ctr For Student Involvement"
+            },
+            {
+              "title": "OPS Support Assistant",
+              "reqId": "42711",
+              "notionUrl": "https://www.notion.so/39f9ddf757a08192a5fbe0cc9561e81c",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "210500 - Mechanical Engineering"
+            },
+            {
+              "title": "Assistant Professor of Criminology, Tenure Track",
+              "reqId": "42719",
+              "notionUrl": "https://www.notion.so/39f9ddf757a0810c9428c8903c3a5bd9",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "122100 - Criminology"
+            },
+            {
+              "title": "Assistant Professor / Associate Professor, Social Work",
+              "reqId": "42720",
+              "notionUrl": "https://www.notion.so/39f9ddf757a08125aa00ceed314987b1",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "126100 - Social Work"
+            },
+            {
+              "title": "Assistant/Associate/Full Professor",
+              "reqId": "42723",
+              "notionUrl": "https://www.notion.so/39f9ddf757a08161a016d921deb3ca1c",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "582000 - Behavioral Health Science and Practice"
+            },
+            {
+              "title": "Contracts and Licensing Manager",
+              "reqId": "42796",
+              "notionUrl": "https://www.notion.so/39f9ddf757a081b3ac12c6611b6cdbd7",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "790400 - Technology Transfer Office"
+            },
+            {
+              "title": "Research Support Asst",
+              "reqId": "42812",
+              "notionUrl": "https://www.notion.so/39f9ddf757a08167b935c2d1b6d2b6a9",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "210600 - Electrical Engineering"
+            },
+            {
+              "title": "Asst Prof of Instruction - Mechanical Eng",
+              "reqId": "42869",
+              "notionUrl": "https://www.notion.so/39f9ddf757a0819790f6fb9f3612d2fa",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "210500 - Mechanical Engineering"
+            },
+            {
+              "title": "Assoc Professor of Instruction - Mechanical Engineering",
+              "reqId": "42870",
+              "notionUrl": "https://www.notion.so/39f9ddf757a081549f7beefabe0110fa",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "210500 - Mechanical Engineering"
+            },
+            {
+              "title": "Professor of Instruction - Mechanical Engineering",
+              "reqId": "42871",
+              "notionUrl": "https://www.notion.so/39f9ddf757a081a8a9acdd8d7181e980",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "210500 - Mechanical Engineering"
+            },
+            {
+              "title": "Conflict of Interest Manager",
+              "reqId": "42895",
+              "notionUrl": "https://www.notion.so/39f9ddf757a081e495b0cefddc298e06",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "791000 - Research Integrity &Compliance"
+            },
+            {
+              "title": "Temporary Academic Intern",
+              "reqId": "42902",
+              "notionUrl": "https://www.notion.so/39f9ddf757a0813d8302ca1e4ba39304",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "380600 - UGS Academic Advising - Athletics"
+            },
+            {
+              "title": "AVC Student Developer",
+              "reqId": "42959",
+              "notionUrl": "https://www.notion.so/39f9ddf757a081ebaedcfdb533ed8645",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "351000 - Information Technology"
+            },
+            {
+              "title": "Sr. Lab Animal Tech",
+              "reqId": "42964",
+              "notionUrl": "https://www.notion.so/39f9ddf757a081dc8e30c04e28cc5f75",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "790900 - Comparative Medicine"
+            },
+            {
+              "title": "Biological Scientist",
+              "reqId": "42965",
+              "notionUrl": "https://www.notion.so/39f9ddf757a081498988e5c23c1083c6",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "790900 - Comparative Medicine"
+            },
+            {
+              "title": "Diesel & Vehicle Mechanic",
+              "reqId": "42969",
+              "notionUrl": "https://www.notion.so/39f9ddf757a081c7aa85d3fe45b6e2a6",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "028200 - Parking & Transportation Services"
+            },
+            {
+              "title": "Eng Academic Advisor I",
+              "reqId": "42971",
+              "notionUrl": "https://www.notion.so/39f9ddf757a081f4a4e8c4f2f5df9e88",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "211400 - Engineering Student Services"
+            },
+            {
+              "title": "QA/QI Research Compliance Admin II",
+              "reqId": "42985",
+              "notionUrl": "https://www.notion.so/39f9ddf757a0816e854ad75d0f5016d1",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "791000 - Research Integrity &Compliance"
+            },
+            {
+              "title": "Service Desk Student Technician",
+              "reqId": "43092",
+              "notionUrl": "https://www.notion.so/39f9ddf757a08116a4f8db5dfe83d693",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "351000 - Information Technology"
+            },
+            {
+              "title": "AI Agent Developer Student Assistant",
+              "reqId": "43095",
+              "notionUrl": "https://www.notion.so/39f9ddf757a08142a7e3c2e6c872b0c6",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "351000 - Information Technology"
+            },
+            {
+              "title": "Scrum Master III",
+              "reqId": "43104",
+              "notionUrl": "https://www.notion.so/39f9ddf757a08192b567c30deed4339b",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "351000 - Information Technology"
+            },
+            {
+              "title": "AV Engineer II",
+              "reqId": "43119",
+              "notionUrl": "https://www.notion.so/39f9ddf757a0812d83abee0211412e5c",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "351000 - Information Technology"
+            },
+            {
+              "title": "Structured Cabling Engineer I",
+              "reqId": "43125",
+              "notionUrl": "https://www.notion.so/39f9ddf757a081e5ba6dd784d8811396",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "351000 - Information Technology"
+            },
+            {
+              "title": "Student Assistant, Research Foundation",
+              "reqId": "43141",
+              "notionUrl": "https://www.notion.so/39f9ddf757a0815987d7e339d18303e6",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Student Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "790700 - Research Foundation"
+            },
+            {
+              "title": "Student Assistant, USF CONNECT",
+              "reqId": "43142",
+              "notionUrl": "https://www.notion.so/39f9ddf757a081f9b82ef8ae11c25983",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Student Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "790500 - USF Technology Incubator"
+            },
+            {
+              "title": "Manager Innovation Education Engagement",
+              "reqId": "43153",
+              "notionUrl": "https://www.notion.so/39f9ddf757a081b994a4ccee4fbe1cdd",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "790500 - USF Technology Incubator"
+            },
+            {
+              "title": "Academic Program Specialist",
+              "reqId": "43171",
+              "notionUrl": "https://www.notion.so/39f9ddf757a0814a997ac63fbeff6cb1",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "240100 - CDAP Dean's Office"
+            },
+            {
+              "title": "IT Communications & Client Success Specialist II",
+              "reqId": "43179",
+              "notionUrl": "https://www.notion.so/39f9ddf757a081228eedd382a5bb5ca8",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "351000 - Information Technology"
+            },
+            {
+              "title": "Student Programs Coordinator",
+              "reqId": "43185",
+              "notionUrl": "https://www.notion.so/39f9ddf757a0814f91cedc9ab886ed00",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Student Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "386500 - Academic Success Center"
+            },
+            {
+              "title": "Senior Product Owner",
+              "reqId": "43186",
+              "notionUrl": "https://www.notion.so/39f9ddf757a081ef9846c4998a3e4652",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "351000 - Information Technology"
+            },
+            {
+              "title": "Oracle Cloud Applications Developer IV",
+              "reqId": "43191",
+              "notionUrl": "https://www.notion.so/39f9ddf757a081688a26fb1ce8937ece",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "351000 - Information Technology"
+            },
+            {
+              "title": "Walk Up Desk Technician - St Pete",
+              "reqId": "43194",
+              "notionUrl": "https://www.notion.so/39f9ddf757a081198040c2959058ad62",
+              "owner": "Tameka Porter",
+              "campus": "St. Petersburg",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "351000 - Information Technology"
+            },
+            {
+              "title": "Student Assistant - Athletics Tutor",
+              "reqId": "43196",
+              "notionUrl": "https://www.notion.so/39f9ddf757a081d5bb7df9db3f0887aa",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Student Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "380600 - UGS Academic Advising - Athletics"
+            },
+            {
+              "title": "Student Assistant - Athletics Academic Mentor",
+              "reqId": "43197",
+              "notionUrl": "https://www.notion.so/39f9ddf757a081028abbe413888fc5f7",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Student Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "380600 - UGS Academic Advising - Athletics"
+            },
+            {
+              "title": "Orientation Coordinator",
+              "reqId": "43205",
+              "notionUrl": "https://www.notion.so/39f9ddf757a081608ce3dced13431071",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "387500 - Orientation"
+            },
+            {
+              "title": "Client Support Technician II (MDD)",
+              "reqId": "43220",
+              "notionUrl": "https://www.notion.so/39f9ddf757a081e89e98cb4ece09f204",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "351000 - Information Technology"
+            },
+            {
+              "title": "Grant Financial Admin II",
+              "reqId": "43224",
+              "notionUrl": "https://www.notion.so/39f9ddf757a0817e95aecc9eac4fc12c",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "790300 - Sponsored Research"
+            },
+            {
+              "title": "Director Maintenance",
+              "reqId": "43234",
+              "notionUrl": "https://www.notion.so/39f9ddf757a081d894bac40dbe3bfde2",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "025500 - Maintenance & Special Allocation"
+            },
+            {
+              "title": "Sponsored Research Admin II",
+              "reqId": "43252",
+              "notionUrl": "https://www.notion.so/39f9ddf757a08146be99c023dfec75c5",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "790300 - Sponsored Research"
+            },
+            {
+              "title": "Athletics Academic Mentor",
+              "reqId": "43274",
+              "notionUrl": "https://www.notion.so/39f9ddf757a0815ea37dde76a62719c8",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "380600 - UGS Academic Advising - Athletics"
+            },
+            {
+              "title": "Administrative Specialist - Civil & Environmental Eng",
+              "reqId": "43286",
+              "notionUrl": "https://www.notion.so/39f9ddf757a0818d8612ee7e8ebdb8f7",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "210400 - Civil & Environmental Engr"
+            },
+            {
+              "title": "License and Business Development Manager",
+              "reqId": "43300",
+              "notionUrl": "https://www.notion.so/39f9ddf757a0818a8198e41dfa1f50a1",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "790400 - Technology Transfer Office"
+            },
+            {
+              "title": "Research Services Administrator",
+              "reqId": "43311",
+              "notionUrl": "https://www.notion.so/39f9ddf757a0816c8f60d86c996a766d",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "790700 - Research Foundation"
+            },
+            {
+              "title": "Research Compliance Administrator - Conflict of Interest",
+              "reqId": "43312",
+              "notionUrl": "https://www.notion.so/39f9ddf757a081ab8b6bc287f2e05f5d",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟡 3-5",
+              "department": "791000 - Research Integrity &Compliance"
+            },
+            {
+              "title": "Maintenance & Repair Worker",
+              "reqId": "43313",
+              "notionUrl": "https://www.notion.so/39f9ddf757a0818a8cddfdffcd889145",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "790900 - Comparative Medicine"
+            },
+            {
               "title": "Academic Program Specialist",
               "reqId": "43326",
               "notionUrl": "https://www.notion.so/39f9ddf757a081bda4d3f81ffd1f6b90",
@@ -16867,6 +17681,46 @@
               "stage": "Passive Hiring",
               "agingBand": "🟡 3-5",
               "department": "126100 - Social Work"
+            },
+            {
+              "title": "Sr. Academic Advisor I",
+              "reqId": "43333",
+              "notionUrl": "https://www.notion.so/39f9ddf757a081b6b5dffe2b3bd9e49f",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "210500 - Mechanical Engineering"
+            },
+            {
+              "title": "Adjunct",
+              "reqId": "43371",
+              "notionUrl": "https://www.notion.so/39f9ddf757a08166b824c945e8cf933e",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "121900 - Communication Sciences & Disorders"
+            },
+            {
+              "title": "Community Outreach Coordinator",
+              "reqId": "43387",
+              "notionUrl": "https://www.notion.so/39f9ddf757a081b0b0adf24be89e7dab",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "582000 - Behavioral Health Science and Practice"
+            },
+            {
+              "title": "IT Asset Assistant (OPS)",
+              "reqId": "43398",
+              "notionUrl": "https://www.notion.so/39f9ddf757a081f68a56d421d4057adb",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "351000 - Information Technology"
             },
             {
               "title": "Adjunct",
@@ -16907,842 +17761,6 @@
               "stage": "Passive Hiring",
               "agingBand": "🟡 3-5",
               "department": "126100 - Social Work"
-            }
-          ]
-        },
-        {
-          "band": "🟢 0–2",
-          "color": "#3B6D11",
-          "records": [
-            {
-              "title": "AVC Student Developer",
-              "reqId": "44300",
-              "notionUrl": "https://www.notion.so/68b42aada7554990b088f6c3338279a4",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Student Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "351000 - Information Technology"
-            },
-            {
-              "title": "Office Administrator",
-              "reqId": "44298",
-              "notionUrl": "https://www.notion.so/fe671c7fd3f64ac5992ccf96faa8f36d",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Backlog",
-              "agingBand": "🟢 0–2",
-              "department": "120100 - Arts And Sciences - Dean"
-            },
-            {
-              "title": "AI and Tools Enablement Facilitator",
-              "reqId": "44064",
-              "notionUrl": "https://www.notion.so/8f5b7d100c4d450aa0cc8752877ca7a1",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "351000 - Information Technology"
-            },
-            {
-              "title": "Budget Analyst II",
-              "reqId": "44040",
-              "notionUrl": "https://www.notion.so/e52fb62d4abc435cbf5242ba4366137d",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Backlog",
-              "agingBand": "🟢 0–2",
-              "department": "790100 - VP Research"
-            },
-            {
-              "title": "Service Desk Technician",
-              "reqId": "44093",
-              "notionUrl": "https://www.notion.so/0e7a253fd3114984a1c3ec5f4daf7edd",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "351000 - Information Technology"
-            },
-            {
-              "title": "IT Scrum Master III",
-              "reqId": "44112",
-              "notionUrl": "https://www.notion.so/a8e9ddf2f83a411190a0613cf45aa1d7",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "351000 - Information Technology"
-            },
-            {
-              "title": "Fiscal and Business Specialist - OPS",
-              "reqId": "44114",
-              "notionUrl": "https://www.notion.so/1baee1ec4e7142b58ce21817527857cc",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Backlog",
-              "agingBand": "🟢 0–2",
-              "department": "790400 - Technology Transfer Office"
-            },
-            {
-              "title": "Student Assistant ERP Analyst",
-              "reqId": "44154",
-              "notionUrl": "https://www.notion.so/15b1a160dffb4124866ed6c9eeb0895e",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Student Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "351000 - Information Technology"
-            },
-            {
-              "title": "Service Desk Student Technician",
-              "reqId": "44119",
-              "notionUrl": "https://www.notion.so/11e3846b09c946aaac946f33ff5960c1",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Backlog",
-              "agingBand": "🟢 0–2",
-              "department": "351000 - Information Technology"
-            },
-            {
-              "title": "Student Assistant - FWS",
-              "reqId": "44140",
-              "notionUrl": "https://www.notion.so/767ccfed81214b199ef847f44b597ecd",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Student Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "583002 - CFS Applied Research & Edu"
-            },
-            {
-              "title": "Student Asst - FWS",
-              "reqId": "44117",
-              "notionUrl": "https://www.notion.so/0fb70037fd0b4ea7a25c227bfbced7a0",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Student Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "581000 - CBCS Dean'S Office"
-            },
-            {
-              "title": "Federal Work-Study (FWS) Student Assistant",
-              "reqId": "44173",
-              "notionUrl": "https://www.notion.so/20ef29b1d44c47dfa349adc17274b2ae",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Student Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "583002 - CFS Applied Research & Edu"
-            },
-            {
-              "title": "FWS Communications and Marketing Intern",
-              "reqId": "44172",
-              "notionUrl": "https://www.notion.so/50317d39d55f46b6b8284a2b1144f80b",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Student Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "581000 - CBCS Dean'S Office"
-            },
-            {
-              "title": "Clerical and Secretarial",
-              "reqId": "44190",
-              "notionUrl": "https://www.notion.so/fa6bbd9d2d1b42958bb88f5a18d810dc",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "121900 - Communication Sciences & Disorders"
-            },
-            {
-              "title": "OPS Research Assistant",
-              "reqId": "44193",
-              "notionUrl": "https://www.notion.so/877cb8004c0a4388bf96b3657d1b3b20",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Targeted Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "122900 - School Of Aging Studies"
-            },
-            {
-              "title": "Service Desk Technician, OPS (Part-Time)",
-              "reqId": "44165",
-              "notionUrl": "https://www.notion.so/1cfab3b08fbb4f1394902b11c7ba6acd",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "351000 - Information Technology"
-            },
-            {
-              "title": "Research Serv Administrator",
-              "reqId": "44240",
-              "notionUrl": "https://www.notion.so/6221893bd8854aae9922300a13617b92",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "790100 - VP Research"
-            },
-            {
-              "title": "Sr Groundskeeper",
-              "reqId": "44204",
-              "notionUrl": "https://www.notion.so/fd8a56e91cb74850b7ecc50b726fbfb5",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Backlog",
-              "agingBand": "🟢 0–2",
-              "department": "120100 - Arts And Sciences - Dean"
-            },
-            {
-              "title": "COI Research Compliance Admin II",
-              "reqId": "44226",
-              "notionUrl": "https://www.notion.so/89792e55e28344cf8718029f51e6f8ba",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "791000 - Research Integrity &Compliance"
-            },
-            {
-              "title": "Open Rank, Full Professor, Associate Professor, Assistant",
-              "reqId": "41549",
-              "notionUrl": "https://www.notion.so/39f9ddf757a0816f8074dd8a3877e686",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "122900 - School Of Aging Studies"
-            },
-            {
-              "title": "Assistant Professor of Instruction - Department of Behavioral Health Science and Practice",
-              "reqId": "41637",
-              "notionUrl": "https://www.notion.so/39f9ddf757a08127a68bff7fa2ff7a5f",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "582000 - Behavioral Health Science and Practice"
-            },
-            {
-              "title": "FWS Student Assistant",
-              "reqId": "42255",
-              "notionUrl": "https://www.notion.so/39f9ddf757a081a6aab5e434561e7a64",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "588000 - CBCS Administration"
-            },
-            {
-              "title": "Academic Advisor I",
-              "reqId": "42269",
-              "notionUrl": "https://www.notion.so/39f9ddf757a08109bd26ec2a52aada62",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "387300 - Upward Bound"
-            },
-            {
-              "title": "Chair and Professor-Civil & Environmental Engineering",
-              "reqId": "42289",
-              "notionUrl": "https://www.notion.so/39f9ddf757a0813ba36ec440aafa2a39",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "210400 - Civil & Environmental Engr"
-            },
-            {
-              "title": "Adjunct-Extra Comp",
-              "reqId": "42302",
-              "notionUrl": "https://www.notion.so/39f9ddf757a0819995f5e0660e2b0f6c",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "583001 - Dept Child And Family Studies"
-            },
-            {
-              "title": "Assistant Director, Student Conduct",
-              "reqId": "42318",
-              "notionUrl": "https://www.notion.so/39f9ddf757a08146b2b9dfd6fd786b6d",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "040201 - Student Conduct & Ethical Dev"
-            },
-            {
-              "title": "Assistant Professor-Medical Engineering",
-              "reqId": "42383",
-              "notionUrl": "https://www.notion.so/39f9ddf757a08132a271fee191ee2947",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "212100 - Medical Engineering"
-            },
-            {
-              "title": "Professor-Medical Engineering",
-              "reqId": "42391",
-              "notionUrl": "https://www.notion.so/39f9ddf757a0815ea399e66a1f9e1bee",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "212100 - Medical Engineering"
-            },
-            {
-              "title": "Associate Professor-Medical Engineering",
-              "reqId": "42392",
-              "notionUrl": "https://www.notion.so/39f9ddf757a081a78e85e4b16a61f6b2",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "212100 - Medical Engineering"
-            },
-            {
-              "title": "OPS Student Assistant- Computer Vision Video Analytics",
-              "reqId": "42470",
-              "notionUrl": "https://www.notion.so/39f9ddf757a081a6b1eae5efab39ee84",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "211700 - Ctr For Urban Transportation Research"
-            },
-            {
-              "title": "OPS Research assistant",
-              "reqId": "42513",
-              "notionUrl": "https://www.notion.so/39f9ddf757a08117941bcb80ca71d61a",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "122100 - Criminology"
-            },
-            {
-              "title": "FWS Student Assistant",
-              "reqId": "42585",
-              "notionUrl": "https://www.notion.so/39f9ddf757a08175860edd92b665fdaa",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "211400 - Engineering Student Services"
-            },
-            {
-              "title": "Visiting Research Scholar",
-              "reqId": "42588",
-              "notionUrl": "https://www.notion.so/39f9ddf757a0814ba3f9fd3091c101e4",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "210400 - Civil & Environmental Engr"
-            },
-            {
-              "title": "Visiting Assistant Professor of Instruction",
-              "reqId": "42658",
-              "notionUrl": "https://www.notion.so/39f9ddf757a081c3a880f1fe1e01848c",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "122900 - School Of Aging Studies"
-            },
-            {
-              "title": "Administrative Specialist",
-              "reqId": "42692",
-              "notionUrl": "https://www.notion.so/39f9ddf757a0815d8520fc0963188195",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "044100 - Ctr For Student Involvement"
-            },
-            {
-              "title": "OPS Support Assistant",
-              "reqId": "42711",
-              "notionUrl": "https://www.notion.so/39f9ddf757a08192a5fbe0cc9561e81c",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "210500 - Mechanical Engineering"
-            },
-            {
-              "title": "Assistant Professor of Criminology, Tenure Track",
-              "reqId": "42719",
-              "notionUrl": "https://www.notion.so/39f9ddf757a0810c9428c8903c3a5bd9",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "122100 - Criminology"
-            },
-            {
-              "title": "Assistant Professor / Associate Professor, Social Work",
-              "reqId": "42720",
-              "notionUrl": "https://www.notion.so/39f9ddf757a08125aa00ceed314987b1",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "126100 - Social Work"
-            },
-            {
-              "title": "Assistant/Associate/Full Professor",
-              "reqId": "42723",
-              "notionUrl": "https://www.notion.so/39f9ddf757a08161a016d921deb3ca1c",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "582000 - Behavioral Health Science and Practice"
-            },
-            {
-              "title": "Contracts and Licensing Manager",
-              "reqId": "42796",
-              "notionUrl": "https://www.notion.so/39f9ddf757a081b3ac12c6611b6cdbd7",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "790400 - Technology Transfer Office"
-            },
-            {
-              "title": "Research Support Asst",
-              "reqId": "42812",
-              "notionUrl": "https://www.notion.so/39f9ddf757a08167b935c2d1b6d2b6a9",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "210600 - Electrical Engineering"
-            },
-            {
-              "title": "Asst Prof of Instruction - Mechanical Eng",
-              "reqId": "42869",
-              "notionUrl": "https://www.notion.so/39f9ddf757a0819790f6fb9f3612d2fa",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "210500 - Mechanical Engineering"
-            },
-            {
-              "title": "Assoc Professor of Instruction - Mechanical Engineering",
-              "reqId": "42870",
-              "notionUrl": "https://www.notion.so/39f9ddf757a081549f7beefabe0110fa",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "210500 - Mechanical Engineering"
-            },
-            {
-              "title": "Professor of Instruction - Mechanical Engineering",
-              "reqId": "42871",
-              "notionUrl": "https://www.notion.so/39f9ddf757a081a8a9acdd8d7181e980",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "210500 - Mechanical Engineering"
-            },
-            {
-              "title": "Conflict of Interest Manager",
-              "reqId": "42895",
-              "notionUrl": "https://www.notion.so/39f9ddf757a081e495b0cefddc298e06",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "791000 - Research Integrity &Compliance"
-            },
-            {
-              "title": "Temporary Academic Intern",
-              "reqId": "42902",
-              "notionUrl": "https://www.notion.so/39f9ddf757a0813d8302ca1e4ba39304",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "380600 - UGS Academic Advising - Athletics"
-            },
-            {
-              "title": "AVC Student Developer",
-              "reqId": "42959",
-              "notionUrl": "https://www.notion.so/39f9ddf757a081ebaedcfdb533ed8645",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "351000 - Information Technology"
-            },
-            {
-              "title": "Sr. Lab Animal Tech",
-              "reqId": "42964",
-              "notionUrl": "https://www.notion.so/39f9ddf757a081dc8e30c04e28cc5f75",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "790900 - Comparative Medicine"
-            },
-            {
-              "title": "Biological Scientist",
-              "reqId": "42965",
-              "notionUrl": "https://www.notion.so/39f9ddf757a081498988e5c23c1083c6",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "790900 - Comparative Medicine"
-            },
-            {
-              "title": "Diesel & Vehicle Mechanic",
-              "reqId": "42969",
-              "notionUrl": "https://www.notion.so/39f9ddf757a081c7aa85d3fe45b6e2a6",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "028200 - Parking & Transportation Services"
-            },
-            {
-              "title": "Eng Academic Advisor I",
-              "reqId": "42971",
-              "notionUrl": "https://www.notion.so/39f9ddf757a081f4a4e8c4f2f5df9e88",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "211400 - Engineering Student Services"
-            },
-            {
-              "title": "QA/QI Research Compliance Admin II",
-              "reqId": "42985",
-              "notionUrl": "https://www.notion.so/39f9ddf757a0816e854ad75d0f5016d1",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "791000 - Research Integrity &Compliance"
-            },
-            {
-              "title": "Service Desk Student Technician",
-              "reqId": "43092",
-              "notionUrl": "https://www.notion.so/39f9ddf757a08116a4f8db5dfe83d693",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "351000 - Information Technology"
-            },
-            {
-              "title": "AI Agent Developer Student Assistant",
-              "reqId": "43095",
-              "notionUrl": "https://www.notion.so/39f9ddf757a08142a7e3c2e6c872b0c6",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "351000 - Information Technology"
-            },
-            {
-              "title": "Scrum Master III",
-              "reqId": "43104",
-              "notionUrl": "https://www.notion.so/39f9ddf757a08192b567c30deed4339b",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "351000 - Information Technology"
-            },
-            {
-              "title": "AV Engineer II",
-              "reqId": "43119",
-              "notionUrl": "https://www.notion.so/39f9ddf757a0812d83abee0211412e5c",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "351000 - Information Technology"
-            },
-            {
-              "title": "Structured Cabling Engineer I",
-              "reqId": "43125",
-              "notionUrl": "https://www.notion.so/39f9ddf757a081e5ba6dd784d8811396",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "351000 - Information Technology"
-            },
-            {
-              "title": "Student Assistant, Research Foundation",
-              "reqId": "43141",
-              "notionUrl": "https://www.notion.so/39f9ddf757a0815987d7e339d18303e6",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Student Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "790700 - Research Foundation"
-            },
-            {
-              "title": "Student Assistant, USF CONNECT",
-              "reqId": "43142",
-              "notionUrl": "https://www.notion.so/39f9ddf757a081f9b82ef8ae11c25983",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Student Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "790500 - USF Technology Incubator"
-            },
-            {
-              "title": "Manager Innovation Education Engagement",
-              "reqId": "43153",
-              "notionUrl": "https://www.notion.so/39f9ddf757a081b994a4ccee4fbe1cdd",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "790500 - USF Technology Incubator"
-            },
-            {
-              "title": "Academic Program Specialist",
-              "reqId": "43171",
-              "notionUrl": "https://www.notion.so/39f9ddf757a0814a997ac63fbeff6cb1",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "240100 - CDAP Dean's Office"
-            },
-            {
-              "title": "IT Communications & Client Success Specialist II",
-              "reqId": "43179",
-              "notionUrl": "https://www.notion.so/39f9ddf757a081228eedd382a5bb5ca8",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "351000 - Information Technology"
-            },
-            {
-              "title": "Student Programs Coordinator",
-              "reqId": "43185",
-              "notionUrl": "https://www.notion.so/39f9ddf757a0814f91cedc9ab886ed00",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Student Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "386500 - Academic Success Center"
-            },
-            {
-              "title": "Senior Product Owner",
-              "reqId": "43186",
-              "notionUrl": "https://www.notion.so/39f9ddf757a081ef9846c4998a3e4652",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "351000 - Information Technology"
-            },
-            {
-              "title": "Oracle Cloud Applications Developer IV",
-              "reqId": "43191",
-              "notionUrl": "https://www.notion.so/39f9ddf757a081688a26fb1ce8937ece",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "351000 - Information Technology"
-            },
-            {
-              "title": "Walk Up Desk Technician - St Pete",
-              "reqId": "43194",
-              "notionUrl": "https://www.notion.so/39f9ddf757a081198040c2959058ad62",
-              "owner": "Tameka Porter",
-              "campus": "St. Petersburg",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "351000 - Information Technology"
-            },
-            {
-              "title": "Student Assistant - Athletics Tutor",
-              "reqId": "43196",
-              "notionUrl": "https://www.notion.so/39f9ddf757a081d5bb7df9db3f0887aa",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Student Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "380600 - UGS Academic Advising - Athletics"
-            },
-            {
-              "title": "Student Assistant - Athletics Academic Mentor",
-              "reqId": "43197",
-              "notionUrl": "https://www.notion.so/39f9ddf757a081028abbe413888fc5f7",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Student Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "380600 - UGS Academic Advising - Athletics"
-            },
-            {
-              "title": "Orientation Coordinator",
-              "reqId": "43205",
-              "notionUrl": "https://www.notion.so/39f9ddf757a081608ce3dced13431071",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "387500 - Orientation"
-            },
-            {
-              "title": "Client Support Technician II (MDD)",
-              "reqId": "43220",
-              "notionUrl": "https://www.notion.so/39f9ddf757a081e89e98cb4ece09f204",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "351000 - Information Technology"
-            },
-            {
-              "title": "Grant Financial Admin II",
-              "reqId": "43224",
-              "notionUrl": "https://www.notion.so/39f9ddf757a0817e95aecc9eac4fc12c",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "790300 - Sponsored Research"
-            },
-            {
-              "title": "Director Maintenance",
-              "reqId": "43234",
-              "notionUrl": "https://www.notion.so/39f9ddf757a081d894bac40dbe3bfde2",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "025500 - Maintenance & Special Allocation"
-            },
-            {
-              "title": "Sponsored Research Admin II",
-              "reqId": "43252",
-              "notionUrl": "https://www.notion.so/39f9ddf757a08146be99c023dfec75c5",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "790300 - Sponsored Research"
-            },
-            {
-              "title": "Athletics Academic Mentor",
-              "reqId": "43274",
-              "notionUrl": "https://www.notion.so/39f9ddf757a0815ea37dde76a62719c8",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "380600 - UGS Academic Advising - Athletics"
-            },
-            {
-              "title": "Administrative Specialist - Civil & Environmental Eng",
-              "reqId": "43286",
-              "notionUrl": "https://www.notion.so/39f9ddf757a0818d8612ee7e8ebdb8f7",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "210400 - Civil & Environmental Engr"
-            },
-            {
-              "title": "License and Business Development Manager",
-              "reqId": "43300",
-              "notionUrl": "https://www.notion.so/39f9ddf757a0818a8198e41dfa1f50a1",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "790400 - Technology Transfer Office"
-            },
-            {
-              "title": "Research Services Administrator",
-              "reqId": "43311",
-              "notionUrl": "https://www.notion.so/39f9ddf757a0816c8f60d86c996a766d",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "790700 - Research Foundation"
-            },
-            {
-              "title": "Research Compliance Administrator - Conflict of Interest",
-              "reqId": "43312",
-              "notionUrl": "https://www.notion.so/39f9ddf757a081ab8b6bc287f2e05f5d",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🟢 0–2",
-              "department": "791000 - Research Integrity &Compliance"
-            },
-            {
-              "title": "Maintenance & Repair Worker",
-              "reqId": "43313",
-              "notionUrl": "https://www.notion.so/39f9ddf757a0818a8cddfdffcd889145",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "790900 - Comparative Medicine"
-            },
-            {
-              "title": "Sr. Academic Advisor I",
-              "reqId": "43333",
-              "notionUrl": "https://www.notion.so/39f9ddf757a081b6b5dffe2b3bd9e49f",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "210500 - Mechanical Engineering"
-            },
-            {
-              "title": "Adjunct",
-              "reqId": "43371",
-              "notionUrl": "https://www.notion.so/39f9ddf757a08166b824c945e8cf933e",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "121900 - Communication Sciences & Disorders"
-            },
-            {
-              "title": "Community Outreach Coordinator",
-              "reqId": "43387",
-              "notionUrl": "https://www.notion.so/39f9ddf757a081b0b0adf24be89e7dab",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "582000 - Behavioral Health Science and Practice"
-            },
-            {
-              "title": "IT Asset Assistant (OPS)",
-              "reqId": "43398",
-              "notionUrl": "https://www.notion.so/39f9ddf757a081f68a56d421d4057adb",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
-              "department": "351000 - Information Technology"
             },
             {
               "title": "Adjunct",
@@ -17751,7 +17769,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "122100 - Criminology"
             },
             {
@@ -17761,7 +17779,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "588000 - CBCS Administration"
             },
             {
@@ -17771,7 +17789,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "791000 - Research Integrity &Compliance"
             },
             {
@@ -17781,7 +17799,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "790700 - Research Foundation"
             },
             {
@@ -17791,7 +17809,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "121900 - Communication Sciences & Disorders"
             },
             {
@@ -17801,7 +17819,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "351000 - Information Technology"
             },
             {
@@ -17811,7 +17829,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Recruiter Review",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "351000 - Information Technology"
             },
             {
@@ -17821,7 +17839,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "351000 - Information Technology"
             },
             {
@@ -17831,7 +17849,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Backlog",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "120100 - Arts And Sciences - Dean"
             },
             {
@@ -17841,7 +17859,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "583007 - CFS Rightpath Research Center"
             },
             {
@@ -17851,7 +17869,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "791000 - Research Integrity &Compliance"
             },
             {
@@ -17861,7 +17879,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "790700 - Research Foundation"
             },
             {
@@ -17871,7 +17889,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Recruiter Review",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "125500 - Psychology"
             },
             {
@@ -17881,7 +17899,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "121300 - Chemistry"
             },
             {
@@ -17891,7 +17909,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "582000 - Behavioral Health Science and Practice"
             },
             {
@@ -17901,7 +17919,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "790100 - VP Research"
             },
             {
@@ -17911,7 +17929,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "351000 - Information Technology"
             },
             {
@@ -17921,7 +17939,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "351000 - Information Technology"
             },
             {
@@ -17931,7 +17949,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "790300 - Sponsored Research"
             },
             {
@@ -17941,7 +17959,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "790100 - VP Research"
             },
             {
@@ -17951,7 +17969,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "351000 - Information Technology"
             },
             {
@@ -17961,7 +17979,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Backlog",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "122300 - English"
             },
             {
@@ -17971,7 +17989,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "351000 - Information Technology"
             },
             {
@@ -17981,7 +17999,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Backlog",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "120100 - Arts And Sciences - Dean"
             },
             {
@@ -17991,7 +18009,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Backlog",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "124700 - Mass Communications"
             },
             {
@@ -18001,7 +18019,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Backlog",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "123100 - Sch of Intdisc Global Studies"
             },
             {
@@ -18011,7 +18029,7 @@
               "owner": "Tameka Porter",
               "campus": "St. Petersburg",
               "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "351000 - Information Technology"
             },
             {
@@ -18021,7 +18039,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Evergreen / Continuous Pool",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "351000 - Information Technology"
             },
             {
@@ -18031,7 +18049,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "351000 - Information Technology"
             },
             {
@@ -18041,7 +18059,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "583007 - CFS Rightpath Research Center"
             },
             {
@@ -18051,7 +18069,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "125500 - Psychology"
             },
             {
@@ -18061,7 +18079,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "351000 - Information Technology"
             },
             {
@@ -18071,7 +18089,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "028200 - Parking & Transportation Services"
             },
             {
@@ -18081,7 +18099,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Backlog",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "120100 - Arts And Sciences - Dean"
             },
             {
@@ -18091,7 +18109,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "121900 - Communication Sciences & Disorders"
             },
             {
@@ -18101,7 +18119,7 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "122900 - School Of Aging Studies"
             },
             {
@@ -18111,22 +18129,27 @@
               "owner": "Tameka Porter",
               "campus": "Tampa",
               "stage": "Passive Hiring",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3-5",
               "department": "351000 - Information Technology"
             }
           ]
+        },
+        {
+          "band": "🟢 0–2",
+          "color": "#3B6D11",
+          "records": []
         }
       ],
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 2,
+          "avgDays": 3,
           "count": 2,
           "color": "#006747"
         },
         {
           "label": "Backlog",
-          "avgDays": 2,
+          "avgDays": 3,
           "count": 11,
           "color": "#888780"
         }
@@ -18181,14 +18204,14 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 5
+          "count": 125
         },
         {
           "label": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 120
+          "count": 0
         }
       ],
       "funnel": [
@@ -18222,7 +18245,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 73,
+          "value": 74,
           "target": 40,
           "invert": true
         },
@@ -18240,12 +18263,12 @@
         }
       ],
       "trend": [
-        73,
-        73,
-        73,
-        73,
-        73,
-        73
+        74,
+        74,
+        74,
+        74,
+        74,
+        74
       ]
     }
   ]
