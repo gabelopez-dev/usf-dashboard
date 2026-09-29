@@ -282,7 +282,7 @@ function renderMainPage(data) {
   let html = `
   <div class="kpi-row">
     <div class="kpi"><div class="kpi-label">Open Reqs</div><div class="kpi-val kpi-val-green">${s.openReqs ?? 0}</div><div class="kpi-sub">active pipeline</div></div>
-    <div class="kpi"><div class="kpi-label">Avg Time to Fill</div><div class="kpi-val">${s.avgTimeToFill ?? 0}d</div><div class="kpi-sub">days avg (active)</div></div>
+    <div class="kpi"><div class="kpi-label">Avg TTF (Active)</div><div class="kpi-val">${s.avgTimeToFill > 0 ? s.avgTimeToFill + 'd' : '—'}</div><div class="kpi-sub">Active req type only</div></div>
     <div class="kpi"><div class="kpi-label">Filled YTD</div><div class="kpi-val">${s.filledYTD ?? 0}</div><div class="kpi-sub">positions closed</div></div>
     <div class="kpi"><div class="kpi-label">Failed / Cancelled</div><div class="kpi-val kpi-val-red">${s.failedCancelled ?? 0}</div><div class="kpi-sub">searches no hire</div></div>
     <div class="kpi"><div class="kpi-label">In Offer Stage</div><div class="kpi-val kpi-val-blue">${s.inOfferStage ?? 0}</div><div class="kpi-sub">active offers</div></div>
@@ -883,7 +883,7 @@ function renderRecruiterPage(r) {
     <div class="kpi"><div class="kpi-label">WIP ✅</div><div class="kpi-val kpi-val-blue">${r.wip || 0}</div><div class="kpi-sub">actively worked</div></div>
     <div class="kpi"><div class="kpi-label">Filled</div><div class="kpi-val kpi-val-green">${r.filled || 0}</div><div class="kpi-sub">hired</div></div>
     <div class="kpi"><div class="kpi-label">Failed</div><div class="kpi-val kpi-val-red">${r.failed || 0}</div><div class="kpi-sub">canceled/no hire</div></div>
-    <div class="kpi"><div class="kpi-label">Avg Time to Fill</div><div class="kpi-val kpi-val-amber">${r.ttf || 0}d</div><div class="kpi-sub">days</div></div>
+    <div class="kpi"><div class="kpi-label">Avg TTF (Active)</div><div class="kpi-val kpi-val-amber">${r.ttf > 0 ? r.ttf + 'd' : '—'}</div><div class="kpi-sub">Active req type only</div></div>
   </div>`;
 
   const statuses = r.statuses || [];
