@@ -305,39 +305,12 @@ function renderMainPage(data) {
     </div>`;
   }).join('');
 
-  // Jobs Actively Being Worked donut - aggregate statuses across all recruiters.
-  // Capped at top 6 + "Other" so the legend stays readable as more Stage values
-  // get added over time, rather than growing unbounded.
-  const statusAgg = {};
-  recruiters.forEach(r => (r.statuses || []).forEach(st => {
-    if (!statusAgg[st.label]) statusAgg[st.label] = { count: 0, color: st.color };
-    statusAgg[st.label].count += st.count;
-  }));
-  const statusAllEntries = Object.entries(statusAgg)
-    .filter(([,v]) => v.count > 0)
-    .sort((a,b) => b[1].count - a[1].count);
-  const STATUS_TOP_N = 6;
-  const statusEntries = statusAllEntries.slice(0, STATUS_TOP_N);
-  const statusOverflow = statusAllEntries.slice(STATUS_TOP_N);
-  if (statusOverflow.length > 0) {
-    const otherCount = statusOverflow.reduce((a,[,v]) => a + v.count, 0);
-    statusEntries.push([`Other (${statusOverflow.length})`, { count: otherCount, color: '#888780' }]);
-  }
-  const statusTotal = statusAllEntries.reduce((a,[,v]) => a + v.count, 0);
-
   html += `
-  <div class="row row-2-1">
+  <div class="row">
     <div class="card">
       <div class="card-title">Recruiter Load — Open Reqs</div>
       <div class="vbar-wrap">${vbarCols}</div>
       <p class="pending-note">Updated ${fmtDate(data.lastUpdated)}</p>
-    </div>
-    <div class="card" style="display:flex;flex-direction:column;align-items:center;">
-      <div class="card-title" style="width:100%;">Jobs Actively Being Worked</div>
-      ${statusTotal > 0 ? `
-      <div class="donut-wrap"><canvas id="donutWorked"></canvas><div class="donut-center"><div class="donut-center-num">${statusTotal}</div><div class="donut-center-lbl">Total</div></div></div>
-      <div class="legend">${legendHTML(statusEntries.map(([label,v]) => ({label, count:v.count, color:v.color})))}</div>
-      ` : `<div class="donut-pending"><div class="donut-pending-text">No status<br>data yet</div></div>`}
     </div>
   </div>`;
 
@@ -345,43 +318,19 @@ function renderMainPage(data) {
   const campusItems = (data.campus || []).filter(c => c.count > 0);
   const campusTotal = campusItems.reduce((a,c) => a + c.count, 0);
 
-  // Req Type donut
-  const reqTypeItems = (data.reqType || []).filter(r => r.count > 0);
-  const reqTypeTotal = reqTypeItems.reduce((a,r) => a + r.count, 0);
-
   // Department/College donut
   const deptItems = (data.department || []).filter(d => d.count > 0);
   const deptTotal = deptItems.reduce((a,d) => a + d.count, 0);
 
-  html += `<div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:12px;">
-    <!-- Left column: Campus + Req Type stacked -->
-    <div style="display:flex; flex-direction:column; gap:12px;">
-      <div class="card" style="flex:0;">
-        <div class="card-title">Jobs by Campus</div>
-        ${campusTotal > 0 ? `
-        <div style="display:flex; flex-wrap:wrap; gap:6px 16px;">
-          ${campusItems.map(c => `<div style="font-size:12px; color:#555;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:${c.color};margin-right:6px;"></span>${c.label} ${Math.round((c.count / campusTotal) * 100)}%</div>`).join('')}
-        </div>
-        ` : `<p class="pending-note">No campus data yet</p>`}
+  html += `<div class="row row-half">
+    <div class="card">
+      <div class="card-title">Jobs by Campus</div>
+      ${campusTotal > 0 ? `
+      <div style="display:flex; flex-wrap:wrap; gap:6px 16px;">
+        ${campusItems.map(c => `<div style="font-size:12px; color:#555;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:${c.color};margin-right:6px;"></span>${c.label} ${Math.round((c.count / campusTotal) * 100)}%</div>`).join('')}
       </div>
-      <div class="card" style="display:flex;flex-direction:column;align-items:center;flex:1;">
-        <div class="card-title" style="width:100%;">Reqs by Service Level</div>
-        ${reqTypeTotal > 0 ? `
-        <div class="donut-wrap"><canvas id="donutReqType"></canvas><div class="donut-center"><div class="donut-center-num">${reqTypeTotal}</div><div class="donut-center-lbl">Active</div></div></div>
-        <div class="legend">${legendHTML(reqTypeItems)}</div>
-        <div style="margin-top:10px; border-top:0.5px solid var(--border); padding-top:8px;">
-          <div style="font-size:9px; font-weight:700; text-transform:uppercase; letter-spacing:0.05em; color:var(--text-muted); margin-bottom:6px;">Service Level Definitions</div>
-          <div style="font-size:10px; color:var(--text-secondary); margin-bottom:5px;"><strong>Passive</strong> — Basic support: posting, applicant disposition as they apply, offer assistance, and job offer processing. Also used for disposition or pipeline-building for a potential future need.</div>
-          <div style="font-size:10px; color:var(--text-secondary); margin-bottom:5px;"><strong>Active</strong> — Premier support: includes Passive support plus candidate outreach, summaries, screening, interview scheduling, negotiation assistance, and onboarding follow-up.</div>
-          <div style="font-size:10px; color:var(--text-secondary); margin-bottom:5px;"><strong>Evergreen</strong> — Ongoing/open-ended posting or talent pool for recurring hiring needs.</div>
-          <div style="font-size:10px; color:var(--text-secondary); margin-bottom:5px;"><strong>Faculty</strong> — Academic faculty searches following faculty hiring process.</div>
-          <div style="font-size:10px; color:var(--text-secondary);"><strong>Student</strong> — Student employment and OPS positions.</div>
-        </div>
-        ` : `<div class="donut-pending"><div class="donut-pending-text">No Service Level<br>data yet</div></div>
-        <p class="pending-note" style="text-align:center;">Req Type field not set on records in Notion</p>`}
-      </div>
+      ` : `<p class="pending-note">No campus data yet</p>`}
     </div>
-    <!-- Right column: Aging Heatmap full height -->
     <div class="card" style="display:flex; flex-direction:column;">
       <div class="card-title">Job Aging Heatmap</div>
       <p style="font-size:10px;color:#bbb;font-style:italic;margin-bottom:10px;">Click any band to drill into stalled reqs and highlight departments</p>
@@ -450,6 +399,14 @@ function renderMainPage(data) {
       <div class="card-title">Reqs by Type</div>
       <p style="font-size:10px; color:#bbb; font-style:italic; margin-bottom:10px;">Service-level categories — not a sequence, so shown separately from the funnel.</p>
       ${typeBars}
+      <div style="margin-top:12px; border-top:0.5px solid var(--border); padding-top:8px;">
+        <div style="font-size:9px; font-weight:700; text-transform:uppercase; letter-spacing:0.05em; color:var(--text-muted); margin-bottom:6px;">Service Level Definitions</div>
+        <div style="font-size:10px; color:var(--text-secondary); margin-bottom:5px;"><strong>Passive</strong> — Basic support: posting, applicant disposition as they apply, offer assistance, and job offer processing. Also used for disposition or pipeline-building for a potential future need.</div>
+        <div style="font-size:10px; color:var(--text-secondary); margin-bottom:5px;"><strong>Active</strong> — Premier support: includes Passive support plus candidate outreach, summaries, screening, interview scheduling, negotiation assistance, and onboarding follow-up.</div>
+        <div style="font-size:10px; color:var(--text-secondary); margin-bottom:5px;"><strong>Evergreen</strong> — Ongoing/open-ended posting or talent pool for recurring hiring needs.</div>
+        <div style="font-size:10px; color:var(--text-secondary); margin-bottom:5px;"><strong>Faculty</strong> — Academic faculty searches following faculty hiring process.</div>
+        <div style="font-size:10px; color:var(--text-secondary);"><strong>Student</strong> — Student employment and OPS positions.</div>
+      </div>
     </div>
   </div>`;
 
@@ -478,13 +435,6 @@ function renderMainPage(data) {
   }
 
   document.getElementById('page-main').innerHTML = html;
-
-  if (statusTotal > 0) {
-    buildDonut('donutWorked', statusEntries.map(([l])=>l), statusEntries.map(([,v])=>v.count), statusEntries.map(([,v])=>v.color));
-  }
-  if (reqTypeTotal > 0) {
-    buildDonut('donutReqType', reqTypeItems.map(r=>r.label), reqTypeItems.map(r=>r.count), reqTypeItems.map(r=>r.color));
-  }
 }
 
 function renderInsightsPage(data) {
