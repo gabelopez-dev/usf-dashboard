@@ -278,6 +278,14 @@ async function main() {
   };
   const stageOrder = ['Sourced','Recruiter Review','HM Review','Interview Stage','Offer Stage','Pre-boarding'];
 
+  const reqTypeNormalize = label => {
+    if (!label) return label;
+    if (label.toLowerCase() === 'basic') return 'Passive';
+    if (label.toLowerCase() === 'premier') return 'Active';
+    if (label.toLowerCase() === 'standard') return 'Active';
+    return label;
+  };
+
   const recruiters = recruiterNames.map(name => {
     const meta = recruiterMeta[name];
     const identifiers = recruiterIdentifiers[name];
@@ -308,7 +316,11 @@ async function main() {
       count: myActive.filter(r => matchAgingBand(computeAgingBand(r), band.label)).length
     }));
 
+    // Active req type only, Hired/Complete only — same definition as the Main
+    // tab KPI and the Insights tab's Avg TTF by Req Type, so no two TTF numbers
+    // on the dashboard can ever quietly disagree about what they're measuring.
     const ttfValues = allMyRecs
+      .filter(r => ['Hired','Complete'].includes(getProp(r, 'Stage', 'select')) && reqTypeNormalize(getProp(r, 'Req Type', 'select')) === 'Active')
       .map(r => getProp(r, 'Time to Fill (Days)', 'formula_number'))
       .filter(v => v !== null && v !== undefined && v > 0);
     const avgTTF = ttfValues.length > 0 ? Math.round(ttfValues.reduce((a,b) => a+b, 0) / ttfValues.length) : 0;
@@ -399,22 +411,8 @@ async function main() {
     'USF Health': 'USF Health', 'Tallahassee': 'Tallahassee', 'Sarasota-Manatee': 'Sarasota'
   };
 
-  const ttfAll = records
-    .map(r => getProp(r, 'Time to Fill (Days)', 'formula_number'))
-    .filter(v => v !== null && v !== undefined && v > 0);
-  const avgTTFAll = ttfAll.length > 0 ? Math.round(ttfAll.reduce((a,b) => a+b, 0) / ttfAll.length) : 0;
-  console.log(`TTF values found: ${ttfAll.length}, avg: ${avgTTFAll}`);
-
   // Req Type breakdown
   // Normalize terminology: Basic → Passive, Premier → Active
-  const reqTypeNormalize = label => {
-    if (!label) return label;
-    if (label.toLowerCase() === 'basic') return 'Passive';
-    if (label.toLowerCase() === 'premier') return 'Active';
-    if (label.toLowerCase() === 'standard') return 'Active';
-    return label;
-  };
-
   // Consistent colors per service level type
   const reqTypeColorMap = {
     'Passive':   '#006747',
@@ -619,11 +617,14 @@ async function main() {
     return { fillRateByDept, avgTTFByReqType, avgTTFByCampus, topHiringDepartments, stallRateByRecruiter, seasonalHiringTrends };
   })();
 
+  const activeTTFEntry = insightsData.avgTTFByReqType.find(r => r.reqType === 'Active');
+  console.log(`Avg TTF (Active req type): ${activeTTFEntry ? activeTTFEntry.avgDays : 0}d from ${activeTTFEntry ? activeTTFEntry.count : 0} closed reqs`);
+
   const data = {
     lastUpdated: new Date().toISOString(),
     summary: {
       openReqs: activeRecords.length,
-      avgTimeToFill: avgTTFAll,
+      avgTimeToFill: (insightsData.avgTTFByReqType.find(r => r.reqType === 'Active') || {}).avgDays || 0,
       filledYTD: records.filter(r => ['Hired','Complete'].includes(getProp(r, 'Stage', 'select'))).length,
       failedCancelled: records.filter(r => ['Failed Search', 'Canceled'].includes(getProp(r, 'Stage', 'select'))).length,
       inOfferStage: activeRecords.filter(r => getProp(r, 'Stage', 'select') === 'Offer Stage').length
