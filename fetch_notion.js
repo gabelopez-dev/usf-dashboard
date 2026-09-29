@@ -412,34 +412,6 @@ async function main() {
   };
 
   // Req Type breakdown
-  // Normalize terminology: Basic → Passive, Premier → Active
-  // Consistent colors per service level type
-  const reqTypeColorMap = {
-    'Passive':   '#006747',
-    'Active':    '#00A693',
-    'Standard':  '#006747',
-    'Evergreen': '#7A9EB5',
-    'Faculty':   '#534AB7',
-    'Student':   '#1B6A9C',
-    'Targeted':  '#CFC483'
-  };
-  const reqTypeFallbackColors = ['#5B7A8A','#993556','#d4880a','#888780'];
-
-  const reqTypeAgg = {};
-  activeRecords.forEach(r => {
-    const raw = getProp(r, 'Req Type', 'select');
-    const t = reqTypeNormalize(raw);
-    if (t) reqTypeAgg[t] = (reqTypeAgg[t] || 0) + 1;
-  });
-  let fallbackIdx = 0;
-  const reqTypeBreakdown = Object.entries(reqTypeAgg)
-    .sort((a,b) => b[1] - a[1])
-    .map(([label, count]) => ({
-      label,
-      count,
-      color: reqTypeColorMap[label] || reqTypeFallbackColors[fallbackIdx++ % reqTypeFallbackColors.length]
-    }));
-
   // Department/College breakdown - same dynamic approach
   const deptColors = ['#006747', '#1B6A9C', '#00A693', '#CFC483', '#7A9EB5', '#5B7A8A', '#534AB7', '#993556'];
   const deptAgg = {};
@@ -459,7 +431,6 @@ async function main() {
     ...(otherCount > 0 ? [{ label: `Other (${deptOther.length} depts)`, count: otherCount, color: '#c8c7c2' }] : [])
   ];
 
-  console.log('Req Type breakdown:', JSON.stringify(reqTypeBreakdown));
   // DEBUG: verify formula fields are being read correctly
   const sampleAging = activeRecords.slice(0, 5).map(r => computeAgingBand(r));
   console.log('Sample Aging Band values (raw):', JSON.stringify(sampleAging));
@@ -666,7 +637,6 @@ async function main() {
           department: getProp(r, 'Department/College', 'text') || ''
         }))
     })),
-    reqType: reqTypeBreakdown,
     department: deptBreakdown,
     stageMetrics,
     // Closed reqs for historical wins/losses view
