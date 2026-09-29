@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-29T15:28:35.929Z",
+  "lastUpdated": "2026-09-29T15:33:09.937Z",
   "summary": {
     "openReqs": 614,
-    "avgTimeToFill": 100,
+    "avgTimeToFill": 98,
     "filledYTD": 328,
     "failedCancelled": 51,
     "inOfferStage": 22
@@ -11611,7 +11611,7 @@
       "activeReqs": 31,
       "filled": 0,
       "failed": 0,
-      "ttf": 126,
+      "ttf": 0,
       "wip": 13,
       "agingRecords": [
         {
@@ -12003,7 +12003,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 126,
+          "value": 0,
           "target": 40,
           "invert": true
         },
@@ -12021,12 +12021,12 @@
         }
       ],
       "trend": [
-        126,
-        126,
-        126,
-        126,
-        126,
-        126
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ]
     },
     {
@@ -12041,7 +12041,7 @@
       "activeReqs": 256,
       "filled": 120,
       "failed": 26,
-      "ttf": 113,
+      "ttf": 121,
       "wip": 10,
       "agingRecords": [
         {
@@ -14766,7 +14766,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 113,
+          "value": 121,
           "target": 40,
           "invert": true
         },
@@ -14784,12 +14784,12 @@
         }
       ],
       "trend": [
-        113,
-        113,
-        113,
-        113,
-        113,
-        113
+        121,
+        121,
+        121,
+        121,
+        121,
+        121
       ]
     },
     {
@@ -14804,7 +14804,7 @@
       "activeReqs": 70,
       "filled": 104,
       "failed": 14,
-      "ttf": 98,
+      "ttf": 103,
       "wip": 8,
       "agingRecords": [
         {
@@ -15655,7 +15655,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 98,
+          "value": 103,
           "target": 40,
           "invert": true
         },
@@ -15673,12 +15673,12 @@
         }
       ],
       "trend": [
-        98,
-        98,
-        98,
-        98,
-        98,
-        98
+        103,
+        103,
+        103,
+        103,
+        103,
+        103
       ]
     },
     {
@@ -15693,7 +15693,7 @@
       "activeReqs": 79,
       "filled": 89,
       "failed": 7,
-      "ttf": 78,
+      "ttf": 55,
       "wip": 4,
       "agingRecords": [
         {
@@ -16610,7 +16610,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 78,
+          "value": 55,
           "target": 40,
           "invert": true
         },
@@ -16628,12 +16628,12 @@
         }
       ],
       "trend": [
-        78,
-        78,
-        78,
-        78,
-        78,
-        78
+        55,
+        55,
+        55,
+        55,
+        55,
+        55
       ]
     },
     {
@@ -16648,7 +16648,7 @@
       "activeReqs": 139,
       "filled": 14,
       "failed": 4,
-      "ttf": 77,
+      "ttf": 56,
       "wip": 9,
       "agingRecords": [
         {
@@ -18175,7 +18175,7 @@
         },
         {
           "label": "Time to fill",
-          "value": 77,
+          "value": 56,
           "target": 40,
           "invert": true
         },
@@ -18193,12 +18193,12 @@
         }
       ],
       "trend": [
-        77,
-        77,
-        77,
-        77,
-        77,
-        77
+        56,
+        56,
+        56,
+        56,
+        56,
+        56
       ]
     }
   ]
