@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-09-30T16:47:13.927Z",
+  "lastUpdated": "2026-09-30T21:18:24.963Z",
   "summary": {
-    "openReqs": 611,
+    "openReqs": 609,
     "avgTimeToFill": 99,
     "filledYTD": 336,
-    "failedCancelled": 54,
+    "failedCancelled": 56,
     "inOfferStage": 22
   },
   "campus": [
@@ -20,7 +20,7 @@
     },
     {
       "label": "USF Health",
-      "count": 238,
+      "count": 236,
       "color": "#00A693"
     },
     {
@@ -42,7 +42,7 @@
     },
     {
       "label": "HM Review",
-      "count": 173,
+      "count": 171,
       "color": "#534AB7"
     },
     {
@@ -62,7 +62,7 @@
     },
     {
       "label": "Backlog",
-      "count": 24,
+      "count": 23,
       "color": "#888780"
     },
     {
@@ -82,7 +82,7 @@
     },
     {
       "label": "Interview Stage",
-      "count": 10,
+      "count": 11,
       "color": "#d4880a"
     },
     {
@@ -102,7 +102,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 517
+      "count": 515
     },
     {
       "label": "🟡 3-5",
@@ -3175,26 +3175,6 @@
           "department": "611800 - Department Of Psych & Behavior"
         },
         {
-          "title": "Jr HR Business Partner",
-          "reqId": "43925",
-          "notionUrl": "https://www.notion.so/ae3aae8199c446fdaa392f9dc68177ba",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "HM Review",
-          "agingBand": "🔴 6+",
-          "department": "032300 - Health Human Resources"
-        },
-        {
-          "title": "HR Business Partner I - Health",
-          "reqId": "43926",
-          "notionUrl": "https://www.notion.so/98f10967b6c847219688adaa6125d374",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "HM Review",
-          "agingBand": "🔴 6+",
-          "department": "032300 - Health Human Resources"
-        },
-        {
           "title": "FWS Student Asst - Health",
           "reqId": "43927",
           "notionUrl": "https://www.notion.so/0fa3488a2b074964bb6960436f344ed4",
@@ -5872,7 +5852,7 @@
           "notionUrl": "https://www.notion.so/cd0f7b66c65e4f74a73699da6334d390",
           "owner": "Aidi",
           "campus": "Tampa",
-          "stage": "Backlog",
+          "stage": "Interview Stage",
           "agingBand": "🟢 0–2",
           "department": "170100 - COE Dean's Office"
         },
@@ -6297,7 +6277,7 @@
     },
     {
       "label": "Other (167 depts)",
-      "count": 335,
+      "count": 333,
       "color": "#c8c7c2"
     }
   ],
@@ -8061,6 +8041,28 @@
       "reqType": "Active",
       "ttf": 85,
       "notionUrl": "https://www.notion.so/bbcdcc837d6743e49c549a06f4d95c68"
+    },
+    {
+      "title": "Jr HR Business Partner",
+      "reqId": "43925",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Canceled",
+      "department": "032300 - Health Human Resources",
+      "reqType": "Evergreen",
+      "ttf": 84,
+      "notionUrl": "https://www.notion.so/ae3aae8199c446fdaa392f9dc68177ba"
+    },
+    {
+      "title": "HR Business Partner I - Health",
+      "reqId": "43926",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Canceled",
+      "department": "032300 - Health Human Resources",
+      "reqType": "Evergreen",
+      "ttf": 84,
+      "notionUrl": "https://www.notion.so/98f10967b6c847219688adaa6125d374"
     },
     {
       "title": "Fiscal & Business Analyst I",
@@ -10906,6 +10908,13 @@
         "fillRatePct": 100
       },
       {
+        "department": "032300 - Health Human Resources",
+        "filled": 0,
+        "failed": 0,
+        "cancelled": 2,
+        "fillRatePct": null
+      },
+      {
         "department": "210600 - Electrical Engineering",
         "filled": 2,
         "failed": 0,
@@ -11578,8 +11587,8 @@
       {
         "recruiter": "Rebecca",
         "color": "#1B6A9C",
-        "stalled": 219,
-        "totalActive": 250,
+        "stalled": 217,
+        "totalActive": 248,
         "stallRatePct": 88
       },
       {
@@ -12108,9 +12117,9 @@
       "bgDark": "#3d2504",
       "campus": "Tampa",
       "reqs": 402,
-      "activeReqs": 250,
+      "activeReqs": 248,
       "filled": 126,
-      "failed": 26,
+      "failed": 28,
       "ttf": 122,
       "wip": 10,
       "agingRecords": [
@@ -13007,26 +13016,6 @@
               "stage": "HM Review",
               "agingBand": "🔴 6+",
               "department": "611800 - Department Of Psych & Behavior"
-            },
-            {
-              "title": "Jr HR Business Partner",
-              "reqId": "43925",
-              "notionUrl": "https://www.notion.so/ae3aae8199c446fdaa392f9dc68177ba",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "HM Review",
-              "agingBand": "🔴 6+",
-              "department": "032300 - Health Human Resources"
-            },
-            {
-              "title": "HR Business Partner I - Health",
-              "reqId": "43926",
-              "notionUrl": "https://www.notion.so/98f10967b6c847219688adaa6125d374",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "HM Review",
-              "agingBand": "🔴 6+",
-              "department": "032300 - Health Human Resources"
             },
             {
               "title": "FWS Student Asst - Health",
@@ -14673,7 +14662,7 @@
       "statuses": [
         {
           "label": "HM Review",
-          "count": 170,
+          "count": 168,
           "color": "#993556"
         },
         {
@@ -14728,7 +14717,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 219
+          "count": 217
         },
         {
           "label": "🟡 3-5",
@@ -14748,7 +14737,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 250
+          "count": 248
         },
         {
           "label": "Screened",
@@ -14756,7 +14745,7 @@
         },
         {
           "label": "HM Review",
-          "count": 170
+          "count": 168
         },
         {
           "label": "Interviews",
