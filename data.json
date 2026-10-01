@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-01T06:58:45.048Z",
+  "lastUpdated": "2026-10-01T14:24:00.655Z",
   "summary": {
-    "openReqs": 609,
+    "openReqs": 611,
     "avgTimeToFill": 99,
     "filledYTD": 336,
     "failedCancelled": 56,
@@ -10,7 +10,7 @@
   "campus": [
     {
       "label": "Tampa",
-      "count": 311,
+      "count": 313,
       "color": "#1B6A9C"
     },
     {
@@ -57,7 +57,7 @@
     },
     {
       "label": "Recruiter Review",
-      "count": 39,
+      "count": 41,
       "color": "#006747"
     },
     {
@@ -116,7 +116,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 28
+      "count": 30
     }
   ],
   "agingRecords": [
@@ -5897,6 +5897,26 @@
       "color": "#3B6D11",
       "records": [
         {
+          "title": "Athletics Events Coordinator",
+          "reqId": "44451",
+          "notionUrl": "https://www.notion.so/89b378f7603c460a82155b3f5a1d7dc9",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "051000 - Athletic Administration"
+        },
+        {
+          "title": "Medical Assistant",
+          "reqId": "44457",
+          "notionUrl": "https://www.notion.so/5c9d99e1c82c40fe8f23f3518aeaa5ca",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "043000 - Student Health Services"
+        },
+        {
           "title": "Assignment Coordinator",
           "reqId": "44403",
           "notionUrl": "https://www.notion.so/69f06d5f673849d582aea91c6bca7056",
@@ -6217,7 +6237,7 @@
     },
     {
       "label": "051000 - Athletic Administration",
-      "count": 8,
+      "count": 9,
       "color": "#993556"
     },
     {
@@ -6277,7 +6297,7 @@
     },
     {
       "label": "Other (167 depts)",
-      "count": 333,
+      "count": 334,
       "color": "#c8c7c2"
     }
   ],
@@ -6308,8 +6328,8 @@
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 16,
-      "count": 13,
+      "avgDays": 15,
+      "count": 14,
       "color": "#5B8FA8"
     },
     {
@@ -11534,7 +11554,7 @@
       },
       {
         "department": "051000 - Athletic Administration",
-        "count": 44
+        "count": 45
       },
       {
         "department": "351000 - Information Technology",
@@ -11602,8 +11622,8 @@
         "recruiter": "John",
         "color": "#1B6A9C",
         "stalled": 44,
-        "totalActive": 73,
-        "stallRatePct": 60
+        "totalActive": 75,
+        "stallRatePct": 59
       }
     ],
     "seasonalHiringTrends": [
@@ -11673,7 +11693,7 @@
       },
       {
         "label": "Sep '26",
-        "count": 79
+        "count": 81
       }
     ]
   },
@@ -14798,8 +14818,8 @@
       "bgLight": "#e3f2fd",
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
-      "reqs": 196,
-      "activeReqs": 74,
+      "reqs": 198,
+      "activeReqs": 76,
       "filled": 106,
       "failed": 16,
       "ttf": 103,
@@ -15382,6 +15402,26 @@
           "color": "#3B6D11",
           "records": [
             {
+              "title": "Athletics Events Coordinator",
+              "reqId": "44451",
+              "notionUrl": "https://www.notion.so/89b378f7603c460a82155b3f5a1d7dc9",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "051000 - Athletic Administration"
+            },
+            {
+              "title": "Medical Assistant",
+              "reqId": "44457",
+              "notionUrl": "https://www.notion.so/5c9d99e1c82c40fe8f23f3518aeaa5ca",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "043000 - Student Health Services"
+            },
+            {
               "title": "Assignment Coordinator",
               "reqId": "44403",
               "notionUrl": "https://www.notion.so/69f06d5f673849d582aea91c6bca7056",
@@ -15595,7 +15635,7 @@
       "statuses": [
         {
           "label": "Recruiter Review",
-          "count": 10,
+          "count": 12,
           "color": "#185FA5"
         },
         {
@@ -15659,13 +15699,13 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 17
+          "count": 19
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 74
+          "count": 76
         },
         {
           "label": "Screened",
@@ -15700,13 +15740,13 @@
         {
           "label": "Screened",
           "value": 0,
-          "target": 196,
+          "target": 198,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 7,
-          "target": 196,
+          "target": 198,
           "invert": false
         }
       ],
