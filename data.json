@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-10-02T16:34:03.599Z",
+  "lastUpdated": "2026-10-02T21:12:40.109Z",
   "summary": {
-    "openReqs": 608,
+    "openReqs": 607,
     "avgTimeToFill": 97,
-    "filledYTD": 343,
+    "filledYTD": 344,
     "failedCancelled": 56,
     "inOfferStage": 23
   },
@@ -20,7 +20,7 @@
     },
     {
       "label": "USF Health",
-      "count": 236,
+      "count": 235,
       "color": "#00A693"
     },
     {
@@ -42,7 +42,7 @@
     },
     {
       "label": "HM Review",
-      "count": 171,
+      "count": 170,
       "color": "#534AB7"
     },
     {
@@ -102,7 +102,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 539
+      "count": 538
     },
     {
       "label": "🟡 3-5",
@@ -1753,16 +1753,6 @@
           "stage": "HM Review",
           "agingBand": "🔴 6+",
           "department": "614300 - Molecular Phar"
-        },
-        {
-          "title": "Residency/Fellowship Pro",
-          "reqId": "44073",
-          "notionUrl": "https://www.notion.so/0f5ca7e67fd245658e5d034b6f74bdef",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "HM Review",
-          "agingBand": "🔴 6+",
-          "department": "612000 - Department Of"
         },
         {
           "title": "Admin Specialist",
@@ -6267,7 +6257,7 @@
     },
     {
       "label": "Other (165 depts)",
-      "count": 331,
+      "count": 330,
       "color": "#c8c7c2"
     }
   ],
@@ -8748,6 +8738,17 @@
       "notionUrl": "https://www.notion.so/38f9ddf757a080ee821ff639b827dcc1"
     },
     {
+      "title": "Residency/Fellowship Pro",
+      "reqId": "44073",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Hired",
+      "department": "612000 - Department Of",
+      "reqType": "Evergreen",
+      "ttf": 64,
+      "notionUrl": "https://www.notion.so/0f5ca7e67fd245658e5d034b6f74bdef"
+    },
+    {
       "title": "Sr. Biological Scientist",
       "reqId": "43521",
       "owner": "Tameka Porter",
@@ -10982,6 +10983,13 @@
         "fillRatePct": null
       },
       {
+        "department": "612000 - Department Of",
+        "filled": 2,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
         "department": "171400 - Teaching & Learning",
         "filled": 2,
         "failed": 0,
@@ -11430,13 +11438,6 @@
         "fillRatePct": 100
       },
       {
-        "department": "612000 - Department Of",
-        "filled": 1,
-        "failed": 0,
-        "cancelled": 0,
-        "fillRatePct": 100
-      },
-      {
         "department": "471000 - Florida Inst of C",
         "filled": 1,
         "failed": 0,
@@ -11583,8 +11584,8 @@
       },
       {
         "reqType": "Evergreen",
-        "avgDays": 85,
-        "count": 30
+        "avgDays": 84,
+        "count": 31
       },
       {
         "reqType": "Passive",
@@ -11610,8 +11611,8 @@
       },
       {
         "campus": "USF Health",
-        "avgDays": 113,
-        "count": 106
+        "avgDays": 112,
+        "count": 107
       },
       {
         "campus": "St. Petersburg",
@@ -11682,8 +11683,8 @@
       {
         "recruiter": "Rebecca",
         "color": "#1B6A9C",
-        "stalled": 248,
-        "totalActive": 248,
+        "stalled": 247,
+        "totalActive": 247,
         "stallRatePct": 100
       },
       {
@@ -12223,8 +12224,8 @@
       "bgDark": "#3d2504",
       "campus": "Tampa",
       "reqs": 402,
-      "activeReqs": 248,
-      "filled": 126,
+      "activeReqs": 247,
+      "filled": 127,
       "failed": 28,
       "ttf": 122,
       "wip": 10,
@@ -13012,16 +13013,6 @@
               "stage": "HM Review",
               "agingBand": "🔴 6+",
               "department": "614300 - Molecular Phar"
-            },
-            {
-              "title": "Residency/Fellowship Pro",
-              "reqId": "44073",
-              "notionUrl": "https://www.notion.so/0f5ca7e67fd245658e5d034b6f74bdef",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "HM Review",
-              "agingBand": "🔴 6+",
-              "department": "612000 - Department Of"
             },
             {
               "title": "Admin Specialist",
@@ -14767,7 +14758,7 @@
       "statuses": [
         {
           "label": "HM Review",
-          "count": 168,
+          "count": 167,
           "color": "#993556"
         },
         {
@@ -14822,7 +14813,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 248
+          "count": 247
         },
         {
           "label": "🟡 3-5",
@@ -14842,7 +14833,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 248
+          "count": 247
         },
         {
           "label": "Screened",
@@ -14850,7 +14841,7 @@
         },
         {
           "label": "HM Review",
-          "count": 168
+          "count": 167
         },
         {
           "label": "Interviews",
@@ -14864,7 +14855,7 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 126,
+          "value": 127,
           "target": 10,
           "invert": false
         },
