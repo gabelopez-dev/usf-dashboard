@@ -206,20 +206,22 @@ async function main() {
   console.log(`Active records: ${activeRecords.length}`);
 
   // Identifiers used for matching against Notion person objects (name, email fragments)
-  const recruiterNames = ['Katherine', 'Rebecca', 'John', 'Gabriel', 'Tameka'];
+  const recruiterNames = ['Katherine', 'Rebecca', 'John', 'Gabriel', 'Tameka', 'Aidi'];
   const recruiterIdentifiers = {
     'Katherine': ['katherine', 'friborg'],
     'Rebecca':   ['rebecca'],
     'John':      ['john', 'calebrese'],
     'Gabriel':    ['gabriel', 'glopez', 'gabe'],
-    'Tameka':    ['tameka', 'porter']
+    'Tameka':    ['tameka', 'porter'],
+    'Aidi':      ['aidi']
   };
   const recruiterMeta = {
     'Katherine': { id:'katherine', initials:'KT', color:'#1B7A5A', bgLight:'#e6f5f0', bgDark:'#1a3309', campus:'St Pete' },
     'Rebecca':   { id:'rebecca',   initials:'RB', color:'#1B6A9C', bgLight:'#e0f5f3', bgDark:'#3d2504', campus:'Tampa' },
     'John':      { id:'john',      initials:'JN', color:'#1B6A9C', bgLight:'#e3f2fd', bgDark:'#2a0e1a', campus:'Tampa' },
     'Gabriel':    { id:'gabriel',   initials:'GL', color:'#00A693', bgLight:'#e6f2ed', bgDark:'#042e24', campus:'St Pete / Tampa' },
-    'Tameka':    { id:'tameka',    initials:'TM', color:'#00A693', bgLight:'#e0f5f8', bgDark:'#1c1852', campus:'Tampa' }
+    'Tameka':    { id:'tameka',    initials:'TM', color:'#00A693', bgLight:'#e0f5f8', bgDark:'#1c1852', campus:'Tampa' },
+    'Aidi':      { id:'aidi',      initials:'AI', color:'#534AB7', bgLight:'#ece9f7', bgDark:'#1f1a4d', campus:'Tampa' }
   };
 
   const statusColors = {
