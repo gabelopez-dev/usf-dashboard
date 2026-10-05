@@ -224,38 +224,59 @@ async function main() {
     'Aidi':      { id:'aidi',      initials:'AI', color:'#534AB7', bgLight:'#ece9f7', bgDark:'#1f1a4d', campus:'Tampa' }
   };
 
+  const reqTypeNormalize = label => {
+    if (!label) return label;
+    if (label.toLowerCase() === 'basic') return 'Passive';
+    if (label.toLowerCase() === 'premier') return 'Active';
+    if (label.toLowerCase() === 'standard') return 'Active';
+    return label;
+  };
+
+  // Where "stalled" starts for the Stall Rate by Recruiter card. Must equal one of the
+  // tier minimums below (6, 15 or 31). At 6, most reds are only 6-14 days out, so recruiters
+  // with a normal week-and-a-half in stage read as ~100% stalled; 15 separates genuinely stuck.
+  const STALL_MIN_DAYS = 6;
+
+  // Aging tiers, worst first. The old single "6+" red band lumped "a week and a half in a
+  // stage" together with "genuinely stuck" (most red reqs were only 6-14 days out), so red
+  // is now three tiers.
   const agingBands = [
-    { label: '🔴 6+',  color: '#A32D2D', bgLight: '#FCEBEB', bgDark: '#2e0f0f' },
-    { label: '🟡 3-5', color: '#BA7517', bgLight: '#FAEEDA', bgDark: '#3d2504' },
-    { label: '🟢 0–2', color: '#3B6D11', bgLight: '#EAF3DE', bgDark: '#1a3309' }
+    { label: '🔴 31+',   minDays: 31, color: '#6E1414', bgLight: '#F0CFCF', bgDark: '#2e0f0f' },
+    { label: '🔴 15–30', minDays: 15, color: '#A32D2D', bgLight: '#FAD9D9', bgDark: '#2e0f0f' },
+    { label: '🔴 6–14',  minDays: 6,  color: '#D0523F', bgLight: '#FCE9E5', bgDark: '#3d1a0f' },
+    { label: '🟡 3–5',   minDays: 3,  color: '#BA7517', bgLight: '#FAEEDA', bgDark: '#3d2504' },
+    { label: '🟢 0–2',   minDays: 0,  color: '#3B6D11', bgLight: '#EAF3DE', bgDark: '#1a3309' }
   ];
 
   // Helper to match aging band values regardless of dash type (en-dash vs hyphen)
-  // and skip N/A, "-", or null values from Notion formula
+  // and skip N/A, "-", or null values
   function matchAgingBand(recordValue, bandLabel) {
     if (!recordValue || recordValue === 'N/A' || recordValue === '-') return false;
     const normalize = s => s.replace(/–/g, '-').trim();
     return normalize(recordValue) === normalize(bandLabel);
   }
 
-  // Aging Band is computed from the "Last Activity" field, which is now kept
-  // current automatically by a native Notion automation that updates it whenever
-  // a req's Stage changes. Replaces the earlier last_edited_time-based workaround,
-  // which was needed only because Last Activity used to require manual entry.
+  // Days since the "Last Activity" date, which a native Notion automation stamps
+  // whenever a req's Stage changes. (Replaced the earlier last_edited_time workaround.)
   function daysSinceLastActivity(page) {
     const raw = getProp(page, 'Last Activity', 'date') || getProp(page, 'Last Activity', 'text');
     if (!raw) return null;
     const activityMs = new Date(raw).getTime();
     if (isNaN(activityMs)) return null;
-    return Math.floor((Date.now() - activityMs) / 86400000);
+    return Math.max(0, Math.floor((Date.now() - activityMs) / 86400000));
   }
 
+  // Only OPEN reqs of Req Type "Active" are aged on the standard clock. Passive,
+  // Evergreen, Student, Faculty and Targeted are monitoring workflows that sit by
+  // design, so ageing them just paints everything red. Anything else returns null
+  // (no band), including closed reqs and reqs with no Req Type or no Last Activity.
   function computeAgingBand(page) {
+    if (!activeStatuses.includes(getProp(page, 'Stage', 'select'))) return null;
+    if (reqTypeNormalize(getProp(page, 'Req Type', 'select')) !== 'Active') return null;
     const days = daysSinceLastActivity(page);
     if (days === null) return null;
-    if (days >= 6) return agingBands[0].label; // '🔴 6+'
-    if (days >= 3) return agingBands[1].label; // '🟡 3-5'
-    return agingBands[2].label;                // '🟢 0–2'
+    const band = agingBands.find(b => days >= b.minDays);
+    return band ? band.label : null;
   }
 
   // The ONE stage color map. Every chart on every page gets its stage colors
@@ -271,14 +292,6 @@ async function main() {
     'Evergreen / Continuous Pool': '#6B8E4E', 'Targeted Hiring': '#3A5A6A', 'Backlog': '#888780'
   };
   const stageOrder = ['Sourced','Recruiter Review','HM Review','Interview Stage','Offer Stage','Pre-boarding'];
-
-  const reqTypeNormalize = label => {
-    if (!label) return label;
-    if (label.toLowerCase() === 'basic') return 'Passive';
-    if (label.toLowerCase() === 'premier') return 'Active';
-    if (label.toLowerCase() === 'standard') return 'Active';
-    return label;
-  };
 
   const recruiters = recruiterNames.map(name => {
     const meta = recruiterMeta[name];
@@ -341,6 +354,7 @@ async function main() {
       agingRecords: agingBands.map(band => ({
         band: band.label,
         color: band.color,
+        bgLight: band.bgLight,
         records: myActive
           .filter(r => matchAgingBand(computeAgingBand(r), band.label))
           .map(r => ({
@@ -425,7 +439,7 @@ async function main() {
     ...(otherCount > 0 ? [{ label: `Other (${deptOther.length} depts)`, count: otherCount, color: '#c8c7c2' }] : [])
   ];
 
-  // DEBUG: verify formula fields are being read correctly
+  // DEBUG: aging tiers (Active-type open reqs only)
   const sampleAging = activeRecords.slice(0, 5).map(r => computeAgingBand(r));
   console.log('Sample Aging Band values (raw):', JSON.stringify(sampleAging));
   const agingCounts = agingBands.map(b => ({
@@ -549,10 +563,11 @@ async function main() {
       .sort((a, b) => b.count - a.count)
       .slice(0, 10);
 
-    // Stall Rate by Recruiter — % of each recruiter's ACTIVE reqs sitting in the 6+ day band
+    // Stall Rate by Recruiter — % of each recruiter's Active-type reqs that are STALL_MIN_DAYS+
+    // past their last stage change. Reqs of other types aren't aged, so they're in neither number.
     const stallRateByRecruiter = recruiters.map(r => {
       const totalActive = (r.aging || []).reduce((a, b) => a + b.count, 0);
-      const stalled = (r.aging || []).find(b => b.label.includes('6+'))?.count || 0;
+      const stalled = (r.aging || []).filter(b => b.minDays >= STALL_MIN_DAYS).reduce((a, b) => a + b.count, 0);
       return {
         recruiter: r.name,
         color: r.color,
@@ -579,7 +594,7 @@ async function main() {
       .sort((a, b) => a.year - b.year || a.month - b.month)
       .map(v => ({ label: `${monthNames[v.month]} '${String(v.year).slice(2)}`, count: v.count }));
 
-    return { fillRateByDept, avgTTFByReqType, avgTTFByCampus, topHiringDepartments, stallRateByRecruiter, seasonalHiringTrends };
+    return { fillRateByDept, avgTTFByReqType, avgTTFByCampus, topHiringDepartments, stallRateByRecruiter, stallMinDays: STALL_MIN_DAYS, seasonalHiringTrends };
   })();
 
   const activeTTFEntry = insightsData.avgTTFByReqType.find(r => r.reqType === 'Active');
@@ -618,6 +633,7 @@ async function main() {
     agingRecords: agingBands.map(band => ({
       band: band.label,
       color: band.color,
+      bgLight: band.bgLight,
       records: activeRecords
         .filter(r => matchAgingBand(computeAgingBand(r), band.label))
         .map(r => ({
@@ -664,7 +680,7 @@ async function main() {
   const cleanVal = val => {
     if (val === null || val === undefined || val === '' || val === '-' || val === '—') return '';
     let s = String(val);
-    // Strip emoji aging band prefixes — keep just the text part e.g. "6+", "3-5", "0-2"
+    // Strip emoji aging band prefixes — keep just the text part e.g. "31+", "6–14", "0–2"
     s = s.replace(/🔴\s*/g, '').replace(/🟡\s*/g, '').replace(/🟢\s*/g, '');
     // Strip other common emoji
     s = s.replace(/[\u{1F300}-\u{1FFFF}]/gu, '').trim();
