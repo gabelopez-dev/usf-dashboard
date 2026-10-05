@@ -34,6 +34,14 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; b
 .nav-tab:hover { opacity: 1; transform: translateY(-2px); }
 .nav-tab.active { opacity: 1; transform: translateY(-3px); filter: brightness(1.2); }
 .content { padding: 14px 16px; }
+.picker { display: none; background: #fff; border-bottom: 1px solid var(--border); padding: 8px 16px; gap: 8px; flex-wrap: wrap; align-items: center; }
+.picker.open { display: flex; }
+.picker-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); margin-right: 2px; }
+.picker-pill { display: inline-flex; align-items: center; gap: 7px; font: inherit; font-size: 12px; font-weight: 600; padding: 3px 12px 3px 3px; border-radius: 999px; border: 1.5px solid var(--border); background: #fff; color: var(--text-primary); cursor: pointer; transition: border-color .15s, background .15s; }
+.picker-pill:hover { border-color: var(--pill-color); }
+.picker-pill.active { background: var(--pill-color); border-color: var(--pill-color); color: #fff; }
+.picker-dot { width: 24px; height: 24px; border-radius: 50%; background: var(--pill-bg); color: var(--pill-color); font-size: 10px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+.picker-pill.active .picker-dot { background: rgba(255,255,255,.22); color: #fff; }
 .page { display: none; }
 .kpi-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin-bottom: 12px; }
 .kpi { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; border-top: 3px solid var(--usf-green); }
@@ -76,10 +84,8 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; b
 .heat-table th:first-child { text-align: left; }
 .heat-table td { padding: 5px 6px; text-align: center; border-bottom: 1px solid #f0efeb; font-weight: 600; }
 .heat-table td:first-child { text-align: left; font-weight: 400; color: #555; font-size: 11px; }
-.heat-table tr:last-child td { border-bottom: none; font-weight: 700; background: #fafaf8; }
-.heat-low { background: #c8e6c9; color: #1b5e20; border-radius: 3px; padding: 1px 5px; }
-.heat-med { background: #fff9c4; color: #f57f17; border-radius: 3px; padding: 1px 5px; }
-.heat-high { background: #ffcdd2; color: #b71c1c; border-radius: 3px; padding: 1px 5px; }
+.heat-table tr:last-child td { border-bottom: none; }
+.heat-badge { border-radius: 3px; padding: 1px 6px; }
 .heat-none { color: #ccc; }
 .heat-legend { display: flex; align-items: center; gap: 8px; margin-top: 8px; font-size: 10px; color: var(--text-muted); }
 .heat-swatch { width: 10px; height: 10px; border-radius: 2px; }
@@ -203,6 +209,8 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; b
   .kpi-val { font-size: 22px; }
   .kpi-label { font-size: 9px; }
   .nav-tab { font-size: 9px; padding: 7px 10px 7px 8px; }
+  .picker { padding: 6px 8px; gap: 6px; }
+  .picker-pill { font-size: 11px; }
   .dept-bar-row span:first-child { width: 110px !important; }
 }
 
@@ -218,8 +226,10 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; b
 <div class="nav" id="navTabs">
   <div class="nav-tab" data-page="main" style="background:#006747;" onclick="showPage(this)">Main</div>
   <div class="nav-tab" data-page="insights" style="background:#00A693;" onclick="showPage(this)">Insights &#10024;</div>
-  
+  <div class="nav-tab" data-page="recruiters" style="background:#1B6A9C;" onclick="showPage(this)">Recruiters</div>
 </div>
+<!-- Recruiter picker: shown only on recruiter pages, so the nav stays 3 tabs as the team grows -->
+<div class="picker" id="recruiterPicker"></div>
 
 <!-- Drill-down panel -->
 <div id="drillOverlay" class="drill-overlay" onclick="closeDrillDown()"></div>
@@ -242,17 +252,57 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; b
 </div>
 
 <script>
-const TAB_COLORS = ['#006747', '#1B7A5A', '#1B6A9C', '#5B8FA8', '#00A693', '#7A9EB5', '#3A5A6A', '#534AB7'];
 let DASHBOARD_DATA = null;
 const charts = {};
 
-function showPage(tabEl) {
-  document.querySelectorAll('.page').forEach(p => p.style.display = 'none');
-  document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+// ---- Routing ----------------------------------------------------------------
+// The URL hash is the single source of truth: #main, #insights, or #<recruiter id>
+// (e.g. #gabriel). Tabs, pills and the browser's back/forward all just change the hash,
+// and one handler (showRoute) draws the page, so every page is bookmarkable and linkable.
+let RECRUITERS = [];
+let lastRecruiterId = null;
+
+function parseRoute(hash) {
+  const id = decodeURIComponent((hash || '').replace(/^#\/?/, '')).toLowerCase();
+  if (id === 'main' || id === 'insights') return id;
+  if (id === 'recruiters') return lastRecruiterId || (RECRUITERS[0] && RECRUITERS[0].id) || 'main';
+  if (RECRUITERS.some(r => r.id === id)) return id;
+  return 'main';
+}
+
+function navigate(route) {
+  if (location.hash === '#' + route) showRoute(route);   // already there: no hashchange will fire
+  else location.hash = '#' + route;                      // hashchange -> showRoute
+}
+
+function showPage(tabEl) {                                // top nav tabs
   const id = tabEl.getAttribute('data-page');
-  const target = document.getElementById('page-' + id);
+  navigate(id === 'recruiters' ? (lastRecruiterId || (RECRUITERS[0] && RECRUITERS[0].id) || 'main') : id);
+}
+
+function showRoute(route) {
+  closeDrillDown();
+  document.querySelectorAll('.page').forEach(p => p.style.display = 'none');
+  const rec = RECRUITERS.find(r => r.id === route);
+  if (rec) lastRecruiterId = rec.id;
+  const tabId = rec ? 'recruiters' : route;
+  document.querySelectorAll('.nav-tab').forEach(t => t.classList.toggle('active', t.getAttribute('data-page') === tabId));
+  const target = document.getElementById('page-' + route);
   if (target) target.style.display = 'block';
-  tabEl.classList.add('active');
+  const bar = document.getElementById('recruiterPicker');
+  bar.classList.toggle('open', !!rec);
+  bar.querySelectorAll('.picker-pill').forEach(p => {
+    const on = p.getAttribute('data-id') === route;
+    p.classList.toggle('active', on);
+    if (on) p.setAttribute('aria-current', 'page'); else p.removeAttribute('aria-current');
+  });
+  document.title = (rec ? rec.name + ' \u2014 ' : route === 'insights' ? 'Insights \u2014 ' : '') + 'CHR Recruiting Dashboard';
+}
+
+function routeFromLocation() {
+  const route = parseRoute(location.hash);
+  if (location.hash.toLowerCase() === '#recruiters') history.replaceState(null, '', '#' + route);  // show the real address
+  showRoute(route);
 }
 
 function fmtDate(iso) {
@@ -356,7 +406,7 @@ function renderMainPage(data) {
     </div>
     <div class="card" style="display:flex; flex-direction:column;">
       <div class="card-title">Job Aging Heatmap</div>
-      <p style="font-size:10px;color:#bbb;font-style:italic;margin-bottom:10px;">Click any band to drill into stalled reqs and highlight departments</p>
+      <p style="font-size:10px;color:#bbb;font-style:italic;margin-bottom:10px;">Active req type only (${(data.mainAging || []).reduce((a, b) => a + b.count, 0)} of ${data.summary?.openReqs ?? 0} open reqs) · days since last stage change. Click a band to see the reqs.</p>
       ${(() => { currentAgingRecords = data.agingRecords || null; return renderAgingHeatmap(data.mainAging || [], data.agingRecords || null, 'main'); })()}
     </div>
   </div>`;
@@ -539,15 +589,16 @@ function renderInsightsPage(data) {
     const items = data.insights?.stallRateByRecruiter || [];
     if (!items.length) return emptyNote('No recruiter data yet');
     return items.map(r => {
+      const noData = !r.totalActive;
       const barColor = r.stallRatePct >= 50 ? '#c0392b' : r.stallRatePct >= 25 ? '#d4880a' : '#006747';
       return `<div style="display:flex; align-items:center; gap:10px; margin-bottom:8px;">
         <span style="font-size:11px; color:${r.color || '#555'}; font-weight:600; width:70px; flex-shrink:0; text-align:right;">${r.recruiter}</span>
         <div style="flex:1; background:#f0efeb; border-radius:4px; height:22px;">
-          <div style="width:${Math.max(6, r.stallRatePct)}%; background:${barColor}; border-radius:4px; height:22px; display:flex; align-items:center; padding-left:8px; min-width:32px;">
+          ${noData ? '' : `<div style="width:${Math.max(6, r.stallRatePct)}%; background:${barColor}; border-radius:4px; height:22px; display:flex; align-items:center; padding-left:8px; min-width:32px;">
             <span style="font-size:11px; font-weight:700; color:#fff;">${r.stallRatePct}%</span>
-          </div>
+          </div>`}
         </div>
-        <span style="font-size:10px; color:#aaa; width:78px; flex-shrink:0; white-space:nowrap;">${r.stalled} of ${r.totalActive}</span>
+        <span style="font-size:10px; color:#aaa; width:78px; flex-shrink:0; white-space:nowrap;">${noData ? 'no Active reqs' : `${r.stalled} of ${r.totalActive}`}</span>
       </div>`;
     }).join('');
   })();
@@ -592,7 +643,7 @@ function renderInsightsPage(data) {
     </div>
     <div class="card">
       <div class="card-title">Stall Rate by Recruiter</div>
-      <p style="font-size:10px; color:#bbb; font-style:italic; margin-bottom:12px;">% of each recruiter's active reqs in the 🔴 6+ day aging band.</p>
+      <p style="font-size:10px; color:#bbb; font-style:italic; margin-bottom:12px;">% of each recruiter's Active-type reqs that are ${data.insights?.stallMinDays || 6}+ days past their last stage change.</p>
       ${stallRateHTML}
     </div>
   </div>
@@ -637,7 +688,9 @@ function renderAgingHeatmap(aging, agingRecords, contextKey) {
     const hint = hasRecords ? `<span style="font-size:9px;color:#aaa;margin-left:4px;">click to view</span>` : '';
     return `<tr class="${rowClass}" ${clickAttr}>
       <td>${a.label}${hint}</td>
-      <td style="text-align:center;"><span class="${a.count > 0 ? 'heat-high' : 'heat-none'}">${a.count || '-'}</span></td>
+      <td style="text-align:center;">${a.count > 0
+        ? `<span class="heat-badge" style="background:${a.bgLight || ((a.color || '#888') + '22')}; color:${a.color || '#555'};">${a.count}</span>`
+        : `<span class="heat-none">-</span>`}</td>
     </tr>`;
   }).join('');
   return `<table class="heat-table"><thead><tr><th>Band</th><th style="text-align:center;">Count</th></tr></thead><tbody>${rows}</tbody></table>`;
@@ -853,11 +906,11 @@ function renderRecruiterPage(r) {
     html += `<div style="display:grid;grid-template-columns:1fr 1.6fr;gap:12px;margin-top:10px;">`;
 
     if (hasAging) {
-      const recAging = r.agingRecords.map(b => ({ label: b.band, count: b.records.length, color: b.color }));
+      const recAging = r.agingRecords.map(b => ({ label: b.band, count: b.records.length, color: b.color, bgLight: b.bgLight }));
       currentAgingRecords = r.agingRecords;
       html += `<div class="card" style="display:flex;flex-direction:column;">
         <div class="card-title">Job Aging Heatmap</div>
-        <p style="font-size:10px;color:#bbb;font-style:italic;margin-bottom:8px;">Click any band to see your stalled reqs</p>
+        <p style="font-size:10px;color:#bbb;font-style:italic;margin-bottom:8px;">Your Active-type reqs only · days since last stage change. Click a band to see them.</p>
         ${renderAgingHeatmap(recAging, r.agingRecords, r.id)}
       </div>`;
     }
@@ -939,17 +992,11 @@ function renderRecruiterPage(r) {
   return html;
 }
 
-function buildNav(recruiters) {
-  const nav = document.getElementById('navTabs');
-  recruiters.forEach((r, i) => {
-    const tab = document.createElement('div');
-    tab.className = 'nav-tab';
-    tab.setAttribute('data-page', r.id);
-    tab.style.background = TAB_COLORS[(i+1) % TAB_COLORS.length];
-    tab.textContent = r.name;
-    tab.onclick = () => showPage(tab);
-    nav.appendChild(tab);
-  });
+function buildRecruiterPicker(recruiters) {
+  RECRUITERS = recruiters;
+  document.getElementById('recruiterPicker').innerHTML = '<span class="picker-label">Recruiter</span>' + recruiters.map(r =>
+    `<button type="button" class="picker-pill" data-id="${r.id}" style="--pill-color:${r.color || '#1B6A9C'}; --pill-bg:${r.bgLight || '#e6f0f7'};" onclick="navigate('${r.id}')"><span class="picker-dot">${r.initials || ''}</span>${r.name}</button>`
+  ).join('');
 }
 
 function buildPages(recruiters) {
@@ -1032,7 +1079,7 @@ async function loadDashboard() {
     mainPage.id = 'page-main';
     document.getElementById('content').appendChild(mainPage);
 
-    buildNav(data.recruiters || []);
+    buildRecruiterPicker(data.recruiters || []);
     buildPages(data.recruiters || []);
     renderMainPage(data);
 
@@ -1040,8 +1087,8 @@ async function loadDashboard() {
     const insightsPage = document.getElementById('page-insights');
     if (insightsPage) insightsPage.innerHTML = renderInsightsPage(data);
 
-    document.querySelector('.nav-tab[data-page="main"]').classList.add('active');
-    document.getElementById('page-main').style.display = 'block';
+    routeFromLocation();
+    window.addEventListener('hashchange', routeFromLocation);
     document.getElementById('syncBadge').textContent = 'Synced: ' + fmtDate(data.lastUpdated);
   } catch (err) {
     document.getElementById('content').innerHTML = `<div class="error-box">
