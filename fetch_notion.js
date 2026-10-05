@@ -224,16 +224,6 @@ async function main() {
     'Aidi':      { id:'aidi',      initials:'AI', color:'#534AB7', bgLight:'#ece9f7', bgDark:'#1f1a4d', campus:'Tampa' }
   };
 
-  const statusColors = {
-    'Recruiter Review': '#185FA5', 'Sourced': '#3B6D11', 'Screened': '#BA7517',
-    'HM Review': '#993556', 'Interview Stage': '#534AB7', 'Offer Stage': '#0F6E56',
-    'Pre-boarding': '#888780', 'Backlog': '#888780', 'Targeted': '#888780',
-    'Student Hiring': '#0F6E56', 'Faculty': '#534AB7',
-    'Passive': '#5B8FA8', 'Active': '#00A693', 'Screening': '#BA7517',
-    'Passive Hiring': '#5B8FA8', 'Faculty Hiring': '#534AB7',
-    'Evergreen / Continuous Pool': '#6B8E4E', 'Targeted Hiring': '#888780'
-  };
-
   const agingBands = [
     { label: '🔴 6+',  color: '#A32D2D', bgLight: '#FCEBEB', bgDark: '#2e0f0f' },
     { label: '🟡 3-5', color: '#BA7517', bgLight: '#FAEEDA', bgDark: '#3d2504' },
@@ -268,15 +258,17 @@ async function main() {
     return agingBands[2].label;                // '🟢 0–2'
   }
 
-  // Stage colors and order — defined here so they're available in both
-  // per-recruiter stageMetrics and the main team-wide stageMetrics
+  // The ONE stage color map. Every chart on every page gets its stage colors
+  // from here, so a stage is the same color everywhere. All 12 current stage
+  // names have a distinct color because the recruiter pages plot them together.
+  // Unknown/future stage names fall back to neutral gray at each lookup.
   const stageColors = {
-    'Recruiter Review': '#006747', 'Sourced': '#00A693', 'Screened': '#1B6A9C',
-    'HM Review': '#534AB7', 'Interview Stage': '#d4880a', 'Offer Stage': '#CFC483',
-    'Pre-boarding': '#5B8FA8', 'Backlog': '#888780', 'Targeted': '#7A9EB5',
-    'Student Hiring': '#0F6E56', 'Faculty': '#993556',
-    'Passive Hiring': '#5B8FA8', 'Faculty Hiring': '#993556',
-    'Evergreen / Continuous Pool': '#6B8E4E', 'Targeted Hiring': '#7A9EB5'
+    // sequential pipeline stages
+    'Sourced': '#00A693', 'Recruiter Review': '#006747', 'HM Review': '#534AB7',
+    'Interview Stage': '#D4880A', 'Offer Stage': '#CFC483', 'Pre-boarding': '#5B8FA8',
+    // service-type categories
+    'Passive Hiring': '#1B6A9C', 'Faculty Hiring': '#993556', 'Student Hiring': '#B5651D',
+    'Evergreen / Continuous Pool': '#6B8E4E', 'Targeted Hiring': '#3A5A6A', 'Backlog': '#888780'
   };
   const stageOrder = ['Sourced','Recruiter Review','HM Review','Interview Stage','Offer Stage','Pre-boarding'];
 
@@ -310,7 +302,7 @@ async function main() {
         acc[s] = (acc[s] || 0) + 1;
         return acc;
       }, {})
-    ).map(([label, count]) => ({ label, count, color: statusColors[label] || '#888780' }));
+    ).map(([label, count]) => ({ label, count, color: stageColors[label] || '#888780' }));
 
 
     const aging = agingBands.map(band => ({
