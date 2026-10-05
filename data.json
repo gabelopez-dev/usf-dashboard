@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-10-05T15:39:43.914Z",
+  "lastUpdated": "2026-10-05T18:57:46.143Z",
   "summary": {
     "openReqs": 605,
     "avgTimeToFill": 97,
     "filledYTD": 346,
     "failedCancelled": 56,
-    "inOfferStage": 22
+    "inOfferStage": 21
   },
   "campus": [
     {
@@ -38,11 +38,11 @@
     {
       "label": "Passive Hiring",
       "count": 181,
-      "color": "#5B8FA8"
+      "color": "#1B6A9C"
     },
     {
       "label": "HM Review",
-      "count": 170,
+      "count": 171,
       "color": "#534AB7"
     },
     {
@@ -53,11 +53,11 @@
     {
       "label": "Student Hiring",
       "count": 43,
-      "color": "#0F6E56"
+      "color": "#B5651D"
     },
     {
       "label": "Recruiter Review",
-      "count": 40,
+      "count": 39,
       "color": "#006747"
     },
     {
@@ -66,29 +66,29 @@
       "color": "#888780"
     },
     {
+      "label": "Pre-boarding",
+      "count": 23,
+      "color": "#5B8FA8"
+    },
+    {
       "label": "Evergreen / Continuous Pool",
       "count": 23,
       "color": "#6B8E4E"
     },
     {
-      "label": "Pre-boarding",
-      "count": 22,
-      "color": "#5B8FA8"
-    },
-    {
       "label": "Offer Stage",
-      "count": 22,
+      "count": 21,
       "color": "#CFC483"
     },
     {
       "label": "Interview Stage",
       "count": 13,
-      "color": "#d4880a"
+      "color": "#D4880A"
     },
     {
       "label": "Targeted Hiring",
       "count": 10,
-      "color": "#7A9EB5"
+      "color": "#3A5A6A"
     },
     {
       "label": "Sourced",
@@ -102,7 +102,7 @@
       "color": "#A32D2D",
       "bgLight": "#FCEBEB",
       "bgDark": "#2e0f0f",
-      "count": 566
+      "count": 564
     },
     {
       "label": "🟡 3-5",
@@ -116,7 +116,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 10
+      "count": 12
     }
   ],
   "agingRecords": [
@@ -525,16 +525,6 @@
           "department": "391000 - Fl Center For Cybersecurity"
         },
         {
-          "title": "Coordinator of Library Operations",
-          "reqId": "44371",
-          "notionUrl": "https://www.notion.so/77d1424f85ae427895dcf315d7d13014",
-          "owner": "Aidi",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6+",
-          "department": "400100 - Univ Lib Deans Office"
-        },
-        {
           "title": "Other Hourly Professional/Support",
           "reqId": "44368",
           "notionUrl": "https://www.notion.so/b051edfb096f4e8caaa43a0ef0b283ac",
@@ -903,16 +893,6 @@
           "stage": "Targeted Hiring",
           "agingBand": "🔴 6+",
           "department": "177600 - Ctr For Res,Eval,Assmnt&Measre"
-        },
-        {
-          "title": "Executive Administrative Spec.",
-          "reqId": "44227",
-          "notionUrl": "https://www.notion.so/70ae4d6b4ba34c2782ead0ca8ef70024",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Offer Stage",
-          "agingBand": "🔴 6+",
-          "department": "210800 - AICC Bellini College Department"
         },
         {
           "title": "Events Coordinator",
@@ -6097,6 +6077,16 @@
           "department": "051000 - Athletic Administration"
         },
         {
+          "title": "Coordinator of Library Operations",
+          "reqId": "44371",
+          "notionUrl": "https://www.notion.so/77d1424f85ae427895dcf315d7d13014",
+          "owner": "Aidi",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "400100 - Univ Lib Deans Office"
+        },
+        {
           "title": "Maintenance Technician",
           "reqId": "44287",
           "notionUrl": "https://www.notion.so/01776ccb59e04627b02ba932de3fc2b0",
@@ -6105,6 +6095,16 @@
           "stage": "Passive Hiring",
           "agingBand": "🟢 0–2",
           "department": "471000 - Florida Inst of Oceanography"
+        },
+        {
+          "title": "Executive Administrative Spec.",
+          "reqId": "44227",
+          "notionUrl": "https://www.notion.so/70ae4d6b4ba34c2782ead0ca8ef70024",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Pre-boarding",
+          "agingBand": "🟢 0–2",
+          "department": "210800 - AICC Bellini College Department"
         },
         {
           "title": "Applications Developer I",
@@ -6245,7 +6245,7 @@
     {
       "label": "Recruiter Review",
       "avgDays": 13,
-      "count": 28,
+      "count": 27,
       "color": "#006747"
     },
     {
@@ -6258,12 +6258,12 @@
       "label": "Interview Stage",
       "avgDays": 6,
       "count": 7,
-      "color": "#d4880a"
+      "color": "#D4880A"
     },
     {
       "label": "Offer Stage",
-      "avgDays": 20,
-      "count": 6,
+      "avgDays": 22,
+      "count": 5,
       "color": "#CFC483"
     },
     {
@@ -6282,7 +6282,7 @@
       "label": "Targeted Hiring",
       "avgDays": 10,
       "count": 1,
-      "color": "#7A9EB5"
+      "color": "#3A5A6A"
     }
   ],
   "closedReqs": [
@@ -11704,11 +11704,18 @@
         "stallRatePct": 100
       },
       {
+        "recruiter": "Aidi",
+        "color": "#534AB7",
+        "stalled": 33,
+        "totalActive": 36,
+        "stallRatePct": 92
+      },
+      {
         "recruiter": "John",
         "color": "#1B6A9C",
-        "stalled": 61,
+        "stalled": 60,
         "totalActive": 76,
-        "stallRatePct": 80
+        "stallRatePct": 79
       },
       {
         "recruiter": "Gabriel",
@@ -12131,17 +12138,17 @@
         {
           "label": "Passive Hiring",
           "count": 29,
-          "color": "#5B8FA8"
+          "color": "#1B6A9C"
         },
         {
           "label": "Faculty Hiring",
           "count": 1,
-          "color": "#534AB7"
+          "color": "#993556"
         },
         {
           "label": "Student Hiring",
           "count": 1,
-          "color": "#0F6E56"
+          "color": "#B5651D"
         }
       ],
       "aging": [
@@ -14743,7 +14750,7 @@
           "label": "Interview Stage",
           "avgDays": 10,
           "count": 1,
-          "color": "#d4880a"
+          "color": "#D4880A"
         },
         {
           "label": "Offer Stage",
@@ -14761,14 +14768,14 @@
           "label": "Targeted Hiring",
           "avgDays": 10,
           "count": 1,
-          "color": "#7A9EB5"
+          "color": "#3A5A6A"
         }
       ],
       "statuses": [
         {
           "label": "HM Review",
           "count": 167,
-          "color": "#993556"
+          "color": "#534AB7"
         },
         {
           "label": "Backlog",
@@ -14778,27 +14785,27 @@
         {
           "label": "Recruiter Review",
           "count": 21,
-          "color": "#185FA5"
+          "color": "#006747"
         },
         {
           "label": "Passive Hiring",
           "count": 8,
-          "color": "#5B8FA8"
+          "color": "#1B6A9C"
         },
         {
           "label": "Targeted Hiring",
           "count": 2,
-          "color": "#888780"
+          "color": "#3A5A6A"
         },
         {
           "label": "Student Hiring",
           "count": 12,
-          "color": "#0F6E56"
+          "color": "#B5651D"
         },
         {
           "label": "Interview Stage",
           "count": 3,
-          "color": "#534AB7"
+          "color": "#D4880A"
         },
         {
           "label": "Evergreen / Continuous Pool",
@@ -14808,12 +14815,12 @@
         {
           "label": "Sourced",
           "count": 6,
-          "color": "#3B6D11"
+          "color": "#00A693"
         },
         {
           "label": "Offer Stage",
           "count": 13,
-          "color": "#0F6E56"
+          "color": "#CFC483"
         }
       ],
       "aging": [
@@ -15084,16 +15091,6 @@
               "stage": "Student Hiring",
               "agingBand": "🔴 6+",
               "department": "373000 - Financial Aid"
-            },
-            {
-              "title": "Executive Administrative Spec.",
-              "reqId": "44227",
-              "notionUrl": "https://www.notion.so/70ae4d6b4ba34c2782ead0ca8ef70024",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Offer Stage",
-              "agingBand": "🔴 6+",
-              "department": "210800 - AICC Bellini College Department"
             },
             {
               "title": "Events Coordinator",
@@ -15678,6 +15675,16 @@
               "department": "051000 - Athletic Administration"
             },
             {
+              "title": "Executive Administrative Spec.",
+              "reqId": "44227",
+              "notionUrl": "https://www.notion.so/70ae4d6b4ba34c2782ead0ca8ef70024",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Pre-boarding",
+              "agingBand": "🟢 0–2",
+              "department": "210800 - AICC Bellini College Department"
+            },
+            {
               "title": "Cyber Security Analyst II",
               "reqId": "43254",
               "notionUrl": "https://www.notion.so/40207259158b465588fac3ea4a5eba6c",
@@ -15707,12 +15714,12 @@
           "label": "Interview Stage",
           "avgDays": 7,
           "count": 4,
-          "color": "#d4880a"
+          "color": "#D4880A"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 8,
-          "count": 4,
+          "avgDays": 7,
+          "count": 3,
           "color": "#CFC483"
         },
         {
@@ -15732,42 +15739,42 @@
         {
           "label": "Recruiter Review",
           "count": 11,
-          "color": "#185FA5"
+          "color": "#006747"
         },
         {
           "label": "Passive Hiring",
           "count": 10,
-          "color": "#5B8FA8"
+          "color": "#1B6A9C"
         },
         {
           "label": "Pre-boarding",
-          "count": 16,
-          "color": "#888780"
+          "count": 17,
+          "color": "#5B8FA8"
         },
         {
           "label": "Student Hiring",
           "count": 11,
-          "color": "#0F6E56"
+          "color": "#B5651D"
         },
         {
           "label": "HM Review",
           "count": 2,
-          "color": "#993556"
+          "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
           "count": 7,
-          "color": "#534AB7"
-        },
-        {
-          "label": "Offer Stage",
-          "count": 7,
-          "color": "#0F6E56"
+          "color": "#D4880A"
         },
         {
           "label": "Evergreen / Continuous Pool",
           "count": 12,
           "color": "#6B8E4E"
+        },
+        {
+          "label": "Offer Stage",
+          "count": 6,
+          "color": "#CFC483"
         },
         {
           "label": "Backlog",
@@ -15781,7 +15788,7 @@
           "color": "#A32D2D",
           "bgLight": "#FCEBEB",
           "bgDark": "#2e0f0f",
-          "count": 61
+          "count": 60
         },
         {
           "label": "🟡 3-5",
@@ -15795,7 +15802,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 5
+          "count": 6
         }
       ],
       "funnel": [
@@ -15817,7 +15824,7 @@
         },
         {
           "label": "Offer",
-          "count": 7
+          "count": 6
         }
       ],
       "goals": [
@@ -16630,7 +16637,7 @@
           "label": "Interview Stage",
           "avgDays": 4,
           "count": 1,
-          "color": "#d4880a"
+          "color": "#D4880A"
         },
         {
           "label": "Offer Stage",
@@ -16660,12 +16667,12 @@
         {
           "label": "Recruiter Review",
           "count": 2,
-          "color": "#185FA5"
+          "color": "#006747"
         },
         {
           "label": "Passive Hiring",
           "count": 20,
-          "color": "#5B8FA8"
+          "color": "#1B6A9C"
         },
         {
           "label": "Evergreen / Continuous Pool",
@@ -16675,37 +16682,37 @@
         {
           "label": "Student Hiring",
           "count": 5,
-          "color": "#0F6E56"
+          "color": "#B5651D"
         },
         {
           "label": "Interview Stage",
           "count": 2,
-          "color": "#534AB7"
+          "color": "#D4880A"
         },
         {
           "label": "HM Review",
           "count": 1,
-          "color": "#993556"
+          "color": "#534AB7"
         },
         {
           "label": "Faculty Hiring",
           "count": 25,
-          "color": "#534AB7"
+          "color": "#993556"
         },
         {
           "label": "Targeted Hiring",
           "count": 4,
-          "color": "#888780"
+          "color": "#3A5A6A"
         },
         {
           "label": "Offer Stage",
           "count": 1,
-          "color": "#0F6E56"
+          "color": "#CFC483"
         },
         {
           "label": "Pre-boarding",
           "count": 4,
-          "color": "#888780"
+          "color": "#5B8FA8"
         }
       ],
       "aging": [
@@ -18224,17 +18231,17 @@
         {
           "label": "Faculty Hiring",
           "count": 5,
-          "color": "#534AB7"
+          "color": "#993556"
         },
         {
           "label": "Passive Hiring",
           "count": 107,
-          "color": "#5B8FA8"
+          "color": "#1B6A9C"
         },
         {
           "label": "Student Hiring",
           "count": 11,
-          "color": "#0F6E56"
+          "color": "#B5651D"
         },
         {
           "label": "Backlog",
@@ -18244,17 +18251,17 @@
         {
           "label": "Targeted Hiring",
           "count": 1,
-          "color": "#888780"
+          "color": "#3A5A6A"
         },
         {
           "label": "Pre-boarding",
           "count": 1,
-          "color": "#888780"
+          "color": "#5B8FA8"
         },
         {
           "label": "Recruiter Review",
           "count": 3,
-          "color": "#185FA5"
+          "color": "#006747"
         }
       ],
       "aging": [
@@ -18335,6 +18342,547 @@
         56,
         56,
         56
+      ]
+    },
+    {
+      "id": "aidi",
+      "name": "Aidi",
+      "initials": "AI",
+      "color": "#534AB7",
+      "bgLight": "#ece9f7",
+      "bgDark": "#1f1a4d",
+      "campus": "Tampa",
+      "reqs": 38,
+      "activeReqs": 36,
+      "filled": 2,
+      "failed": 0,
+      "ttf": 58,
+      "wip": 1,
+      "agingRecords": [
+        {
+          "band": "🔴 6+",
+          "color": "#A32D2D",
+          "records": [
+            {
+              "title": "Academic Advisor I",
+              "reqId": "44394",
+              "notionUrl": "https://www.notion.so/bae0abb374a347c895a7c483cb4eb8a4",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🔴 6+",
+              "department": "170105 - COEDU Undergraduate Studies"
+            },
+            {
+              "title": "Assistant Professor of Physical Education (Tenure Track)",
+              "reqId": "44126",
+              "notionUrl": "https://www.notion.so/d7866eab62484062ba300bc4fc7505cb",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Faculty Hiring",
+              "agingBand": "🔴 6+",
+              "department": "171700 - Lang, Lit, EdD, Excep Ed, PE"
+            },
+            {
+              "title": "Other Hourly Professional/Support",
+              "reqId": "44368",
+              "notionUrl": "https://www.notion.so/b051edfb096f4e8caaa43a0ef0b283ac",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Targeted Hiring",
+              "agingBand": "🔴 6+",
+              "department": "177400 - Center For Migrant Education"
+            },
+            {
+              "title": "Teaching Artist",
+              "reqId": "44269",
+              "notionUrl": "https://www.notion.so/020d31230ad64304890a553637afc454",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Targeted Hiring",
+              "agingBand": "🔴 6+",
+              "department": "177600 - Ctr For Res,Eval,Assmnt&Measre"
+            },
+            {
+              "title": "Adjunct APK 2092",
+              "reqId": "44250",
+              "notionUrl": "https://www.notion.so/7398e741d27c42a2ae9b368b59e4f62a",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Faculty Hiring",
+              "agingBand": "🔴 6+",
+              "department": "171500 - Educational and Psychological Studies"
+            },
+            {
+              "title": "Visiting Assistant Professor of Instruction (Physical Education)",
+              "reqId": "43659",
+              "notionUrl": "https://www.notion.so/8303906d44fc41ebb09ec5eba6e2d3e6",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Faculty Hiring",
+              "agingBand": "🔴 6+",
+              "department": "171700 - Lang, Lit, EdD, Excep Ed, PE"
+            },
+            {
+              "title": "Postdoctoral Scholar in Artificial Intelligence and the Future of Education",
+              "reqId": "44176",
+              "notionUrl": "https://www.notion.so/73d9b3223fd642d5a33e15e5fcd7a63f",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Evergreen / Continuous Pool",
+              "agingBand": "🔴 6+",
+              "department": "170100 - COE Dean's Office"
+            },
+            {
+              "title": "Program Director",
+              "reqId": "44090",
+              "notionUrl": "https://www.notion.so/2135ef73fef4400a96fa589524bf2180",
+              "owner": "Aidi",
+              "campus": "Tallahassee",
+              "stage": "Passive Hiring",
+              "agingBand": "🔴 6+",
+              "department": "177500 - Inst For School Comm Partnersh"
+            },
+            {
+              "title": "School Improvement Coordinator",
+              "reqId": "44108",
+              "notionUrl": "https://www.notion.so/cdc1376c7a7c478db2f0385352c38cba",
+              "owner": "Aidi",
+              "campus": "Tallahassee",
+              "stage": "Passive Hiring",
+              "agingBand": "🔴 6+",
+              "department": "177500 - Inst For School Comm Partnersh"
+            },
+            {
+              "title": "Systems & Business Process Dir",
+              "reqId": "44128",
+              "notionUrl": "https://www.notion.so/731d1ab5680b42ee9a95c7a2807ab25c",
+              "owner": "Aidi",
+              "campus": "Tallahassee",
+              "stage": "Passive Hiring",
+              "agingBand": "🔴 6+",
+              "department": "177500 - Inst For School Comm Partnersh"
+            },
+            {
+              "title": "Support Staff",
+              "reqId": "44150",
+              "notionUrl": "https://www.notion.so/84236d000b4f454fa31b192595a733cf",
+              "owner": "Aidi",
+              "campus": "Tallahassee",
+              "stage": "Passive Hiring",
+              "agingBand": "🔴 6+",
+              "department": "177500 - Inst For School Comm Partnersh"
+            },
+            {
+              "title": "Academic Services Administrator",
+              "reqId": "43996",
+              "notionUrl": "https://www.notion.so/e96fcdac40284d30a2d6e8ba514c415f",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Passive Hiring",
+              "agingBand": "🔴 6+",
+              "department": "170800 - COE-Student Academic Services"
+            },
+            {
+              "title": "Student Assistant- FWS College of Education Dean's Office",
+              "reqId": "44005",
+              "notionUrl": "https://www.notion.so/6e66246e1641431d96072f0ca25e06f4",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Student Hiring",
+              "agingBand": "🔴 6+",
+              "department": "170100 - COE Dean's Office"
+            },
+            {
+              "title": "Adjunct - Fall 2026 - EDG 7067",
+              "reqId": "43955",
+              "notionUrl": "https://www.notion.so/a696cc65adbe4772b722dbe8c44ad44f",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Faculty Hiring",
+              "agingBand": "🔴 6+",
+              "department": "171500 - Educational And Psychological"
+            },
+            {
+              "title": "Adjunct - EDF 3604",
+              "reqId": "43957",
+              "notionUrl": "https://www.notion.so/269b174b2a844caf918b41984a46e1f8",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Faculty Hiring",
+              "agingBand": "🔴 6+",
+              "department": "171500 - Educational And Psychological"
+            },
+            {
+              "title": "Temporary Instructor - Science Education",
+              "reqId": "43701",
+              "notionUrl": "https://www.notion.so/aa0c83313d2b4281a0d5a2dbb2eee24c",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Faculty Hiring",
+              "agingBand": "🔴 6+",
+              "department": "College of Education "
+            },
+            {
+              "title": "Program Development Specialist",
+              "reqId": "41648",
+              "notionUrl": "https://www.notion.so/2880aff0a0e9493eb3cf24f079e44a86",
+              "owner": "Aidi",
+              "campus": "Tallahassee",
+              "stage": "Passive Hiring",
+              "agingBand": "🔴 6+",
+              "department": "Inst For School Comm Partnership"
+            },
+            {
+              "title": "Assistant Professor of Instruction",
+              "reqId": "42096",
+              "notionUrl": "https://www.notion.so/b7278cecc8a54817a0a61ce1c72f1f30",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Faculty Hiring",
+              "agingBand": "🔴 6+",
+              "department": "College of Education "
+            },
+            {
+              "title": "Assistant Professor",
+              "reqId": "42198",
+              "notionUrl": "https://www.notion.so/150302189c5c4703be03ce00fbb865f1",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Faculty Hiring",
+              "agingBand": "🔴 6+",
+              "department": "College of Education "
+            },
+            {
+              "title": "Assistant Professor of Instruction",
+              "reqId": "42707",
+              "notionUrl": "https://www.notion.so/ef4c385561f342d2adf7178a7a287727",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Faculty Hiring",
+              "agingBand": "🔴 6+",
+              "department": "College of Education "
+            },
+            {
+              "title": "Assistant Professor of Instruction",
+              "reqId": "42841",
+              "notionUrl": "https://www.notion.so/724f2d3a8baa4c2eb3d3cb59288d360d",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Faculty Hiring",
+              "agingBand": "🔴 6+",
+              "department": "College of Education "
+            },
+            {
+              "title": "Postdoctoral Research Fellow (SMHC)",
+              "reqId": "42974",
+              "notionUrl": "https://www.notion.so/6a7eba63e89c41099d7d3385b08478d3",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Faculty Hiring",
+              "agingBand": "🔴 6+",
+              "department": "College of Education "
+            },
+            {
+              "title": "School Improvement Coordinator",
+              "reqId": "43241",
+              "notionUrl": "https://www.notion.so/26c4c26a172a4595b42feaa0299171a7",
+              "owner": "Aidi",
+              "campus": "Tallahassee",
+              "stage": "Passive Hiring",
+              "agingBand": "🔴 6+",
+              "department": "Inst For School Comm Partnership"
+            },
+            {
+              "title": "FWS Student Assistant",
+              "reqId": "43439",
+              "notionUrl": "https://www.notion.so/dbcd4a75e5e64edca4ae0366a8343948",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Student Hiring",
+              "agingBand": "🔴 6+",
+              "department": "College of Education "
+            },
+            {
+              "title": "Graduate Asst",
+              "reqId": "43468",
+              "notionUrl": "https://www.notion.so/5997e3679fa7431fa01b496bc45d25a5",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Student Hiring",
+              "agingBand": "🔴 6+",
+              "department": "Inst For School Comm Partnership"
+            },
+            {
+              "title": "Visiting Assistant Professor of Instruction (Exercise Science)",
+              "reqId": "43682",
+              "notionUrl": "https://www.notion.so/4279e664d5134c69b53ad78fbc9a6a6a",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Faculty Hiring",
+              "agingBand": "🔴 6+",
+              "department": "College of Education "
+            },
+            {
+              "title": "Unit Research Administrator II",
+              "reqId": "43545",
+              "notionUrl": "https://www.notion.so/9f6ec85507494ba589a79349421f4297",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Pre-boarding",
+              "agingBand": "🔴 6+",
+              "department": "College of Education "
+            },
+            {
+              "title": "Adjunct",
+              "reqId": "43773",
+              "notionUrl": "https://www.notion.so/6cc8b442778340dc94313ef10a2dd724",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Faculty Hiring",
+              "agingBand": "🔴 6+",
+              "department": "College of Education "
+            },
+            {
+              "title": "Adjunct",
+              "reqId": "43774",
+              "notionUrl": "https://www.notion.so/6a06fb1e4a224b3ea526108590ed4b3d",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Faculty Hiring",
+              "agingBand": "🔴 6+",
+              "department": "College of Education "
+            },
+            {
+              "title": "Adjunct",
+              "reqId": "43775",
+              "notionUrl": "https://www.notion.so/0d17a6b23f6d442c82754b95ce769fe7",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Faculty Hiring",
+              "agingBand": "🔴 6+",
+              "department": "College of Education "
+            },
+            {
+              "title": "Adjunct",
+              "reqId": "43776",
+              "notionUrl": "https://www.notion.so/fa0938cd398c47edb8d43581b10761c5",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Faculty Hiring",
+              "agingBand": "🔴 6+",
+              "department": "College of Education "
+            },
+            {
+              "title": "Adjunct",
+              "reqId": "43777",
+              "notionUrl": "https://www.notion.so/c3c3922693c1477a83afc35885585aba",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Faculty Hiring",
+              "agingBand": "🔴 6+",
+              "department": "College of Education "
+            },
+            {
+              "title": "Adjunct",
+              "reqId": "43778",
+              "notionUrl": "https://www.notion.so/3dfd0264b3c54895842de3c526b84b06",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Faculty Hiring",
+              "agingBand": "🔴 6+",
+              "department": "College of Education "
+            }
+          ]
+        },
+        {
+          "band": "🟡 3-5",
+          "color": "#BA7517",
+          "records": [
+            {
+              "title": "Office Admin & Executive Asst to the Dean",
+              "reqId": "44297",
+              "notionUrl": "https://www.notion.so/cd0f7b66c65e4f74a73699da6334d390",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Interview Stage",
+              "agingBand": "🟡 3-5",
+              "department": "170100 - COE Dean's Office"
+            },
+            {
+              "title": "Pre-School Teacher",
+              "reqId": "44277",
+              "notionUrl": "https://www.notion.so/b1fe72cb68e547dd85227c7db20483a7",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Targeted Hiring",
+              "agingBand": "🟡 3-5",
+              "department": "174600 - Preschool Creative Learning"
+            }
+          ]
+        },
+        {
+          "band": "🟢 0–2",
+          "color": "#3B6D11",
+          "records": [
+            {
+              "title": "Coordinator of Library Operations",
+              "reqId": "44371",
+              "notionUrl": "https://www.notion.so/77d1424f85ae427895dcf315d7d13014",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "400100 - Univ Lib Deans Office"
+            }
+          ]
+        }
+      ],
+      "stageMetrics": [
+        {
+          "label": "Recruiter Review",
+          "avgDays": 7,
+          "count": 1,
+          "color": "#006747"
+        },
+        {
+          "label": "Interview Stage",
+          "avgDays": 5,
+          "count": 1,
+          "color": "#D4880A"
+        },
+        {
+          "label": "Pre-boarding",
+          "avgDays": 6,
+          "count": 1,
+          "color": "#5B8FA8"
+        }
+      ],
+      "statuses": [
+        {
+          "label": "Recruiter Review",
+          "count": 1,
+          "color": "#006747"
+        },
+        {
+          "label": "Faculty Hiring",
+          "count": 18,
+          "color": "#993556"
+        },
+        {
+          "label": "HM Review",
+          "count": 1,
+          "color": "#534AB7"
+        },
+        {
+          "label": "Targeted Hiring",
+          "count": 3,
+          "color": "#3A5A6A"
+        },
+        {
+          "label": "Interview Stage",
+          "count": 1,
+          "color": "#D4880A"
+        },
+        {
+          "label": "Evergreen / Continuous Pool",
+          "count": 1,
+          "color": "#6B8E4E"
+        },
+        {
+          "label": "Passive Hiring",
+          "count": 7,
+          "color": "#1B6A9C"
+        },
+        {
+          "label": "Student Hiring",
+          "count": 3,
+          "color": "#B5651D"
+        },
+        {
+          "label": "Pre-boarding",
+          "count": 1,
+          "color": "#5B8FA8"
+        }
+      ],
+      "aging": [
+        {
+          "label": "🔴 6+",
+          "color": "#A32D2D",
+          "bgLight": "#FCEBEB",
+          "bgDark": "#2e0f0f",
+          "count": 33
+        },
+        {
+          "label": "🟡 3-5",
+          "color": "#BA7517",
+          "bgLight": "#FAEEDA",
+          "bgDark": "#3d2504",
+          "count": 2
+        },
+        {
+          "label": "🟢 0–2",
+          "color": "#3B6D11",
+          "bgLight": "#EAF3DE",
+          "bgDark": "#1a3309",
+          "count": 1
+        }
+      ],
+      "funnel": [
+        {
+          "label": "Posted",
+          "count": 36
+        },
+        {
+          "label": "Screened",
+          "count": 0
+        },
+        {
+          "label": "HM Review",
+          "count": 1
+        },
+        {
+          "label": "Interviews",
+          "count": 1
+        },
+        {
+          "label": "Offer",
+          "count": 0
+        }
+      ],
+      "goals": [
+        {
+          "label": "Reqs filled",
+          "value": 2,
+          "target": 10,
+          "invert": false
+        },
+        {
+          "label": "Time to fill",
+          "value": 58,
+          "target": 40,
+          "invert": true
+        },
+        {
+          "label": "Screened",
+          "value": 0,
+          "target": 38,
+          "invert": false
+        },
+        {
+          "label": "Interviews",
+          "value": 1,
+          "target": 38,
+          "invert": false
+        }
+      ],
+      "trend": [
+        58,
+        58,
+        58,
+        58,
+        58,
+        58
       ]
     }
   ]
