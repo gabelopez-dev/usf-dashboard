@@ -123,7 +123,7 @@ details.defs[open] summary::before { content: "− "; }
 .defs dl { margin-top: 8px; font-size: 12px; color: var(--muted); }
 .defs dt { font-weight: 700; color: var(--ink); margin-top: 6px; }
 
-/* Conversion */
+/* Rate bars (fill rate) */
 .conv { margin-bottom: 12px; }
 .conv:last-child { margin-bottom: 0; }
 .conv-top { display: flex; justify-content: space-between; font-size: 13px; color: var(--muted); margin-bottom: 4px; }
@@ -131,7 +131,8 @@ details.defs[open] summary::before { content: "− "; }
 .conv-bar { height: 8px; background: var(--sunken); border-radius: 4px; overflow: hidden; }
 .conv-bar div { height: 100%; border-radius: 4px; }
 .conv-sub { font-size: 11px; color: var(--faint); margin-top: 3px; }
-.big { font-size: 44px; font-weight: 700; letter-spacing: -.02em; line-height: 1; font-variant-numeric: tabular-nums; }
+.split { display: grid; grid-template-columns: 1fr 1fr; column-gap: 32px; }
+.split .conv:last-child, .split .conv:nth-last-child(2) { margin-bottom: 0; }
 
 /* Columns chart */
 .cols { display: flex; align-items: flex-end; gap: 6px; height: 160px; overflow-x: auto; padding-bottom: 2px; }
@@ -210,7 +211,8 @@ details.defs[open] summary::before { content: "− "; }
   .kpis, .kpis.six { grid-template-columns: 1fr 1fr; gap: 10px; }
   .kpi { padding: 12px; }
   .kpi-val { font-size: 24px; }
-  .g-2-1, .g-1-1, .g-3 { grid-template-columns: 1fr; }
+  .g-2-1, .g-1-1, .g-3, .split { grid-template-columns: 1fr; }
+  .split .conv:nth-last-child(2) { margin-bottom: 12px; }
   .tiers { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .hb { --lw: 110px !important; }
   .hb-label { font-size: 12px; }
@@ -283,7 +285,6 @@ const TRACKER_URLS = {"katherine": "https://www.notion.so/486fbaa94c784fa09e1cd4
 // Sequential stages (the funnel) vs. service-type categories (shown as "Reqs by Type").
 const FUNNEL_ORDER = ['Sourced', 'Recruiter Review', 'HM Review', 'Interview Stage', 'Offer Stage', 'Pre-boarding'];
 const TYPE_CATEGORIES = ['Passive Hiring', 'Faculty Hiring', 'Student Hiring', 'Evergreen / Continuous Pool', 'Targeted Hiring', 'Backlog'];
-const HIRED_COLOR = '#3B6D11';
 const NEUTRAL = '#5B7A8A';
 // Tiers that count as "needs attention" on recruiter pages (6+ days since last stage change).
 const ATTENTION_MIN_DAYS = 6;
@@ -443,38 +444,13 @@ function renderOverview(data) {
 // ---------------------------------------------------------------------------
 // Insights
 // ---------------------------------------------------------------------------
-function conversionRows(countOf, hired, color, { skipEmpty = false } = {}) {
-  const stages = [
-    { from: 'Sourced', to: 'Recruiter Review', fromKey: 'Sourced', toKey: 'Recruiter Review' },
-    { from: 'Recruiter Review', to: 'HM Review', fromKey: 'Recruiter Review', toKey: 'HM Review' },
-    { from: 'HM Review', to: 'Interview', fromKey: 'HM Review', toKey: 'Interview Stage' },
-    { from: 'Interview', to: 'Offer', fromKey: 'Interview Stage', toKey: 'Offer Stage' },
-    { from: 'Offer', to: 'Hired', fromKey: 'Offer Stage', toKey: null }
-  ];
-  return stages.map(s => {
-    const from = countOf(s.fromKey);
-    const to = s.toKey ? countOf(s.toKey) : (hired || 0);
-    const c = s.toKey ? color(s.toKey) : HIRED_COLOR;
-    if (!from) {
-      if (skipEmpty) return '';
-      return `<div class="conv"><div class="conv-top"><span>${esc(s.from)} → ${esc(s.to)}</span><b style="color:var(--faint)">N/A</b></div><div class="conv-bar"></div><div class="conv-sub">No reqs currently in ${esc(s.from)}</div></div>`;
-    }
-    const pct = Math.min(100, Math.round(to / from * 100));
-    return `<div class="conv"><div class="conv-top"><span>${esc(s.from)} → ${esc(s.to)}</span><b>${pct}%</b></div>
-      <div class="conv-bar"><div style="width:${pct}%;background:${esc(c)}"></div></div><div class="conv-sub">${show(to)} of ${show(from)} reqs</div></div>`;
-  }).join('');
-}
-
 function renderInsights(data) {
   const ins = data.insights || {};
-  const funnelCount = Object.fromEntries((data.mainFunnel || []).map(f => [f.label, f.count]));
 
   const stageMetrics = (data.stageMetrics || []).map(m => ({ ...m, color: m.color || stageColor(m.label) }));
   const timeInStage = stageMetrics.length
     ? hbars(stageMetrics, { labelWidth: 130, value: i => i.avgDays, format: v => `${v}d`, extra: i => reqs(i.count) })
     : `<p class="empty">No stage timing yet</p>`;
-
-  const conv = conversionRows(k => funnelCount[k] || 0, data.summary?.filledYTD || 0, k => stageColor(k));
 
   const ttfType = (ins.avgTTFByReqType || []).map(i => ({ label: i.reqType, avgDays: i.avgDays, count: i.count }));
   const ttfCampus = (ins.avgTTFByCampus || []).map(i => ({ label: i.campus, avgDays: i.avgDays, count: i.count }));
@@ -509,17 +485,15 @@ function renderInsights(data) {
   return `<div class="page-head"><div><h1 class="page-title">Insights</h1><p class="page-sub">Internal market intelligence, built on our own recruiting data</p></div></div>
     <div class="grid g-1-1">
       ${card('Avg. time in stage', timeInStage, { note: 'Average days reqs spend in each stage.' })}
-      ${card('Stage conversion rates', conv, { note: 'Proxy based on current req counts per stage. N/A means no reqs are currently at that stage.' })}
+      ${card(`Reqs ${stallDays}+ days since last stage change`, stallHTML, { note: `Share of each recruiter's Active-type reqs that are ${stallDays}+ days past their last stage change.`, tip: 'Reflects the req mix each recruiter carries; it is not a performance score.' })}
     </div>
     <div class="grid g-3">
       ${card('Avg TTF by req type', hbars(ttfType, { ...ttfOpts, color: () => '#534AB7' }), { note: 'Hired/Complete reqs only.' })}
       ${card('Avg TTF by campus', hbars(ttfCampus, { ...ttfOpts, labelWidth: 110, color: () => '#1B6A9C' }), { note: 'Hired/Complete reqs only.' })}
-      ${card('Fill rate by department', fillHTML, { note: 'Hired ÷ (Hired + Failed). Cancellations tracked separately.' })}
+      ${card('Top hiring departments', hbars(topDepts, { labelWidth: 150 }), { note: 'Total reqs opened, active + closed.' })}
     </div>
-    <div class="grid g-1-1">
-      ${card('Top hiring departments', hbars(topDepts, { labelWidth: 170 }), { note: 'Total reqs opened, active + closed.' })}
-      ${card(`Reqs ${stallDays}+ days since last stage change`, stallHTML, { note: `Share of each recruiter's Active-type reqs that are ${stallDays}+ days past their last stage change.`, tip: 'Reflects the req mix each recruiter carries; it is not a performance score.' })}
-    </div>
+    ${card('Fill rate by department', `<div class="split">${fillHTML}</div>`, { note: 'Hired ÷ (Hired + Failed). Cancellations tracked separately.' })}
+    <div style="height:14px"></div>
     ${card('Seasonal hiring trends', seasonalHTML, { note: "Reqs posted per month, from Posted Date. Same source field as Power BI's Recruitment Trend chart." })}`;
 }
 
@@ -662,14 +636,6 @@ function recruiterCharts(r) {
   const cards = [card('Pipeline by status', hbars(statuses, { labelWidth: 200 }))];
   if (stageMetrics.length) {
     cards.push(card('Avg. time in stage', hbars(stageMetrics, { labelWidth: 130, value: i => i.avgDays, format: v => `${v}d`, extra: i => reqs(i.count) })));
-  }
-  const statusCount = Object.fromEntries((r.statuses || []).map(s => [s.label, s.count]));
-  const conv = conversionRows(k => statusCount[k] || 0, r.filled || 0, k => stageColor(k), { skipEmpty: true });
-  if (conv) {
-    const overall = r.reqs > 0 ? Math.round((r.filled || 0) / r.reqs * 100) : null;
-    cards.push(card('Stage conversion', conv + `<div style="border-top:1px solid var(--border);margin-top:14px;padding-top:12px;display:flex;align-items:baseline;gap:10px">
-      <span class="big">${overall == null ? '—' : overall + '%'}</span><span class="conv-sub" style="margin:0">overall: ${show(r.filled || 0)} hired of ${show(r.reqs)} reqs (Filled ÷ Total Reqs)</span></div>`,
-      { note: 'Proxy based on current req counts per stage.' }));
   }
   let html = (aging ? aging + '<div style="height:14px"></div>' : '') + `<div class="grid g-1-1">${cards.join('')}</div>`;
   return html;
