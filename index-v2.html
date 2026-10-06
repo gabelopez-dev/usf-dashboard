@@ -381,6 +381,37 @@ function agingBlock(tiers, records, ctx) {
   return `<div class="strip" role="group" aria-label="Aging tiers">${segs}</div><div class="tiers">${chips}</div>`;
 }
 
+// Pipeline + Reqs by Type: one function for the Overview and every recruiter page, so they can't drift apart.
+const SERVICE_DEFS = `<details class="defs"><summary>Service level definitions</summary><dl>
+    <dt>Passive</dt><dd>Basic support: posting, applicant disposition as they apply, offer assistance, and job offer processing. Also used for disposition or pipeline-building for a potential future need.</dd>
+    <dt>Active</dt><dd>Premier support: includes Passive support plus candidate outreach, summaries, screening, interview scheduling, negotiation assistance, and onboarding follow-up.</dd>
+    <dt>Evergreen</dt><dd>Ongoing/open-ended posting or talent pool for recurring hiring needs.</dd>
+    <dt>Faculty</dt><dd>Academic faculty searches following faculty hiring process.</dd>
+    <dt>Student</dt><dd>Student employment and OPS positions.</dd>
+  </dl></details>`;
+
+function splitPipeline(items) {
+  const raw = (items || []).map(s => ({ ...s, color: s.color || stageColor(s.label) }));
+  const byLabel = Object.fromEntries(raw.map(f => [f.label, f]));
+  const funnel = [
+    ...FUNNEL_ORDER.filter(l => byLabel[l] && byLabel[l].count > 0).map(l => byLabel[l]),
+    // An unrecognised stage still shows up instead of vanishing.
+    ...raw.filter(f => !FUNNEL_ORDER.includes(f.label) && !TYPE_CATEGORIES.includes(f.label) && f.count > 0)
+  ];
+  const types = raw.filter(f => TYPE_CATEGORIES.includes(f.label) && f.count > 0).sort((a, b) => b.count - a.count);
+  return { funnel, types };
+}
+
+function pipelineCards(items) {
+  const { funnel, types } = splitPipeline(items);
+  const funnelBody = funnel.length ? hbars(funnel, { labelWidth: 130 }) : `<p class="empty">No reqs in the hiring sequence right now.</p>`;
+  const typeBody = types.length ? hbars(types, { labelWidth: 205 }) : `<p class="empty">No reqs in these categories.</p>`;
+  return `<div class="grid g-2-1">
+    ${card('Pipeline', funnelBody, { note: 'Sequential stages only, in order.', tip: 'Where reqs sit in the hiring sequence right now. Backlog and service-type categories are shown separately.' })}
+    ${card('Reqs by Type', typeBody + SERVICE_DEFS, { note: 'Service-level categories, not a sequence.' })}
+  </div>`;
+}
+
 // ---------------------------------------------------------------------------
 // Overview (leadership)
 // ---------------------------------------------------------------------------
@@ -402,27 +433,7 @@ function renderOverview(data) {
      ${agingBlock(agingTiers, data.agingRecords || null, 'main')}`,
     { tip: 'Only the Active req type is aged. Passive, Faculty, Student, Evergreen and Targeted reqs follow their own monitoring workflows.' });
 
-  const raw = data.mainFunnel || [];
-  const byLabel = Object.fromEntries(raw.map(f => [f.label, f]));
-  const funnel = [
-    ...FUNNEL_ORDER.filter(l => byLabel[l] && byLabel[l].count > 0).map(l => byLabel[l]),
-    // An unrecognised stage still shows up instead of vanishing.
-    ...raw.filter(f => !FUNNEL_ORDER.includes(f.label) && !TYPE_CATEGORIES.includes(f.label) && f.count > 0)
-  ];
-  const types = raw.filter(f => TYPE_CATEGORIES.includes(f.label) && f.count > 0).sort((a, b) => b.count - a.count);
-
-  const defs = `<details class="defs"><summary>Service level definitions</summary><dl>
-    <dt>Passive</dt><dd>Basic support: posting, applicant disposition as they apply, offer assistance, and job offer processing. Also used for disposition or pipeline-building for a potential future need.</dd>
-    <dt>Active</dt><dd>Premier support: includes Passive support plus candidate outreach, summaries, screening, interview scheduling, negotiation assistance, and onboarding follow-up.</dd>
-    <dt>Evergreen</dt><dd>Ongoing/open-ended posting or talent pool for recurring hiring needs.</dd>
-    <dt>Faculty</dt><dd>Academic faculty searches following faculty hiring process.</dd>
-    <dt>Student</dt><dd>Student employment and OPS positions.</dd>
-  </dl></details>`;
-
-  const pipeline = `<div class="grid g-2-1">
-    ${card('Pipeline', hbars(funnel, { labelWidth: 130 }), { note: 'Sequential stages only, in order.', tip: 'Where reqs sit in the hiring sequence right now. Backlog and service-type categories are shown separately.' })}
-    ${card('Reqs by Type', hbars(types, { labelWidth: 205 }) + defs, { note: 'Service-level categories, not a sequence.' })}
-  </div>`;
+  const pipeline = pipelineCards(data.mainFunnel || []);
 
   const recruiters = data.recruiters || [];
   const load = recruiters.map(r => ({ label: r.name, count: r.activeReqs, color: r.color }));
@@ -627,17 +638,16 @@ function drawAttention(rid) {
 function recruiterCharts(r) {
   const agingTiers = (r.agingRecords || []).map(b => ({ label: b.band, count: (b.records || []).length, color: b.color, bgLight: b.bgLight }));
   const hasAging = agingTiers.some(t => t.count > 0);
-  const statuses = (r.statuses || []).map(s => ({ ...s, color: s.color || stageColor(s.label) }));
+  const statuses = r.statuses || [];
   const stageMetrics = (r.stageMetrics || []).map(s => ({ ...s, color: s.color || stageColor(s.label) }));
 
   const aging = hasAging
     ? card('Aging tiers', `<p class="scope">Your Active-type reqs only · days since last stage change. Select a tier to see the reqs.</p>${agingBlock(agingTiers, r.agingRecords, r.id)}`)
     : '';
-  const cards = [card('Pipeline by status', hbars(statuses, { labelWidth: 200 }))];
+  let html = (aging ? aging + '<div style="height:14px"></div>' : '') + pipelineCards(statuses);
   if (stageMetrics.length) {
-    cards.push(card('Avg. time in stage', hbars(stageMetrics, { labelWidth: 130, value: i => i.avgDays, format: v => `${v}d`, extra: i => reqs(i.count) })));
+    html += card('Avg. time in stage', hbars(stageMetrics, { labelWidth: 130, value: i => i.avgDays, format: v => `${v}d`, extra: i => reqs(i.count) }), { note: 'Average days your reqs spend in each stage.' });
   }
-  let html = (aging ? aging + '<div style="height:14px"></div>' : '') + `<div class="grid g-1-1">${cards.join('')}</div>`;
   return html;
 }
 
