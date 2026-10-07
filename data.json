@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-10-07T07:01:56.505Z",
+  "lastUpdated": "2026-10-07T14:39:50.000Z",
   "summary": {
-    "openReqs": 600,
+    "openReqs": 599,
     "avgTimeToFill": 0,
     "filledYTD": 351,
-    "failedCancelled": 57,
-    "inOfferStage": 21
+    "failedCancelled": 58,
+    "inOfferStage": 22
   },
   "campus": [
     {
@@ -15,7 +15,7 @@
     },
     {
       "label": "St Pete",
-      "count": 32,
+      "count": 31,
       "color": "#006747"
     },
     {
@@ -37,7 +37,7 @@
   "mainFunnel": [
     {
       "label": "Passive Hiring",
-      "count": 178,
+      "count": 177,
       "color": "#1B6A9C"
     },
     {
@@ -62,7 +62,7 @@
     },
     {
       "label": "Backlog",
-      "count": 27,
+      "count": 26,
       "color": "#888780"
     },
     {
@@ -77,7 +77,7 @@
     },
     {
       "label": "Offer Stage",
-      "count": 21,
+      "count": 22,
       "color": "#CFC483"
     },
     {
@@ -1128,7 +1128,7 @@
           "notionUrl": "https://www.notion.so/8969cc003995496488c89087857ac4e5",
           "owner": "Gabriel",
           "campus": "Tampa",
-          "stage": "Backlog",
+          "stage": "Offer Stage",
           "agingBand": "🟢 0–2",
           "department": "210500 - Mechanical Engineering"
         },
@@ -1253,7 +1253,7 @@
     },
     {
       "label": "Other (164 depts)",
-      "count": 328,
+      "count": 327,
       "color": "#c8c7c2"
     }
   ],
@@ -3723,6 +3723,17 @@
       "notionUrl": "https://www.notion.so/86f0979e7dd646348d4e71bc8df786de"
     },
     {
+      "title": "Solutions Engineer in Ocean and Environmental Data Visualization Products",
+      "reqId": "43381",
+      "owner": "Gabriel",
+      "campus": "St. Petersburg",
+      "stage": "Canceled",
+      "department": "College of Marine Science",
+      "reqType": "Passive",
+      "ttf": 0,
+      "notionUrl": "https://www.notion.so/8423a311edfe48e19753c7123f529a50"
+    },
+    {
       "title": "Academic Program Specialist",
       "reqId": "43373",
       "owner": "Gabriel",
@@ -5913,6 +5924,13 @@
         "fillRatePct": 100
       },
       {
+        "department": "College of Marine Science",
+        "filled": 2,
+        "failed": 1,
+        "cancelled": 2,
+        "fillRatePct": 67
+      },
+      {
         "department": "390000 - Graduate Studies",
         "filled": 4,
         "failed": 0,
@@ -5939,13 +5957,6 @@
         "failed": 0,
         "cancelled": 0,
         "fillRatePct": 100
-      },
-      {
-        "department": "College of Marine Science",
-        "filled": 2,
-        "failed": 1,
-        "cancelled": 1,
-        "fillRatePct": 67
       },
       {
         "department": "Florida Inst of Oceanography",
@@ -8166,9 +8177,9 @@
       "bgDark": "#042e24",
       "campus": "St Pete / Tampa",
       "reqs": 177,
-      "activeReqs": 68,
+      "activeReqs": 67,
       "filled": 101,
-      "failed": 8,
+      "failed": 9,
       "ttf": 0,
       "wip": 5,
       "agingRecords": [
@@ -8319,7 +8330,7 @@
               "notionUrl": "https://www.notion.so/8969cc003995496488c89087857ac4e5",
               "owner": "Gabriel",
               "campus": "Tampa",
-              "stage": "Backlog",
+              "stage": "Offer Stage",
               "agingBand": "🟢 0–2",
               "department": "210500 - Mechanical Engineering"
             }
@@ -8367,7 +8378,7 @@
       "statuses": [
         {
           "label": "Backlog",
-          "count": 3,
+          "count": 2,
           "color": "#888780"
         },
         {
@@ -8392,7 +8403,7 @@
         },
         {
           "label": "Passive Hiring",
-          "count": 16,
+          "count": 15,
           "color": "#1B6A9C"
         },
         {
@@ -8407,7 +8418,7 @@
         },
         {
           "label": "Offer Stage",
-          "count": 1,
+          "count": 2,
           "color": "#CFC483"
         },
         {
@@ -8466,7 +8477,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 68
+          "count": 67
         },
         {
           "label": "Screened",
@@ -8482,7 +8493,7 @@
         },
         {
           "label": "Offer",
-          "count": 1
+          "count": 2
         }
       ],
       "goals": [
