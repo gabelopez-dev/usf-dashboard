@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-07T18:45:11.987Z",
+  "lastUpdated": "2026-10-07T20:28:19.218Z",
   "summary": {
     "openReqs": 601,
     "avgTimeToFill": 107,
@@ -42,7 +42,7 @@
     },
     {
       "label": "HM Review",
-      "count": 171,
+      "count": 172,
       "color": "#534AB7"
     },
     {
@@ -56,14 +56,14 @@
       "color": "#B5651D"
     },
     {
-      "label": "Recruiter Review",
-      "count": 31,
-      "color": "#006747"
-    },
-    {
       "label": "Backlog",
       "count": 30,
       "color": "#888780"
+    },
+    {
+      "label": "Recruiter Review",
+      "count": 29,
+      "color": "#006747"
     },
     {
       "label": "Pre-boarding",
@@ -72,7 +72,7 @@
     },
     {
       "label": "Evergreen / Continuous Pool",
-      "count": 23,
+      "count": 24,
       "color": "#6B8E4E"
     },
     {
@@ -119,7 +119,7 @@
       "color": "#D0523F",
       "bgLight": "#FCE9E5",
       "bgDark": "#3d1a0f",
-      "count": 66
+      "count": 65
     },
     {
       "label": "🟡 3–5",
@@ -288,16 +288,6 @@
       "color": "#D0523F",
       "bgLight": "#FCE9E5",
       "records": [
-        {
-          "title": "A/V Technician",
-          "reqId": "44465",
-          "notionUrl": "https://www.notion.so/39e4d014df234f7e9c127191cf68f080",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6–14",
-          "department": "042700 - Marshall Student Center"
-        },
         {
           "title": "Assignment Coordinator",
           "reqId": "44403",
@@ -1058,7 +1048,7 @@
           "notionUrl": "https://www.notion.so/fdf31ec5654f4ee9b57ecc6976f0f18d",
           "owner": "Gabriel",
           "campus": "Tampa",
-          "stage": "Recruiter Review",
+          "stage": "HM Review",
           "agingBand": "🟢 0–2",
           "department": "211700 - Ctr For Urban Transportation Research"
         },
@@ -1280,8 +1270,8 @@
   "stageMetrics": [
     {
       "label": "Recruiter Review",
-      "avgDays": 14,
-      "count": 27,
+      "avgDays": 15,
+      "count": 25,
       "color": "#006747"
     },
     {
@@ -6833,9 +6823,9 @@
       {
         "recruiter": "John",
         "color": "#1B6A9C",
-        "stalled": 14,
-        "totalActive": 24,
-        "stallRatePct": 58
+        "stalled": 13,
+        "totalActive": 23,
+        "stallRatePct": 57
       },
       {
         "recruiter": "Gabriel",
@@ -7906,16 +7896,6 @@
           "bgLight": "#FCE9E5",
           "records": [
             {
-              "title": "A/V Technician",
-              "reqId": "44465",
-              "notionUrl": "https://www.notion.so/39e4d014df234f7e9c127191cf68f080",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6–14",
-              "department": "042700 - Marshall Student Center"
-            },
-            {
               "title": "Assignment Coordinator",
               "reqId": "44403",
               "notionUrl": "https://www.notion.so/69f06d5f673849d582aea91c6bca7056",
@@ -8095,7 +8075,7 @@
         {
           "label": "Recruiter Review",
           "avgDays": 8,
-          "count": 5,
+          "count": 4,
           "color": "#006747"
         },
         {
@@ -8130,9 +8110,9 @@
           "color": "#888780"
         },
         {
-          "label": "Recruiter Review",
-          "count": 5,
-          "color": "#006747"
+          "label": "Evergreen / Continuous Pool",
+          "count": 13,
+          "color": "#6B8E4E"
         },
         {
           "label": "Student Hiring",
@@ -8143,6 +8123,11 @@
           "label": "Passive Hiring",
           "count": 12,
           "color": "#1B6A9C"
+        },
+        {
+          "label": "Recruiter Review",
+          "count": 4,
+          "color": "#006747"
         },
         {
           "label": "Pre-boarding",
@@ -8158,11 +8143,6 @@
           "label": "Interview Stage",
           "count": 6,
           "color": "#D4880A"
-        },
-        {
-          "label": "Evergreen / Continuous Pool",
-          "count": 12,
-          "color": "#6B8E4E"
         },
         {
           "label": "Offer Stage",
@@ -8193,7 +8173,7 @@
           "color": "#D0523F",
           "bgLight": "#FCE9E5",
           "bgDark": "#3d1a0f",
-          "count": 7
+          "count": 6
         },
         {
           "label": "🟡 3–5",
@@ -8282,7 +8262,7 @@
       "filled": 101,
       "failed": 9,
       "ttf": 52,
-      "wip": 5,
+      "wip": 4,
       "agingRecords": [
         {
           "band": "🔴 31+",
@@ -8381,7 +8361,7 @@
               "notionUrl": "https://www.notion.so/fdf31ec5654f4ee9b57ecc6976f0f18d",
               "owner": "Gabriel",
               "campus": "Tampa",
-              "stage": "Recruiter Review",
+              "stage": "HM Review",
               "agingBand": "🟢 0–2",
               "department": "211700 - Ctr For Urban Transportation Research"
             },
@@ -8430,12 +8410,6 @@
       ],
       "stageMetrics": [
         {
-          "label": "Recruiter Review",
-          "avgDays": 1,
-          "count": 1,
-          "color": "#006747"
-        },
-        {
           "label": "Offer Stage",
           "avgDays": 6,
           "count": 1,
@@ -8461,9 +8435,9 @@
           "color": "#888780"
         },
         {
-          "label": "Recruiter Review",
+          "label": "HM Review",
           "count": 1,
-          "color": "#006747"
+          "color": "#534AB7"
         },
         {
           "label": "Evergreen / Continuous Pool",
@@ -8559,7 +8533,7 @@
         },
         {
           "label": "HM Review",
-          "count": 0
+          "count": 1
         },
         {
           "label": "Interviews",
@@ -9057,7 +9031,7 @@
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 8,
+          "avgDays": 9,
           "count": 1,
           "color": "#5B8FA8"
         }
