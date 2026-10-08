@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-10-08T06:30:41.815Z",
+  "lastUpdated": "2026-10-08T14:26:11.826Z",
   "summary": {
-    "openReqs": 601,
+    "openReqs": 599,
     "avgTimeToFill": 83,
-    "filledYTD": 351,
-    "failedCancelled": 58,
+    "filledYTD": 352,
+    "failedCancelled": 59,
     "inOfferStage": 21
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 311,
+      "count": 309,
       "color": "#1B6A9C"
     },
     {
@@ -67,12 +67,12 @@
     },
     {
       "label": "Pre-boarding",
-      "count": 27,
+      "count": 26,
       "color": "#5B8FA8"
     },
     {
       "label": "Evergreen / Continuous Pool",
-      "count": 24,
+      "count": 23,
       "color": "#6B8E4E"
     },
     {
@@ -135,7 +135,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 16
+      "count": 15
     }
   ],
   "agingRecords": [
@@ -1113,16 +1113,6 @@
           "department": "210800 - AICC Bellini College Department"
         },
         {
-          "title": "Accounts Payable Specialist I",
-          "reqId": "44210",
-          "notionUrl": "https://www.notion.so/c2ba9741acc349868bc006467c11d261",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🟢 0–2",
-          "department": "027900 - Procurement & Payment Services"
-        },
-        {
           "title": "Digital Platforms Developer",
           "reqId": "44164",
           "notionUrl": "https://www.notion.so/f211efe4851a4a72a4bd10ff45985bc0",
@@ -1252,18 +1242,13 @@
       "color": "#006747"
     },
     {
-      "label": "026100 - University Police",
+      "label": "791000 - Research Integrity &Compliance",
       "count": 6,
       "color": "#1B6A9C"
     },
     {
-      "label": "791000 - Research Integrity &Compliance",
-      "count": 6,
-      "color": "#00A693"
-    },
-    {
       "label": "Other (163 depts)",
-      "count": 327,
+      "count": 331,
       "color": "#c8c7c2"
     }
   ],
@@ -1344,6 +1329,17 @@
       "reqType": "Active",
       "ttf": 378,
       "notionUrl": "https://www.notion.so/df8f9ec41c534ca1ac5e73d21acf809d"
+    },
+    {
+      "title": "Sr Dir, Public Safety",
+      "reqId": "41827",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Canceled",
+      "department": "026100 - University Police",
+      "reqType": "Evergreen",
+      "ttf": 362,
+      "notionUrl": "https://www.notion.so/8f39a53a0544486d81da855557fd8f02"
     },
     {
       "title": "Sr Division Administrator",
@@ -3566,6 +3562,17 @@
       "reqType": "Active",
       "ttf": 53,
       "notionUrl": "https://www.notion.so/125e888c504c4739813405aef24d5d31"
+    },
+    {
+      "title": "Accounts Payable Specialist I",
+      "reqId": "44210",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "027900 - Procurement & Payment Services",
+      "reqType": "Active",
+      "ttf": 52,
+      "notionUrl": "https://www.notion.so/c2ba9741acc349868bc006467c11d261"
     },
     {
       "title": "Preschool Assistant Teacher",
@@ -5900,7 +5907,7 @@
       },
       {
         "department": "027900 - Procurement & Payment Services",
-        "filled": 6,
+        "filled": 7,
         "failed": 0,
         "cancelled": 0,
         "fillRatePct": 100
@@ -5941,6 +5948,13 @@
         "fillRatePct": 100
       },
       {
+        "department": "026100 - University Police",
+        "filled": 3,
+        "failed": 0,
+        "cancelled": 1,
+        "fillRatePct": 100
+      },
+      {
         "department": "041500 - Counseling Center",
         "filled": 2,
         "failed": 0,
@@ -5971,13 +5985,6 @@
       {
         "department": "260000 - Honors College",
         "filled": 4,
-        "failed": 0,
-        "cancelled": 0,
-        "fillRatePct": 100
-      },
-      {
-        "department": "026100 - University Police",
-        "filled": 3,
         "failed": 0,
         "cancelled": 0,
         "fillRatePct": 100
@@ -6701,7 +6708,7 @@
       {
         "reqType": "Active",
         "avgDays": 83,
-        "count": 183
+        "count": 184
       },
       {
         "reqType": "Student",
@@ -6733,7 +6740,7 @@
       {
         "campus": "Tampa",
         "avgDays": 64,
-        "count": 143
+        "count": 144
       },
       {
         "campus": "USF Health",
@@ -6824,8 +6831,8 @@
         "recruiter": "John",
         "color": "#1B6A9C",
         "stalled": 13,
-        "totalActive": 23,
-        "stallRatePct": 57
+        "totalActive": 22,
+        "stallRatePct": 59
       },
       {
         "recruiter": "Gabriel",
@@ -7800,9 +7807,9 @@
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
       "reqs": 204,
-      "activeReqs": 81,
-      "filled": 107,
-      "failed": 16,
+      "activeReqs": 79,
+      "filled": 108,
+      "failed": 17,
       "ttf": 64,
       "wip": 0,
       "agingRecords": [
@@ -8040,16 +8047,6 @@
               "department": "210800 - AICC Bellini College Department"
             },
             {
-              "title": "Accounts Payable Specialist I",
-              "reqId": "44210",
-              "notionUrl": "https://www.notion.so/c2ba9741acc349868bc006467c11d261",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🟢 0–2",
-              "department": "027900 - Procurement & Payment Services"
-            },
-            {
               "title": "Digital Platforms Developer",
               "reqId": "44164",
               "notionUrl": "https://www.notion.so/f211efe4851a4a72a4bd10ff45985bc0",
@@ -8112,7 +8109,7 @@
         },
         {
           "label": "Evergreen / Continuous Pool",
-          "count": 13,
+          "count": 12,
           "color": "#6B8E4E"
         },
         {
@@ -8132,7 +8129,7 @@
         },
         {
           "label": "Pre-boarding",
-          "count": 20,
+          "count": 19,
           "color": "#5B8FA8"
         },
         {
@@ -8190,13 +8187,13 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 9
+          "count": 8
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 81
+          "count": 79
         },
         {
           "label": "Screened",
@@ -8218,7 +8215,7 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 107,
+          "value": 108,
           "target": 10,
           "invert": false
         },
