@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-10-08T17:51:55.965Z",
+  "lastUpdated": "2026-10-08T20:03:04.323Z",
   "summary": {
-    "openReqs": 616,
+    "openReqs": 615,
     "avgTimeToFill": 81,
     "filledYTD": 353,
-    "failedCancelled": 59,
+    "failedCancelled": 60,
     "inOfferStage": 21
   },
   "campus": [
@@ -20,7 +20,7 @@
     },
     {
       "label": "USF Health",
-      "count": 235,
+      "count": 234,
       "color": "#00A693"
     },
     {
@@ -51,14 +51,14 @@
       "color": "#993556"
     },
     {
-      "label": "Backlog",
-      "count": 47,
-      "color": "#888780"
-    },
-    {
       "label": "Student Hiring",
       "count": 47,
       "color": "#B5651D"
+    },
+    {
+      "label": "Backlog",
+      "count": 46,
+      "color": "#888780"
     },
     {
       "label": "Recruiter Review",
@@ -119,7 +119,7 @@
       "color": "#D0523F",
       "bgLight": "#FCE9E5",
       "bgDark": "#3d1a0f",
-      "count": 54
+      "count": 52
     },
     {
       "label": "🟡 3–5",
@@ -135,7 +135,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 32
+      "count": 33
     }
   ],
   "agingRecords": [
@@ -489,16 +489,6 @@
           "department": "612200 - Dept Of OB/GYN"
         },
         {
-          "title": "Research Scientist OPS",
-          "reqId": "44422",
-          "notionUrl": "https://www.notion.so/2c8520addea8420cbcce49f4e1e795ca",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Backlog",
-          "agingBand": "🔴 6–14",
-          "department": "638200 - Dept Of Pharmacy"
-        },
-        {
           "title": "Temporary Administrative",
           "reqId": "44425",
           "notionUrl": "https://www.notion.so/3a2e70fb8d0f4b15945444c2a9537248",
@@ -727,16 +717,6 @@
           "stage": "HM Review",
           "agingBand": "🔴 6–14",
           "department": "641200 - COPH Acad anc"
-        },
-        {
-          "title": "Budget Analyst II",
-          "reqId": "43918",
-          "notionUrl": "https://www.notion.so/e47634d2d9894dddbaa76e706f415b1a",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "HM Review",
-          "agingBand": "🔴 6–14",
-          "department": "640100 - COPH Office Of The Dean"
         },
         {
           "title": "Licensed Practical Nurse",
@@ -1263,6 +1243,16 @@
           "department": "020600 - University Controllers Office"
         },
         {
+          "title": "Research Scientist OPS",
+          "reqId": "44422",
+          "notionUrl": "https://www.notion.so/2c8520addea8420cbcce49f4e1e795ca",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "638200 - Dept Of Pharmacy"
+        },
+        {
           "title": "Transit Safety Consultant - CUTR",
           "reqId": "44407",
           "notionUrl": "https://www.notion.so/fdf31ec5654f4ee9b57ecc6976f0f18d",
@@ -1428,7 +1418,7 @@
     },
     {
       "label": "Other (178 depts)",
-      "count": 348,
+      "count": 347,
       "color": "#c8c7c2"
     }
   ],
@@ -1441,8 +1431,8 @@
     },
     {
       "label": "HM Review",
-      "avgDays": 16,
-      "count": 28,
+      "avgDays": 17,
+      "count": 27,
       "color": "#534AB7"
     },
     {
@@ -1459,14 +1449,14 @@
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 16,
-      "count": 15,
+      "avgDays": 15,
+      "count": 16,
       "color": "#5B8FA8"
     },
     {
       "label": "Backlog",
       "avgDays": 12,
-      "count": 22,
+      "count": 21,
       "color": "#888780"
     },
     {
@@ -2763,6 +2753,17 @@
       "reqType": "Active",
       "ttf": 93,
       "notionUrl": "https://www.notion.so/ff5a0d7e00d94fa5bf234200119aa8ea"
+    },
+    {
+      "title": "Budget Analyst II",
+      "reqId": "43918",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Canceled",
+      "department": "640100 - COPH Office Of The Dean",
+      "reqType": "Active",
+      "ttf": 92,
+      "notionUrl": "https://www.notion.so/e47634d2d9894dddbaa76e706f415b1a"
     },
     {
       "title": "Biological Scientist - Corneal Research",
@@ -6412,6 +6413,13 @@
         "fillRatePct": 100
       },
       {
+        "department": "640100 - COPH Office Of The Dean",
+        "filled": 0,
+        "failed": 0,
+        "cancelled": 1,
+        "fillRatePct": null
+      },
+      {
         "department": "STP Registrar",
         "filled": 1,
         "failed": 0,
@@ -7007,9 +7015,9 @@
       {
         "recruiter": "Rebecca",
         "color": "#1B6A9C",
-        "stalled": 46,
-        "totalActive": 65,
-        "stallRatePct": 71
+        "stalled": 44,
+        "totalActive": 64,
+        "stallRatePct": 69
       },
       {
         "recruiter": "Aidi",
@@ -7289,9 +7297,9 @@
       "bgDark": "#3d2504",
       "campus": "Tampa",
       "reqs": 420,
-      "activeReqs": 265,
+      "activeReqs": 264,
       "filled": 127,
-      "failed": 28,
+      "failed": 29,
       "ttf": 117,
       "wip": 10,
       "agingRecords": [
@@ -7445,16 +7453,6 @@
               "department": "612200 - Dept Of OB/GYN"
             },
             {
-              "title": "Research Scientist OPS",
-              "reqId": "44422",
-              "notionUrl": "https://www.notion.so/2c8520addea8420cbcce49f4e1e795ca",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Backlog",
-              "agingBand": "🔴 6–14",
-              "department": "638200 - Dept Of Pharmacy"
-            },
-            {
               "title": "Temporary Administrative",
               "reqId": "44425",
               "notionUrl": "https://www.notion.so/3a2e70fb8d0f4b15945444c2a9537248",
@@ -7583,16 +7581,6 @@
               "stage": "HM Review",
               "agingBand": "🔴 6–14",
               "department": "641200 - COPH Acad anc"
-            },
-            {
-              "title": "Budget Analyst II",
-              "reqId": "43918",
-              "notionUrl": "https://www.notion.so/e47634d2d9894dddbaa76e706f415b1a",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "HM Review",
-              "agingBand": "🔴 6–14",
-              "department": "640100 - COPH Office Of The Dean"
             },
             {
               "title": "Temporary Biological Scientist",
@@ -7968,6 +7956,16 @@
               "department": "620100 - College Of Nurs…"
             },
             {
+              "title": "Research Scientist OPS",
+              "reqId": "44422",
+              "notionUrl": "https://www.notion.so/2c8520addea8420cbcce49f4e1e795ca",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "638200 - Dept Of Pharmacy"
+            },
+            {
               "title": "Manager Project Research",
               "reqId": "44375",
               "notionUrl": "https://www.notion.so/b54398b0207c448e9901746386706684",
@@ -7990,7 +7988,7 @@
         {
           "label": "HM Review",
           "avgDays": 18,
-          "count": 26,
+          "count": 25,
           "color": "#534AB7"
         },
         {
@@ -8008,7 +8006,7 @@
         {
           "label": "Backlog",
           "avgDays": 13,
-          "count": 4,
+          "count": 3,
           "color": "#888780"
         },
         {
@@ -8021,7 +8019,7 @@
       "statuses": [
         {
           "label": "Backlog",
-          "count": 29,
+          "count": 28,
           "color": "#888780"
         },
         {
@@ -8093,7 +8091,7 @@
           "color": "#D0523F",
           "bgLight": "#FCE9E5",
           "bgDark": "#3d1a0f",
-          "count": 40
+          "count": 38
         },
         {
           "label": "🟡 3–5",
@@ -8109,13 +8107,13 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 19
+          "count": 20
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 265
+          "count": 264
         },
         {
           "label": "Screened",
@@ -8461,8 +8459,8 @@
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 25,
-          "count": 8,
+          "avgDays": 22,
+          "count": 9,
           "color": "#5B8FA8"
         },
         {
@@ -9414,7 +9412,7 @@
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 9,
+          "avgDays": 10,
           "count": 1,
           "color": "#5B8FA8"
         }
