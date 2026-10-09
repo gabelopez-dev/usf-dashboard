@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-10-09T07:12:04.391Z",
+  "lastUpdated": "2026-10-09T14:31:57.237Z",
   "summary": {
-    "openReqs": 615,
+    "openReqs": 609,
     "avgTimeToFill": 81,
-    "filledYTD": 353,
-    "failedCancelled": 60,
+    "filledYTD": 356,
+    "failedCancelled": 63,
     "inOfferStage": 21
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 308,
+      "count": 307,
       "color": "#1B6A9C"
     },
     {
@@ -20,7 +20,7 @@
     },
     {
       "label": "USF Health",
-      "count": 234,
+      "count": 233,
       "color": "#00A693"
     },
     {
@@ -42,7 +42,7 @@
     },
     {
       "label": "HM Review",
-      "count": 171,
+      "count": 168,
       "color": "#534AB7"
     },
     {
@@ -51,18 +51,18 @@
       "color": "#993556"
     },
     {
-      "label": "Student Hiring",
-      "count": 47,
-      "color": "#B5651D"
-    },
-    {
       "label": "Backlog",
-      "count": 46,
+      "count": 45,
       "color": "#888780"
     },
     {
+      "label": "Student Hiring",
+      "count": 45,
+      "color": "#B5651D"
+    },
+    {
       "label": "Recruiter Review",
-      "count": 30,
+      "count": 31,
       "color": "#006747"
     },
     {
@@ -72,7 +72,7 @@
     },
     {
       "label": "Evergreen / Continuous Pool",
-      "count": 24,
+      "count": 23,
       "color": "#6B8E4E"
     },
     {
@@ -1248,7 +1248,7 @@
           "notionUrl": "https://www.notion.so/fc50ca7098fc45ef945356c58e2ab5d0",
           "owner": "Gabriel",
           "campus": "Tampa",
-          "stage": "Backlog",
+          "stage": "Recruiter Review",
           "agingBand": "🟢 0–2",
           "department": "141500 - Center For Entrepreneurship"
         },
@@ -1372,22 +1372,22 @@
       "color": "#006747"
     },
     {
-      "label": "614400 - Molecular Medicine",
-      "count": 8,
-      "color": "#1B6A9C"
-    },
-    {
       "label": "373000 - Financial Aid",
       "count": 7,
-      "color": "#00A693"
+      "color": "#1B6A9C"
     },
     {
       "label": "614300 - Molecular Pharm & Physiology",
       "count": 7,
-      "color": "#CFC483"
+      "color": "#00A693"
     },
     {
       "label": "126100 - Social Work",
+      "count": 7,
+      "color": "#CFC483"
+    },
+    {
+      "label": "614400 - Molecular Medicine",
       "count": 7,
       "color": "#7A9EB5"
     },
@@ -1417,8 +1417,8 @@
       "color": "#1B6A9C"
     },
     {
-      "label": "Other (178 depts)",
-      "count": 347,
+      "label": "Other (176 depts)",
+      "count": 342,
       "color": "#c8c7c2"
     }
   ],
@@ -1456,7 +1456,7 @@
     {
       "label": "Backlog",
       "avgDays": 8,
-      "count": 38,
+      "count": 37,
       "color": "#888780"
     },
     {
@@ -1675,6 +1675,17 @@
       "reqType": "Active",
       "ttf": 241,
       "notionUrl": "https://www.notion.so/1d6cdf3873414e1286924f338ccf2ccf"
+    },
+    {
+      "title": "Postdoctoral Scholar Research",
+      "reqId": "42809",
+      "owner": "Rebecca",
+      "campus": "",
+      "stage": "Hired",
+      "department": "614400 - Molecular Medicine",
+      "reqType": "Evergreen",
+      "ttf": 240,
+      "notionUrl": "https://www.notion.so/7d1d03b613b34dcf9be5707c0c86bcbf"
     },
     {
       "title": "DL Training and Support Student Assistant (3)",
@@ -2194,6 +2205,17 @@
       "notionUrl": "https://www.notion.so/bb9e7e100721498cbe1db7a16ca7c4bd"
     },
     {
+      "title": "Graduate Research Asst",
+      "reqId": "43748",
+      "owner": "Rebecca",
+      "campus": "",
+      "stage": "Canceled",
+      "department": "610001 - MCOM Research/Grad Affairs Supp",
+      "reqType": "Student",
+      "ttf": 120,
+      "notionUrl": "https://www.notion.so/10723523e86e47f2ad1c61ce67400c47"
+    },
+    {
       "title": "Federal Grant Specialist",
       "reqId": "43414",
       "owner": "Gabriel",
@@ -2271,6 +2293,17 @@
       "notionUrl": "https://www.notion.so/404951cb83f2471f92d4eb3f500b5ddc"
     },
     {
+      "title": "Social & Behavioral Researcher",
+      "reqId": "43804",
+      "owner": "Rebecca",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "610105 - Health Science Center Research",
+      "reqType": "Passive",
+      "ttf": 116,
+      "notionUrl": "https://www.notion.so/a1f7cf2660834fac9dbfc96cdccc8489"
+    },
+    {
       "title": "Social Media Assistant",
       "reqId": "43071",
       "owner": "johncalebrese",
@@ -2280,6 +2313,17 @@
       "reqType": "Active",
       "ttf": 116,
       "notionUrl": "https://www.notion.so/ec15ebd7cba941009faecf22873efe91"
+    },
+    {
+      "title": "Associate Director of Clinical Research Operations",
+      "reqId": "43768",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Hired",
+      "department": "611800 - Department Of Psych & Behavior",
+      "reqType": "Evergreen",
+      "ttf": 113,
+      "notionUrl": "https://www.notion.so/38f9ddf757a0802fa440ff927aa68147"
     },
     {
       "title": "Comm & Mktg Officer",
@@ -2425,6 +2469,17 @@
       "notionUrl": "https://www.notion.so/15768ab30dda46fdaebe9171740963d1"
     },
     {
+      "title": "Graduate Research Assistant",
+      "reqId": "43795",
+      "owner": "Rebecca",
+      "campus": "",
+      "stage": "Canceled",
+      "department": "610001 - MCOM Research/Grad Affairs Supp",
+      "reqType": "Student",
+      "ttf": 109,
+      "notionUrl": "https://www.notion.so/896cb07f506a4bdba773a03ab4759934"
+    },
+    {
       "title": "Research Project Manager II",
       "reqId": "43454",
       "owner": "Tameka Porter",
@@ -2489,6 +2544,17 @@
       "reqType": "Active",
       "ttf": 107,
       "notionUrl": "https://www.notion.so/9b895a18281d42a9b3b9f723645d413f"
+    },
+    {
+      "title": "Fiscal & Business Analyst I",
+      "reqId": "43879",
+      "owner": "Rebecca",
+      "campus": "",
+      "stage": "Canceled",
+      "department": "610105 - Health Sciences Center Research",
+      "reqType": "Passive",
+      "ttf": 106,
+      "notionUrl": "https://www.notion.so/2eab2bed4132406f874203d79c41e36a"
     },
     {
       "title": "Athletic Trainer Baseball",
@@ -6077,6 +6143,13 @@
         "fillRatePct": 75
       },
       {
+        "department": "610001 - MCOM Research/Grad Affairs Supp",
+        "filled": 5,
+        "failed": 0,
+        "cancelled": 2,
+        "fillRatePct": 100
+      },
+      {
         "department": "Inst For School Comm Partnership",
         "filled": 6,
         "failed": 0,
@@ -6117,13 +6190,6 @@
         "failed": 1,
         "cancelled": 2,
         "fillRatePct": 67
-      },
-      {
-        "department": "610001 - MCOM Research/Grad Affairs Supp",
-        "filled": 5,
-        "failed": 0,
-        "cancelled": 0,
-        "fillRatePct": 100
       },
       {
         "department": "210800 - AICC Bellini College Department",
@@ -6236,6 +6302,20 @@
         "failed": 1,
         "cancelled": 0,
         "fillRatePct": 67
+      },
+      {
+        "department": "614400 - Molecular Medicine",
+        "filled": 2,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "611800 - Department Of Psych & Behavior",
+        "filled": 2,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
       },
       {
         "department": "616300 - Health Informatics Institute",
@@ -6385,6 +6465,13 @@
         "fillRatePct": 100
       },
       {
+        "department": "610105 - Health Science Center Research",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
         "department": "380000 - Undergrad Stds-Deans Ofc Opera",
         "filled": 1,
         "failed": 0,
@@ -6397,6 +6484,13 @@
         "failed": 0,
         "cancelled": 0,
         "fillRatePct": 100
+      },
+      {
+        "department": "610105 - Health Sciences Center Research",
+        "filled": 0,
+        "failed": 0,
+        "cancelled": 1,
+        "fillRatePct": null
       },
       {
         "department": "638000 - College Of Pharmacy Dean'S Off",
@@ -6442,13 +6536,6 @@
       },
       {
         "department": "615500 - Center for Aging-Neuroscience",
-        "filled": 1,
-        "failed": 0,
-        "cancelled": 0,
-        "fillRatePct": 100
-      },
-      {
-        "department": "611800 - Department Of Psych & Behavior",
         "filled": 1,
         "failed": 0,
         "cancelled": 0,
@@ -6700,13 +6787,6 @@
         "fillRatePct": 100
       },
       {
-        "department": "614400 - Molecular Medicine",
-        "filled": 1,
-        "failed": 0,
-        "cancelled": 0,
-        "fillRatePct": 100
-      },
-      {
         "department": "044100 - Ctr For Student Involvement",
         "filled": 1,
         "failed": 0,
@@ -6916,13 +6996,13 @@
       },
       {
         "reqType": "Evergreen",
-        "avgDays": 85,
-        "count": 31
+        "avgDays": 91,
+        "count": 33
       },
       {
         "reqType": "Passive",
-        "avgDays": 79,
-        "count": 31
+        "avgDays": 80,
+        "count": 32
       },
       {
         "reqType": "Targeted",
@@ -6938,13 +7018,13 @@
     "avgTTFByCampus": [
       {
         "campus": "Tampa",
-        "avgDays": 63,
-        "count": 156
+        "avgDays": 64,
+        "count": 157
       },
       {
         "campus": "USF Health",
         "avgDays": 106,
-        "count": 107
+        "count": 108
       },
       {
         "campus": "St. Petersburg",
@@ -6953,8 +7033,8 @@
       },
       {
         "campus": "Unspecified",
-        "avgDays": 47,
-        "count": 10
+        "avgDays": 64,
+        "count": 11
       },
       {
         "campus": "Tallahassee",
@@ -7297,9 +7377,9 @@
       "bgDark": "#3d2504",
       "campus": "Tampa",
       "reqs": 420,
-      "activeReqs": 264,
-      "filled": 127,
-      "failed": 29,
+      "activeReqs": 258,
+      "filled": 130,
+      "failed": 32,
       "ttf": 117,
       "wip": 10,
       "agingRecords": [
@@ -8030,7 +8110,7 @@
         },
         {
           "label": "HM Review",
-          "count": 167,
+          "count": 164,
           "color": "#534AB7"
         },
         {
@@ -8045,7 +8125,7 @@
         },
         {
           "label": "Student Hiring",
-          "count": 12,
+          "count": 10,
           "color": "#B5651D"
         },
         {
@@ -8055,7 +8135,7 @@
         },
         {
           "label": "Evergreen / Continuous Pool",
-          "count": 4,
+          "count": 3,
           "color": "#6B8E4E"
         },
         {
@@ -8114,7 +8194,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 264
+          "count": 258
         },
         {
           "label": "Screened",
@@ -8122,7 +8202,7 @@
         },
         {
           "label": "HM Review",
-          "count": 167
+          "count": 164
         },
         {
           "label": "Interviews",
@@ -8136,7 +8216,7 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 127,
+          "value": 130,
           "target": 10,
           "invert": false
         },
@@ -8730,7 +8810,7 @@
               "notionUrl": "https://www.notion.so/fc50ca7098fc45ef945356c58e2ab5d0",
               "owner": "Gabriel",
               "campus": "Tampa",
-              "stage": "Backlog",
+              "stage": "Recruiter Review",
               "agingBand": "🟢 0–2",
               "department": "141500 - Center For Entrepreneurship"
             },
@@ -8798,16 +8878,21 @@
         },
         {
           "label": "Backlog",
-          "avgDays": 4,
-          "count": 3,
+          "avgDays": 6,
+          "count": 2,
           "color": "#888780"
         }
       ],
       "statuses": [
         {
           "label": "Backlog",
-          "count": 3,
+          "count": 2,
           "color": "#888780"
+        },
+        {
+          "label": "Recruiter Review",
+          "count": 1,
+          "color": "#006747"
         },
         {
           "label": "HM Review",
