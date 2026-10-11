@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T13:18:00.150Z",
+  "lastUpdated": "2026-10-11T18:19:27.600Z",
   "summary": {
     "openReqs": 605,
     "avgTimeToFill": 81,
@@ -119,7 +119,7 @@
       "color": "#D0523F",
       "bgLight": "#FCE9E5",
       "bgDark": "#3d1a0f",
-      "count": 17
+      "count": 18
     },
     {
       "label": "🟡 3–5",
@@ -127,7 +127,7 @@
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 32
+      "count": 31
     },
     {
       "label": "🟢 0–2",
@@ -869,6 +869,16 @@
           "department": "170100 - COE Dean's Office"
         },
         {
+          "title": "Executive Administrative Spec.",
+          "reqId": "44227",
+          "notionUrl": "https://www.notion.so/70ae4d6b4ba34c2782ead0ca8ef70024",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Pre-boarding",
+          "agingBand": "🔴 6–14",
+          "department": "210800 - AICC Bellini College Department"
+        },
+        {
           "title": "Sr Groundskeeper",
           "reqId": "44204",
           "notionUrl": "https://www.notion.so/fd8a56e91cb74850b7ecc50b726fbfb5",
@@ -1056,7 +1066,7 @@
           "department": "613137 - Heart Institute…"
         },
         {
-          "title": "Health Learning Facilitat��",
+          "title": "Health Learning Facilitat…",
           "reqId": "44479",
           "notionUrl": "https://www.notion.so/79d0a6c0c9a2424a98f08c19510cc733",
           "owner": "Rebecca",
@@ -1244,16 +1254,6 @@
           "stage": "Pre-boarding",
           "agingBand": "🟡 3–5",
           "department": "511255 - STP Psychology"
-        },
-        {
-          "title": "Executive Administrative Spec.",
-          "reqId": "44227",
-          "notionUrl": "https://www.notion.so/70ae4d6b4ba34c2782ead0ca8ef70024",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🟡 3–5",
-          "department": "210800 - AICC Bellini College Department"
         },
         {
           "title": "Digital Platforms Developer",
@@ -7164,9 +7164,9 @@
       {
         "recruiter": "John",
         "color": "#1B6A9C",
-        "stalled": 14,
+        "stalled": 15,
         "totalActive": 22,
-        "stallRatePct": 64
+        "stallRatePct": 68
       },
       {
         "recruiter": "Gabriel",
@@ -7984,7 +7984,7 @@
               "department": "613137 - Heart Institute…"
             },
             {
-              "title": "Health Learning Facilitat��",
+              "title": "Health Learning Facilitat…",
               "reqId": "44479",
               "notionUrl": "https://www.notion.so/79d0a6c0c9a2424a98f08c19510cc733",
               "owner": "Rebecca",
@@ -8416,6 +8416,16 @@
               "department": "391000 - Fl Center For Cybersecurity"
             },
             {
+              "title": "Executive Administrative Spec.",
+              "reqId": "44227",
+              "notionUrl": "https://www.notion.so/70ae4d6b4ba34c2782ead0ca8ef70024",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Pre-boarding",
+              "agingBand": "🔴 6–14",
+              "department": "210800 - AICC Bellini College Department"
+            },
+            {
               "title": "Salesforce Support Administrator",
               "reqId": "44197",
               "notionUrl": "https://www.notion.so/b2b3277cb11f4cc582f1430373a9bee3",
@@ -8521,16 +8531,6 @@
               "stage": "Recruiter Review",
               "agingBand": "🟡 3–5",
               "department": "020600 - University Controllers Office"
-            },
-            {
-              "title": "Executive Administrative Spec.",
-              "reqId": "44227",
-              "notionUrl": "https://www.notion.so/70ae4d6b4ba34c2782ead0ca8ef70024",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🟡 3–5",
-              "department": "210800 - AICC Bellini College Department"
             },
             {
               "title": "Digital Platforms Developer",
@@ -8663,7 +8663,7 @@
           "color": "#D0523F",
           "bgLight": "#FCE9E5",
           "bgDark": "#3d1a0f",
-          "count": 7
+          "count": 8
         },
         {
           "label": "🟡 3–5",
@@ -8671,7 +8671,7 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 8
+          "count": 7
         },
         {
           "label": "🟢 0–2",
