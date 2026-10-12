@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-10-12T08:48:34.188Z",
+  "lastUpdated": "2026-10-12T18:43:48.441Z",
   "summary": {
-    "openReqs": 605,
+    "openReqs": 609,
     "avgTimeToFill": 81,
-    "filledYTD": 357,
-    "failedCancelled": 66,
-    "inOfferStage": 21
+    "filledYTD": 358,
+    "failedCancelled": 67,
+    "inOfferStage": 18
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 307,
+      "count": 311,
       "color": "#1B6A9C"
     },
     {
@@ -20,7 +20,7 @@
     },
     {
       "label": "USF Health",
-      "count": 233,
+      "count": 254,
       "color": "#00A693"
     },
     {
@@ -37,13 +37,18 @@
   "mainFunnel": [
     {
       "label": "Passive Hiring",
-      "count": 174,
+      "count": 177,
       "color": "#1B6A9C"
     },
     {
       "label": "HM Review",
-      "count": 168,
+      "count": 167,
       "color": "#534AB7"
+    },
+    {
+      "label": "Backlog",
+      "count": 49,
+      "color": "#888780"
     },
     {
       "label": "Faculty Hiring",
@@ -56,13 +61,8 @@
       "color": "#B5651D"
     },
     {
-      "label": "Backlog",
-      "count": 44,
-      "color": "#888780"
-    },
-    {
       "label": "Recruiter Review",
-      "count": 31,
+      "count": 32,
       "color": "#006747"
     },
     {
@@ -77,22 +77,22 @@
     },
     {
       "label": "Offer Stage",
-      "count": 21,
+      "count": 18,
       "color": "#CFC483"
     },
     {
-      "label": "Interview Stage",
-      "count": 11,
-      "color": "#D4880A"
-    },
-    {
       "label": "Targeted Hiring",
-      "count": 8,
+      "count": 9,
       "color": "#3A5A6A"
     },
     {
+      "label": "Interview Stage",
+      "count": 8,
+      "color": "#D4880A"
+    },
+    {
       "label": "Sourced",
-      "count": 6,
+      "count": 7,
       "color": "#00A693"
     }
   ],
@@ -103,7 +103,7 @@
       "color": "#6E1414",
       "bgLight": "#F0CFCF",
       "bgDark": "#2e0f0f",
-      "count": 7
+      "count": 10
     },
     {
       "label": "🔴 15–30",
@@ -119,7 +119,7 @@
       "color": "#D0523F",
       "bgLight": "#FCE9E5",
       "bgDark": "#3d1a0f",
-      "count": 21
+      "count": 17
     },
     {
       "label": "🟡 3–5",
@@ -127,7 +127,7 @@
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 29
+      "count": 26
     },
     {
       "label": "🟢 0–2",
@@ -135,7 +135,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 0
+      "count": 9
     }
   ],
   "agingRecords": [
@@ -193,6 +193,36 @@
           "stage": "Pre-boarding",
           "agingBand": "🔴 31+",
           "department": "College of Education "
+        },
+        {
+          "title": "Temporary Research Technician",
+          "reqId": "42785",
+          "notionUrl": "https://www.notion.so/0463183fa8f849beab08da56f5104cbe",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "Backlog",
+          "agingBand": "🔴 31+",
+          "department": "512337 - Heart Institute - Internal Medicine"
+        },
+        {
+          "title": "Registered Dietician",
+          "reqId": "42728",
+          "notionUrl": "https://www.notion.so/acb6edee72a642d792650e30ce1e7cdd",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "Backlog",
+          "agingBand": "🔴 31+",
+          "department": "616300 - Health Informatics Institute"
+        },
+        {
+          "title": "Fiscal & Business Analyst Sr.",
+          "reqId": "42139",
+          "notionUrl": "https://www.notion.so/e164677a823c4ee58e7ce5e27f616f29",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "Backlog",
+          "agingBand": "🔴 31+",
+          "department": "616300 - Health Informatics Institute"
         },
         {
           "title": "Experiential Learning Coordinator",
@@ -306,7 +336,7 @@
           "reqId": "44427",
           "notionUrl": "https://www.notion.so/961f1ccc8cb247b8a38b13bc26946c87",
           "owner": "Rebecca",
-          "campus": "Tampa",
+          "campus": "USF Health",
           "stage": "Recruiter Review",
           "agingBand": "🔴 15–30",
           "department": "032100 - Academic Human Resources"
@@ -829,16 +859,6 @@
           "department": "020600 - University Controllers Office"
         },
         {
-          "title": "Unit Research Admin II",
-          "reqId": "44413",
-          "notionUrl": "https://www.notion.so/d8de3d232b484365a4eaf24d64ded8f5",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Backlog",
-          "agingBand": "🔴 6–14",
-          "department": "250000 - College of Marine Science"
-        },
-        {
           "title": "Academic Advisor I",
           "reqId": "44394",
           "notionUrl": "https://www.notion.so/bae0abb374a347c895a7c483cb4eb8a4",
@@ -853,7 +873,7 @@
           "reqId": "44375",
           "notionUrl": "https://www.notion.so/b54398b0207c448e9901746386706684",
           "owner": "Rebecca",
-          "campus": "",
+          "campus": "USF Health",
           "stage": "HM Review",
           "agingBand": "🔴 6–14",
           "department": "614800 - Emergency Medicine"
@@ -909,29 +929,9 @@
           "department": "120100 - Arts And Sciences - Dean"
         },
         {
-          "title": "Academic Services Administrator - Lead College Scheduler",
-          "reqId": "44221",
-          "notionUrl": "https://www.notion.so/9b90113a81364c14957e9dbf753ce865",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Offer Stage",
-          "agingBand": "🔴 6–14",
-          "department": "511413 - STP MCOB Unc"
-        },
-        {
           "title": "Fiscal & Business Specialist",
           "reqId": "44216",
           "notionUrl": "https://www.notion.so/38e792423e584dab9016ca44c74c161a",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 6–14",
-          "department": "140105 - MCOB Financia"
-        },
-        {
-          "title": "Applications Developer I",
-          "reqId": "44220",
-          "notionUrl": "https://www.notion.so/286d495752c3430eb1f7066772febf9e",
           "owner": "Gabriel",
           "campus": "Tampa",
           "stage": "Pre-boarding",
@@ -979,16 +979,6 @@
           "department": "213400 - Inst Of Applied Engineering"
         },
         {
-          "title": "Media Resources Specialist",
-          "reqId": "43473",
-          "notionUrl": "https://www.notion.so/b531e03b4a3645f5ab2a0ac1ee2e4a9b",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Interview Stage",
-          "agingBand": "🔴 6–14",
-          "department": "042700 - Marshall Student Center"
-        },
-        {
           "title": "Unit Research Administrator II",
           "reqId": "43545",
           "notionUrl": "https://www.notion.so/9f6ec85507494ba589a79349421f4297",
@@ -1020,7 +1010,7 @@
           "reqId": "44445",
           "notionUrl": "https://www.notion.so/8222adabc1c8488eb710a624e2c9cc2f",
           "owner": "Rebecca",
-          "campus": "",
+          "campus": "USF Health",
           "stage": "Backlog",
           "agingBand": "🟡 3–5",
           "department": "612300 - Dept Of Interna…"
@@ -1030,7 +1020,7 @@
           "reqId": "44441",
           "notionUrl": "https://www.notion.so/c40933ba62764b52b19d31d1c63c6fb4",
           "owner": "Rebecca",
-          "campus": "",
+          "campus": "USF Health",
           "stage": "Backlog",
           "agingBand": "🟡 3–5",
           "department": "614600 - MCOM Plastic S…"
@@ -1040,7 +1030,7 @@
           "reqId": "44458",
           "notionUrl": "https://www.notion.so/37b67f2b42b146328a1d91eea4a4ade2",
           "owner": "Rebecca",
-          "campus": "",
+          "campus": "USF Health",
           "stage": "Backlog",
           "agingBand": "🟡 3–5",
           "department": "642002 - COPH OSHA Ec…"
@@ -1050,7 +1040,7 @@
           "reqId": "44468",
           "notionUrl": "https://www.notion.so/0a2bb9fc076c4f13b5200370a62eaa62",
           "owner": "Rebecca",
-          "campus": "",
+          "campus": "USF Health",
           "stage": "Backlog",
           "agingBand": "🟡 3–5",
           "department": "614300 - Molecular Phar…"
@@ -1060,7 +1050,7 @@
           "reqId": "44471",
           "notionUrl": "https://www.notion.so/cb87bf662adb494b90f42f17d039e382",
           "owner": "Rebecca",
-          "campus": "",
+          "campus": "USF Health",
           "stage": "Backlog",
           "agingBand": "🟡 3–5",
           "department": "614800 - Emergency Me…"
@@ -1070,7 +1060,7 @@
           "reqId": "44474",
           "notionUrl": "https://www.notion.so/d6a248dd3de24d31bb1ecdf5da2c3d4c",
           "owner": "Rebecca",
-          "campus": "",
+          "campus": "USF Health",
           "stage": "Backlog",
           "agingBand": "🟡 3–5",
           "department": "610400 - MCOM Acad Af…"
@@ -1080,7 +1070,7 @@
           "reqId": "44478",
           "notionUrl": "https://www.notion.so/a73d70fe61774b05a550375b28972699",
           "owner": "Rebecca",
-          "campus": "",
+          "campus": "USF Health",
           "stage": "Backlog",
           "agingBand": "🟡 3–5",
           "department": "612200 - Dept Of OB/GY…"
@@ -1090,17 +1080,17 @@
           "reqId": "44517",
           "notionUrl": "https://www.notion.so/418456b5199f4fea891e92a8c8b8f015",
           "owner": "Rebecca",
-          "campus": "",
+          "campus": "USF Health",
           "stage": "Backlog",
           "agingBand": "🟡 3–5",
           "department": "613137 - Heart Institute…"
         },
         {
-          "title": "Health Learning Facilitat���",
+          "title": "Health Learning Facilitat…",
           "reqId": "44479",
           "notionUrl": "https://www.notion.so/79d0a6c0c9a2424a98f08c19510cc733",
           "owner": "Rebecca",
-          "campus": "",
+          "campus": "USF Health",
           "stage": "Backlog",
           "agingBand": "🟡 3–5",
           "department": "616300 - Health Informat…"
@@ -1110,7 +1100,7 @@
           "reqId": "44505",
           "notionUrl": "https://www.notion.so/7f2e8dcd542e4e9c9c762e4d2bf8b94f",
           "owner": "Rebecca",
-          "campus": "",
+          "campus": "USF Health",
           "stage": "Backlog",
           "agingBand": "🟡 3–5",
           "department": "638200 - Dept Of Pharma…"
@@ -1120,7 +1110,7 @@
           "reqId": "44504",
           "notionUrl": "https://www.notion.so/237e1fbaf9aa4642b86ce30d7863ed7c",
           "owner": "Rebecca",
-          "campus": "",
+          "campus": "USF Health",
           "stage": "Backlog",
           "agingBand": "🟡 3–5",
           "department": "612300 - Dept Of Interna…"
@@ -1130,7 +1120,7 @@
           "reqId": "44501",
           "notionUrl": "https://www.notion.so/0620082e033442758224d2152437aef6",
           "owner": "Rebecca",
-          "campus": "",
+          "campus": "USF Health",
           "stage": "Backlog",
           "agingBand": "🟡 3–5",
           "department": "612300 - Dept Of Interna…"
@@ -1140,7 +1130,7 @@
           "reqId": "44500",
           "notionUrl": "https://www.notion.so/f4f8db6787dc40b8922298b6d289c5f4",
           "owner": "Rebecca",
-          "campus": "",
+          "campus": "USF Health",
           "stage": "Backlog",
           "agingBand": "🟡 3–5",
           "department": "611900 - Department Of…"
@@ -1150,7 +1140,7 @@
           "reqId": "44491",
           "notionUrl": "https://www.notion.so/4f36c924ddcd4c689f2602b4cde043b9",
           "owner": "Rebecca",
-          "campus": "",
+          "campus": "USF Health",
           "stage": "Recruiter Review",
           "agingBand": "🟡 3–5",
           "department": "638000 - College Of Phar…"
@@ -1160,7 +1150,7 @@
           "reqId": "44515",
           "notionUrl": "https://www.notion.so/5b713cfdaa3443fe9b6bf56621061428",
           "owner": "Rebecca",
-          "campus": "",
+          "campus": "USF Health",
           "stage": "Backlog",
           "agingBand": "🟡 3–5",
           "department": "641400 - Lawton & Rhea…"
@@ -1170,7 +1160,7 @@
           "reqId": "44498",
           "notionUrl": "https://www.notion.so/30d9343a1bf741bea008fc373d194af2",
           "owner": "Rebecca",
-          "campus": "",
+          "campus": "USF Health",
           "stage": "Backlog",
           "agingBand": "🟡 3–5",
           "department": "610200 - MCOM Clinical…"
@@ -1180,20 +1170,10 @@
           "reqId": "44520",
           "notionUrl": "https://www.notion.so/8e794a1c01e3410fa01b39ff87f1d652",
           "owner": "Rebecca",
-          "campus": "",
+          "campus": "USF Health",
           "stage": "Backlog",
           "agingBand": "🟡 3–5",
           "department": "620100 - College Of Nurs…"
-        },
-        {
-          "title": "Financial Aid Assistant",
-          "reqId": "44476",
-          "notionUrl": "https://www.notion.so/cd3291d6a940476c83b344fb2ce74495",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Backlog",
-          "agingBand": "🟡 3–5",
-          "department": "373000 - Financial Aid"
         },
         {
           "title": "HIPAA Privacy Investigator & Operations Administrator",
@@ -1236,16 +1216,6 @@
           "department": "141500 - Center For Entrepreneurship"
         },
         {
-          "title": "Research Support Assistant",
-          "reqId": "44440",
-          "notionUrl": "https://www.notion.so/bddf55379d3342aaa77f3a2b83e41b1d",
-          "owner": "Aidi",
-          "campus": "Tampa",
-          "stage": "Offer Stage",
-          "agingBand": "🟡 3–5",
-          "department": "171500 - Educational And Psychological"
-        },
-        {
           "title": "Research Scientist OPS",
           "reqId": "44422",
           "notionUrl": "https://www.notion.so/2c8520addea8420cbcce49f4e1e795ca",
@@ -1286,16 +1256,6 @@
           "department": "210800 - AICC Bellini College Department"
         },
         {
-          "title": "Academic Svcs. Administrator - Mechanical Eng",
-          "reqId": "44191",
-          "notionUrl": "https://www.notion.so/8969cc003995496488c89087857ac4e5",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Offer Stage",
-          "agingBand": "🟡 3–5",
-          "department": "210500 - Mechanical Engineering"
-        },
-        {
           "title": "Leadership and Student Organizations Coordinator",
           "reqId": "44079",
           "notionUrl": "https://www.notion.so/eaeda37817ed46af92feeb202ed01f60",
@@ -1311,13 +1271,104 @@
       "band": "🟢 0–2",
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
-      "records": []
+      "records": [
+        {
+          "title": "IAE Accountant I",
+          "reqId": "44511",
+          "notionUrl": "https://www.notion.so/d4f8600a70fa4b62b0eb0ec6741fb14f",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "213400 - Inst Of Applied Engineering"
+        },
+        {
+          "title": "International Program Administrator I",
+          "reqId": "44512",
+          "notionUrl": "https://www.notion.so/8c418eebee2c413395fcd30f03fbd109",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "490000 - USF World"
+        },
+        {
+          "title": "Fiscal & Business Specialist",
+          "reqId": "44499",
+          "notionUrl": "https://www.notion.so/593ca5445fc44d8ea9b8485466d47b00",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "020600 - University Controllers Office"
+        },
+        {
+          "title": "Student Programs Coordinator",
+          "reqId": "44509",
+          "notionUrl": "https://www.notion.so/ed40752835a44780826559c4f0dc9068",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "044100 - Ctr For Student Involvement"
+        },
+        {
+          "title": "Director of Industry to Campus Connection",
+          "reqId": "44519",
+          "notionUrl": "https://www.notion.so/7022a824b6ef4e989973efe3ea60c640",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "047700 - Career & Professional Dev"
+        },
+        {
+          "title": "Financial Aid Assistant",
+          "reqId": "44476",
+          "notionUrl": "https://www.notion.so/cd3291d6a940476c83b344fb2ce74495",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "373000 - Financial Aid"
+        },
+        {
+          "title": "Research Support Assistant",
+          "reqId": "44440",
+          "notionUrl": "https://www.notion.so/bddf55379d3342aaa77f3a2b83e41b1d",
+          "owner": "Aidi",
+          "campus": "Tampa",
+          "stage": "Offer Stage",
+          "agingBand": "🟢 0–2",
+          "department": "171500 - Educational And Psychological"
+        },
+        {
+          "title": "Unit Research Admin II",
+          "reqId": "44413",
+          "notionUrl": "https://www.notion.so/d8de3d232b484365a4eaf24d64ded8f5",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Sourced",
+          "agingBand": "🟢 0–2",
+          "department": "250000 - College of Marine Science"
+        },
+        {
+          "title": "Applications Developer I",
+          "reqId": "44220",
+          "notionUrl": "https://www.notion.so/286d495752c3430eb1f7066772febf9e",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Pre-boarding",
+          "agingBand": "🟢 0–2",
+          "department": "140105 - MCOB Financia"
+        }
+      ]
     }
   ],
   "department": [
     {
       "label": "USF Health",
-      "count": 94,
+      "count": 93,
       "color": "#006747"
     },
     {
@@ -1381,33 +1432,43 @@
       "color": "#7A9EB5"
     },
     {
-      "label": "614800 - Emergency Medicine",
+      "label": "043000 - Student Health Services",
       "count": 6,
       "color": "#5B7A8A"
     },
     {
-      "label": "612300 - Dept Of Interna",
+      "label": "047700 - Career & Professional Dev",
       "count": 6,
       "color": "#534AB7"
     },
     {
-      "label": "122900 - School Of Aging Studies",
+      "label": "614800 - Emergency Medicine",
       "count": 6,
       "color": "#993556"
     },
     {
-      "label": "790100 - VP Research",
+      "label": "612300 - Dept Of Interna",
       "count": 6,
       "color": "#006747"
     },
     {
-      "label": "791000 - Research Integrity &Compliance",
+      "label": "122900 - School Of Aging Studies",
       "count": 6,
       "color": "#1B6A9C"
     },
     {
-      "label": "Other (174 depts)",
-      "count": 338,
+      "label": "790100 - VP Research",
+      "count": 6,
+      "color": "#00A693"
+    },
+    {
+      "label": "791000 - Research Integrity &Compliance",
+      "count": 6,
+      "color": "#CFC483"
+    },
+    {
+      "label": "Other (172 depts)",
+      "count": 331,
       "color": "#c8c7c2"
     }
   ],
@@ -1420,32 +1481,32 @@
     },
     {
       "label": "HM Review",
-      "avgDays": 19,
-      "count": 27,
+      "avgDays": 18,
+      "count": 25,
       "color": "#534AB7"
     },
     {
       "label": "Interview Stage",
       "avgDays": 14,
-      "count": 5,
+      "count": 4,
       "color": "#D4880A"
     },
     {
       "label": "Offer Stage",
-      "avgDays": 25,
-      "count": 5,
+      "avgDays": 14,
+      "count": 1,
       "color": "#CFC483"
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 19,
-      "count": 16,
+      "avgDays": 20,
+      "count": 15,
       "color": "#5B8FA8"
     },
     {
       "label": "Backlog",
-      "avgDays": 11,
-      "count": 36,
+      "avgDays": 15,
+      "count": 37,
       "color": "#888780"
     },
     {
@@ -1897,6 +1958,17 @@
       "notionUrl": "https://www.notion.so/dd24b580669a48a3a13700917732d386"
     },
     {
+      "title": "Data Analyst & Research Compliance Specialist",
+      "reqId": "42903",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Hired",
+      "department": "USF Health",
+      "reqType": "Passive",
+      "ttf": 159,
+      "notionUrl": "https://www.notion.so/d859ecbebe4f4cada0a60e09d9200585"
+    },
+    {
       "title": "Manager, Fiscal & Business Admin",
       "reqId": "42962",
       "owner": "Rebecca",
@@ -1994,6 +2066,17 @@
       "reqType": "Active",
       "ttf": 148,
       "notionUrl": "https://www.notion.so/7a13b88486144c1c83b02735e27454d8"
+    },
+    {
+      "title": "Media Resources Specialist",
+      "reqId": "43473",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Failed Search",
+      "department": "042700 - Marshall Student Center",
+      "reqType": "Active",
+      "ttf": 147,
+      "notionUrl": "https://www.notion.so/b531e03b4a3645f5ab2a0ac1ee2e4a9b"
     },
     {
       "title": "Student Assistant - Temporary",
@@ -5554,7 +5637,7 @@
       "owner": "Rebecca",
       "campus": "",
       "stage": "Hired",
-      "department": "",
+      "department": "USF Health",
       "reqType": "Student",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/0b0e4d524e99405d99eefa39a1df6357"
@@ -6114,7 +6197,7 @@
     "fillRateByDept": [
       {
         "department": "USF Health",
-        "filled": 74,
+        "filled": 76,
         "failed": 0,
         "cancelled": 19,
         "fillRatePct": 100
@@ -6470,13 +6553,6 @@
         "fillRatePct": 100
       },
       {
-        "department": "No Department",
-        "filled": 2,
-        "failed": 0,
-        "cancelled": 0,
-        "fillRatePct": 100
-      },
-      {
         "department": "060302 - University Advancement",
         "filled": 0,
         "failed": 0,
@@ -6496,6 +6572,13 @@
         "failed": 0,
         "cancelled": 0,
         "fillRatePct": 100
+      },
+      {
+        "department": "042700 - Marshall Student Center",
+        "filled": 0,
+        "failed": 1,
+        "cancelled": 0,
+        "fillRatePct": 0
       },
       {
         "department": "STP Parking Services",
@@ -7016,6 +7099,13 @@
         "fillRatePct": 100
       },
       {
+        "department": "No Department",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
         "department": "521800 - SAR Student Services",
         "filled": 1,
         "failed": 0,
@@ -7055,8 +7145,8 @@
       },
       {
         "reqType": "Passive",
-        "avgDays": 80,
-        "count": 32
+        "avgDays": 82,
+        "count": 33
       },
       {
         "reqType": "Targeted",
@@ -7077,8 +7167,8 @@
       },
       {
         "campus": "USF Health",
-        "avgDays": 106,
-        "count": 108
+        "avgDays": 107,
+        "count": 109
       },
       {
         "campus": "St. Petersburg",
@@ -7099,7 +7189,7 @@
     "topHiringDepartments": [
       {
         "department": "USF Health",
-        "count": 187
+        "count": 188
       },
       {
         "department": "051000 - Athletic Administration",
@@ -7126,16 +7216,16 @@
         "count": 14
       },
       {
+        "department": "047700 - Career & Professional Dev",
+        "count": 13
+      },
+      {
         "department": "371000 - Admissions",
         "count": 13
       },
       {
         "department": "STP Student Success",
         "count": 13
-      },
-      {
-        "department": "620100 - College Of Nurs",
-        "count": 12
       }
     ],
     "stallRateByRecruiter": [
@@ -7154,25 +7244,25 @@
         "stallRatePct": 80
       },
       {
-        "recruiter": "John",
-        "color": "#1B6A9C",
-        "stalled": 17,
-        "totalActive": 22,
-        "stallRatePct": 77
-      },
-      {
         "recruiter": "Rebecca",
         "color": "#1B6A9C",
-        "stalled": 45,
-        "totalActive": 63,
-        "stallRatePct": 71
+        "stalled": 48,
+        "totalActive": 66,
+        "stallRatePct": 73
+      },
+      {
+        "recruiter": "John",
+        "color": "#1B6A9C",
+        "stalled": 16,
+        "totalActive": 26,
+        "stallRatePct": 62
       },
       {
         "recruiter": "Gabriel",
         "color": "#00A693",
-        "stalled": 6,
-        "totalActive": 11,
-        "stallRatePct": 55
+        "stalled": 3,
+        "totalActive": 9,
+        "stallRatePct": 33
       },
       {
         "recruiter": "Katherine",
@@ -7431,8 +7521,8 @@
       "bgDark": "#3d2504",
       "campus": "Tampa",
       "reqs": 420,
-      "activeReqs": 257,
-      "filled": 130,
+      "activeReqs": 256,
+      "filled": 131,
       "failed": 33,
       "ttf": 117,
       "wip": 10,
@@ -7471,6 +7561,36 @@
               "stage": "Recruiter Review",
               "agingBand": "🔴 31+",
               "department": "640108 - COPH Faculty A"
+            },
+            {
+              "title": "Temporary Research Technician",
+              "reqId": "42785",
+              "notionUrl": "https://www.notion.so/0463183fa8f849beab08da56f5104cbe",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "Backlog",
+              "agingBand": "🔴 31+",
+              "department": "512337 - Heart Institute - Internal Medicine"
+            },
+            {
+              "title": "Registered Dietician",
+              "reqId": "42728",
+              "notionUrl": "https://www.notion.so/acb6edee72a642d792650e30ce1e7cdd",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "Backlog",
+              "agingBand": "🔴 31+",
+              "department": "616300 - Health Informatics Institute"
+            },
+            {
+              "title": "Fiscal & Business Analyst Sr.",
+              "reqId": "42139",
+              "notionUrl": "https://www.notion.so/e164677a823c4ee58e7ce5e27f616f29",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "Backlog",
+              "agingBand": "🔴 31+",
+              "department": "616300 - Health Informatics Institute"
             }
           ]
         },
@@ -7564,7 +7684,7 @@
               "reqId": "44427",
               "notionUrl": "https://www.notion.so/961f1ccc8cb247b8a38b13bc26946c87",
               "owner": "Rebecca",
-              "campus": "Tampa",
+              "campus": "USF Health",
               "stage": "Recruiter Review",
               "agingBand": "🔴 15–30",
               "department": "032100 - Academic Human Resources"
@@ -7901,7 +8021,7 @@
               "reqId": "44375",
               "notionUrl": "https://www.notion.so/b54398b0207c448e9901746386706684",
               "owner": "Rebecca",
-              "campus": "",
+              "campus": "USF Health",
               "stage": "HM Review",
               "agingBand": "🔴 6–14",
               "department": "614800 - Emergency Medicine"
@@ -7918,7 +8038,7 @@
               "reqId": "44445",
               "notionUrl": "https://www.notion.so/8222adabc1c8488eb710a624e2c9cc2f",
               "owner": "Rebecca",
-              "campus": "",
+              "campus": "USF Health",
               "stage": "Backlog",
               "agingBand": "🟡 3–5",
               "department": "612300 - Dept Of Interna…"
@@ -7928,7 +8048,7 @@
               "reqId": "44441",
               "notionUrl": "https://www.notion.so/c40933ba62764b52b19d31d1c63c6fb4",
               "owner": "Rebecca",
-              "campus": "",
+              "campus": "USF Health",
               "stage": "Backlog",
               "agingBand": "🟡 3–5",
               "department": "614600 - MCOM Plastic S…"
@@ -7938,7 +8058,7 @@
               "reqId": "44458",
               "notionUrl": "https://www.notion.so/37b67f2b42b146328a1d91eea4a4ade2",
               "owner": "Rebecca",
-              "campus": "",
+              "campus": "USF Health",
               "stage": "Backlog",
               "agingBand": "🟡 3–5",
               "department": "642002 - COPH OSHA Ec…"
@@ -7948,7 +8068,7 @@
               "reqId": "44468",
               "notionUrl": "https://www.notion.so/0a2bb9fc076c4f13b5200370a62eaa62",
               "owner": "Rebecca",
-              "campus": "",
+              "campus": "USF Health",
               "stage": "Backlog",
               "agingBand": "🟡 3–5",
               "department": "614300 - Molecular Phar…"
@@ -7958,7 +8078,7 @@
               "reqId": "44471",
               "notionUrl": "https://www.notion.so/cb87bf662adb494b90f42f17d039e382",
               "owner": "Rebecca",
-              "campus": "",
+              "campus": "USF Health",
               "stage": "Backlog",
               "agingBand": "🟡 3–5",
               "department": "614800 - Emergency Me…"
@@ -7968,7 +8088,7 @@
               "reqId": "44474",
               "notionUrl": "https://www.notion.so/d6a248dd3de24d31bb1ecdf5da2c3d4c",
               "owner": "Rebecca",
-              "campus": "",
+              "campus": "USF Health",
               "stage": "Backlog",
               "agingBand": "🟡 3–5",
               "department": "610400 - MCOM Acad Af…"
@@ -7978,7 +8098,7 @@
               "reqId": "44478",
               "notionUrl": "https://www.notion.so/a73d70fe61774b05a550375b28972699",
               "owner": "Rebecca",
-              "campus": "",
+              "campus": "USF Health",
               "stage": "Backlog",
               "agingBand": "🟡 3–5",
               "department": "612200 - Dept Of OB/GY…"
@@ -7988,17 +8108,17 @@
               "reqId": "44517",
               "notionUrl": "https://www.notion.so/418456b5199f4fea891e92a8c8b8f015",
               "owner": "Rebecca",
-              "campus": "",
+              "campus": "USF Health",
               "stage": "Backlog",
               "agingBand": "🟡 3–5",
               "department": "613137 - Heart Institute…"
             },
             {
-              "title": "Health Learning Facilitat���",
+              "title": "Health Learning Facilitat…",
               "reqId": "44479",
               "notionUrl": "https://www.notion.so/79d0a6c0c9a2424a98f08c19510cc733",
               "owner": "Rebecca",
-              "campus": "",
+              "campus": "USF Health",
               "stage": "Backlog",
               "agingBand": "🟡 3–5",
               "department": "616300 - Health Informat…"
@@ -8008,7 +8128,7 @@
               "reqId": "44505",
               "notionUrl": "https://www.notion.so/7f2e8dcd542e4e9c9c762e4d2bf8b94f",
               "owner": "Rebecca",
-              "campus": "",
+              "campus": "USF Health",
               "stage": "Backlog",
               "agingBand": "🟡 3–5",
               "department": "638200 - Dept Of Pharma…"
@@ -8018,7 +8138,7 @@
               "reqId": "44504",
               "notionUrl": "https://www.notion.so/237e1fbaf9aa4642b86ce30d7863ed7c",
               "owner": "Rebecca",
-              "campus": "",
+              "campus": "USF Health",
               "stage": "Backlog",
               "agingBand": "🟡 3–5",
               "department": "612300 - Dept Of Interna…"
@@ -8028,7 +8148,7 @@
               "reqId": "44501",
               "notionUrl": "https://www.notion.so/0620082e033442758224d2152437aef6",
               "owner": "Rebecca",
-              "campus": "",
+              "campus": "USF Health",
               "stage": "Backlog",
               "agingBand": "🟡 3–5",
               "department": "612300 - Dept Of Interna…"
@@ -8038,7 +8158,7 @@
               "reqId": "44500",
               "notionUrl": "https://www.notion.so/f4f8db6787dc40b8922298b6d289c5f4",
               "owner": "Rebecca",
-              "campus": "",
+              "campus": "USF Health",
               "stage": "Backlog",
               "agingBand": "🟡 3–5",
               "department": "611900 - Department Of…"
@@ -8048,7 +8168,7 @@
               "reqId": "44491",
               "notionUrl": "https://www.notion.so/4f36c924ddcd4c689f2602b4cde043b9",
               "owner": "Rebecca",
-              "campus": "",
+              "campus": "USF Health",
               "stage": "Recruiter Review",
               "agingBand": "🟡 3–5",
               "department": "638000 - College Of Phar…"
@@ -8058,7 +8178,7 @@
               "reqId": "44515",
               "notionUrl": "https://www.notion.so/5b713cfdaa3443fe9b6bf56621061428",
               "owner": "Rebecca",
-              "campus": "",
+              "campus": "USF Health",
               "stage": "Backlog",
               "agingBand": "🟡 3–5",
               "department": "641400 - Lawton & Rhea…"
@@ -8068,7 +8188,7 @@
               "reqId": "44498",
               "notionUrl": "https://www.notion.so/30d9343a1bf741bea008fc373d194af2",
               "owner": "Rebecca",
-              "campus": "",
+              "campus": "USF Health",
               "stage": "Backlog",
               "agingBand": "🟡 3–5",
               "department": "610200 - MCOM Clinical…"
@@ -8078,7 +8198,7 @@
               "reqId": "44520",
               "notionUrl": "https://www.notion.so/8e794a1c01e3410fa01b39ff87f1d652",
               "owner": "Rebecca",
-              "campus": "",
+              "campus": "USF Health",
               "stage": "Backlog",
               "agingBand": "🟡 3–5",
               "department": "620100 - College Of Nurs…"
@@ -8111,8 +8231,8 @@
         },
         {
           "label": "HM Review",
-          "avgDays": 20,
-          "count": 25,
+          "avgDays": 19,
+          "count": 23,
           "color": "#534AB7"
         },
         {
@@ -8122,15 +8242,9 @@
           "color": "#D4880A"
         },
         {
-          "label": "Offer Stage",
-          "avgDays": 90,
-          "count": 1,
-          "color": "#CFC483"
-        },
-        {
           "label": "Backlog",
-          "avgDays": 6,
-          "count": 19,
+          "avgDays": 13,
+          "count": 22,
           "color": "#888780"
         },
         {
@@ -8143,7 +8257,7 @@
       "statuses": [
         {
           "label": "Backlog",
-          "count": 27,
+          "count": 30,
           "color": "#888780"
         },
         {
@@ -8153,7 +8267,7 @@
         },
         {
           "label": "HM Review",
-          "count": 164,
+          "count": 162,
           "color": "#534AB7"
         },
         {
@@ -8173,7 +8287,7 @@
         },
         {
           "label": "Interview Stage",
-          "count": 3,
+          "count": 2,
           "color": "#D4880A"
         },
         {
@@ -8188,7 +8302,7 @@
         },
         {
           "label": "Offer Stage",
-          "count": 13,
+          "count": 12,
           "color": "#CFC483"
         }
       ],
@@ -8199,7 +8313,7 @@
           "color": "#6E1414",
           "bgLight": "#F0CFCF",
           "bgDark": "#2e0f0f",
-          "count": 3
+          "count": 6
         },
         {
           "label": "🔴 15–30",
@@ -8237,7 +8351,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 257
+          "count": 256
         },
         {
           "label": "Screened",
@@ -8245,21 +8359,21 @@
         },
         {
           "label": "HM Review",
-          "count": 164
+          "count": 162
         },
         {
           "label": "Interviews",
-          "count": 3
+          "count": 2
         },
         {
           "label": "Offer",
-          "count": 13
+          "count": 12
         }
       ],
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 130,
+          "value": 131,
           "target": 10,
           "invert": false
         },
@@ -8277,7 +8391,7 @@
         },
         {
           "label": "Interviews",
-          "value": 3,
+          "value": 2,
           "target": 420,
           "invert": false
         }
@@ -8299,10 +8413,10 @@
       "bgLight": "#e3f2fd",
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
-      "reqs": 204,
-      "activeReqs": 78,
+      "reqs": 210,
+      "activeReqs": 83,
       "filled": 109,
-      "failed": 17,
+      "failed": 18,
       "ttf": 62,
       "wip": 0,
       "agingRecords": [
@@ -8476,16 +8590,6 @@
               "department": "213400 - Inst Of Applied Engineering"
             },
             {
-              "title": "Media Resources Specialist",
-              "reqId": "43473",
-              "notionUrl": "https://www.notion.so/b531e03b4a3645f5ab2a0ac1ee2e4a9b",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Interview Stage",
-              "agingBand": "🔴 6–14",
-              "department": "042700 - Marshall Student Center"
-            },
-            {
               "title": "Cyber Security Analyst II",
               "reqId": "43254",
               "notionUrl": "https://www.notion.so/40207259158b465588fac3ea4a5eba6c",
@@ -8502,16 +8606,6 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "records": [
-            {
-              "title": "Financial Aid Assistant",
-              "reqId": "44476",
-              "notionUrl": "https://www.notion.so/cd3291d6a940476c83b344fb2ce74495",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Backlog",
-              "agingBand": "🟡 3–5",
-              "department": "373000 - Financial Aid"
-            },
             {
               "title": "HIPAA Privacy Investigator & Operations Administrator",
               "reqId": "44486",
@@ -8558,7 +8652,68 @@
           "band": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
-          "records": []
+          "records": [
+            {
+              "title": "IAE Accountant I",
+              "reqId": "44511",
+              "notionUrl": "https://www.notion.so/d4f8600a70fa4b62b0eb0ec6741fb14f",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "213400 - Inst Of Applied Engineering"
+            },
+            {
+              "title": "International Program Administrator I",
+              "reqId": "44512",
+              "notionUrl": "https://www.notion.so/8c418eebee2c413395fcd30f03fbd109",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "490000 - USF World"
+            },
+            {
+              "title": "Fiscal & Business Specialist",
+              "reqId": "44499",
+              "notionUrl": "https://www.notion.so/593ca5445fc44d8ea9b8485466d47b00",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "020600 - University Controllers Office"
+            },
+            {
+              "title": "Student Programs Coordinator",
+              "reqId": "44509",
+              "notionUrl": "https://www.notion.so/ed40752835a44780826559c4f0dc9068",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "044100 - Ctr For Student Involvement"
+            },
+            {
+              "title": "Director of Industry to Campus Connection",
+              "reqId": "44519",
+              "notionUrl": "https://www.notion.so/7022a824b6ef4e989973efe3ea60c640",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "047700 - Career & Professional Dev"
+            },
+            {
+              "title": "Financial Aid Assistant",
+              "reqId": "44476",
+              "notionUrl": "https://www.notion.so/cd3291d6a940476c83b344fb2ce74495",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "373000 - Financial Aid"
+            }
+          ]
         }
       ],
       "stageMetrics": [
@@ -8571,7 +8726,7 @@
         {
           "label": "Interview Stage",
           "avgDays": 13,
-          "count": 3,
+          "count": 2,
           "color": "#D4880A"
         },
         {
@@ -8588,16 +8743,31 @@
         },
         {
           "label": "Backlog",
-          "avgDays": 16,
-          "count": 5,
+          "avgDays": 19,
+          "count": 4,
           "color": "#888780"
         }
       ],
       "statuses": [
         {
-          "label": "Backlog",
+          "label": "Recruiter Review",
           "count": 5,
+          "color": "#006747"
+        },
+        {
+          "label": "Passive Hiring",
+          "count": 13,
+          "color": "#1B6A9C"
+        },
+        {
+          "label": "Backlog",
+          "count": 8,
           "color": "#888780"
+        },
+        {
+          "label": "HM Review",
+          "count": 3,
+          "color": "#534AB7"
         },
         {
           "label": "Evergreen / Continuous Pool",
@@ -8610,28 +8780,13 @@
           "color": "#B5651D"
         },
         {
-          "label": "Passive Hiring",
-          "count": 12,
-          "color": "#1B6A9C"
-        },
-        {
-          "label": "Recruiter Review",
-          "count": 4,
-          "color": "#006747"
-        },
-        {
           "label": "Pre-boarding",
           "count": 18,
           "color": "#5B8FA8"
         },
         {
-          "label": "HM Review",
-          "count": 2,
-          "color": "#534AB7"
-        },
-        {
           "label": "Interview Stage",
-          "count": 6,
+          "count": 5,
           "color": "#D4880A"
         },
         {
@@ -8663,7 +8818,7 @@
           "color": "#D0523F",
           "bgLight": "#FCE9E5",
           "bgDark": "#3d1a0f",
-          "count": 10
+          "count": 9
         },
         {
           "label": "🟡 3–5",
@@ -8671,7 +8826,7 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 5
+          "count": 4
         },
         {
           "label": "🟢 0–2",
@@ -8679,13 +8834,13 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 0
+          "count": 6
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 78
+          "count": 83
         },
         {
           "label": "Screened",
@@ -8693,11 +8848,11 @@
         },
         {
           "label": "HM Review",
-          "count": 2
+          "count": 3
         },
         {
           "label": "Interviews",
-          "count": 6
+          "count": 5
         },
         {
           "label": "Offer",
@@ -8720,13 +8875,13 @@
         {
           "label": "Screened",
           "value": 0,
-          "target": 204,
+          "target": 210,
           "invert": false
         },
         {
           "label": "Interviews",
-          "value": 6,
-          "target": 204,
+          "value": 5,
+          "target": 210,
           "invert": false
         }
       ],
@@ -8793,39 +8948,9 @@
               "department": "511724 - STP Secondary Education"
             },
             {
-              "title": "Unit Research Admin II",
-              "reqId": "44413",
-              "notionUrl": "https://www.notion.so/d8de3d232b484365a4eaf24d64ded8f5",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Backlog",
-              "agingBand": "🔴 6–14",
-              "department": "250000 - College of Marine Science"
-            },
-            {
-              "title": "Academic Services Administrator - Lead College Scheduler",
-              "reqId": "44221",
-              "notionUrl": "https://www.notion.so/9b90113a81364c14957e9dbf753ce865",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Offer Stage",
-              "agingBand": "🔴 6–14",
-              "department": "511413 - STP MCOB Unc"
-            },
-            {
               "title": "Fiscal & Business Specialist",
               "reqId": "44216",
               "notionUrl": "https://www.notion.so/38e792423e584dab9016ca44c74c161a",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🔴 6–14",
-              "department": "140105 - MCOB Financia"
-            },
-            {
-              "title": "Applications Developer I",
-              "reqId": "44220",
-              "notionUrl": "https://www.notion.so/286d495752c3430eb1f7066772febf9e",
               "owner": "Gabriel",
               "campus": "Tampa",
               "stage": "Pre-boarding",
@@ -8870,16 +8995,6 @@
               "department": "511255 - STP Psychology"
             },
             {
-              "title": "Academic Svcs. Administrator - Mechanical Eng",
-              "reqId": "44191",
-              "notionUrl": "https://www.notion.so/8969cc003995496488c89087857ac4e5",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Offer Stage",
-              "agingBand": "🟡 3–5",
-              "department": "210500 - Mechanical Engineering"
-            },
-            {
               "title": "Leadership and Student Organizations Coordinator",
               "reqId": "44079",
               "notionUrl": "https://www.notion.so/eaeda37817ed46af92feeb202ed01f60",
@@ -8895,7 +9010,28 @@
           "band": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
-          "records": []
+          "records": [
+            {
+              "title": "Unit Research Admin II",
+              "reqId": "44413",
+              "notionUrl": "https://www.notion.so/d8de3d232b484365a4eaf24d64ded8f5",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Sourced",
+              "agingBand": "🟢 0–2",
+              "department": "250000 - College of Marine Science"
+            },
+            {
+              "title": "Applications Developer I",
+              "reqId": "44220",
+              "notionUrl": "https://www.notion.so/286d495752c3430eb1f7066772febf9e",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Pre-boarding",
+              "agingBand": "🟢 0–2",
+              "department": "140105 - MCOB Financia"
+            }
+          ]
         }
       ],
       "stageMetrics": [
@@ -8912,28 +9048,22 @@
           "color": "#534AB7"
         },
         {
-          "label": "Offer Stage",
-          "avgDays": 8,
-          "count": 2,
-          "color": "#CFC483"
-        },
-        {
           "label": "Pre-boarding",
-          "avgDays": 10,
-          "count": 5,
+          "avgDays": 11,
+          "count": 4,
           "color": "#5B8FA8"
         },
         {
           "label": "Backlog",
-          "avgDays": 9,
-          "count": 2,
+          "avgDays": 7,
+          "count": 1,
           "color": "#888780"
         }
       ],
       "statuses": [
         {
           "label": "Backlog",
-          "count": 2,
+          "count": 1,
           "color": "#888780"
         },
         {
@@ -8945,6 +9075,11 @@
           "label": "HM Review",
           "count": 1,
           "color": "#534AB7"
+        },
+        {
+          "label": "Sourced",
+          "count": 1,
+          "color": "#00A693"
         },
         {
           "label": "Evergreen / Continuous Pool",
@@ -8963,7 +9098,7 @@
         },
         {
           "label": "Passive Hiring",
-          "count": 11,
+          "count": 13,
           "color": "#1B6A9C"
         },
         {
@@ -8972,19 +9107,9 @@
           "color": "#993556"
         },
         {
-          "label": "Offer Stage",
-          "count": 2,
-          "color": "#CFC483"
-        },
-        {
           "label": "Targeted Hiring",
-          "count": 2,
+          "count": 3,
           "color": "#3A5A6A"
-        },
-        {
-          "label": "Interview Stage",
-          "count": 1,
-          "color": "#D4880A"
         }
       ],
       "aging": [
@@ -9010,7 +9135,7 @@
           "color": "#D0523F",
           "bgLight": "#FCE9E5",
           "bgDark": "#3d1a0f",
-          "count": 5
+          "count": 2
         },
         {
           "label": "🟡 3–5",
@@ -9018,7 +9143,7 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 5
+          "count": 4
         },
         {
           "label": "🟢 0–2",
@@ -9026,7 +9151,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 0
+          "count": 2
         }
       ],
       "funnel": [
@@ -9044,11 +9169,11 @@
         },
         {
           "label": "Interviews",
-          "count": 1
+          "count": 0
         },
         {
           "label": "Offer",
-          "count": 2
+          "count": 0
         }
       ],
       "goals": [
@@ -9072,7 +9197,7 @@
         },
         {
           "label": "Interviews",
-          "value": 1,
+          "value": 0,
           "target": 175,
           "invert": false
         }
@@ -9498,6 +9623,12 @@
           "band": "🟡 3–5",
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
+          "records": []
+        },
+        {
+          "band": "🟢 0–2",
+          "color": "#3B6D11",
+          "bgLight": "#EAF3DE",
           "records": [
             {
               "title": "Research Support Assistant",
@@ -9506,16 +9637,10 @@
               "owner": "Aidi",
               "campus": "Tampa",
               "stage": "Offer Stage",
-              "agingBand": "🟡 3–5",
+              "agingBand": "🟢 0–2",
               "department": "171500 - Educational And Psychological"
             }
           ]
-        },
-        {
-          "band": "🟢 0–2",
-          "color": "#3B6D11",
-          "bgLight": "#EAF3DE",
-          "records": []
         }
       ],
       "stageMetrics": [
@@ -9536,12 +9661,6 @@
           "avgDays": 12,
           "count": 1,
           "color": "#D4880A"
-        },
-        {
-          "label": "Offer Stage",
-          "avgDays": 5,
-          "count": 1,
-          "color": "#CFC483"
         },
         {
           "label": "Pre-boarding",
@@ -9633,7 +9752,7 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 1
+          "count": 0
         },
         {
           "label": "🟢 0–2",
@@ -9641,7 +9760,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 0
+          "count": 1
         }
       ],
       "funnel": [
