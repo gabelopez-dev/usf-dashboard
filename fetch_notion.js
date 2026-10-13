@@ -293,6 +293,29 @@ async function main() {
   };
   const stageOrder = ['Sourced','Recruiter Review','HM Review','Interview Stage','Offer Stage','Pre-boarding'];
 
+  // BEGIN typeBreakdowns
+  // Pipeline vs. Reqs by Type (Oct 2026). Pipeline = Active req type only, counted by Stage.
+  // Reqs by Type = every open req counted by its Req Type field, so the card adds up to Open Reqs.
+  // Stage names alone can't separate these: e.g. HM Review also holds Evergreen, Passive and Student reqs.
+  const reqTypeColors = {
+    'Active': '#004d35', 'Passive': '#1B6A9C', 'Evergreen': '#6B8E4E',
+    'Student': '#B5651D', 'Faculty': '#993556', 'Targeted': '#3A5A6A', 'Unassigned': '#c8c7c2'
+  };
+  const countBy = (recs, keyFn, colorFn) => Object.entries(
+    recs.reduce((acc, r) => { const k = keyFn(r); acc[k] = (acc[k] || 0) + 1; return acc; }, {})
+  ).sort((a, b) => b[1] - a[1]).map(([label, count]) => ({ label, count, color: colorFn(label) }));
+  const typeBreakdowns = recs => ({
+    activeFunnel: countBy(
+      recs.filter(r => reqTypeNormalize(getProp(r, 'Req Type', 'select')) === 'Active'),
+      r => getProp(r, 'Stage', 'select') || 'No Stage',
+      l => stageColors[l] || '#888780'),
+    reqTypes: countBy(
+      recs,
+      r => reqTypeNormalize(getProp(r, 'Req Type', 'select')) || 'Unassigned',
+      l => reqTypeColors[l] || '#888780')
+  });
+  // END typeBreakdowns
+
   const recruiters = recruiterNames.map(name => {
     const meta = recruiterMeta[name];
     const identifiers = recruiterIdentifiers[name];
@@ -400,6 +423,7 @@ async function main() {
           );
       })(),
       statuses, aging, funnel,
+      ...typeBreakdowns(myActive),
       goals: [
         { label: 'Reqs filled', value: filled, target: 10, invert: false },
         { label: 'Time to fill', value: avgTTF, target: 40, invert: true },
@@ -625,6 +649,7 @@ async function main() {
     )
     .sort((a, b) => b[1] - a[1])
     .map(([label, count]) => ({ label, count, color: stageColors[label] || '#888780' })),
+    ...typeBreakdowns(activeRecords),
     mainAging: agingBands.map(band => ({
       ...band,
       count: activeRecords.filter(r => matchAgingBand(computeAgingBand(r), band.label)).length
