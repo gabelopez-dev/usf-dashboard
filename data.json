@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-13T19:26:19.081Z",
+  "lastUpdated": "2026-10-13T21:25:36.609Z",
   "summary": {
     "openReqs": 605,
     "avgTimeToFill": 81,
@@ -62,7 +62,7 @@
     },
     {
       "label": "Recruiter Review",
-      "count": 35,
+      "count": 36,
       "color": "#006747"
     },
     {
@@ -82,7 +82,7 @@
     },
     {
       "label": "Sourced",
-      "count": 10,
+      "count": 9,
       "color": "#00A693"
     },
     {
@@ -94,6 +94,85 @@
       "label": "Targeted Hiring",
       "count": 9,
       "color": "#3A5A6A"
+    }
+  ],
+  "activeFunnel": [
+    {
+      "label": "Backlog",
+      "count": 35,
+      "color": "#888780"
+    },
+    {
+      "label": "Recruiter Review",
+      "count": 32,
+      "color": "#006747"
+    },
+    {
+      "label": "HM Review",
+      "count": 32,
+      "color": "#534AB7"
+    },
+    {
+      "label": "Pre-boarding",
+      "count": 11,
+      "color": "#5B8FA8"
+    },
+    {
+      "label": "Interview Stage",
+      "count": 5,
+      "color": "#D4880A"
+    },
+    {
+      "label": "Offer Stage",
+      "count": 4,
+      "color": "#CFC483"
+    },
+    {
+      "label": "Sourced",
+      "count": 3,
+      "color": "#00A693"
+    },
+    {
+      "label": "Targeted Hiring",
+      "count": 1,
+      "color": "#3A5A6A"
+    }
+  ],
+  "reqTypes": [
+    {
+      "label": "Passive",
+      "count": 241,
+      "color": "#1B6A9C"
+    },
+    {
+      "label": "Active",
+      "count": 123,
+      "color": "#004d35"
+    },
+    {
+      "label": "Evergreen",
+      "count": 119,
+      "color": "#6B8E4E"
+    },
+    {
+      "label": "Student",
+      "count": 61,
+      "color": "#B5651D"
+    },
+    {
+      "label": "Faculty",
+      "count": 48,
+      "color": "#993556"
+    },
+    {
+      "label": "Targeted",
+      "count": 11,
+      "color": "#3A5A6A"
+    },
+    {
+      "label": "Unassigned",
+      "count": 2,
+      "color": "#c8c7c2"
     }
   ],
   "mainAging": [
@@ -1328,7 +1407,7 @@
           "notionUrl": "https://www.notion.so/01776ccb59e04627b02ba932de3fc2b0",
           "owner": "Gabriel",
           "campus": "Key West",
-          "stage": "Sourced",
+          "stage": "Recruiter Review",
           "agingBand": "🟢 0–2",
           "department": "471000 - Florida Inst of Oceanography"
         },
@@ -1508,12 +1587,6 @@
     }
   ],
   "stageMetrics": [
-    {
-      "label": "Sourced",
-      "avgDays": 1,
-      "count": 1,
-      "color": "#00A693"
-    },
     {
       "label": "Recruiter Review",
       "avgDays": 18,
@@ -7624,6 +7697,19 @@
           "count": 0
         }
       ],
+      "activeFunnel": [],
+      "reqTypes": [
+        {
+          "label": "Passive",
+          "count": 30,
+          "color": "#1B6A9C"
+        },
+        {
+          "label": "Faculty",
+          "count": 1,
+          "color": "#993556"
+        }
+      ],
       "goals": [
         {
           "label": "Reqs filled",
@@ -8517,6 +8603,60 @@
           "count": 12
         }
       ],
+      "activeFunnel": [
+        {
+          "label": "HM Review",
+          "count": 23,
+          "color": "#534AB7"
+        },
+        {
+          "label": "Backlog",
+          "count": 22,
+          "color": "#888780"
+        },
+        {
+          "label": "Recruiter Review",
+          "count": 19,
+          "color": "#006747"
+        },
+        {
+          "label": "Targeted Hiring",
+          "count": 1,
+          "color": "#3A5A6A"
+        },
+        {
+          "label": "Interview Stage",
+          "count": 1,
+          "color": "#D4880A"
+        }
+      ],
+      "reqTypes": [
+        {
+          "label": "Evergreen",
+          "count": 96,
+          "color": "#6B8E4E"
+        },
+        {
+          "label": "Passive",
+          "count": 69,
+          "color": "#1B6A9C"
+        },
+        {
+          "label": "Active",
+          "count": 66,
+          "color": "#004d35"
+        },
+        {
+          "label": "Student",
+          "count": 22,
+          "color": "#B5651D"
+        },
+        {
+          "label": "Targeted",
+          "count": 3,
+          "color": "#3A5A6A"
+        }
+      ],
       "goals": [
         {
           "label": "Reqs filled",
@@ -8930,6 +9070,55 @@
           "count": 5
         }
       ],
+      "activeFunnel": [
+        {
+          "label": "Recruiter Review",
+          "count": 8,
+          "color": "#006747"
+        },
+        {
+          "label": "HM Review",
+          "count": 4,
+          "color": "#534AB7"
+        },
+        {
+          "label": "Pre-boarding",
+          "count": 4,
+          "color": "#5B8FA8"
+        },
+        {
+          "label": "Offer Stage",
+          "count": 2,
+          "color": "#CFC483"
+        },
+        {
+          "label": "Interview Stage",
+          "count": 1,
+          "color": "#D4880A"
+        }
+      ],
+      "reqTypes": [
+        {
+          "label": "Passive",
+          "count": 21,
+          "color": "#1B6A9C"
+        },
+        {
+          "label": "Student",
+          "count": 20,
+          "color": "#B5651D"
+        },
+        {
+          "label": "Active",
+          "count": 19,
+          "color": "#004d35"
+        },
+        {
+          "label": "Evergreen",
+          "count": 14,
+          "color": "#6B8E4E"
+        }
+      ],
       "goals": [
         {
           "label": "Reqs filled",
@@ -9148,7 +9337,7 @@
               "notionUrl": "https://www.notion.so/01776ccb59e04627b02ba932de3fc2b0",
               "owner": "Gabriel",
               "campus": "Key West",
-              "stage": "Sourced",
+              "stage": "Recruiter Review",
               "agingBand": "🟢 0–2",
               "department": "471000 - Florida Inst of Oceanography"
             },
@@ -9197,12 +9386,6 @@
       ],
       "stageMetrics": [
         {
-          "label": "Sourced",
-          "avgDays": 1,
-          "count": 1,
-          "color": "#00A693"
-        },
-        {
           "label": "Recruiter Review",
           "avgDays": 4,
           "count": 1,
@@ -9229,12 +9412,12 @@
         },
         {
           "label": "Sourced",
-          "count": 4,
+          "count": 3,
           "color": "#00A693"
         },
         {
           "label": "Recruiter Review",
-          "count": 1,
+          "count": 2,
           "color": "#006747"
         },
         {
@@ -9345,6 +9528,75 @@
         {
           "label": "Offer",
           "count": 1
+        }
+      ],
+      "activeFunnel": [
+        {
+          "label": "Pre-boarding",
+          "count": 5,
+          "color": "#5B8FA8"
+        },
+        {
+          "label": "HM Review",
+          "count": 4,
+          "color": "#534AB7"
+        },
+        {
+          "label": "Sourced",
+          "count": 3,
+          "color": "#00A693"
+        },
+        {
+          "label": "Backlog",
+          "count": 2,
+          "color": "#888780"
+        },
+        {
+          "label": "Recruiter Review",
+          "count": 2,
+          "color": "#006747"
+        },
+        {
+          "label": "Offer Stage",
+          "count": 1,
+          "color": "#CFC483"
+        },
+        {
+          "label": "Interview Stage",
+          "count": 1,
+          "color": "#D4880A"
+        }
+      ],
+      "reqTypes": [
+        {
+          "label": "Faculty",
+          "count": 25,
+          "color": "#993556"
+        },
+        {
+          "label": "Active",
+          "count": 18,
+          "color": "#004d35"
+        },
+        {
+          "label": "Evergreen",
+          "count": 7,
+          "color": "#6B8E4E"
+        },
+        {
+          "label": "Passive",
+          "count": 7,
+          "color": "#1B6A9C"
+        },
+        {
+          "label": "Student",
+          "count": 5,
+          "color": "#B5651D"
+        },
+        {
+          "label": "Targeted",
+          "count": 3,
+          "color": "#3A5A6A"
         }
       ],
       "goals": [
@@ -9680,6 +9932,55 @@
           "count": 0
         }
       ],
+      "activeFunnel": [
+        {
+          "label": "Backlog",
+          "count": 10,
+          "color": "#888780"
+        },
+        {
+          "label": "Recruiter Review",
+          "count": 2,
+          "color": "#006747"
+        },
+        {
+          "label": "Pre-boarding",
+          "count": 1,
+          "color": "#5B8FA8"
+        }
+      ],
+      "reqTypes": [
+        {
+          "label": "Passive",
+          "count": 107,
+          "color": "#1B6A9C"
+        },
+        {
+          "label": "Active",
+          "count": 13,
+          "color": "#004d35"
+        },
+        {
+          "label": "Student",
+          "count": 11,
+          "color": "#B5651D"
+        },
+        {
+          "label": "Faculty",
+          "count": 4,
+          "color": "#993556"
+        },
+        {
+          "label": "Targeted",
+          "count": 2,
+          "color": "#3A5A6A"
+        },
+        {
+          "label": "Evergreen",
+          "count": 1,
+          "color": "#6B8E4E"
+        }
+      ],
       "goals": [
         {
           "label": "Reqs filled",
@@ -9973,6 +10274,70 @@
         {
           "label": "Offer",
           "count": 1
+        }
+      ],
+      "activeFunnel": [
+        {
+          "label": "Interview Stage",
+          "count": 2,
+          "color": "#D4880A"
+        },
+        {
+          "label": "Recruiter Review",
+          "count": 1,
+          "color": "#006747"
+        },
+        {
+          "label": "Backlog",
+          "count": 1,
+          "color": "#888780"
+        },
+        {
+          "label": "Offer Stage",
+          "count": 1,
+          "color": "#CFC483"
+        },
+        {
+          "label": "HM Review",
+          "count": 1,
+          "color": "#534AB7"
+        },
+        {
+          "label": "Pre-boarding",
+          "count": 1,
+          "color": "#5B8FA8"
+        }
+      ],
+      "reqTypes": [
+        {
+          "label": "Faculty",
+          "count": 18,
+          "color": "#993556"
+        },
+        {
+          "label": "Active",
+          "count": 7,
+          "color": "#004d35"
+        },
+        {
+          "label": "Passive",
+          "count": 7,
+          "color": "#1B6A9C"
+        },
+        {
+          "label": "Targeted",
+          "count": 3,
+          "color": "#3A5A6A"
+        },
+        {
+          "label": "Student",
+          "count": 3,
+          "color": "#B5651D"
+        },
+        {
+          "label": "Evergreen",
+          "count": 1,
+          "color": "#6B8E4E"
         }
       ],
       "goals": [
