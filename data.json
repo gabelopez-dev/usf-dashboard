@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-10-14T15:24:13.387Z",
+  "lastUpdated": "2026-10-14T19:36:14.761Z",
   "summary": {
-    "openReqs": 605,
+    "openReqs": 604,
     "avgTimeToFill": 81,
-    "filledYTD": 368,
+    "filledYTD": 369,
     "failedCancelled": 67,
     "inOfferStage": 8
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 306,
+      "count": 305,
       "color": "#1B6A9C"
     },
     {
@@ -72,18 +72,18 @@
     },
     {
       "label": "Pre-boarding",
-      "count": 15,
+      "count": 14,
       "color": "#5B8FA8"
+    },
+    {
+      "label": "Interview Stage",
+      "count": 9,
+      "color": "#D4880A"
     },
     {
       "label": "Offer Stage",
       "count": 8,
       "color": "#CFC483"
-    },
-    {
-      "label": "Interview Stage",
-      "count": 8,
-      "color": "#D4880A"
     },
     {
       "label": "Targeted Hiring",
@@ -92,7 +92,7 @@
     },
     {
       "label": "Sourced",
-      "count": 3,
+      "count": 2,
       "color": "#00A693"
     }
   ],
@@ -119,7 +119,7 @@
     },
     {
       "label": "Interview Stage",
-      "count": 5,
+      "count": 6,
       "color": "#D4880A"
     },
     {
@@ -129,7 +129,7 @@
     },
     {
       "label": "Sourced",
-      "count": 3,
+      "count": 2,
       "color": "#00A693"
     },
     {
@@ -156,7 +156,7 @@
     },
     {
       "label": "Student",
-      "count": 61,
+      "count": 60,
       "color": "#B5651D"
     },
     {
@@ -198,7 +198,7 @@
       "color": "#D0523F",
       "bgLight": "#FCE9E5",
       "bgDark": "#3d1a0f",
-      "count": 24
+      "count": 23
     },
     {
       "label": "🟡 3–5",
@@ -206,7 +206,7 @@
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 1
+      "count": 0
     },
     {
       "label": "🟢 0–2",
@@ -214,7 +214,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 33
+      "count": 35
     }
   ],
   "agingRecords": [
@@ -1068,16 +1068,6 @@
           "department": "638200 - Dept Of Pharmacy"
         },
         {
-          "title": "Transit Safety Consultant - CUTR",
-          "reqId": "44407",
-          "notionUrl": "https://www.notion.so/fdf31ec5654f4ee9b57ecc6976f0f18d",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "HM Review",
-          "agingBand": "🔴 6–14",
-          "department": "211700 - Ctr For Urban Transportation Research"
-        },
-        {
           "title": "Manager Project Research",
           "reqId": "44375",
           "notionUrl": "https://www.notion.so/b54398b0207c448e9901746386706684",
@@ -1133,18 +1123,7 @@
       "band": "🟡 3–5",
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
-      "records": [
-        {
-          "title": "Nault Center for Entrepreneurship: Communications and Marketing Officer",
-          "reqId": "44463",
-          "notionUrl": "https://www.notion.so/fc50ca7098fc45ef945356c58e2ab5d0",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🟡 3–5",
-          "department": "141500 - Center For Entrepreneurship"
-        }
-      ]
+      "records": []
     },
     {
       "band": "🟢 0–2",
@@ -1177,7 +1156,7 @@
           "notionUrl": "https://www.notion.so/238dafc2df194fb487cd960c2f1ca4b7",
           "owner": "Gabriel",
           "campus": "Tampa",
-          "stage": "Sourced",
+          "stage": "Recruiter Review",
           "agingBand": "🟢 0–2",
           "department": "211700 - Ctr For Urban Transportation Research"
         },
@@ -1292,6 +1271,16 @@
           "department": "511724 - STP Secondary Education"
         },
         {
+          "title": "Nault Center for Entrepreneurship: Communications and Marketing Officer",
+          "reqId": "44463",
+          "notionUrl": "https://www.notion.so/fc50ca7098fc45ef945356c58e2ab5d0",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "141500 - Center For Entrepreneurship"
+        },
+        {
           "title": "Research Support Assistant",
           "reqId": "44440",
           "notionUrl": "https://www.notion.so/bddf55379d3342aaa77f3a2b83e41b1d",
@@ -1320,6 +1309,16 @@
           "stage": "Recruiter Review",
           "agingBand": "🟢 0–2",
           "department": "020600 - University Controllers Office"
+        },
+        {
+          "title": "Transit Safety Consultant - CUTR",
+          "reqId": "44407",
+          "notionUrl": "https://www.notion.so/fdf31ec5654f4ee9b57ecc6976f0f18d",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Interview Stage",
+          "agingBand": "🟢 0–2",
+          "department": "211700 - Ctr For Urban Transportation Research"
         },
         {
           "title": "Unit Research Admin II",
@@ -1407,7 +1406,7 @@
           "notionUrl": "https://www.notion.so/01776ccb59e04627b02ba932de3fc2b0",
           "owner": "Gabriel",
           "campus": "Key West",
-          "stage": "Recruiter Review",
+          "stage": "HM Review",
           "agingBand": "🟢 0–2",
           "department": "471000 - Florida Inst of Oceanography"
         },
@@ -1582,7 +1581,7 @@
     },
     {
       "label": "Other (173 depts)",
-      "count": 331,
+      "count": 330,
       "color": "#c8c7c2"
     }
   ],
@@ -1590,19 +1589,19 @@
     {
       "label": "Sourced",
       "avgDays": 1,
-      "count": 3,
+      "count": 2,
       "color": "#00A693"
     },
     {
       "label": "Recruiter Review",
       "avgDays": 16,
-      "count": 32,
+      "count": 30,
       "color": "#006747"
     },
     {
       "label": "HM Review",
-      "avgDays": 15,
-      "count": 32,
+      "avgDays": 16,
+      "count": 31,
       "color": "#534AB7"
     },
     {
@@ -5345,6 +5344,17 @@
       "notionUrl": "https://www.notion.so/60e24f32a5664897ab4698f003546560"
     },
     {
+      "title": "FWS Student Assistant",
+      "reqId": "44307",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "020600 - University Controllers Office",
+      "reqType": "Student",
+      "ttf": 43,
+      "notionUrl": "https://www.notion.so/3878871375ac45649fbebeacce9d18ea"
+    },
+    {
       "title": "Hyperbaric Technician I",
       "reqId": "43910",
       "owner": "Rebecca",
@@ -7189,6 +7199,13 @@
         "fillRatePct": 100
       },
       {
+        "department": "020600 - University Controllers Office",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
         "department": "633000 - Hyperbaric Oxy",
         "filled": 0,
         "failed": 0,
@@ -7373,7 +7390,7 @@
       {
         "reqType": "Student",
         "avgDays": 69,
-        "count": 45
+        "count": 46
       },
       {
         "reqType": "Passive",
@@ -7400,7 +7417,7 @@
       {
         "campus": "Tampa",
         "avgDays": 65,
-        "count": 166
+        "count": 167
       },
       {
         "campus": "USF Health",
@@ -7497,9 +7514,9 @@
       {
         "recruiter": "Gabriel",
         "color": "#00A693",
-        "stalled": 3,
+        "stalled": 2,
         "totalActive": 18,
-        "stallRatePct": 17
+        "stallRatePct": 11
       },
       {
         "recruiter": "Katherine",
@@ -8707,8 +8724,8 @@
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
       "reqs": 210,
-      "activeReqs": 74,
-      "filled": 118,
+      "activeReqs": 73,
+      "filled": 119,
       "failed": 18,
       "ttf": 62,
       "wip": 0,
@@ -8965,7 +8982,7 @@
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 16,
+          "avgDays": 17,
           "count": 4,
           "color": "#5B8FA8"
         }
@@ -8998,7 +9015,7 @@
         },
         {
           "label": "Pre-boarding",
-          "count": 9,
+          "count": 8,
           "color": "#5B8FA8"
         },
         {
@@ -9057,7 +9074,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 74
+          "count": 73
         },
         {
           "label": "Screened",
@@ -9110,14 +9127,14 @@
           "color": "#1B6A9C"
         },
         {
-          "label": "Student",
-          "count": 20,
-          "color": "#B5651D"
-        },
-        {
           "label": "Active",
           "count": 19,
           "color": "#004d35"
+        },
+        {
+          "label": "Student",
+          "count": 19,
+          "color": "#B5651D"
         },
         {
           "label": "Evergreen",
@@ -9128,7 +9145,7 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 118,
+          "value": 119,
           "target": 10,
           "invert": false
         },
@@ -9173,7 +9190,7 @@
       "filled": 103,
       "failed": 11,
       "ttf": 52,
-      "wip": 6,
+      "wip": 4,
       "agingRecords": [
         {
           "band": "🔴 31+",
@@ -9212,35 +9229,13 @@
           "band": "🔴 6–14",
           "color": "#D0523F",
           "bgLight": "#FCE9E5",
-          "records": [
-            {
-              "title": "Transit Safety Consultant - CUTR",
-              "reqId": "44407",
-              "notionUrl": "https://www.notion.so/fdf31ec5654f4ee9b57ecc6976f0f18d",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "HM Review",
-              "agingBand": "🔴 6–14",
-              "department": "211700 - Ctr For Urban Transportation Research"
-            }
-          ]
+          "records": []
         },
         {
           "band": "🟡 3–5",
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
-          "records": [
-            {
-              "title": "Nault Center for Entrepreneurship: Communications and Marketing Officer",
-              "reqId": "44463",
-              "notionUrl": "https://www.notion.so/fc50ca7098fc45ef945356c58e2ab5d0",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🟡 3–5",
-              "department": "141500 - Center For Entrepreneurship"
-            }
-          ]
+          "records": []
         },
         {
           "band": "🟢 0–2",
@@ -9273,7 +9268,7 @@
               "notionUrl": "https://www.notion.so/238dafc2df194fb487cd960c2f1ca4b7",
               "owner": "Gabriel",
               "campus": "Tampa",
-              "stage": "Sourced",
+              "stage": "Recruiter Review",
               "agingBand": "🟢 0–2",
               "department": "211700 - Ctr For Urban Transportation Research"
             },
@@ -9296,6 +9291,26 @@
               "stage": "Sourced",
               "agingBand": "🟢 0–2",
               "department": "511724 - STP Secondary Education"
+            },
+            {
+              "title": "Nault Center for Entrepreneurship: Communications and Marketing Officer",
+              "reqId": "44463",
+              "notionUrl": "https://www.notion.so/fc50ca7098fc45ef945356c58e2ab5d0",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "141500 - Center For Entrepreneurship"
+            },
+            {
+              "title": "Transit Safety Consultant - CUTR",
+              "reqId": "44407",
+              "notionUrl": "https://www.notion.so/fdf31ec5654f4ee9b57ecc6976f0f18d",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Interview Stage",
+              "agingBand": "🟢 0–2",
+              "department": "211700 - Ctr For Urban Transportation Research"
             },
             {
               "title": "Unit Research Admin II",
@@ -9343,7 +9358,7 @@
               "notionUrl": "https://www.notion.so/01776ccb59e04627b02ba932de3fc2b0",
               "owner": "Gabriel",
               "campus": "Key West",
-              "stage": "Recruiter Review",
+              "stage": "HM Review",
               "agingBand": "🟢 0–2",
               "department": "471000 - Florida Inst of Oceanography"
             },
@@ -9394,19 +9409,13 @@
         {
           "label": "Sourced",
           "avgDays": 1,
-          "count": 3,
+          "count": 2,
           "color": "#00A693"
         },
         {
-          "label": "Recruiter Review",
-          "avgDays": 3,
-          "count": 2,
-          "color": "#006747"
-        },
-        {
           "label": "HM Review",
-          "avgDays": 3,
-          "count": 4,
+          "avgDays": 1,
+          "count": 3,
           "color": "#534AB7"
         },
         {
@@ -9441,19 +9450,19 @@
           "color": "#888780"
         },
         {
-          "label": "Sourced",
-          "count": 3,
-          "color": "#00A693"
-        },
-        {
           "label": "Recruiter Review",
           "count": 2,
           "color": "#006747"
         },
         {
-          "label": "HM Review",
-          "count": 4,
-          "color": "#534AB7"
+          "label": "Sourced",
+          "count": 2,
+          "color": "#00A693"
+        },
+        {
+          "label": "Interview Stage",
+          "count": 2,
+          "color": "#D4880A"
         },
         {
           "label": "Evergreen / Continuous Pool",
@@ -9471,6 +9480,11 @@
           "color": "#5B8FA8"
         },
         {
+          "label": "HM Review",
+          "count": 4,
+          "color": "#534AB7"
+        },
+        {
           "label": "Faculty Hiring",
           "count": 25,
           "color": "#993556"
@@ -9484,11 +9498,6 @@
           "label": "Offer Stage",
           "count": 1,
           "color": "#CFC483"
-        },
-        {
-          "label": "Interview Stage",
-          "count": 1,
-          "color": "#D4880A"
         },
         {
           "label": "Passive Hiring",
@@ -9519,7 +9528,7 @@
           "color": "#D0523F",
           "bgLight": "#FCE9E5",
           "bgDark": "#3d1a0f",
-          "count": 1
+          "count": 0
         },
         {
           "label": "🟡 3–5",
@@ -9527,7 +9536,7 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 1
+          "count": 0
         },
         {
           "label": "🟢 0–2",
@@ -9535,7 +9544,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 14
+          "count": 16
         }
       ],
       "funnel": [
@@ -9553,7 +9562,7 @@
         },
         {
           "label": "Interviews",
-          "count": 1
+          "count": 2
         },
         {
           "label": "Offer",
@@ -9562,14 +9571,14 @@
       ],
       "activeFunnel": [
         {
-          "label": "HM Review",
-          "count": 4,
-          "color": "#534AB7"
-        },
-        {
           "label": "Pre-boarding",
           "count": 4,
           "color": "#5B8FA8"
+        },
+        {
+          "label": "HM Review",
+          "count": 4,
+          "color": "#534AB7"
         },
         {
           "label": "Backlog",
@@ -9577,24 +9586,24 @@
           "color": "#888780"
         },
         {
-          "label": "Sourced",
-          "count": 3,
-          "color": "#00A693"
-        },
-        {
           "label": "Recruiter Review",
           "count": 2,
           "color": "#006747"
         },
         {
-          "label": "Offer Stage",
-          "count": 1,
-          "color": "#CFC483"
+          "label": "Sourced",
+          "count": 2,
+          "color": "#00A693"
         },
         {
           "label": "Interview Stage",
-          "count": 1,
+          "count": 2,
           "color": "#D4880A"
+        },
+        {
+          "label": "Offer Stage",
+          "count": 1,
+          "color": "#CFC483"
         }
       ],
       "reqTypes": [
@@ -9650,7 +9659,7 @@
         },
         {
           "label": "Interviews",
-          "value": 1,
+          "value": 2,
           "target": 179,
           "invert": false
         }
@@ -10192,7 +10201,7 @@
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 15,
+          "avgDays": 16,
           "count": 1,
           "color": "#5B8FA8"
         },
