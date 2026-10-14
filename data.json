@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2026-10-14T10:28:33.382Z",
+  "lastUpdated": "2026-10-14T15:24:13.387Z",
   "summary": {
     "openReqs": 605,
     "avgTimeToFill": 81,
-    "filledYTD": 367,
+    "filledYTD": 368,
     "failedCancelled": 67,
-    "inOfferStage": 20
+    "inOfferStage": 8
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 305,
+      "count": 306,
       "color": "#1B6A9C"
     },
     {
       "label": "St Pete",
-      "count": 29,
+      "count": 28,
       "color": "#006747"
     },
     {
@@ -37,13 +37,18 @@
   "mainFunnel": [
     {
       "label": "Passive Hiring",
-      "count": 173,
+      "count": 240,
       "color": "#1B6A9C"
     },
     {
       "label": "HM Review",
-      "count": 173,
+      "count": 128,
       "color": "#534AB7"
+    },
+    {
+      "label": "Student Hiring",
+      "count": 53,
+      "color": "#B5651D"
     },
     {
       "label": "Faculty Hiring",
@@ -51,18 +56,13 @@
       "color": "#993556"
     },
     {
-      "label": "Student Hiring",
-      "count": 45,
-      "color": "#B5651D"
-    },
-    {
       "label": "Backlog",
-      "count": 43,
+      "count": 36,
       "color": "#888780"
     },
     {
       "label": "Recruiter Review",
-      "count": 36,
+      "count": 34,
       "color": "#006747"
     },
     {
@@ -71,35 +71,35 @@
       "color": "#6B8E4E"
     },
     {
-      "label": "Offer Stage",
-      "count": 20,
-      "color": "#CFC483"
-    },
-    {
       "label": "Pre-boarding",
-      "count": 16,
+      "count": 15,
       "color": "#5B8FA8"
     },
     {
-      "label": "Sourced",
-      "count": 9,
-      "color": "#00A693"
+      "label": "Offer Stage",
+      "count": 8,
+      "color": "#CFC483"
     },
     {
       "label": "Interview Stage",
-      "count": 9,
+      "count": 8,
       "color": "#D4880A"
     },
     {
       "label": "Targeted Hiring",
-      "count": 9,
+      "count": 8,
       "color": "#3A5A6A"
+    },
+    {
+      "label": "Sourced",
+      "count": 3,
+      "color": "#00A693"
     }
   ],
   "activeFunnel": [
     {
       "label": "Backlog",
-      "count": 35,
+      "count": 36,
       "color": "#888780"
     },
     {
@@ -114,7 +114,7 @@
     },
     {
       "label": "Pre-boarding",
-      "count": 11,
+      "count": 10,
       "color": "#5B8FA8"
     },
     {
@@ -198,7 +198,7 @@
       "color": "#D0523F",
       "bgLight": "#FCE9E5",
       "bgDark": "#3d1a0f",
-      "count": 26
+      "count": 24
     },
     {
       "label": "🟡 3–5",
@@ -214,7 +214,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 31
+      "count": 33
     }
   ],
   "agingRecords": [
@@ -1088,16 +1088,6 @@
           "department": "614800 - Emergency Medicine"
         },
         {
-          "title": "Research Support Specialist",
-          "reqId": "44348",
-          "notionUrl": "https://www.notion.so/5791cab1c6bc44b7aa43de3e2d5817e0",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 6–14",
-          "department": "511255 - STP Psychology"
-        },
-        {
           "title": "Office Admin & Executive Asst to the Dean",
           "reqId": "44297",
           "notionUrl": "https://www.notion.so/cd0f7b66c65e4f74a73699da6334d390",
@@ -1116,16 +1106,6 @@
           "stage": "Pre-boarding",
           "agingBand": "🔴 6–14",
           "department": "210800 - AICC Bellini College Department"
-        },
-        {
-          "title": "Leadership and Student Organizations Coordinator",
-          "reqId": "44079",
-          "notionUrl": "https://www.notion.so/eaeda37817ed46af92feeb202ed01f60",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 6–14",
-          "department": "510200 - STP Student Life"
         },
         {
           "title": "Licensed Practical Nurse",
@@ -1171,6 +1151,16 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "records": [
+        {
+          "title": "Student Assistant - Library Operations",
+          "reqId": "44481",
+          "notionUrl": "https://www.notion.so/0ed796e4de084dda8fe903a3da682c70",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "400100 - Univ Lib Deans Office"
+        },
         {
           "title": "Academic Program Specialist - Kate Tiedemann School of Business and Finance",
           "reqId": "44540",
@@ -1370,6 +1360,16 @@
           "stage": "HM Review",
           "agingBand": "🟢 0–2",
           "department": "400100 - Univ Lib Deans Office"
+        },
+        {
+          "title": "Research Support Specialist",
+          "reqId": "44348",
+          "notionUrl": "https://www.notion.so/5791cab1c6bc44b7aa43de3e2d5817e0",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Pre-boarding",
+          "agingBand": "🟢 0–2",
+          "department": "511255 - STP Psychology"
         },
         {
           "title": "Manager Teaching Laboratory - Engineering Tech Support Svcs",
@@ -1619,8 +1619,8 @@
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 13,
-      "count": 11,
+      "avgDays": 15,
+      "count": 9,
       "color": "#5B8FA8"
     },
     {
@@ -3803,6 +3803,17 @@
       "reqType": "Active",
       "ttf": 63,
       "notionUrl": "https://www.notion.so/439bf8f48891437db453f1968ed576ed"
+    },
+    {
+      "title": "Leadership and Student Organizations Coordinator",
+      "reqId": "44079",
+      "owner": "Gabriel",
+      "campus": "St. Petersburg",
+      "stage": "Hired",
+      "department": "510200 - STP Student Life",
+      "reqType": "Active",
+      "ttf": 63,
+      "notionUrl": "https://www.notion.so/eaeda37817ed46af92feeb202ed01f60"
     },
     {
       "title": "Graphic Designer",
@@ -6562,6 +6573,13 @@
         "fillRatePct": 100
       },
       {
+        "department": "510200 - STP Student Life",
+        "filled": 3,
+        "failed": 0,
+        "cancelled": 1,
+        "fillRatePct": 100
+      },
+      {
         "department": "390000 - Graduate Studies",
         "filled": 4,
         "failed": 0,
@@ -6584,13 +6602,6 @@
       },
       {
         "department": "391000 - Fl Center For Cybersecurity",
-        "filled": 2,
-        "failed": 0,
-        "cancelled": 1,
-        "fillRatePct": 100
-      },
-      {
-        "department": "510200 - STP Student Life",
         "filled": 2,
         "failed": 0,
         "cancelled": 1,
@@ -7357,7 +7368,7 @@
       {
         "reqType": "Active",
         "avgDays": 81,
-        "count": 201
+        "count": 202
       },
       {
         "reqType": "Student",
@@ -7399,7 +7410,7 @@
       {
         "campus": "St. Petersburg",
         "avgDays": 75,
-        "count": 29
+        "count": 30
       },
       {
         "campus": "Unspecified",
@@ -7477,18 +7488,18 @@
         "stallRatePct": 29
       },
       {
-        "recruiter": "Gabriel",
-        "color": "#00A693",
-        "stalled": 5,
-        "totalActive": 18,
-        "stallRatePct": 28
-      },
-      {
         "recruiter": "John",
         "color": "#1B6A9C",
         "stalled": 5,
         "totalActive": 19,
         "stallRatePct": 26
+      },
+      {
+        "recruiter": "Gabriel",
+        "color": "#00A693",
+        "stalled": 3,
+        "totalActive": 18,
+        "stallRatePct": 17
       },
       {
         "recruiter": "Katherine",
@@ -8495,53 +8506,43 @@
       "statuses": [
         {
           "label": "Backlog",
-          "count": 30,
+          "count": 22,
           "color": "#888780"
         },
         {
           "label": "Recruiter Review",
-          "count": 21,
+          "count": 19,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "count": 162,
+          "count": 117,
           "color": "#534AB7"
         },
         {
+          "label": "Student Hiring",
+          "count": 18,
+          "color": "#B5651D"
+        },
+        {
           "label": "Passive Hiring",
-          "count": 8,
+          "count": 75,
           "color": "#1B6A9C"
         },
         {
           "label": "Targeted Hiring",
-          "count": 2,
+          "count": 1,
           "color": "#3A5A6A"
         },
         {
-          "label": "Student Hiring",
-          "count": 10,
-          "color": "#B5651D"
-        },
-        {
           "label": "Interview Stage",
-          "count": 2,
+          "count": 1,
           "color": "#D4880A"
         },
         {
           "label": "Evergreen / Continuous Pool",
           "count": 3,
           "color": "#6B8E4E"
-        },
-        {
-          "label": "Sourced",
-          "count": 6,
-          "color": "#00A693"
-        },
-        {
-          "label": "Offer Stage",
-          "count": 12,
-          "color": "#CFC483"
         }
       ],
       "aging": [
@@ -8597,15 +8598,15 @@
         },
         {
           "label": "HM Review",
-          "count": 162
+          "count": 117
         },
         {
           "label": "Interviews",
-          "count": 2
+          "count": 1
         },
         {
           "label": "Offer",
-          "count": 12
+          "count": 0
         }
       ],
       "activeFunnel": [
@@ -8683,7 +8684,7 @@
         },
         {
           "label": "Interviews",
-          "value": 2,
+          "value": 1,
           "target": 420,
           "invert": false
         }
@@ -9167,9 +9168,9 @@
       "bgLight": "#e6f2ed",
       "bgDark": "#042e24",
       "campus": "St Pete / Tampa",
-      "reqs": 178,
+      "reqs": 179,
       "activeReqs": 65,
-      "filled": 102,
+      "filled": 103,
       "failed": 11,
       "ttf": 52,
       "wip": 6,
@@ -9221,26 +9222,6 @@
               "stage": "HM Review",
               "agingBand": "🔴 6–14",
               "department": "211700 - Ctr For Urban Transportation Research"
-            },
-            {
-              "title": "Research Support Specialist",
-              "reqId": "44348",
-              "notionUrl": "https://www.notion.so/5791cab1c6bc44b7aa43de3e2d5817e0",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Pre-boarding",
-              "agingBand": "🔴 6–14",
-              "department": "511255 - STP Psychology"
-            },
-            {
-              "title": "Leadership and Student Organizations Coordinator",
-              "reqId": "44079",
-              "notionUrl": "https://www.notion.so/eaeda37817ed46af92feeb202ed01f60",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Pre-boarding",
-              "agingBand": "🔴 6–14",
-              "department": "510200 - STP Student Life"
             }
           ]
         },
@@ -9266,6 +9247,16 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "records": [
+            {
+              "title": "Student Assistant - Library Operations",
+              "reqId": "44481",
+              "notionUrl": "https://www.notion.so/0ed796e4de084dda8fe903a3da682c70",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "400100 - Univ Lib Deans Office"
+            },
             {
               "title": "Academic Program Specialist - Kate Tiedemann School of Business and Finance",
               "reqId": "44540",
@@ -9315,6 +9306,16 @@
               "stage": "Sourced",
               "agingBand": "🟢 0–2",
               "department": "250000 - College of Marine Science"
+            },
+            {
+              "title": "Research Support Specialist",
+              "reqId": "44348",
+              "notionUrl": "https://www.notion.so/5791cab1c6bc44b7aa43de3e2d5817e0",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Pre-boarding",
+              "agingBand": "🟢 0–2",
+              "department": "511255 - STP Psychology"
             },
             {
               "title": "Manager Teaching Laboratory - Engineering Tech Support Svcs",
@@ -9422,8 +9423,8 @@
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 10,
-          "count": 5,
+          "avgDays": 13,
+          "count": 3,
           "color": "#5B8FA8"
         },
         {
@@ -9436,7 +9437,7 @@
       "statuses": [
         {
           "label": "Backlog",
-          "count": 2,
+          "count": 3,
           "color": "#888780"
         },
         {
@@ -9466,7 +9467,7 @@
         },
         {
           "label": "Pre-boarding",
-          "count": 5,
+          "count": 4,
           "color": "#5B8FA8"
         },
         {
@@ -9518,7 +9519,7 @@
           "color": "#D0523F",
           "bgLight": "#FCE9E5",
           "bgDark": "#3d1a0f",
-          "count": 3
+          "count": 1
         },
         {
           "label": "🟡 3–5",
@@ -9534,7 +9535,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 12
+          "count": 14
         }
       ],
       "funnel": [
@@ -9561,24 +9562,24 @@
       ],
       "activeFunnel": [
         {
-          "label": "Pre-boarding",
-          "count": 5,
-          "color": "#5B8FA8"
-        },
-        {
           "label": "HM Review",
           "count": 4,
           "color": "#534AB7"
         },
         {
-          "label": "Sourced",
-          "count": 3,
-          "color": "#00A693"
+          "label": "Pre-boarding",
+          "count": 4,
+          "color": "#5B8FA8"
         },
         {
           "label": "Backlog",
-          "count": 2,
+          "count": 3,
           "color": "#888780"
+        },
+        {
+          "label": "Sourced",
+          "count": 3,
+          "color": "#00A693"
         },
         {
           "label": "Recruiter Review",
@@ -9631,7 +9632,7 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 102,
+          "value": 103,
           "target": 10,
           "invert": false
         },
@@ -9644,13 +9645,13 @@
         {
           "label": "Screened",
           "value": 0,
-          "target": 178,
+          "target": 179,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 1,
-          "target": 178,
+          "target": 179,
           "invert": false
         }
       ],
