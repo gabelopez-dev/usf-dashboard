@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-10-14T19:36:14.761Z",
+  "lastUpdated": "2026-10-14T23:02:32.285Z",
   "summary": {
-    "openReqs": 604,
+    "openReqs": 603,
     "avgTimeToFill": 81,
     "filledYTD": 369,
     "failedCancelled": 67,
-    "inOfferStage": 8
+    "inOfferStage": 7
   },
   "campus": [
     {
@@ -37,17 +37,17 @@
   "mainFunnel": [
     {
       "label": "Passive Hiring",
-      "count": 240,
+      "count": 233,
       "color": "#1B6A9C"
     },
     {
       "label": "HM Review",
-      "count": 128,
+      "count": 131,
       "color": "#534AB7"
     },
     {
       "label": "Student Hiring",
-      "count": 53,
+      "count": 56,
       "color": "#B5651D"
     },
     {
@@ -57,7 +57,7 @@
     },
     {
       "label": "Backlog",
-      "count": 36,
+      "count": 35,
       "color": "#888780"
     },
     {
@@ -67,28 +67,28 @@
     },
     {
       "label": "Evergreen / Continuous Pool",
-      "count": 23,
+      "count": 25,
       "color": "#6B8E4E"
     },
     {
+      "label": "Targeted Hiring",
+      "count": 15,
+      "color": "#3A5A6A"
+    },
+    {
       "label": "Pre-boarding",
-      "count": 14,
+      "count": 10,
       "color": "#5B8FA8"
     },
     {
-      "label": "Interview Stage",
-      "count": 9,
-      "color": "#D4880A"
-    },
-    {
       "label": "Offer Stage",
-      "count": 8,
+      "count": 7,
       "color": "#CFC483"
     },
     {
-      "label": "Targeted Hiring",
-      "count": 8,
-      "color": "#3A5A6A"
+      "label": "Interview Stage",
+      "count": 6,
+      "color": "#D4880A"
     },
     {
       "label": "Sourced",
@@ -98,19 +98,19 @@
   ],
   "activeFunnel": [
     {
+      "label": "HM Review",
+      "count": 38,
+      "color": "#534AB7"
+    },
+    {
       "label": "Backlog",
-      "count": 36,
+      "count": 35,
       "color": "#888780"
     },
     {
       "label": "Recruiter Review",
       "count": 32,
       "color": "#006747"
-    },
-    {
-      "label": "HM Review",
-      "count": 32,
-      "color": "#534AB7"
     },
     {
       "label": "Pre-boarding",
@@ -124,7 +124,7 @@
     },
     {
       "label": "Offer Stage",
-      "count": 4,
+      "count": 5,
       "color": "#CFC483"
     },
     {
@@ -141,12 +141,12 @@
   "reqTypes": [
     {
       "label": "Passive",
-      "count": 241,
+      "count": 234,
       "color": "#1B6A9C"
     },
     {
       "label": "Active",
-      "count": 123,
+      "count": 129,
       "color": "#004d35"
     },
     {
@@ -214,7 +214,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 35
+      "count": 41
     }
   ],
   "agingRecords": [
@@ -1181,16 +1181,6 @@
           "department": ""
         },
         {
-          "title": "Untitled",
-          "reqId": "",
-          "notionUrl": "https://www.notion.so/3f89ddf757a0800f972cc618ad19f6de",
-          "owner": "Aidi",
-          "campus": "",
-          "stage": "Backlog",
-          "agingBand": "🟢 0–2",
-          "department": ""
-        },
-        {
           "title": "IAE Accountant I",
           "reqId": "44511",
           "notionUrl": "https://www.notion.so/d4f8600a70fa4b62b0eb0ec6741fb14f",
@@ -1461,6 +1451,56 @@
           "department": "471000 - Florida Inst of Oceanography"
         },
         {
+          "title": "Program Director",
+          "reqId": "44090",
+          "notionUrl": "https://www.notion.so/2135ef73fef4400a96fa589524bf2180",
+          "owner": "Aidi",
+          "campus": "Tallahassee",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "177500 - Inst For School Comm Partnersh"
+        },
+        {
+          "title": "School Improvement Coordinator",
+          "reqId": "44108",
+          "notionUrl": "https://www.notion.so/cdc1376c7a7c478db2f0385352c38cba",
+          "owner": "Aidi",
+          "campus": "Tallahassee",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "177500 - Inst For School Comm Partnersh"
+        },
+        {
+          "title": "Systems & Business Process Dir",
+          "reqId": "44128",
+          "notionUrl": "https://www.notion.so/731d1ab5680b42ee9a95c7a2807ab25c",
+          "owner": "Aidi",
+          "campus": "Tallahassee",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "177500 - Inst For School Comm Partnersh"
+        },
+        {
+          "title": "Support Staff",
+          "reqId": "44150",
+          "notionUrl": "https://www.notion.so/84236d000b4f454fa31b192595a733cf",
+          "owner": "Aidi",
+          "campus": "Tallahassee",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "177500 - Inst For School Comm Partnersh"
+        },
+        {
+          "title": "Academic Services Administrator",
+          "reqId": "43996",
+          "notionUrl": "https://www.notion.so/e96fcdac40284d30a2d6e8ba514c415f",
+          "owner": "Aidi",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "170800 - COE-Student Academic Services"
+        },
+        {
           "title": "IAE Director of Business Development",
           "reqId": "43796",
           "notionUrl": "https://www.notion.so/4015be9957c14212b1cd7bb714981168",
@@ -1469,6 +1509,26 @@
           "stage": "Pre-boarding",
           "agingBand": "🟢 0–2",
           "department": "213400 - Inst Of Applied Engineering"
+        },
+        {
+          "title": "Program Development Specialist",
+          "reqId": "41648",
+          "notionUrl": "https://www.notion.so/2880aff0a0e9493eb3cf24f079e44a86",
+          "owner": "Aidi",
+          "campus": "Tallahassee",
+          "stage": "Offer Stage",
+          "agingBand": "🟢 0–2",
+          "department": "Inst For School Comm Partnership"
+        },
+        {
+          "title": "School Improvement Coordinator",
+          "reqId": "43241",
+          "notionUrl": "https://www.notion.so/26c4c26a172a4595b42feaa0299171a7",
+          "owner": "Aidi",
+          "campus": "Tallahassee",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "Inst For School Comm Partnership"
         },
         {
           "title": "Director of Experiential Learning & Engagement",
@@ -1624,8 +1684,8 @@
     },
     {
       "label": "Backlog",
-      "avgDays": 15,
-      "count": 35,
+      "avgDays": 16,
+      "count": 34,
       "color": "#888780"
     },
     {
@@ -7498,18 +7558,18 @@
         "stallRatePct": 100
       },
       {
-        "recruiter": "Aidi",
-        "color": "#534AB7",
-        "stalled": 2,
-        "totalActive": 7,
-        "stallRatePct": 29
-      },
-      {
         "recruiter": "John",
         "color": "#1B6A9C",
         "stalled": 5,
         "totalActive": 19,
         "stallRatePct": 26
+      },
+      {
+        "recruiter": "Aidi",
+        "color": "#534AB7",
+        "stalled": 2,
+        "totalActive": 13,
+        "stallRatePct": 15
       },
       {
         "recruiter": "Gabriel",
@@ -8533,7 +8593,7 @@
         },
         {
           "label": "HM Review",
-          "count": 117,
+          "count": 116,
           "color": "#534AB7"
         },
         {
@@ -8543,12 +8603,12 @@
         },
         {
           "label": "Passive Hiring",
-          "count": 75,
+          "count": 69,
           "color": "#1B6A9C"
         },
         {
           "label": "Targeted Hiring",
-          "count": 1,
+          "count": 8,
           "color": "#3A5A6A"
         },
         {
@@ -8615,7 +8675,7 @@
         },
         {
           "label": "HM Review",
-          "count": 117
+          "count": 116
         },
         {
           "label": "Interviews",
@@ -8995,38 +9055,38 @@
         },
         {
           "label": "Passive Hiring",
-          "count": 15,
+          "count": 21,
           "color": "#1B6A9C"
         },
         {
           "label": "HM Review",
-          "count": 6,
+          "count": 4,
           "color": "#534AB7"
         },
         {
           "label": "Evergreen / Continuous Pool",
-          "count": 12,
+          "count": 14,
           "color": "#6B8E4E"
         },
         {
           "label": "Student Hiring",
-          "count": 15,
+          "count": 18,
           "color": "#B5651D"
         },
         {
           "label": "Pre-boarding",
-          "count": 8,
+          "count": 4,
           "color": "#5B8FA8"
         },
         {
-          "label": "Interview Stage",
-          "count": 4,
-          "color": "#D4880A"
+          "label": "Offer Stage",
+          "count": 3,
+          "color": "#CFC483"
         },
         {
-          "label": "Offer Stage",
-          "count": 5,
-          "color": "#CFC483"
+          "label": "Interview Stage",
+          "count": 1,
+          "color": "#D4880A"
         }
       ],
       "aging": [
@@ -9082,15 +9142,15 @@
         },
         {
           "label": "HM Review",
-          "count": 6
-        },
-        {
-          "label": "Interviews",
           "count": 4
         },
         {
+          "label": "Interviews",
+          "count": 1
+        },
+        {
           "label": "Offer",
-          "count": 5
+          "count": 3
         }
       ],
       "activeFunnel": [
@@ -9163,7 +9223,7 @@
         },
         {
           "label": "Interviews",
-          "value": 4,
+          "value": 1,
           "target": 210,
           "invert": false
         }
@@ -10063,8 +10123,8 @@
       "bgLight": "#ece9f7",
       "bgDark": "#1f1a4d",
       "campus": "Tampa",
-      "reqs": 41,
-      "activeReqs": 39,
+      "reqs": 40,
+      "activeReqs": 38,
       "filled": 2,
       "failed": 0,
       "ttf": 58,
@@ -10132,16 +10192,6 @@
               "department": ""
             },
             {
-              "title": "Untitled",
-              "reqId": "",
-              "notionUrl": "https://www.notion.so/3f89ddf757a0800f972cc618ad19f6de",
-              "owner": "Aidi",
-              "campus": "",
-              "stage": "Backlog",
-              "agingBand": "🟢 0–2",
-              "department": ""
-            },
-            {
               "title": "Research Support Assistant",
               "reqId": "44440",
               "notionUrl": "https://www.notion.so/bddf55379d3342aaa77f3a2b83e41b1d",
@@ -10170,6 +10220,76 @@
               "stage": "HM Review",
               "agingBand": "🟢 0–2",
               "department": "400100 - Univ Lib Deans Office"
+            },
+            {
+              "title": "Program Director",
+              "reqId": "44090",
+              "notionUrl": "https://www.notion.so/2135ef73fef4400a96fa589524bf2180",
+              "owner": "Aidi",
+              "campus": "Tallahassee",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "177500 - Inst For School Comm Partnersh"
+            },
+            {
+              "title": "School Improvement Coordinator",
+              "reqId": "44108",
+              "notionUrl": "https://www.notion.so/cdc1376c7a7c478db2f0385352c38cba",
+              "owner": "Aidi",
+              "campus": "Tallahassee",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "177500 - Inst For School Comm Partnersh"
+            },
+            {
+              "title": "Systems & Business Process Dir",
+              "reqId": "44128",
+              "notionUrl": "https://www.notion.so/731d1ab5680b42ee9a95c7a2807ab25c",
+              "owner": "Aidi",
+              "campus": "Tallahassee",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "177500 - Inst For School Comm Partnersh"
+            },
+            {
+              "title": "Support Staff",
+              "reqId": "44150",
+              "notionUrl": "https://www.notion.so/84236d000b4f454fa31b192595a733cf",
+              "owner": "Aidi",
+              "campus": "Tallahassee",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "177500 - Inst For School Comm Partnersh"
+            },
+            {
+              "title": "Academic Services Administrator",
+              "reqId": "43996",
+              "notionUrl": "https://www.notion.so/e96fcdac40284d30a2d6e8ba514c415f",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "170800 - COE-Student Academic Services"
+            },
+            {
+              "title": "Program Development Specialist",
+              "reqId": "41648",
+              "notionUrl": "https://www.notion.so/2880aff0a0e9493eb3cf24f079e44a86",
+              "owner": "Aidi",
+              "campus": "Tallahassee",
+              "stage": "Offer Stage",
+              "agingBand": "🟢 0–2",
+              "department": "Inst For School Comm Partnership"
+            },
+            {
+              "title": "School Improvement Coordinator",
+              "reqId": "43241",
+              "notionUrl": "https://www.notion.so/26c4c26a172a4595b42feaa0299171a7",
+              "owner": "Aidi",
+              "campus": "Tallahassee",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "Inst For School Comm Partnership"
             }
           ]
         }
@@ -10204,12 +10324,6 @@
           "avgDays": 16,
           "count": 1,
           "color": "#5B8FA8"
-        },
-        {
-          "label": "Backlog",
-          "avgDays": 1,
-          "count": 1,
-          "color": "#888780"
         }
       ],
       "statuses": [
@@ -10219,13 +10333,8 @@
           "color": "#006747"
         },
         {
-          "label": "Backlog",
-          "count": 1,
-          "color": "#888780"
-        },
-        {
           "label": "Offer Stage",
-          "count": 1,
+          "count": 2,
           "color": "#CFC483"
         },
         {
@@ -10240,7 +10349,7 @@
         },
         {
           "label": "HM Review",
-          "count": 1,
+          "count": 7,
           "color": "#534AB7"
         },
         {
@@ -10252,11 +10361,6 @@
           "label": "Evergreen / Continuous Pool",
           "count": 1,
           "color": "#6B8E4E"
-        },
-        {
-          "label": "Passive Hiring",
-          "count": 7,
-          "color": "#1B6A9C"
         },
         {
           "label": "Student Hiring",
@@ -10308,13 +10412,13 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 5
+          "count": 11
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 39
+          "count": 38
         },
         {
           "label": "Screened",
@@ -10322,7 +10426,7 @@
         },
         {
           "label": "HM Review",
-          "count": 1
+          "count": 7
         },
         {
           "label": "Interviews",
@@ -10330,10 +10434,20 @@
         },
         {
           "label": "Offer",
-          "count": 1
+          "count": 2
         }
       ],
       "activeFunnel": [
+        {
+          "label": "HM Review",
+          "count": 7,
+          "color": "#534AB7"
+        },
+        {
+          "label": "Offer Stage",
+          "count": 2,
+          "color": "#CFC483"
+        },
         {
           "label": "Interview Stage",
           "count": 2,
@@ -10343,21 +10457,6 @@
           "label": "Recruiter Review",
           "count": 1,
           "color": "#006747"
-        },
-        {
-          "label": "Backlog",
-          "count": 1,
-          "color": "#888780"
-        },
-        {
-          "label": "Offer Stage",
-          "count": 1,
-          "color": "#CFC483"
-        },
-        {
-          "label": "HM Review",
-          "count": 1,
-          "color": "#534AB7"
         },
         {
           "label": "Pre-boarding",
@@ -10373,13 +10472,8 @@
         },
         {
           "label": "Active",
-          "count": 7,
+          "count": 13,
           "color": "#004d35"
-        },
-        {
-          "label": "Passive",
-          "count": 7,
-          "color": "#1B6A9C"
         },
         {
           "label": "Targeted",
@@ -10413,13 +10507,13 @@
         {
           "label": "Screened",
           "value": 0,
-          "target": 41,
+          "target": 40,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 2,
-          "target": 41,
+          "target": 40,
           "invert": false
         }
       ],
