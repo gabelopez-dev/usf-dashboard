@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T13:47:55.124Z",
+  "lastUpdated": "2026-10-16T17:50:42.862Z",
   "summary": {
     "openReqs": 600,
     "avgTimeToFill": 81,
@@ -42,7 +42,7 @@
     },
     {
       "label": "HM Review",
-      "count": 130,
+      "count": 132,
       "color": "#534AB7"
     },
     {
@@ -57,7 +57,7 @@
     },
     {
       "label": "Recruiter Review",
-      "count": 38,
+      "count": 36,
       "color": "#006747"
     },
     {
@@ -94,12 +94,12 @@
   "activeFunnel": [
     {
       "label": "HM Review",
-      "count": 38,
+      "count": 39,
       "color": "#534AB7"
     },
     {
       "label": "Recruiter Review",
-      "count": 35,
+      "count": 34,
       "color": "#006747"
     },
     {
@@ -196,7 +196,7 @@
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 23
+      "count": 22
     },
     {
       "label": "🟢 0–2",
@@ -204,7 +204,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 16
+      "count": 17
     }
   ],
   "agingRecords": [
@@ -1115,16 +1115,6 @@
       "bgLight": "#FAEEDA",
       "records": [
         {
-          "title": "Client Experience Analyst I",
-          "reqId": "44485",
-          "notionUrl": "https://www.notion.so/8048805d1c934398bb3029c549746e62",
-          "owner": "Aidi",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🟡 3–5",
-          "department": ""
-        },
-        {
           "title": "IAE Accountant I",
           "reqId": "44511",
           "notionUrl": "https://www.notion.so/d4f8600a70fa4b62b0eb0ec6741fb14f",
@@ -1382,6 +1372,16 @@
           "department": "511280 - STP Honors Program"
         },
         {
+          "title": "Client Experience Analyst I",
+          "reqId": "44485",
+          "notionUrl": "https://www.notion.so/8048805d1c934398bb3029c549746e62",
+          "owner": "Aidi",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": ""
+        },
+        {
           "title": "Program Director",
           "reqId": "44447",
           "notionUrl": "https://www.notion.so/31ef31a8794a4a6b8ada982b17c8c7e2",
@@ -1620,7 +1620,7 @@
     {
       "label": "Recruiter Review",
       "avgDays": 16,
-      "count": 35,
+      "count": 34,
       "color": "#006747"
     },
     {
@@ -9249,7 +9249,7 @@
       "filled": 103,
       "failed": 11,
       "ttf": 52,
-      "wip": 5,
+      "wip": 4,
       "agingRecords": [
         {
           "band": "🔴 31+",
@@ -9480,7 +9480,7 @@
       "statuses": [
         {
           "label": "Recruiter Review",
-          "count": 6,
+          "count": 5,
           "color": "#006747"
         },
         {
@@ -9510,7 +9510,7 @@
         },
         {
           "label": "HM Review",
-          "count": 4,
+          "count": 5,
           "color": "#534AB7"
         },
         {
@@ -9582,7 +9582,7 @@
         },
         {
           "label": "HM Review",
-          "count": 4
+          "count": 5
         },
         {
           "label": "Interviews",
@@ -10129,16 +10129,6 @@
           "bgLight": "#FAEEDA",
           "records": [
             {
-              "title": "Client Experience Analyst I",
-              "reqId": "44485",
-              "notionUrl": "https://www.notion.so/8048805d1c934398bb3029c549746e62",
-              "owner": "Aidi",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🟡 3–5",
-              "department": ""
-            },
-            {
               "title": "Research Support Assistant",
               "reqId": "44440",
               "notionUrl": "https://www.notion.so/bddf55379d3342aaa77f3a2b83e41b1d",
@@ -10175,6 +10165,16 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "records": [
+            {
+              "title": "Client Experience Analyst I",
+              "reqId": "44485",
+              "notionUrl": "https://www.notion.so/8048805d1c934398bb3029c549746e62",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": ""
+            },
             {
               "title": "Program Director",
               "reqId": "44090",
@@ -10250,12 +10250,6 @@
       ],
       "stageMetrics": [
         {
-          "label": "Recruiter Review",
-          "avgDays": 3,
-          "count": 1,
-          "color": "#006747"
-        },
-        {
           "label": "HM Review",
           "avgDays": 2,
           "count": 7,
@@ -10287,9 +10281,9 @@
           "color": "#B5651D"
         },
         {
-          "label": "Recruiter Review",
-          "count": 1,
-          "color": "#006747"
+          "label": "HM Review",
+          "count": 8,
+          "color": "#534AB7"
         },
         {
           "label": "Offer Stage",
@@ -10305,11 +10299,6 @@
           "label": "Faculty Hiring",
           "count": 18,
           "color": "#993556"
-        },
-        {
-          "label": "HM Review",
-          "count": 7,
-          "color": "#534AB7"
         },
         {
           "label": "Targeted Hiring",
@@ -10358,7 +10347,7 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 4
+          "count": 3
         },
         {
           "label": "🟢 0–2",
@@ -10366,7 +10355,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 7
+          "count": 8
         }
       ],
       "funnel": [
@@ -10380,7 +10369,7 @@
         },
         {
           "label": "HM Review",
-          "count": 7
+          "count": 8
         },
         {
           "label": "Interviews",
@@ -10394,7 +10383,7 @@
       "activeFunnel": [
         {
           "label": "HM Review",
-          "count": 7,
+          "count": 8,
           "color": "#534AB7"
         },
         {
@@ -10406,11 +10395,6 @@
           "label": "Interview Stage",
           "count": 2,
           "color": "#D4880A"
-        },
-        {
-          "label": "Recruiter Review",
-          "count": 1,
-          "color": "#006747"
         },
         {
           "label": "Pre-boarding",
