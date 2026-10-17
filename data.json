@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T23:18:18.240Z",
+  "lastUpdated": "2026-10-17T01:26:13.464Z",
   "summary": {
     "openReqs": 600,
     "avgTimeToFill": 81,
@@ -196,7 +196,7 @@
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 22
+      "count": 34
     },
     {
       "label": "🟢 0–2",
@@ -204,7 +204,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 17
+      "count": 5
     }
   ],
   "agingRecords": [
@@ -1115,6 +1115,16 @@
       "bgLight": "#FAEEDA",
       "records": [
         {
+          "title": "Analyst Statistical Data -CUTR",
+          "reqId": "44529",
+          "notionUrl": "https://www.notion.so/238dafc2df194fb487cd960c2f1ca4b7",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟡 3–5",
+          "department": "211700 - Ctr For Urban Transportation Research"
+        },
+        {
           "title": "IAE Accountant I",
           "reqId": "44511",
           "notionUrl": "https://www.notion.so/d4f8600a70fa4b62b0eb0ec6741fb14f",
@@ -1185,6 +1195,16 @@
           "department": "371000 - Admissions"
         },
         {
+          "title": "Nault Center for Entrepreneurship: Communications and Marketing Officer",
+          "reqId": "44463",
+          "notionUrl": "https://www.notion.so/fc50ca7098fc45ef945356c58e2ab5d0",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟡 3–5",
+          "department": "141500 - Center For Entrepreneurship"
+        },
+        {
           "title": "Research Support Assistant",
           "reqId": "44440",
           "notionUrl": "https://www.notion.so/bddf55379d3342aaa77f3a2b83e41b1d",
@@ -1213,6 +1233,16 @@
           "stage": "Recruiter Review",
           "agingBand": "🟡 3–5",
           "department": "020600 - University Controllers Office"
+        },
+        {
+          "title": "Transit Safety Consultant - CUTR",
+          "reqId": "44407",
+          "notionUrl": "https://www.notion.so/fdf31ec5654f4ee9b57ecc6976f0f18d",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Interview Stage",
+          "agingBand": "🟡 3–5",
+          "department": "211700 - Ctr For Urban Transportation Research"
         },
         {
           "title": "Enrollment Management Specialist",
@@ -1245,6 +1275,16 @@
           "department": "400100 - Univ Lib Deans Office"
         },
         {
+          "title": "Research Support Specialist",
+          "reqId": "44348",
+          "notionUrl": "https://www.notion.so/5791cab1c6bc44b7aa43de3e2d5817e0",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Pre-boarding",
+          "agingBand": "🟡 3–5",
+          "department": "511255 - STP Psychology"
+        },
+        {
           "title": "Manager Teaching Laboratory - Engineering Tech Support Svcs",
           "reqId": "44349",
           "notionUrl": "https://www.notion.so/0902fd9b145e480a83c6db6a69b53f64",
@@ -1273,6 +1313,16 @@
           "stage": "Recruiter Review",
           "agingBand": "🟡 3–5",
           "department": "391000 - Fl Center For Cybersecurity"
+        },
+        {
+          "title": "Maintenance Technician",
+          "reqId": "44287",
+          "notionUrl": "https://www.notion.so/01776ccb59e04627b02ba932de3fc2b0",
+          "owner": "Gabriel",
+          "campus": "Key West",
+          "stage": "HM Review",
+          "agingBand": "🟡 3–5",
+          "department": "471000 - Florida Inst of Oceanography"
         },
         {
           "title": "Applications Developer I",
@@ -1315,6 +1365,56 @@
           "department": "471000 - Florida Inst of Oceanography"
         },
         {
+          "title": "Program Director",
+          "reqId": "44090",
+          "notionUrl": "https://www.notion.so/2135ef73fef4400a96fa589524bf2180",
+          "owner": "Aidi",
+          "campus": "Tallahassee",
+          "stage": "HM Review",
+          "agingBand": "🟡 3–5",
+          "department": "177500 - Inst For School Comm Partnersh"
+        },
+        {
+          "title": "School Improvement Coordinator",
+          "reqId": "44108",
+          "notionUrl": "https://www.notion.so/cdc1376c7a7c478db2f0385352c38cba",
+          "owner": "Aidi",
+          "campus": "Tallahassee",
+          "stage": "HM Review",
+          "agingBand": "🟡 3–5",
+          "department": "177500 - Inst For School Comm Partnersh"
+        },
+        {
+          "title": "Systems & Business Process Dir",
+          "reqId": "44128",
+          "notionUrl": "https://www.notion.so/731d1ab5680b42ee9a95c7a2807ab25c",
+          "owner": "Aidi",
+          "campus": "Tallahassee",
+          "stage": "HM Review",
+          "agingBand": "🟡 3–5",
+          "department": "177500 - Inst For School Comm Partnersh"
+        },
+        {
+          "title": "Support Staff",
+          "reqId": "44150",
+          "notionUrl": "https://www.notion.so/84236d000b4f454fa31b192595a733cf",
+          "owner": "Aidi",
+          "campus": "Tallahassee",
+          "stage": "HM Review",
+          "agingBand": "🟡 3–5",
+          "department": "177500 - Inst For School Comm Partnersh"
+        },
+        {
+          "title": "Academic Services Administrator",
+          "reqId": "43996",
+          "notionUrl": "https://www.notion.so/e96fcdac40284d30a2d6e8ba514c415f",
+          "owner": "Aidi",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟡 3–5",
+          "department": "170800 - COE-Student Academic Services"
+        },
+        {
           "title": "IAE Director of Business Development",
           "reqId": "43796",
           "notionUrl": "https://www.notion.so/4015be9957c14212b1cd7bb714981168",
@@ -1323,6 +1423,26 @@
           "stage": "Pre-boarding",
           "agingBand": "🟡 3–5",
           "department": "213400 - Inst Of Applied Engineering"
+        },
+        {
+          "title": "Program Development Specialist",
+          "reqId": "41648",
+          "notionUrl": "https://www.notion.so/2880aff0a0e9493eb3cf24f079e44a86",
+          "owner": "Aidi",
+          "campus": "Tallahassee",
+          "stage": "Offer Stage",
+          "agingBand": "🟡 3–5",
+          "department": "Inst For School Comm Partnership"
+        },
+        {
+          "title": "School Improvement Coordinator",
+          "reqId": "43241",
+          "notionUrl": "https://www.notion.so/26c4c26a172a4595b42feaa0299171a7",
+          "owner": "Aidi",
+          "campus": "Tallahassee",
+          "stage": "HM Review",
+          "agingBand": "🟡 3–5",
+          "department": "Inst For School Comm Partnership"
         },
         {
           "title": "Director of Experiential Learning & Engagement",
@@ -1350,16 +1470,6 @@
           "stage": "Recruiter Review",
           "agingBand": "🟢 0–2",
           "department": "140400 - KT School of Business & Finance"
-        },
-        {
-          "title": "Analyst Statistical Data -CUTR",
-          "reqId": "44529",
-          "notionUrl": "https://www.notion.so/238dafc2df194fb487cd960c2f1ca4b7",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🟢 0–2",
-          "department": "211700 - Ctr For Urban Transportation Research"
         },
         {
           "title": "Other Hourly Professional/Support",
@@ -1392,46 +1502,6 @@
           "department": "511724 - STP Secondary Education"
         },
         {
-          "title": "Nault Center for Entrepreneurship: Communications and Marketing Officer",
-          "reqId": "44463",
-          "notionUrl": "https://www.notion.so/fc50ca7098fc45ef945356c58e2ab5d0",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🟢 0–2",
-          "department": "141500 - Center For Entrepreneurship"
-        },
-        {
-          "title": "Transit Safety Consultant - CUTR",
-          "reqId": "44407",
-          "notionUrl": "https://www.notion.so/fdf31ec5654f4ee9b57ecc6976f0f18d",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Interview Stage",
-          "agingBand": "🟢 0–2",
-          "department": "211700 - Ctr For Urban Transportation Research"
-        },
-        {
-          "title": "Research Support Specialist",
-          "reqId": "44348",
-          "notionUrl": "https://www.notion.so/5791cab1c6bc44b7aa43de3e2d5817e0",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Pre-boarding",
-          "agingBand": "🟢 0–2",
-          "department": "511255 - STP Psychology"
-        },
-        {
-          "title": "Maintenance Technician",
-          "reqId": "44287",
-          "notionUrl": "https://www.notion.so/01776ccb59e04627b02ba932de3fc2b0",
-          "owner": "Gabriel",
-          "campus": "Key West",
-          "stage": "HM Review",
-          "agingBand": "🟢 0–2",
-          "department": "471000 - Florida Inst of Oceanography"
-        },
-        {
           "title": "Salesforce Support Administrator",
           "reqId": "44197",
           "notionUrl": "https://www.notion.so/b2b3277cb11f4cc582f1430373a9bee3",
@@ -1440,76 +1510,6 @@
           "stage": "Pre-boarding",
           "agingBand": "🟢 0–2",
           "department": "066200 - WUSF-FM"
-        },
-        {
-          "title": "Program Director",
-          "reqId": "44090",
-          "notionUrl": "https://www.notion.so/2135ef73fef4400a96fa589524bf2180",
-          "owner": "Aidi",
-          "campus": "Tallahassee",
-          "stage": "HM Review",
-          "agingBand": "🟢 0–2",
-          "department": "177500 - Inst For School Comm Partnersh"
-        },
-        {
-          "title": "School Improvement Coordinator",
-          "reqId": "44108",
-          "notionUrl": "https://www.notion.so/cdc1376c7a7c478db2f0385352c38cba",
-          "owner": "Aidi",
-          "campus": "Tallahassee",
-          "stage": "HM Review",
-          "agingBand": "🟢 0–2",
-          "department": "177500 - Inst For School Comm Partnersh"
-        },
-        {
-          "title": "Systems & Business Process Dir",
-          "reqId": "44128",
-          "notionUrl": "https://www.notion.so/731d1ab5680b42ee9a95c7a2807ab25c",
-          "owner": "Aidi",
-          "campus": "Tallahassee",
-          "stage": "HM Review",
-          "agingBand": "🟢 0–2",
-          "department": "177500 - Inst For School Comm Partnersh"
-        },
-        {
-          "title": "Support Staff",
-          "reqId": "44150",
-          "notionUrl": "https://www.notion.so/84236d000b4f454fa31b192595a733cf",
-          "owner": "Aidi",
-          "campus": "Tallahassee",
-          "stage": "HM Review",
-          "agingBand": "🟢 0–2",
-          "department": "177500 - Inst For School Comm Partnersh"
-        },
-        {
-          "title": "Academic Services Administrator",
-          "reqId": "43996",
-          "notionUrl": "https://www.notion.so/e96fcdac40284d30a2d6e8ba514c415f",
-          "owner": "Aidi",
-          "campus": "Tampa",
-          "stage": "HM Review",
-          "agingBand": "🟢 0–2",
-          "department": "170800 - COE-Student Academic Services"
-        },
-        {
-          "title": "Program Development Specialist",
-          "reqId": "41648",
-          "notionUrl": "https://www.notion.so/2880aff0a0e9493eb3cf24f079e44a86",
-          "owner": "Aidi",
-          "campus": "Tallahassee",
-          "stage": "Offer Stage",
-          "agingBand": "🟢 0–2",
-          "department": "Inst For School Comm Partnership"
-        },
-        {
-          "title": "School Improvement Coordinator",
-          "reqId": "43241",
-          "notionUrl": "https://www.notion.so/26c4c26a172a4595b42feaa0299171a7",
-          "owner": "Aidi",
-          "campus": "Tallahassee",
-          "stage": "HM Review",
-          "agingBand": "🟢 0–2",
-          "department": "Inst For School Comm Partnership"
         }
       ]
     }
@@ -1619,43 +1619,43 @@
   "stageMetrics": [
     {
       "label": "Recruiter Review",
-      "avgDays": 16,
+      "avgDays": 17,
       "count": 34,
       "color": "#006747"
     },
     {
       "label": "HM Review",
       "avgDays": 15,
-      "count": 38,
+      "count": 39,
       "color": "#534AB7"
     },
     {
       "label": "Interview Stage",
-      "avgDays": 10,
+      "avgDays": 11,
       "count": 6,
       "color": "#D4880A"
     },
     {
       "label": "Offer Stage",
-      "avgDays": 7,
+      "avgDays": 8,
       "count": 4,
       "color": "#CFC483"
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 14,
+      "avgDays": 15,
       "count": 11,
       "color": "#5B8FA8"
     },
     {
       "label": "Backlog",
-      "avgDays": 19,
+      "avgDays": 20,
       "count": 32,
       "color": "#888780"
     },
     {
       "label": "Targeted Hiring",
-      "avgDays": 21,
+      "avgDays": 22,
       "count": 1,
       "color": "#3A5A6A"
     }
@@ -1761,6 +1761,17 @@
       "notionUrl": "https://www.notion.so/32fe4521ae3e4bdd81675ddcce5edbf2"
     },
     {
+      "title": "OPS Clinical Psychologist",
+      "reqId": "42516",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Canceled",
+      "department": "041500 - Counseling Center",
+      "reqType": "Active",
+      "ttf": 267,
+      "notionUrl": "https://www.notion.so/62b088df4d81447994bcd7e8ccf00a22"
+    },
+    {
       "title": "Student Gov- Deputy Chief of Staff",
       "reqId": "42278",
       "owner": "Gabriel",
@@ -1770,17 +1781,6 @@
       "reqType": "Student",
       "ttf": 267,
       "notionUrl": "https://www.notion.so/5c4707cafa2e460dbc3ea8d31bf8f740"
-    },
-    {
-      "title": "OPS Clinical Psychologist",
-      "reqId": "42516",
-      "owner": "johncalebrese",
-      "campus": "Tampa",
-      "stage": "Canceled",
-      "department": "041500 - Counseling Center",
-      "reqType": "Active",
-      "ttf": 266,
-      "notionUrl": "https://www.notion.so/62b088df4d81447994bcd7e8ccf00a22"
     },
     {
       "title": "Postdoctoral Research Scholar",
@@ -1926,6 +1926,17 @@
       "notionUrl": "https://www.notion.so/dd4acc2077034382a3f32a36665276e1"
     },
     {
+      "title": "Director of Career Development",
+      "reqId": "42966",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Canceled",
+      "department": "047700 - Career & Professional Dev",
+      "reqType": "Active",
+      "ttf": 215,
+      "notionUrl": "https://www.notion.so/38cc22579bda4f159365f3843a6482e3"
+    },
+    {
       "title": "Postdoctoral Scholar Research",
       "reqId": "42460",
       "owner": "Rebecca",
@@ -1935,17 +1946,6 @@
       "reqType": "Active",
       "ttf": 215,
       "notionUrl": "https://www.notion.so/27f7341f30f0440badb316559dabb365"
-    },
-    {
-      "title": "Director of Career Development",
-      "reqId": "42966",
-      "owner": "johncalebrese",
-      "campus": "Tampa",
-      "stage": "Canceled",
-      "department": "047700 - Career & Professional Dev",
-      "reqType": "Active",
-      "ttf": 214,
-      "notionUrl": "https://www.notion.so/38cc22579bda4f159365f3843a6482e3"
     },
     {
       "title": "Postdoctoral Scholar Research Associate",
@@ -2124,6 +2124,17 @@
       "notionUrl": "https://www.notion.so/e44fc327244d483d9db6ed4e1da13cb2"
     },
     {
+      "title": "AVP Athletic Business Analytic Strat",
+      "reqId": "43428",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Failed Search",
+      "department": "051000 - Athletic Administration",
+      "reqType": "Active",
+      "ttf": 157,
+      "notionUrl": "https://www.notion.so/a0239e74bd2a46dbb004af24c7ae0ccb"
+    },
+    {
       "title": "Skilled Craft / OPS Mate",
       "reqId": "43064",
       "owner": "Gabriel",
@@ -2133,17 +2144,6 @@
       "reqType": "Passive",
       "ttf": 156,
       "notionUrl": "https://www.notion.so/c1ddc083f13d4503a42ef0138126e9b7"
-    },
-    {
-      "title": "AVP Athletic Business Analytic Strat",
-      "reqId": "43428",
-      "owner": "johncalebrese",
-      "campus": "Tampa",
-      "stage": "Failed Search",
-      "department": "051000 - Athletic Administration",
-      "reqType": "Active",
-      "ttf": 156,
-      "notionUrl": "https://www.notion.so/a0239e74bd2a46dbb004af24c7ae0ccb"
     },
     {
       "title": "Clinical Research Coord I",
@@ -4126,6 +4126,17 @@
       "notionUrl": "https://www.notion.so/5815577dff8744eb822668a9e69d2b53"
     },
     {
+      "title": "Student Assistant/ Equipment Operations-Football",
+      "reqId": "44266",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "051000 - Athletic Administration",
+      "reqType": "Student",
+      "ttf": 53,
+      "notionUrl": "https://www.notion.so/e8a7ccd60e574aa385d3c5169367cd78"
+    },
+    {
       "title": "Accounting Assistant",
       "reqId": "44051",
       "owner": "Gabriel",
@@ -4179,17 +4190,6 @@
       "reqType": "Active",
       "ttf": 53,
       "notionUrl": "https://www.notion.so/125e888c504c4739813405aef24d5d31"
-    },
-    {
-      "title": "Student Assistant/ Equipment Operations-Football",
-      "reqId": "44266",
-      "owner": "johncalebrese",
-      "campus": "Tampa",
-      "stage": "Hired",
-      "department": "051000 - Athletic Administration",
-      "reqType": "Student",
-      "ttf": 52,
-      "notionUrl": "https://www.notion.so/e8a7ccd60e574aa385d3c5169367cd78"
     },
     {
       "title": "Accounts Payable Specialist I",
@@ -4258,6 +4258,17 @@
       "notionUrl": "https://www.notion.so/041f763606694fada1953edfd30d688e"
     },
     {
+      "title": "Student Assistant/Sports Medicine",
+      "reqId": "44288",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "051000 - Athletic Administration",
+      "reqType": "Student",
+      "ttf": 50,
+      "notionUrl": "https://www.notion.so/f20d8c4622024d9ba02b0557a060bda9"
+    },
+    {
       "title": "Project Manager II",
       "reqId": "44129",
       "owner": "Rebecca",
@@ -4278,17 +4289,6 @@
       "reqType": "Active",
       "ttf": 50,
       "notionUrl": "https://www.notion.so/62d7ebeecaa84d3ba2f342f587c6a283"
-    },
-    {
-      "title": "Student Assistant/Sports Medicine",
-      "reqId": "44288",
-      "owner": "johncalebrese",
-      "campus": "Tampa",
-      "stage": "Hired",
-      "department": "051000 - Athletic Administration",
-      "reqType": "Student",
-      "ttf": 49,
-      "notionUrl": "https://www.notion.so/f20d8c4622024d9ba02b0557a060bda9"
     },
     {
       "title": "Junior Grant Financial Administrator",
@@ -8549,31 +8549,31 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 25,
+          "avgDays": 26,
           "count": 19,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 23,
+          "avgDays": 24,
           "count": 23,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 21,
+          "avgDays": 22,
           "count": 1,
           "color": "#D4880A"
         },
         {
           "label": "Backlog",
-          "avgDays": 17,
+          "avgDays": 18,
           "count": 22,
           "color": "#888780"
         },
         {
           "label": "Targeted Hiring",
-          "avgDays": 21,
+          "avgDays": 22,
           "count": 1,
           "color": "#3A5A6A"
         }
@@ -9017,31 +9017,31 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 4,
+          "avgDays": 5,
           "count": 8,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 4,
+          "avgDays": 5,
           "count": 4,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 16,
+          "avgDays": 17,
           "count": 1,
           "color": "#D4880A"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 18,
+          "avgDays": 19,
           "count": 1,
           "color": "#CFC483"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 15,
+          "avgDays": 16,
           "count": 5,
           "color": "#5B8FA8"
         }
@@ -9296,6 +9296,46 @@
           "bgLight": "#FAEEDA",
           "records": [
             {
+              "title": "Analyst Statistical Data -CUTR",
+              "reqId": "44529",
+              "notionUrl": "https://www.notion.so/238dafc2df194fb487cd960c2f1ca4b7",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟡 3–5",
+              "department": "211700 - Ctr For Urban Transportation Research"
+            },
+            {
+              "title": "Nault Center for Entrepreneurship: Communications and Marketing Officer",
+              "reqId": "44463",
+              "notionUrl": "https://www.notion.so/fc50ca7098fc45ef945356c58e2ab5d0",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟡 3–5",
+              "department": "141500 - Center For Entrepreneurship"
+            },
+            {
+              "title": "Transit Safety Consultant - CUTR",
+              "reqId": "44407",
+              "notionUrl": "https://www.notion.so/fdf31ec5654f4ee9b57ecc6976f0f18d",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Interview Stage",
+              "agingBand": "🟡 3–5",
+              "department": "211700 - Ctr For Urban Transportation Research"
+            },
+            {
+              "title": "Research Support Specialist",
+              "reqId": "44348",
+              "notionUrl": "https://www.notion.so/5791cab1c6bc44b7aa43de3e2d5817e0",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Pre-boarding",
+              "agingBand": "🟡 3–5",
+              "department": "511255 - STP Psychology"
+            },
+            {
               "title": "Manager Teaching Laboratory - Engineering Tech Support Svcs",
               "reqId": "44349",
               "notionUrl": "https://www.notion.so/0902fd9b145e480a83c6db6a69b53f64",
@@ -9314,6 +9354,16 @@
               "stage": "HM Review",
               "agingBand": "🟡 3–5",
               "department": "210500 - Mechanical Engineering"
+            },
+            {
+              "title": "Maintenance Technician",
+              "reqId": "44287",
+              "notionUrl": "https://www.notion.so/01776ccb59e04627b02ba932de3fc2b0",
+              "owner": "Gabriel",
+              "campus": "Key West",
+              "stage": "HM Review",
+              "agingBand": "🟡 3–5",
+              "department": "471000 - Florida Inst of Oceanography"
             },
             {
               "title": "Applications Developer I",
@@ -9373,16 +9423,6 @@
               "department": "140400 - KT School of Business & Finance"
             },
             {
-              "title": "Analyst Statistical Data -CUTR",
-              "reqId": "44529",
-              "notionUrl": "https://www.notion.so/238dafc2df194fb487cd960c2f1ca4b7",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🟢 0–2",
-              "department": "211700 - Ctr For Urban Transportation Research"
-            },
-            {
               "title": "Other Hourly Professional/Support",
               "reqId": "44549",
               "notionUrl": "https://www.notion.so/4bc3fa9e19af4408bfa211942cf11d76",
@@ -9401,46 +9441,6 @@
               "stage": "Recruiter Review",
               "agingBand": "🟢 0–2",
               "department": "511724 - STP Secondary Education"
-            },
-            {
-              "title": "Nault Center for Entrepreneurship: Communications and Marketing Officer",
-              "reqId": "44463",
-              "notionUrl": "https://www.notion.so/fc50ca7098fc45ef945356c58e2ab5d0",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🟢 0–2",
-              "department": "141500 - Center For Entrepreneurship"
-            },
-            {
-              "title": "Transit Safety Consultant - CUTR",
-              "reqId": "44407",
-              "notionUrl": "https://www.notion.so/fdf31ec5654f4ee9b57ecc6976f0f18d",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Interview Stage",
-              "agingBand": "🟢 0–2",
-              "department": "211700 - Ctr For Urban Transportation Research"
-            },
-            {
-              "title": "Research Support Specialist",
-              "reqId": "44348",
-              "notionUrl": "https://www.notion.so/5791cab1c6bc44b7aa43de3e2d5817e0",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Pre-boarding",
-              "agingBand": "🟢 0–2",
-              "department": "511255 - STP Psychology"
-            },
-            {
-              "title": "Maintenance Technician",
-              "reqId": "44287",
-              "notionUrl": "https://www.notion.so/01776ccb59e04627b02ba932de3fc2b0",
-              "owner": "Gabriel",
-              "campus": "Key West",
-              "stage": "HM Review",
-              "agingBand": "🟢 0–2",
-              "department": "471000 - Florida Inst of Oceanography"
             }
           ]
         }
@@ -9448,31 +9448,31 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 1,
+          "avgDays": 2,
           "count": 5,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 3,
+          "avgDays": 4,
           "count": 4,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 3,
+          "avgDays": 4,
           "count": 2,
           "color": "#D4880A"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 3,
+          "avgDays": 4,
           "count": 1,
           "color": "#CFC483"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 12,
+          "avgDays": 13,
           "count": 4,
           "color": "#5B8FA8"
         }
@@ -9560,7 +9560,7 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 6
+          "count": 11
         },
         {
           "label": "🟢 0–2",
@@ -9568,7 +9568,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 8
+          "count": 3
         }
       ],
       "funnel": [
@@ -9867,19 +9867,19 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 23,
+          "avgDays": 24,
           "count": 2,
           "color": "#006747"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 18,
+          "avgDays": 19,
           "count": 1,
           "color": "#5B8FA8"
         },
         {
           "label": "Backlog",
-          "avgDays": 23,
+          "avgDays": 24,
           "count": 10,
           "color": "#888780"
         }
@@ -10157,6 +10157,76 @@
               "stage": "HM Review",
               "agingBand": "🟡 3–5",
               "department": "400100 - Univ Lib Deans Office"
+            },
+            {
+              "title": "Program Director",
+              "reqId": "44090",
+              "notionUrl": "https://www.notion.so/2135ef73fef4400a96fa589524bf2180",
+              "owner": "Aidi",
+              "campus": "Tallahassee",
+              "stage": "HM Review",
+              "agingBand": "🟡 3–5",
+              "department": "177500 - Inst For School Comm Partnersh"
+            },
+            {
+              "title": "School Improvement Coordinator",
+              "reqId": "44108",
+              "notionUrl": "https://www.notion.so/cdc1376c7a7c478db2f0385352c38cba",
+              "owner": "Aidi",
+              "campus": "Tallahassee",
+              "stage": "HM Review",
+              "agingBand": "🟡 3–5",
+              "department": "177500 - Inst For School Comm Partnersh"
+            },
+            {
+              "title": "Systems & Business Process Dir",
+              "reqId": "44128",
+              "notionUrl": "https://www.notion.so/731d1ab5680b42ee9a95c7a2807ab25c",
+              "owner": "Aidi",
+              "campus": "Tallahassee",
+              "stage": "HM Review",
+              "agingBand": "🟡 3–5",
+              "department": "177500 - Inst For School Comm Partnersh"
+            },
+            {
+              "title": "Support Staff",
+              "reqId": "44150",
+              "notionUrl": "https://www.notion.so/84236d000b4f454fa31b192595a733cf",
+              "owner": "Aidi",
+              "campus": "Tallahassee",
+              "stage": "HM Review",
+              "agingBand": "🟡 3–5",
+              "department": "177500 - Inst For School Comm Partnersh"
+            },
+            {
+              "title": "Academic Services Administrator",
+              "reqId": "43996",
+              "notionUrl": "https://www.notion.so/e96fcdac40284d30a2d6e8ba514c415f",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟡 3–5",
+              "department": "170800 - COE-Student Academic Services"
+            },
+            {
+              "title": "Program Development Specialist",
+              "reqId": "41648",
+              "notionUrl": "https://www.notion.so/2880aff0a0e9493eb3cf24f079e44a86",
+              "owner": "Aidi",
+              "campus": "Tallahassee",
+              "stage": "Offer Stage",
+              "agingBand": "🟡 3–5",
+              "department": "Inst For School Comm Partnership"
+            },
+            {
+              "title": "School Improvement Coordinator",
+              "reqId": "43241",
+              "notionUrl": "https://www.notion.so/26c4c26a172a4595b42feaa0299171a7",
+              "owner": "Aidi",
+              "campus": "Tallahassee",
+              "stage": "HM Review",
+              "agingBand": "🟡 3–5",
+              "department": "Inst For School Comm Partnership"
             }
           ]
         },
@@ -10174,76 +10244,6 @@
               "stage": "HM Review",
               "agingBand": "🟢 0–2",
               "department": ""
-            },
-            {
-              "title": "Program Director",
-              "reqId": "44090",
-              "notionUrl": "https://www.notion.so/2135ef73fef4400a96fa589524bf2180",
-              "owner": "Aidi",
-              "campus": "Tallahassee",
-              "stage": "HM Review",
-              "agingBand": "🟢 0–2",
-              "department": "177500 - Inst For School Comm Partnersh"
-            },
-            {
-              "title": "School Improvement Coordinator",
-              "reqId": "44108",
-              "notionUrl": "https://www.notion.so/cdc1376c7a7c478db2f0385352c38cba",
-              "owner": "Aidi",
-              "campus": "Tallahassee",
-              "stage": "HM Review",
-              "agingBand": "🟢 0–2",
-              "department": "177500 - Inst For School Comm Partnersh"
-            },
-            {
-              "title": "Systems & Business Process Dir",
-              "reqId": "44128",
-              "notionUrl": "https://www.notion.so/731d1ab5680b42ee9a95c7a2807ab25c",
-              "owner": "Aidi",
-              "campus": "Tallahassee",
-              "stage": "HM Review",
-              "agingBand": "🟢 0–2",
-              "department": "177500 - Inst For School Comm Partnersh"
-            },
-            {
-              "title": "Support Staff",
-              "reqId": "44150",
-              "notionUrl": "https://www.notion.so/84236d000b4f454fa31b192595a733cf",
-              "owner": "Aidi",
-              "campus": "Tallahassee",
-              "stage": "HM Review",
-              "agingBand": "🟢 0–2",
-              "department": "177500 - Inst For School Comm Partnersh"
-            },
-            {
-              "title": "Academic Services Administrator",
-              "reqId": "43996",
-              "notionUrl": "https://www.notion.so/e96fcdac40284d30a2d6e8ba514c415f",
-              "owner": "Aidi",
-              "campus": "Tampa",
-              "stage": "HM Review",
-              "agingBand": "🟢 0–2",
-              "department": "170800 - COE-Student Academic Services"
-            },
-            {
-              "title": "Program Development Specialist",
-              "reqId": "41648",
-              "notionUrl": "https://www.notion.so/2880aff0a0e9493eb3cf24f079e44a86",
-              "owner": "Aidi",
-              "campus": "Tallahassee",
-              "stage": "Offer Stage",
-              "agingBand": "🟢 0–2",
-              "department": "Inst For School Comm Partnership"
-            },
-            {
-              "title": "School Improvement Coordinator",
-              "reqId": "43241",
-              "notionUrl": "https://www.notion.so/26c4c26a172a4595b42feaa0299171a7",
-              "owner": "Aidi",
-              "campus": "Tallahassee",
-              "stage": "HM Review",
-              "agingBand": "🟢 0–2",
-              "department": "Inst For School Comm Partnership"
             }
           ]
         }
@@ -10251,19 +10251,19 @@
       "stageMetrics": [
         {
           "label": "HM Review",
-          "avgDays": 2,
-          "count": 7,
+          "avgDays": 3,
+          "count": 8,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 10,
+          "avgDays": 11,
           "count": 2,
           "color": "#D4880A"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 3,
+          "avgDays": 4,
           "count": 2,
           "color": "#CFC483"
         },
@@ -10347,7 +10347,7 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 3
+          "count": 10
         },
         {
           "label": "🟢 0–2",
@@ -10355,7 +10355,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 8
+          "count": 1
         }
       ],
       "funnel": [
