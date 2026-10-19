@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-10-19T10:10:31.762Z",
+  "lastUpdated": "2026-10-19T17:05:24.569Z",
   "summary": {
     "openReqs": 600,
     "avgTimeToFill": 81,
-    "filledYTD": 372,
+    "filledYTD": 373,
     "failedCancelled": 67,
     "inOfferStage": 6
   },
@@ -57,12 +57,12 @@
     },
     {
       "label": "Recruiter Review",
-      "count": 36,
+      "count": 35,
       "color": "#006747"
     },
     {
       "label": "Backlog",
-      "count": 32,
+      "count": 33,
       "color": "#888780"
     },
     {
@@ -77,18 +77,18 @@
     },
     {
       "label": "Pre-boarding",
-      "count": 11,
+      "count": 10,
       "color": "#5B8FA8"
+    },
+    {
+      "label": "Interview Stage",
+      "count": 7,
+      "color": "#D4880A"
     },
     {
       "label": "Offer Stage",
       "count": 6,
       "color": "#CFC483"
-    },
-    {
-      "label": "Interview Stage",
-      "count": 6,
-      "color": "#D4880A"
     }
   ],
   "activeFunnel": [
@@ -98,23 +98,23 @@
       "color": "#534AB7"
     },
     {
-      "label": "Recruiter Review",
-      "count": 34,
-      "color": "#006747"
-    },
-    {
       "label": "Backlog",
-      "count": 32,
+      "count": 33,
       "color": "#888780"
     },
     {
+      "label": "Recruiter Review",
+      "count": 33,
+      "color": "#006747"
+    },
+    {
       "label": "Pre-boarding",
-      "count": 11,
+      "count": 10,
       "color": "#5B8FA8"
     },
     {
       "label": "Interview Stage",
-      "count": 6,
+      "count": 7,
       "color": "#D4880A"
     },
     {
@@ -180,7 +180,7 @@
       "color": "#A32D2D",
       "bgLight": "#FAD9D9",
       "bgDark": "#2e0f0f",
-      "count": 58
+      "count": 57
     },
     {
       "label": "🔴 6–14",
@@ -196,7 +196,7 @@
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 17
+      "count": 16
     },
     {
       "label": "🟢 0–2",
@@ -204,7 +204,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 0
+      "count": 2
     }
   ],
   "agingRecords": [
@@ -699,16 +699,6 @@
           "stage": "Interview Stage",
           "agingBand": "🔴 15–30",
           "department": "043000 - Student Health Services"
-        },
-        {
-          "title": "Unit Research Administrator II",
-          "reqId": "43545",
-          "notionUrl": "https://www.notion.so/9f6ec85507494ba589a79349421f4297",
-          "owner": "Aidi",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 15–30",
-          "department": "College of Education "
         },
         {
           "title": "Temporary Biological Scientist",
@@ -1345,16 +1335,6 @@
           "department": "140400 - KT School of Business & Finance"
         },
         {
-          "title": "Analyst Statistical Data -CUTR",
-          "reqId": "44529",
-          "notionUrl": "https://www.notion.so/238dafc2df194fb487cd960c2f1ca4b7",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🟡 3–5",
-          "department": "211700 - Ctr For Urban Transportation Research"
-        },
-        {
           "title": "Other Hourly Professional/Support",
           "reqId": "44549",
           "notionUrl": "https://www.notion.so/4bc3fa9e19af4408bfa211942cf11d76",
@@ -1510,7 +1490,28 @@
       "band": "🟢 0–2",
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
-      "records": []
+      "records": [
+        {
+          "title": "Executive Assistant/Grant Manager",
+          "reqId": "44563",
+          "notionUrl": "https://www.notion.so/bab8cfc8fa964b02ab26f692d90db76a",
+          "owner": "Aidi",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "Institute for School-Community Partnerships"
+        },
+        {
+          "title": "Analyst Statistical Data -CUTR",
+          "reqId": "44529",
+          "notionUrl": "https://www.notion.so/238dafc2df194fb487cd960c2f1ca4b7",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Interview Stage",
+          "agingBand": "🟢 0–2",
+          "department": "211700 - Ctr For Urban Transportation Research"
+        }
+      ]
     }
   ],
   "department": [
@@ -1531,7 +1532,7 @@
     },
     {
       "label": "College of Education ",
-      "count": 16,
+      "count": 15,
       "color": "#CFC483"
     },
     {
@@ -1610,16 +1611,16 @@
       "color": "#00A693"
     },
     {
-      "label": "Other (173 depts)",
-      "count": 329,
+      "label": "Other (174 depts)",
+      "count": 330,
       "color": "#c8c7c2"
     }
   ],
   "stageMetrics": [
     {
       "label": "Recruiter Review",
-      "avgDays": 19,
-      "count": 34,
+      "avgDays": 20,
+      "count": 33,
       "color": "#006747"
     },
     {
@@ -1643,7 +1644,7 @@
     {
       "label": "Pre-boarding",
       "avgDays": 17,
-      "count": 11,
+      "count": 10,
       "color": "#5B8FA8"
     },
     {
@@ -2231,6 +2232,17 @@
       "reqType": "Student",
       "ttf": 146,
       "notionUrl": "https://www.notion.so/1a44bde46e5a48c5a50e77e05fd22a3a"
+    },
+    {
+      "title": "Unit Research Administrator II",
+      "reqId": "43545",
+      "owner": "Aidi",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "College of Education ",
+      "reqType": "Active",
+      "ttf": 145,
+      "notionUrl": "https://www.notion.so/9f6ec85507494ba589a79349421f4297"
     },
     {
       "title": "Athletic Senior Director of Production Services",
@@ -6521,18 +6533,18 @@
         "fillRatePct": 100
       },
       {
+        "department": "College of Education ",
+        "filled": 11,
+        "failed": 1,
+        "cancelled": 0,
+        "fillRatePct": 92
+      },
+      {
         "department": "490000 - USF World",
         "filled": 8,
         "failed": 0,
         "cancelled": 3,
         "fillRatePct": 100
-      },
-      {
-        "department": "College of Education ",
-        "filled": 10,
-        "failed": 1,
-        "cancelled": 0,
-        "fillRatePct": 91
       },
       {
         "department": "MUMA",
@@ -7442,7 +7454,7 @@
       {
         "reqType": "Active",
         "avgDays": 81,
-        "count": 202
+        "count": 203
       },
       {
         "reqType": "Student",
@@ -7473,8 +7485,8 @@
     "avgTTFByCampus": [
       {
         "campus": "Tampa",
-        "avgDays": 64,
-        "count": 169
+        "avgDays": 65,
+        "count": 170
       },
       {
         "campus": "USF Health",
@@ -7571,9 +7583,9 @@
       {
         "recruiter": "Aidi",
         "color": "#534AB7",
-        "stalled": 5,
+        "stalled": 4,
         "totalActive": 13,
-        "stallRatePct": 38
+        "stallRatePct": 31
       },
       {
         "recruiter": "Katherine",
@@ -7655,7 +7667,7 @@
       },
       {
         "label": "Oct '26",
-        "count": 17
+        "count": 18
       }
     ]
   },
@@ -9247,7 +9259,7 @@
       "filled": 103,
       "failed": 11,
       "ttf": 52,
-      "wip": 4,
+      "wip": 3,
       "agingRecords": [
         {
           "band": "🔴 31+",
@@ -9365,16 +9377,6 @@
               "department": "140400 - KT School of Business & Finance"
             },
             {
-              "title": "Analyst Statistical Data -CUTR",
-              "reqId": "44529",
-              "notionUrl": "https://www.notion.so/238dafc2df194fb487cd960c2f1ca4b7",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🟡 3–5",
-              "department": "211700 - Ctr For Urban Transportation Research"
-            },
-            {
               "title": "Other Hourly Professional/Support",
               "reqId": "44549",
               "notionUrl": "https://www.notion.so/4bc3fa9e19af4408bfa211942cf11d76",
@@ -9440,14 +9442,25 @@
           "band": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
-          "records": []
+          "records": [
+            {
+              "title": "Analyst Statistical Data -CUTR",
+              "reqId": "44529",
+              "notionUrl": "https://www.notion.so/238dafc2df194fb487cd960c2f1ca4b7",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Interview Stage",
+              "agingBand": "🟢 0–2",
+              "department": "211700 - Ctr For Urban Transportation Research"
+            }
+          ]
         }
       ],
       "stageMetrics": [
         {
           "label": "Recruiter Review",
           "avgDays": 4,
-          "count": 5,
+          "count": 4,
           "color": "#006747"
         },
         {
@@ -9478,12 +9491,12 @@
       "statuses": [
         {
           "label": "Recruiter Review",
-          "count": 5,
+          "count": 4,
           "color": "#006747"
         },
         {
           "label": "Interview Stage",
-          "count": 2,
+          "count": 3,
           "color": "#D4880A"
         },
         {
@@ -9558,7 +9571,7 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 8
+          "count": 7
         },
         {
           "label": "🟢 0–2",
@@ -9566,7 +9579,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 0
+          "count": 1
         }
       ],
       "funnel": [
@@ -9584,7 +9597,7 @@
         },
         {
           "label": "Interviews",
-          "count": 2
+          "count": 3
         },
         {
           "label": "Offer",
@@ -9594,7 +9607,7 @@
       "activeFunnel": [
         {
           "label": "Recruiter Review",
-          "count": 5,
+          "count": 4,
           "color": "#006747"
         },
         {
@@ -9609,7 +9622,7 @@
         },
         {
           "label": "Interview Stage",
-          "count": 2,
+          "count": 3,
           "color": "#D4880A"
         },
         {
@@ -9671,7 +9684,7 @@
         },
         {
           "label": "Interviews",
-          "value": 2,
+          "value": 3,
           "target": 178,
           "invert": false
         }
@@ -10075,11 +10088,11 @@
       "bgLight": "#ece9f7",
       "bgDark": "#1f1a4d",
       "campus": "Tampa",
-      "reqs": 41,
+      "reqs": 42,
       "activeReqs": 39,
-      "filled": 2,
+      "filled": 3,
       "failed": 0,
-      "ttf": 58,
+      "ttf": 87,
       "wip": 1,
       "agingRecords": [
         {
@@ -10102,16 +10115,6 @@
               "stage": "Interview Stage",
               "agingBand": "🔴 15–30",
               "department": "170100 - COE Dean's Office"
-            },
-            {
-              "title": "Unit Research Administrator II",
-              "reqId": "43545",
-              "notionUrl": "https://www.notion.so/9f6ec85507494ba589a79349421f4297",
-              "owner": "Aidi",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🔴 15–30",
-              "department": "College of Education "
             }
           ]
         },
@@ -10243,7 +10246,18 @@
           "band": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
-          "records": []
+          "records": [
+            {
+              "title": "Executive Assistant/Grant Manager",
+              "reqId": "44563",
+              "notionUrl": "https://www.notion.so/bab8cfc8fa964b02ab26f692d90db76a",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "Institute for School-Community Partnerships"
+            }
+          ]
         }
       ],
       "stageMetrics": [
@@ -10264,15 +10278,14 @@
           "avgDays": 6,
           "count": 2,
           "color": "#CFC483"
-        },
-        {
-          "label": "Pre-boarding",
-          "avgDays": 20,
-          "count": 1,
-          "color": "#5B8FA8"
         }
       ],
       "statuses": [
+        {
+          "label": "Backlog",
+          "count": 1,
+          "color": "#888780"
+        },
         {
           "label": "Student Hiring",
           "count": 4,
@@ -10307,11 +10320,6 @@
           "label": "Evergreen / Continuous Pool",
           "count": 1,
           "color": "#6B8E4E"
-        },
-        {
-          "label": "Pre-boarding",
-          "count": 1,
-          "color": "#5B8FA8"
         }
       ],
       "aging": [
@@ -10329,7 +10337,7 @@
           "color": "#A32D2D",
           "bgLight": "#FAD9D9",
           "bgDark": "#2e0f0f",
-          "count": 2
+          "count": 1
         },
         {
           "label": "🔴 6–14",
@@ -10353,7 +10361,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 0
+          "count": 1
         }
       ],
       "funnel": [
@@ -10395,9 +10403,9 @@
           "color": "#D4880A"
         },
         {
-          "label": "Pre-boarding",
+          "label": "Backlog",
           "count": 1,
-          "color": "#5B8FA8"
+          "color": "#888780"
         }
       ],
       "reqTypes": [
@@ -10430,36 +10438,36 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 2,
+          "value": 3,
           "target": 10,
           "invert": false
         },
         {
           "label": "Time to fill",
-          "value": 58,
+          "value": 87,
           "target": 40,
           "invert": true
         },
         {
           "label": "Screened",
           "value": 0,
-          "target": 41,
+          "target": 42,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 2,
-          "target": 41,
+          "target": 42,
           "invert": false
         }
       ],
       "trend": [
-        58,
-        58,
-        58,
-        58,
-        58,
-        58
+        87,
+        87,
+        87,
+        87,
+        87,
+        87
       ]
     }
   ]
