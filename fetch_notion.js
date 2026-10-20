@@ -735,7 +735,8 @@ async function main() {
       cleanVal((computeAgingBand(r) || '').replace(/🔴\s*/g,'').replace(/🟡\s*/g,'').replace(/🟢\s*/g,'').trim()),
       cleanVal(getProp(r, 'Posted Date', 'date') || getProp(r, 'Posted Date', 'text')),
       cleanVal(getProp(r, 'Last Activity', 'date') || getProp(r, 'Last Activity', 'text')),
-      cleanVal(getProp(r, 'Open Req (Yes/No)', 'checkbox') ? 'Yes' : 'No')
+      // 'Open Req (Yes/No)' is a Notion select (Yes/No), not a checkbox. Blank stays blank.
+      cleanVal(getProp(r, 'Open Req (Yes/No)', 'select'))
     ].join(',');
   });
 
