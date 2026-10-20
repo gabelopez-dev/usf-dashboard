@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20T15:46:01.578Z",
+  "lastUpdated": "2026-10-20T19:53:30.272Z",
   "summary": {
     "openReqs": 612,
     "avgTimeToFill": 81,
@@ -57,12 +57,12 @@
     },
     {
       "label": "Backlog",
-      "count": 38,
+      "count": 39,
       "color": "#888780"
     },
     {
       "label": "Recruiter Review",
-      "count": 34,
+      "count": 33,
       "color": "#006747"
     },
     {
@@ -94,7 +94,7 @@
   "activeFunnel": [
     {
       "label": "Backlog",
-      "count": 38,
+      "count": 39,
       "color": "#888780"
     },
     {
@@ -104,7 +104,7 @@
     },
     {
       "label": "Recruiter Review",
-      "count": 32,
+      "count": 31,
       "color": "#006747"
     },
     {
@@ -196,7 +196,7 @@
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 5
+      "count": 4
     },
     {
       "label": "🟢 0–2",
@@ -204,7 +204,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 14
+      "count": 15
     }
   ],
   "agingRecords": [
@@ -1365,16 +1365,6 @@
       "bgLight": "#FAEEDA",
       "records": [
         {
-          "title": "Academic Program Specialist - Kate Tiedemann School of Business and Finance",
-          "reqId": "44540",
-          "notionUrl": "https://www.notion.so/c6eb6ae8275e47ff82de184e98f45966",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🟡 3–5",
-          "department": "140400 - KT School of Business & Finance"
-        },
-        {
           "title": "Other Hourly Professional/Support",
           "reqId": "44549",
           "notionUrl": "https://www.notion.so/4bc3fa9e19af4408bfa211942cf11d76",
@@ -1500,6 +1490,16 @@
           "stage": "Backlog",
           "agingBand": "🟢 0–2",
           "department": "Institute for School-Community Partnerships"
+        },
+        {
+          "title": "Academic Program Specialist - Kate Tiedemann School of Business and Finance",
+          "reqId": "44540",
+          "notionUrl": "https://www.notion.so/c6eb6ae8275e47ff82de184e98f45966",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "140400 - KT School of Business & Finance"
         },
         {
           "title": "Analyst Statistical Data -CUTR",
@@ -1669,8 +1669,8 @@
   "stageMetrics": [
     {
       "label": "Recruiter Review",
-      "avgDays": 22,
-      "count": 30,
+      "avgDays": 23,
+      "count": 29,
       "color": "#006747"
     },
     {
@@ -9301,7 +9301,7 @@
       "filled": 101,
       "failed": 11,
       "ttf": 53,
-      "wip": 5,
+      "wip": 4,
       "agingRecords": [
         {
           "band": "🔴 31+",
@@ -9399,16 +9399,6 @@
           "bgLight": "#FAEEDA",
           "records": [
             {
-              "title": "Academic Program Specialist - Kate Tiedemann School of Business and Finance",
-              "reqId": "44540",
-              "notionUrl": "https://www.notion.so/c6eb6ae8275e47ff82de184e98f45966",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🟡 3–5",
-              "department": "140400 - KT School of Business & Finance"
-            },
-            {
               "title": "Other Hourly Professional/Support",
               "reqId": "44549",
               "notionUrl": "https://www.notion.so/4bc3fa9e19af4408bfa211942cf11d76",
@@ -9486,6 +9476,16 @@
               "department": "250000 - College of Mari…"
             },
             {
+              "title": "Academic Program Specialist - Kate Tiedemann School of Business and Finance",
+              "reqId": "44540",
+              "notionUrl": "https://www.notion.so/c6eb6ae8275e47ff82de184e98f45966",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "140400 - KT School of Business & Finance"
+            },
+            {
               "title": "Analyst Statistical Data -CUTR",
               "reqId": "44529",
               "notionUrl": "https://www.notion.so/238dafc2df194fb487cd960c2f1ca4b7",
@@ -9532,7 +9532,7 @@
         {
           "label": "Recruiter Review",
           "avgDays": 5,
-          "count": 3,
+          "count": 2,
           "color": "#006747"
         },
         {
@@ -9563,18 +9563,18 @@
       "statuses": [
         {
           "label": "Backlog",
-          "count": 5,
+          "count": 6,
           "color": "#888780"
-        },
-        {
-          "label": "Recruiter Review",
-          "count": 3,
-          "color": "#006747"
         },
         {
           "label": "Interview Stage",
           "count": 3,
           "color": "#D4880A"
+        },
+        {
+          "label": "Recruiter Review",
+          "count": 2,
+          "color": "#006747"
         },
         {
           "label": "HM Review",
@@ -9643,7 +9643,7 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 3
+          "count": 2
         },
         {
           "label": "🟢 0–2",
@@ -9651,7 +9651,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 9
+          "count": 10
         }
       ],
       "funnel": [
@@ -9678,24 +9678,24 @@
       ],
       "activeFunnel": [
         {
+          "label": "Backlog",
+          "count": 6,
+          "color": "#888780"
+        },
+        {
           "label": "Pre-boarding",
           "count": 6,
           "color": "#5B8FA8"
         },
         {
-          "label": "Backlog",
-          "count": 5,
-          "color": "#888780"
-        },
-        {
-          "label": "Recruiter Review",
-          "count": 3,
-          "color": "#006747"
-        },
-        {
           "label": "Interview Stage",
           "count": 3,
           "color": "#D4880A"
+        },
+        {
+          "label": "Recruiter Review",
+          "count": 2,
+          "color": "#006747"
         },
         {
           "label": "HM Review",
