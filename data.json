@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-21T12:16:16.314Z",
+  "lastUpdated": "2026-10-21T17:33:58.753Z",
   "summary": {
-    "openReqs": 612,
+    "openReqs": 613,
     "avgTimeToFill": 81,
     "filledYTD": 371,
     "failedCancelled": 67,
@@ -10,7 +10,7 @@
   "campus": [
     {
       "label": "Tampa",
-      "count": 312,
+      "count": 313,
       "color": "#1B6A9C"
     },
     {
@@ -57,7 +57,7 @@
     },
     {
       "label": "Backlog",
-      "count": 39,
+      "count": 40,
       "color": "#888780"
     },
     {
@@ -94,7 +94,7 @@
   "activeFunnel": [
     {
       "label": "Backlog",
-      "count": 39,
+      "count": 40,
       "color": "#888780"
     },
     {
@@ -136,7 +136,7 @@
     },
     {
       "label": "Active",
-      "count": 132,
+      "count": 133,
       "color": "#004d35"
     },
     {
@@ -180,7 +180,7 @@
       "color": "#A32D2D",
       "bgLight": "#FAD9D9",
       "bgDark": "#2e0f0f",
-      "count": 59
+      "count": 58
     },
     {
       "label": "🔴 6–14",
@@ -188,7 +188,7 @@
       "color": "#D0523F",
       "bgLight": "#FCE9E5",
       "bgDark": "#3d1a0f",
-      "count": 47
+      "count": 41
     },
     {
       "label": "🟡 3–5",
@@ -204,7 +204,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 16
+      "count": 24
     }
   ],
   "agingRecords": [
@@ -591,16 +591,6 @@
           "department": "140105 - MCOB Financia"
         },
         {
-          "title": "Audience Growth Manager",
-          "reqId": "44091",
-          "notionUrl": "https://www.notion.so/de779a0d15284d7fa3558de1c868fb47",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Offer Stage",
-          "agingBand": "🔴 15–30",
-          "department": "066200 - WUSF-FM"
-        },
-        {
           "title": "Clerical and Secretarial",
           "reqId": "44007",
           "notionUrl": "https://www.notion.so/fbaa7c1511994273a7711e135484e7ba",
@@ -918,16 +908,6 @@
           "department": "511280 - STP Honors Program"
         },
         {
-          "title": "Fiscal & Business Specialist",
-          "reqId": "44499",
-          "notionUrl": "https://www.notion.so/593ca5445fc44d8ea9b8485466d47b00",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "HM Review",
-          "agingBand": "🔴 6–14",
-          "department": "020600 - University Controllers Office"
-        },
-        {
           "title": "Office Manager",
           "reqId": "44445",
           "notionUrl": "https://www.notion.so/8222adabc1c8488eb710a624e2c9cc2f",
@@ -1098,46 +1078,6 @@
           "department": "620100 - College Of Nurs…"
         },
         {
-          "title": "Financial Aid Assistant",
-          "reqId": "44476",
-          "notionUrl": "https://www.notion.so/cd3291d6a940476c83b344fb2ce74495",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "HM Review",
-          "agingBand": "🔴 6–14",
-          "department": "373000 - Financial Aid"
-        },
-        {
-          "title": "HIPAA Privacy Investigator & Operations Administrator",
-          "reqId": "44486",
-          "notionUrl": "https://www.notion.so/8f4ee32c815a488ba8fd9e7f84602c9e",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6–14",
-          "department": "017000 - Office Of Compliance-Ethics"
-        },
-        {
-          "title": "Fund Strategy Analytics Manager",
-          "reqId": "44490",
-          "notionUrl": "https://www.notion.so/347fe04eb3564ef18bb873e850fef8dc",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6–14",
-          "department": "100100 - Office Of The Provost"
-        },
-        {
-          "title": "Director of Evaluations",
-          "reqId": "44484",
-          "notionUrl": "https://www.notion.so/65686d30d45a410bae523342148df807",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "HM Review",
-          "agingBand": "🔴 6–14",
-          "department": "371000 - Admissions"
-        },
-        {
           "title": "Program Director",
           "reqId": "44447",
           "notionUrl": "https://www.notion.so/31ef31a8794a4a6b8ada982b17c8c7e2",
@@ -1156,16 +1096,6 @@
           "stage": "Offer Stage",
           "agingBand": "🔴 6–14",
           "department": "171500 - Educational And Psychological"
-        },
-        {
-          "title": "Assignment Coordinator",
-          "reqId": "44403",
-          "notionUrl": "https://www.notion.so/69f06d5f673849d582aea91c6bca7056",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6–14",
-          "department": "043500 - Housing & Residential ED"
         },
         {
           "title": "Research Scientist OPS",
@@ -1402,6 +1332,16 @@
       "bgLight": "#EAF3DE",
       "records": [
         {
+          "title": "Library Technology Support Technician",
+          "reqId": "44524",
+          "notionUrl": "https://www.notion.so/0c278f8827294a95ba2f809c33fd6347",
+          "owner": "Aidi",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "400100 - Univ Lib Deans Office"
+        },
+        {
           "title": "CyberFL Scientific Researcher I",
           "reqId": "44553",
           "notionUrl": "https://www.notion.so/9dbca2c4a1504b1f99d8dd909c8d62c2",
@@ -1522,6 +1462,56 @@
           "department": "490000 - USF World"
         },
         {
+          "title": "Fiscal & Business Specialist",
+          "reqId": "44499",
+          "notionUrl": "https://www.notion.so/593ca5445fc44d8ea9b8485466d47b00",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "020600 - University Controllers Office"
+        },
+        {
+          "title": "Financial Aid Assistant",
+          "reqId": "44476",
+          "notionUrl": "https://www.notion.so/cd3291d6a940476c83b344fb2ce74495",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "373000 - Financial Aid"
+        },
+        {
+          "title": "HIPAA Privacy Investigator & Operations Administrator",
+          "reqId": "44486",
+          "notionUrl": "https://www.notion.so/8f4ee32c815a488ba8fd9e7f84602c9e",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "017000 - Office Of Compliance-Ethics"
+        },
+        {
+          "title": "Fund Strategy Analytics Manager",
+          "reqId": "44490",
+          "notionUrl": "https://www.notion.so/347fe04eb3564ef18bb873e850fef8dc",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "100100 - Office Of The Provost"
+        },
+        {
+          "title": "Director of Evaluations",
+          "reqId": "44484",
+          "notionUrl": "https://www.notion.so/65686d30d45a410bae523342148df807",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "371000 - Admissions"
+        },
+        {
           "title": "Nault Center for Entrepreneurship: Communications and Marketing Officer",
           "reqId": "44463",
           "notionUrl": "https://www.notion.so/fc50ca7098fc45ef945356c58e2ab5d0",
@@ -1530,6 +1520,16 @@
           "stage": "HM Review",
           "agingBand": "🟢 0–2",
           "department": "141500 - Center For Entrepreneurship"
+        },
+        {
+          "title": "Assignment Coordinator",
+          "reqId": "44403",
+          "notionUrl": "https://www.notion.so/69f06d5f673849d582aea91c6bca7056",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "043500 - Housing & Residential ED"
         },
         {
           "title": "Fiscal & Business Analyst I",
@@ -1560,6 +1560,16 @@
           "stage": "Pre-boarding",
           "agingBand": "🟢 0–2",
           "department": "210500 - Mechanical Engineering"
+        },
+        {
+          "title": "Audience Growth Manager",
+          "reqId": "44091",
+          "notionUrl": "https://www.notion.so/de779a0d15284d7fa3558de1c868fb47",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Offer Stage",
+          "agingBand": "🟢 0–2",
+          "department": "066200 - WUSF-FM"
         }
       ]
     }
@@ -1662,21 +1672,21 @@
     },
     {
       "label": "Other (182 depts)",
-      "count": 342,
+      "count": 343,
       "color": "#c8c7c2"
     }
   ],
   "stageMetrics": [
     {
       "label": "Recruiter Review",
-      "avgDays": 23,
-      "count": 30,
+      "avgDays": 24,
+      "count": 27,
       "color": "#006747"
     },
     {
       "label": "HM Review",
-      "avgDays": 19,
-      "count": 38,
+      "avgDays": 20,
+      "count": 35,
       "color": "#534AB7"
     },
     {
@@ -1687,8 +1697,8 @@
     },
     {
       "label": "Offer Stage",
-      "avgDays": 10,
-      "count": 4,
+      "avgDays": 6,
+      "count": 3,
       "color": "#CFC483"
     },
     {
@@ -7591,15 +7601,8 @@
         "recruiter": "Aidi",
         "color": "#534AB7",
         "stalled": 11,
-        "totalActive": 13,
-        "stallRatePct": 85
-      },
-      {
-        "recruiter": "John",
-        "color": "#1B6A9C",
-        "stalled": 16,
-        "totalActive": 21,
-        "stallRatePct": 76
+        "totalActive": 14,
+        "stallRatePct": 79
       },
       {
         "recruiter": "Gabriel",
@@ -7607,6 +7610,13 @@
         "stalled": 9,
         "totalActive": 19,
         "stallRatePct": 47
+      },
+      {
+        "recruiter": "John",
+        "color": "#1B6A9C",
+        "stalled": 9,
+        "totalActive": 21,
+        "stallRatePct": 43
       },
       {
         "recruiter": "Katherine",
@@ -8843,16 +8853,6 @@
           "bgLight": "#FAD9D9",
           "records": [
             {
-              "title": "Audience Growth Manager",
-              "reqId": "44091",
-              "notionUrl": "https://www.notion.so/de779a0d15284d7fa3558de1c868fb47",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Offer Stage",
-              "agingBand": "🔴 15–30",
-              "department": "066200 - WUSF-FM"
-            },
-            {
               "title": "Licensed Practical Nurse",
               "reqId": "43376",
               "notionUrl": "https://www.notion.so/85e973beb60d4bb2a52f0592f63cf61e",
@@ -8879,66 +8879,6 @@
           "color": "#D0523F",
           "bgLight": "#FCE9E5",
           "records": [
-            {
-              "title": "Fiscal & Business Specialist",
-              "reqId": "44499",
-              "notionUrl": "https://www.notion.so/593ca5445fc44d8ea9b8485466d47b00",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "HM Review",
-              "agingBand": "🔴 6–14",
-              "department": "020600 - University Controllers Office"
-            },
-            {
-              "title": "Financial Aid Assistant",
-              "reqId": "44476",
-              "notionUrl": "https://www.notion.so/cd3291d6a940476c83b344fb2ce74495",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "HM Review",
-              "agingBand": "🔴 6–14",
-              "department": "373000 - Financial Aid"
-            },
-            {
-              "title": "HIPAA Privacy Investigator & Operations Administrator",
-              "reqId": "44486",
-              "notionUrl": "https://www.notion.so/8f4ee32c815a488ba8fd9e7f84602c9e",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6–14",
-              "department": "017000 - Office Of Compliance-Ethics"
-            },
-            {
-              "title": "Fund Strategy Analytics Manager",
-              "reqId": "44490",
-              "notionUrl": "https://www.notion.so/347fe04eb3564ef18bb873e850fef8dc",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6–14",
-              "department": "100100 - Office Of The Provost"
-            },
-            {
-              "title": "Director of Evaluations",
-              "reqId": "44484",
-              "notionUrl": "https://www.notion.so/65686d30d45a410bae523342148df807",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "HM Review",
-              "agingBand": "🔴 6–14",
-              "department": "371000 - Admissions"
-            },
-            {
-              "title": "Assignment Coordinator",
-              "reqId": "44403",
-              "notionUrl": "https://www.notion.so/69f06d5f673849d582aea91c6bca7056",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6–14",
-              "department": "043500 - Housing & Residential ED"
-            },
             {
               "title": "Enrollment Management Specialist",
               "reqId": "44389",
@@ -9053,6 +8993,66 @@
               "department": "490000 - USF World"
             },
             {
+              "title": "Fiscal & Business Specialist",
+              "reqId": "44499",
+              "notionUrl": "https://www.notion.so/593ca5445fc44d8ea9b8485466d47b00",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "020600 - University Controllers Office"
+            },
+            {
+              "title": "Financial Aid Assistant",
+              "reqId": "44476",
+              "notionUrl": "https://www.notion.so/cd3291d6a940476c83b344fb2ce74495",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "373000 - Financial Aid"
+            },
+            {
+              "title": "HIPAA Privacy Investigator & Operations Administrator",
+              "reqId": "44486",
+              "notionUrl": "https://www.notion.so/8f4ee32c815a488ba8fd9e7f84602c9e",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "017000 - Office Of Compliance-Ethics"
+            },
+            {
+              "title": "Fund Strategy Analytics Manager",
+              "reqId": "44490",
+              "notionUrl": "https://www.notion.so/347fe04eb3564ef18bb873e850fef8dc",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "100100 - Office Of The Provost"
+            },
+            {
+              "title": "Director of Evaluations",
+              "reqId": "44484",
+              "notionUrl": "https://www.notion.so/65686d30d45a410bae523342148df807",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "371000 - Admissions"
+            },
+            {
+              "title": "Assignment Coordinator",
+              "reqId": "44403",
+              "notionUrl": "https://www.notion.so/69f06d5f673849d582aea91c6bca7056",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "043500 - Housing & Residential ED"
+            },
+            {
               "title": "Fiscal & Business Analyst I",
               "reqId": "44436",
               "notionUrl": "https://www.notion.so/ea577e6b5f2644a3b6f420e2bda374fa",
@@ -9061,6 +9061,16 @@
               "stage": "Offer Stage",
               "agingBand": "🟢 0–2",
               "department": "020600 - University Controllers Office"
+            },
+            {
+              "title": "Audience Growth Manager",
+              "reqId": "44091",
+              "notionUrl": "https://www.notion.so/de779a0d15284d7fa3558de1c868fb47",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Offer Stage",
+              "agingBand": "🟢 0–2",
+              "department": "066200 - WUSF-FM"
             }
           ]
         }
@@ -9068,14 +9078,14 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 6,
-          "count": 7,
+          "avgDays": 5,
+          "count": 4,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 7,
-          "count": 5,
+          "avgDays": 5,
+          "count": 2,
           "color": "#534AB7"
         },
         {
@@ -9086,8 +9096,8 @@
         },
         {
           "label": "Offer Stage",
-          "avgDays": 12,
-          "count": 2,
+          "avgDays": 1,
+          "count": 1,
           "color": "#CFC483"
         },
         {
@@ -9154,7 +9164,7 @@
           "color": "#A32D2D",
           "bgLight": "#FAD9D9",
           "bgDark": "#2e0f0f",
-          "count": 3
+          "count": 2
         },
         {
           "label": "🔴 6–14",
@@ -9162,7 +9172,7 @@
           "color": "#D0523F",
           "bgLight": "#FCE9E5",
           "bgDark": "#3d1a0f",
-          "count": 12
+          "count": 6
         },
         {
           "label": "🟡 3–5",
@@ -9178,7 +9188,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 5
+          "count": 12
         }
       ],
       "funnel": [
@@ -10158,8 +10168,8 @@
       "bgLight": "#ece9f7",
       "bgDark": "#1f1a4d",
       "campus": "Tampa",
-      "reqs": 42,
-      "activeReqs": 39,
+      "reqs": 43,
+      "activeReqs": 40,
       "filled": 3,
       "failed": 0,
       "ttf": 87,
@@ -10318,6 +10328,16 @@
           "bgLight": "#EAF3DE",
           "records": [
             {
+              "title": "Library Technology Support Technician",
+              "reqId": "44524",
+              "notionUrl": "https://www.notion.so/0c278f8827294a95ba2f809c33fd6347",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "400100 - Univ Lib Deans Office"
+            },
+            {
               "title": "Executive Assistant/Grant Manager",
               "reqId": "44563",
               "notionUrl": "https://www.notion.so/bab8cfc8fa964b02ab26f692d90db76a",
@@ -10359,7 +10379,7 @@
       "statuses": [
         {
           "label": "Backlog",
-          "count": 1,
+          "count": 2,
           "color": "#888780"
         },
         {
@@ -10437,13 +10457,13 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 1
+          "count": 2
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 39
+          "count": 40
         },
         {
           "label": "Screened",
@@ -10469,6 +10489,11 @@
           "color": "#534AB7"
         },
         {
+          "label": "Backlog",
+          "count": 2,
+          "color": "#888780"
+        },
+        {
           "label": "Offer Stage",
           "count": 2,
           "color": "#CFC483"
@@ -10477,11 +10502,6 @@
           "label": "Interview Stage",
           "count": 2,
           "color": "#D4880A"
-        },
-        {
-          "label": "Backlog",
-          "count": 1,
-          "color": "#888780"
         }
       ],
       "reqTypes": [
@@ -10492,7 +10512,7 @@
         },
         {
           "label": "Active",
-          "count": 13,
+          "count": 14,
           "color": "#004d35"
         },
         {
@@ -10527,13 +10547,13 @@
         {
           "label": "Screened",
           "value": 0,
-          "target": 42,
+          "target": 43,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 2,
-          "target": 42,
+          "target": 43,
           "invert": false
         }
       ],
