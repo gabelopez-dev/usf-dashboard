@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-10-21T06:29:37.229Z",
+  "lastUpdated": "2026-10-21T12:16:16.314Z",
   "summary": {
     "openReqs": 612,
     "avgTimeToFill": 81,
     "filledYTD": 371,
     "failedCancelled": 67,
-    "inOfferStage": 6
+    "inOfferStage": 7
   },
   "campus": [
     {
@@ -62,7 +62,7 @@
     },
     {
       "label": "Recruiter Review",
-      "count": 33,
+      "count": 32,
       "color": "#006747"
     },
     {
@@ -87,7 +87,7 @@
     },
     {
       "label": "Offer Stage",
-      "count": 6,
+      "count": 7,
       "color": "#CFC483"
     }
   ],
@@ -104,7 +104,7 @@
     },
     {
       "label": "Recruiter Review",
-      "count": 31,
+      "count": 30,
       "color": "#006747"
     },
     {
@@ -119,7 +119,7 @@
     },
     {
       "label": "Offer Stage",
-      "count": 4,
+      "count": 5,
       "color": "#CFC483"
     },
     {
@@ -188,7 +188,7 @@
       "color": "#D0523F",
       "bgLight": "#FCE9E5",
       "bgDark": "#3d1a0f",
-      "count": 48
+      "count": 47
     },
     {
       "label": "🟡 3–5",
@@ -204,7 +204,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 15
+      "count": 16
     }
   ],
   "agingRecords": [
@@ -1168,16 +1168,6 @@
           "department": "043500 - Housing & Residential ED"
         },
         {
-          "title": "Fiscal & Business Analyst I",
-          "reqId": "44436",
-          "notionUrl": "https://www.notion.so/ea577e6b5f2644a3b6f420e2bda374fa",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6–14",
-          "department": "020600 - University Controllers Office"
-        },
-        {
           "title": "Research Scientist OPS",
           "reqId": "44422",
           "notionUrl": "https://www.notion.so/2c8520addea8420cbcce49f4e1e795ca",
@@ -1542,6 +1532,16 @@
           "department": "141500 - Center For Entrepreneurship"
         },
         {
+          "title": "Fiscal & Business Analyst I",
+          "reqId": "44436",
+          "notionUrl": "https://www.notion.so/ea577e6b5f2644a3b6f420e2bda374fa",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Offer Stage",
+          "agingBand": "🟢 0–2",
+          "department": "020600 - University Controllers Office"
+        },
+        {
           "title": "OPS / Temporary Marine",
           "reqId": "44180",
           "notionUrl": "https://www.notion.so/93a718c56eaf4fd8a3a4c3995b21262b",
@@ -1669,8 +1669,8 @@
   "stageMetrics": [
     {
       "label": "Recruiter Review",
-      "avgDays": 22,
-      "count": 31,
+      "avgDays": 23,
+      "count": 30,
       "color": "#006747"
     },
     {
@@ -7597,9 +7597,9 @@
       {
         "recruiter": "John",
         "color": "#1B6A9C",
-        "stalled": 17,
+        "stalled": 16,
         "totalActive": 21,
-        "stallRatePct": 81
+        "stallRatePct": 76
       },
       {
         "recruiter": "Gabriel",
@@ -8940,16 +8940,6 @@
               "department": "043500 - Housing & Residential ED"
             },
             {
-              "title": "Fiscal & Business Analyst I",
-              "reqId": "44436",
-              "notionUrl": "https://www.notion.so/ea577e6b5f2644a3b6f420e2bda374fa",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6–14",
-              "department": "020600 - University Controllers Office"
-            },
-            {
               "title": "Enrollment Management Specialist",
               "reqId": "44389",
               "notionUrl": "https://www.notion.so/da543837cac04a8ead8965472dc1b2f8",
@@ -9061,6 +9051,16 @@
               "stage": "Offer Stage",
               "agingBand": "🟢 0–2",
               "department": "490000 - USF World"
+            },
+            {
+              "title": "Fiscal & Business Analyst I",
+              "reqId": "44436",
+              "notionUrl": "https://www.notion.so/ea577e6b5f2644a3b6f420e2bda374fa",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Offer Stage",
+              "agingBand": "🟢 0–2",
+              "department": "020600 - University Controllers Office"
             }
           ]
         }
@@ -9068,8 +9068,8 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 7,
-          "count": 8,
+          "avgDays": 6,
+          "count": 7,
           "color": "#006747"
         },
         {
@@ -9105,7 +9105,7 @@
         },
         {
           "label": "Recruiter Review",
-          "count": 8,
+          "count": 7,
           "color": "#006747"
         },
         {
@@ -9115,7 +9115,7 @@
         },
         {
           "label": "Offer Stage",
-          "count": 3,
+          "count": 4,
           "color": "#CFC483"
         },
         {
@@ -9162,7 +9162,7 @@
           "color": "#D0523F",
           "bgLight": "#FCE9E5",
           "bgDark": "#3d1a0f",
-          "count": 13
+          "count": 12
         },
         {
           "label": "🟡 3–5",
@@ -9178,7 +9178,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 4
+          "count": 5
         }
       ],
       "funnel": [
@@ -9200,13 +9200,13 @@
         },
         {
           "label": "Offer",
-          "count": 3
+          "count": 4
         }
       ],
       "activeFunnel": [
         {
           "label": "Recruiter Review",
-          "count": 8,
+          "count": 7,
           "color": "#006747"
         },
         {
@@ -9221,7 +9221,7 @@
         },
         {
           "label": "Offer Stage",
-          "count": 2,
+          "count": 3,
           "color": "#CFC483"
         },
         {
