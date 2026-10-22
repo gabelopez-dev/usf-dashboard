@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-10-22T10:28:22.042Z",
+  "lastUpdated": "2026-10-22T15:32:23.656Z",
   "summary": {
-    "openReqs": 626,
+    "openReqs": 621,
     "avgTimeToFill": 81,
-    "filledYTD": 371,
+    "filledYTD": 376,
     "failedCancelled": 68,
-    "inOfferStage": 7
+    "inOfferStage": 8
   },
   "campus": [
     {
@@ -20,7 +20,7 @@
     },
     {
       "label": "USF Health",
-      "count": 266,
+      "count": 261,
       "color": "#00A693"
     },
     {
@@ -37,17 +37,17 @@
   "mainFunnel": [
     {
       "label": "Passive Hiring",
-      "count": 271,
+      "count": 268,
       "color": "#1B6A9C"
     },
     {
       "label": "HM Review",
-      "count": 132,
+      "count": 130,
       "color": "#534AB7"
     },
     {
       "label": "Student Hiring",
-      "count": 52,
+      "count": 51,
       "color": "#B5651D"
     },
     {
@@ -57,7 +57,7 @@
     },
     {
       "label": "Recruiter Review",
-      "count": 29,
+      "count": 28,
       "color": "#006747"
     },
     {
@@ -72,7 +72,7 @@
     },
     {
       "label": "Pre-boarding",
-      "count": 15,
+      "count": 16,
       "color": "#5B8FA8"
     },
     {
@@ -87,7 +87,7 @@
     },
     {
       "label": "Offer Stage",
-      "count": 7,
+      "count": 8,
       "color": "#CFC483"
     }
   ],
@@ -104,7 +104,7 @@
     },
     {
       "label": "Recruiter Review",
-      "count": 27,
+      "count": 26,
       "color": "#006747"
     },
     {
@@ -114,7 +114,7 @@
     },
     {
       "label": "Pre-boarding",
-      "count": 12,
+      "count": 13,
       "color": "#5B8FA8"
     },
     {
@@ -136,7 +136,7 @@
   "reqTypes": [
     {
       "label": "Passive",
-      "count": 242,
+      "count": 240,
       "color": "#1B6A9C"
     },
     {
@@ -146,12 +146,12 @@
     },
     {
       "label": "Evergreen",
-      "count": 118,
+      "count": 116,
       "color": "#6B8E4E"
     },
     {
       "label": "Student",
-      "count": 58,
+      "count": 57,
       "color": "#B5651D"
     },
     {
@@ -193,7 +193,7 @@
       "color": "#D0523F",
       "bgLight": "#FCE9E5",
       "bgDark": "#3d1a0f",
-      "count": 26
+      "count": 25
     },
     {
       "label": "🟡 3–5",
@@ -209,7 +209,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 56
+      "count": 57
     }
   ],
   "agingRecords": [
@@ -863,16 +863,6 @@
           "department": "211700 - Ctr For Urban Transportation Research"
         },
         {
-          "title": "Enrollment Management Specialist",
-          "reqId": "44389",
-          "notionUrl": "https://www.notion.so/da543837cac04a8ead8965472dc1b2f8",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6–14",
-          "department": "490100 - EA Overseas Study Program"
-        },
-        {
           "title": "Academic Advisor I",
           "reqId": "44394",
           "notionUrl": "https://www.notion.so/bae0abb374a347c895a7c483cb4eb8a4",
@@ -1352,7 +1342,7 @@
           "notionUrl": "https://www.notion.so/8c418eebee2c413395fcd30f03fbd109",
           "owner": "johncalebrese",
           "campus": "Tampa",
-          "stage": "Offer Stage",
+          "stage": "Pre-boarding",
           "agingBand": "🟢 0–2",
           "department": "490000 - USF World"
         },
@@ -1677,6 +1667,16 @@
           "department": "032300 - Health Human Resources"
         },
         {
+          "title": "Enrollment Management Specialist",
+          "reqId": "44389",
+          "notionUrl": "https://www.notion.so/da543837cac04a8ead8965472dc1b2f8",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Offer Stage",
+          "agingBand": "🟢 0–2",
+          "department": "490100 - EA Overseas Study Program"
+        },
+        {
           "title": "Project Manager",
           "reqId": "44295",
           "notionUrl": "https://www.notion.so/bf7dc9196b1c47639e4d803bcabf2728",
@@ -1722,7 +1722,7 @@
   "department": [
     {
       "label": "USF Health",
-      "count": 93,
+      "count": 90,
       "color": "#006747"
     },
     {
@@ -1756,38 +1756,38 @@
       "color": "#534AB7"
     },
     {
-      "label": "614400 - Molecular Medicine",
+      "label": "Engineering",
       "count": 8,
       "color": "#993556"
     },
     {
-      "label": "Engineering",
-      "count": 8,
-      "color": "#006747"
-    },
-    {
       "label": "614800 - Emergency Medicine",
       "count": 7,
-      "color": "#1B6A9C"
+      "color": "#006747"
     },
     {
       "label": "373000 - Financial Aid",
       "count": 7,
-      "color": "#00A693"
+      "color": "#1B6A9C"
     },
     {
       "label": "051000 - Athletic Administration",
       "count": 7,
-      "color": "#CFC483"
+      "color": "#00A693"
     },
     {
       "label": "614300 - Molecular Pharm & Physiology",
       "count": 7,
-      "color": "#7A9EB5"
+      "color": "#CFC483"
     },
     {
       "label": "126100 - Social Work",
       "count": 7,
+      "color": "#7A9EB5"
+    },
+    {
+      "label": "614400 - Molecular Medicine",
+      "count": 6,
       "color": "#5B7A8A"
     },
     {
@@ -1824,8 +1824,8 @@
   "stageMetrics": [
     {
       "label": "Recruiter Review",
-      "avgDays": 17,
-      "count": 27,
+      "avgDays": 18,
+      "count": 26,
       "color": "#006747"
     },
     {
@@ -1842,8 +1842,8 @@
     },
     {
       "label": "Offer Stage",
-      "avgDays": 4,
-      "count": 5,
+      "avgDays": 5,
+      "count": 4,
       "color": "#CFC483"
     },
     {
@@ -1994,6 +1994,17 @@
       "notionUrl": "https://www.notion.so/5c4707cafa2e460dbc3ea8d31bf8f740"
     },
     {
+      "title": "Postdoctoral Scholar Researcher",
+      "reqId": "42549",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Hired",
+      "department": "USF Health",
+      "reqType": "Evergreen",
+      "ttf": 267,
+      "notionUrl": "https://www.notion.so/5d0502f05ceb4ab687d401a805666906"
+    },
+    {
       "title": "Postdoctoral Research Scholar",
       "reqId": "41948",
       "owner": "Gabriel",
@@ -2126,6 +2137,17 @@
       "notionUrl": "https://www.notion.so/3ecc9af2047b4384a489ec6d09a9980f"
     },
     {
+      "title": "Regulatory Research Support Specialist",
+      "reqId": "42952",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Hired",
+      "department": "USF Health",
+      "reqType": "Evergreen",
+      "ttf": 224,
+      "notionUrl": "https://www.notion.so/715eff143be0405693129ed771bd9a66"
+    },
+    {
       "title": "Research Scientist",
       "reqId": "42403",
       "owner": "Rebecca",
@@ -2181,6 +2203,17 @@
       "notionUrl": "https://www.notion.so/f7f7c7c0f7764184a29a13a1317ed71e"
     },
     {
+      "title": "Manager Clinical Research",
+      "reqId": "43116",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Hired",
+      "department": "USF Health",
+      "reqType": "Passive",
+      "ttf": 199,
+      "notionUrl": "https://www.notion.so/0ca216d86c1442b0be571c0381af654b"
+    },
+    {
       "title": "FCN Outreach Manager",
       "reqId": "42457",
       "owner": "Rebecca",
@@ -2212,6 +2245,17 @@
       "reqType": "Active",
       "ttf": 180,
       "notionUrl": "https://www.notion.so/6fd3b02e722347ccbb4dbf99c1363a55"
+    },
+    {
+      "title": "Postdoctoral Scholar Research",
+      "reqId": "43235",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Hired",
+      "department": "614400 - Molecular Medicine",
+      "reqType": "Passive",
+      "ttf": 177,
+      "notionUrl": "https://www.notion.so/a6f666bb7c064ba98d433c1ff5df3ae9"
     },
     {
       "title": "Program Manager",
@@ -2410,6 +2454,17 @@
       "reqType": "Passive",
       "ttf": 149,
       "notionUrl": "https://www.notion.so/8423a311edfe48e19753c7123f529a50"
+    },
+    {
+      "title": "Student Assistant",
+      "reqId": "43347",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Hired",
+      "department": "614400 - Molecular Medicine",
+      "reqType": "Student",
+      "ttf": 148,
+      "notionUrl": "https://www.notion.so/14ce6fe351d74889b7a6ac71c87e0a57"
     },
     {
       "title": "OPS Clinical Research Coordinator",
@@ -6706,7 +6761,7 @@
     "fillRateByDept": [
       {
         "department": "USF Health",
-        "filled": 76,
+        "filled": 79,
         "failed": 0,
         "cancelled": 19,
         "fillRatePct": 100
@@ -6845,6 +6900,13 @@
         "fillRatePct": 100
       },
       {
+        "department": "614400 - Molecular Medicine",
+        "filled": 4,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
         "department": "Florida Inst of Oceanography",
         "filled": 4,
         "failed": 0,
@@ -6941,13 +7003,6 @@
         "failed": 1,
         "cancelled": 0,
         "fillRatePct": 67
-      },
-      {
-        "department": "614400 - Molecular Medicine",
-        "filled": 2,
-        "failed": 0,
-        "cancelled": 0,
-        "fillRatePct": 100
       },
       {
         "department": "611800 - Department Of Psych & Behavior",
@@ -7658,18 +7713,18 @@
       },
       {
         "reqType": "Student",
-        "avgDays": 67,
-        "count": 48
+        "avgDays": 69,
+        "count": 49
       },
       {
         "reqType": "Evergreen",
-        "avgDays": 90,
-        "count": 34
+        "avgDays": 99,
+        "count": 36
       },
       {
         "reqType": "Passive",
-        "avgDays": 84,
-        "count": 34
+        "avgDays": 89,
+        "count": 36
       },
       {
         "reqType": "Targeted",
@@ -7690,8 +7745,8 @@
       },
       {
         "campus": "USF Health",
-        "avgDays": 107,
-        "count": 110
+        "avgDays": 111,
+        "count": 115
       },
       {
         "campus": "St. Petersburg",
@@ -7783,9 +7838,9 @@
       {
         "recruiter": "John",
         "color": "#1B6A9C",
-        "stalled": 9,
+        "stalled": 8,
         "totalActive": 21,
-        "stallRatePct": 43
+        "stallRatePct": 38
       },
       {
         "recruiter": "Katherine",
@@ -8057,8 +8112,8 @@
       "bgDark": "#3d2504",
       "campus": "Tampa",
       "reqs": 434,
-      "activeReqs": 269,
-      "filled": 132,
+      "activeReqs": 264,
+      "filled": 137,
       "failed": 33,
       "ttf": 117,
       "wip": 14,
@@ -8939,12 +8994,12 @@
       "statuses": [
         {
           "label": "HM Review",
-          "count": 117,
+          "count": 115,
           "color": "#534AB7"
         },
         {
           "label": "Passive Hiring",
-          "count": 100,
+          "count": 98,
           "color": "#1B6A9C"
         },
         {
@@ -8959,7 +9014,7 @@
         },
         {
           "label": "Student Hiring",
-          "count": 18,
+          "count": 17,
           "color": "#B5651D"
         },
         {
@@ -9023,7 +9078,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 269
+          "count": 264
         },
         {
           "label": "Screened",
@@ -9031,7 +9086,7 @@
         },
         {
           "label": "HM Review",
-          "count": 117
+          "count": 115
         },
         {
           "label": "Interviews",
@@ -9077,7 +9132,7 @@
       "reqTypes": [
         {
           "label": "Evergreen",
-          "count": 95,
+          "count": 93,
           "color": "#6B8E4E"
         },
         {
@@ -9087,12 +9142,12 @@
         },
         {
           "label": "Passive",
-          "count": 69,
+          "count": 67,
           "color": "#1B6A9C"
         },
         {
           "label": "Student",
-          "count": 22,
+          "count": 21,
           "color": "#B5651D"
         },
         {
@@ -9104,7 +9159,7 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 132,
+          "value": 137,
           "target": 10,
           "invert": false
         },
@@ -9200,16 +9255,6 @@
           "color": "#D0523F",
           "bgLight": "#FCE9E5",
           "records": [
-            {
-              "title": "Enrollment Management Specialist",
-              "reqId": "44389",
-              "notionUrl": "https://www.notion.so/da543837cac04a8ead8965472dc1b2f8",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6–14",
-              "department": "490100 - EA Overseas Study Program"
-            },
             {
               "title": "Cyber Range Analyst",
               "reqId": "44328",
@@ -9309,7 +9354,7 @@
               "notionUrl": "https://www.notion.so/8c418eebee2c413395fcd30f03fbd109",
               "owner": "johncalebrese",
               "campus": "Tampa",
-              "stage": "Offer Stage",
+              "stage": "Pre-boarding",
               "agingBand": "🟢 0–2",
               "department": "490000 - USF World"
             },
@@ -9384,6 +9429,16 @@
               "department": "020600 - University Controllers Office"
             },
             {
+              "title": "Enrollment Management Specialist",
+              "reqId": "44389",
+              "notionUrl": "https://www.notion.so/da543837cac04a8ead8965472dc1b2f8",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Offer Stage",
+              "agingBand": "🟢 0–2",
+              "department": "490100 - EA Overseas Study Program"
+            },
+            {
               "title": "Audience Growth Manager",
               "reqId": "44091",
               "notionUrl": "https://www.notion.so/de779a0d15284d7fa3558de1c868fb47",
@@ -9399,8 +9454,8 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 4,
-          "count": 7,
+          "avgDays": 3,
+          "count": 6,
           "color": "#006747"
         },
         {
@@ -9418,7 +9473,7 @@
         {
           "label": "Offer Stage",
           "avgDays": 1,
-          "count": 3,
+          "count": 2,
           "color": "#CFC483"
         },
         {
@@ -9431,12 +9486,12 @@
       "statuses": [
         {
           "label": "Passive Hiring",
-          "count": 24,
+          "count": 23,
           "color": "#1B6A9C"
         },
         {
           "label": "Recruiter Review",
-          "count": 7,
+          "count": 6,
           "color": "#006747"
         },
         {
@@ -9445,9 +9500,9 @@
           "color": "#534AB7"
         },
         {
-          "label": "Offer Stage",
-          "count": 4,
-          "color": "#CFC483"
+          "label": "Pre-boarding",
+          "count": 9,
+          "color": "#5B8FA8"
         },
         {
           "label": "Evergreen / Continuous Pool",
@@ -9460,9 +9515,9 @@
           "color": "#B5651D"
         },
         {
-          "label": "Pre-boarding",
-          "count": 8,
-          "color": "#5B8FA8"
+          "label": "Offer Stage",
+          "count": 5,
+          "color": "#CFC483"
         },
         {
           "label": "Interview Stage",
@@ -9493,7 +9548,7 @@
           "color": "#D0523F",
           "bgLight": "#FCE9E5",
           "bgDark": "#3d1a0f",
-          "count": 6
+          "count": 5
         },
         {
           "label": "🟡 3–5",
@@ -9509,7 +9564,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 12
+          "count": 13
         }
       ],
       "funnel": [
@@ -9531,24 +9586,24 @@
         },
         {
           "label": "Offer",
-          "count": 4
+          "count": 5
         }
       ],
       "activeFunnel": [
         {
           "label": "Recruiter Review",
-          "count": 7,
+          "count": 6,
           "color": "#006747"
+        },
+        {
+          "label": "Pre-boarding",
+          "count": 6,
+          "color": "#5B8FA8"
         },
         {
           "label": "HM Review",
           "count": 5,
           "color": "#534AB7"
-        },
-        {
-          "label": "Pre-boarding",
-          "count": 5,
-          "color": "#5B8FA8"
         },
         {
           "label": "Offer Stage",
