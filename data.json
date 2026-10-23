@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T23:02:06.349Z",
+  "lastUpdated": "2026-10-23T01:46:07.693Z",
   "summary": {
     "openReqs": 630,
     "avgTimeToFill": 81,
@@ -185,7 +185,7 @@
       "color": "#A32D2D",
       "bgLight": "#FAD9D9",
       "bgDark": "#2e0f0f",
-      "count": 49
+      "count": 51
     },
     {
       "label": "🔴 6–14",
@@ -193,7 +193,7 @@
       "color": "#D0523F",
       "bgLight": "#FCE9E5",
       "bgDark": "#3d1a0f",
-      "count": 21
+      "count": 19
     },
     {
       "label": "🟡 3–5",
@@ -201,7 +201,7 @@
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 3
+      "count": 7
     },
     {
       "label": "🟢 0–2",
@@ -209,7 +209,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 75
+      "count": 71
     }
   ],
   "agingRecords": [
@@ -306,6 +306,16 @@
       "bgLight": "#FAD9D9",
       "records": [
         {
+          "title": "Assistant Pharmacy Mana…",
+          "reqId": "44491",
+          "notionUrl": "https://www.notion.so/4f36c924ddcd4c689f2602b4cde043b9",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "Recruiter Review",
+          "agingBand": "🔴 15–30",
+          "department": "638000 - College Of Phar…"
+        },
+        {
           "title": "Program Coordinator",
           "reqId": "44367",
           "notionUrl": "https://www.notion.so/ad6d46ab3d894306a01185f6025944d6",
@@ -334,6 +344,16 @@
           "stage": "Recruiter Review",
           "agingBand": "🔴 15–30",
           "department": "612300 - Dept Of Internal Medicine"
+        },
+        {
+          "title": "Research Scientist OPS",
+          "reqId": "44422",
+          "notionUrl": "https://www.notion.so/2c8520addea8420cbcce49f4e1e795ca",
+          "owner": "Rebecca",
+          "campus": "USF Health",
+          "stage": "HM Review",
+          "agingBand": "🔴 15–30",
+          "department": "638200 - Dept Of Pharmacy"
         },
         {
           "title": "Purchasing Coordinator",
@@ -813,16 +833,6 @@
           "department": ""
         },
         {
-          "title": "Assistant Pharmacy Mana…",
-          "reqId": "44491",
-          "notionUrl": "https://www.notion.so/4f36c924ddcd4c689f2602b4cde043b9",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 6–14",
-          "department": "638000 - College Of Phar…"
-        },
-        {
           "title": "Research Support Assistant",
           "reqId": "44440",
           "notionUrl": "https://www.notion.so/bddf55379d3342aaa77f3a2b83e41b1d",
@@ -831,16 +841,6 @@
           "stage": "Offer Stage",
           "agingBand": "🔴 6–14",
           "department": "171500 - Educational And Psychological"
-        },
-        {
-          "title": "Research Scientist OPS",
-          "reqId": "44422",
-          "notionUrl": "https://www.notion.so/2c8520addea8420cbcce49f4e1e795ca",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "HM Review",
-          "agingBand": "🔴 6–14",
-          "department": "638200 - Dept Of Pharmacy"
         },
         {
           "title": "Academic Advisor I",
@@ -1020,6 +1020,26 @@
       "bgLight": "#FAEEDA",
       "records": [
         {
+          "title": "CyberFL Scientific Researcher I",
+          "reqId": "44553",
+          "notionUrl": "https://www.notion.so/9dbca2c4a1504b1f99d8dd909c8d62c2",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟡 3–5",
+          "department": "391000 - Fl Center For Cybersecurity"
+        },
+        {
+          "title": "Business Operations (Member Experience)",
+          "reqId": "44554",
+          "notionUrl": "https://www.notion.so/02ce832e27114c0dbd1efba0cebae6b6",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟡 3–5",
+          "department": "019000 - Unv Community Partnerships"
+        },
+        {
           "title": "Executive Assistant/Grant Manager",
           "reqId": "44563",
           "notionUrl": "https://www.notion.so/bab8cfc8fa964b02ab26f692d90db76a",
@@ -1030,6 +1050,16 @@
           "department": "Institute for School-Community Partnerships"
         },
         {
+          "title": "IAE Accountant I",
+          "reqId": "44511",
+          "notionUrl": "https://www.notion.so/d4f8600a70fa4b62b0eb0ec6741fb14f",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟡 3–5",
+          "department": "213400 - Inst Of Applied Engineering"
+        },
+        {
           "title": "Nault Center for Entrepreneurship: Communications and Marketing Officer",
           "reqId": "44463",
           "notionUrl": "https://www.notion.so/fc50ca7098fc45ef945356c58e2ab5d0",
@@ -1038,6 +1068,16 @@
           "stage": "HM Review",
           "agingBand": "🟡 3–5",
           "department": "141500 - Center For Entrepreneurship"
+        },
+        {
+          "title": "OPS / Temporary Marine",
+          "reqId": "44180",
+          "notionUrl": "https://www.notion.so/93a718c56eaf4fd8a3a4c3995b21262b",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Pre-boarding",
+          "agingBand": "🟡 3–5",
+          "department": "471000 - Florida Inst of C"
         },
         {
           "title": "Academic Svcs. Administrator - Mechanical Eng",
@@ -1337,26 +1377,6 @@
           "department": "400100 - Univ Lib Deans Office"
         },
         {
-          "title": "CyberFL Scientific Researcher I",
-          "reqId": "44553",
-          "notionUrl": "https://www.notion.so/9dbca2c4a1504b1f99d8dd909c8d62c2",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🟢 0–2",
-          "department": "391000 - Fl Center For Cybersecurity"
-        },
-        {
-          "title": "Business Operations (Member Experience)",
-          "reqId": "44554",
-          "notionUrl": "https://www.notion.so/02ce832e27114c0dbd1efba0cebae6b6",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🟢 0–2",
-          "department": "019000 - Unv Community Partnerships"
-        },
-        {
           "title": "Library Specialist",
           "reqId": "44572",
           "notionUrl": "https://www.notion.so/4bcfe79cd2e94eff8cd894b813040e4c",
@@ -1395,16 +1415,6 @@
           "stage": "Recruiter Review",
           "agingBand": "🟢 0–2",
           "department": "511280 - STP Honors Program"
-        },
-        {
-          "title": "IAE Accountant I",
-          "reqId": "44511",
-          "notionUrl": "https://www.notion.so/d4f8600a70fa4b62b0eb0ec6741fb14f",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "HM Review",
-          "agingBand": "🟢 0–2",
-          "department": "213400 - Inst Of Applied Engineering"
         },
         {
           "title": "International Program Administrator I",
@@ -1787,16 +1797,6 @@
           "department": "638000 - College Of Phar"
         },
         {
-          "title": "OPS / Temporary Marine",
-          "reqId": "44180",
-          "notionUrl": "https://www.notion.so/93a718c56eaf4fd8a3a4c3995b21262b",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Pre-boarding",
-          "agingBand": "🟢 0–2",
-          "department": "471000 - Florida Inst of C"
-        },
-        {
           "title": "Audience Growth Manager",
           "reqId": "44091",
           "notionUrl": "https://www.notion.so/de779a0d15284d7fa3558de1c868fb47",
@@ -1919,49 +1919,49 @@
   "stageMetrics": [
     {
       "label": "Recruiter Review",
-      "avgDays": 18,
-      "count": 24,
+      "avgDays": 17,
+      "count": 28,
       "color": "#006747"
     },
     {
       "label": "HM Review",
-      "avgDays": 19,
-      "count": 39,
+      "avgDays": 20,
+      "count": 40,
       "color": "#534AB7"
     },
     {
       "label": "Interview Stage",
-      "avgDays": 12,
-      "count": 8,
+      "avgDays": 10,
+      "count": 10,
       "color": "#D4880A"
     },
     {
       "label": "Offer Stage",
       "avgDays": 5,
-      "count": 4,
+      "count": 5,
       "color": "#CFC483"
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 17,
-      "count": 12,
+      "avgDays": 16,
+      "count": 14,
       "color": "#5B8FA8"
     },
     {
+      "label": "Backlog",
+      "avgDays": 19,
+      "count": 27,
+      "color": "#888780"
+    },
+    {
       "label": "Passive Hiring",
-      "avgDays": 1,
+      "avgDays": 2,
       "count": 31,
       "color": "#1B6A9C"
     },
     {
-      "label": "Backlog",
-      "avgDays": 35,
-      "count": 14,
-      "color": "#888780"
-    },
-    {
       "label": "Targeted Hiring",
-      "avgDays": 27,
+      "avgDays": 28,
       "count": 1,
       "color": "#3A5A6A"
     }
@@ -2074,7 +2074,7 @@
       "stage": "Canceled",
       "department": "041500 - Counseling Center",
       "reqType": "Active",
-      "ttf": 272,
+      "ttf": 273,
       "notionUrl": "https://www.notion.so/62b088df4d81447994bcd7e8ccf00a22"
     },
     {
@@ -2261,7 +2261,7 @@
       "stage": "Canceled",
       "department": "047700 - Career & Professional Dev",
       "reqType": "Active",
-      "ttf": 220,
+      "ttf": 221,
       "notionUrl": "https://www.notion.so/38cc22579bda4f159365f3843a6482e3"
     },
     {
@@ -2448,7 +2448,7 @@
       "stage": "Failed Search",
       "department": "051000 - Athletic Administration",
       "reqType": "Active",
-      "ttf": 162,
+      "ttf": 163,
       "notionUrl": "https://www.notion.so/a0239e74bd2a46dbb004af24c7ae0ccb"
     },
     {
@@ -4351,7 +4351,7 @@
       "stage": "Hired",
       "department": "051000 - Athletic Administration",
       "reqType": "Student",
-      "ttf": 58,
+      "ttf": 59,
       "notionUrl": "https://www.notion.so/e8a7ccd60e574aa385d3c5169367cd78"
     },
     {
@@ -4421,6 +4421,17 @@
       "notionUrl": "https://www.notion.so/7d2adb2803a049108dce50215926f301"
     },
     {
+      "title": "Student Assistant/Sports Medicine",
+      "reqId": "44288",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "051000 - Athletic Administration",
+      "reqType": "Student",
+      "ttf": 56,
+      "notionUrl": "https://www.notion.so/f20d8c4622024d9ba02b0557a060bda9"
+    },
+    {
       "title": "Office Manager",
       "reqId": "43877",
       "owner": "Rebecca",
@@ -4474,17 +4485,6 @@
       "reqType": "Active",
       "ttf": 56,
       "notionUrl": "https://www.notion.so/a854ca5728c14bb69e55a795d76b9cd5"
-    },
-    {
-      "title": "Student Assistant/Sports Medicine",
-      "reqId": "44288",
-      "owner": "johncalebrese",
-      "campus": "Tampa",
-      "stage": "Hired",
-      "department": "051000 - Athletic Administration",
-      "reqType": "Student",
-      "ttf": 55,
-      "notionUrl": "https://www.notion.so/f20d8c4622024d9ba02b0557a060bda9"
     },
     {
       "title": "Executive Administrative Spec.",
@@ -8354,6 +8354,16 @@
           "bgLight": "#FAD9D9",
           "records": [
             {
+              "title": "Assistant Pharmacy Mana…",
+              "reqId": "44491",
+              "notionUrl": "https://www.notion.so/4f36c924ddcd4c689f2602b4cde043b9",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "Recruiter Review",
+              "agingBand": "🔴 15–30",
+              "department": "638000 - College Of Phar…"
+            },
+            {
               "title": "Program Coordinator",
               "reqId": "44367",
               "notionUrl": "https://www.notion.so/ad6d46ab3d894306a01185f6025944d6",
@@ -8382,6 +8392,16 @@
               "stage": "Recruiter Review",
               "agingBand": "🔴 15–30",
               "department": "612300 - Dept Of Internal Medicine"
+            },
+            {
+              "title": "Research Scientist OPS",
+              "reqId": "44422",
+              "notionUrl": "https://www.notion.so/2c8520addea8420cbcce49f4e1e795ca",
+              "owner": "Rebecca",
+              "campus": "USF Health",
+              "stage": "HM Review",
+              "agingBand": "🔴 15–30",
+              "department": "638200 - Dept Of Pharmacy"
             },
             {
               "title": "Purchasing Coordinator",
@@ -8659,28 +8679,7 @@
           "band": "🔴 6–14",
           "color": "#D0523F",
           "bgLight": "#FCE9E5",
-          "records": [
-            {
-              "title": "Assistant Pharmacy Mana…",
-              "reqId": "44491",
-              "notionUrl": "https://www.notion.so/4f36c924ddcd4c689f2602b4cde043b9",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 6–14",
-              "department": "638000 - College Of Phar…"
-            },
-            {
-              "title": "Research Scientist OPS",
-              "reqId": "44422",
-              "notionUrl": "https://www.notion.so/2c8520addea8420cbcce49f4e1e795ca",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "HM Review",
-              "agingBand": "🔴 6–14",
-              "department": "638200 - Dept Of Pharmacy"
-            }
-          ]
+          "records": []
         },
         {
           "band": "🟡 3–5",
@@ -9109,37 +9108,37 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 23,
+          "avgDays": 24,
           "count": 16,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 26,
+          "avgDays": 27,
           "count": 25,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 8,
+          "avgDays": 9,
           "count": 4,
           "color": "#D4880A"
         },
         {
           "label": "Passive Hiring",
-          "avgDays": 1,
+          "avgDays": 2,
           "count": 31,
           "color": "#1B6A9C"
         },
         {
           "label": "Targeted Hiring",
-          "avgDays": 27,
+          "avgDays": 28,
           "count": 1,
           "color": "#3A5A6A"
         },
         {
           "label": "Backlog",
-          "avgDays": 67,
+          "avgDays": 68,
           "count": 3,
           "color": "#888780"
         }
@@ -9201,7 +9200,7 @@
           "color": "#A32D2D",
           "bgLight": "#FAD9D9",
           "bgDark": "#2e0f0f",
-          "count": 30
+          "count": 32
         },
         {
           "label": "🔴 6–14",
@@ -9209,7 +9208,7 @@
           "color": "#D0523F",
           "bgLight": "#FCE9E5",
           "bgDark": "#3d1a0f",
-          "count": 2
+          "count": 0
         },
         {
           "label": "🟡 3–5",
@@ -9464,12 +9463,6 @@
           "band": "🟡 3–5",
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
-          "records": []
-        },
-        {
-          "band": "🟢 0–2",
-          "color": "#3B6D11",
-          "bgLight": "#EAF3DE",
           "records": [
             {
               "title": "CyberFL Scientific Researcher I",
@@ -9478,7 +9471,7 @@
               "owner": "johncalebrese",
               "campus": "Tampa",
               "stage": "Recruiter Review",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3–5",
               "department": "391000 - Fl Center For Cybersecurity"
             },
             {
@@ -9488,7 +9481,7 @@
               "owner": "johncalebrese",
               "campus": "Tampa",
               "stage": "Recruiter Review",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3–5",
               "department": "019000 - Unv Community Partnerships"
             },
             {
@@ -9498,9 +9491,16 @@
               "owner": "johncalebrese",
               "campus": "Tampa",
               "stage": "HM Review",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟡 3–5",
               "department": "213400 - Inst Of Applied Engineering"
-            },
+            }
+          ]
+        },
+        {
+          "band": "🟢 0–2",
+          "color": "#3B6D11",
+          "bgLight": "#EAF3DE",
+          "records": [
             {
               "title": "International Program Administrator I",
               "reqId": "44512",
@@ -9607,32 +9607,32 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 3,
+          "avgDays": 4,
           "count": 6,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 4,
+          "avgDays": 5,
           "count": 4,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 22,
+          "avgDays": 23,
           "count": 1,
           "color": "#D4880A"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 1,
-          "count": 2,
+          "avgDays": 2,
+          "count": 3,
           "color": "#CFC483"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 21,
-          "count": 5,
+          "avgDays": 16,
+          "count": 7,
           "color": "#5B8FA8"
         }
       ],
@@ -9709,7 +9709,7 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 0
+          "count": 3
         },
         {
           "label": "🟢 0–2",
@@ -9717,7 +9717,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 13
+          "count": 10
         }
       ],
       "funnel": [
@@ -9937,6 +9937,16 @@
               "department": "141500 - Center For Entrepreneurship"
             },
             {
+              "title": "OPS / Temporary Marine",
+              "reqId": "44180",
+              "notionUrl": "https://www.notion.so/93a718c56eaf4fd8a3a4c3995b21262b",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Pre-boarding",
+              "agingBand": "🟡 3–5",
+              "department": "471000 - Florida Inst of C"
+            },
+            {
               "title": "Academic Svcs. Administrator - Mechanical Eng",
               "reqId": "44191",
               "notionUrl": "https://www.notion.so/8969cc003995496488c89087857ac4e5",
@@ -10012,36 +10022,32 @@
               "stage": "Interview Stage",
               "agingBand": "🟢 0–2",
               "department": "211700 - Ctr For Urban Transportation Research"
-            },
-            {
-              "title": "OPS / Temporary Marine",
-              "reqId": "44180",
-              "notionUrl": "https://www.notion.so/93a718c56eaf4fd8a3a4c3995b21262b",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Pre-boarding",
-              "agingBand": "🟢 0–2",
-              "department": "471000 - Florida Inst of C"
             }
           ]
         }
       ],
       "stageMetrics": [
         {
+          "label": "Recruiter Review",
+          "avgDays": 1,
+          "count": 4,
+          "color": "#006747"
+        },
+        {
           "label": "HM Review",
-          "avgDays": 6,
+          "avgDays": 7,
           "count": 2,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 9,
-          "count": 1,
+          "avgDays": 4,
+          "count": 3,
           "color": "#D4880A"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 13,
+          "avgDays": 14,
           "count": 6,
           "color": "#5B8FA8"
         }
@@ -10124,7 +10130,7 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 2
+          "count": 3
         },
         {
           "label": "🟢 0–2",
@@ -10132,7 +10138,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 7
+          "count": 6
         }
       ],
       "funnel": [
@@ -10426,19 +10432,19 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 29,
+          "avgDays": 30,
           "count": 2,
           "color": "#006747"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 24,
+          "avgDays": 25,
           "count": 1,
           "color": "#5B8FA8"
         },
         {
           "label": "Backlog",
-          "avgDays": 29,
+          "avgDays": 30,
           "count": 10,
           "color": "#888780"
         }
@@ -10952,25 +10958,25 @@
         {
           "label": "HM Review",
           "avgDays": 8,
-          "count": 8,
+          "count": 9,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 16,
+          "avgDays": 17,
           "count": 2,
           "color": "#D4880A"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 9,
+          "avgDays": 10,
           "count": 2,
           "color": "#CFC483"
         },
         {
           "label": "Backlog",
-          "avgDays": 3,
-          "count": 1,
+          "avgDays": 1,
+          "count": 14,
           "color": "#888780"
         }
       ],
