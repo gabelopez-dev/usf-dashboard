@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-10-23T12:45:47.655Z",
+  "lastUpdated": "2026-10-23T17:46:16.407Z",
   "summary": {
-    "openReqs": 630,
+    "openReqs": 634,
     "avgTimeToFill": 81,
-    "filledYTD": 380,
-    "failedCancelled": 68,
+    "filledYTD": 381,
+    "failedCancelled": 71,
     "inOfferStage": 7
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 323,
+      "count": 319,
       "color": "#1B6A9C"
     },
     {
@@ -37,7 +37,7 @@
   "mainFunnel": [
     {
       "label": "Passive Hiring",
-      "count": 266,
+      "count": 265,
       "color": "#1B6A9C"
     },
     {
@@ -56,14 +56,14 @@
       "color": "#B5651D"
     },
     {
-      "label": "Recruiter Review",
-      "count": 30,
-      "color": "#006747"
+      "label": "Backlog",
+      "count": 35,
+      "color": "#888780"
     },
     {
-      "label": "Backlog",
-      "count": 27,
-      "color": "#888780"
+      "label": "Recruiter Review",
+      "count": 29,
+      "color": "#006747"
     },
     {
       "label": "Evergreen / Continuous Pool",
@@ -72,12 +72,12 @@
     },
     {
       "label": "Pre-boarding",
-      "count": 18,
+      "count": 17,
       "color": "#5B8FA8"
     },
     {
       "label": "Targeted Hiring",
-      "count": 15,
+      "count": 14,
       "color": "#3A5A6A"
     },
     {
@@ -98,23 +98,23 @@
       "color": "#534AB7"
     },
     {
+      "label": "Backlog",
+      "count": 35,
+      "color": "#888780"
+    },
+    {
       "label": "Passive Hiring",
       "count": 31,
       "color": "#1B6A9C"
     },
     {
       "label": "Recruiter Review",
-      "count": 28,
+      "count": 27,
       "color": "#006747"
     },
     {
-      "label": "Backlog",
-      "count": 27,
-      "color": "#888780"
-    },
-    {
       "label": "Pre-boarding",
-      "count": 14,
+      "count": 13,
       "color": "#5B8FA8"
     },
     {
@@ -136,12 +136,12 @@
   "reqTypes": [
     {
       "label": "Passive",
-      "count": 238,
+      "count": 237,
       "color": "#1B6A9C"
     },
     {
       "label": "Active",
-      "count": 156,
+      "count": 162,
       "color": "#004d35"
     },
     {
@@ -161,7 +161,7 @@
     },
     {
       "label": "Targeted",
-      "count": 11,
+      "count": 10,
       "color": "#3A5A6A"
     },
     {
@@ -185,7 +185,7 @@
       "color": "#A32D2D",
       "bgLight": "#FAD9D9",
       "bgDark": "#2e0f0f",
-      "count": 51
+      "count": 50
     },
     {
       "label": "🔴 6–14",
@@ -193,7 +193,7 @@
       "color": "#D0523F",
       "bgLight": "#FCE9E5",
       "bgDark": "#3d1a0f",
-      "count": 19
+      "count": 18
     },
     {
       "label": "🟡 3–5",
@@ -209,7 +209,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 71
+      "count": 79
     }
   ],
   "agingRecords": [
@@ -449,21 +449,11 @@
           "title": "Budget Analyst II",
           "reqId": "44040",
           "notionUrl": "https://www.notion.so/e52fb62d4abc435cbf5242ba4366137d",
-          "owner": "Tameka Porter",
+          "owner": "Aidi",
           "campus": "Tampa",
           "stage": "Backlog",
           "agingBand": "🔴 15–30",
           "department": "790100 - VP Research"
-        },
-        {
-          "title": "Fiscal and Business Specialist - OPS",
-          "reqId": "44114",
-          "notionUrl": "https://www.notion.so/1baee1ec4e7142b58ce21817527857cc",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Backlog",
-          "agingBand": "🔴 15–30",
-          "department": "790400 - Technology Transfer Office"
         },
         {
           "title": "Service Desk Student Technician",
@@ -539,7 +529,7 @@
           "title": "Research Compliance Administrator - Conflict of Interest",
           "reqId": "43312",
           "notionUrl": "https://www.notion.so/39f9ddf757a081ab8b6bc287f2e05f5d",
-          "owner": "Tameka Porter",
+          "owner": "Aidi",
           "campus": "Tampa",
           "stage": "Recruiter Review",
           "agingBand": "🔴 15–30",
@@ -893,16 +883,6 @@
           "department": "471000 - Florida Inst of Oceanography"
         },
         {
-          "title": "Applications Developer I",
-          "reqId": "44220",
-          "notionUrl": "https://www.notion.so/286d495752c3430eb1f7066772febf9e",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 6–14",
-          "department": "140105 - MCOB Financia"
-        },
-        {
           "title": "Salesforce Support Administrator",
           "reqId": "44197",
           "notionUrl": "https://www.notion.so/b2b3277cb11f4cc582f1430373a9bee3",
@@ -1096,6 +1076,86 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "records": [
+        {
+          "title": "Program Consultant",
+          "reqId": "44627",
+          "notionUrl": "https://www.notion.so/8e3d0950b0fc498cbc45ef104194d5b6",
+          "owner": "Aidi",
+          "campus": "",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "177500 - Inst For School Comm Partnersh"
+        },
+        {
+          "title": "Student Services Consultant",
+          "reqId": "44628",
+          "notionUrl": "https://www.notion.so/08ac2eaf22984673bed339e0994e5416",
+          "owner": "Aidi",
+          "campus": "",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "177500 - Inst For School Comm Partnersh"
+        },
+        {
+          "title": "Research Support Assistant",
+          "reqId": "42418",
+          "notionUrl": "https://www.notion.so/a8e832c7c6a84e9dbd920eaf3a2f38c9",
+          "owner": "Aidi",
+          "campus": "",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "790300 - Sponsored Research"
+        },
+        {
+          "title": "Health Physicist",
+          "reqId": "42044",
+          "notionUrl": "https://www.notion.so/80bfafaa557748349f35b2470efd1272",
+          "owner": "Aidi",
+          "campus": "",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "791000 - Research Integrity &Compliance"
+        },
+        {
+          "title": "Student Assistant - Florida Inventors Hall of Fame IGNITE Education and Community Outreach",
+          "reqId": "42046",
+          "notionUrl": "https://www.notion.so/c3c0e7316c514f7997ed03b9d50ad599",
+          "owner": "Aidi",
+          "campus": "",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "790100 - VP Research"
+        },
+        {
+          "title": "Sponsored Research Administrator",
+          "reqId": "42398",
+          "notionUrl": "https://www.notion.so/9249bc4b9a544d8aadf8a84f2a8b8354",
+          "owner": "Aidi",
+          "campus": "",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "790300 - Sponsored Research"
+        },
+        {
+          "title": "Graduate Student Assistant - Life Sciences",
+          "reqId": "42433",
+          "notionUrl": "https://www.notion.so/c35b2727b4da49a9b67272c0af71e2c2",
+          "owner": "Aidi",
+          "campus": "",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "790400 - Technology Transfer Office"
+        },
+        {
+          "title": "Applications Developer III",
+          "reqId": "42432",
+          "notionUrl": "https://www.notion.so/a849270c9c9c44fca51855540b75b38d",
+          "owner": "Aidi",
+          "campus": "",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "790100 - VP Research"
+        },
         {
           "title": "Complex Copy Cataloger",
           "reqId": "44510",
@@ -1392,7 +1452,7 @@
           "notionUrl": "https://www.notion.so/c6eb6ae8275e47ff82de184e98f45966",
           "owner": "Gabriel",
           "campus": "Tampa",
-          "stage": "Recruiter Review",
+          "stage": "Backlog",
           "agingBand": "🟢 0–2",
           "department": "140400 - KT School of Business & Finance"
         },
@@ -1846,23 +1906,23 @@
       "color": "#534AB7"
     },
     {
-      "label": "Engineering",
-      "count": 8,
+      "label": "177500 - Inst For School Comm Partnersh",
+      "count": 9,
       "color": "#993556"
     },
     {
       "label": "791000 - Research Integrity &Compliance",
-      "count": 7,
+      "count": 8,
       "color": "#006747"
     },
     {
-      "label": "177500 - Inst For School Comm Partnersh",
-      "count": 7,
+      "label": "790100 - VP Research",
+      "count": 8,
       "color": "#1B6A9C"
     },
     {
-      "label": "790100 - VP Research",
-      "count": 7,
+      "label": "Engineering",
+      "count": 8,
       "color": "#00A693"
     },
     {
@@ -1891,28 +1951,33 @@
       "color": "#993556"
     },
     {
-      "label": "614400 - Molecular Medicine",
+      "label": "790300 - Sponsored Research",
       "count": 6,
       "color": "#006747"
     },
     {
-      "label": "043000 - Student Health Services",
+      "label": "614400 - Molecular Medicine",
       "count": 6,
       "color": "#1B6A9C"
     },
     {
-      "label": "612300 - Dept Of Interna",
+      "label": "043000 - Student Health Services",
       "count": 6,
       "color": "#00A693"
     },
     {
-      "label": "122900 - School Of Aging Studies",
+      "label": "612300 - Dept Of Interna",
       "count": 6,
       "color": "#CFC483"
     },
     {
-      "label": "Other (186 depts)",
-      "count": 353,
+      "label": "122900 - School Of Aging Studies",
+      "count": 6,
+      "color": "#7A9EB5"
+    },
+    {
+      "label": "Other (185 depts)",
+      "count": 347,
       "color": "#c8c7c2"
     }
   ],
@@ -1920,7 +1985,7 @@
     {
       "label": "Recruiter Review",
       "avgDays": 17,
-      "count": 28,
+      "count": 27,
       "color": "#006747"
     },
     {
@@ -1944,13 +2009,13 @@
     {
       "label": "Pre-boarding",
       "avgDays": 16,
-      "count": 14,
+      "count": 13,
       "color": "#5B8FA8"
     },
     {
       "label": "Backlog",
       "avgDays": 19,
-      "count": 27,
+      "count": 26,
       "color": "#888780"
     },
     {
@@ -2694,6 +2759,17 @@
       "notionUrl": "https://www.notion.so/25830916bb3b4616bc858226cf8552a8"
     },
     {
+      "title": "General Maintenance Tech III",
+      "reqId": "43665",
+      "owner": "Aidi",
+      "campus": "Tampa",
+      "stage": "Canceled",
+      "department": "790700 - Research Foundation",
+      "reqType": "Passive",
+      "ttf": 137,
+      "notionUrl": "https://www.notion.so/39f9ddf757a0813abe12ff2b2aca3572"
+    },
+    {
       "title": "Social & Behavioral Researcher",
       "reqId": "43654",
       "owner": "Rebecca",
@@ -3343,6 +3419,17 @@
       "notionUrl": "https://www.notion.so/94eb77c35ddb4f64ab5afc57bbbcbae8"
     },
     {
+      "title": "Fiscal & Business Specialist, Research Operations",
+      "reqId": "43730",
+      "owner": "Aidi",
+      "campus": "Tampa",
+      "stage": "Canceled",
+      "department": "790100 - VP Research",
+      "reqType": "Passive",
+      "ttf": 99,
+      "notionUrl": "https://www.notion.so/39f9ddf757a0812cab8fef3c045c6542"
+    },
+    {
       "title": "Academic Program Specialist",
       "reqId": "43799",
       "owner": "Rebecca",
@@ -3715,6 +3802,17 @@
       "reqType": "Passive",
       "ttf": 81,
       "notionUrl": "https://www.notion.so/2e88f07706a84702835b45669e2b142b"
+    },
+    {
+      "title": "Fiscal and Business Specialist - OPS",
+      "reqId": "44114",
+      "owner": "Aidi",
+      "campus": "Tampa",
+      "stage": "Canceled",
+      "department": "790400 - Technology Transfer Office",
+      "reqType": "Active",
+      "ttf": 80,
+      "notionUrl": "https://www.notion.so/1baee1ec4e7142b58ce21817527857cc"
     },
     {
       "title": "Hearing Technician",
@@ -4122,6 +4220,17 @@
       "reqType": "Active",
       "ttf": 67,
       "notionUrl": "https://www.notion.so/bdaa43fdd2a542b09b4c95fbdc55b3fb"
+    },
+    {
+      "title": "Applications Developer I",
+      "reqId": "44220",
+      "owner": "Gabriel",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "140105 - MCOB Financia",
+      "reqType": "Active",
+      "ttf": 66,
+      "notionUrl": "https://www.notion.so/286d495752c3430eb1f7066772febf9e"
     },
     {
       "title": "Student Asst - FWS",
@@ -7298,6 +7407,13 @@
         "fillRatePct": null
       },
       {
+        "department": "790700 - Research Foundation",
+        "filled": 0,
+        "failed": 0,
+        "cancelled": 1,
+        "fillRatePct": null
+      },
+      {
         "department": "614000 - Molecular Medicine",
         "filled": 1,
         "failed": 0,
@@ -7340,6 +7456,13 @@
         "fillRatePct": null
       },
       {
+        "department": "790100 - VP Research",
+        "filled": 0,
+        "failed": 0,
+        "cancelled": 1,
+        "fillRatePct": null
+      },
+      {
         "department": "041300 - Strategic Initiatives",
         "filled": 1,
         "failed": 0,
@@ -7366,6 +7489,13 @@
         "failed": 0,
         "cancelled": 0,
         "fillRatePct": 100
+      },
+      {
+        "department": "790400 - Technology Transfer Office",
+        "filled": 0,
+        "failed": 0,
+        "cancelled": 1,
+        "fillRatePct": null
       },
       {
         "department": "121900 - Communication Sciences & Disorders",
@@ -7397,6 +7527,13 @@
       },
       {
         "department": "613400 - Dept Of Dermatology & Cutaneous Surgery",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "140105 - MCOB Financia",
         "filled": 1,
         "failed": 0,
         "cancelled": 0,
@@ -7862,7 +7999,7 @@
       {
         "reqType": "Active",
         "avgDays": 81,
-        "count": 201
+        "count": 202
       },
       {
         "reqType": "Student",
@@ -7894,7 +8031,7 @@
       {
         "campus": "Tampa",
         "avgDays": 65,
-        "count": 170
+        "count": 171
       },
       {
         "campus": "USF Health",
@@ -7943,12 +8080,12 @@
         "count": 20
       },
       {
-        "department": "611900 - Department Of",
-        "count": 15
+        "department": "177500 - Inst For School Comm Partnersh",
+        "count": 16
       },
       {
-        "department": "177500 - Inst For School Comm Partnersh",
-        "count": 14
+        "department": "611900 - Department Of",
+        "count": 15
       },
       {
         "department": "047700 - Career & Professional Dev",
@@ -7963,8 +8100,8 @@
       {
         "recruiter": "Tameka",
         "color": "#00A693",
-        "stalled": 13,
-        "totalActive": 13,
+        "stalled": 10,
+        "totalActive": 10,
         "stallRatePct": 100
       },
       {
@@ -7975,25 +8112,25 @@
         "stallRatePct": 49
       },
       {
-        "recruiter": "Aidi",
-        "color": "#534AB7",
-        "stalled": 12,
-        "totalActive": 27,
-        "stallRatePct": 44
-      },
-      {
-        "recruiter": "Gabriel",
-        "color": "#00A693",
-        "stalled": 6,
-        "totalActive": 15,
-        "stallRatePct": 40
-      },
-      {
         "recruiter": "John",
         "color": "#1B6A9C",
         "stalled": 8,
         "totalActive": 21,
         "stallRatePct": 38
+      },
+      {
+        "recruiter": "Aidi",
+        "color": "#534AB7",
+        "stalled": 14,
+        "totalActive": 37,
+        "stallRatePct": 38
+      },
+      {
+        "recruiter": "Gabriel",
+        "color": "#00A693",
+        "stalled": 5,
+        "totalActive": 14,
+        "stallRatePct": 36
       },
       {
         "recruiter": "Katherine",
@@ -8075,7 +8212,7 @@
       },
       {
         "label": "Oct '26",
-        "count": 18
+        "count": 31
       }
     ]
   },
@@ -9835,8 +9972,8 @@
       "bgDark": "#042e24",
       "campus": "St Pete / Tampa",
       "reqs": 182,
-      "activeReqs": 69,
-      "filled": 102,
+      "activeReqs": 68,
+      "filled": 103,
       "failed": 11,
       "ttf": 53,
       "wip": 6,
@@ -9898,16 +10035,6 @@
               "stage": "HM Review",
               "agingBand": "🔴 6–14",
               "department": "471000 - Florida Inst of Oceanography"
-            },
-            {
-              "title": "Applications Developer I",
-              "reqId": "44220",
-              "notionUrl": "https://www.notion.so/286d495752c3430eb1f7066772febf9e",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🔴 6–14",
-              "department": "140105 - MCOB Financia"
             },
             {
               "title": "Sr Biological Scientist",
@@ -9979,7 +10106,7 @@
               "notionUrl": "https://www.notion.so/c6eb6ae8275e47ff82de184e98f45966",
               "owner": "Gabriel",
               "campus": "Tampa",
-              "stage": "Recruiter Review",
+              "stage": "Backlog",
               "agingBand": "🟢 0–2",
               "department": "140400 - KT School of Business & Finance"
             },
@@ -10030,7 +10157,7 @@
         {
           "label": "Recruiter Review",
           "avgDays": 1,
-          "count": 4,
+          "count": 3,
           "color": "#006747"
         },
         {
@@ -10048,7 +10175,7 @@
         {
           "label": "Pre-boarding",
           "avgDays": 14,
-          "count": 6,
+          "count": 5,
           "color": "#5B8FA8"
         }
       ],
@@ -10065,8 +10192,13 @@
         },
         {
           "label": "Recruiter Review",
-          "count": 4,
+          "count": 3,
           "color": "#006747"
+        },
+        {
+          "label": "Backlog",
+          "count": 1,
+          "color": "#888780"
         },
         {
           "label": "Interview Stage",
@@ -10080,7 +10212,7 @@
         },
         {
           "label": "Passive Hiring",
-          "count": 11,
+          "count": 12,
           "color": "#1B6A9C"
         },
         {
@@ -10090,12 +10222,12 @@
         },
         {
           "label": "Pre-boarding",
-          "count": 6,
+          "count": 5,
           "color": "#5B8FA8"
         },
         {
           "label": "Targeted Hiring",
-          "count": 3,
+          "count": 2,
           "color": "#3A5A6A"
         }
       ],
@@ -10122,7 +10254,7 @@
           "color": "#D0523F",
           "bgLight": "#FCE9E5",
           "bgDark": "#3d1a0f",
-          "count": 4
+          "count": 3
         },
         {
           "label": "🟡 3–5",
@@ -10144,7 +10276,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 69
+          "count": 68
         },
         {
           "label": "Screened",
@@ -10166,12 +10298,12 @@
       "activeFunnel": [
         {
           "label": "Pre-boarding",
-          "count": 6,
+          "count": 5,
           "color": "#5B8FA8"
         },
         {
           "label": "Recruiter Review",
-          "count": 4,
+          "count": 3,
           "color": "#006747"
         },
         {
@@ -10183,6 +10315,11 @@
           "label": "HM Review",
           "count": 2,
           "color": "#534AB7"
+        },
+        {
+          "label": "Backlog",
+          "count": 1,
+          "color": "#888780"
         }
       ],
       "reqTypes": [
@@ -10193,12 +10330,12 @@
         },
         {
           "label": "Active",
-          "count": 15,
+          "count": 14,
           "color": "#004d35"
         },
         {
           "label": "Passive",
-          "count": 11,
+          "count": 12,
           "color": "#1B6A9C"
         },
         {
@@ -10213,14 +10350,14 @@
         },
         {
           "label": "Targeted",
-          "count": 3,
+          "count": 2,
           "color": "#3A5A6A"
         }
       ],
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 102,
+          "value": 103,
           "target": 10,
           "invert": false
         },
@@ -10260,12 +10397,12 @@
       "bgLight": "#e0f5f8",
       "bgDark": "#1c1852",
       "campus": "Tampa",
-      "reqs": 157,
-      "activeReqs": 138,
+      "reqs": 130,
+      "activeReqs": 111,
       "filled": 14,
       "failed": 5,
       "ttf": 58,
-      "wip": 9,
+      "wip": 7,
       "agingRecords": [
         {
           "band": "🔴 31+",
@@ -10289,26 +10426,6 @@
               "department": "120100 - Arts And Sciences - Dean"
             },
             {
-              "title": "Budget Analyst II",
-              "reqId": "44040",
-              "notionUrl": "https://www.notion.so/e52fb62d4abc435cbf5242ba4366137d",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Backlog",
-              "agingBand": "🔴 15–30",
-              "department": "790100 - VP Research"
-            },
-            {
-              "title": "Fiscal and Business Specialist - OPS",
-              "reqId": "44114",
-              "notionUrl": "https://www.notion.so/1baee1ec4e7142b58ce21817527857cc",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Backlog",
-              "agingBand": "🔴 15–30",
-              "department": "790400 - Technology Transfer Office"
-            },
-            {
               "title": "Service Desk Student Technician",
               "reqId": "44119",
               "notionUrl": "https://www.notion.so/11e3846b09c946aaac946f33ff5960c1",
@@ -10327,16 +10444,6 @@
               "stage": "Pre-boarding",
               "agingBand": "🔴 15–30",
               "department": "120100 - Arts And Sciences - Dean"
-            },
-            {
-              "title": "Research Compliance Administrator - Conflict of Interest",
-              "reqId": "43312",
-              "notionUrl": "https://www.notion.so/39f9ddf757a081ab8b6bc287f2e05f5d",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 15–30",
-              "department": "791000 - Research Integrity &Compliance"
             },
             {
               "title": "IT Resource Manager II",
@@ -10433,7 +10540,7 @@
         {
           "label": "Recruiter Review",
           "avgDays": 30,
-          "count": 2,
+          "count": 1,
           "color": "#006747"
         },
         {
@@ -10445,7 +10552,7 @@
         {
           "label": "Backlog",
           "avgDays": 30,
-          "count": 10,
+          "count": 8,
           "color": "#888780"
         }
       ],
@@ -10457,17 +10564,17 @@
         },
         {
           "label": "Passive Hiring",
-          "count": 107,
+          "count": 85,
           "color": "#1B6A9C"
         },
         {
           "label": "Student Hiring",
-          "count": 11,
+          "count": 9,
           "color": "#B5651D"
         },
         {
           "label": "Backlog",
-          "count": 10,
+          "count": 8,
           "color": "#888780"
         },
         {
@@ -10482,7 +10589,7 @@
         },
         {
           "label": "Recruiter Review",
-          "count": 3,
+          "count": 2,
           "color": "#006747"
         }
       ],
@@ -10501,7 +10608,7 @@
           "color": "#A32D2D",
           "bgLight": "#FAD9D9",
           "bgDark": "#2e0f0f",
-          "count": 13
+          "count": 10
         },
         {
           "label": "🔴 6–14",
@@ -10531,7 +10638,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 138
+          "count": 111
         },
         {
           "label": "Screened",
@@ -10553,34 +10660,34 @@
       "activeFunnel": [
         {
           "label": "Backlog",
-          "count": 10,
+          "count": 8,
           "color": "#888780"
-        },
-        {
-          "label": "Recruiter Review",
-          "count": 2,
-          "color": "#006747"
         },
         {
           "label": "Pre-boarding",
           "count": 1,
           "color": "#5B8FA8"
+        },
+        {
+          "label": "Recruiter Review",
+          "count": 1,
+          "color": "#006747"
         }
       ],
       "reqTypes": [
         {
           "label": "Passive",
-          "count": 107,
+          "count": 85,
           "color": "#1B6A9C"
         },
         {
           "label": "Active",
-          "count": 13,
+          "count": 10,
           "color": "#004d35"
         },
         {
           "label": "Student",
-          "count": 11,
+          "count": 9,
           "color": "#B5651D"
         },
         {
@@ -10615,13 +10722,13 @@
         {
           "label": "Screened",
           "value": 0,
-          "target": 157,
+          "target": 130,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 0,
-          "target": 157,
+          "target": 130,
           "invert": false
         }
       ],
@@ -10642,12 +10749,12 @@
       "bgLight": "#ece9f7",
       "bgDark": "#1f1a4d",
       "campus": "Tampa",
-      "reqs": 56,
-      "activeReqs": 53,
+      "reqs": 91,
+      "activeReqs": 85,
       "filled": 3,
-      "failed": 0,
+      "failed": 3,
       "ttf": 87,
-      "wip": 3,
+      "wip": 4,
       "agingRecords": [
         {
           "band": "🔴 31+",
@@ -10669,6 +10776,26 @@
               "stage": "Interview Stage",
               "agingBand": "🔴 15–30",
               "department": "170100 - COE Dean's Office"
+            },
+            {
+              "title": "Budget Analyst II",
+              "reqId": "44040",
+              "notionUrl": "https://www.notion.so/e52fb62d4abc435cbf5242ba4366137d",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🔴 15–30",
+              "department": "790100 - VP Research"
+            },
+            {
+              "title": "Research Compliance Administrator - Conflict of Interest",
+              "reqId": "43312",
+              "notionUrl": "https://www.notion.so/39f9ddf757a081ab8b6bc287f2e05f5d",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🔴 15–30",
+              "department": "791000 - Research Integrity &Compliance"
             }
           ]
         },
@@ -10811,6 +10938,86 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "records": [
+            {
+              "title": "Program Consultant",
+              "reqId": "44627",
+              "notionUrl": "https://www.notion.so/8e3d0950b0fc498cbc45ef104194d5b6",
+              "owner": "Aidi",
+              "campus": "",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "177500 - Inst For School Comm Partnersh"
+            },
+            {
+              "title": "Student Services Consultant",
+              "reqId": "44628",
+              "notionUrl": "https://www.notion.so/08ac2eaf22984673bed339e0994e5416",
+              "owner": "Aidi",
+              "campus": "",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "177500 - Inst For School Comm Partnersh"
+            },
+            {
+              "title": "Research Support Assistant",
+              "reqId": "42418",
+              "notionUrl": "https://www.notion.so/a8e832c7c6a84e9dbd920eaf3a2f38c9",
+              "owner": "Aidi",
+              "campus": "",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "790300 - Sponsored Research"
+            },
+            {
+              "title": "Health Physicist",
+              "reqId": "42044",
+              "notionUrl": "https://www.notion.so/80bfafaa557748349f35b2470efd1272",
+              "owner": "Aidi",
+              "campus": "",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "791000 - Research Integrity &Compliance"
+            },
+            {
+              "title": "Student Assistant - Florida Inventors Hall of Fame IGNITE Education and Community Outreach",
+              "reqId": "42046",
+              "notionUrl": "https://www.notion.so/c3c0e7316c514f7997ed03b9d50ad599",
+              "owner": "Aidi",
+              "campus": "",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "790100 - VP Research"
+            },
+            {
+              "title": "Sponsored Research Administrator",
+              "reqId": "42398",
+              "notionUrl": "https://www.notion.so/9249bc4b9a544d8aadf8a84f2a8b8354",
+              "owner": "Aidi",
+              "campus": "",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "790300 - Sponsored Research"
+            },
+            {
+              "title": "Graduate Student Assistant - Life Sciences",
+              "reqId": "42433",
+              "notionUrl": "https://www.notion.so/c35b2727b4da49a9b67272c0af71e2c2",
+              "owner": "Aidi",
+              "campus": "",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "790400 - Technology Transfer Office"
+            },
+            {
+              "title": "Applications Developer III",
+              "reqId": "42432",
+              "notionUrl": "https://www.notion.so/a849270c9c9c44fca51855540b75b38d",
+              "owner": "Aidi",
+              "campus": "",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "790100 - VP Research"
+            },
             {
               "title": "Complex Copy Cataloger",
               "reqId": "44510",
@@ -10956,6 +11163,12 @@
       ],
       "stageMetrics": [
         {
+          "label": "Recruiter Review",
+          "avgDays": 30,
+          "count": 1,
+          "color": "#006747"
+        },
+        {
           "label": "HM Review",
           "avgDays": 8,
           "count": 9,
@@ -10975,15 +11188,15 @@
         },
         {
           "label": "Backlog",
-          "avgDays": 1,
-          "count": 14,
+          "avgDays": 3,
+          "count": 15,
           "color": "#888780"
         }
       ],
       "statuses": [
         {
           "label": "Backlog",
-          "count": 14,
+          "count": 23,
           "color": "#888780"
         },
         {
@@ -10993,7 +11206,7 @@
         },
         {
           "label": "Student Hiring",
-          "count": 4,
+          "count": 6,
           "color": "#B5651D"
         },
         {
@@ -11017,9 +11230,19 @@
           "color": "#3A5A6A"
         },
         {
+          "label": "Passive Hiring",
+          "count": 20,
+          "color": "#1B6A9C"
+        },
+        {
           "label": "Evergreen / Continuous Pool",
           "count": 1,
           "color": "#6B8E4E"
+        },
+        {
+          "label": "Recruiter Review",
+          "count": 1,
+          "color": "#006747"
         }
       ],
       "aging": [
@@ -11037,7 +11260,7 @@
           "color": "#A32D2D",
           "bgLight": "#FAD9D9",
           "bgDark": "#2e0f0f",
-          "count": 1
+          "count": 3
         },
         {
           "label": "🔴 6–14",
@@ -11061,13 +11284,13 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 14
+          "count": 22
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 53
+          "count": 85
         },
         {
           "label": "Screened",
@@ -11089,7 +11312,7 @@
       "activeFunnel": [
         {
           "label": "Backlog",
-          "count": 14,
+          "count": 23,
           "color": "#888780"
         },
         {
@@ -11106,13 +11329,23 @@
           "label": "Interview Stage",
           "count": 2,
           "color": "#D4880A"
+        },
+        {
+          "label": "Recruiter Review",
+          "count": 1,
+          "color": "#006747"
         }
       ],
       "reqTypes": [
         {
           "label": "Active",
-          "count": 27,
+          "count": 37,
           "color": "#004d35"
+        },
+        {
+          "label": "Passive",
+          "count": 20,
+          "color": "#1B6A9C"
         },
         {
           "label": "Faculty",
@@ -11121,7 +11354,7 @@
         },
         {
           "label": "Student",
-          "count": 4,
+          "count": 6,
           "color": "#B5651D"
         },
         {
@@ -11151,13 +11384,13 @@
         {
           "label": "Screened",
           "value": 0,
-          "target": 56,
+          "target": 91,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 2,
-          "target": 56,
+          "target": 91,
           "invert": false
         }
       ],
