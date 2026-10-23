@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-10-23T17:46:16.407Z",
+  "lastUpdated": "2026-10-23T21:08:40.172Z",
   "summary": {
-    "openReqs": 634,
+    "openReqs": 630,
     "avgTimeToFill": 81,
-    "filledYTD": 381,
+    "filledYTD": 385,
     "failedCancelled": 71,
     "inOfferStage": 7
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 319,
+      "count": 318,
       "color": "#1B6A9C"
     },
     {
@@ -20,7 +20,7 @@
     },
     {
       "label": "USF Health",
-      "count": 258,
+      "count": 255,
       "color": "#00A693"
     },
     {
@@ -37,12 +37,12 @@
   "mainFunnel": [
     {
       "label": "Passive Hiring",
-      "count": 265,
+      "count": 264,
       "color": "#1B6A9C"
     },
     {
       "label": "HM Review",
-      "count": 129,
+      "count": 128,
       "color": "#534AB7"
     },
     {
@@ -57,12 +57,12 @@
     },
     {
       "label": "Backlog",
-      "count": 35,
+      "count": 34,
       "color": "#888780"
     },
     {
       "label": "Recruiter Review",
-      "count": 29,
+      "count": 27,
       "color": "#006747"
     },
     {
@@ -89,6 +89,11 @@
       "label": "Offer Stage",
       "count": 7,
       "color": "#CFC483"
+    },
+    {
+      "label": "Sourced",
+      "count": 1,
+      "color": "#00A693"
     }
   ],
   "activeFunnel": [
@@ -99,7 +104,7 @@
     },
     {
       "label": "Backlog",
-      "count": 35,
+      "count": 34,
       "color": "#888780"
     },
     {
@@ -109,7 +114,7 @@
     },
     {
       "label": "Recruiter Review",
-      "count": 27,
+      "count": 25,
       "color": "#006747"
     },
     {
@@ -128,6 +133,11 @@
       "color": "#CFC483"
     },
     {
+      "label": "Sourced",
+      "count": 1,
+      "color": "#00A693"
+    },
+    {
       "label": "Targeted Hiring",
       "count": 1,
       "color": "#3A5A6A"
@@ -136,17 +146,17 @@
   "reqTypes": [
     {
       "label": "Passive",
-      "count": 237,
+      "count": 236,
       "color": "#1B6A9C"
     },
     {
       "label": "Active",
-      "count": 162,
+      "count": 160,
       "color": "#004d35"
     },
     {
       "label": "Evergreen",
-      "count": 116,
+      "count": 115,
       "color": "#6B8E4E"
     },
     {
@@ -177,7 +187,7 @@
       "color": "#6E1414",
       "bgLight": "#F0CFCF",
       "bgDark": "#2e0f0f",
-      "count": 8
+      "count": 6
     },
     {
       "label": "🔴 15–30",
@@ -193,7 +203,7 @@
       "color": "#D0523F",
       "bgLight": "#FCE9E5",
       "bgDark": "#3d1a0f",
-      "count": 18
+      "count": 17
     },
     {
       "label": "🟡 3–5",
@@ -201,7 +211,7 @@
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 7
+      "count": 6
     },
     {
       "label": "🟢 0–2",
@@ -209,7 +219,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 79
+      "count": 81
     }
   ],
   "agingRecords": [
@@ -237,26 +247,6 @@
           "stage": "HM Review",
           "agingBand": "🔴 31+",
           "department": "643400 - Global Env & Ge"
-        },
-        {
-          "title": "Faculty Services Administri",
-          "reqId": "44155",
-          "notionUrl": "https://www.notion.so/342fa67037f44ccaa0c956a0da106685",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 31+",
-          "department": "640108 - COPH Faculty A"
-        },
-        {
-          "title": "Faculty Services Administri",
-          "reqId": "44156",
-          "notionUrl": "https://www.notion.so/bbb4fff226944b28a658b83a273d9af0",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 31+",
-          "department": "640108 - COPH Faculty A"
         },
         {
           "title": "Program Director for Residential Student Success",
@@ -813,16 +803,6 @@
       "bgLight": "#FCE9E5",
       "records": [
         {
-          "title": "Client Experience Analyst I",
-          "reqId": "44485",
-          "notionUrl": "https://www.notion.so/8048805d1c934398bb3029c549746e62",
-          "owner": "Aidi",
-          "campus": "Tampa",
-          "stage": "HM Review",
-          "agingBand": "🔴 6–14",
-          "department": ""
-        },
-        {
           "title": "Research Support Assistant",
           "reqId": "44440",
           "notionUrl": "https://www.notion.so/bddf55379d3342aaa77f3a2b83e41b1d",
@@ -1018,16 +998,6 @@
           "stage": "Recruiter Review",
           "agingBand": "🟡 3–5",
           "department": "019000 - Unv Community Partnerships"
-        },
-        {
-          "title": "Executive Assistant/Grant Manager",
-          "reqId": "44563",
-          "notionUrl": "https://www.notion.so/bab8cfc8fa964b02ab26f692d90db76a",
-          "owner": "Aidi",
-          "campus": "Tampa",
-          "stage": "Backlog",
-          "agingBand": "🟡 3–5",
-          "department": "Institute for School-Community Partnerships"
         },
         {
           "title": "IAE Accountant I",
@@ -1447,6 +1417,16 @@
           "department": "513000 - STP Library"
         },
         {
+          "title": "Executive Assistant/Grant Manager",
+          "reqId": "44563",
+          "notionUrl": "https://www.notion.so/bab8cfc8fa964b02ab26f692d90db76a",
+          "owner": "Aidi",
+          "campus": "Tampa",
+          "stage": "Sourced",
+          "agingBand": "🟢 0–2",
+          "department": "Institute for School-Community Partnerships"
+        },
+        {
           "title": "Academic Program Specialist - Kate Tiedemann School of Business and Finance",
           "reqId": "44540",
           "notionUrl": "https://www.notion.so/c6eb6ae8275e47ff82de184e98f45966",
@@ -1475,6 +1455,16 @@
           "stage": "Recruiter Review",
           "agingBand": "🟢 0–2",
           "department": "511280 - STP Honors Program"
+        },
+        {
+          "title": "Client Experience Analyst I",
+          "reqId": "44485",
+          "notionUrl": "https://www.notion.so/8048805d1c934398bb3029c549746e62",
+          "owner": "Aidi",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "177800 - School Mental Health Collaborative"
         },
         {
           "title": "International Program Administrator I",
@@ -1976,22 +1966,22 @@
       "color": "#7A9EB5"
     },
     {
-      "label": "Other (185 depts)",
-      "count": 347,
+      "label": "Other (184 depts)",
+      "count": 344,
       "color": "#c8c7c2"
     }
   ],
   "stageMetrics": [
     {
       "label": "Recruiter Review",
-      "avgDays": 17,
-      "count": 27,
+      "avgDays": 14,
+      "count": 25,
       "color": "#006747"
     },
     {
       "label": "HM Review",
-      "avgDays": 20,
-      "count": 40,
+      "avgDays": 21,
+      "count": 38,
       "color": "#534AB7"
     },
     {
@@ -2015,7 +2005,7 @@
     {
       "label": "Backlog",
       "avgDays": 19,
-      "count": 26,
+      "count": 25,
       "color": "#888780"
     },
     {
@@ -3056,6 +3046,17 @@
       "notionUrl": "https://www.notion.so/ec15ebd7cba941009faecf22873efe91"
     },
     {
+      "title": "AI Healthcare Engineer",
+      "reqId": "43891",
+      "owner": "Rebecca",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "612800 - Dept Of Otolary",
+      "reqType": "Evergreen",
+      "ttf": 114,
+      "notionUrl": "https://www.notion.so/9d7122807242471cba1b12f8c38af502"
+    },
+    {
       "title": "Associate Director of Clinical Research Operations",
       "reqId": "43768",
       "owner": "Rebecca",
@@ -4011,6 +4012,28 @@
       "reqType": "Student",
       "ttf": 74,
       "notionUrl": "https://www.notion.so/3c9bc911be9c4da8a60077a5cc9ea114"
+    },
+    {
+      "title": "Faculty Services Administri",
+      "reqId": "44155",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Hired",
+      "department": "640108 - COPH Faculty A",
+      "reqType": "Active",
+      "ttf": 73,
+      "notionUrl": "https://www.notion.so/342fa67037f44ccaa0c956a0da106685"
+    },
+    {
+      "title": "Faculty Services Administri",
+      "reqId": "44156",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Hired",
+      "department": "640108 - COPH Faculty A",
+      "reqType": "Active",
+      "ttf": 73,
+      "notionUrl": "https://www.notion.so/bbb4fff226944b28a658b83a273d9af0"
     },
     {
       "title": "Clinical Research Coordin",
@@ -5927,6 +5950,17 @@
       "notionUrl": "https://www.notion.so/7958bb1997854f4cb939090dfc22e6a5"
     },
     {
+      "title": "Clinical Research Coordin",
+      "reqId": "44359",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Hired",
+      "department": "612500 - Dept Of Neurol",
+      "reqType": "Passive",
+      "ttf": 42,
+      "notionUrl": "https://www.notion.so/26784c2d0a554b318c5646de9895466c"
+    },
+    {
       "title": "Unit Research Administra",
       "reqId": "44041",
       "owner": "Rebecca",
@@ -7190,6 +7224,13 @@
         "fillRatePct": 100
       },
       {
+        "department": "612800 - Dept Of Otolary",
+        "filled": 3,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
         "department": "391000 - Fl Center For Cybersecurity",
         "filled": 2,
         "failed": 0,
@@ -7302,7 +7343,7 @@
         "fillRatePct": 100
       },
       {
-        "department": "612800 - Dept Of Otolary",
+        "department": "640108 - COPH Faculty A",
         "filled": 2,
         "failed": 0,
         "cancelled": 0,
@@ -7352,6 +7393,13 @@
       },
       {
         "department": "611800 - Department Of",
+        "filled": 2,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "612500 - Dept Of Neurol",
         "filled": 2,
         "failed": 0,
         "cancelled": 0,
@@ -7757,13 +7805,6 @@
         "fillRatePct": 100
       },
       {
-        "department": "612500 - Dept Of Neurol",
-        "filled": 1,
-        "failed": 0,
-        "cancelled": 0,
-        "fillRatePct": 100
-      },
-      {
         "department": "044100 - Ctr For Student Involvement",
         "filled": 1,
         "failed": 0,
@@ -7999,7 +8040,7 @@
       {
         "reqType": "Active",
         "avgDays": 81,
-        "count": 202
+        "count": 204
       },
       {
         "reqType": "Student",
@@ -8008,13 +8049,13 @@
       },
       {
         "reqType": "Passive",
-        "avgDays": 92,
-        "count": 38
+        "avgDays": 91,
+        "count": 39
       },
       {
         "reqType": "Evergreen",
         "avgDays": 100,
-        "count": 37
+        "count": 38
       },
       {
         "reqType": "Targeted",
@@ -8031,12 +8072,12 @@
       {
         "campus": "Tampa",
         "avgDays": 65,
-        "count": 171
+        "count": 172
       },
       {
         "campus": "USF Health",
-        "avgDays": 111,
-        "count": 118
+        "avgDays": 110,
+        "count": 121
       },
       {
         "campus": "St. Petersburg",
@@ -8107,9 +8148,9 @@
       {
         "recruiter": "Rebecca",
         "color": "#1B6A9C",
-        "stalled": 39,
-        "totalActive": 80,
-        "stallRatePct": 49
+        "stalled": 37,
+        "totalActive": 78,
+        "stallRatePct": 47
       },
       {
         "recruiter": "John",
@@ -8119,18 +8160,18 @@
         "stallRatePct": 38
       },
       {
-        "recruiter": "Aidi",
-        "color": "#534AB7",
-        "stalled": 14,
-        "totalActive": 37,
-        "stallRatePct": 38
-      },
-      {
         "recruiter": "Gabriel",
         "color": "#00A693",
         "stalled": 5,
         "totalActive": 14,
         "stallRatePct": 36
+      },
+      {
+        "recruiter": "Aidi",
+        "color": "#534AB7",
+        "stalled": 13,
+        "totalActive": 37,
+        "stallRatePct": 35
       },
       {
         "recruiter": "Katherine",
@@ -8402,10 +8443,10 @@
       "bgDark": "#3d2504",
       "campus": "Tampa",
       "reqs": 434,
-      "activeReqs": 261,
-      "filled": 140,
+      "activeReqs": 257,
+      "filled": 144,
       "failed": 33,
-      "ttf": 117,
+      "ttf": 116,
       "wip": 14,
       "agingRecords": [
         {
@@ -8432,26 +8473,6 @@
               "stage": "HM Review",
               "agingBand": "🔴 31+",
               "department": "643400 - Global Env & Ge"
-            },
-            {
-              "title": "Faculty Services Administri",
-              "reqId": "44155",
-              "notionUrl": "https://www.notion.so/342fa67037f44ccaa0c956a0da106685",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 31+",
-              "department": "640108 - COPH Faculty A"
-            },
-            {
-              "title": "Faculty Services Administri",
-              "reqId": "44156",
-              "notionUrl": "https://www.notion.so/bbb4fff226944b28a658b83a273d9af0",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 31+",
-              "department": "640108 - COPH Faculty A"
             },
             {
               "title": "Temporary Research Technician",
@@ -9245,8 +9266,8 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 24,
-          "count": 16,
+          "avgDays": 18,
+          "count": 14,
           "color": "#006747"
         },
         {
@@ -9283,12 +9304,12 @@
       "statuses": [
         {
           "label": "HM Review",
-          "count": 114,
+          "count": 113,
           "color": "#534AB7"
         },
         {
           "label": "Passive Hiring",
-          "count": 96,
+          "count": 95,
           "color": "#1B6A9C"
         },
         {
@@ -9298,7 +9319,7 @@
         },
         {
           "label": "Recruiter Review",
-          "count": 16,
+          "count": 14,
           "color": "#006747"
         },
         {
@@ -9329,7 +9350,7 @@
           "color": "#6E1414",
           "bgLight": "#F0CFCF",
           "bgDark": "#2e0f0f",
-          "count": 7
+          "count": 5
         },
         {
           "label": "🔴 15–30",
@@ -9367,7 +9388,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 261
+          "count": 257
         },
         {
           "label": "Screened",
@@ -9375,7 +9396,7 @@
         },
         {
           "label": "HM Review",
-          "count": 114
+          "count": 113
         },
         {
           "label": "Interviews",
@@ -9399,7 +9420,7 @@
         },
         {
           "label": "Recruiter Review",
-          "count": 16,
+          "count": 14,
           "color": "#006747"
         },
         {
@@ -9421,17 +9442,17 @@
       "reqTypes": [
         {
           "label": "Evergreen",
-          "count": 92,
+          "count": 91,
           "color": "#6B8E4E"
         },
         {
           "label": "Active",
-          "count": 80,
+          "count": 78,
           "color": "#004d35"
         },
         {
           "label": "Passive",
-          "count": 65,
+          "count": 64,
           "color": "#1B6A9C"
         },
         {
@@ -9448,13 +9469,13 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 140,
+          "value": 144,
           "target": 10,
           "invert": false
         },
         {
           "label": "Time to fill",
-          "value": 117,
+          "value": 116,
           "target": 40,
           "invert": true
         },
@@ -9472,12 +9493,12 @@
         }
       ],
       "trend": [
-        117,
-        117,
-        117,
-        117,
-        117,
-        117
+        116,
+        116,
+        116,
+        116,
+        116,
+        116
       ]
     },
     {
@@ -10805,16 +10826,6 @@
           "bgLight": "#FCE9E5",
           "records": [
             {
-              "title": "Client Experience Analyst I",
-              "reqId": "44485",
-              "notionUrl": "https://www.notion.so/8048805d1c934398bb3029c549746e62",
-              "owner": "Aidi",
-              "campus": "Tampa",
-              "stage": "HM Review",
-              "agingBand": "🔴 6–14",
-              "department": ""
-            },
-            {
               "title": "Research Support Assistant",
               "reqId": "44440",
               "notionUrl": "https://www.notion.so/bddf55379d3342aaa77f3a2b83e41b1d",
@@ -10920,18 +10931,7 @@
           "band": "🟡 3–5",
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
-          "records": [
-            {
-              "title": "Executive Assistant/Grant Manager",
-              "reqId": "44563",
-              "notionUrl": "https://www.notion.so/bab8cfc8fa964b02ab26f692d90db76a",
-              "owner": "Aidi",
-              "campus": "Tampa",
-              "stage": "Backlog",
-              "agingBand": "🟡 3–5",
-              "department": "Institute for School-Community Partnerships"
-            }
-          ]
+          "records": []
         },
         {
           "band": "🟢 0–2",
@@ -11157,6 +11157,26 @@
               "stage": "HM Review",
               "agingBand": "🟢 0–2",
               "department": "400100 - Univ Lib Deans Office"
+            },
+            {
+              "title": "Executive Assistant/Grant Manager",
+              "reqId": "44563",
+              "notionUrl": "https://www.notion.so/bab8cfc8fa964b02ab26f692d90db76a",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Sourced",
+              "agingBand": "🟢 0–2",
+              "department": "Institute for School-Community Partnerships"
+            },
+            {
+              "title": "Client Experience Analyst I",
+              "reqId": "44485",
+              "notionUrl": "https://www.notion.so/8048805d1c934398bb3029c549746e62",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "177800 - School Mental Health Collaborative"
             }
           ]
         }
@@ -11170,8 +11190,8 @@
         },
         {
           "label": "HM Review",
-          "avgDays": 8,
-          "count": 9,
+          "avgDays": 9,
+          "count": 7,
           "color": "#534AB7"
         },
         {
@@ -11189,20 +11209,25 @@
         {
           "label": "Backlog",
           "avgDays": 3,
-          "count": 15,
+          "count": 14,
           "color": "#888780"
         }
       ],
       "statuses": [
         {
           "label": "Backlog",
-          "count": 23,
+          "count": 22,
           "color": "#888780"
         },
         {
           "label": "HM Review",
           "count": 9,
           "color": "#534AB7"
+        },
+        {
+          "label": "Sourced",
+          "count": 1,
+          "color": "#00A693"
         },
         {
           "label": "Student Hiring",
@@ -11268,7 +11293,7 @@
           "color": "#D0523F",
           "bgLight": "#FCE9E5",
           "bgDark": "#3d1a0f",
-          "count": 11
+          "count": 10
         },
         {
           "label": "🟡 3–5",
@@ -11276,7 +11301,7 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 1
+          "count": 0
         },
         {
           "label": "🟢 0–2",
@@ -11284,7 +11309,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 22
+          "count": 24
         }
       ],
       "funnel": [
@@ -11312,7 +11337,7 @@
       "activeFunnel": [
         {
           "label": "Backlog",
-          "count": 23,
+          "count": 22,
           "color": "#888780"
         },
         {
@@ -11329,6 +11354,11 @@
           "label": "Interview Stage",
           "count": 2,
           "color": "#D4880A"
+        },
+        {
+          "label": "Sourced",
+          "count": 1,
+          "color": "#00A693"
         },
         {
           "label": "Recruiter Review",
