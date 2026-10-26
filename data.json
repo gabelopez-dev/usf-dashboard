@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-10-26T14:56:19.626Z",
+  "lastUpdated": "2026-10-26T20:22:31.610Z",
   "summary": {
-    "openReqs": 628,
+    "openReqs": 626,
     "avgTimeToFill": 81,
-    "filledYTD": 394,
-    "failedCancelled": 71,
+    "filledYTD": 396,
+    "failedCancelled": 72,
     "inOfferStage": 9
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 322,
+      "count": 321,
       "color": "#1B6A9C"
     },
     {
@@ -25,7 +25,7 @@
     },
     {
       "label": "Tallahassee",
-      "count": 9,
+      "count": 8,
       "color": "#7A9EB5"
     },
     {
@@ -37,7 +37,7 @@
   "mainFunnel": [
     {
       "label": "Passive Hiring",
-      "count": 262,
+      "count": 261,
       "color": "#1B6A9C"
     },
     {
@@ -57,12 +57,12 @@
     },
     {
       "label": "Backlog",
-      "count": 34,
+      "count": 35,
       "color": "#888780"
     },
     {
       "label": "Recruiter Review",
-      "count": 27,
+      "count": 26,
       "color": "#006747"
     },
     {
@@ -72,7 +72,7 @@
     },
     {
       "label": "Pre-boarding",
-      "count": 15,
+      "count": 14,
       "color": "#5B8FA8"
     },
     {
@@ -104,23 +104,23 @@
     },
     {
       "label": "Backlog",
-      "count": 34,
+      "count": 35,
       "color": "#888780"
     },
     {
       "label": "Recruiter Review",
-      "count": 25,
+      "count": 24,
       "color": "#006747"
-    },
-    {
-      "label": "Pre-boarding",
-      "count": 11,
-      "color": "#5B8FA8"
     },
     {
       "label": "Interview Stage",
       "count": 10,
       "color": "#D4880A"
+    },
+    {
+      "label": "Pre-boarding",
+      "count": 10,
+      "color": "#5B8FA8"
     },
     {
       "label": "Offer Stage",
@@ -141,12 +141,12 @@
   "reqTypes": [
     {
       "label": "Passive",
-      "count": 265,
+      "count": 264,
       "color": "#1B6A9C"
     },
     {
       "label": "Active",
-      "count": 128,
+      "count": 127,
       "color": "#004d35"
     },
     {
@@ -182,7 +182,7 @@
       "color": "#6E1414",
       "bgLight": "#F0CFCF",
       "bgDark": "#2e0f0f",
-      "count": 45
+      "count": 44
     },
     {
       "label": "🔴 15–30",
@@ -198,7 +198,7 @@
       "color": "#D0523F",
       "bgLight": "#FCE9E5",
       "bgDark": "#3d1a0f",
-      "count": 21
+      "count": 20
     },
     {
       "label": "🟡 3–5",
@@ -206,7 +206,7 @@
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 48
+      "count": 47
     },
     {
       "label": "🟢 0–2",
@@ -214,7 +214,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 7
+      "count": 9
     }
   ],
   "agingRecords": [
@@ -472,16 +472,6 @@
           "stage": "Backlog",
           "agingBand": "🔴 31+",
           "department": "120100 - Arts And Sciences - Dean"
-        },
-        {
-          "title": "Program Director for Residential Student Success",
-          "reqId": "43975",
-          "notionUrl": "https://www.notion.so/e21deb64954648ffb708c6e7f1cf0fe4",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 31+",
-          "department": "College of Education "
         },
         {
           "title": "Temporary Research Technician",
@@ -896,16 +886,6 @@
           "stage": "Interview Stage",
           "agingBand": "🔴 6–14",
           "department": "471000 - Florida Inst of Oceanography"
-        },
-        {
-          "title": "Program Director",
-          "reqId": "44090",
-          "notionUrl": "https://www.notion.so/2135ef73fef4400a96fa589524bf2180",
-          "owner": "Aidi",
-          "campus": "Tallahassee",
-          "stage": "HM Review",
-          "agingBand": "🔴 6–14",
-          "department": "177500 - Inst For School Comm Partnersh"
         },
         {
           "title": "School Improvement Coordinator",
@@ -1375,16 +1355,6 @@
           "department": "371000 - Admissions"
         },
         {
-          "title": "Program Director",
-          "reqId": "44447",
-          "notionUrl": "https://www.notion.so/31ef31a8794a4a6b8ada982b17c8c7e2",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Recruiter Review",
-          "agingBand": "🟡 3–5",
-          "department": "511724 - STP Secondary Education"
-        },
-        {
           "title": "Assignment Coordinator",
           "reqId": "44403",
           "notionUrl": "https://www.notion.so/69f06d5f673849d582aea91c6bca7056",
@@ -1462,6 +1432,16 @@
       "bgLight": "#EAF3DE",
       "records": [
         {
+          "title": "Associate VP Athletics Retail Ops",
+          "reqId": "44616",
+          "notionUrl": "https://www.notion.so/164ebee252834987a6dbe8f9be952fbc",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "051000 - Athletic Administration"
+        },
+        {
           "title": "Student Assistant",
           "reqId": "44626",
           "notionUrl": "https://www.notion.so/baa8837d0d1b45ec8a76ffa534432adf",
@@ -1480,6 +1460,16 @@
           "stage": "Backlog",
           "agingBand": "🟢 0–2",
           "department": "041300 - Strategic Initiatives"
+        },
+        {
+          "title": "Program Director",
+          "reqId": "44447",
+          "notionUrl": "https://www.notion.so/31ef31a8794a4a6b8ada982b17c8c7e2",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "511724 - STP Secondary Education"
         },
         {
           "title": "Enrollment Management Specialist",
@@ -1551,23 +1541,23 @@
       "color": "#00A693"
     },
     {
-      "label": "College of Education ",
-      "count": 15,
+      "label": "611900 - Department Of",
+      "count": 14,
       "color": "#CFC483"
     },
     {
-      "label": "611900 - Department Of",
+      "label": "College of Education ",
       "count": 14,
       "color": "#7A9EB5"
     },
     {
-      "label": "371000 - Admissions",
+      "label": "051000 - Athletic Administration",
       "count": 11,
       "color": "#5B7A8A"
     },
     {
-      "label": "051000 - Athletic Administration",
-      "count": 10,
+      "label": "371000 - Admissions",
+      "count": 11,
       "color": "#534AB7"
     },
     {
@@ -1577,7 +1567,7 @@
     },
     {
       "label": "177500 - Inst For School Comm Partnersh",
-      "count": 9,
+      "count": 8,
       "color": "#006747"
     },
     {
@@ -1641,8 +1631,8 @@
       "color": "#7A9EB5"
     },
     {
-      "label": "Other (182 depts)",
-      "count": 341,
+      "label": "Other (181 depts)",
+      "count": 340,
       "color": "#c8c7c2"
     }
   ],
@@ -1656,13 +1646,13 @@
     {
       "label": "Recruiter Review",
       "avgDays": 17,
-      "count": 25,
+      "count": 24,
       "color": "#006747"
     },
     {
       "label": "HM Review",
       "avgDays": 23,
-      "count": 38,
+      "count": 37,
       "color": "#534AB7"
     },
     {
@@ -1679,8 +1669,8 @@
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 19,
-      "count": 10,
+      "avgDays": 15,
+      "count": 9,
       "color": "#5B8FA8"
     },
     {
@@ -2831,6 +2821,17 @@
       "notionUrl": "https://www.notion.so/ff7b5d57d38d4ce3b53f01b401f19259"
     },
     {
+      "title": "Temporary Community Service Officer",
+      "reqId": "43904",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Canceled",
+      "department": "025102 - Physical Securit",
+      "reqType": "Passive",
+      "ttf": 112,
+      "notionUrl": "https://www.notion.so/d452a989cf6542948636f309805fc6a5"
+    },
+    {
       "title": "Student Assistant - FWS - Mens Soccer",
       "reqId": "43188",
       "owner": "johncalebrese",
@@ -3049,6 +3050,17 @@
       "reqType": "Active",
       "ttf": 104,
       "notionUrl": "https://www.notion.so/41d5acfe85d24ae7bf2a0cde407e57fc"
+    },
+    {
+      "title": "Program Director for Residential Student Success",
+      "reqId": "43975",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "College of Education ",
+      "reqType": "Active",
+      "ttf": 103,
+      "notionUrl": "https://www.notion.so/e21deb64954648ffb708c6e7f1cf0fe4"
     },
     {
       "title": "Business Fiscal Operations Coordinator",
@@ -3423,6 +3435,17 @@
       "reqType": "Student",
       "ttf": 84,
       "notionUrl": "https://www.notion.so/49c56d73897a43918833df2bed389d12"
+    },
+    {
+      "title": "Program Director",
+      "reqId": "44090",
+      "owner": "Aidi",
+      "campus": "Tallahassee",
+      "stage": "Hired",
+      "department": "177500 - Inst For School Comm Partnersh",
+      "reqType": "Active",
+      "ttf": 83,
+      "notionUrl": "https://www.notion.so/2135ef73fef4400a96fa589524bf2180"
     },
     {
       "title": "Academic Program Specialist",
@@ -6830,6 +6853,13 @@
         "fillRatePct": 97
       },
       {
+        "department": "College of Education ",
+        "filled": 12,
+        "failed": 1,
+        "cancelled": 0,
+        "fillRatePct": 92
+      },
+      {
         "department": "STP Student Success",
         "filled": 12,
         "failed": 0,
@@ -6842,13 +6872,6 @@
         "failed": 0,
         "cancelled": 1,
         "fillRatePct": 100
-      },
-      {
-        "department": "College of Education ",
-        "filled": 11,
-        "failed": 1,
-        "cancelled": 0,
-        "fillRatePct": 92
       },
       {
         "department": "490000 - USF World",
@@ -6879,6 +6902,13 @@
         "fillRatePct": 83
       },
       {
+        "department": "177500 - Inst For School Comm Partnersh",
+        "filled": 8,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
         "department": "210800 - AICC Bellini College Department",
         "filled": 8,
         "failed": 0,
@@ -6897,13 +6927,6 @@
         "filled": 6,
         "failed": 0,
         "cancelled": 1,
-        "fillRatePct": 100
-      },
-      {
-        "department": "177500 - Inst For School Comm Partnersh",
-        "filled": 7,
-        "failed": 0,
-        "cancelled": 0,
         "fillRatePct": 100
       },
       {
@@ -7262,6 +7285,13 @@
         "failed": 0,
         "cancelled": 0,
         "fillRatePct": 100
+      },
+      {
+        "department": "025102 - Physical Securit",
+        "filled": 0,
+        "failed": 0,
+        "cancelled": 1,
+        "fillRatePct": null
       },
       {
         "department": "380000 - Undergrad Stds-Deans Ofc Opera",
@@ -7849,7 +7879,7 @@
       {
         "reqType": "Active",
         "avgDays": 81,
-        "count": 207
+        "count": 209
       },
       {
         "reqType": "Student",
@@ -7880,8 +7910,8 @@
     "avgTTFByCampus": [
       {
         "campus": "Tampa",
-        "avgDays": 65,
-        "count": 174
+        "avgDays": 66,
+        "count": 175
       },
       {
         "campus": "USF Health",
@@ -7900,8 +7930,8 @@
       },
       {
         "campus": "Tallahassee",
-        "avgDays": 88,
-        "count": 6
+        "avgDays": 87,
+        "count": 7
       }
     ],
     "topHiringDepartments": [
@@ -7911,7 +7941,7 @@
       },
       {
         "department": "051000 - Athletic Administration",
-        "count": 48
+        "count": 49
       },
       {
         "department": "351000 - Information Technology",
@@ -7971,16 +8001,16 @@
       {
         "recruiter": "Aidi",
         "color": "#534AB7",
-        "stalled": 13,
-        "totalActive": 37,
-        "stallRatePct": 35
+        "stalled": 12,
+        "totalActive": 36,
+        "stallRatePct": 33
       },
       {
         "recruiter": "John",
         "color": "#1B6A9C",
-        "stalled": 7,
+        "stalled": 6,
         "totalActive": 21,
-        "stallRatePct": 33
+        "stallRatePct": 29
       },
       {
         "recruiter": "Katherine",
@@ -8998,29 +9028,18 @@
       "bgLight": "#e3f2fd",
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
-      "reqs": 223,
-      "activeReqs": 80,
-      "filled": 124,
-      "failed": 19,
-      "ttf": 63,
+      "reqs": 224,
+      "activeReqs": 79,
+      "filled": 125,
+      "failed": 20,
+      "ttf": 64,
       "wip": 0,
       "agingRecords": [
         {
           "band": "🔴 31+",
           "color": "#6E1414",
           "bgLight": "#F0CFCF",
-          "records": [
-            {
-              "title": "Program Director for Residential Student Success",
-              "reqId": "43975",
-              "notionUrl": "https://www.notion.so/e21deb64954648ffb708c6e7f1cf0fe4",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🔴 31+",
-              "department": "College of Education "
-            }
-          ]
+          "records": []
         },
         {
           "band": "🔴 15–30",
@@ -9199,6 +9218,16 @@
           "bgLight": "#EAF3DE",
           "records": [
             {
+              "title": "Associate VP Athletics Retail Ops",
+              "reqId": "44616",
+              "notionUrl": "https://www.notion.so/164ebee252834987a6dbe8f9be952fbc",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "051000 - Athletic Administration"
+            },
+            {
               "title": "Student Assistant",
               "reqId": "44626",
               "notionUrl": "https://www.notion.so/baa8837d0d1b45ec8a76ffa534432adf",
@@ -9278,12 +9307,17 @@
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 20,
-          "count": 4,
+          "avgDays": 6,
+          "count": 3,
           "color": "#5B8FA8"
         }
       ],
       "statuses": [
+        {
+          "label": "Backlog",
+          "count": 3,
+          "color": "#888780"
+        },
         {
           "label": "Faculty Hiring",
           "count": 2,
@@ -9295,13 +9329,8 @@
           "color": "#B5651D"
         },
         {
-          "label": "Backlog",
-          "count": 2,
-          "color": "#888780"
-        },
-        {
           "label": "Passive Hiring",
-          "count": 24,
+          "count": 23,
           "color": "#1B6A9C"
         },
         {
@@ -9316,7 +9345,7 @@
         },
         {
           "label": "Pre-boarding",
-          "count": 9,
+          "count": 8,
           "color": "#5B8FA8"
         },
         {
@@ -9342,7 +9371,7 @@
           "color": "#6E1414",
           "bgLight": "#F0CFCF",
           "bgDark": "#2e0f0f",
-          "count": 1
+          "count": 0
         },
         {
           "label": "🔴 15–30",
@@ -9374,13 +9403,13 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 5
+          "count": 6
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 80
+          "count": 79
         },
         {
           "label": "Screened",
@@ -9406,24 +9435,24 @@
           "color": "#006747"
         },
         {
-          "label": "Pre-boarding",
-          "count": 5,
-          "color": "#5B8FA8"
-        },
-        {
           "label": "HM Review",
           "count": 4,
           "color": "#534AB7"
         },
         {
-          "label": "Offer Stage",
-          "count": 3,
-          "color": "#CFC483"
+          "label": "Pre-boarding",
+          "count": 4,
+          "color": "#5B8FA8"
         },
         {
           "label": "Backlog",
-          "count": 2,
+          "count": 3,
           "color": "#888780"
+        },
+        {
+          "label": "Offer Stage",
+          "count": 3,
+          "color": "#CFC483"
         },
         {
           "label": "Interview Stage",
@@ -9434,7 +9463,7 @@
       "reqTypes": [
         {
           "label": "Passive",
-          "count": 26,
+          "count": 25,
           "color": "#1B6A9C"
         },
         {
@@ -9461,36 +9490,36 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 124,
+          "value": 125,
           "target": 10,
           "invert": false
         },
         {
           "label": "Time to fill",
-          "value": 63,
+          "value": 64,
           "target": 40,
           "invert": true
         },
         {
           "label": "Screened",
           "value": 0,
-          "target": 223,
+          "target": 224,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 1,
-          "target": 223,
+          "target": 224,
           "invert": false
         }
       ],
       "trend": [
-        63,
-        63,
-        63,
-        63,
-        63,
-        63
+        64,
+        64,
+        64,
+        64,
+        64,
+        64
       ]
     },
     {
@@ -9506,7 +9535,7 @@
       "filled": 103,
       "failed": 11,
       "ttf": 53,
-      "wip": 6,
+      "wip": 2,
       "agingRecords": [
         {
           "band": "🔴 31+",
@@ -9655,16 +9684,6 @@
               "department": "511280 - STP Honors Program"
             },
             {
-              "title": "Program Director",
-              "reqId": "44447",
-              "notionUrl": "https://www.notion.so/31ef31a8794a4a6b8ada982b17c8c7e2",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Recruiter Review",
-              "agingBand": "🟡 3–5",
-              "department": "511724 - STP Secondary Education"
-            },
-            {
               "title": "Transit Safety Consultant - CUTR",
               "reqId": "44407",
               "notionUrl": "https://www.notion.so/fdf31ec5654f4ee9b57ecc6976f0f18d",
@@ -9680,14 +9699,25 @@
           "band": "🟢 0–2",
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
-          "records": []
+          "records": [
+            {
+              "title": "Program Director",
+              "reqId": "44447",
+              "notionUrl": "https://www.notion.so/31ef31a8794a4a6b8ada982b17c8c7e2",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "511724 - STP Secondary Education"
+            }
+          ]
         }
       ],
       "stageMetrics": [
         {
           "label": "Recruiter Review",
           "avgDays": 4,
-          "count": 3,
+          "count": 2,
           "color": "#006747"
         },
         {
@@ -9728,7 +9758,7 @@
         },
         {
           "label": "Recruiter Review",
-          "count": 3,
+          "count": 2,
           "color": "#006747"
         },
         {
@@ -9743,7 +9773,7 @@
         },
         {
           "label": "HM Review",
-          "count": 2,
+          "count": 3,
           "color": "#534AB7"
         },
         {
@@ -9798,7 +9828,7 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 6
+          "count": 5
         },
         {
           "label": "🟢 0–2",
@@ -9806,7 +9836,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 0
+          "count": 1
         }
       ],
       "funnel": [
@@ -9820,7 +9850,7 @@
         },
         {
           "label": "HM Review",
-          "count": 2
+          "count": 3
         },
         {
           "label": "Interviews",
@@ -9838,19 +9868,19 @@
           "color": "#5B8FA8"
         },
         {
-          "label": "Recruiter Review",
-          "count": 3,
-          "color": "#006747"
-        },
-        {
           "label": "Interview Stage",
           "count": 3,
           "color": "#D4880A"
         },
         {
           "label": "HM Review",
-          "count": 2,
+          "count": 3,
           "color": "#534AB7"
+        },
+        {
+          "label": "Recruiter Review",
+          "count": 2,
+          "color": "#006747"
         },
         {
           "label": "Backlog",
@@ -10287,11 +10317,11 @@
       "bgDark": "#1f1a4d",
       "campus": "Tampa",
       "reqs": 91,
-      "activeReqs": 85,
-      "filled": 3,
+      "activeReqs": 84,
+      "filled": 4,
       "failed": 3,
-      "ttf": 87,
-      "wip": 4,
+      "ttf": 86,
+      "wip": 5,
       "agingRecords": [
         {
           "band": "🔴 31+",
@@ -10371,16 +10401,6 @@
               "stage": "HM Review",
               "agingBand": "🔴 6–14",
               "department": "400100 - Univ Lib Deans Office"
-            },
-            {
-              "title": "Program Director",
-              "reqId": "44090",
-              "notionUrl": "https://www.notion.so/2135ef73fef4400a96fa589524bf2180",
-              "owner": "Aidi",
-              "campus": "Tallahassee",
-              "stage": "HM Review",
-              "agingBand": "🔴 6–14",
-              "department": "177500 - Inst For School Comm Partnersh"
             },
             {
               "title": "School Improvement Coordinator",
@@ -10714,7 +10734,7 @@
         {
           "label": "HM Review",
           "avgDays": 10,
-          "count": 9,
+          "count": 8,
           "color": "#534AB7"
         },
         {
@@ -10744,7 +10764,7 @@
         },
         {
           "label": "HM Review",
-          "count": 9,
+          "count": 8,
           "color": "#534AB7"
         },
         {
@@ -10816,7 +10836,7 @@
           "color": "#D0523F",
           "bgLight": "#FCE9E5",
           "bgDark": "#3d1a0f",
-          "count": 10
+          "count": 9
         },
         {
           "label": "🟡 3–5",
@@ -10838,7 +10858,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 85
+          "count": 84
         },
         {
           "label": "Screened",
@@ -10846,7 +10866,7 @@
         },
         {
           "label": "HM Review",
-          "count": 9
+          "count": 8
         },
         {
           "label": "Interviews",
@@ -10865,7 +10885,7 @@
         },
         {
           "label": "HM Review",
-          "count": 9,
+          "count": 8,
           "color": "#534AB7"
         },
         {
@@ -10892,7 +10912,7 @@
       "reqTypes": [
         {
           "label": "Active",
-          "count": 37,
+          "count": 36,
           "color": "#004d35"
         },
         {
@@ -10924,13 +10944,13 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 3,
+          "value": 4,
           "target": 10,
           "invert": false
         },
         {
           "label": "Time to fill",
-          "value": 87,
+          "value": 86,
           "target": 40,
           "invert": true
         },
@@ -10948,12 +10968,12 @@
         }
       ],
       "trend": [
-        87,
-        87,
-        87,
-        87,
-        87,
-        87
+        86,
+        86,
+        86,
+        86,
+        86,
+        86
       ]
     }
   ]
