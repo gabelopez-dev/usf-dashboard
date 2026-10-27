@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2026-10-27T15:57:54.619Z",
+  "lastUpdated": "2026-10-27T20:34:36.023Z",
   "summary": {
-    "openReqs": 629,
+    "openReqs": 614,
     "avgTimeToFill": 81,
-    "filledYTD": 398,
-    "failedCancelled": 72,
+    "filledYTD": 410,
+    "failedCancelled": 75,
     "inOfferStage": 7
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 323,
+      "count": 313,
       "color": "#1B6A9C"
     },
     {
       "label": "St Pete",
-      "count": 32,
+      "count": 27,
       "color": "#006747"
     },
     {
@@ -42,22 +42,22 @@
     },
     {
       "label": "HM Review",
-      "count": 127,
+      "count": 125,
       "color": "#534AB7"
     },
     {
-      "label": "Faculty Hiring",
-      "count": 54,
-      "color": "#993556"
-    },
-    {
       "label": "Student Hiring",
-      "count": 50,
+      "count": 48,
       "color": "#B5651D"
     },
     {
+      "label": "Faculty Hiring",
+      "count": 44,
+      "color": "#993556"
+    },
+    {
       "label": "Backlog",
-      "count": 36,
+      "count": 35,
       "color": "#888780"
     },
     {
@@ -99,12 +99,12 @@
   "activeFunnel": [
     {
       "label": "HM Review",
-      "count": 39,
+      "count": 37,
       "color": "#534AB7"
     },
     {
       "label": "Backlog",
-      "count": 36,
+      "count": 35,
       "color": "#888780"
     },
     {
@@ -146,7 +146,7 @@
     },
     {
       "label": "Active",
-      "count": 131,
+      "count": 128,
       "color": "#004d35"
     },
     {
@@ -156,12 +156,12 @@
     },
     {
       "label": "Student",
-      "count": 56,
+      "count": 54,
       "color": "#B5651D"
     },
     {
       "label": "Faculty",
-      "count": 53,
+      "count": 43,
       "color": "#993556"
     },
     {
@@ -198,7 +198,7 @@
       "color": "#D0523F",
       "bgLight": "#FCE9E5",
       "bgDark": "#3d1a0f",
-      "count": 34
+      "count": 28
     },
     {
       "label": "🟡 3–5",
@@ -206,7 +206,7 @@
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 29
+      "count": 26
     },
     {
       "label": "🟢 0–2",
@@ -214,7 +214,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 17
+      "count": 23
     }
   ],
   "agingRecords": [
@@ -878,16 +878,6 @@
           "department": "371000 - Admissions"
         },
         {
-          "title": "Nault Center for Entrepreneurship: Communications and Marketing Officer",
-          "reqId": "44463",
-          "notionUrl": "https://www.notion.so/fc50ca7098fc45ef945356c58e2ab5d0",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "HM Review",
-          "agingBand": "🔴 6–14",
-          "department": "141500 - Center For Entrepreneurship"
-        },
-        {
           "title": "Assignment Coordinator",
           "reqId": "44403",
           "notionUrl": "https://www.notion.so/69f06d5f673849d582aea91c6bca7056",
@@ -938,16 +928,6 @@
           "department": "400100 - Univ Lib Deans Office"
         },
         {
-          "title": "Research Support Specialist",
-          "reqId": "44348",
-          "notionUrl": "https://www.notion.so/5791cab1c6bc44b7aa43de3e2d5817e0",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 6–14",
-          "department": "511255 - STP Psychology"
-        },
-        {
           "title": "Project Manager",
           "reqId": "44295",
           "notionUrl": "https://www.notion.so/bf7dc9196b1c47639e4d803bcabf2728",
@@ -968,26 +948,6 @@
           "department": "638000 - College Of Phar"
         },
         {
-          "title": "Maintenance Technician",
-          "reqId": "44287",
-          "notionUrl": "https://www.notion.so/01776ccb59e04627b02ba932de3fc2b0",
-          "owner": "Gabriel",
-          "campus": "Key West",
-          "stage": "HM Review",
-          "agingBand": "🔴 6–14",
-          "department": "471000 - Florida Inst of Oceanography"
-        },
-        {
-          "title": "OPS / Temporary Marine",
-          "reqId": "44180",
-          "notionUrl": "https://www.notion.so/93a718c56eaf4fd8a3a4c3995b21262b",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 6–14",
-          "department": "471000 - Florida Inst of C"
-        },
-        {
           "title": "Salesforce Support Administrator",
           "reqId": "44197",
           "notionUrl": "https://www.notion.so/b2b3277cb11f4cc582f1430373a9bee3",
@@ -996,26 +956,6 @@
           "stage": "Pre-boarding",
           "agingBand": "🔴 6–14",
           "department": "066200 - WUSF-FM"
-        },
-        {
-          "title": "Academic Svcs. Administrator - Mechanical Eng",
-          "reqId": "44191",
-          "notionUrl": "https://www.notion.so/8969cc003995496488c89087857ac4e5",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🔴 6–14",
-          "department": "210500 - Mechanical Engineering"
-        },
-        {
-          "title": "Sr Biological Scientist",
-          "reqId": "44167",
-          "notionUrl": "https://www.notion.so/2d1996dcbe9549db9b1075272a92c0c0",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Interview Stage",
-          "agingBand": "🔴 6–14",
-          "department": "471000 - Florida Inst of Oceanography"
         },
         {
           "title": "School Improvement Coordinator",
@@ -1295,16 +1235,6 @@
           "department": "400100 - Univ Lib Deans Office"
         },
         {
-          "title": "Library Specialist",
-          "reqId": "44572",
-          "notionUrl": "https://www.notion.so/4bcfe79cd2e94eff8cd894b813040e4c",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Recruiter Review",
-          "agingBand": "🟡 3–5",
-          "department": "513000 - STP Library"
-        },
-        {
           "title": "Executive Assistant/Grant Manager",
           "reqId": "44563",
           "notionUrl": "https://www.notion.so/bab8cfc8fa964b02ab26f692d90db76a",
@@ -1315,16 +1245,6 @@
           "department": "Institute for School-Community Partnerships"
         },
         {
-          "title": "Academic Program Specialist - Kate Tiedemann School of Business and Finance",
-          "reqId": "44540",
-          "notionUrl": "https://www.notion.so/c6eb6ae8275e47ff82de184e98f45966",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Backlog",
-          "agingBand": "🟡 3–5",
-          "department": "140400 - KT School of Business & Finance"
-        },
-        {
           "title": "Analyst Statistical Data -CUTR",
           "reqId": "44529",
           "notionUrl": "https://www.notion.so/238dafc2df194fb487cd960c2f1ca4b7",
@@ -1333,16 +1253,6 @@
           "stage": "Interview Stage",
           "agingBand": "🟡 3–5",
           "department": "211700 - Ctr For Urban Transportation Research"
-        },
-        {
-          "title": "Other Hourly Professional/Support",
-          "reqId": "44549",
-          "notionUrl": "https://www.notion.so/4bc3fa9e19af4408bfa211942cf11d76",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Recruiter Review",
-          "agingBand": "🟡 3–5",
-          "department": "511280 - STP Honors Program"
         },
         {
           "title": "Client Experience Analyst I",
@@ -1482,6 +1392,26 @@
           "department": "177500 - Inst For School Comm Partnersh"
         },
         {
+          "title": "Library Specialist",
+          "reqId": "44572",
+          "notionUrl": "https://www.notion.so/4bcfe79cd2e94eff8cd894b813040e4c",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "513000 - STP Library"
+        },
+        {
+          "title": "Other Hourly Professional/Support",
+          "reqId": "44549",
+          "notionUrl": "https://www.notion.so/4bc3fa9e19af4408bfa211942cf11d76",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "511280 - STP Honors Program"
+        },
+        {
           "title": "Program Director",
           "reqId": "44447",
           "notionUrl": "https://www.notion.so/31ef31a8794a4a6b8ada982b17c8c7e2",
@@ -1490,6 +1420,16 @@
           "stage": "HM Review",
           "agingBand": "🟢 0–2",
           "department": "511724 - STP Secondary Education"
+        },
+        {
+          "title": "Nault Center for Entrepreneurship: Communications and Marketing Officer",
+          "reqId": "44463",
+          "notionUrl": "https://www.notion.so/fc50ca7098fc45ef945356c58e2ab5d0",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Interview Stage",
+          "agingBand": "🟢 0–2",
+          "department": "141500 - Center For Entrepreneurship"
         },
         {
           "title": "Enrollment Management Specialist",
@@ -1502,6 +1442,16 @@
           "department": "490100 - EA Overseas Study Program"
         },
         {
+          "title": "Maintenance Technician",
+          "reqId": "44287",
+          "notionUrl": "https://www.notion.so/01776ccb59e04627b02ba932de3fc2b0",
+          "owner": "Gabriel",
+          "campus": "Key West",
+          "stage": "Pre-boarding",
+          "agingBand": "🟢 0–2",
+          "department": "471000 - Florida Inst of Oceanography"
+        },
+        {
           "title": "Budget Analyst II",
           "reqId": "44040",
           "notionUrl": "https://www.notion.so/e52fb62d4abc435cbf5242ba4366137d",
@@ -1510,6 +1460,26 @@
           "stage": "Recruiter Review",
           "agingBand": "🟢 0–2",
           "department": "790100 - VP Research"
+        },
+        {
+          "title": "OPS / Temporary Marine",
+          "reqId": "44180",
+          "notionUrl": "https://www.notion.so/93a718c56eaf4fd8a3a4c3995b21262b",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Pre-boarding",
+          "agingBand": "🟢 0–2",
+          "department": "471000 - Florida Inst of C"
+        },
+        {
+          "title": "Academic Svcs. Administrator - Mechanical Eng",
+          "reqId": "44191",
+          "notionUrl": "https://www.notion.so/8969cc003995496488c89087857ac4e5",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Pre-boarding",
+          "agingBand": "🟢 0–2",
+          "department": "210500 - Mechanical Engineering"
         },
         {
           "title": "Registered Dietician",
@@ -1577,7 +1547,7 @@
     },
     {
       "label": "210500 - Mechanical Engineering",
-      "count": 19,
+      "count": 17,
       "color": "#00A693"
     },
     {
@@ -1621,58 +1591,53 @@
       "color": "#00A693"
     },
     {
-      "label": "Engineering",
-      "count": 8,
-      "color": "#CFC483"
-    },
-    {
       "label": "614800 - Emergency Medicine",
       "count": 7,
-      "color": "#7A9EB5"
+      "color": "#CFC483"
     },
     {
       "label": "373000 - Financial Aid",
       "count": 7,
-      "color": "#5B7A8A"
+      "color": "#7A9EB5"
     },
     {
       "label": "614300 - Molecular Pharm & Physiology",
       "count": 7,
-      "color": "#534AB7"
+      "color": "#5B7A8A"
     },
     {
       "label": "126100 - Social Work",
       "count": 7,
-      "color": "#993556"
+      "color": "#534AB7"
     },
     {
       "label": "790300 - Sponsored Research",
       "count": 6,
-      "color": "#006747"
+      "color": "#993556"
     },
     {
       "label": "614400 - Molecular Medicine",
       "count": 6,
-      "color": "#1B6A9C"
+      "color": "#006747"
     },
     {
       "label": "043000 - Student Health Services",
       "count": 6,
-      "color": "#00A693"
+      "color": "#1B6A9C"
     },
     {
       "label": "612300 - Dept Of Interna",
       "count": 6,
-      "color": "#CFC483"
+      "color": "#00A693"
     },
     {
       "label": "122900 - School Of Aging Studies",
       "count": 6,
-      "color": "#7A9EB5"
+      "color": "#CFC483"
     },
     {
-      "label": "Other (183 depts)",
-      "count": 343,
+      "label": "Other (181 depts)",
+      "count": 338,
       "color": "#c8c7c2"
     }
   ],
@@ -1685,20 +1650,20 @@
     },
     {
       "label": "Recruiter Review",
-      "avgDays": 18,
-      "count": 24,
+      "avgDays": 20,
+      "count": 22,
       "color": "#006747"
     },
     {
       "label": "HM Review",
-      "avgDays": 23,
-      "count": 39,
+      "avgDays": 24,
+      "count": 37,
       "color": "#534AB7"
     },
     {
       "label": "Interview Stage",
       "avgDays": 14,
-      "count": 10,
+      "count": 9,
       "color": "#D4880A"
     },
     {
@@ -1709,14 +1674,14 @@
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 14,
-      "count": 10,
+      "avgDays": 16,
+      "count": 7,
       "color": "#5B8FA8"
     },
     {
       "label": "Backlog",
       "avgDays": 13,
-      "count": 32,
+      "count": 31,
       "color": "#888780"
     },
     {
@@ -3389,6 +3354,17 @@
       "notionUrl": "https://www.notion.so/690a4562e88045a7b43a3cdca486290a"
     },
     {
+      "title": "Adjunct Instructor",
+      "reqId": "44088",
+      "owner": "Gabriel",
+      "campus": "St. Petersburg",
+      "stage": "Hired",
+      "department": "511249 - STP Mathematics & Statistics",
+      "reqType": "Faculty",
+      "ttf": 89,
+      "notionUrl": "https://www.notion.so/933c26eb47204ca884b7bd51afc60ddd"
+    },
+    {
       "title": "Enrollment Management Analyst",
       "reqId": "43881",
       "owner": "Gabriel",
@@ -3706,6 +3682,17 @@
       "reqType": "Student",
       "ttf": 77,
       "notionUrl": "https://www.notion.so/8778727a4bef465097f939142cfaf680"
+    },
+    {
+      "title": "Sr Biological Scientist",
+      "reqId": "44167",
+      "owner": "Gabriel",
+      "campus": "St. Petersburg",
+      "stage": "Hired",
+      "department": "471000 - Florida Inst of Oceanography",
+      "reqType": "Passive",
+      "ttf": 76,
+      "notionUrl": "https://www.notion.so/2d1996dcbe9549db9b1075272a92c0c0"
     },
     {
       "title": "Academic Program Specialist",
@@ -4674,6 +4661,17 @@
       "reqType": "Active",
       "ttf": 48,
       "notionUrl": "https://www.notion.so/63e36de860fa4b2c92cf97b2a07f9a6b"
+    },
+    {
+      "title": "Research Support Specialist",
+      "reqId": "44348",
+      "owner": "Gabriel",
+      "campus": "St. Petersburg",
+      "stage": "Hired",
+      "department": "511255 - STP Psychology",
+      "reqType": "Active",
+      "ttf": 47,
+      "notionUrl": "https://www.notion.so/5791cab1c6bc44b7aa43de3e2d5817e0"
     },
     {
       "title": "Temporary Business Administrator",
@@ -6315,6 +6313,17 @@
       "notionUrl": "https://www.notion.so/6b9f9188e68d42dc8a382148b7c0361d"
     },
     {
+      "title": "Academic Program Specialist - Kate Tiedemann School of Business and Finance",
+      "reqId": "44540",
+      "owner": "Gabriel",
+      "campus": "Tampa",
+      "stage": "Canceled",
+      "department": "140400 - KT School of Business & Finance",
+      "reqType": "Active",
+      "ttf": 0,
+      "notionUrl": "https://www.notion.so/c6eb6ae8275e47ff82de184e98f45966"
+    },
+    {
       "title": "Student Asst",
       "reqId": "43404",
       "owner": "Rebecca",
@@ -6381,11 +6390,22 @@
       "notionUrl": "https://www.notion.so/61e27331cb1c4f9f883c063426b19394"
     },
     {
+      "title": "Associate Professor, Mechanical and Aerospace Engineering",
+      "reqId": "42025",
+      "owner": "Gabriel",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "210500 - Mechanical Engineering",
+      "reqType": "Faculty",
+      "ttf": 0,
+      "notionUrl": "https://www.notion.so/06f1aaf387114729b26570dd754128a2"
+    },
+    {
       "title": "Open Rank, Civil and Environmental Engineering",
       "reqId": "42027",
       "owner": "Gabriel",
       "campus": "Tampa",
-      "stage": "Hired",
+      "stage": "Canceled",
       "department": "210400 - Civil & Environmental Engr",
       "reqType": "Faculty",
       "ttf": 0,
@@ -6524,6 +6544,39 @@
       "notionUrl": "https://www.notion.so/39f9ddf757a081d58986f0b11aa75d53"
     },
     {
+      "title": "Visiting Research Scholar - Electrical Eng",
+      "reqId": "43986",
+      "owner": "Gabriel",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "210600 - Electrical Engineering",
+      "reqType": "Faculty",
+      "ttf": 0,
+      "notionUrl": "https://www.notion.so/76b01a51663144699a4d776c1fb18d87"
+    },
+    {
+      "title": "Research Associate - CUTR",
+      "reqId": "43968",
+      "owner": "Gabriel",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "Engineering",
+      "reqType": "Faculty",
+      "ttf": 0,
+      "notionUrl": "https://www.notion.so/db6e0840a5ea407c821646893409a22f"
+    },
+    {
+      "title": "Student Assistant",
+      "reqId": "43979",
+      "owner": "Gabriel",
+      "campus": "St. Petersburg",
+      "stage": "Canceled",
+      "department": "STP Special Education",
+      "reqType": "Student",
+      "ttf": 0,
+      "notionUrl": "https://www.notion.so/4284385c9b7843a3bacabe70152fad60"
+    },
+    {
       "title": "Graduate Assistant",
       "reqId": "43953",
       "owner": "Gabriel",
@@ -6533,6 +6586,17 @@
       "reqType": "Targeted",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/7646be944f464c19be27a877f281b72f"
+    },
+    {
+      "title": "Adjunct - Civil & Environmental Engineering",
+      "reqId": "43935",
+      "owner": "Gabriel",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "210400 - Civil & Environmental Engr",
+      "reqType": "Faculty",
+      "ttf": 0,
+      "notionUrl": "https://www.notion.so/8a3ecf161dbc40e09a8240608a901b50"
     },
     {
       "title": "Engineer - Scientist I",
@@ -6566,6 +6630,39 @@
       "reqType": "Targeted",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/41c855e8c74b4c15838b0f796a1f2e7a"
+    },
+    {
+      "title": "Assistant Research Professor - Mechanical Eng",
+      "reqId": "43959",
+      "owner": "Gabriel",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "210500 - Mechanical Engineering",
+      "reqType": "Faculty",
+      "ttf": 0,
+      "notionUrl": "https://www.notion.so/84849173714a426386459849549964a2"
+    },
+    {
+      "title": "Adjunct",
+      "reqId": "43917",
+      "owner": "Gabriel",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "Engineering",
+      "reqType": "Faculty",
+      "ttf": 0,
+      "notionUrl": "https://www.notion.so/0d437baa7c03490e91ad4cb20f3b7a8e"
+    },
+    {
+      "title": "Student Assistant",
+      "reqId": "43921",
+      "owner": "Gabriel",
+      "campus": "St. Petersburg",
+      "stage": "Hired",
+      "department": "Engineering",
+      "reqType": "Student",
+      "ttf": 0,
+      "notionUrl": "https://www.notion.so/1f138259a7834ccf9a95620fcc8366a2"
     },
     {
       "title": "FTIC Out-of-State Recruiter",
@@ -6632,6 +6729,17 @@
       "reqType": "Targeted",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/9dd19b4b94c5431db920279d79e69807"
+    },
+    {
+      "title": "Adjunct - Medical Eng",
+      "reqId": "43783",
+      "owner": "Gabriel",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "Engineering",
+      "reqType": "Faculty",
+      "ttf": 0,
+      "notionUrl": "https://www.notion.so/b276ab8d421f4979b11b31b1b63e6d89"
     },
     {
       "title": "Postdoctoral Scholar Research - Electrical Eng",
@@ -6821,6 +6929,17 @@
       "notionUrl": "https://www.notion.so/b451cbafac7f4da9a52f6a6d8a57486c"
     },
     {
+      "title": "OPS Visiting Research Scholar",
+      "reqId": "43666",
+      "owner": "Gabriel",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "Engineering",
+      "reqType": "Faculty",
+      "ttf": 0,
+      "notionUrl": "https://www.notion.so/df26b56814ec414983a84d4981a13e62"
+    },
+    {
       "title": "Research Support Assistant",
       "reqId": "43586",
       "owner": "Gabriel",
@@ -6852,6 +6971,17 @@
       "reqType": "Active",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/2b1c29799fda4ae4982f2a35bf7bd3f9"
+    },
+    {
+      "title": "Professor Medical Eng",
+      "reqId": "41078",
+      "owner": "Gabriel",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "Engineering",
+      "reqType": "Faculty",
+      "ttf": 0,
+      "notionUrl": "https://www.notion.so/e4b36e8a289b489bb1ace7293c358f02"
     },
     {
       "title": "Postdoctoral Scholar Research",
@@ -6915,6 +7045,13 @@
         "fillRatePct": 97
       },
       {
+        "department": "Engineering",
+        "filled": 17,
+        "failed": 0,
+        "cancelled": 1,
+        "fillRatePct": 100
+      },
+      {
         "department": "College of Education ",
         "filled": 12,
         "failed": 1,
@@ -6926,13 +7063,6 @@
         "filled": 12,
         "failed": 0,
         "cancelled": 0,
-        "fillRatePct": 100
-      },
-      {
-        "department": "Engineering",
-        "filled": 11,
-        "failed": 0,
-        "cancelled": 1,
         "fillRatePct": 100
       },
       {
@@ -7006,6 +7136,13 @@
         "fillRatePct": 100
       },
       {
+        "department": "210500 - Mechanical Engineering",
+        "filled": 7,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
         "department": "250000 - College of Marine Science",
         "filled": 5,
         "failed": 0,
@@ -7018,13 +7155,6 @@
         "failed": 1,
         "cancelled": 2,
         "fillRatePct": 67
-      },
-      {
-        "department": "210500 - Mechanical Engineering",
-        "filled": 5,
-        "failed": 0,
-        "cancelled": 0,
-        "fillRatePct": 100
       },
       {
         "department": "026100 - University Police",
@@ -7146,6 +7276,13 @@
         "fillRatePct": 100
       },
       {
+        "department": "210600 - Electrical Engineering",
+        "filled": 3,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
         "department": "045000 - Campus Recreation",
         "filled": 2,
         "failed": 1,
@@ -7193,6 +7330,13 @@
         "failed": 0,
         "cancelled": 2,
         "fillRatePct": null
+      },
+      {
+        "department": "471000 - Florida Inst of Oceanography",
+        "filled": 2,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
       },
       {
         "department": "060310 - Joint Military Leadership Ctr",
@@ -7272,14 +7416,14 @@
         "fillRatePct": 100
       },
       {
-        "department": "210600 - Electrical Engineering",
-        "filled": 2,
+        "department": "512700 - STP Enrollment Management",
+        "filled": 1,
         "failed": 0,
-        "cancelled": 0,
+        "cancelled": 1,
         "fillRatePct": 100
       },
       {
-        "department": "512700 - STP Enrollment Management",
+        "department": "210400 - Civil & Environmental Engr",
         "filled": 1,
         "failed": 0,
         "cancelled": 1,
@@ -7403,6 +7547,13 @@
         "failed": 0,
         "cancelled": 1,
         "fillRatePct": null
+      },
+      {
+        "department": "511249 - STP Mathematics & Statistics",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
       },
       {
         "department": "STP Registrar",
@@ -7615,6 +7766,13 @@
         "fillRatePct": null
       },
       {
+        "department": "511255 - STP Psychology",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
         "department": "020400 - Adm Services Business Center",
         "filled": 1,
         "failed": 0,
@@ -7783,13 +7941,6 @@
         "fillRatePct": 100
       },
       {
-        "department": "471000 - Florida Inst of Oceanography",
-        "filled": 1,
-        "failed": 0,
-        "cancelled": 0,
-        "fillRatePct": 100
-      },
-      {
         "department": "388600 - UGS - Transfer Student Success",
         "filled": 0,
         "failed": 0,
@@ -7860,6 +8011,13 @@
         "fillRatePct": 100
       },
       {
+        "department": "140400 - KT School of Business & Finance",
+        "filled": 0,
+        "failed": 0,
+        "cancelled": 1,
+        "fillRatePct": null
+      },
+      {
         "department": "171500 - Educational and Psychological Studies",
         "filled": 0,
         "failed": 0,
@@ -7888,13 +8046,6 @@
         "fillRatePct": 100
       },
       {
-        "department": "210400 - Civil & Environmental Engr",
-        "filled": 1,
-        "failed": 0,
-        "cancelled": 0,
-        "fillRatePct": 100
-      },
-      {
         "department": "022600 - Design And Construction",
         "filled": 0,
         "failed": 1,
@@ -7907,6 +8058,13 @@
         "failed": 0,
         "cancelled": 0,
         "fillRatePct": 100
+      },
+      {
+        "department": "STP Special Education",
+        "filled": 0,
+        "failed": 0,
+        "cancelled": 1,
+        "fillRatePct": null
       },
       {
         "department": "Inst For School Comm Partnersh",
@@ -7948,7 +8106,7 @@
       {
         "reqType": "Active",
         "avgDays": 81,
-        "count": 210
+        "count": 211
       },
       {
         "reqType": "Student",
@@ -7957,8 +8115,8 @@
       },
       {
         "reqType": "Passive",
-        "avgDays": 95,
-        "count": 42
+        "avgDays": 94,
+        "count": 43
       },
       {
         "reqType": "Evergreen",
@@ -7972,8 +8130,8 @@
       },
       {
         "reqType": "Faculty",
-        "avgDays": 170,
-        "count": 2
+        "avgDays": 143,
+        "count": 3
       }
     ],
     "avgTTFByCampus": [
@@ -7989,8 +8147,8 @@
       },
       {
         "campus": "St. Petersburg",
-        "avgDays": 78,
-        "count": 28
+        "avgDays": 77,
+        "count": 31
       },
       {
         "campus": "Unspecified",
@@ -8068,18 +8226,18 @@
         "stallRatePct": 62
       },
       {
-        "recruiter": "Gabriel",
-        "color": "#00A693",
-        "stalled": 8,
-        "totalActive": 19,
-        "stallRatePct": 42
-      },
-      {
         "recruiter": "Aidi",
         "color": "#534AB7",
         "stalled": 10,
         "totalActive": 35,
         "stallRatePct": 29
+      },
+      {
+        "recruiter": "Gabriel",
+        "color": "#00A693",
+        "stalled": 2,
+        "totalActive": 16,
+        "stallRatePct": 13
       },
       {
         "recruiter": "Katherine",
@@ -9612,9 +9770,9 @@
       "bgDark": "#042e24",
       "campus": "St Pete / Tampa",
       "reqs": 187,
-      "activeReqs": 73,
-      "filled": 103,
-      "failed": 11,
+      "activeReqs": 58,
+      "filled": 115,
+      "failed": 14,
       "ttf": 53,
       "wip": 2,
       "agingRecords": [
@@ -9656,94 +9814,13 @@
           "band": "🔴 6–14",
           "color": "#D0523F",
           "bgLight": "#FCE9E5",
-          "records": [
-            {
-              "title": "Nault Center for Entrepreneurship: Communications and Marketing Officer",
-              "reqId": "44463",
-              "notionUrl": "https://www.notion.so/fc50ca7098fc45ef945356c58e2ab5d0",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "HM Review",
-              "agingBand": "🔴 6–14",
-              "department": "141500 - Center For Entrepreneurship"
-            },
-            {
-              "title": "Research Support Specialist",
-              "reqId": "44348",
-              "notionUrl": "https://www.notion.so/5791cab1c6bc44b7aa43de3e2d5817e0",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Pre-boarding",
-              "agingBand": "🔴 6–14",
-              "department": "511255 - STP Psychology"
-            },
-            {
-              "title": "Maintenance Technician",
-              "reqId": "44287",
-              "notionUrl": "https://www.notion.so/01776ccb59e04627b02ba932de3fc2b0",
-              "owner": "Gabriel",
-              "campus": "Key West",
-              "stage": "HM Review",
-              "agingBand": "🔴 6–14",
-              "department": "471000 - Florida Inst of Oceanography"
-            },
-            {
-              "title": "OPS / Temporary Marine",
-              "reqId": "44180",
-              "notionUrl": "https://www.notion.so/93a718c56eaf4fd8a3a4c3995b21262b",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Pre-boarding",
-              "agingBand": "🔴 6–14",
-              "department": "471000 - Florida Inst of C"
-            },
-            {
-              "title": "Academic Svcs. Administrator - Mechanical Eng",
-              "reqId": "44191",
-              "notionUrl": "https://www.notion.so/8969cc003995496488c89087857ac4e5",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🔴 6–14",
-              "department": "210500 - Mechanical Engineering"
-            },
-            {
-              "title": "Sr Biological Scientist",
-              "reqId": "44167",
-              "notionUrl": "https://www.notion.so/2d1996dcbe9549db9b1075272a92c0c0",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Interview Stage",
-              "agingBand": "🔴 6–14",
-              "department": "471000 - Florida Inst of Oceanography"
-            }
-          ]
+          "records": []
         },
         {
           "band": "🟡 3–5",
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "records": [
-            {
-              "title": "Library Specialist",
-              "reqId": "44572",
-              "notionUrl": "https://www.notion.so/4bcfe79cd2e94eff8cd894b813040e4c",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Recruiter Review",
-              "agingBand": "🟡 3–5",
-              "department": "513000 - STP Library"
-            },
-            {
-              "title": "Academic Program Specialist - Kate Tiedemann School of Business and Finance",
-              "reqId": "44540",
-              "notionUrl": "https://www.notion.so/c6eb6ae8275e47ff82de184e98f45966",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Backlog",
-              "agingBand": "🟡 3–5",
-              "department": "140400 - KT School of Business & Finance"
-            },
             {
               "title": "Analyst Statistical Data -CUTR",
               "reqId": "44529",
@@ -9753,16 +9830,6 @@
               "stage": "Interview Stage",
               "agingBand": "🟡 3–5",
               "department": "211700 - Ctr For Urban Transportation Research"
-            },
-            {
-              "title": "Other Hourly Professional/Support",
-              "reqId": "44549",
-              "notionUrl": "https://www.notion.so/4bc3fa9e19af4408bfa211942cf11d76",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Recruiter Review",
-              "agingBand": "🟡 3–5",
-              "department": "511280 - STP Honors Program"
             },
             {
               "title": "Transit Safety Consultant - CUTR",
@@ -9822,6 +9889,26 @@
               "department": "210500 - Mechanical Engineering"
             },
             {
+              "title": "Library Specialist",
+              "reqId": "44572",
+              "notionUrl": "https://www.notion.so/4bcfe79cd2e94eff8cd894b813040e4c",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "513000 - STP Library"
+            },
+            {
+              "title": "Other Hourly Professional/Support",
+              "reqId": "44549",
+              "notionUrl": "https://www.notion.so/4bc3fa9e19af4408bfa211942cf11d76",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "511280 - STP Honors Program"
+            },
+            {
               "title": "Program Director",
               "reqId": "44447",
               "notionUrl": "https://www.notion.so/31ef31a8794a4a6b8ada982b17c8c7e2",
@@ -9830,6 +9917,46 @@
               "stage": "HM Review",
               "agingBand": "🟢 0–2",
               "department": "511724 - STP Secondary Education"
+            },
+            {
+              "title": "Nault Center for Entrepreneurship: Communications and Marketing Officer",
+              "reqId": "44463",
+              "notionUrl": "https://www.notion.so/fc50ca7098fc45ef945356c58e2ab5d0",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Interview Stage",
+              "agingBand": "🟢 0–2",
+              "department": "141500 - Center For Entrepreneurship"
+            },
+            {
+              "title": "Maintenance Technician",
+              "reqId": "44287",
+              "notionUrl": "https://www.notion.so/01776ccb59e04627b02ba932de3fc2b0",
+              "owner": "Gabriel",
+              "campus": "Key West",
+              "stage": "Pre-boarding",
+              "agingBand": "🟢 0–2",
+              "department": "471000 - Florida Inst of Oceanography"
+            },
+            {
+              "title": "OPS / Temporary Marine",
+              "reqId": "44180",
+              "notionUrl": "https://www.notion.so/93a718c56eaf4fd8a3a4c3995b21262b",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Pre-boarding",
+              "agingBand": "🟢 0–2",
+              "department": "471000 - Florida Inst of C"
+            },
+            {
+              "title": "Academic Svcs. Administrator - Mechanical Eng",
+              "reqId": "44191",
+              "notionUrl": "https://www.notion.so/8969cc003995496488c89087857ac4e5",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Pre-boarding",
+              "agingBand": "🟢 0–2",
+              "department": "210500 - Mechanical Engineering"
             },
             {
               "title": "Contract Financial Analyst I",
@@ -9846,45 +9973,33 @@
       ],
       "stageMetrics": [
         {
-          "label": "Recruiter Review",
-          "avgDays": 5,
-          "count": 2,
-          "color": "#006747"
-        },
-        {
           "label": "HM Review",
-          "avgDays": 7,
-          "count": 3,
+          "avgDays": 1,
+          "count": 1,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 8,
-          "count": 3,
+          "avgDays": 5,
+          "count": 2,
           "color": "#D4880A"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 18,
-          "count": 5,
+          "avgDays": 31,
+          "count": 2,
           "color": "#5B8FA8"
-        },
-        {
-          "label": "Backlog",
-          "avgDays": 4,
-          "count": 1,
-          "color": "#888780"
         }
       ],
       "statuses": [
         {
           "label": "Backlog",
-          "count": 5,
+          "count": 4,
           "color": "#888780"
         },
         {
           "label": "Faculty Hiring",
-          "count": 28,
+          "count": 18,
           "color": "#993556"
         },
         {
@@ -9904,7 +10019,7 @@
         },
         {
           "label": "HM Review",
-          "count": 3,
+          "count": 1,
           "color": "#534AB7"
         },
         {
@@ -9914,7 +10029,7 @@
         },
         {
           "label": "Student Hiring",
-          "count": 5,
+          "count": 3,
           "color": "#B5651D"
         },
         {
@@ -9951,7 +10066,7 @@
           "color": "#D0523F",
           "bgLight": "#FCE9E5",
           "bgDark": "#3d1a0f",
-          "count": 6
+          "count": 0
         },
         {
           "label": "🟡 3–5",
@@ -9959,7 +10074,7 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 5
+          "count": 2
         },
         {
           "label": "🟢 0–2",
@@ -9967,13 +10082,13 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 6
+          "count": 12
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 73
+          "count": 58
         },
         {
           "label": "Screened",
@@ -9981,7 +10096,7 @@
         },
         {
           "label": "HM Review",
-          "count": 3
+          "count": 1
         },
         {
           "label": "Interviews",
@@ -9994,14 +10109,14 @@
       ],
       "activeFunnel": [
         {
-          "label": "Backlog",
-          "count": 5,
-          "color": "#888780"
-        },
-        {
           "label": "Pre-boarding",
           "count": 5,
           "color": "#5B8FA8"
+        },
+        {
+          "label": "Backlog",
+          "count": 4,
+          "color": "#888780"
         },
         {
           "label": "Interview Stage",
@@ -10009,25 +10124,25 @@
           "color": "#D4880A"
         },
         {
-          "label": "HM Review",
-          "count": 3,
-          "color": "#534AB7"
-        },
-        {
           "label": "Recruiter Review",
           "count": 2,
           "color": "#006747"
+        },
+        {
+          "label": "HM Review",
+          "count": 1,
+          "color": "#534AB7"
         }
       ],
       "reqTypes": [
         {
           "label": "Faculty",
-          "count": 28,
+          "count": 18,
           "color": "#993556"
         },
         {
           "label": "Active",
-          "count": 19,
+          "count": 16,
           "color": "#004d35"
         },
         {
@@ -10042,7 +10157,7 @@
         },
         {
           "label": "Student",
-          "count": 5,
+          "count": 3,
           "color": "#B5651D"
         },
         {
@@ -10054,7 +10169,7 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 103,
+          "value": 115,
           "target": 10,
           "invert": false
         },
