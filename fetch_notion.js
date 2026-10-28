@@ -232,20 +232,21 @@ async function main() {
     return label;
   };
 
-  // Where "stalled" starts for the Stall Rate by Recruiter card. Must equal one of the
-  // tier minimums below (6, 15 or 31). At 6, most reds are only 6-14 days out, so recruiters
-  // with a normal week-and-a-half in stage read as ~100% stalled; 15 separates genuinely stuck.
-  const STALL_MIN_DAYS = 6;
+  // Aging status (Oct 2026): Healthy 0-14 days, Slowing 15-30, Stalled 31+, measured as days since
+  // the last stage change. Healthy is still broken into 0-2 / 3-5 / 6-14 so a team can see it building.
+  // STALL_MIN_DAYS drives the Stall Rate by Recruiter card; both cutoffs must equal a tier minimum below.
+  const SLOWING_MIN_DAYS = 15;
+  const STALL_MIN_DAYS = 31;
 
-  // Aging tiers, worst first. The old single "6+" red band lumped "a week and a half in a
-  // stage" together with "genuinely stuck" (most red reqs were only 6-14 days out), so red
-  // is now three tiers.
+  // Aging tiers, worst first (computeAgingBand takes the first tier the req reaches).
+  // Labels stay "31+", "15-30", "6-14", "3-5", "0-2" once the emoji is stripped, so the
+  // Aging Band column in data_clean.csv (Power BI) keeps the same values.
   const agingBands = [
-    { label: '🔴 31+',   minDays: 31, color: '#6E1414', bgLight: '#F0CFCF', bgDark: '#2e0f0f' },
-    { label: '🔴 15–30', minDays: 15, color: '#A32D2D', bgLight: '#FAD9D9', bgDark: '#2e0f0f' },
-    { label: '🔴 6–14',  minDays: 6,  color: '#D0523F', bgLight: '#FCE9E5', bgDark: '#3d1a0f' },
-    { label: '🟡 3–5',   minDays: 3,  color: '#BA7517', bgLight: '#FAEEDA', bgDark: '#3d2504' },
-    { label: '🟢 0–2',   minDays: 0,  color: '#3B6D11', bgLight: '#EAF3DE', bgDark: '#1a3309' }
+    { label: '🔴 31+',   minDays: 31, status: 'Stalled', color: '#A32D2D', bgLight: '#FAD9D9', bgDark: '#2e0f0f' },
+    { label: '🟡 15–30', minDays: 15, status: 'Slowing', color: '#BA7517', bgLight: '#FAEEDA', bgDark: '#3d2504' },
+    { label: '🟢 6–14',  minDays: 6,  status: 'Healthy', color: '#5E8C2E', bgLight: '#EEF5E4', bgDark: '#1a3309' },
+    { label: '🟢 3–5',   minDays: 3,  status: 'Healthy', color: '#3B6D11', bgLight: '#EAF3DE', bgDark: '#1a3309' },
+    { label: '🟢 0–2',   minDays: 0,  status: 'Healthy', color: '#2A500B', bgLight: '#E4EFD6', bgDark: '#1a3309' }
   ];
 
   // Helper to match aging band values regardless of dash type (en-dash vs hyphen)
@@ -378,6 +379,7 @@ async function main() {
         band: band.label,
         color: band.color,
         bgLight: band.bgLight,
+        status: band.status,
         records: myActive
           .filter(r => matchAgingBand(computeAgingBand(r), band.label))
           .map(r => ({
@@ -618,7 +620,7 @@ async function main() {
       .sort((a, b) => a.year - b.year || a.month - b.month)
       .map(v => ({ label: `${monthNames[v.month]} '${String(v.year).slice(2)}`, count: v.count }));
 
-    return { fillRateByDept, avgTTFByReqType, avgTTFByCampus, topHiringDepartments, stallRateByRecruiter, stallMinDays: STALL_MIN_DAYS, seasonalHiringTrends };
+    return { fillRateByDept, avgTTFByReqType, avgTTFByCampus, topHiringDepartments, stallRateByRecruiter, stallMinDays: STALL_MIN_DAYS, slowingMinDays: SLOWING_MIN_DAYS, seasonalHiringTrends };
   })();
 
   const activeTTFEntry = insightsData.avgTTFByReqType.find(r => r.reqType === 'Active');
@@ -659,6 +661,7 @@ async function main() {
       band: band.label,
       color: band.color,
       bgLight: band.bgLight,
+      status: band.status,
       records: activeRecords
         .filter(r => matchAgingBand(computeAgingBand(r), band.label))
         .map(r => ({
