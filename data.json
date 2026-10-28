@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-28T06:04:34.024Z",
+  "lastUpdated": "2026-10-28T13:22:38.708Z",
   "summary": {
-    "openReqs": 614,
+    "openReqs": 616,
     "avgTimeToFill": 81,
     "filledYTD": 410,
     "failedCancelled": 75,
@@ -47,7 +47,7 @@
     },
     {
       "label": "Student Hiring",
-      "count": 48,
+      "count": 47,
       "color": "#B5651D"
     },
     {
@@ -57,7 +57,7 @@
     },
     {
       "label": "Backlog",
-      "count": 35,
+      "count": 37,
       "color": "#888780"
     },
     {
@@ -72,7 +72,7 @@
     },
     {
       "label": "Pre-boarding",
-      "count": 15,
+      "count": 16,
       "color": "#5B8FA8"
     },
     {
@@ -98,14 +98,14 @@
   ],
   "activeFunnel": [
     {
+      "label": "Backlog",
+      "count": 37,
+      "color": "#888780"
+    },
+    {
       "label": "HM Review",
       "count": 37,
       "color": "#534AB7"
-    },
-    {
-      "label": "Backlog",
-      "count": 35,
-      "color": "#888780"
     },
     {
       "label": "Recruiter Review",
@@ -113,18 +113,18 @@
       "color": "#006747"
     },
     {
+      "label": "Pre-boarding",
+      "count": 12,
+      "color": "#5B8FA8"
+    },
+    {
       "label": "Interview Stage",
       "count": 11,
       "color": "#D4880A"
     },
     {
-      "label": "Pre-boarding",
-      "count": 11,
-      "color": "#5B8FA8"
-    },
-    {
       "label": "Offer Stage",
-      "count": 5,
+      "count": 4,
       "color": "#CFC483"
     },
     {
@@ -146,7 +146,7 @@
     },
     {
       "label": "Active",
-      "count": 128,
+      "count": 130,
       "color": "#004d35"
     },
     {
@@ -198,7 +198,7 @@
       "color": "#D0523F",
       "bgLight": "#FCE9E5",
       "bgDark": "#3d1a0f",
-      "count": 41
+      "count": 39
     },
     {
       "label": "🟡 3–5",
@@ -214,7 +214,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 23
+      "count": 27
     }
   ],
   "agingRecords": [
@@ -788,7 +788,7 @@
           "department": "171500 - Educational And Psychological"
         },
         {
-          "title": "Open Rank Faculty Position in Special Education and Emerging Technologies",
+          "title": "Open Rank Faculty Position in Special Education, Accessibility & AI-Enabled Intervention",
           "reqId": "44541",
           "notionUrl": "https://www.notion.so/f60e61cf251540dcbe1845706c9cc8e7",
           "owner": "Aidi",
@@ -1048,16 +1048,6 @@
           "department": "043500 - Housing & Residential ED"
         },
         {
-          "title": "Fiscal & Business Analyst I",
-          "reqId": "44436",
-          "notionUrl": "https://www.notion.so/ea577e6b5f2644a3b6f420e2bda374fa",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Offer Stage",
-          "agingBand": "🔴 6–14",
-          "department": "020600 - University Controllers Office"
-        },
-        {
           "title": "FCN Senior Program Manager",
           "reqId": "44405",
           "notionUrl": "https://www.notion.so/8a67d9fc1d3a485db4304940182b5019",
@@ -1136,16 +1126,6 @@
           "stage": "HM Review",
           "agingBand": "🔴 6–14",
           "department": "177500 - Inst For School Comm Partnersh"
-        },
-        {
-          "title": "Audience Growth Manager",
-          "reqId": "44091",
-          "notionUrl": "https://www.notion.so/de779a0d15284d7fa3558de1c868fb47",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Offer Stage",
-          "agingBand": "🔴 6–14",
-          "department": "066200 - WUSF-FM"
         },
         {
           "title": "Academic Services Administrator",
@@ -1302,6 +1282,26 @@
       "bgLight": "#EAF3DE",
       "records": [
         {
+          "title": "Safety & Compliance Officer",
+          "reqId": "44653",
+          "notionUrl": "https://www.notion.so/ef9da16beee847dd8c1459c619ab8f80",
+          "owner": "Aidi",
+          "campus": "",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": ""
+        },
+        {
+          "title": "Reliance Research Compliance Admin II",
+          "reqId": "44656",
+          "notionUrl": "https://www.notion.so/97e9de3873c14cb1a8e1e7ab40abee24",
+          "owner": "Aidi",
+          "campus": "",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": ""
+        },
+        {
           "title": "Program Manager",
           "reqId": "44597",
           "notionUrl": "https://www.notion.so/2951837b7f484332a9b39a2b268e1de4",
@@ -1432,6 +1432,16 @@
           "department": "141500 - Center For Entrepreneurship"
         },
         {
+          "title": "Fiscal & Business Analyst I",
+          "reqId": "44436",
+          "notionUrl": "https://www.notion.so/ea577e6b5f2644a3b6f420e2bda374fa",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Pre-boarding",
+          "agingBand": "🟢 0–2",
+          "department": "020600 - University Controllers Office"
+        },
+        {
           "title": "Enrollment Management Specialist",
           "reqId": "44389",
           "notionUrl": "https://www.notion.so/da543837cac04a8ead8965472dc1b2f8",
@@ -1480,6 +1490,16 @@
           "stage": "Pre-boarding",
           "agingBand": "🟢 0–2",
           "department": "210500 - Mechanical Engineering"
+        },
+        {
+          "title": "Audience Growth Manager",
+          "reqId": "44091",
+          "notionUrl": "https://www.notion.so/de779a0d15284d7fa3558de1c868fb47",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Offer Stage",
+          "agingBand": "🟢 0–2",
+          "department": "066200 - WUSF-FM"
         },
         {
           "title": "Registered Dietician",
@@ -1669,7 +1689,7 @@
     {
       "label": "Offer Stage",
       "avgDays": 6,
-      "count": 5,
+      "count": 3,
       "color": "#CFC483"
     },
     {
@@ -8221,16 +8241,16 @@
       {
         "recruiter": "John",
         "color": "#1B6A9C",
-        "stalled": 15,
+        "stalled": 13,
         "totalActive": 21,
-        "stallRatePct": 71
+        "stallRatePct": 62
       },
       {
         "recruiter": "Aidi",
         "color": "#534AB7",
         "stalled": 21,
-        "totalActive": 35,
-        "stallRatePct": 60
+        "totalActive": 37,
+        "stallRatePct": 57
       },
       {
         "recruiter": "Gabriel",
@@ -9407,32 +9427,12 @@
               "department": "043500 - Housing & Residential ED"
             },
             {
-              "title": "Fiscal & Business Analyst I",
-              "reqId": "44436",
-              "notionUrl": "https://www.notion.so/ea577e6b5f2644a3b6f420e2bda374fa",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Offer Stage",
-              "agingBand": "🔴 6–14",
-              "department": "020600 - University Controllers Office"
-            },
-            {
               "title": "Salesforce Support Administrator",
               "reqId": "44197",
               "notionUrl": "https://www.notion.so/b2b3277cb11f4cc582f1430373a9bee3",
               "owner": "johncalebrese",
               "campus": "Tampa",
               "stage": "Pre-boarding",
-              "agingBand": "🔴 6–14",
-              "department": "066200 - WUSF-FM"
-            },
-            {
-              "title": "Audience Growth Manager",
-              "reqId": "44091",
-              "notionUrl": "https://www.notion.so/de779a0d15284d7fa3558de1c868fb47",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Offer Stage",
               "agingBand": "🔴 6–14",
               "department": "066200 - WUSF-FM"
             }
@@ -9480,6 +9480,16 @@
               "department": "041300 - Strategic Initiatives"
             },
             {
+              "title": "Fiscal & Business Analyst I",
+              "reqId": "44436",
+              "notionUrl": "https://www.notion.so/ea577e6b5f2644a3b6f420e2bda374fa",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Pre-boarding",
+              "agingBand": "🟢 0–2",
+              "department": "020600 - University Controllers Office"
+            },
+            {
               "title": "Enrollment Management Specialist",
               "reqId": "44389",
               "notionUrl": "https://www.notion.so/da543837cac04a8ead8965472dc1b2f8",
@@ -9488,6 +9498,16 @@
               "stage": "Pre-boarding",
               "agingBand": "🟢 0–2",
               "department": "490100 - EA Overseas Study Program"
+            },
+            {
+              "title": "Audience Growth Manager",
+              "reqId": "44091",
+              "notionUrl": "https://www.notion.so/de779a0d15284d7fa3558de1c868fb47",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Offer Stage",
+              "agingBand": "🟢 0–2",
+              "department": "066200 - WUSF-FM"
             },
             {
               "title": "Director of Experiential Learning & Engagement",
@@ -9532,12 +9552,6 @@
           "color": "#D4880A"
         },
         {
-          "label": "Offer Stage",
-          "avgDays": 7,
-          "count": 2,
-          "color": "#CFC483"
-        },
-        {
           "label": "Pre-boarding",
           "avgDays": 6,
           "count": 5,
@@ -9563,7 +9577,7 @@
         },
         {
           "label": "Student Hiring",
-          "count": 14,
+          "count": 13,
           "color": "#B5651D"
         },
         {
@@ -9583,7 +9597,7 @@
         },
         {
           "label": "Pre-boarding",
-          "count": 9,
+          "count": 10,
           "color": "#5B8FA8"
         },
         {
@@ -9625,7 +9639,7 @@
           "color": "#D0523F",
           "bgLight": "#FCE9E5",
           "bgDark": "#3d1a0f",
-          "count": 13
+          "count": 11
         },
         {
           "label": "🟡 3–5",
@@ -9641,7 +9655,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 6
+          "count": 8
         }
       ],
       "funnel": [
@@ -9674,7 +9688,7 @@
         },
         {
           "label": "Pre-boarding",
-          "count": 5,
+          "count": 6,
           "color": "#5B8FA8"
         },
         {
@@ -9689,7 +9703,7 @@
         },
         {
           "label": "Offer Stage",
-          "count": 2,
+          "count": 1,
           "color": "#CFC483"
         },
         {
@@ -10573,8 +10587,8 @@
       "bgLight": "#ece9f7",
       "bgDark": "#1f1a4d",
       "campus": "Tampa",
-      "reqs": 91,
-      "activeReqs": 83,
+      "reqs": 93,
+      "activeReqs": 85,
       "filled": 5,
       "failed": 3,
       "ttf": 75,
@@ -10660,7 +10674,7 @@
               "department": "171500 - Educational And Psychological"
             },
             {
-              "title": "Open Rank Faculty Position in Special Education and Emerging Technologies",
+              "title": "Open Rank Faculty Position in Special Education, Accessibility & AI-Enabled Intervention",
               "reqId": "44541",
               "notionUrl": "https://www.notion.so/f60e61cf251540dcbe1845706c9cc8e7",
               "owner": "Aidi",
@@ -10934,6 +10948,26 @@
           "bgLight": "#EAF3DE",
           "records": [
             {
+              "title": "Safety & Compliance Officer",
+              "reqId": "44653",
+              "notionUrl": "https://www.notion.so/ef9da16beee847dd8c1459c619ab8f80",
+              "owner": "Aidi",
+              "campus": "",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": ""
+            },
+            {
+              "title": "Reliance Research Compliance Admin II",
+              "reqId": "44656",
+              "notionUrl": "https://www.notion.so/97e9de3873c14cb1a8e1e7ab40abee24",
+              "owner": "Aidi",
+              "campus": "",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": ""
+            },
+            {
               "title": "Quality Assurance/Quality Improvement Compliance Auditor RCA II",
               "reqId": "44539",
               "notionUrl": "https://www.notion.so/7f3290bc5b5c40ec95bd74b712ff9ab1",
@@ -11007,7 +11041,7 @@
       "statuses": [
         {
           "label": "Backlog",
-          "count": 19,
+          "count": 21,
           "color": "#888780"
         },
         {
@@ -11100,13 +11134,13 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 3
+          "count": 5
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 83
+          "count": 85
         },
         {
           "label": "Screened",
@@ -11128,7 +11162,7 @@
       "activeFunnel": [
         {
           "label": "Backlog",
-          "count": 19,
+          "count": 21,
           "color": "#888780"
         },
         {
@@ -11160,7 +11194,7 @@
       "reqTypes": [
         {
           "label": "Active",
-          "count": 35,
+          "count": 37,
           "color": "#004d35"
         },
         {
@@ -11205,13 +11239,13 @@
         {
           "label": "Screened",
           "value": 0,
-          "target": 91,
+          "target": 93,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 2,
-          "target": 91,
+          "target": 93,
           "invert": false
         }
       ],
