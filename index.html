@@ -113,6 +113,10 @@ main { padding: 22px 0 40px; }
 .tier-l { font-size: 12px; color: var(--muted); }
 .scope { font-size: 12px; color: var(--muted); margin-bottom: 10px; }
 .scope b { color: var(--ink); }
+.status-sum { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 13px; color: var(--muted); margin-bottom: 10px; }
+.status-item { display: inline-flex; align-items: center; gap: 6px; }
+.status-item b { color: var(--ink); }
+.status-dot { width: 10px; height: 10px; border-radius: 3px; }
 
 /* Service level definitions */
 details.defs { margin-top: 14px; border-top: 1px solid var(--border); padding-top: 10px; }
@@ -288,7 +292,11 @@ const FUNNEL_ORDER = ['Sourced', 'Recruiter Review', 'HM Review', 'Interview Sta
 const TYPE_CATEGORIES = ['Passive Hiring', 'Faculty Hiring', 'Student Hiring', 'Evergreen / Continuous Pool', 'Targeted Hiring', 'Backlog'];
 const NEUTRAL = '#5B7A8A';
 // Tiers that count as "needs attention" on recruiter pages (6+ days since last stage change).
-const ATTENTION_MIN_DAYS = 6;
+// Aging status: Healthy 0-14 days, Slowing 15-30, Stalled 31+ (days since last stage change).
+// Read from data.json at load (insights.slowingMinDays / stallMinDays); these are the defaults.
+let ATTENTION_MIN_DAYS = 15;   // Slowing starts here; Needs attention shows Slowing + Stalled
+let STALLED_MIN_DAYS = 31;
+const STATUS_COLORS = { Healthy: '#3B6D11', Slowing: '#BA7517', Stalled: '#A32D2D' };
 
 let DATA = null;
 let RECRUITERS = [];
@@ -308,6 +316,13 @@ const days = v => isNum(v) && v > 0 ? `${v}<small>d</small>` : '—';
 const daysText = v => isNum(v) && v > 0 ? `${v}d` : '—';
 const bandLabel = b => String(b || '').replace(/[\u{1F534}\u{1F7E1}\u{1F7E2}]/gu, '').trim();
 const tierName = b => bandLabel(b) + ' days';
+function statusOf(band) {
+  const t = DATA && (DATA.mainAging || []).find(a => a.label === band);
+  if (t && t.status) return t.status;
+  const min = tierMin(band);
+  return min >= STALLED_MIN_DAYS ? 'Stalled' : min >= ATTENTION_MIN_DAYS ? 'Slowing' : 'Healthy';
+}
+const statusRange = st => st === 'Stalled' ? `${STALLED_MIN_DAYS}+` : st === 'Slowing' ? `${ATTENTION_MIN_DAYS}\u2013${STALLED_MIN_DAYS - 1}` : `0\u2013${ATTENTION_MIN_DAYS - 1}`;
 const reqs = n => `${show(n)} req${n === 1 ? '' : 's'}`;
 
 function fmtSync(iso) {
@@ -374,12 +389,16 @@ function agingBlock(tiers, records, ctx) {
   if (records) AGING_SETS[ctx] = records;
   if (!total) return `<p class="empty">No aging data available yet</p>`;
   const segs = tiers.filter(t => t.count > 0).map(t =>
-    `<button type="button" data-drill="${esc(ctx)}" data-band="${esc(t.label)}" style="flex:${t.count} 1 0;background:${esc(t.color)};color:${textOn(t.color)}" title="${esc(tierName(t.label))}: ${t.count}" aria-label="${esc(tierName(t.label))}: ${t.count} reqs">${t.count / total >= 0.06 ? t.count : ''}</button>`).join('');
+    `<button type="button" data-drill="${esc(ctx)}" data-band="${esc(t.label)}" style="flex:${t.count} 1 0;background:${esc(t.color)};color:${textOn(t.color)}" title="${esc(statusOf(t.label))}, ${esc(tierName(t.label))}: ${t.count}" aria-label="${esc(statusOf(t.label))}, ${esc(tierName(t.label))}: ${t.count} reqs">${t.count / total >= 0.06 ? t.count : ''}</button>`).join('');
   const chips = tiers.map(t =>
     `<button type="button" class="tier" style="${tierStyle(t)}" ${t.count > 0 && records ? `data-drill="${esc(ctx)}" data-band="${esc(t.label)}"` : 'disabled'}>
-      <span class="tier-sw"></span><span><span class="tier-n">${show(t.count)}</span><br><span class="tier-l">${esc(tierName(t.label))}</span></span>
+      <span class="tier-sw"></span><span><span class="tier-n">${show(t.count)}</span><br><span class="tier-l">${esc(tierName(t.label))} \u00b7 ${esc(statusOf(t.label))}</span></span>
     </button>`).join('');
-  return `<div class="strip" role="group" aria-label="Aging tiers">${segs}</div><div class="tiers">${chips}</div>`;
+  const sum = ['Healthy', 'Slowing', 'Stalled'].map(st => {
+    const n = tiers.filter(t => statusOf(t.label) === st).reduce((a, t) => a + (t.count || 0), 0);
+    return `<span class="status-item"><span class="status-dot" style="background:${STATUS_COLORS[st]}"></span><b>${esc(st)}</b> ${esc(statusRange(st))} days: <b class="num">${show(n)}</b></span>`;
+  }).join('');
+  return `<div class="status-sum">${sum}</div><div class="strip" role="group" aria-label="Aging tiers">${segs}</div><div class="tiers">${chips}</div>`;
 }
 
 // Pipeline + Reqs by Type: one function for the Overview and every recruiter page, so they can't drift apart.
@@ -448,7 +467,7 @@ function renderOverview(data) {
   const aging = card('Aging at a glance',
     `<p class="scope">Active req type only (<b>${show(agingTotal)}</b> of <b>${show(s.openReqs)}</b> open reqs) · days since last stage change. Select a tier to see the reqs.</p>
      ${agingBlock(agingTiers, data.agingRecords || null, 'main')}`,
-    { tip: 'Only the Active req type is aged. Passive, Faculty, Student, Evergreen and Targeted reqs follow their own monitoring workflows.' });
+    { tip: `Healthy 0\u2013${ATTENTION_MIN_DAYS - 1} days, Slowing ${ATTENTION_MIN_DAYS}\u2013${STALLED_MIN_DAYS - 1}, Stalled ${STALLED_MIN_DAYS}+. Only the Active req type is aged; Passive, Faculty, Student, Evergreen and Targeted reqs follow their own monitoring workflows.` });
 
   const pipeline = pipelineCards(data, data.mainFunnel);
 
@@ -495,7 +514,7 @@ function renderInsights(data) {
   const topDepts = (ins.topHiringDepartments || []).slice(0, 8).map(d => ({ label: d.department, count: d.count, color: '#00A693' }));
 
   // Stall rate: alphabetical and one neutral colour, so it reads as information, not a ranking.
-  const stallDays = ins.stallMinDays || ATTENTION_MIN_DAYS;
+  const stallDays = ins.stallMinDays || STALLED_MIN_DAYS;
   const stall = (ins.stallRateByRecruiter || []).slice().sort((a, b) => String(a.recruiter).localeCompare(String(b.recruiter)));
   const stallHTML = stall.length ? stall.map(r => {
     const none = !r.totalActive;
@@ -513,7 +532,7 @@ function renderInsights(data) {
   return `<div class="page-head"><div><h1 class="page-title">Insights</h1><p class="page-sub">Internal market intelligence, built on our own recruiting data</p></div></div>
     <div class="grid g-1-1">
       ${card('Avg. time in stage', timeInStage, { note: 'Average days reqs spend in each stage.' })}
-      ${card(`Reqs ${stallDays}+ days since last stage change`, stallHTML, { note: `Share of each recruiter's Active-type reqs that are ${stallDays}+ days past their last stage change.`, tip: 'Reflects the req mix each recruiter carries; it is not a performance score.' })}
+      ${card(`Stalled reqs (${stallDays}+ days)`, stallHTML, { note: `Share of each recruiter's Active-type reqs that are ${stallDays}+ days past their last stage change.`, tip: 'Reflects the req mix each recruiter carries; it is not a performance score.' })}
     </div>
     <div class="grid g-3">
       ${card('Avg TTF by req type', hbars(ttfType, { ...ttfOpts, color: () => '#534AB7' }), { note: 'Hired/Complete reqs only.' })}
@@ -553,7 +572,7 @@ function rowHTML(rec, { showOwner = false } = {}) {
     <div class="row-main"><div class="row-title" title="${esc(rec.title)}">${esc(rec.title || 'Untitled')}</div><div class="row-meta">${meta || '&nbsp;'}</div></div>
     <div class="row-chips">
       <span class="chip stage-chip"><span class="chip-dot" style="background:${esc(sc)}"></span>${esc(rec.stage || '—')}</span>
-      <span class="chip age-chip">${esc(tierName(b.band))}</span>
+      <span class="chip age-chip">${esc(statusOf(b.band))} \u00b7 ${esc(tierName(b.band))}</span>
     </div>
     <div class="row-open">${url ? `<a class="btn btn-sm" href="${esc(url)}" target="_blank" rel="noopener">Open ↗</a>` : '<span class="row-meta">—</span>'}</div>
   </div>`;
@@ -585,7 +604,7 @@ function renderRecruiter(r) {
 
 function attentionShell(r) {
   return `<div class="attn-head">
-      <h2 class="card-title">Needs attention ${tip(`Active-type reqs ${ATTENTION_MIN_DAYS}+ days since their last stage change, oldest first. Switch to "All Active" to see every aged req.`)}</h2>
+      <h2 class="card-title">Needs attention ${tip(`Slowing (${ATTENTION_MIN_DAYS}\u2013${STALLED_MIN_DAYS - 1} days) and Stalled (${STALLED_MIN_DAYS}+ days) Active reqs, oldest first. Switch to "All Active" to see every aged req.`)}</h2>
       <div class="seg" role="group" aria-label="Which reqs to show">
         <button type="button" data-scope="attn" data-rid="${esc(r.id)}" class="on">${ATTENTION_MIN_DAYS}+ days</button>
         <button type="button" data-scope="all" data-rid="${esc(r.id)}">All Active</button>
@@ -653,7 +672,7 @@ function drawAttention(rid) {
 }
 
 function recruiterCharts(r) {
-  const agingTiers = (r.agingRecords || []).map(b => ({ label: b.band, count: (b.records || []).length, color: b.color, bgLight: b.bgLight }));
+  const agingTiers = (r.agingRecords || []).map(b => ({ label: b.band, count: (b.records || []).length, color: b.color, bgLight: b.bgLight, status: b.status }));
   const hasAging = agingTiers.some(t => t.count > 0);
   const statuses = r.statuses || [];
   const stageMetrics = (r.stageMetrics || []).map(s => ({ ...s, color: s.color || stageColor(s.label) }));
@@ -681,7 +700,7 @@ function openDrill(ctx, band, opener) {
   if (!b) return;
   drill = { recs: (b.records || []).map(rec => ({ ...rec, _band: b })), ctx, opener };
   const who = ctx === 'main' ? '' : ((RECRUITERS.find(r => r.id === ctx) || {}).name || '') + ' · ';
-  document.getElementById('sheetTitle').textContent = who + tierName(b.band) + ' since last stage change';
+  document.getElementById('sheetTitle').textContent = who + statusOf(b.band) + ': ' + tierName(b.band) + ' since last stage change';
   document.getElementById('sheetSearch').value = '';
   drawDrill();
   document.getElementById('scrim').classList.add('open');
@@ -794,6 +813,11 @@ async function loadDashboard() {
     const data = await res.json();
     DATA = data;
     RECRUITERS = data.recruiters || [];
+    // Only take the cutoffs from data once the sync uses the Healthy / Slowing / Stalled bands.
+    if (data.insights && isNum(data.insights.slowingMinDays)) {
+      ATTENTION_MIN_DAYS = data.insights.slowingMinDays;
+      if (isNum(data.insights.stallMinDays)) STALLED_MIN_DAYS = data.insights.stallMinDays;
+    }
     buildStageColors(data);
 
     document.getElementById('pickerInner').innerHTML = '<span class="picker-label">Recruiter</span>' + RECRUITERS.map(r =>
