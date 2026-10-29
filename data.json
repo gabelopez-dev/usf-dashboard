@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-10-29T16:43:22.868Z",
+  "lastUpdated": "2026-10-29T21:37:50.971Z",
   "summary": {
     "openReqs": 612,
     "avgTimeToFill": 81,
     "filledYTD": 412,
     "failedCancelled": 77,
-    "inOfferStage": 8
+    "inOfferStage": 7
   },
   "campus": [
     {
@@ -57,12 +57,12 @@
     },
     {
       "label": "Backlog",
-      "count": 37,
+      "count": 36,
       "color": "#888780"
     },
     {
       "label": "Recruiter Review",
-      "count": 29,
+      "count": 30,
       "color": "#006747"
     },
     {
@@ -71,14 +71,14 @@
       "color": "#6B8E4E"
     },
     {
+      "label": "Pre-boarding",
+      "count": 14,
+      "color": "#5B8FA8"
+    },
+    {
       "label": "Targeted Hiring",
       "count": 14,
       "color": "#3A5A6A"
-    },
-    {
-      "label": "Pre-boarding",
-      "count": 13,
-      "color": "#5B8FA8"
     },
     {
       "label": "Interview Stage",
@@ -87,7 +87,7 @@
     },
     {
       "label": "Offer Stage",
-      "count": 8,
+      "count": 7,
       "color": "#CFC483"
     },
     {
@@ -98,18 +98,18 @@
   ],
   "activeFunnel": [
     {
-      "label": "Backlog",
-      "count": 37,
-      "color": "#888780"
-    },
-    {
       "label": "HM Review",
       "count": 37,
       "color": "#534AB7"
     },
     {
+      "label": "Backlog",
+      "count": 36,
+      "color": "#888780"
+    },
+    {
       "label": "Recruiter Review",
-      "count": 27,
+      "count": 28,
       "color": "#006747"
     },
     {
@@ -201,7 +201,7 @@
       "color": "#5E8C2E",
       "bgLight": "#EEF5E4",
       "bgDark": "#1a3309",
-      "count": 41
+      "count": 40
     },
     {
       "label": "🟢 3–5",
@@ -219,7 +219,7 @@
       "color": "#2A500B",
       "bgLight": "#E4EFD6",
       "bgDark": "#1a3309",
-      "count": 19
+      "count": 20
     }
   ],
   "agingRecords": [
@@ -986,16 +986,6 @@
           "department": "790100 - VP Research"
         },
         {
-          "title": "Administrative Specialist",
-          "reqId": "44564",
-          "notionUrl": "https://www.notion.so/df5f9a398a22401e9d7a36fce5d07988",
-          "owner": "Aidi",
-          "campus": "Tampa",
-          "stage": "Backlog",
-          "agingBand": "🟢 6–14",
-          "department": "790400 - Technology Transfer Office"
-        },
-        {
           "title": "Federal Grant Specialist",
           "reqId": "44581",
           "notionUrl": "https://www.notion.so/e7ad219dd12a4692b75adbcd43a61e96",
@@ -1412,6 +1402,16 @@
           "department": "177500 - Inst For School Comm Partnersh"
         },
         {
+          "title": "Administrative Specialist",
+          "reqId": "44564",
+          "notionUrl": "https://www.notion.so/df5f9a398a22401e9d7a36fce5d07988",
+          "owner": "Aidi",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "790400 - Technology Transfer Office"
+        },
+        {
           "title": "Library Specialist",
           "reqId": "44572",
           "notionUrl": "https://www.notion.so/4bcfe79cd2e94eff8cd894b813040e4c",
@@ -1671,7 +1671,7 @@
     {
       "label": "Backlog",
       "avgDays": 13,
-      "count": 37,
+      "count": 36,
       "color": "#888780"
     },
     {
@@ -9624,7 +9624,7 @@
         },
         {
           "label": "Pre-boarding",
-          "count": 8,
+          "count": 9,
           "color": "#5B8FA8"
         },
         {
@@ -9634,7 +9634,7 @@
         },
         {
           "label": "Offer Stage",
-          "count": 3,
+          "count": 2,
           "color": "#CFC483"
         },
         {
@@ -9709,7 +9709,7 @@
         },
         {
           "label": "Offer",
-          "count": 3
+          "count": 2
         }
       ],
       "activeFunnel": [
@@ -10923,16 +10923,6 @@
               "department": "790100 - VP Research"
             },
             {
-              "title": "Administrative Specialist",
-              "reqId": "44564",
-              "notionUrl": "https://www.notion.so/df5f9a398a22401e9d7a36fce5d07988",
-              "owner": "Aidi",
-              "campus": "Tampa",
-              "stage": "Backlog",
-              "agingBand": "🟢 6–14",
-              "department": "790400 - Technology Transfer Office"
-            },
-            {
               "title": "Federal Grant Specialist",
               "reqId": "44581",
               "notionUrl": "https://www.notion.so/e7ad219dd12a4692b75adbcd43a61e96",
@@ -11038,6 +11028,16 @@
               "department": "177500 - Inst For School Comm Partnersh"
             },
             {
+              "title": "Administrative Specialist",
+              "reqId": "44564",
+              "notionUrl": "https://www.notion.so/df5f9a398a22401e9d7a36fce5d07988",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "790400 - Technology Transfer Office"
+            },
+            {
               "title": "Budget Analyst II",
               "reqId": "44040",
               "notionUrl": "https://www.notion.so/e52fb62d4abc435cbf5242ba4366137d",
@@ -11084,19 +11084,19 @@
         {
           "label": "Backlog",
           "avgDays": 6,
-          "count": 21,
+          "count": 20,
           "color": "#888780"
         }
       ],
       "statuses": [
         {
           "label": "Backlog",
-          "count": 21,
+          "count": 20,
           "color": "#888780"
         },
         {
           "label": "Recruiter Review",
-          "count": 4,
+          "count": 5,
           "color": "#006747"
         },
         {
@@ -11171,7 +11171,7 @@
           "color": "#5E8C2E",
           "bgLight": "#EEF5E4",
           "bgDark": "#1a3309",
-          "count": 22
+          "count": 21
         },
         {
           "label": "🟢 3–5",
@@ -11189,7 +11189,7 @@
           "color": "#2A500B",
           "bgLight": "#E4EFD6",
           "bgDark": "#1a3309",
-          "count": 5
+          "count": 6
         }
       ],
       "funnel": [
@@ -11217,7 +11217,7 @@
       "activeFunnel": [
         {
           "label": "Backlog",
-          "count": 21,
+          "count": 20,
           "color": "#888780"
         },
         {
@@ -11227,7 +11227,7 @@
         },
         {
           "label": "Recruiter Review",
-          "count": 4,
+          "count": 5,
           "color": "#006747"
         },
         {
