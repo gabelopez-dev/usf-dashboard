@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T19:59:50.287Z",
+  "lastUpdated": "2026-10-30T23:37:48.799Z",
   "summary": {
     "openReqs": 612,
     "avgTimeToFill": 81,
@@ -37,7 +37,7 @@
   "mainFunnel": [
     {
       "label": "Passive Hiring",
-      "count": 260,
+      "count": 261,
       "color": "#1B6A9C"
     },
     {
@@ -62,7 +62,7 @@
     },
     {
       "label": "Recruiter Review",
-      "count": 29,
+      "count": 28,
       "color": "#006747"
     },
     {
@@ -109,7 +109,7 @@
     },
     {
       "label": "Recruiter Review",
-      "count": 27,
+      "count": 26,
       "color": "#006747"
     },
     {
@@ -141,12 +141,12 @@
   "reqTypes": [
     {
       "label": "Passive",
-      "count": 263,
+      "count": 264,
       "color": "#1B6A9C"
     },
     {
       "label": "Active",
-      "count": 126,
+      "count": 125,
       "color": "#004d35"
     },
     {
@@ -219,7 +219,7 @@
       "color": "#2A500B",
       "bgLight": "#E4EFD6",
       "bgDark": "#1a3309",
-      "count": 9
+      "count": 8
     }
   ],
   "agingRecords": [
@@ -1462,16 +1462,6 @@
           "department": "790400 - Technology Transfer Office"
         },
         {
-          "title": "Library Specialist",
-          "reqId": "44572",
-          "notionUrl": "https://www.notion.so/4bcfe79cd2e94eff8cd894b813040e4c",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Recruiter Review",
-          "agingBand": "🟢 0–2",
-          "department": "513000 - STP Library"
-        },
-        {
           "title": "Analyst Statistical Data -CUTR",
           "reqId": "44529",
           "notionUrl": "https://www.notion.so/238dafc2df194fb487cd960c2f1ca4b7",
@@ -1641,7 +1631,7 @@
     {
       "label": "Recruiter Review",
       "avgDays": 19,
-      "count": 27,
+      "count": 26,
       "color": "#006747"
     },
     {
@@ -8256,8 +8246,8 @@
         "recruiter": "Gabriel",
         "color": "#00A693",
         "stalled": 1,
-        "totalActive": 14,
-        "stallRatePct": 7
+        "totalActive": 13,
+        "stallRatePct": 8
       },
       {
         "recruiter": "Aidi",
@@ -9819,7 +9809,7 @@
       "filled": 115,
       "failed": 15,
       "ttf": 53,
-      "wip": 2,
+      "wip": 1,
       "agingRecords": [
         {
           "band": "🔴 31+",
@@ -9958,16 +9948,6 @@
           "status": "Healthy",
           "records": [
             {
-              "title": "Library Specialist",
-              "reqId": "44572",
-              "notionUrl": "https://www.notion.so/4bcfe79cd2e94eff8cd894b813040e4c",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Recruiter Review",
-              "agingBand": "🟢 0–2",
-              "department": "513000 - STP Library"
-            },
-            {
               "title": "Analyst Statistical Data -CUTR",
               "reqId": "44529",
               "notionUrl": "https://www.notion.so/238dafc2df194fb487cd960c2f1ca4b7",
@@ -10004,7 +9984,7 @@
         {
           "label": "Recruiter Review",
           "avgDays": 2,
-          "count": 2,
+          "count": 1,
           "color": "#006747"
         },
         {
@@ -10055,9 +10035,9 @@
           "color": "#6B8E4E"
         },
         {
-          "label": "Recruiter Review",
-          "count": 2,
-          "color": "#006747"
+          "label": "Passive Hiring",
+          "count": 13,
+          "color": "#1B6A9C"
         },
         {
           "label": "Interview Stage",
@@ -10065,14 +10045,14 @@
           "color": "#D4880A"
         },
         {
+          "label": "Recruiter Review",
+          "count": 1,
+          "color": "#006747"
+        },
+        {
           "label": "HM Review",
           "count": 1,
           "color": "#534AB7"
-        },
-        {
-          "label": "Passive Hiring",
-          "count": 12,
-          "color": "#1B6A9C"
         },
         {
           "label": "Offer Stage",
@@ -10139,7 +10119,7 @@
           "color": "#2A500B",
           "bgLight": "#E4EFD6",
           "bgDark": "#1a3309",
-          "count": 4
+          "count": 3
         }
       ],
       "funnel": [
@@ -10176,14 +10156,14 @@
           "color": "#5B8FA8"
         },
         {
-          "label": "Recruiter Review",
-          "count": 2,
-          "color": "#006747"
-        },
-        {
           "label": "Interview Stage",
           "count": 2,
           "color": "#D4880A"
+        },
+        {
+          "label": "Recruiter Review",
+          "count": 1,
+          "color": "#006747"
         },
         {
           "label": "HM Review",
@@ -10204,12 +10184,12 @@
         },
         {
           "label": "Active",
-          "count": 14,
+          "count": 13,
           "color": "#004d35"
         },
         {
           "label": "Passive",
-          "count": 12,
+          "count": 13,
           "color": "#1B6A9C"
         },
         {
