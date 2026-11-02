@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-02T17:21:09.035Z",
+  "lastUpdated": "2026-11-02T23:59:27.323Z",
   "summary": {
-    "openReqs": 610,
+    "openReqs": 609,
     "avgTimeToFill": 80,
-    "filledYTD": 414,
+    "filledYTD": 415,
     "failedCancelled": 78,
     "inOfferStage": 7
   },
@@ -20,7 +20,7 @@
     },
     {
       "label": "USF Health",
-      "count": 247,
+      "count": 246,
       "color": "#00A693"
     },
     {
@@ -42,7 +42,7 @@
     },
     {
       "label": "HM Review",
-      "count": 125,
+      "count": 124,
       "color": "#534AB7"
     },
     {
@@ -151,7 +151,7 @@
     },
     {
       "label": "Evergreen",
-      "count": 114,
+      "count": 113,
       "color": "#6B8E4E"
     },
     {
@@ -1612,7 +1612,7 @@
     },
     {
       "label": "Other (178 depts)",
-      "count": 338,
+      "count": 337,
       "color": "#c8c7c2"
     }
   ],
@@ -3382,6 +3382,17 @@
       "reqType": "Active",
       "ttf": 89,
       "notionUrl": "https://www.notion.so/996db7ca4b5a4a0ea1aca5cf78ed5986"
+    },
+    {
+      "title": "Fiscal & Business Assista",
+      "reqId": "44100",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Hired",
+      "department": "612900 - Dept Of Neuros",
+      "reqType": "Evergreen",
+      "ttf": 88,
+      "notionUrl": "https://www.notion.so/4c6930b3000e45e1b4acf6f092407cb6"
     },
     {
       "title": "Communications and Marketing Officer",
@@ -7629,6 +7640,13 @@
         "fillRatePct": 100
       },
       {
+        "department": "612900 - Dept Of Neuros",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
         "department": "612000 - Department Of Surgery",
         "filled": 1,
         "failed": 0,
@@ -8180,7 +8198,7 @@
       {
         "reqType": "Evergreen",
         "avgDays": 100,
-        "count": 38
+        "count": 39
       },
       {
         "reqType": "Targeted",
@@ -8201,8 +8219,8 @@
       },
       {
         "campus": "USF Health",
-        "avgDays": 111,
-        "count": 126
+        "avgDays": 110,
+        "count": 127
       },
       {
         "campus": "St. Petersburg",
@@ -8579,8 +8597,8 @@
       "bgDark": "#3d2504",
       "campus": "Tampa",
       "reqs": 434,
-      "activeReqs": 249,
-      "filled": 151,
+      "activeReqs": 248,
+      "filled": 152,
       "failed": 34,
       "ttf": 115,
       "wip": 14,
@@ -9140,7 +9158,7 @@
         },
         {
           "label": "HM Review",
-          "count": 112,
+          "count": 111,
           "color": "#534AB7"
         },
         {
@@ -9219,7 +9237,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 249
+          "count": 248
         },
         {
           "label": "Screened",
@@ -9227,7 +9245,7 @@
         },
         {
           "label": "HM Review",
-          "count": 112
+          "count": 111
         },
         {
           "label": "Interviews",
@@ -9272,14 +9290,14 @@
       ],
       "reqTypes": [
         {
-          "label": "Evergreen",
-          "count": 91,
-          "color": "#6B8E4E"
-        },
-        {
           "label": "Passive",
           "count": 90,
           "color": "#1B6A9C"
+        },
+        {
+          "label": "Evergreen",
+          "count": 90,
+          "color": "#6B8E4E"
         },
         {
           "label": "Active",
@@ -9300,7 +9318,7 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 151,
+          "value": 152,
           "target": 10,
           "invert": false
         },
