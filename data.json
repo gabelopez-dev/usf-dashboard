@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2026-11-02T07:26:02.809Z",
+  "lastUpdated": "2026-11-02T17:21:09.035Z",
   "summary": {
-    "openReqs": 612,
-    "avgTimeToFill": 81,
-    "filledYTD": 412,
-    "failedCancelled": 77,
+    "openReqs": 610,
+    "avgTimeToFill": 80,
+    "filledYTD": 414,
+    "failedCancelled": 78,
     "inOfferStage": 7
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 309,
+      "count": 307,
       "color": "#1B6A9C"
     },
     {
       "label": "St Pete",
-      "count": 27,
+      "count": 28,
       "color": "#006747"
     },
     {
       "label": "USF Health",
-      "count": 248,
+      "count": 247,
       "color": "#00A693"
     },
     {
@@ -47,7 +47,7 @@
     },
     {
       "label": "Student Hiring",
-      "count": 47,
+      "count": 45,
       "color": "#B5651D"
     },
     {
@@ -57,12 +57,12 @@
     },
     {
       "label": "Backlog",
-      "count": 36,
+      "count": 35,
       "color": "#888780"
     },
     {
       "label": "Recruiter Review",
-      "count": 28,
+      "count": 29,
       "color": "#006747"
     },
     {
@@ -104,12 +104,12 @@
     },
     {
       "label": "Backlog",
-      "count": 36,
+      "count": 35,
       "color": "#888780"
     },
     {
       "label": "Recruiter Review",
-      "count": 26,
+      "count": 27,
       "color": "#006747"
     },
     {
@@ -141,7 +141,7 @@
   "reqTypes": [
     {
       "label": "Passive",
-      "count": 264,
+      "count": 263,
       "color": "#1B6A9C"
     },
     {
@@ -156,7 +156,7 @@
     },
     {
       "label": "Student",
-      "count": 54,
+      "count": 53,
       "color": "#B5651D"
     },
     {
@@ -201,7 +201,7 @@
       "color": "#5E8C2E",
       "bgLight": "#EEF5E4",
       "bgDark": "#1a3309",
-      "count": 58
+      "count": 57
     },
     {
       "label": "🟢 3–5",
@@ -210,7 +210,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 8
+      "count": 6
     },
     {
       "label": "🟢 0–2",
@@ -219,7 +219,7 @@
       "color": "#2A500B",
       "bgLight": "#E4EFD6",
       "bgDark": "#1a3309",
-      "count": 0
+      "count": 3
     }
   ],
   "agingRecords": [
@@ -836,16 +836,6 @@
       "status": "Healthy",
       "records": [
         {
-          "title": "Program Manager",
-          "reqId": "44597",
-          "notionUrl": "https://www.notion.so/2951837b7f484332a9b39a2b268e1de4",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Backlog",
-          "agingBand": "🟢 6–14",
-          "department": "510416 - STP Student Outreach and Support"
-        },
-        {
           "title": "Mgr Parking & Transportation Operations",
           "reqId": "44610",
           "notionUrl": "https://www.notion.so/57269b45db174897aa13654742a81427",
@@ -1454,26 +1444,6 @@
           "department": "790400 - Technology Transfer Office"
         },
         {
-          "title": "Analyst Statistical Data -CUTR",
-          "reqId": "44529",
-          "notionUrl": "https://www.notion.so/238dafc2df194fb487cd960c2f1ca4b7",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Interview Stage",
-          "agingBand": "🟢 3–5",
-          "department": "211700 - Ctr For Urban Transportation Research"
-        },
-        {
-          "title": "Other Hourly Professional/Support",
-          "reqId": "44549",
-          "notionUrl": "https://www.notion.so/4bc3fa9e19af4408bfa211942cf11d76",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Recruiter Review",
-          "agingBand": "🟢 3–5",
-          "department": "511280 - STP Honors Program"
-        },
-        {
           "title": "Fund Strategy Analytics Manager",
           "reqId": "44490",
           "notionUrl": "https://www.notion.so/347fe04eb3564ef18bb873e850fef8dc",
@@ -1510,13 +1480,44 @@
       "color": "#2A500B",
       "bgLight": "#E4EFD6",
       "status": "Healthy",
-      "records": []
+      "records": [
+        {
+          "title": "Academic Program Specialist",
+          "reqId": "44664",
+          "notionUrl": "https://www.notion.so/03a00b490ef340ba9a073bbc0947fad5",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "511413 - STP MCOB Undergraduate Studies"
+        },
+        {
+          "title": "Program Manager",
+          "reqId": "44597",
+          "notionUrl": "https://www.notion.so/2951837b7f484332a9b39a2b268e1de4",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "510416 - STP Student Outreach and Support"
+        },
+        {
+          "title": "Analyst Statistical Data -CUTR",
+          "reqId": "44529",
+          "notionUrl": "https://www.notion.so/238dafc2df194fb487cd960c2f1ca4b7",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Interview Stage",
+          "agingBand": "🟢 0–2",
+          "department": "211700 - Ctr For Urban Transportation Research"
+        }
+      ]
     }
   ],
   "department": [
     {
       "label": "USF Health",
-      "count": 85,
+      "count": 84,
       "color": "#006747"
     },
     {
@@ -1526,7 +1527,7 @@
     },
     {
       "label": "210500 - Mechanical Engineering",
-      "count": 17,
+      "count": 18,
       "color": "#00A693"
     },
     {
@@ -1600,23 +1601,18 @@
       "color": "#006747"
     },
     {
-      "label": "043000 - Student Health Services",
+      "label": "612300 - Dept Of Interna",
       "count": 6,
       "color": "#1B6A9C"
     },
     {
-      "label": "612300 - Dept Of Interna",
+      "label": "122900 - School Of Aging Studies",
       "count": 6,
       "color": "#00A693"
     },
     {
-      "label": "122900 - School Of Aging Studies",
-      "count": 6,
-      "color": "#CFC483"
-    },
-    {
-      "label": "Other (180 depts)",
-      "count": 334,
+      "label": "Other (178 depts)",
+      "count": 338,
       "color": "#c8c7c2"
     }
   ],
@@ -1629,8 +1625,8 @@
     },
     {
       "label": "Recruiter Review",
-      "avgDays": 22,
-      "count": 26,
+      "avgDays": 23,
+      "count": 25,
       "color": "#006747"
     },
     {
@@ -1641,8 +1637,8 @@
     },
     {
       "label": "Interview Stage",
-      "avgDays": 17,
-      "count": 10,
+      "avgDays": 19,
+      "count": 9,
       "color": "#D4880A"
     },
     {
@@ -1659,8 +1655,8 @@
     },
     {
       "label": "Backlog",
-      "avgDays": 17,
-      "count": 36,
+      "avgDays": 18,
+      "count": 35,
       "color": "#888780"
     },
     {
@@ -2187,6 +2183,17 @@
       "reqType": "Student",
       "ttf": 164,
       "notionUrl": "https://www.notion.so/816e775acd6e43958bef3593cc1dea41"
+    },
+    {
+      "title": "Community Outreach Caseworker",
+      "reqId": "43516",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Canceled",
+      "department": "USF Health",
+      "reqType": "Passive",
+      "ttf": 164,
+      "notionUrl": "https://www.notion.so/51eaaeb3f527476ca8dc0f4d6657c0ef"
     },
     {
       "title": "Executive Education Training & Support Consultant",
@@ -3562,6 +3569,17 @@
       "reqType": "Active",
       "ttf": 80,
       "notionUrl": "https://www.notion.so/1baee1ec4e7142b58ce21817527857cc"
+    },
+    {
+      "title": "Client Services Assistant",
+      "reqId": "44207",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "043000 - Student Health Services",
+      "reqType": "Passive",
+      "ttf": 80,
+      "notionUrl": "https://www.notion.so/acce8f7bada649cf95ad4d46b80a5bbf"
     },
     {
       "title": "Hearing Technician",
@@ -5962,6 +5980,17 @@
       "notionUrl": "https://www.notion.so/bddf55379d3342aaa77f3a2b83e41b1d"
     },
     {
+      "title": "Student Assistant - ODS",
+      "reqId": "44477",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "410000 - Office Of Decision Support",
+      "reqType": "Student",
+      "ttf": 32,
+      "notionUrl": "https://www.notion.so/db47d97fd0004f659d7332d7673cea54"
+    },
+    {
       "title": "Faculty Services Administrator",
       "reqId": "43339",
       "owner": "Gabriel",
@@ -6149,6 +6178,17 @@
       "notionUrl": "https://www.notion.so/06da65c4dbbb40f087fbda6dd1cc50de"
     },
     {
+      "title": "Fiscal & Business Specialist",
+      "reqId": "44499",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "020600 - University Controllers Office",
+      "reqType": "Active",
+      "ttf": 17,
+      "notionUrl": "https://www.notion.so/593ca5445fc44d8ea9b8485466d47b00"
+    },
+    {
       "title": "Student Assistant - FWS/ T&F",
       "reqId": "44452",
       "owner": "johncalebrese",
@@ -6310,7 +6350,7 @@
       "stage": "Hired",
       "department": "048200 - Student Disability Services",
       "reqType": "Passive",
-      "ttf": 0,
+      "ttf": 6,
       "notionUrl": "https://www.notion.so/bf894b7fb8894727834487ae95db348a"
     },
     {
@@ -6334,17 +6374,6 @@
       "reqType": "Active",
       "ttf": 0,
       "notionUrl": "https://www.notion.so/c6eb6ae8275e47ff82de184e98f45966"
-    },
-    {
-      "title": "Fiscal & Business Specialist",
-      "reqId": "44499",
-      "owner": "johncalebrese",
-      "campus": "Tampa",
-      "stage": "Hired",
-      "department": "020600 - University Controllers Office",
-      "reqType": "Active",
-      "ttf": 0,
-      "notionUrl": "https://www.notion.so/593ca5445fc44d8ea9b8485466d47b00"
     },
     {
       "title": "Student Asst",
@@ -7057,7 +7086,7 @@
         "department": "USF Health",
         "filled": 84,
         "failed": 0,
-        "cancelled": 19,
+        "cancelled": 20,
         "fillRatePct": 100
       },
       {
@@ -7257,6 +7286,13 @@
         "fillRatePct": 100
       },
       {
+        "department": "410000 - Office Of Decision Support",
+        "filled": 3,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
         "department": "351000 - Information Technology",
         "filled": 2,
         "failed": 0,
@@ -7377,13 +7413,6 @@
       },
       {
         "department": "640108 - COPH Faculty A",
-        "filled": 2,
-        "failed": 0,
-        "cancelled": 0,
-        "fillRatePct": 100
-      },
-      {
-        "department": "410000 - Office Of Decision Support",
         "filled": 2,
         "failed": 0,
         "cancelled": 0,
@@ -7612,6 +7641,13 @@
         "failed": 0,
         "cancelled": 1,
         "fillRatePct": null
+      },
+      {
+        "department": "043000 - Student Health Services",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
       },
       {
         "department": "121900 - Communication Sciences & Disorders",
@@ -8128,18 +8164,18 @@
     "avgTTFByReqType": [
       {
         "reqType": "Active",
-        "avgDays": 81,
-        "count": 212
+        "avgDays": 80,
+        "count": 213
       },
       {
         "reqType": "Student",
-        "avgDays": 71,
-        "count": 50
+        "avgDays": 70,
+        "count": 51
       },
       {
         "reqType": "Passive",
-        "avgDays": 94,
-        "count": 43
+        "avgDays": 92,
+        "count": 45
       },
       {
         "reqType": "Evergreen",
@@ -8161,7 +8197,7 @@
       {
         "campus": "Tampa",
         "avgDays": 65,
-        "count": 177
+        "count": 181
       },
       {
         "campus": "USF Health",
@@ -8203,7 +8239,7 @@
       },
       {
         "department": "210500 - Mechanical Engineering",
-        "count": 24
+        "count": 25
       },
       {
         "department": "Engineering",
@@ -8343,7 +8379,7 @@
       },
       {
         "label": "Oct '26",
-        "count": 31
+        "count": 37
       }
     ]
   },
@@ -8543,9 +8579,9 @@
       "bgDark": "#3d2504",
       "campus": "Tampa",
       "reqs": 434,
-      "activeReqs": 250,
+      "activeReqs": 249,
       "filled": 151,
-      "failed": 33,
+      "failed": 34,
       "ttf": 115,
       "wip": 14,
       "agingRecords": [
@@ -9089,7 +9125,7 @@
       "statuses": [
         {
           "label": "Passive Hiring",
-          "count": 91,
+          "count": 90,
           "color": "#1B6A9C"
         },
         {
@@ -9183,7 +9219,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 250
+          "count": 249
         },
         {
           "label": "Screened",
@@ -9236,14 +9272,14 @@
       ],
       "reqTypes": [
         {
-          "label": "Passive",
-          "count": 91,
-          "color": "#1B6A9C"
-        },
-        {
           "label": "Evergreen",
           "count": 91,
           "color": "#6B8E4E"
+        },
+        {
+          "label": "Passive",
+          "count": 90,
+          "color": "#1B6A9C"
         },
         {
           "label": "Active",
@@ -9305,10 +9341,10 @@
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
       "reqs": 224,
-      "activeReqs": 76,
-      "filled": 127,
+      "activeReqs": 74,
+      "filled": 129,
       "failed": 21,
-      "ttf": 64,
+      "ttf": 63,
       "wip": 0,
       "agingRecords": [
         {
@@ -9592,7 +9628,7 @@
         },
         {
           "label": "Student Hiring",
-          "count": 13,
+          "count": 11,
           "color": "#B5651D"
         },
         {
@@ -9681,7 +9717,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 76
+          "count": 74
         },
         {
           "label": "Screened",
@@ -9735,7 +9771,7 @@
       "reqTypes": [
         {
           "label": "Passive",
-          "count": 25,
+          "count": 24,
           "color": "#1B6A9C"
         },
         {
@@ -9745,7 +9781,7 @@
         },
         {
           "label": "Student",
-          "count": 17,
+          "count": 16,
           "color": "#B5651D"
         },
         {
@@ -9762,13 +9798,13 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 127,
+          "value": 129,
           "target": 10,
           "invert": false
         },
         {
           "label": "Time to fill",
-          "value": 64,
+          "value": 63,
           "target": 40,
           "invert": true
         },
@@ -9786,12 +9822,12 @@
         }
       ],
       "trend": [
-        64,
-        64,
-        64,
-        64,
-        64,
-        64
+        63,
+        63,
+        63,
+        63,
+        63,
+        63
       ]
     },
     {
@@ -9802,12 +9838,12 @@
       "bgLight": "#e6f2ed",
       "bgDark": "#042e24",
       "campus": "St Pete / Tampa",
-      "reqs": 187,
-      "activeReqs": 57,
+      "reqs": 188,
+      "activeReqs": 58,
       "filled": 115,
       "failed": 15,
       "ttf": 53,
-      "wip": 1,
+      "wip": 0,
       "agingRecords": [
         {
           "band": "🔴 31+",
@@ -9840,16 +9876,6 @@
           "bgLight": "#EEF5E4",
           "status": "Healthy",
           "records": [
-            {
-              "title": "Program Manager",
-              "reqId": "44597",
-              "notionUrl": "https://www.notion.so/2951837b7f484332a9b39a2b268e1de4",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Backlog",
-              "agingBand": "🟢 6–14",
-              "department": "510416 - STP Student Outreach and Support"
-            },
             {
               "title": "Mgr Parking & Transportation Operations",
               "reqId": "44610",
@@ -9939,26 +9965,6 @@
           "status": "Healthy",
           "records": [
             {
-              "title": "Analyst Statistical Data -CUTR",
-              "reqId": "44529",
-              "notionUrl": "https://www.notion.so/238dafc2df194fb487cd960c2f1ca4b7",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Interview Stage",
-              "agingBand": "🟢 3–5",
-              "department": "211700 - Ctr For Urban Transportation Research"
-            },
-            {
-              "title": "Other Hourly Professional/Support",
-              "reqId": "44549",
-              "notionUrl": "https://www.notion.so/4bc3fa9e19af4408bfa211942cf11d76",
-              "owner": "Gabriel",
-              "campus": "St. Petersburg",
-              "stage": "Recruiter Review",
-              "agingBand": "🟢 3–5",
-              "department": "511280 - STP Honors Program"
-            },
-            {
               "title": "Transit Safety Consultant - CUTR",
               "reqId": "44407",
               "notionUrl": "https://www.notion.so/fdf31ec5654f4ee9b57ecc6976f0f18d",
@@ -9975,16 +9981,41 @@
           "color": "#2A500B",
           "bgLight": "#E4EFD6",
           "status": "Healthy",
-          "records": []
+          "records": [
+            {
+              "title": "Academic Program Specialist",
+              "reqId": "44664",
+              "notionUrl": "https://www.notion.so/03a00b490ef340ba9a073bbc0947fad5",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "511413 - STP MCOB Undergraduate Studies"
+            },
+            {
+              "title": "Program Manager",
+              "reqId": "44597",
+              "notionUrl": "https://www.notion.so/2951837b7f484332a9b39a2b268e1de4",
+              "owner": "Gabriel",
+              "campus": "St. Petersburg",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "510416 - STP Student Outreach and Support"
+            },
+            {
+              "title": "Analyst Statistical Data -CUTR",
+              "reqId": "44529",
+              "notionUrl": "https://www.notion.so/238dafc2df194fb487cd960c2f1ca4b7",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Interview Stage",
+              "agingBand": "🟢 0–2",
+              "department": "211700 - Ctr For Urban Transportation Research"
+            }
+          ]
         }
       ],
       "stageMetrics": [
-        {
-          "label": "Recruiter Review",
-          "avgDays": 5,
-          "count": 1,
-          "color": "#006747"
-        },
         {
           "label": "HM Review",
           "avgDays": 7,
@@ -9994,7 +10025,7 @@
         {
           "label": "Interview Stage",
           "avgDays": 6,
-          "count": 2,
+          "count": 1,
           "color": "#D4880A"
         },
         {
@@ -10012,14 +10043,19 @@
         {
           "label": "Backlog",
           "avgDays": 6,
-          "count": 4,
+          "count": 3,
           "color": "#888780"
         }
       ],
       "statuses": [
         {
+          "label": "Recruiter Review",
+          "count": 2,
+          "color": "#006747"
+        },
+        {
           "label": "Backlog",
-          "count": 4,
+          "count": 3,
           "color": "#888780"
         },
         {
@@ -10034,18 +10070,13 @@
         },
         {
           "label": "Passive Hiring",
-          "count": 13,
+          "count": 14,
           "color": "#1B6A9C"
         },
         {
           "label": "Interview Stage",
           "count": 2,
           "color": "#D4880A"
-        },
-        {
-          "label": "Recruiter Review",
-          "count": 1,
-          "color": "#006747"
         },
         {
           "label": "HM Review",
@@ -10099,7 +10130,7 @@
           "color": "#5E8C2E",
           "bgLight": "#EEF5E4",
           "bgDark": "#1a3309",
-          "count": 9
+          "count": 8
         },
         {
           "label": "🟢 3–5",
@@ -10108,7 +10139,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 3
+          "count": 1
         },
         {
           "label": "🟢 0–2",
@@ -10117,13 +10148,13 @@
           "color": "#2A500B",
           "bgLight": "#E4EFD6",
           "bgDark": "#1a3309",
-          "count": 0
+          "count": 3
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 57
+          "count": 58
         },
         {
           "label": "Screened",
@@ -10144,24 +10175,24 @@
       ],
       "activeFunnel": [
         {
-          "label": "Backlog",
-          "count": 4,
-          "color": "#888780"
-        },
-        {
           "label": "Pre-boarding",
           "count": 4,
           "color": "#5B8FA8"
         },
         {
-          "label": "Interview Stage",
-          "count": 2,
-          "color": "#D4880A"
+          "label": "Backlog",
+          "count": 3,
+          "color": "#888780"
         },
         {
           "label": "Recruiter Review",
-          "count": 1,
+          "count": 2,
           "color": "#006747"
+        },
+        {
+          "label": "Interview Stage",
+          "count": 2,
+          "color": "#D4880A"
         },
         {
           "label": "HM Review",
@@ -10181,14 +10212,14 @@
           "color": "#993556"
         },
         {
+          "label": "Passive",
+          "count": 14,
+          "color": "#1B6A9C"
+        },
+        {
           "label": "Active",
           "count": 13,
           "color": "#004d35"
-        },
-        {
-          "label": "Passive",
-          "count": 13,
-          "color": "#1B6A9C"
         },
         {
           "label": "Evergreen",
@@ -10222,13 +10253,13 @@
         {
           "label": "Screened",
           "value": 0,
-          "target": 187,
+          "target": 188,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 2,
-          "target": 187,
+          "target": 188,
           "invert": false
         }
       ],
