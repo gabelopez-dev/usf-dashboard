@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-11-03T06:31:14.695Z",
+  "lastUpdated": "2026-11-03T14:53:44.269Z",
   "summary": {
-    "openReqs": 650,
+    "openReqs": 655,
     "avgTimeToFill": 80,
     "filledYTD": 415,
     "failedCancelled": 78,
-    "inOfferStage": 7
+    "inOfferStage": 8
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 307,
+      "count": 312,
       "color": "#1B6A9C"
     },
     {
@@ -42,12 +42,12 @@
     },
     {
       "label": "HM Review",
-      "count": 124,
+      "count": 123,
       "color": "#534AB7"
     },
     {
       "label": "Backlog",
-      "count": 76,
+      "count": 81,
       "color": "#888780"
     },
     {
@@ -87,7 +87,7 @@
     },
     {
       "label": "Offer Stage",
-      "count": 7,
+      "count": 8,
       "color": "#CFC483"
     },
     {
@@ -99,12 +99,12 @@
   "activeFunnel": [
     {
       "label": "Backlog",
-      "count": 76,
+      "count": 81,
       "color": "#888780"
     },
     {
       "label": "HM Review",
-      "count": 37,
+      "count": 36,
       "color": "#534AB7"
     },
     {
@@ -124,7 +124,7 @@
     },
     {
       "label": "Offer Stage",
-      "count": 5,
+      "count": 6,
       "color": "#CFC483"
     },
     {
@@ -146,7 +146,7 @@
     },
     {
       "label": "Active",
-      "count": 166,
+      "count": 171,
       "color": "#004d35"
     },
     {
@@ -192,7 +192,7 @@
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 13
+      "count": 12
     },
     {
       "label": "🟢 6–14",
@@ -219,7 +219,7 @@
       "color": "#2A500B",
       "bgLight": "#E4EFD6",
       "bgDark": "#1a3309",
-      "count": 44
+      "count": 50
     }
   ],
   "agingRecords": [
@@ -781,16 +781,6 @@
           "title": "Systems & Business Process Dir",
           "reqId": "44128",
           "notionUrl": "https://www.notion.so/731d1ab5680b42ee9a95c7a2807ab25c",
-          "owner": "Aidi",
-          "campus": "Tallahassee",
-          "stage": "HM Review",
-          "agingBand": "🟡 15–30",
-          "department": "177500 - Inst For School Comm Partnersh"
-        },
-        {
-          "title": "Support Staff",
-          "reqId": "44150",
-          "notionUrl": "https://www.notion.so/84236d000b4f454fa31b192595a733cf",
           "owner": "Aidi",
           "campus": "Tallahassee",
           "stage": "HM Review",
@@ -1482,6 +1472,56 @@
       "status": "Healthy",
       "records": [
         {
+          "title": "Athletics Assistant- Equipment/Olympic Sports",
+          "reqId": "44641",
+          "notionUrl": "https://www.notion.so/94ca972086fe4088bda0491ce4237100",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "051000 - Athletic Administration"
+        },
+        {
+          "title": "Procurement Associate",
+          "reqId": "44645",
+          "notionUrl": "https://www.notion.so/b2d8ce87dc6a4f1ab5fb310f934b72bc",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "027900 - Procurement & Payment Services"
+        },
+        {
+          "title": "Student Assistant - Housing Assignments",
+          "reqId": "44682",
+          "notionUrl": "https://www.notion.so/39abab2d16c749c5bc615ef8640d231f",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "043500 - Housing & Residential ED"
+        },
+        {
+          "title": "Student Assistant- Equipment Operations/FB",
+          "reqId": "44688",
+          "notionUrl": "https://www.notion.so/5bdc2e99c6b042dc9f4f6762a13cd2e5",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "051000 - Athletic Administration"
+        },
+        {
+          "title": "Payroll Accountant",
+          "reqId": "44665",
+          "notionUrl": "https://www.notion.so/ada4324069504c83af4d2f4db437931c",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "020600 - University Controllers Office"
+        },
+        {
           "title": "Senior Systems Integrations Engineer",
           "reqId": "44313",
           "notionUrl": "https://www.notion.so/004f1102230b4121a20519ed0be93376",
@@ -1920,6 +1960,16 @@
           "stage": "Interview Stage",
           "agingBand": "🟢 0–2",
           "department": "211700 - Ctr For Urban Transportation Research"
+        },
+        {
+          "title": "Support Staff",
+          "reqId": "44150",
+          "notionUrl": "https://www.notion.so/84236d000b4f454fa31b192595a733cf",
+          "owner": "Aidi",
+          "campus": "Tallahassee",
+          "stage": "Offer Stage",
+          "agingBand": "🟢 0–2",
+          "department": "177500 - Inst For School Comm Partnersh"
         }
       ]
     }
@@ -1952,7 +2002,7 @@
     },
     {
       "label": "051000 - Athletic Administration",
-      "count": 11,
+      "count": 13,
       "color": "#5B7A8A"
     },
     {
@@ -2031,8 +2081,8 @@
       "color": "#7A9EB5"
     },
     {
-      "label": "Other (181 depts)",
-      "count": 345,
+      "label": "Other (183 depts)",
+      "count": 348,
       "color": "#c8c7c2"
     }
   ],
@@ -2052,7 +2102,7 @@
     {
       "label": "HM Review",
       "avgDays": 31,
-      "count": 37,
+      "count": 36,
       "color": "#534AB7"
     },
     {
@@ -8665,7 +8715,7 @@
       },
       {
         "department": "051000 - Athletic Administration",
-        "count": 49
+        "count": 51
       },
       {
         "department": "351000 - Information Technology",
@@ -8723,18 +8773,18 @@
         "stallRatePct": 8
       },
       {
-        "recruiter": "John",
-        "color": "#1B6A9C",
-        "stalled": 1,
-        "totalActive": 19,
-        "stallRatePct": 5
-      },
-      {
         "recruiter": "Aidi",
         "color": "#534AB7",
         "stalled": 2,
         "totalActive": 37,
         "stallRatePct": 5
+      },
+      {
+        "recruiter": "John",
+        "color": "#1B6A9C",
+        "stalled": 1,
+        "totalActive": 24,
+        "stallRatePct": 4
       },
       {
         "recruiter": "Katherine",
@@ -9778,8 +9828,8 @@
       "bgLight": "#e3f2fd",
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
-      "reqs": 224,
-      "activeReqs": 74,
+      "reqs": 229,
+      "activeReqs": 79,
       "filled": 129,
       "failed": 21,
       "ttf": 63,
@@ -10012,7 +10062,58 @@
           "color": "#2A500B",
           "bgLight": "#E4EFD6",
           "status": "Healthy",
-          "records": []
+          "records": [
+            {
+              "title": "Athletics Assistant- Equipment/Olympic Sports",
+              "reqId": "44641",
+              "notionUrl": "https://www.notion.so/94ca972086fe4088bda0491ce4237100",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "051000 - Athletic Administration"
+            },
+            {
+              "title": "Procurement Associate",
+              "reqId": "44645",
+              "notionUrl": "https://www.notion.so/b2d8ce87dc6a4f1ab5fb310f934b72bc",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "027900 - Procurement & Payment Services"
+            },
+            {
+              "title": "Student Assistant - Housing Assignments",
+              "reqId": "44682",
+              "notionUrl": "https://www.notion.so/39abab2d16c749c5bc615ef8640d231f",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "043500 - Housing & Residential ED"
+            },
+            {
+              "title": "Student Assistant- Equipment Operations/FB",
+              "reqId": "44688",
+              "notionUrl": "https://www.notion.so/5bdc2e99c6b042dc9f4f6762a13cd2e5",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "051000 - Athletic Administration"
+            },
+            {
+              "title": "Payroll Accountant",
+              "reqId": "44665",
+              "notionUrl": "https://www.notion.so/ada4324069504c83af4d2f4db437931c",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "020600 - University Controllers Office"
+            }
+          ]
         }
       ],
       "stageMetrics": [
@@ -10056,7 +10157,7 @@
       "statuses": [
         {
           "label": "Backlog",
-          "count": 3,
+          "count": 8,
           "color": "#888780"
         },
         {
@@ -10149,13 +10250,13 @@
           "color": "#2A500B",
           "bgLight": "#E4EFD6",
           "bgDark": "#1a3309",
-          "count": 0
+          "count": 5
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 74
+          "count": 79
         },
         {
           "label": "Screened",
@@ -10176,6 +10277,11 @@
       ],
       "activeFunnel": [
         {
+          "label": "Backlog",
+          "count": 8,
+          "color": "#888780"
+        },
+        {
           "label": "Recruiter Review",
           "count": 5,
           "color": "#006747"
@@ -10191,11 +10297,6 @@
           "color": "#5B8FA8"
         },
         {
-          "label": "Backlog",
-          "count": 3,
-          "color": "#888780"
-        },
-        {
           "label": "Interview Stage",
           "count": 2,
           "color": "#D4880A"
@@ -10208,14 +10309,14 @@
       ],
       "reqTypes": [
         {
+          "label": "Active",
+          "count": 24,
+          "color": "#004d35"
+        },
+        {
           "label": "Passive",
           "count": 24,
           "color": "#1B6A9C"
-        },
-        {
-          "label": "Active",
-          "count": 19,
-          "color": "#004d35"
         },
         {
           "label": "Student",
@@ -10249,13 +10350,13 @@
         {
           "label": "Screened",
           "value": 0,
-          "target": 224,
+          "target": 229,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 2,
-          "target": 224,
+          "target": 229,
           "invert": false
         }
       ],
@@ -11578,16 +11679,6 @@
               "department": "177500 - Inst For School Comm Partnersh"
             },
             {
-              "title": "Support Staff",
-              "reqId": "44150",
-              "notionUrl": "https://www.notion.so/84236d000b4f454fa31b192595a733cf",
-              "owner": "Aidi",
-              "campus": "Tallahassee",
-              "stage": "HM Review",
-              "agingBand": "🟡 15–30",
-              "department": "177500 - Inst For School Comm Partnersh"
-            },
-            {
               "title": "Academic Services Administrator",
               "reqId": "43996",
               "notionUrl": "https://www.notion.so/e96fcdac40284d30a2d6e8ba514c415f",
@@ -11910,7 +12001,18 @@
           "color": "#2A500B",
           "bgLight": "#E4EFD6",
           "status": "Healthy",
-          "records": []
+          "records": [
+            {
+              "title": "Support Staff",
+              "reqId": "44150",
+              "notionUrl": "https://www.notion.so/84236d000b4f454fa31b192595a733cf",
+              "owner": "Aidi",
+              "campus": "Tallahassee",
+              "stage": "Offer Stage",
+              "agingBand": "🟢 0–2",
+              "department": "177500 - Inst For School Comm Partnersh"
+            }
+          ]
         }
       ],
       "stageMetrics": [
@@ -11929,7 +12031,7 @@
         {
           "label": "HM Review",
           "avgDays": 18,
-          "count": 8,
+          "count": 7,
           "color": "#534AB7"
         },
         {
@@ -11964,7 +12066,7 @@
         },
         {
           "label": "HM Review",
-          "count": 8,
+          "count": 7,
           "color": "#534AB7"
         },
         {
@@ -12004,7 +12106,7 @@
         },
         {
           "label": "Offer Stage",
-          "count": 1,
+          "count": 2,
           "color": "#CFC483"
         }
       ],
@@ -12025,7 +12127,7 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 8
+          "count": 7
         },
         {
           "label": "🟢 6–14",
@@ -12052,7 +12154,7 @@
           "color": "#2A500B",
           "bgLight": "#E4EFD6",
           "bgDark": "#1a3309",
-          "count": 0
+          "count": 1
         }
       ],
       "funnel": [
@@ -12066,7 +12168,7 @@
         },
         {
           "label": "HM Review",
-          "count": 8
+          "count": 7
         },
         {
           "label": "Interviews",
@@ -12074,7 +12176,7 @@
         },
         {
           "label": "Offer",
-          "count": 1
+          "count": 2
         }
       ],
       "activeFunnel": [
@@ -12085,7 +12187,7 @@
         },
         {
           "label": "HM Review",
-          "count": 8,
+          "count": 7,
           "color": "#534AB7"
         },
         {
@@ -12099,14 +12201,14 @@
           "color": "#D4880A"
         },
         {
+          "label": "Offer Stage",
+          "count": 2,
+          "color": "#CFC483"
+        },
+        {
           "label": "Sourced",
           "count": 1,
           "color": "#00A693"
-        },
-        {
-          "label": "Offer Stage",
-          "count": 1,
-          "color": "#CFC483"
         }
       ],
       "reqTypes": [
