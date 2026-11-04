@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-04T01:05:32.306Z",
+  "lastUpdated": "2026-11-04T07:51:52.441Z",
   "summary": {
-    "openReqs": 654,
+    "openReqs": 653,
     "avgTimeToFill": 80,
-    "filledYTD": 415,
+    "filledYTD": 416,
     "failedCancelled": 79,
     "inOfferStage": 7
   },
@@ -47,7 +47,7 @@
     },
     {
       "label": "Backlog",
-      "count": 79,
+      "count": 77,
       "color": "#888780"
     },
     {
@@ -82,7 +82,7 @@
     },
     {
       "label": "Interview Stage",
-      "count": 11,
+      "count": 12,
       "color": "#D4880A"
     },
     {
@@ -99,7 +99,7 @@
   "activeFunnel": [
     {
       "label": "Backlog",
-      "count": 79,
+      "count": 77,
       "color": "#888780"
     },
     {
@@ -114,7 +114,7 @@
     },
     {
       "label": "Interview Stage",
-      "count": 11,
+      "count": 12,
       "color": "#D4880A"
     },
     {
@@ -146,7 +146,7 @@
     },
     {
       "label": "Active",
-      "count": 171,
+      "count": 170,
       "color": "#004d35"
     },
     {
@@ -219,7 +219,7 @@
       "color": "#2A500B",
       "bgLight": "#E4EFD6",
       "bgDark": "#1a3309",
-      "count": 56
+      "count": 55
     }
   ],
   "agingRecords": [
@@ -1762,16 +1762,6 @@
           "department": "122100 - Criminology"
         },
         {
-          "title": "Research Associate",
-          "reqId": "44585",
-          "notionUrl": "https://www.notion.so/6a8cc2399fc348aa9250ce0b9881cce8",
-          "owner": "Tameka Porter",
-          "campus": "",
-          "stage": "Backlog",
-          "agingBand": "🟢 0–2",
-          "department": "582000 - Behavioral Health Science and Practice"
-        },
-        {
           "title": "OPS Applications Developer I",
           "reqId": "44587",
           "notionUrl": "https://www.notion.so/c651ccc0902b45f0a6d5cbfacca2ec69",
@@ -1797,7 +1787,7 @@
           "notionUrl": "https://www.notion.so/9e91cb683b5143aebb6a043154667f97",
           "owner": "Tameka Porter",
           "campus": "",
-          "stage": "Backlog",
+          "stage": "Interview Stage",
           "agingBand": "🟢 0–2",
           "department": "240100 - CDAP Dean's Office"
         },
@@ -2082,7 +2072,7 @@
     },
     {
       "label": "Other (182 depts)",
-      "count": 347,
+      "count": 346,
       "color": "#c8c7c2"
     }
   ],
@@ -2107,8 +2097,8 @@
     },
     {
       "label": "Interview Stage",
-      "avgDays": 17,
-      "count": 11,
+      "avgDays": 16,
+      "count": 12,
       "color": "#D4880A"
     },
     {
@@ -2126,7 +2116,7 @@
     {
       "label": "Backlog",
       "avgDays": 10,
-      "count": 79,
+      "count": 77,
       "color": "#888780"
     },
     {
@@ -6835,6 +6825,17 @@
       "notionUrl": "https://www.notion.so/bf894b7fb8894727834487ae95db348a"
     },
     {
+      "title": "Research Associate",
+      "reqId": "44585",
+      "owner": "Tameka Porter",
+      "campus": "",
+      "stage": "Hired",
+      "department": "582000 - Behavioral Health Science and Practice",
+      "reqType": "Active",
+      "ttf": 0,
+      "notionUrl": "https://www.notion.so/6a8cc2399fc348aa9250ce0b9881cce8"
+    },
+    {
       "title": "Mgr Parking & Transportation Operations",
       "reqId": "44610",
       "owner": "Gabriel",
@@ -8562,6 +8563,13 @@
         "fillRatePct": 100
       },
       {
+        "department": "582000 - Behavioral Health Science and Practice",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
         "department": "515400 - STP Parking Services",
         "filled": 0,
         "failed": 0,
@@ -8780,7 +8788,7 @@
         "recruiter": "Tameka",
         "color": "#00A693",
         "stalled": 10,
-        "totalActive": 51,
+        "totalActive": 50,
         "stallRatePct": 20
       },
       {
@@ -10816,8 +10824,8 @@
       "bgDark": "#1c1852",
       "campus": "Tampa",
       "reqs": 171,
-      "activeReqs": 152,
-      "filled": 14,
+      "activeReqs": 151,
+      "filled": 15,
       "failed": 5,
       "ttf": 58,
       "wip": 7,
@@ -11258,16 +11266,6 @@
               "department": "122100 - Criminology"
             },
             {
-              "title": "Research Associate",
-              "reqId": "44585",
-              "notionUrl": "https://www.notion.so/6a8cc2399fc348aa9250ce0b9881cce8",
-              "owner": "Tameka Porter",
-              "campus": "",
-              "stage": "Backlog",
-              "agingBand": "🟢 0–2",
-              "department": "582000 - Behavioral Health Science and Practice"
-            },
-            {
               "title": "OPS Applications Developer I",
               "reqId": "44587",
               "notionUrl": "https://www.notion.so/c651ccc0902b45f0a6d5cbfacca2ec69",
@@ -11293,7 +11291,7 @@
               "notionUrl": "https://www.notion.so/9e91cb683b5143aebb6a043154667f97",
               "owner": "Tameka Porter",
               "campus": "",
-              "stage": "Backlog",
+              "stage": "Interview Stage",
               "agingBand": "🟢 0–2",
               "department": "240100 - CDAP Dean's Office"
             },
@@ -11378,6 +11376,12 @@
           "color": "#006747"
         },
         {
+          "label": "Interview Stage",
+          "avgDays": 1,
+          "count": 1,
+          "color": "#D4880A"
+        },
+        {
           "label": "Pre-boarding",
           "avgDays": 37,
           "count": 1,
@@ -11386,15 +11390,20 @@
         {
           "label": "Backlog",
           "avgDays": 9,
-          "count": 49,
+          "count": 47,
           "color": "#888780"
         }
       ],
       "statuses": [
         {
           "label": "Backlog",
-          "count": 49,
+          "count": 47,
           "color": "#888780"
+        },
+        {
+          "label": "Interview Stage",
+          "count": 1,
+          "color": "#D4880A"
         },
         {
           "label": "Faculty Hiring",
@@ -11471,13 +11480,13 @@
           "color": "#2A500B",
           "bgLight": "#E4EFD6",
           "bgDark": "#1a3309",
-          "count": 41
+          "count": 40
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 152
+          "count": 151
         },
         {
           "label": "Screened",
@@ -11489,7 +11498,7 @@
         },
         {
           "label": "Interviews",
-          "count": 0
+          "count": 1
         },
         {
           "label": "Offer",
@@ -11499,8 +11508,13 @@
       "activeFunnel": [
         {
           "label": "Backlog",
-          "count": 49,
+          "count": 47,
           "color": "#888780"
+        },
+        {
+          "label": "Interview Stage",
+          "count": 1,
+          "color": "#D4880A"
         },
         {
           "label": "Pre-boarding",
@@ -11521,7 +11535,7 @@
         },
         {
           "label": "Active",
-          "count": 51,
+          "count": 50,
           "color": "#004d35"
         },
         {
@@ -11548,7 +11562,7 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 14,
+          "value": 15,
           "target": 10,
           "invert": false
         },
@@ -11566,7 +11580,7 @@
         },
         {
           "label": "Interviews",
-          "value": 0,
+          "value": 1,
           "target": 171,
           "invert": false
         }
