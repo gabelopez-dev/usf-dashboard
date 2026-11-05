@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-05T10:29:13.939Z",
+  "lastUpdated": "2026-11-05T16:14:27.885Z",
   "summary": {
     "openReqs": 652,
     "avgTimeToFill": 80,
@@ -42,7 +42,7 @@
     },
     {
       "label": "HM Review",
-      "count": 123,
+      "count": 124,
       "color": "#534AB7"
     },
     {
@@ -82,7 +82,7 @@
     },
     {
       "label": "Interview Stage",
-      "count": 12,
+      "count": 11,
       "color": "#D4880A"
     },
     {
@@ -109,7 +109,7 @@
     },
     {
       "label": "HM Review",
-      "count": 36,
+      "count": 37,
       "color": "#534AB7"
     },
     {
@@ -119,7 +119,7 @@
     },
     {
       "label": "Interview Stage",
-      "count": 12,
+      "count": 11,
       "color": "#D4880A"
     },
     {
@@ -206,7 +206,7 @@
       "color": "#5E8C2E",
       "bgLight": "#EEF5E4",
       "bgDark": "#1a3309",
-      "count": 21
+      "count": 20
     },
     {
       "label": "🟢 3–5",
@@ -215,7 +215,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 42
+      "count": 41
     },
     {
       "label": "🟢 0–2",
@@ -224,7 +224,7 @@
       "color": "#2A500B",
       "bgLight": "#E4EFD6",
       "bgDark": "#1a3309",
-      "count": 33
+      "count": 35
     }
   ],
   "agingRecords": [
@@ -1131,16 +1131,6 @@
           "department": "471000 - Florida Inst of C"
         },
         {
-          "title": "Academic Svcs. Administrator - Mechanical Eng",
-          "reqId": "44191",
-          "notionUrl": "https://www.notion.so/8969cc003995496488c89087857ac4e5",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Pre-boarding",
-          "agingBand": "🟢 6–14",
-          "department": "210500 - Mechanical Engineering"
-        },
-        {
           "title": "Registered Dietician",
           "reqId": "42728",
           "notionUrl": "https://www.notion.so/acb6edee72a642d792650e30ce1e7cdd",
@@ -1607,16 +1597,6 @@
           "stage": "Recruiter Review",
           "agingBand": "🟢 3–5",
           "department": "510416 - STP Student Outreach and Support"
-        },
-        {
-          "title": "Analyst Statistical Data -CUTR",
-          "reqId": "44529",
-          "notionUrl": "https://www.notion.so/238dafc2df194fb487cd960c2f1ca4b7",
-          "owner": "Gabriel",
-          "campus": "Tampa",
-          "stage": "Interview Stage",
-          "agingBand": "🟢 3–5",
-          "department": "211700 - Ctr For Urban Transportation Research"
         }
       ]
     },
@@ -1897,6 +1877,16 @@
           "department": "170100 - COE Dean's Office"
         },
         {
+          "title": "Analyst Statistical Data -CUTR",
+          "reqId": "44529",
+          "notionUrl": "https://www.notion.so/238dafc2df194fb487cd960c2f1ca4b7",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Offer Stage",
+          "agingBand": "🟢 0–2",
+          "department": "211700 - Ctr For Urban Transportation Research"
+        },
+        {
           "title": "Program Director",
           "reqId": "44447",
           "notionUrl": "https://www.notion.so/31ef31a8794a4a6b8ada982b17c8c7e2",
@@ -1912,7 +1902,7 @@
           "notionUrl": "https://www.notion.so/fdf31ec5654f4ee9b57ecc6976f0f18d",
           "owner": "Gabriel",
           "campus": "Tampa",
-          "stage": "Offer Stage",
+          "stage": "Pre-boarding",
           "agingBand": "🟢 0–2",
           "department": "211700 - Ctr For Urban Transportation Research"
         },
@@ -1925,6 +1915,16 @@
           "stage": "Pre-boarding",
           "agingBand": "🟢 0–2",
           "department": "471000 - Florida Inst of Oceanography"
+        },
+        {
+          "title": "Academic Svcs. Administrator - Mechanical Eng",
+          "reqId": "44191",
+          "notionUrl": "https://www.notion.so/8969cc003995496488c89087857ac4e5",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟢 0–2",
+          "department": "210500 - Mechanical Engineering"
         },
         {
           "title": "Support Staff",
@@ -2087,20 +2087,20 @@
     },
     {
       "label": "Interview Stage",
-      "avgDays": 17,
-      "count": 12,
+      "avgDays": 20,
+      "count": 10,
       "color": "#D4880A"
     },
     {
       "label": "Offer Stage",
-      "avgDays": 9,
-      "count": 5,
+      "avgDays": 11,
+      "count": 4,
       "color": "#CFC483"
     },
     {
       "label": "Pre-boarding",
       "avgDays": 13,
-      "count": 12,
+      "count": 11,
       "color": "#5B8FA8"
     },
     {
@@ -10524,16 +10524,6 @@
               "department": "471000 - Florida Inst of C"
             },
             {
-              "title": "Academic Svcs. Administrator - Mechanical Eng",
-              "reqId": "44191",
-              "notionUrl": "https://www.notion.so/8969cc003995496488c89087857ac4e5",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🟢 6–14",
-              "department": "210500 - Mechanical Engineering"
-            },
-            {
               "title": "Contract Financial Analyst I",
               "reqId": "43667",
               "notionUrl": "https://www.notion.so/9e2a758823804c93b31beb55cee8d61b",
@@ -10570,16 +10560,6 @@
               "stage": "Recruiter Review",
               "agingBand": "🟢 3–5",
               "department": "510416 - STP Student Outreach and Support"
-            },
-            {
-              "title": "Analyst Statistical Data -CUTR",
-              "reqId": "44529",
-              "notionUrl": "https://www.notion.so/238dafc2df194fb487cd960c2f1ca4b7",
-              "owner": "Gabriel",
-              "campus": "Tampa",
-              "stage": "Interview Stage",
-              "agingBand": "🟢 3–5",
-              "department": "211700 - Ctr For Urban Transportation Research"
             }
           ]
         },
@@ -10589,6 +10569,16 @@
           "bgLight": "#E4EFD6",
           "status": "Healthy",
           "records": [
+            {
+              "title": "Analyst Statistical Data -CUTR",
+              "reqId": "44529",
+              "notionUrl": "https://www.notion.so/238dafc2df194fb487cd960c2f1ca4b7",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Offer Stage",
+              "agingBand": "🟢 0–2",
+              "department": "211700 - Ctr For Urban Transportation Research"
+            },
             {
               "title": "Program Director",
               "reqId": "44447",
@@ -10605,7 +10595,7 @@
               "notionUrl": "https://www.notion.so/fdf31ec5654f4ee9b57ecc6976f0f18d",
               "owner": "Gabriel",
               "campus": "Tampa",
-              "stage": "Offer Stage",
+              "stage": "Pre-boarding",
               "agingBand": "🟢 0–2",
               "department": "211700 - Ctr For Urban Transportation Research"
             },
@@ -10618,6 +10608,16 @@
               "stage": "Pre-boarding",
               "agingBand": "🟢 0–2",
               "department": "471000 - Florida Inst of Oceanography"
+            },
+            {
+              "title": "Academic Svcs. Administrator - Mechanical Eng",
+              "reqId": "44191",
+              "notionUrl": "https://www.notion.so/8969cc003995496488c89087857ac4e5",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟢 0–2",
+              "department": "210500 - Mechanical Engineering"
             },
             {
               "title": "Marine Technician",
@@ -10641,20 +10641,14 @@
         },
         {
           "label": "Interview Stage",
-          "avgDays": 5,
-          "count": 3,
+          "avgDays": 9,
+          "count": 1,
           "color": "#D4880A"
         },
         {
-          "label": "Offer Stage",
-          "avgDays": 2,
-          "count": 1,
-          "color": "#CFC483"
-        },
-        {
           "label": "Pre-boarding",
-          "avgDays": 15,
-          "count": 4,
+          "avgDays": 16,
+          "count": 3,
           "color": "#5B8FA8"
         },
         {
@@ -10691,19 +10685,14 @@
           "color": "#1B6A9C"
         },
         {
-          "label": "Interview Stage",
-          "count": 3,
-          "color": "#D4880A"
-        },
-        {
           "label": "Offer Stage",
           "count": 1,
           "color": "#CFC483"
         },
         {
-          "label": "Student Hiring",
-          "count": 3,
-          "color": "#B5651D"
+          "label": "Interview Stage",
+          "count": 2,
+          "color": "#D4880A"
         },
         {
           "label": "Pre-boarding",
@@ -10711,9 +10700,19 @@
           "color": "#5B8FA8"
         },
         {
+          "label": "Student Hiring",
+          "count": 3,
+          "color": "#B5651D"
+        },
+        {
           "label": "Targeted Hiring",
           "count": 2,
           "color": "#3A5A6A"
+        },
+        {
+          "label": "HM Review",
+          "count": 1,
+          "color": "#534AB7"
         }
       ],
       "aging": [
@@ -10742,7 +10741,7 @@
           "color": "#5E8C2E",
           "bgLight": "#EEF5E4",
           "bgDark": "#1a3309",
-          "count": 5
+          "count": 4
         },
         {
           "label": "🟢 3–5",
@@ -10751,7 +10750,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 3
+          "count": 2
         },
         {
           "label": "🟢 0–2",
@@ -10760,7 +10759,7 @@
           "color": "#2A500B",
           "bgLight": "#E4EFD6",
           "bgDark": "#1a3309",
-          "count": 4
+          "count": 6
         }
       ],
       "funnel": [
@@ -10774,11 +10773,11 @@
         },
         {
           "label": "HM Review",
-          "count": 0
+          "count": 1
         },
         {
           "label": "Interviews",
-          "count": 3
+          "count": 2
         },
         {
           "label": "Offer",
@@ -10797,19 +10796,24 @@
           "color": "#006747"
         },
         {
-          "label": "Interview Stage",
-          "count": 3,
-          "color": "#D4880A"
-        },
-        {
           "label": "Backlog",
           "count": 2,
           "color": "#888780"
         },
         {
+          "label": "Interview Stage",
+          "count": 2,
+          "color": "#D4880A"
+        },
+        {
           "label": "Offer Stage",
           "count": 1,
           "color": "#CFC483"
+        },
+        {
+          "label": "HM Review",
+          "count": 1,
+          "color": "#534AB7"
         }
       ],
       "reqTypes": [
@@ -10865,7 +10869,7 @@
         },
         {
           "label": "Interviews",
-          "value": 3,
+          "value": 2,
           "target": 188,
           "invert": false
         }
