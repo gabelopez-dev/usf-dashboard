@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-05T16:14:27.885Z",
+  "lastUpdated": "2026-11-05T18:13:55.400Z",
   "summary": {
-    "openReqs": 652,
+    "openReqs": 655,
     "avgTimeToFill": 80,
     "filledYTD": 422,
     "failedCancelled": 81,
@@ -10,7 +10,7 @@
   "campus": [
     {
       "label": "Tampa",
-      "count": 316,
+      "count": 319,
       "color": "#1B6A9C"
     },
     {
@@ -57,12 +57,12 @@
     },
     {
       "label": "Faculty Hiring",
-      "count": 44,
+      "count": 46,
       "color": "#993556"
     },
     {
       "label": "Recruiter Review",
-      "count": 43,
+      "count": 44,
       "color": "#006747"
     },
     {
@@ -104,7 +104,7 @@
     },
     {
       "label": "Recruiter Review",
-      "count": 41,
+      "count": 42,
       "color": "#006747"
     },
     {
@@ -151,7 +151,7 @@
     },
     {
       "label": "Active",
-      "count": 169,
+      "count": 170,
       "color": "#004d35"
     },
     {
@@ -166,7 +166,7 @@
     },
     {
       "label": "Faculty",
-      "count": 43,
+      "count": 45,
       "color": "#993556"
     },
     {
@@ -215,7 +215,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 41
+      "count": 39
     },
     {
       "label": "🟢 0–2",
@@ -224,7 +224,7 @@
       "color": "#2A500B",
       "bgLight": "#E4EFD6",
       "bgDark": "#1a3309",
-      "count": 35
+      "count": 38
     }
   ],
   "agingRecords": [
@@ -1577,26 +1577,6 @@
           "stage": "Backlog",
           "agingBand": "🟢 3–5",
           "department": "022600 - Design And Construction"
-        },
-        {
-          "title": "Academic Program Specialist",
-          "reqId": "44664",
-          "notionUrl": "https://www.notion.so/03a00b490ef340ba9a073bbc0947fad5",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Recruiter Review",
-          "agingBand": "🟢 3–5",
-          "department": "511413 - STP MCOB Undergraduate Studies"
-        },
-        {
-          "title": "Program Manager",
-          "reqId": "44597",
-          "notionUrl": "https://www.notion.so/2951837b7f484332a9b39a2b268e1de4",
-          "owner": "Gabriel",
-          "campus": "St. Petersburg",
-          "stage": "Recruiter Review",
-          "agingBand": "🟢 3–5",
-          "department": "510416 - STP Student Outreach and Support"
         }
       ]
     },
@@ -1606,6 +1586,16 @@
       "bgLight": "#E4EFD6",
       "status": "Healthy",
       "records": [
+        {
+          "title": "Senior Strategic Data Analyst",
+          "reqId": "44698",
+          "notionUrl": "https://www.notion.so/a39e706ef028429b86a2c8ae31053e68",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "140100 - College Business Admin Dean"
+        },
         {
           "title": "Adjunct - ECT 5386",
           "reqId": "44676",
@@ -1737,6 +1727,16 @@
           "department": "240100 - CDAP Dean's Office"
         },
         {
+          "title": "Academic Program Specialist",
+          "reqId": "44664",
+          "notionUrl": "https://www.notion.so/03a00b490ef340ba9a073bbc0947fad5",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "511413 - STP MCOB Undergraduate Studies"
+        },
+        {
           "title": "Safety & Compliance Officer",
           "reqId": "44653",
           "notionUrl": "https://www.notion.so/ef9da16beee847dd8c1459c619ab8f80",
@@ -1755,6 +1755,16 @@
           "stage": "Recruiter Review",
           "agingBand": "🟢 0–2",
           "department": ""
+        },
+        {
+          "title": "Program Manager",
+          "reqId": "44597",
+          "notionUrl": "https://www.notion.so/2951837b7f484332a9b39a2b268e1de4",
+          "owner": "Gabriel",
+          "campus": "St. Petersburg",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "510416 - STP Student Outreach and Support"
         },
         {
           "title": "Associate VP Athletics Retail Ops",
@@ -2061,8 +2071,8 @@
       "color": "#CFC483"
     },
     {
-      "label": "Other (184 depts)",
-      "count": 356,
+      "label": "Other (185 depts)",
+      "count": 359,
       "color": "#c8c7c2"
     }
   ],
@@ -2075,8 +2085,8 @@
     },
     {
       "label": "Recruiter Review",
-      "avgDays": 15,
-      "count": 41,
+      "avgDays": 16,
+      "count": 39,
       "color": "#006747"
     },
     {
@@ -8880,8 +8890,8 @@
         "recruiter": "Gabriel",
         "color": "#00A693",
         "stalled": 1,
-        "totalActive": 13,
-        "stallRatePct": 8
+        "totalActive": 14,
+        "stallRatePct": 7
       },
       {
         "recruiter": "John",
@@ -8979,6 +8989,10 @@
       {
         "label": "Oct '26",
         "count": 42
+      },
+      {
+        "label": "Nov '26",
+        "count": 1
       }
     ]
   },
@@ -10455,8 +10469,8 @@
       "bgLight": "#e6f2ed",
       "bgDark": "#042e24",
       "campus": "St Pete / Tampa",
-      "reqs": 188,
-      "activeReqs": 57,
+      "reqs": 191,
+      "activeReqs": 60,
       "filled": 115,
       "failed": 16,
       "ttf": 53,
@@ -10540,7 +10554,24 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "status": "Healthy",
+          "records": []
+        },
+        {
+          "band": "🟢 0–2",
+          "color": "#2A500B",
+          "bgLight": "#E4EFD6",
+          "status": "Healthy",
           "records": [
+            {
+              "title": "Senior Strategic Data Analyst",
+              "reqId": "44698",
+              "notionUrl": "https://www.notion.so/a39e706ef028429b86a2c8ae31053e68",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "140100 - College Business Admin Dean"
+            },
             {
               "title": "Academic Program Specialist",
               "reqId": "44664",
@@ -10548,7 +10579,7 @@
               "owner": "Gabriel",
               "campus": "St. Petersburg",
               "stage": "Recruiter Review",
-              "agingBand": "🟢 3–5",
+              "agingBand": "🟢 0–2",
               "department": "511413 - STP MCOB Undergraduate Studies"
             },
             {
@@ -10558,17 +10589,9 @@
               "owner": "Gabriel",
               "campus": "St. Petersburg",
               "stage": "Recruiter Review",
-              "agingBand": "🟢 3–5",
+              "agingBand": "🟢 0–2",
               "department": "510416 - STP Student Outreach and Support"
-            }
-          ]
-        },
-        {
-          "band": "🟢 0–2",
-          "color": "#2A500B",
-          "bgLight": "#E4EFD6",
-          "status": "Healthy",
-          "records": [
+            },
             {
               "title": "Analyst Statistical Data -CUTR",
               "reqId": "44529",
@@ -10635,8 +10658,8 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 3,
-          "count": 3,
+          "avgDays": 2,
+          "count": 1,
           "color": "#006747"
         },
         {
@@ -10660,19 +10683,19 @@
       ],
       "statuses": [
         {
+          "label": "Faculty Hiring",
+          "count": 20,
+          "color": "#993556"
+        },
+        {
           "label": "Recruiter Review",
-          "count": 3,
+          "count": 4,
           "color": "#006747"
         },
         {
           "label": "Backlog",
           "count": 2,
           "color": "#888780"
-        },
-        {
-          "label": "Faculty Hiring",
-          "count": 18,
-          "color": "#993556"
         },
         {
           "label": "Evergreen / Continuous Pool",
@@ -10750,7 +10773,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 2
+          "count": 0
         },
         {
           "label": "🟢 0–2",
@@ -10759,13 +10782,13 @@
           "color": "#2A500B",
           "bgLight": "#E4EFD6",
           "bgDark": "#1a3309",
-          "count": 6
+          "count": 9
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 57
+          "count": 60
         },
         {
           "label": "Screened",
@@ -10786,14 +10809,14 @@
       ],
       "activeFunnel": [
         {
+          "label": "Recruiter Review",
+          "count": 4,
+          "color": "#006747"
+        },
+        {
           "label": "Pre-boarding",
           "count": 4,
           "color": "#5B8FA8"
-        },
-        {
-          "label": "Recruiter Review",
-          "count": 3,
-          "color": "#006747"
         },
         {
           "label": "Backlog",
@@ -10819,12 +10842,12 @@
       "reqTypes": [
         {
           "label": "Faculty",
-          "count": 18,
+          "count": 20,
           "color": "#993556"
         },
         {
           "label": "Active",
-          "count": 13,
+          "count": 14,
           "color": "#004d35"
         },
         {
@@ -10864,13 +10887,13 @@
         {
           "label": "Screened",
           "value": 0,
-          "target": 188,
+          "target": 191,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 2,
-          "target": 188,
+          "target": 191,
           "invert": false
         }
       ],
