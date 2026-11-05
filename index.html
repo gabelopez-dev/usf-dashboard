@@ -322,6 +322,7 @@ function statusOf(band) {
   const min = tierMin(band);
   return min >= STALLED_MIN_DAYS ? 'Stalled' : min >= ATTENTION_MIN_DAYS ? 'Slowing' : 'Healthy';
 }
+const statusLabel = st => st === 'Healthy' ? 'Activity current' : st;   // display only; data keeps 'Healthy'
 const statusRange = st => st === 'Stalled' ? `${STALLED_MIN_DAYS}+` : st === 'Slowing' ? `${ATTENTION_MIN_DAYS}\u2013${STALLED_MIN_DAYS - 1}` : `0\u2013${ATTENTION_MIN_DAYS - 1}`;
 const reqs = n => `${show(n)} req${n === 1 ? '' : 's'}`;
 
@@ -389,14 +390,14 @@ function agingBlock(tiers, records, ctx) {
   if (records) AGING_SETS[ctx] = records;
   if (!total) return `<p class="empty">No aging data available yet</p>`;
   const segs = tiers.filter(t => t.count > 0).map(t =>
-    `<button type="button" data-drill="${esc(ctx)}" data-band="${esc(t.label)}" style="flex:${t.count} 1 0;background:${esc(t.color)};color:${textOn(t.color)}" title="${esc(statusOf(t.label))}, ${esc(tierName(t.label))}: ${t.count}" aria-label="${esc(statusOf(t.label))}, ${esc(tierName(t.label))}: ${t.count} reqs">${t.count / total >= 0.06 ? t.count : ''}</button>`).join('');
+    `<button type="button" data-drill="${esc(ctx)}" data-band="${esc(t.label)}" style="flex:${t.count} 1 0;background:${esc(t.color)};color:${textOn(t.color)}" title="${esc(statusLabel(statusOf(t.label)))}, ${esc(tierName(t.label))}: ${t.count}" aria-label="${esc(statusLabel(statusOf(t.label)))}, ${esc(tierName(t.label))}: ${t.count} reqs">${t.count / total >= 0.06 ? t.count : ''}</button>`).join('');
   const chips = tiers.map(t =>
     `<button type="button" class="tier" style="${tierStyle(t)}" ${t.count > 0 && records ? `data-drill="${esc(ctx)}" data-band="${esc(t.label)}"` : 'disabled'}>
-      <span class="tier-sw"></span><span><span class="tier-n">${show(t.count)}</span><br><span class="tier-l">${esc(tierName(t.label))} \u00b7 ${esc(statusOf(t.label))}</span></span>
+      <span class="tier-sw"></span><span><span class="tier-n">${show(t.count)}</span><br><span class="tier-l">${esc(tierName(t.label))} \u00b7 ${esc(statusLabel(statusOf(t.label)))}</span></span>
     </button>`).join('');
   const sum = ['Healthy', 'Slowing', 'Stalled'].map(st => {
     const n = tiers.filter(t => statusOf(t.label) === st).reduce((a, t) => a + (t.count || 0), 0);
-    return `<span class="status-item"><span class="status-dot" style="background:${STATUS_COLORS[st]}"></span><b>${esc(st)}</b> ${esc(statusRange(st))} days: <b class="num">${show(n)}</b></span>`;
+    return `<span class="status-item"><span class="status-dot" style="background:${STATUS_COLORS[st]}"></span><b>${esc(statusLabel(st))}</b> ${esc(statusRange(st))} days: <b class="num">${show(n)}</b></span>`;
   }).join('');
   return `<div class="status-sum">${sum}</div><div class="strip" role="group" aria-label="Aging tiers">${segs}</div><div class="tiers">${chips}</div>`;
 }
@@ -467,7 +468,7 @@ function renderOverview(data) {
   const aging = card('Aging at a glance',
     `<p class="scope">Active req type only (<b>${show(agingTotal)}</b> of <b>${show(s.openReqs)}</b> open reqs) · days since last stage change. Select a tier to see the reqs.</p>
      ${agingBlock(agingTiers, data.agingRecords || null, 'main')}`,
-    { tip: `Healthy 0\u2013${ATTENTION_MIN_DAYS - 1} days, Slowing ${ATTENTION_MIN_DAYS}\u2013${STALLED_MIN_DAYS - 1}, Stalled ${STALLED_MIN_DAYS}+. Only the Active req type is aged; Passive, Faculty, Student, Evergreen and Targeted reqs follow their own monitoring workflows.` });
+    { tip: `Activity current 0\u2013${ATTENTION_MIN_DAYS - 1} days, Slowing ${ATTENTION_MIN_DAYS}\u2013${STALLED_MIN_DAYS - 1}, Stalled ${STALLED_MIN_DAYS}+. Only the Active req type is aged; Passive, Faculty, Student, Evergreen and Targeted reqs follow their own monitoring workflows.` });
 
   const pipeline = pipelineCards(data, data.mainFunnel);
 
@@ -572,7 +573,7 @@ function rowHTML(rec, { showOwner = false } = {}) {
     <div class="row-main"><div class="row-title" title="${esc(rec.title)}">${esc(rec.title || 'Untitled')}</div><div class="row-meta">${meta || '&nbsp;'}</div></div>
     <div class="row-chips">
       <span class="chip stage-chip"><span class="chip-dot" style="background:${esc(sc)}"></span>${esc(rec.stage || '—')}</span>
-      <span class="chip age-chip">${esc(statusOf(b.band))} \u00b7 ${esc(tierName(b.band))}</span>
+      <span class="chip age-chip">${esc(statusLabel(statusOf(b.band)))} \u00b7 ${esc(tierName(b.band))}</span>
     </div>
     <div class="row-open">${url ? `<a class="btn btn-sm" href="${esc(url)}" target="_blank" rel="noopener">Open ↗</a>` : '<span class="row-meta">—</span>'}</div>
   </div>`;
@@ -700,7 +701,7 @@ function openDrill(ctx, band, opener) {
   if (!b) return;
   drill = { recs: (b.records || []).map(rec => ({ ...rec, _band: b })), ctx, opener };
   const who = ctx === 'main' ? '' : ((RECRUITERS.find(r => r.id === ctx) || {}).name || '') + ' · ';
-  document.getElementById('sheetTitle').textContent = who + statusOf(b.band) + ': ' + tierName(b.band) + ' since last stage change';
+  document.getElementById('sheetTitle').textContent = who + statusLabel(statusOf(b.band)) + ': ' + tierName(b.band) + ' since last stage change';
   document.getElementById('sheetSearch').value = '';
   drawDrill();
   document.getElementById('scrim').classList.add('open');
