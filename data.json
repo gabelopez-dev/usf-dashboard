@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-13T17:00:03.964Z",
+  "lastUpdated": "2026-11-13T22:30:21.708Z",
   "summary": {
-    "openReqs": 781,
+    "openReqs": 780,
     "avgTimeToFill": 79,
-    "filledYTD": 443,
+    "filledYTD": 444,
     "failedCancelled": 87,
     "inOfferStage": 10
   },
@@ -25,7 +25,7 @@
     },
     {
       "label": "Tallahassee",
-      "count": 9,
+      "count": 8,
       "color": "#7A9EB5"
     },
     {
@@ -47,7 +47,7 @@
     },
     {
       "label": "HM Review",
-      "count": 128,
+      "count": 127,
       "color": "#534AB7"
     },
     {
@@ -109,7 +109,7 @@
     },
     {
       "label": "HM Review",
-      "count": 40,
+      "count": 39,
       "color": "#534AB7"
     },
     {
@@ -146,7 +146,7 @@
   "reqTypes": [
     {
       "label": "Active",
-      "count": 276,
+      "count": 275,
       "color": "#004d35"
     },
     {
@@ -197,7 +197,7 @@
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 31
+      "count": 30
     },
     {
       "label": "🟢 6–14",
@@ -941,16 +941,6 @@
           "stage": "Pre-boarding",
           "agingBand": "🟡 15–30",
           "department": "066200 - WUSF-FM"
-        },
-        {
-          "title": "School Improvement Coordinator",
-          "reqId": "44108",
-          "notionUrl": "https://www.notion.so/cdc1376c7a7c478db2f0385352c38cba",
-          "owner": "Aidi",
-          "campus": "Tallahassee",
-          "stage": "HM Review",
-          "agingBand": "🟡 15–30",
-          "department": "177500 - Inst For School Comm Partnersh"
         },
         {
           "title": "Systems & Business Process Dir",
@@ -3096,27 +3086,27 @@
       "color": "#7A9EB5"
     },
     {
-      "label": "177500 - Inst For School Comm Partnersh",
+      "label": "126100 - Social Work",
       "count": 9,
       "color": "#5B7A8A"
     },
     {
-      "label": "126100 - Social Work",
-      "count": 9,
-      "color": "#534AB7"
-    },
-    {
       "label": "373000 - Financial Aid",
       "count": 8,
-      "color": "#993556"
+      "color": "#534AB7"
     },
     {
       "label": "616300 - Health Informatics Institute",
       "count": 8,
-      "color": "#006747"
+      "color": "#993556"
     },
     {
       "label": "120100 - Arts And Sciences - Dean",
+      "count": 8,
+      "color": "#006747"
+    },
+    {
+      "label": "177500 - Inst For School Comm Partnersh",
       "count": 8,
       "color": "#1B6A9C"
     },
@@ -3176,13 +3166,13 @@
     {
       "label": "Recruiter Review",
       "avgDays": 9,
-      "count": 112,
+      "count": 111,
       "color": "#006747"
     },
     {
       "label": "HM Review",
       "avgDays": 36,
-      "count": 40,
+      "count": 39,
       "color": "#534AB7"
     },
     {
@@ -4910,6 +4900,17 @@
       "reqType": "Active",
       "ttf": 96,
       "notionUrl": "https://www.notion.so/99ecc3530d9348958159d791ba69bbda"
+    },
+    {
+      "title": "School Improvement Coordinator",
+      "reqId": "44108",
+      "owner": "Aidi",
+      "campus": "Tallahassee",
+      "stage": "Hired",
+      "department": "177500 - Inst For School Comm Partnersh",
+      "reqType": "Active",
+      "ttf": 95,
+      "notionUrl": "https://www.notion.so/cdc1376c7a7c478db2f0385352c38cba"
     },
     {
       "title": "Business Analyst",
@@ -9114,15 +9115,15 @@
         "fillRatePct": 83
       },
       {
-        "department": "210800 - AICC Bellini College Department",
+        "department": "177500 - Inst For School Comm Partnersh",
         "filled": 9,
         "failed": 0,
         "cancelled": 0,
         "fillRatePct": 100
       },
       {
-        "department": "177500 - Inst For School Comm Partnersh",
-        "filled": 8,
+        "department": "210800 - AICC Bellini College Department",
+        "filled": 9,
         "failed": 0,
         "cancelled": 0,
         "fillRatePct": 100
@@ -10210,7 +10211,7 @@
       {
         "reqType": "Active",
         "avgDays": 79,
-        "count": 221
+        "count": 222
       },
       {
         "reqType": "Student",
@@ -10261,8 +10262,8 @@
       },
       {
         "campus": "Tallahassee",
-        "avgDays": 87,
-        "count": 7
+        "avgDays": 88,
+        "count": 8
       }
     ],
     "topHiringDepartments": [
@@ -10333,7 +10334,7 @@
         "recruiter": "Aidi",
         "color": "#534AB7",
         "stalled": 2,
-        "totalActive": 36,
+        "totalActive": 35,
         "stallRatePct": 6
       },
       {
@@ -13059,11 +13060,11 @@
       "bgDark": "#1f1a4d",
       "campus": "Tampa",
       "reqs": 79,
-      "activeReqs": 63,
-      "filled": 11,
+      "activeReqs": 62,
+      "filled": 12,
       "failed": 5,
-      "ttf": 75,
-      "wip": 11,
+      "ttf": 78,
+      "wip": 9,
       "agingRecords": [
         {
           "band": "🔴 31+",
@@ -13148,16 +13149,6 @@
               "stage": "HM Review",
               "agingBand": "🟡 15–30",
               "department": "177800 - School Mental Health Collaborative"
-            },
-            {
-              "title": "School Improvement Coordinator",
-              "reqId": "44108",
-              "notionUrl": "https://www.notion.so/cdc1376c7a7c478db2f0385352c38cba",
-              "owner": "Aidi",
-              "campus": "Tallahassee",
-              "stage": "HM Review",
-              "agingBand": "🟡 15–30",
-              "department": "177500 - Inst For School Comm Partnersh"
             },
             {
               "title": "Systems & Business Process Dir",
@@ -13476,13 +13467,13 @@
         {
           "label": "Recruiter Review",
           "avgDays": 5,
-          "count": 14,
+          "count": 13,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 22,
-          "count": 8,
+          "avgDays": 21,
+          "count": 7,
           "color": "#534AB7"
         },
         {
@@ -13517,7 +13508,7 @@
         },
         {
           "label": "HM Review",
-          "count": 9,
+          "count": 8,
           "color": "#534AB7"
         },
         {
@@ -13573,7 +13564,7 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 10
+          "count": 9
         },
         {
           "label": "🟢 6–14",
@@ -13606,7 +13597,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 63
+          "count": 62
         },
         {
           "label": "Screened",
@@ -13614,7 +13605,7 @@
         },
         {
           "label": "HM Review",
-          "count": 9
+          "count": 8
         },
         {
           "label": "Interviews",
@@ -13638,7 +13629,7 @@
         },
         {
           "label": "HM Review",
-          "count": 8,
+          "count": 7,
           "color": "#534AB7"
         },
         {
@@ -13660,7 +13651,7 @@
       "reqTypes": [
         {
           "label": "Active",
-          "count": 36,
+          "count": 35,
           "color": "#004d35"
         },
         {
@@ -13692,13 +13683,13 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 11,
+          "value": 12,
           "target": 10,
           "invert": false
         },
         {
           "label": "Time to fill",
-          "value": 75,
+          "value": 78,
           "target": 40,
           "invert": true
         },
@@ -13716,12 +13707,12 @@
         }
       ],
       "trend": [
-        75,
-        75,
-        75,
-        75,
-        75,
-        75
+        78,
+        78,
+        78,
+        78,
+        78,
+        78
       ]
     }
   ]
