@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-11-13T08:34:28.532Z",
+  "lastUpdated": "2026-11-13T17:00:03.964Z",
   "summary": {
-    "openReqs": 783,
+    "openReqs": 781,
     "avgTimeToFill": 79,
-    "filledYTD": 442,
-    "failedCancelled": 86,
+    "filledYTD": 443,
+    "failedCancelled": 87,
     "inOfferStage": 10
   },
   "campus": [
     {
       "label": "Tampa",
-      "count": 418,
+      "count": 417,
       "color": "#1B6A9C"
     },
     {
@@ -20,7 +20,7 @@
     },
     {
       "label": "USF Health",
-      "count": 305,
+      "count": 304,
       "color": "#00A693"
     },
     {
@@ -47,7 +47,7 @@
     },
     {
       "label": "HM Review",
-      "count": 129,
+      "count": 128,
       "color": "#534AB7"
     },
     {
@@ -67,7 +67,7 @@
     },
     {
       "label": "Evergreen / Continuous Pool",
-      "count": 25,
+      "count": 24,
       "color": "#6B8E4E"
     },
     {
@@ -109,7 +109,7 @@
     },
     {
       "label": "HM Review",
-      "count": 41,
+      "count": 40,
       "color": "#534AB7"
     },
     {
@@ -146,7 +146,7 @@
   "reqTypes": [
     {
       "label": "Active",
-      "count": 277,
+      "count": 276,
       "color": "#004d35"
     },
     {
@@ -156,7 +156,7 @@
     },
     {
       "label": "Evergreen",
-      "count": 113,
+      "count": 112,
       "color": "#6B8E4E"
     },
     {
@@ -188,7 +188,7 @@
       "color": "#A32D2D",
       "bgLight": "#FAD9D9",
       "bgDark": "#2e0f0f",
-      "count": 50
+      "count": 49
     },
     {
       "label": "🟡 15–30",
@@ -343,16 +343,6 @@
           "stage": "Recruiter Review",
           "agingBand": "🔴 31+",
           "department": "620100 - College Of Nursing"
-        },
-        {
-          "title": "Coordinator of Library Operations",
-          "reqId": "44371",
-          "notionUrl": "https://www.notion.so/77d1424f85ae427895dcf315d7d13014",
-          "owner": "Aidi",
-          "campus": "Tampa",
-          "stage": "HM Review",
-          "agingBand": "🔴 31+",
-          "department": "400100 - Univ Lib Deans Office"
         },
         {
           "title": "Research Support Assista",
@@ -3151,33 +3141,28 @@
       "color": "#5B7A8A"
     },
     {
-      "label": "026100 - University Police",
+      "label": "047700 - Career & Professional Dev",
       "count": 6,
       "color": "#534AB7"
     },
     {
-      "label": "047700 - Career & Professional Dev",
+      "label": "614400 - Molecular Medicine",
       "count": 6,
       "color": "#993556"
     },
     {
-      "label": "614400 - Molecular Medicine",
+      "label": "612300 - Dept Of Interna",
       "count": 6,
       "color": "#006747"
     },
     {
-      "label": "612300 - Dept Of Interna",
+      "label": "122900 - School Of Aging Studies",
       "count": 6,
       "color": "#1B6A9C"
     },
     {
-      "label": "122900 - School Of Aging Studies",
-      "count": 6,
-      "color": "#00A693"
-    },
-    {
-      "label": "Other (209 depts)",
-      "count": 415,
+      "label": "Other (210 depts)",
+      "count": 419,
       "color": "#c8c7c2"
     }
   ],
@@ -3197,7 +3182,7 @@
     {
       "label": "HM Review",
       "avgDays": 36,
-      "count": 41,
+      "count": 40,
       "color": "#534AB7"
     },
     {
@@ -3836,6 +3821,17 @@
       "reqType": "Active",
       "ttf": 155,
       "notionUrl": "https://www.notion.so/3fec54dd4d264a6aa8c6cd38215829c4"
+    },
+    {
+      "title": "University Police Events Specialist",
+      "reqId": "43725",
+      "owner": "johncalebrese",
+      "campus": "USF Health",
+      "stage": "Hired",
+      "department": "026100 - University Police",
+      "reqType": "Evergreen",
+      "ttf": 154,
+      "notionUrl": "https://www.notion.so/38f9ddf757a080629d63fc72ed458f23"
     },
     {
       "title": "NRT Program Coordinator",
@@ -6003,6 +5999,17 @@
       "reqType": "Active",
       "ttf": 60,
       "notionUrl": "https://www.notion.so/2b9f5fe4fb0947bcb7d4294646e0e2bd"
+    },
+    {
+      "title": "Coordinator of Library Operations",
+      "reqId": "44371",
+      "owner": "Aidi",
+      "campus": "Tampa",
+      "stage": "Canceled",
+      "department": "400100 - Univ Lib Deans Office",
+      "reqType": "Active",
+      "ttf": 59,
+      "notionUrl": "https://www.notion.so/77d1424f85ae427895dcf315d7d13014"
     },
     {
       "title": "Research Compliance Admin II",
@@ -9157,7 +9164,7 @@
       },
       {
         "department": "026100 - University Police",
-        "filled": 4,
+        "filled": 5,
         "failed": 0,
         "cancelled": 1,
         "fillRatePct": 100
@@ -9450,6 +9457,13 @@
         "fillRatePct": 100
       },
       {
+        "department": "400100 - Univ Lib Deans Office",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 1,
+        "fillRatePct": 100
+      },
+      {
         "department": "171400 - Teaching & Learning",
         "filled": 2,
         "failed": 0,
@@ -9675,13 +9689,6 @@
       },
       {
         "department": "121000 - Molecular Biosciences",
-        "filled": 1,
-        "failed": 0,
-        "cancelled": 0,
-        "fillRatePct": 100
-      },
-      {
-        "department": "400100 - Univ Lib Deans Office",
         "filled": 1,
         "failed": 0,
         "cancelled": 0,
@@ -10217,8 +10224,8 @@
       },
       {
         "reqType": "Evergreen",
-        "avgDays": 113,
-        "count": 40
+        "avgDays": 114,
+        "count": 41
       },
       {
         "reqType": "Targeted",
@@ -10240,7 +10247,7 @@
       {
         "campus": "USF Health",
         "avgDays": 111,
-        "count": 127
+        "count": 128
       },
       {
         "campus": "St. Petersburg",
@@ -10325,9 +10332,9 @@
       {
         "recruiter": "Aidi",
         "color": "#534AB7",
-        "stalled": 3,
-        "totalActive": 37,
-        "stallRatePct": 8
+        "stalled": 2,
+        "totalActive": 36,
+        "stallRatePct": 6
       },
       {
         "recruiter": "Katherine",
@@ -11383,8 +11390,8 @@
       "bgDark": "#2a0e1a",
       "campus": "Tampa",
       "reqs": 229,
-      "activeReqs": 72,
-      "filled": 135,
+      "activeReqs": 71,
+      "filled": 136,
       "failed": 22,
       "ttf": 64,
       "wip": 0,
@@ -11705,7 +11712,7 @@
         },
         {
           "label": "Evergreen / Continuous Pool",
-          "count": 12,
+          "count": 11,
           "color": "#6B8E4E"
         }
       ],
@@ -11759,7 +11766,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 72
+          "count": 71
         },
         {
           "label": "Screened",
@@ -11828,7 +11835,7 @@
         },
         {
           "label": "Evergreen",
-          "count": 12,
+          "count": 11,
           "color": "#6B8E4E"
         },
         {
@@ -11840,7 +11847,7 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 135,
+          "value": 136,
           "target": 10,
           "invert": false
         },
@@ -13052,9 +13059,9 @@
       "bgDark": "#1f1a4d",
       "campus": "Tampa",
       "reqs": 79,
-      "activeReqs": 64,
+      "activeReqs": 63,
       "filled": 11,
-      "failed": 4,
+      "failed": 5,
       "ttf": 75,
       "wip": 11,
       "agingRecords": [
@@ -13073,16 +13080,6 @@
               "stage": "Interview Stage",
               "agingBand": "🔴 31+",
               "department": "170105 - COEDU Undergraduate Studies"
-            },
-            {
-              "title": "Coordinator of Library Operations",
-              "reqId": "44371",
-              "notionUrl": "https://www.notion.so/77d1424f85ae427895dcf315d7d13014",
-              "owner": "Aidi",
-              "campus": "Tampa",
-              "stage": "HM Review",
-              "agingBand": "🔴 31+",
-              "department": "400100 - Univ Lib Deans Office"
             },
             {
               "title": "Office Admin & Executive Asst to the Dean",
@@ -13484,8 +13481,8 @@
         },
         {
           "label": "HM Review",
-          "avgDays": 23,
-          "count": 9,
+          "avgDays": 22,
+          "count": 8,
           "color": "#534AB7"
         },
         {
@@ -13520,7 +13517,7 @@
         },
         {
           "label": "HM Review",
-          "count": 10,
+          "count": 9,
           "color": "#534AB7"
         },
         {
@@ -13567,7 +13564,7 @@
           "color": "#A32D2D",
           "bgLight": "#FAD9D9",
           "bgDark": "#2e0f0f",
-          "count": 3
+          "count": 2
         },
         {
           "label": "🟡 15–30",
@@ -13609,7 +13606,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 64
+          "count": 63
         },
         {
           "label": "Screened",
@@ -13617,7 +13614,7 @@
         },
         {
           "label": "HM Review",
-          "count": 10
+          "count": 9
         },
         {
           "label": "Interviews",
@@ -13641,7 +13638,7 @@
         },
         {
           "label": "HM Review",
-          "count": 9,
+          "count": 8,
           "color": "#534AB7"
         },
         {
@@ -13663,7 +13660,7 @@
       "reqTypes": [
         {
           "label": "Active",
-          "count": 37,
+          "count": 36,
           "color": "#004d35"
         },
         {
