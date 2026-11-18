@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-17T19:19:15.974Z",
+  "lastUpdated": "2026-11-18T01:47:49.628Z",
   "summary": {
-    "openReqs": 774,
+    "openReqs": 773,
     "avgTimeToFill": 80,
-    "filledYTD": 457,
+    "filledYTD": 458,
     "failedCancelled": 89,
     "inOfferStage": 10
   },
@@ -20,7 +20,7 @@
     },
     {
       "label": "USF Health",
-      "count": 301,
+      "count": 300,
       "color": "#00A693"
     },
     {
@@ -47,7 +47,7 @@
     },
     {
       "label": "HM Review",
-      "count": 123,
+      "count": 122,
       "color": "#534AB7"
     },
     {
@@ -77,12 +77,12 @@
     },
     {
       "label": "Interview Stage",
-      "count": 13,
+      "count": 12,
       "color": "#D4880A"
     },
     {
       "label": "Pre-boarding",
-      "count": 11,
+      "count": 12,
       "color": "#5B8FA8"
     },
     {
@@ -109,23 +109,23 @@
     },
     {
       "label": "HM Review",
-      "count": 35,
+      "count": 34,
       "color": "#534AB7"
     },
     {
       "label": "Interview Stage",
-      "count": 13,
+      "count": 12,
       "color": "#D4880A"
+    },
+    {
+      "label": "Pre-boarding",
+      "count": 8,
+      "color": "#5B8FA8"
     },
     {
       "label": "Offer Stage",
       "count": 7,
       "color": "#CFC483"
-    },
-    {
-      "label": "Pre-boarding",
-      "count": 7,
-      "color": "#5B8FA8"
     },
     {
       "label": "Student Hiring",
@@ -146,7 +146,7 @@
   "reqTypes": [
     {
       "label": "Active",
-      "count": 272,
+      "count": 271,
       "color": "#004d35"
     },
     {
@@ -188,7 +188,7 @@
       "color": "#A32D2D",
       "bgLight": "#FAD9D9",
       "bgDark": "#2e0f0f",
-      "count": 48
+      "count": 47
     },
     {
       "label": "🟡 15–30",
@@ -197,7 +197,7 @@
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 56
+      "count": 60
     },
     {
       "label": "🟢 6–14",
@@ -206,7 +206,7 @@
       "color": "#5E8C2E",
       "bgLight": "#EEF5E4",
       "bgDark": "#1a3309",
-      "count": 149
+      "count": 146
     },
     {
       "label": "🟢 3–5",
@@ -215,7 +215,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 4
+      "count": 1
     },
     {
       "label": "🟢 0–2",
@@ -224,7 +224,7 @@
       "color": "#2A500B",
       "bgLight": "#E4EFD6",
       "bgDark": "#1a3309",
-      "count": 15
+      "count": 17
     }
   ],
   "agingRecords": [
@@ -423,16 +423,6 @@
           "stage": "Recruiter Review",
           "agingBand": "🔴 31+",
           "department": "620100 - College Of Nurs"
-        },
-        {
-          "title": "Academic Advisor I",
-          "reqId": "43944",
-          "notionUrl": "https://www.notion.so/2ed31c13e4dc46c9b76fe40789201832",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "HM Review",
-          "agingBand": "🔴 31+",
-          "department": "641200 - COPH Acad anc"
         },
         {
           "title": "IT Resource Manager II",
@@ -983,6 +973,16 @@
           "department": "351000 - Information Technology"
         },
         {
+          "title": "Event Manager",
+          "reqId": "44607",
+          "notionUrl": "https://www.notion.so/9e91cb683b5143aebb6a043154667f97",
+          "owner": "Tameka Porter",
+          "campus": "Tampa",
+          "stage": "Interview Stage",
+          "agingBand": "🟡 15–30",
+          "department": "240100 - CDAP Dean's Office"
+        },
+        {
           "title": "IT HR Innovation Partner I",
           "reqId": "44619",
           "notionUrl": "https://www.notion.so/17410c4f205a47c3a56f3e0ed729fabc",
@@ -1071,6 +1071,16 @@
           "stage": "Backlog",
           "agingBand": "🟡 15–30",
           "department": "210500 - Mechanical Engineering"
+        },
+        {
+          "title": "Complex Copy Cataloger",
+          "reqId": "44510",
+          "notionUrl": "https://www.notion.so/946bef0632b34e33876bf241eb52819a",
+          "owner": "Aidi",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟡 15–30",
+          "department": "400100 - Univ Lib Deans Office"
         },
         {
           "title": "Grant Financial Admin II",
@@ -1241,6 +1251,26 @@
           "stage": "Interview Stage",
           "agingBand": "🟡 15–30",
           "department": "638000 - College Of Phar"
+        },
+        {
+          "title": "Maintenance Technician",
+          "reqId": "44287",
+          "notionUrl": "https://www.notion.so/01776ccb59e04627b02ba932de3fc2b0",
+          "owner": "Gabriel",
+          "campus": "Key West",
+          "stage": "Pre-boarding",
+          "agingBand": "🟡 15–30",
+          "department": "471000 - Florida Inst of Oceanography"
+        },
+        {
+          "title": "Support Staff",
+          "reqId": "44150",
+          "notionUrl": "https://www.notion.so/84236d000b4f454fa31b192595a733cf",
+          "owner": "Aidi",
+          "campus": "Tallahassee",
+          "stage": "Offer Stage",
+          "agingBand": "🟡 15–30",
+          "department": "177500 - Inst For School Comm Partnersh"
         },
         {
           "title": "Registered Dietician",
@@ -2511,6 +2541,16 @@
           "department": "171400 - Teaching & Learning"
         },
         {
+          "title": "Procurement Associate",
+          "reqId": "44645",
+          "notionUrl": "https://www.notion.so/b2d8ce87dc6a4f1ab5fb310f934b72bc",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟢 6–14",
+          "department": "027900 - Procurement & Payment Services"
+        },
+        {
           "title": "Payroll Accountant",
           "reqId": "44665",
           "notionUrl": "https://www.notion.so/ada4324069504c83af4d2f4db437931c",
@@ -2519,16 +2559,6 @@
           "stage": "Recruiter Review",
           "agingBand": "🟢 6–14",
           "department": "020600 - University Controllers Office"
-        },
-        {
-          "title": "Event Manager",
-          "reqId": "44607",
-          "notionUrl": "https://www.notion.so/9e91cb683b5143aebb6a043154667f97",
-          "owner": "Tameka Porter",
-          "campus": "Tampa",
-          "stage": "Interview Stage",
-          "agingBand": "🟢 6–14",
-          "department": "240100 - CDAP Dean's Office"
         },
         {
           "title": "Academic Program Specialist",
@@ -2571,6 +2601,16 @@
           "department": "510416 - STP Student Outreach and Support"
         },
         {
+          "title": "Associate VP Athletics Retail Ops",
+          "reqId": "44616",
+          "notionUrl": "https://www.notion.so/164ebee252834987a6dbe8f9be952fbc",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟢 6–14",
+          "department": "051000 - Athletic Administration"
+        },
+        {
           "title": "Student Assistant",
           "reqId": "44626",
           "notionUrl": "https://www.notion.so/baa8837d0d1b45ec8a76ffa534432adf",
@@ -2589,16 +2629,6 @@
           "stage": "Recruiter Review",
           "agingBand": "🟢 6–14",
           "department": "177500 - Inst For School Comm Partnersh"
-        },
-        {
-          "title": "Complex Copy Cataloger",
-          "reqId": "44510",
-          "notionUrl": "https://www.notion.so/946bef0632b34e33876bf241eb52819a",
-          "owner": "Aidi",
-          "campus": "Tampa",
-          "stage": "HM Review",
-          "agingBand": "🟢 6–14",
-          "department": "400100 - Univ Lib Deans Office"
         },
         {
           "title": "Quality Assurance/Quality Improvement Compliance Auditor RCA II",
@@ -2661,16 +2691,6 @@
           "department": "177500 - Inst For School Comm Partnersh"
         },
         {
-          "title": "COEDU Open-Rank Professor Of Instruction/Director of Field and Clinical Experiences",
-          "reqId": "44604",
-          "notionUrl": "https://www.notion.so/2b53c4675e864da18b16a5c8f68145da",
-          "owner": "Aidi",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🟢 6–14",
-          "department": "170100 - COE Dean's Office"
-        },
-        {
           "title": "Admin Specialist",
           "reqId": "44598",
           "notionUrl": "https://www.notion.so/a585146a2f334837932ef4051e969beb",
@@ -2721,16 +2741,6 @@
           "department": "211700 - Ctr For Urban Transportation Research"
         },
         {
-          "title": "Maintenance Technician",
-          "reqId": "44287",
-          "notionUrl": "https://www.notion.so/01776ccb59e04627b02ba932de3fc2b0",
-          "owner": "Gabriel",
-          "campus": "Key West",
-          "stage": "Pre-boarding",
-          "agingBand": "🟢 6–14",
-          "department": "471000 - Florida Inst of Oceanography"
-        },
-        {
           "title": "Budget Analyst II",
           "reqId": "44040",
           "notionUrl": "https://www.notion.so/e52fb62d4abc435cbf5242ba4366137d",
@@ -2761,16 +2771,6 @@
           "department": "210500 - Mechanical Engineering"
         },
         {
-          "title": "Support Staff",
-          "reqId": "44150",
-          "notionUrl": "https://www.notion.so/84236d000b4f454fa31b192595a733cf",
-          "owner": "Aidi",
-          "campus": "Tallahassee",
-          "stage": "Offer Stage",
-          "agingBand": "🟢 6–14",
-          "department": "177500 - Inst For School Comm Partnersh"
-        },
-        {
           "title": "Marine Technician",
           "reqId": "43422",
           "notionUrl": "https://www.notion.so/6b66234d195c4ef49f5f27637e862e2a",
@@ -2789,26 +2789,6 @@
       "status": "Healthy",
       "records": [
         {
-          "title": "Procurement Associate",
-          "reqId": "44645",
-          "notionUrl": "https://www.notion.so/b2d8ce87dc6a4f1ab5fb310f934b72bc",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "HM Review",
-          "agingBand": "🟢 3–5",
-          "department": "027900 - Procurement & Payment Services"
-        },
-        {
-          "title": "Associate VP Athletics Retail Ops",
-          "reqId": "44616",
-          "notionUrl": "https://www.notion.so/164ebee252834987a6dbe8f9be952fbc",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "HM Review",
-          "agingBand": "🟢 3–5",
-          "department": "051000 - Athletic Administration"
-        },
-        {
           "title": "Open Rank Faculty Position - Exercise Science & Kinesiology",
           "reqId": "44534",
           "notionUrl": "https://www.notion.so/213850ea2257441dbdc3150213bff332",
@@ -2817,16 +2797,6 @@
           "stage": "Recruiter Review",
           "agingBand": "🟢 3–5",
           "department": "171500 - Educational And Psychological"
-        },
-        {
-          "title": "Business Operations (Member Experience)",
-          "reqId": "44554",
-          "notionUrl": "https://www.notion.so/02ce832e27114c0dbd1efba0cebae6b6",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Interview Stage",
-          "agingBand": "🟢 3–5",
-          "department": "019000 - Unv Community Partnerships"
         }
       ]
     },
@@ -2935,6 +2905,26 @@
           "stage": "Recruiter Review",
           "agingBand": "🟢 0–2",
           "department": "171600 - Leadership, Policy, Lifelong Learning"
+        },
+        {
+          "title": "COEDU Open-Rank Professor Of Instruction/Director of Field and Clinical Experiences",
+          "reqId": "44604",
+          "notionUrl": "https://www.notion.so/2b53c4675e864da18b16a5c8f68145da",
+          "owner": "Aidi",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 0–2",
+          "department": "170100 - COE Dean's Office"
+        },
+        {
+          "title": "Business Operations (Member Experience)",
+          "reqId": "44554",
+          "notionUrl": "https://www.notion.so/02ce832e27114c0dbd1efba0cebae6b6",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Pre-boarding",
+          "agingBand": "🟢 0–2",
+          "department": "019000 - Unv Community Partnerships"
         },
         {
           "title": "IAE Accountant I",
@@ -3137,56 +3127,56 @@
     },
     {
       "label": "Other (203 depts)",
-      "count": 395,
+      "count": 394,
       "color": "#c8c7c2"
     }
   ],
   "stageMetrics": [
     {
       "label": "Sourced",
-      "avgDays": 25,
+      "avgDays": 26,
       "count": 1,
       "color": "#00A693"
     },
     {
       "label": "Recruiter Review",
-      "avgDays": 12,
-      "count": 108,
+      "avgDays": 13,
+      "count": 109,
       "color": "#006747"
     },
     {
       "label": "HM Review",
       "avgDays": 39,
-      "count": 35,
+      "count": 34,
       "color": "#534AB7"
     },
     {
       "label": "Interview Stage",
-      "avgDays": 23,
-      "count": 13,
+      "avgDays": 26,
+      "count": 12,
       "color": "#D4880A"
     },
     {
       "label": "Offer Stage",
-      "avgDays": 11,
+      "avgDays": 12,
       "count": 7,
       "color": "#CFC483"
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 18,
-      "count": 7,
+      "avgDays": 16,
+      "count": 8,
       "color": "#5B8FA8"
     },
     {
       "label": "Backlog",
-      "avgDays": 15,
+      "avgDays": 16,
       "count": 106,
       "color": "#888780"
     },
     {
       "label": "Targeted Hiring",
-      "avgDays": 53,
+      "avgDays": 54,
       "count": 1,
       "color": "#3A5A6A"
     }
@@ -3288,7 +3278,7 @@
       "stage": "Canceled",
       "department": "041500 - Counseling Center",
       "reqType": "Active",
-      "ttf": 298,
+      "ttf": 299,
       "notionUrl": "https://www.notion.so/62b088df4d81447994bcd7e8ccf00a22"
     },
     {
@@ -3402,6 +3392,17 @@
       "notionUrl": "https://www.notion.so/a4a826f011954b0ea5f79b55af7ae622"
     },
     {
+      "title": "Director of Career Development",
+      "reqId": "42966",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Canceled",
+      "department": "047700 - Career & Professional Dev",
+      "reqType": "Active",
+      "ttf": 247,
+      "notionUrl": "https://www.notion.so/38cc22579bda4f159365f3843a6482e3"
+    },
+    {
       "title": "Licensed Human Services Pract.",
       "reqId": "42299",
       "owner": "Rebecca",
@@ -3411,17 +3412,6 @@
       "reqType": "Active",
       "ttf": 247,
       "notionUrl": "https://www.notion.so/8e380d9cc7274dda9b15105067cd8754"
-    },
-    {
-      "title": "Director of Career Development",
-      "reqId": "42966",
-      "owner": "johncalebrese",
-      "campus": "Tampa",
-      "stage": "Canceled",
-      "department": "047700 - Career & Professional Dev",
-      "reqType": "Active",
-      "ttf": 246,
-      "notionUrl": "https://www.notion.so/38cc22579bda4f159365f3843a6482e3"
     },
     {
       "title": "Hemophilia Treatment Center - Registered Nurse",
@@ -3596,7 +3586,7 @@
       "stage": "Failed Search",
       "department": "051000 - Athletic Administration",
       "reqType": "Active",
-      "ttf": 188,
+      "ttf": 189,
       "notionUrl": "https://www.notion.so/a0239e74bd2a46dbb004af24c7ae0ccb"
     },
     {
@@ -3750,7 +3740,7 @@
       "stage": "Hired",
       "department": "171700 - Lang, Lit, EdD, Excep Ed, PE",
       "reqType": "Faculty",
-      "ttf": 162,
+      "ttf": 163,
       "notionUrl": "https://www.notion.so/8303906d44fc41ebb09ec5eba6e2d3e6"
     },
     {
@@ -4007,6 +3997,17 @@
       "notionUrl": "https://www.notion.so/0c417e507d9d44039d3996c394b66d86"
     },
     {
+      "title": "AI Healthcare Engineer",
+      "reqId": "43891",
+      "owner": "Rebecca",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "612800 - Dept Of Otolary",
+      "reqType": "Evergreen",
+      "ttf": 140,
+      "notionUrl": "https://www.notion.so/9d7122807242471cba1b12f8c38af502"
+    },
+    {
       "title": "Student Assistant",
       "reqId": "43672",
       "owner": "Rebecca",
@@ -4016,17 +4017,6 @@
       "reqType": "Student",
       "ttf": 140,
       "notionUrl": "https://www.notion.so/61654cef7f4b4c83afce9908143f9dae"
-    },
-    {
-      "title": "AI Healthcare Engineer",
-      "reqId": "43891",
-      "owner": "Rebecca",
-      "campus": "Tampa",
-      "stage": "Hired",
-      "department": "612800 - Dept Of Otolary",
-      "reqType": "Evergreen",
-      "ttf": 139,
-      "notionUrl": "https://www.notion.so/9d7122807242471cba1b12f8c38af502"
     },
     {
       "title": "Academic Services Administrator",
@@ -4093,6 +4083,17 @@
       "reqType": "Active",
       "ttf": 132,
       "notionUrl": "https://www.notion.so/577448b373394db49c0cfd79e851a893"
+    },
+    {
+      "title": "Academic Advisor I",
+      "reqId": "43944",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Hired",
+      "department": "641200 - COPH Acad anc",
+      "reqType": "Active",
+      "ttf": 131,
+      "notionUrl": "https://www.notion.so/2ed31c13e4dc46c9b76fe40789201832"
     },
     {
       "title": "Manager Project Researcher",
@@ -5118,6 +5119,17 @@
       "notionUrl": "https://www.notion.so/1d79545d7d4541eea06430f3a5ff23de"
     },
     {
+      "title": "Student Assistant/ Equipment Operations-Football",
+      "reqId": "44266",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "051000 - Athletic Administration",
+      "reqType": "Student",
+      "ttf": 85,
+      "notionUrl": "https://www.notion.so/e8a7ccd60e574aa385d3c5169367cd78"
+    },
+    {
       "title": "Educational Policy Consultant",
       "reqId": "43133",
       "owner": "Gabriel",
@@ -5127,17 +5139,6 @@
       "reqType": "Passive",
       "ttf": 85,
       "notionUrl": "https://www.notion.so/e34d945b33814440a50ddbcaa3e8559f"
-    },
-    {
-      "title": "Student Assistant/ Equipment Operations-Football",
-      "reqId": "44266",
-      "owner": "johncalebrese",
-      "campus": "Tampa",
-      "stage": "Hired",
-      "department": "051000 - Athletic Administration",
-      "reqType": "Student",
-      "ttf": 84,
-      "notionUrl": "https://www.notion.so/e8a7ccd60e574aa385d3c5169367cd78"
     },
     {
       "title": "Jr HR Business Partner",
@@ -5250,6 +5251,17 @@
       "notionUrl": "https://www.notion.so/ae2c4c1213354e16aa430d7ddd8d4e4a"
     },
     {
+      "title": "Student Assistant/Sports Medicine",
+      "reqId": "44288",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "051000 - Athletic Administration",
+      "reqType": "Student",
+      "ttf": 82,
+      "notionUrl": "https://www.notion.so/f20d8c4622024d9ba02b0557a060bda9"
+    },
+    {
       "title": "Research Compliance Administrator - Conflict of Interest",
       "reqId": "43312",
       "owner": "Aidi",
@@ -5292,17 +5304,6 @@
       "reqType": "Active",
       "ttf": 82,
       "notionUrl": "https://www.notion.so/7ed4473f9ae741598302f270bf0f02dc"
-    },
-    {
-      "title": "Student Assistant/Sports Medicine",
-      "reqId": "44288",
-      "owner": "johncalebrese",
-      "campus": "Tampa",
-      "stage": "Hired",
-      "department": "051000 - Athletic Administration",
-      "reqType": "Student",
-      "ttf": 81,
-      "notionUrl": "https://www.notion.so/f20d8c4622024d9ba02b0557a060bda9"
     },
     {
       "title": "Other Hourly Professional/Support- Human Services Practitioner",
@@ -5778,6 +5779,17 @@
       "notionUrl": "https://www.notion.so/96a3a13de84343978ab46da8798826e9"
     },
     {
+      "title": "Clinical Research Coordin",
+      "reqId": "44359",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Hired",
+      "department": "612500 - Dept Of Neurol",
+      "reqType": "Passive",
+      "ttf": 68,
+      "notionUrl": "https://www.notion.so/26784c2d0a554b318c5646de9895466c"
+    },
+    {
       "title": "Oracle Reporting Analyst III",
       "reqId": "43808",
       "owner": "Tameka Porter",
@@ -5798,17 +5810,6 @@
       "reqType": "Active",
       "ttf": 68,
       "notionUrl": "https://www.notion.so/38f9ddf757a080788d59d32e57e7264b"
-    },
-    {
-      "title": "Clinical Research Coordin",
-      "reqId": "44359",
-      "owner": "Rebecca",
-      "campus": "USF Health",
-      "stage": "Hired",
-      "department": "612500 - Dept Of Neurol",
-      "reqType": "Passive",
-      "ttf": 67,
-      "notionUrl": "https://www.notion.so/26784c2d0a554b318c5646de9895466c"
     },
     {
       "title": "Data Analyst",
@@ -9727,6 +9728,13 @@
         "fillRatePct": 100
       },
       {
+        "department": "641200 - COPH Acad anc",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
         "department": "213400 - Inst Of Applied Engineering",
         "filled": 1,
         "failed": 0,
@@ -10396,7 +10404,7 @@
       {
         "reqType": "Active",
         "avgDays": 80,
-        "count": 226
+        "count": 227
       },
       {
         "reqType": "Student",
@@ -10432,8 +10440,8 @@
       },
       {
         "campus": "USF Health",
-        "avgDays": 110,
-        "count": 130
+        "avgDays": 111,
+        "count": 131
       },
       {
         "campus": "St. Petersburg",
@@ -10497,8 +10505,8 @@
       {
         "recruiter": "Rebecca",
         "color": "#1B6A9C",
-        "stalled": 31,
-        "totalActive": 44,
+        "stalled": 30,
+        "totalActive": 43,
         "stallRatePct": 70
       },
       {
@@ -10814,10 +10822,10 @@
       "bgDark": "#3d2504",
       "campus": "Tampa",
       "reqs": 434,
-      "activeReqs": 245,
-      "filled": 154,
+      "activeReqs": 244,
+      "filled": 155,
       "failed": 35,
-      "ttf": 114,
+      "ttf": 115,
       "wip": 11,
       "agingRecords": [
         {
@@ -10935,16 +10943,6 @@
               "stage": "Recruiter Review",
               "agingBand": "🔴 31+",
               "department": "620100 - College Of Nurs"
-            },
-            {
-              "title": "Academic Advisor I",
-              "reqId": "43944",
-              "notionUrl": "https://www.notion.so/2ed31c13e4dc46c9b76fe40789201832",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "HM Review",
-              "agingBand": "🔴 31+",
-              "department": "641200 - COPH Acad anc"
             },
             {
               "title": "Temporary Research Technician",
@@ -11303,43 +11301,43 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 45,
+          "avgDays": 46,
           "count": 12,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 51,
-          "count": 21,
+          "avgDays": 52,
+          "count": 20,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 23,
+          "avgDays": 24,
           "count": 6,
           "color": "#D4880A"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 22,
+          "avgDays": 23,
           "count": 2,
           "color": "#CFC483"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 1,
+          "avgDays": 2,
           "count": 1,
           "color": "#5B8FA8"
         },
         {
           "label": "Targeted Hiring",
-          "avgDays": 53,
+          "avgDays": 54,
           "count": 1,
           "color": "#3A5A6A"
         },
         {
           "label": "Backlog",
-          "avgDays": 76,
+          "avgDays": 77,
           "count": 1,
           "color": "#888780"
         }
@@ -11362,7 +11360,7 @@
         },
         {
           "label": "HM Review",
-          "count": 108,
+          "count": 107,
           "color": "#534AB7"
         },
         {
@@ -11404,7 +11402,7 @@
           "color": "#A32D2D",
           "bgLight": "#FAD9D9",
           "bgDark": "#2e0f0f",
-          "count": 31
+          "count": 30
         },
         {
           "label": "🟡 15–30",
@@ -11446,7 +11444,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 245
+          "count": 244
         },
         {
           "label": "Screened",
@@ -11454,7 +11452,7 @@
         },
         {
           "label": "HM Review",
-          "count": 108
+          "count": 107
         },
         {
           "label": "Interviews",
@@ -11468,7 +11466,7 @@
       "activeFunnel": [
         {
           "label": "HM Review",
-          "count": 21,
+          "count": 20,
           "color": "#534AB7"
         },
         {
@@ -11515,7 +11513,7 @@
         },
         {
           "label": "Active",
-          "count": 44,
+          "count": 43,
           "color": "#004d35"
         },
         {
@@ -11532,13 +11530,13 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 154,
+          "value": 155,
           "target": 10,
           "invert": false
         },
         {
           "label": "Time to fill",
-          "value": 114,
+          "value": 115,
           "target": 40,
           "invert": true
         },
@@ -11556,12 +11554,12 @@
         }
       ],
       "trend": [
-        114,
-        114,
-        114,
-        114,
-        114,
-        114
+        115,
+        115,
+        115,
+        115,
+        115,
+        115
       ]
     },
     {
@@ -11692,6 +11690,16 @@
           "status": "Healthy",
           "records": [
             {
+              "title": "Procurement Associate",
+              "reqId": "44645",
+              "notionUrl": "https://www.notion.so/b2d8ce87dc6a4f1ab5fb310f934b72bc",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟢 6–14",
+              "department": "027900 - Procurement & Payment Services"
+            },
+            {
               "title": "Payroll Accountant",
               "reqId": "44665",
               "notionUrl": "https://www.notion.so/ada4324069504c83af4d2f4db437931c",
@@ -11700,6 +11708,16 @@
               "stage": "Recruiter Review",
               "agingBand": "🟢 6–14",
               "department": "020600 - University Controllers Office"
+            },
+            {
+              "title": "Associate VP Athletics Retail Ops",
+              "reqId": "44616",
+              "notionUrl": "https://www.notion.so/164ebee252834987a6dbe8f9be952fbc",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟢 6–14",
+              "department": "051000 - Athletic Administration"
             },
             {
               "title": "Student Assistant",
@@ -11728,38 +11746,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "status": "Healthy",
-          "records": [
-            {
-              "title": "Procurement Associate",
-              "reqId": "44645",
-              "notionUrl": "https://www.notion.so/b2d8ce87dc6a4f1ab5fb310f934b72bc",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "HM Review",
-              "agingBand": "🟢 3–5",
-              "department": "027900 - Procurement & Payment Services"
-            },
-            {
-              "title": "Associate VP Athletics Retail Ops",
-              "reqId": "44616",
-              "notionUrl": "https://www.notion.so/164ebee252834987a6dbe8f9be952fbc",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "HM Review",
-              "agingBand": "🟢 3–5",
-              "department": "051000 - Athletic Administration"
-            },
-            {
-              "title": "Business Operations (Member Experience)",
-              "reqId": "44554",
-              "notionUrl": "https://www.notion.so/02ce832e27114c0dbd1efba0cebae6b6",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Interview Stage",
-              "agingBand": "🟢 3–5",
-              "department": "019000 - Unv Community Partnerships"
-            }
-          ]
+          "records": []
         },
         {
           "band": "🟢 0–2",
@@ -11778,6 +11765,16 @@
               "department": "021100 - Budget and Financial Analysis"
             },
             {
+              "title": "Business Operations (Member Experience)",
+              "reqId": "44554",
+              "notionUrl": "https://www.notion.so/02ce832e27114c0dbd1efba0cebae6b6",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Pre-boarding",
+              "agingBand": "🟢 0–2",
+              "department": "019000 - Unv Community Partnerships"
+            },
+            {
               "title": "IAE Accountant I",
               "reqId": "44511",
               "notionUrl": "https://www.notion.so/d4f8600a70fa4b62b0eb0ec6741fb14f",
@@ -11793,32 +11790,32 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 21,
+          "avgDays": 22,
           "count": 5,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 17,
+          "avgDays": 18,
           "count": 5,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 24,
-          "count": 3,
+          "avgDays": 34,
+          "count": 2,
           "color": "#D4880A"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 5,
+          "avgDays": 6,
           "count": 2,
           "color": "#CFC483"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 33,
-          "count": 1,
+          "avgDays": 18,
+          "count": 2,
           "color": "#5B8FA8"
         }
       ],
@@ -11854,19 +11851,19 @@
           "color": "#993556"
         },
         {
-          "label": "Interview Stage",
-          "count": 3,
-          "color": "#D4880A"
-        },
-        {
           "label": "Pre-boarding",
-          "count": 5,
+          "count": 6,
           "color": "#5B8FA8"
         },
         {
           "label": "Offer Stage",
           "count": 4,
           "color": "#CFC483"
+        },
+        {
+          "label": "Interview Stage",
+          "count": 2,
+          "color": "#D4880A"
         },
         {
           "label": "Evergreen / Continuous Pool",
@@ -11900,7 +11897,7 @@
           "color": "#5E8C2E",
           "bgLight": "#EEF5E4",
           "bgDark": "#1a3309",
-          "count": 3
+          "count": 5
         },
         {
           "label": "🟢 3–5",
@@ -11909,7 +11906,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 3
+          "count": 0
         },
         {
           "label": "🟢 0–2",
@@ -11918,7 +11915,7 @@
           "color": "#2A500B",
           "bgLight": "#E4EFD6",
           "bgDark": "#1a3309",
-          "count": 2
+          "count": 3
         }
       ],
       "funnel": [
@@ -11936,7 +11933,7 @@
         },
         {
           "label": "Interviews",
-          "count": 3
+          "count": 2
         },
         {
           "label": "Offer",
@@ -11955,9 +11952,9 @@
           "color": "#534AB7"
         },
         {
-          "label": "Interview Stage",
-          "count": 3,
-          "color": "#D4880A"
+          "label": "Pre-boarding",
+          "count": 2,
+          "color": "#5B8FA8"
         },
         {
           "label": "Offer Stage",
@@ -11965,14 +11962,14 @@
           "color": "#CFC483"
         },
         {
+          "label": "Interview Stage",
+          "count": 2,
+          "color": "#D4880A"
+        },
+        {
           "label": "Student Hiring",
           "count": 1,
           "color": "#B5651D"
-        },
-        {
-          "label": "Pre-boarding",
-          "count": 1,
-          "color": "#5B8FA8"
         }
       ],
       "reqTypes": [
@@ -12028,7 +12025,7 @@
         },
         {
           "label": "Interviews",
-          "value": 3,
+          "value": 2,
           "target": 237,
           "invert": false
         }
@@ -12055,7 +12052,7 @@
       "filled": 116,
       "failed": 16,
       "ttf": 54,
-      "wip": 3,
+      "wip": 4,
       "agingRecords": [
         {
           "band": "🔴 31+",
@@ -12089,6 +12086,16 @@
               "stage": "Backlog",
               "agingBand": "🟡 15–30",
               "department": "210500 - Mechanical Engineering"
+            },
+            {
+              "title": "Maintenance Technician",
+              "reqId": "44287",
+              "notionUrl": "https://www.notion.so/01776ccb59e04627b02ba932de3fc2b0",
+              "owner": "Gabriel",
+              "campus": "Key West",
+              "stage": "Pre-boarding",
+              "agingBand": "🟡 15–30",
+              "department": "471000 - Florida Inst of Oceanography"
             },
             {
               "title": "Contract Financial Analyst I",
@@ -12179,16 +12186,6 @@
               "department": "211700 - Ctr For Urban Transportation Research"
             },
             {
-              "title": "Maintenance Technician",
-              "reqId": "44287",
-              "notionUrl": "https://www.notion.so/01776ccb59e04627b02ba932de3fc2b0",
-              "owner": "Gabriel",
-              "campus": "Key West",
-              "stage": "Pre-boarding",
-              "agingBand": "🟢 6–14",
-              "department": "471000 - Florida Inst of Oceanography"
-            },
-            {
               "title": "OPS / Temporary Marine Engineer",
               "reqId": "44180",
               "notionUrl": "https://www.notion.so/93a718c56eaf4fd8a3a4c3995b21262b",
@@ -12238,37 +12235,37 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 12,
+          "avgDays": 13,
           "count": 2,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 10,
+          "avgDays": 11,
           "count": 2,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 16,
+          "avgDays": 17,
           "count": 2,
           "color": "#D4880A"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 12,
+          "avgDays": 13,
           "count": 1,
           "color": "#CFC483"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 10,
+          "avgDays": 11,
           "count": 4,
           "color": "#5B8FA8"
         },
         {
           "label": "Backlog",
-          "avgDays": 16,
+          "avgDays": 17,
           "count": 3,
           "color": "#888780"
         }
@@ -12347,7 +12344,7 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 3
+          "count": 4
         },
         {
           "label": "🟢 6–14",
@@ -12356,7 +12353,7 @@
           "color": "#5E8C2E",
           "bgLight": "#EEF5E4",
           "bgDark": "#1a3309",
-          "count": 11
+          "count": 10
         },
         {
           "label": "🟢 3–5",
@@ -12848,6 +12845,16 @@
               "department": "351000 - Information Technology"
             },
             {
+              "title": "Event Manager",
+              "reqId": "44607",
+              "notionUrl": "https://www.notion.so/9e91cb683b5143aebb6a043154667f97",
+              "owner": "Tameka Porter",
+              "campus": "Tampa",
+              "stage": "Interview Stage",
+              "agingBand": "🟡 15–30",
+              "department": "240100 - CDAP Dean's Office"
+            },
+            {
               "title": "IT HR Innovation Partner I",
               "reqId": "44619",
               "notionUrl": "https://www.notion.so/17410c4f205a47c3a56f3e0ed729fabc",
@@ -12924,18 +12931,7 @@
           "color": "#5E8C2E",
           "bgLight": "#EEF5E4",
           "status": "Healthy",
-          "records": [
-            {
-              "title": "Event Manager",
-              "reqId": "44607",
-              "notionUrl": "https://www.notion.so/9e91cb683b5143aebb6a043154667f97",
-              "owner": "Tameka Porter",
-              "campus": "Tampa",
-              "stage": "Interview Stage",
-              "agingBand": "🟢 6–14",
-              "department": "240100 - CDAP Dean's Office"
-            }
-          ]
+          "records": []
         },
         {
           "band": "🟢 3–5",
@@ -12955,25 +12951,25 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 55,
+          "avgDays": 56,
           "count": 1,
           "color": "#006747"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 14,
+          "avgDays": 15,
           "count": 1,
           "color": "#D4880A"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 50,
+          "avgDays": 51,
           "count": 1,
           "color": "#5B8FA8"
         },
         {
           "label": "Backlog",
-          "avgDays": 21,
+          "avgDays": 22,
           "count": 45,
           "color": "#888780"
         }
@@ -13037,7 +13033,7 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 29
+          "count": 30
         },
         {
           "label": "🟢 6–14",
@@ -13046,7 +13042,7 @@
           "color": "#5E8C2E",
           "bgLight": "#EEF5E4",
           "bgDark": "#1a3309",
-          "count": 1
+          "count": 0
         },
         {
           "label": "🟢 3–5",
@@ -13293,6 +13289,16 @@
               "department": "791100 - Inst Research Eff & Assessment"
             },
             {
+              "title": "Complex Copy Cataloger",
+              "reqId": "44510",
+              "notionUrl": "https://www.notion.so/946bef0632b34e33876bf241eb52819a",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟡 15–30",
+              "department": "400100 - Univ Lib Deans Office"
+            },
+            {
               "title": "Grant Financial Admin II",
               "reqId": "44578",
               "notionUrl": "https://www.notion.so/2539cd82920f4eff85e55a34e0b26734",
@@ -13341,6 +13347,16 @@
               "stage": "HM Review",
               "agingBand": "🟡 15–30",
               "department": "177800 - School Mental Health Collaborative"
+            },
+            {
+              "title": "Support Staff",
+              "reqId": "44150",
+              "notionUrl": "https://www.notion.so/84236d000b4f454fa31b192595a733cf",
+              "owner": "Aidi",
+              "campus": "Tallahassee",
+              "stage": "Offer Stage",
+              "agingBand": "🟡 15–30",
+              "department": "177500 - Inst For School Comm Partnersh"
             }
           ]
         },
@@ -13451,16 +13467,6 @@
               "department": "177500 - Inst For School Comm Partnersh"
             },
             {
-              "title": "Complex Copy Cataloger",
-              "reqId": "44510",
-              "notionUrl": "https://www.notion.so/946bef0632b34e33876bf241eb52819a",
-              "owner": "Aidi",
-              "campus": "Tampa",
-              "stage": "HM Review",
-              "agingBand": "🟢 6–14",
-              "department": "400100 - Univ Lib Deans Office"
-            },
-            {
               "title": "Quality Assurance/Quality Improvement Compliance Auditor RCA II",
               "reqId": "44539",
               "notionUrl": "https://www.notion.so/7f3290bc5b5c40ec95bd74b712ff9ab1",
@@ -13521,16 +13527,6 @@
               "department": "177500 - Inst For School Comm Partnersh"
             },
             {
-              "title": "COEDU Open-Rank Professor Of Instruction/Director of Field and Clinical Experiences",
-              "reqId": "44604",
-              "notionUrl": "https://www.notion.so/2b53c4675e864da18b16a5c8f68145da",
-              "owner": "Aidi",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🟢 6–14",
-              "department": "170100 - COE Dean's Office"
-            },
-            {
               "title": "Budget Analyst II",
               "reqId": "44040",
               "notionUrl": "https://www.notion.so/e52fb62d4abc435cbf5242ba4366137d",
@@ -13539,16 +13535,6 @@
               "stage": "Recruiter Review",
               "agingBand": "🟢 6–14",
               "department": "790100 - VP Research"
-            },
-            {
-              "title": "Support Staff",
-              "reqId": "44150",
-              "notionUrl": "https://www.notion.so/84236d000b4f454fa31b192595a733cf",
-              "owner": "Aidi",
-              "campus": "Tallahassee",
-              "stage": "Offer Stage",
-              "agingBand": "🟢 6–14",
-              "department": "177500 - Inst For School Comm Partnersh"
             }
           ]
         },
@@ -13667,6 +13653,16 @@
               "department": "171600 - Leadership, Policy, Lifelong Learning"
             },
             {
+              "title": "COEDU Open-Rank Professor Of Instruction/Director of Field and Clinical Experiences",
+              "reqId": "44604",
+              "notionUrl": "https://www.notion.so/2b53c4675e864da18b16a5c8f68145da",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟢 0–2",
+              "department": "170100 - COE Dean's Office"
+            },
+            {
               "title": "Program Development Specialist",
               "reqId": "41648",
               "notionUrl": "https://www.notion.so/2880aff0a0e9493eb3cf24f079e44a86",
@@ -13682,37 +13678,37 @@
       "stageMetrics": [
         {
           "label": "Sourced",
-          "avgDays": 25,
+          "avgDays": 26,
           "count": 1,
           "color": "#00A693"
         },
         {
           "label": "Recruiter Review",
-          "avgDays": 7,
-          "count": 13,
+          "avgDays": 6,
+          "count": 14,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 25,
+          "avgDays": 26,
           "count": 7,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 48,
+          "avgDays": 49,
           "count": 1,
           "color": "#D4880A"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 8,
+          "avgDays": 9,
           "count": 2,
           "color": "#CFC483"
         },
         {
           "label": "Backlog",
-          "avgDays": 11,
+          "avgDays": 12,
           "count": 19,
           "color": "#888780"
         }
@@ -13791,7 +13787,7 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 9
+          "count": 11
         },
         {
           "label": "🟢 6–14",
@@ -13800,7 +13796,7 @@
           "color": "#5E8C2E",
           "bgLight": "#EEF5E4",
           "bgDark": "#1a3309",
-          "count": 20
+          "count": 17
         },
         {
           "label": "🟢 3–5",
@@ -13818,7 +13814,7 @@
           "color": "#2A500B",
           "bgLight": "#E4EFD6",
           "bgDark": "#1a3309",
-          "count": 10
+          "count": 11
         }
       ],
       "funnel": [
