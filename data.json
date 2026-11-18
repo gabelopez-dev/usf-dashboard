@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-18T01:47:49.628Z",
+  "lastUpdated": "2026-11-18T09:52:35.865Z",
   "summary": {
-    "openReqs": 773,
+    "openReqs": 775,
     "avgTimeToFill": 80,
     "filledYTD": 458,
     "failedCancelled": 89,
@@ -10,7 +10,7 @@
   "campus": [
     {
       "label": "Tampa",
-      "count": 408,
+      "count": 410,
       "color": "#1B6A9C"
     },
     {
@@ -52,7 +52,7 @@
     },
     {
       "label": "Backlog",
-      "count": 108,
+      "count": 110,
       "color": "#888780"
     },
     {
@@ -104,7 +104,7 @@
     },
     {
       "label": "Backlog",
-      "count": 98,
+      "count": 100,
       "color": "#888780"
     },
     {
@@ -146,7 +146,7 @@
   "reqTypes": [
     {
       "label": "Active",
-      "count": 271,
+      "count": 273,
       "color": "#004d35"
     },
     {
@@ -224,7 +224,7 @@
       "color": "#2A500B",
       "bgLight": "#E4EFD6",
       "bgDark": "#1a3309",
-      "count": 17
+      "count": 19
     }
   ],
   "agingRecords": [
@@ -2807,6 +2807,26 @@
       "status": "Healthy",
       "records": [
         {
+          "title": "Professor & Chair - Electrical & Computer Engineering",
+          "reqId": "44748",
+          "notionUrl": "https://www.notion.so/6c29ddf757a083979455017cb58e830b",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "210600 - Electrical Engineering"
+        },
+        {
+          "title": "OPS Research Support Asst - CUTR",
+          "reqId": "44786",
+          "notionUrl": "https://www.notion.so/13a9ddf757a082c9a39081a62132bc2c",
+          "owner": "Gabriel",
+          "campus": "Tampa",
+          "stage": "Backlog",
+          "agingBand": "🟢 0–2",
+          "department": "211700 - Ctr For Urban Transportation Research"
+        },
+        {
           "title": "Are you still using req 41648 for additional hires? There are 36 applicants awaiting review—would you like me to review the pool?”",
           "reqId": "",
           "notionUrl": "https://www.notion.so/41a9ddf757a08087a46ff52e2f8d6850",
@@ -3127,7 +3147,7 @@
     },
     {
       "label": "Other (203 depts)",
-      "count": 394,
+      "count": 396,
       "color": "#c8c7c2"
     }
   ],
@@ -3170,8 +3190,8 @@
     },
     {
       "label": "Backlog",
-      "avgDays": 16,
-      "count": 106,
+      "avgDays": 15,
+      "count": 108,
       "color": "#888780"
     },
     {
@@ -10541,7 +10561,7 @@
         "recruiter": "Gabriel",
         "color": "#00A693",
         "stalled": 0,
-        "totalActive": 14,
+        "totalActive": 16,
         "stallRatePct": 0
       }
     ],
@@ -10622,7 +10642,7 @@
       },
       {
         "label": "Nov '26",
-        "count": 27
+        "count": 28
       }
     ]
   },
@@ -12047,8 +12067,8 @@
       "bgLight": "#e6f2ed",
       "bgDark": "#042e24",
       "campus": "St Pete / Tampa",
-      "reqs": 192,
-      "activeReqs": 60,
+      "reqs": 194,
+      "activeReqs": 62,
       "filled": 116,
       "failed": 16,
       "ttf": 54,
@@ -12229,7 +12249,28 @@
           "color": "#2A500B",
           "bgLight": "#E4EFD6",
           "status": "Healthy",
-          "records": []
+          "records": [
+            {
+              "title": "Professor & Chair - Electrical & Computer Engineering",
+              "reqId": "44748",
+              "notionUrl": "https://www.notion.so/6c29ddf757a083979455017cb58e830b",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "210600 - Electrical Engineering"
+            },
+            {
+              "title": "OPS Research Support Asst - CUTR",
+              "reqId": "44786",
+              "notionUrl": "https://www.notion.so/13a9ddf757a082c9a39081a62132bc2c",
+              "owner": "Gabriel",
+              "campus": "Tampa",
+              "stage": "Backlog",
+              "agingBand": "🟢 0–2",
+              "department": "211700 - Ctr For Urban Transportation Research"
+            }
+          ]
         }
       ],
       "stageMetrics": [
@@ -12265,15 +12306,15 @@
         },
         {
           "label": "Backlog",
-          "avgDays": 17,
-          "count": 3,
+          "avgDays": 11,
+          "count": 5,
           "color": "#888780"
         }
       ],
       "statuses": [
         {
           "label": "Backlog",
-          "count": 3,
+          "count": 5,
           "color": "#888780"
         },
         {
@@ -12371,13 +12412,13 @@
           "color": "#2A500B",
           "bgLight": "#E4EFD6",
           "bgDark": "#1a3309",
-          "count": 0
+          "count": 2
         }
       ],
       "funnel": [
         {
           "label": "Posted",
-          "count": 60
+          "count": 62
         },
         {
           "label": "Screened",
@@ -12398,14 +12439,14 @@
       ],
       "activeFunnel": [
         {
+          "label": "Backlog",
+          "count": 5,
+          "color": "#888780"
+        },
+        {
           "label": "Pre-boarding",
           "count": 4,
           "color": "#5B8FA8"
-        },
-        {
-          "label": "Backlog",
-          "count": 3,
-          "color": "#888780"
         },
         {
           "label": "Recruiter Review",
@@ -12436,7 +12477,7 @@
         },
         {
           "label": "Active",
-          "count": 14,
+          "count": 16,
           "color": "#004d35"
         },
         {
@@ -12476,13 +12517,13 @@
         {
           "label": "Screened",
           "value": 0,
-          "target": 192,
+          "target": 194,
           "invert": false
         },
         {
           "label": "Interviews",
           "value": 2,
-          "target": 192,
+          "target": 194,
           "invert": false
         }
       ],
