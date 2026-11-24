@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-11-24T06:49:43.164Z",
+  "lastUpdated": "2026-11-24T18:42:51.199Z",
   "summary": {
-    "openReqs": 771,
+    "openReqs": 762,
     "avgTimeToFill": 82,
-    "filledYTD": 467,
-    "failedCancelled": 91,
+    "filledYTD": 475,
+    "failedCancelled": 92,
     "inOfferStage": 9
   },
   "campus": [
@@ -20,7 +20,7 @@
     },
     {
       "label": "USF Health",
-      "count": 298,
+      "count": 289,
       "color": "#00A693"
     },
     {
@@ -37,17 +37,17 @@
   "mainFunnel": [
     {
       "label": "Passive Hiring",
-      "count": 247,
+      "count": 245,
       "color": "#1B6A9C"
     },
     {
       "label": "Recruiter Review",
-      "count": 123,
+      "count": 121,
       "color": "#006747"
     },
     {
       "label": "HM Review",
-      "count": 122,
+      "count": 121,
       "color": "#534AB7"
     },
     {
@@ -62,7 +62,7 @@
     },
     {
       "label": "Student Hiring",
-      "count": 46,
+      "count": 44,
       "color": "#B5651D"
     },
     {
@@ -71,14 +71,14 @@
       "color": "#6B8E4E"
     },
     {
-      "label": "Interview Stage",
-      "count": 16,
-      "color": "#D4880A"
-    },
-    {
       "label": "Targeted Hiring",
       "count": 15,
       "color": "#3A5A6A"
+    },
+    {
+      "label": "Interview Stage",
+      "count": 14,
+      "color": "#D4880A"
     },
     {
       "label": "Pre-boarding",
@@ -99,7 +99,7 @@
   "activeFunnel": [
     {
       "label": "Recruiter Review",
-      "count": 108,
+      "count": 106,
       "color": "#006747"
     },
     {
@@ -109,12 +109,12 @@
     },
     {
       "label": "HM Review",
-      "count": 34,
+      "count": 33,
       "color": "#534AB7"
     },
     {
       "label": "Interview Stage",
-      "count": 15,
+      "count": 13,
       "color": "#D4880A"
     },
     {
@@ -146,12 +146,12 @@
   "reqTypes": [
     {
       "label": "Active",
-      "count": 271,
+      "count": 266,
       "color": "#004d35"
     },
     {
       "label": "Passive",
-      "count": 253,
+      "count": 251,
       "color": "#1B6A9C"
     },
     {
@@ -161,7 +161,7 @@
     },
     {
       "label": "Student",
-      "count": 65,
+      "count": 63,
       "color": "#B5651D"
     },
     {
@@ -188,7 +188,7 @@
       "color": "#A32D2D",
       "bgLight": "#FAD9D9",
       "bgDark": "#2e0f0f",
-      "count": 60
+      "count": 56
     },
     {
       "label": "🟡 15–30",
@@ -206,7 +206,7 @@
       "color": "#5E8C2E",
       "bgLight": "#EEF5E4",
       "bgDark": "#1a3309",
-      "count": 155
+      "count": 154
     },
     {
       "label": "🟢 3–5",
@@ -293,16 +293,6 @@
           "stage": "Sourced",
           "agingBand": "🔴 31+",
           "department": "Institute for School-Community Partnerships"
-        },
-        {
-          "title": "OPS Research Technician",
-          "reqId": "44505",
-          "notionUrl": "https://www.notion.so/7f2e8dcd542e4e9c9c762e4d2bf8b94f",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 31+",
-          "department": "638200 - Dept Of Pharma…"
         },
         {
           "title": "OPS Clinical Instructor",
@@ -415,16 +405,6 @@
           "department": "614800 - Emergency Medicine"
         },
         {
-          "title": "Biostatistician",
-          "reqId": "44380",
-          "notionUrl": "https://www.notion.so/048f6cdafe0e4cc28233030f19dc771e",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Recruiter Review",
-          "agingBand": "🔴 31+",
-          "department": "620100 - College Of Nursing"
-        },
-        {
           "title": "Research Support Assista",
           "reqId": "44337",
           "notionUrl": "https://www.notion.so/1d8e6630b1bb4db4a276fbc11a624cad",
@@ -453,16 +433,6 @@
           "stage": "Recruiter Review",
           "agingBand": "🔴 31+",
           "department": "391000 - Fl Center For Cybersecurity"
-        },
-        {
-          "title": "Prelicensure Placement M",
-          "reqId": "44293",
-          "notionUrl": "https://www.notion.so/006a79fbde3148b8a802dc2e18f15594",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Interview Stage",
-          "agingBand": "🔴 31+",
-          "department": "620100 - College Of Nurs"
         },
         {
           "title": "Assistant Director of Grad",
@@ -818,16 +788,6 @@
           "title": "Safety & Health Consultant",
           "reqId": "43542",
           "notionUrl": "https://www.notion.so/496cd0de6356493fbe02cc5eaed7c9ed",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "HM Review",
-          "agingBand": "🔴 31+",
-          "department": "USF Health"
-        },
-        {
-          "title": "Business Specialist",
-          "reqId": "43536",
-          "notionUrl": "https://www.notion.so/2bf42d2d24e746ab97490c6c3f2f83fd",
           "owner": "Rebecca",
           "campus": "USF Health",
           "stage": "HM Review",
@@ -2771,16 +2731,6 @@
           "department": "177800 - School Mental Health Collaborative"
         },
         {
-          "title": "Assistant Pharmacy Mana…",
-          "reqId": "44491",
-          "notionUrl": "https://www.notion.so/4f36c924ddcd4c689f2602b4cde043b9",
-          "owner": "Rebecca",
-          "campus": "USF Health",
-          "stage": "Interview Stage",
-          "agingBand": "🟢 6–14",
-          "department": "638000 - College Of Phar…"
-        },
-        {
           "title": "Program Director",
           "reqId": "44447",
           "notionUrl": "https://www.notion.so/31ef31a8794a4a6b8ada982b17c8c7e2",
@@ -2982,7 +2932,7 @@
   "department": [
     {
       "label": "USF Health",
-      "count": 84,
+      "count": 83,
       "color": "#006747"
     },
     {
@@ -3131,8 +3081,8 @@
       "color": "#5B7A8A"
     },
     {
-      "label": "Other (199 depts)",
-      "count": 387,
+      "label": "Other (196 depts)",
+      "count": 379,
       "color": "#c8c7c2"
     }
   ],
@@ -3145,20 +3095,20 @@
     },
     {
       "label": "Recruiter Review",
-      "avgDays": 19,
-      "count": 108,
+      "avgDays": 18,
+      "count": 106,
       "color": "#006747"
     },
     {
       "label": "HM Review",
       "avgDays": 44,
-      "count": 34,
+      "count": 33,
       "color": "#534AB7"
     },
     {
       "label": "Interview Stage",
-      "avgDays": 22,
-      "count": 15,
+      "avgDays": 20,
+      "count": 13,
       "color": "#D4880A"
     },
     {
@@ -3637,6 +3587,17 @@
       "reqType": "Active",
       "ttf": 180,
       "notionUrl": "https://www.notion.so/6fd3b02e722347ccbb4dbf99c1363a55"
+    },
+    {
+      "title": "Business Specialist",
+      "reqId": "43536",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Hired",
+      "department": "USF Health",
+      "reqType": "Active",
+      "ttf": 180,
+      "notionUrl": "https://www.notion.so/2bf42d2d24e746ab97490c6c3f2f83fd"
     },
     {
       "title": "Postdoctoral Scholar Research",
@@ -4717,6 +4678,17 @@
       "notionUrl": "https://www.notion.so/86f0979e7dd646348d4e71bc8df786de"
     },
     {
+      "title": "Hyperbaric Safety Officer",
+      "reqId": "44182",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Hired",
+      "department": "633000 - Hyperbaric Oxy",
+      "reqType": "Passive",
+      "ttf": 104,
+      "notionUrl": "https://www.notion.so/9b679b108dd74580aea6d2af1c091878"
+    },
+    {
       "title": "Associate Director Head Foortball Atheltic Trainer",
       "reqId": "43378",
       "owner": "Rebecca",
@@ -5135,6 +5107,17 @@
       "notionUrl": "https://www.notion.so/996db7ca4b5a4a0ea1aca5cf78ed5986"
     },
     {
+      "title": "Prelicensure Placement M",
+      "reqId": "44293",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Hired",
+      "department": "620100 - College Of Nurs",
+      "reqType": "Active",
+      "ttf": 88,
+      "notionUrl": "https://www.notion.so/006a79fbde3148b8a802dc2e18f15594"
+    },
+    {
       "title": "Student Assistant/Sports Medicine",
       "reqId": "44288",
       "owner": "johncalebrese",
@@ -5287,6 +5270,17 @@
       "reqType": "Active",
       "ttf": 83,
       "notionUrl": "https://www.notion.so/ae2c4c1213354e16aa430d7ddd8d4e4a"
+    },
+    {
+      "title": "Student Assistant - FWS",
+      "reqId": "44322",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Hired",
+      "department": "612500 - Dept Of Neurol",
+      "reqType": "Student",
+      "ttf": 82,
+      "notionUrl": "https://www.notion.so/a9a3219deab14c6eb0172537057137af"
     },
     {
       "title": "Maintenance Technician",
@@ -5452,6 +5446,17 @@
       "reqType": "Evergreen",
       "ttf": 79,
       "notionUrl": "https://www.notion.so/8d2a0bf55314463fb7744cb67692f26f"
+    },
+    {
+      "title": "Data Analysis Student",
+      "reqId": "44339",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Hired",
+      "department": "620100 - College Of Nurs",
+      "reqType": "Student",
+      "ttf": 77,
+      "notionUrl": "https://www.notion.so/d2af079ccd3041228f4aba4f0f20e4f8"
     },
     {
       "title": "Digital Platforms Developer",
@@ -5716,6 +5721,17 @@
       "reqType": "Evergreen",
       "ttf": 71,
       "notionUrl": "https://www.notion.so/38f9ddf757a0800ba709cec4710473ca"
+    },
+    {
+      "title": "Biostatistician",
+      "reqId": "44380",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Hired",
+      "department": "620100 - College Of Nursing",
+      "reqType": "Active",
+      "ttf": 70,
+      "notionUrl": "https://www.notion.so/048f6cdafe0e4cc28233030f19dc771e"
     },
     {
       "title": "Front-End Developer I",
@@ -6532,6 +6548,17 @@
       "notionUrl": "https://www.notion.so/041f763606694fada1953edfd30d688e"
     },
     {
+      "title": "Assistant Pharmacy Mana…",
+      "reqId": "44491",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Hired",
+      "department": "638000 - College Of Phar…",
+      "reqType": "Active",
+      "ttf": 50,
+      "notionUrl": "https://www.notion.so/4f36c924ddcd4c689f2602b4cde043b9"
+    },
+    {
       "title": "Academic Advisor I",
       "reqId": "44394",
       "owner": "Aidi",
@@ -6574,6 +6601,17 @@
       "reqType": "Passive",
       "ttf": 49,
       "notionUrl": "https://www.notion.so/cb87bf662adb494b90f42f17d039e382"
+    },
+    {
+      "title": "OPS Research Technician",
+      "reqId": "44505",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Canceled",
+      "department": "638200 - Dept Of Pharma…",
+      "reqType": "Active",
+      "ttf": 49,
+      "notionUrl": "https://www.notion.so/7f2e8dcd542e4e9c9c762e4d2bf8b94f"
     },
     {
       "title": "Student Assistant",
@@ -8545,6 +8583,17 @@
       "notionUrl": "https://www.notion.so/a849270c9c9c44fca51855540b75b38d"
     },
     {
+      "title": "Postdoctoral Scholar Research",
+      "reqId": "44576",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Hired",
+      "department": "612400 - Dept Of Ophthalmology",
+      "reqType": "Passive",
+      "ttf": 0,
+      "notionUrl": "https://www.notion.so/40b29657a41347b0bbfe135e5f7860de"
+    },
+    {
       "title": "CyberFL Scientific Researcher I",
       "reqId": "44553",
       "owner": "johncalebrese",
@@ -9330,7 +9379,7 @@
     "fillRateByDept": [
       {
         "department": "USF Health",
-        "filled": 84,
+        "filled": 85,
         "failed": 0,
         "cancelled": 20,
         "fillRatePct": 100
@@ -9399,6 +9448,13 @@
         "fillRatePct": 100
       },
       {
+        "department": "620100 - College Of Nurs",
+        "filled": 8,
+        "failed": 0,
+        "cancelled": 1,
+        "fillRatePct": 100
+      },
+      {
         "department": "210800 - AICC Bellini College Department",
         "filled": 9,
         "failed": 0,
@@ -9424,13 +9480,6 @@
         "filled": 5,
         "failed": 0,
         "cancelled": 2,
-        "fillRatePct": 100
-      },
-      {
-        "department": "620100 - College Of Nurs",
-        "filled": 6,
-        "failed": 0,
-        "cancelled": 1,
         "fillRatePct": 100
       },
       {
@@ -9581,6 +9630,13 @@
         "fillRatePct": 100
       },
       {
+        "department": "612500 - Dept Of Neurol",
+        "filled": 3,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
         "department": "471000 - Florida Inst of Oceanography",
         "filled": 3,
         "failed": 0,
@@ -9672,6 +9728,13 @@
         "fillRatePct": 100
       },
       {
+        "department": "633000 - Hyperbaric Oxy",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 1,
+        "fillRatePct": 100
+      },
+      {
         "department": "170100 - COE Dean's Office",
         "filled": 1,
         "failed": 0,
@@ -9728,13 +9791,6 @@
         "fillRatePct": 100
       },
       {
-        "department": "612500 - Dept Of Neurol",
-        "filled": 2,
-        "failed": 0,
-        "cancelled": 0,
-        "fillRatePct": 100
-      },
-      {
         "department": "060310 - Joint Military Leadership Ctr",
         "filled": 2,
         "failed": 0,
@@ -9746,6 +9802,13 @@
         "filled": 2,
         "failed": 0,
         "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "620100 - College Of Nursing",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 1,
         "fillRatePct": 100
       },
       {
@@ -9768,6 +9831,13 @@
         "failed": 0,
         "cancelled": 0,
         "fillRatePct": 100
+      },
+      {
+        "department": "638200 - Dept Of Pharma…",
+        "filled": 0,
+        "failed": 0,
+        "cancelled": 2,
+        "fillRatePct": null
       },
       {
         "department": "371000 - Admissions",
@@ -10078,13 +10148,6 @@
         "fillRatePct": 100
       },
       {
-        "department": "620100 - College Of Nursing",
-        "filled": 0,
-        "failed": 0,
-        "cancelled": 1,
-        "fillRatePct": null
-      },
-      {
         "department": "600105 - Health Sciences",
         "filled": 1,
         "failed": 0,
@@ -10128,6 +10191,13 @@
       },
       {
         "department": "174600 - Preschool Creative Learning",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
+      },
+      {
+        "department": "638000 - College Of Phar…",
         "filled": 1,
         "failed": 0,
         "cancelled": 0,
@@ -10288,13 +10358,6 @@
         "fillRatePct": 100
       },
       {
-        "department": "633000 - Hyperbaric Oxy",
-        "filled": 0,
-        "failed": 0,
-        "cancelled": 1,
-        "fillRatePct": null
-      },
-      {
         "department": "STP Academic Affairs",
         "filled": 1,
         "failed": 0,
@@ -10400,13 +10463,6 @@
         "fillRatePct": 100
       },
       {
-        "department": "638200 - Dept Of Pharma…",
-        "filled": 0,
-        "failed": 0,
-        "cancelled": 1,
-        "fillRatePct": null
-      },
-      {
         "department": "048200 - Student Disability Services",
         "filled": 1,
         "failed": 0,
@@ -10447,6 +10503,13 @@
         "failed": 0,
         "cancelled": 1,
         "fillRatePct": null
+      },
+      {
+        "department": "612400 - Dept Of Ophthalmology",
+        "filled": 1,
+        "failed": 0,
+        "cancelled": 0,
+        "fillRatePct": 100
       },
       {
         "department": "388500 - Project Thrust",
@@ -10565,17 +10628,17 @@
       {
         "reqType": "Active",
         "avgDays": 82,
-        "count": 230
+        "count": 234
       },
       {
         "reqType": "Student",
-        "avgDays": 71,
-        "count": 57
+        "avgDays": 72,
+        "count": 59
       },
       {
         "reqType": "Passive",
         "avgDays": 93,
-        "count": 55
+        "count": 56
       },
       {
         "reqType": "Evergreen",
@@ -10601,8 +10664,8 @@
       },
       {
         "campus": "USF Health",
-        "avgDays": 110,
-        "count": 133
+        "avgDays": 109,
+        "count": 140
       },
       {
         "campus": "St. Petersburg",
@@ -10671,8 +10734,8 @@
       {
         "recruiter": "Rebecca",
         "color": "#1B6A9C",
-        "stalled": 36,
-        "totalActive": 42,
+        "stalled": 32,
+        "totalActive": 37,
         "stallRatePct": 86
       },
       {
@@ -10988,11 +11051,11 @@
       "bgDark": "#3d2504",
       "campus": "Tampa",
       "reqs": 434,
-      "activeReqs": 242,
-      "filled": 157,
-      "failed": 35,
-      "ttf": 114,
-      "wip": 11,
+      "activeReqs": 233,
+      "filled": 165,
+      "failed": 36,
+      "ttf": 113,
+      "wip": 10,
       "agingRecords": [
         {
           "band": "🔴 31+",
@@ -11019,16 +11082,6 @@
               "stage": "Recruiter Review",
               "agingBand": "🔴 31+",
               "department": "620100 - College Of Nursing"
-            },
-            {
-              "title": "OPS Research Technician",
-              "reqId": "44505",
-              "notionUrl": "https://www.notion.so/7f2e8dcd542e4e9c9c762e4d2bf8b94f",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 31+",
-              "department": "638200 - Dept Of Pharma…"
             },
             {
               "title": "OPS Clinical Instructor",
@@ -11111,16 +11164,6 @@
               "department": "614800 - Emergency Medicine"
             },
             {
-              "title": "Biostatistician",
-              "reqId": "44380",
-              "notionUrl": "https://www.notion.so/048f6cdafe0e4cc28233030f19dc771e",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Recruiter Review",
-              "agingBand": "🔴 31+",
-              "department": "620100 - College Of Nursing"
-            },
-            {
               "title": "Research Support Assista",
               "reqId": "44337",
               "notionUrl": "https://www.notion.so/1d8e6630b1bb4db4a276fbc11a624cad",
@@ -11139,16 +11182,6 @@
               "stage": "Recruiter Review",
               "agingBand": "🔴 31+",
               "department": "640100 - COPH Office Of"
-            },
-            {
-              "title": "Prelicensure Placement M",
-              "reqId": "44293",
-              "notionUrl": "https://www.notion.so/006a79fbde3148b8a802dc2e18f15594",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Interview Stage",
-              "agingBand": "🔴 31+",
-              "department": "620100 - College Of Nurs"
             },
             {
               "title": "Assistant Director of Grad",
@@ -11349,16 +11382,6 @@
               "stage": "HM Review",
               "agingBand": "🔴 31+",
               "department": "USF Health"
-            },
-            {
-              "title": "Business Specialist",
-              "reqId": "43536",
-              "notionUrl": "https://www.notion.so/2bf42d2d24e746ab97490c6c3f2f83fd",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "HM Review",
-              "agingBand": "🔴 31+",
-              "department": "USF Health"
             }
           ]
         },
@@ -11407,16 +11430,6 @@
           "status": "Healthy",
           "records": [
             {
-              "title": "Assistant Pharmacy Mana…",
-              "reqId": "44491",
-              "notionUrl": "https://www.notion.so/4f36c924ddcd4c689f2602b4cde043b9",
-              "owner": "Rebecca",
-              "campus": "USF Health",
-              "stage": "Interview Stage",
-              "agingBand": "🟢 6–14",
-              "department": "638000 - College Of Phar…"
-            },
-            {
               "title": "Program Coordinator",
               "reqId": "44367",
               "notionUrl": "https://www.notion.so/ad6d46ab3d894306a01185f6025944d6",
@@ -11456,20 +11469,20 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 52,
-          "count": 12,
+          "avgDays": 53,
+          "count": 10,
           "color": "#006747"
         },
         {
           "label": "HM Review",
           "avgDays": 58,
-          "count": 20,
+          "count": 19,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 29,
-          "count": 5,
+          "avgDays": 25,
+          "count": 3,
           "color": "#D4880A"
         },
         {
@@ -11500,22 +11513,22 @@
       "statuses": [
         {
           "label": "Passive Hiring",
-          "count": 89,
+          "count": 87,
           "color": "#1B6A9C"
         },
         {
           "label": "Interview Stage",
-          "count": 5,
+          "count": 3,
           "color": "#D4880A"
         },
         {
           "label": "Recruiter Review",
-          "count": 12,
+          "count": 10,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "count": 107,
+          "count": 106,
           "color": "#534AB7"
         },
         {
@@ -11530,7 +11543,7 @@
         },
         {
           "label": "Student Hiring",
-          "count": 14,
+          "count": 12,
           "color": "#B5651D"
         },
         {
@@ -11557,7 +11570,7 @@
           "color": "#A32D2D",
           "bgLight": "#FAD9D9",
           "bgDark": "#2e0f0f",
-          "count": 36
+          "count": 32
         },
         {
           "label": "🟡 15–30",
@@ -11575,7 +11588,7 @@
           "color": "#5E8C2E",
           "bgLight": "#EEF5E4",
           "bgDark": "#1a3309",
-          "count": 3
+          "count": 2
         },
         {
           "label": "🟢 3–5",
@@ -11599,7 +11612,7 @@
       "funnel": [
         {
           "label": "Posted",
-          "count": 242
+          "count": 233
         },
         {
           "label": "Screened",
@@ -11607,11 +11620,11 @@
         },
         {
           "label": "HM Review",
-          "count": 107
+          "count": 106
         },
         {
           "label": "Interviews",
-          "count": 5
+          "count": 3
         },
         {
           "label": "Offer",
@@ -11621,17 +11634,17 @@
       "activeFunnel": [
         {
           "label": "HM Review",
-          "count": 20,
+          "count": 19,
           "color": "#534AB7"
         },
         {
           "label": "Recruiter Review",
-          "count": 12,
+          "count": 10,
           "color": "#006747"
         },
         {
           "label": "Interview Stage",
-          "count": 5,
+          "count": 3,
           "color": "#D4880A"
         },
         {
@@ -11663,17 +11676,17 @@
         },
         {
           "label": "Passive",
-          "count": 89,
+          "count": 87,
           "color": "#1B6A9C"
         },
         {
           "label": "Active",
-          "count": 42,
+          "count": 37,
           "color": "#004d35"
         },
         {
           "label": "Student",
-          "count": 18,
+          "count": 16,
           "color": "#B5651D"
         },
         {
@@ -11685,13 +11698,13 @@
       "goals": [
         {
           "label": "Reqs filled",
-          "value": 157,
+          "value": 165,
           "target": 10,
           "invert": false
         },
         {
           "label": "Time to fill",
-          "value": 114,
+          "value": 113,
           "target": 40,
           "invert": true
         },
@@ -11703,18 +11716,18 @@
         },
         {
           "label": "Interviews",
-          "value": 5,
+          "value": 3,
           "target": 434,
           "invert": false
         }
       ],
       "trend": [
-        114,
-        114,
-        114,
-        114,
-        114,
-        114
+        113,
+        113,
+        113,
+        113,
+        113,
+        113
       ]
     },
     {
