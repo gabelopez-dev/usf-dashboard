@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-26T23:11:51.934Z",
+  "lastUpdated": "2026-11-27T05:15:24.947Z",
   "summary": {
     "openReqs": 761,
     "avgTimeToFill": 82,
@@ -197,7 +197,7 @@
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 167
+      "count": 169
     },
     {
       "label": "🟢 6–14",
@@ -206,7 +206,7 @@
       "color": "#5E8C2E",
       "bgLight": "#EEF5E4",
       "bgDark": "#1a3309",
-      "count": 29
+      "count": 27
     },
     {
       "label": "🟢 3–5",
@@ -1983,6 +1983,16 @@
           "department": "171400 - Teaching & Learning"
         },
         {
+          "title": "Procurement Associate",
+          "reqId": "44645",
+          "notionUrl": "https://www.notion.so/b2d8ce87dc6a4f1ab5fb310f934b72bc",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟡 15–30",
+          "department": "027900 - Procurement & Payment Services"
+        },
+        {
           "title": "Senior Systems Integrations Engineer",
           "reqId": "44313",
           "notionUrl": "https://www.notion.so/004f1102230b4121a20519ed0be93376",
@@ -2313,6 +2323,16 @@
           "department": "510416 - STP Student Outreach and Support"
         },
         {
+          "title": "Associate VP Athletics Retail Ops",
+          "reqId": "44616",
+          "notionUrl": "https://www.notion.so/164ebee252834987a6dbe8f9be952fbc",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "HM Review",
+          "agingBand": "🟡 15–30",
+          "department": "051000 - Athletic Administration"
+        },
+        {
           "title": "Student Assistant",
           "reqId": "44626",
           "notionUrl": "https://www.notion.so/baa8837d0d1b45ec8a76ffa534432adf",
@@ -2541,16 +2561,6 @@
           "department": "177500 - Inst For School Comm Partnersh"
         },
         {
-          "title": "Procurement Associate",
-          "reqId": "44645",
-          "notionUrl": "https://www.notion.so/b2d8ce87dc6a4f1ab5fb310f934b72bc",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "HM Review",
-          "agingBand": "🟢 6–14",
-          "department": "027900 - Procurement & Payment Services"
-        },
-        {
           "title": "Payroll Accountant",
           "reqId": "44665",
           "notionUrl": "https://www.notion.so/ada4324069504c83af4d2f4db437931c",
@@ -2619,16 +2629,6 @@
           "stage": "Interview Stage",
           "agingBand": "🟢 6–14",
           "department": "140400 - KT School of Business & Finance"
-        },
-        {
-          "title": "Associate VP Athletics Retail Ops",
-          "reqId": "44616",
-          "notionUrl": "https://www.notion.so/164ebee252834987a6dbe8f9be952fbc",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "HM Review",
-          "agingBand": "🟢 6–14",
-          "department": "051000 - Athletic Administration"
         },
         {
           "title": "Student Services Consultant",
@@ -3074,49 +3074,49 @@
   "stageMetrics": [
     {
       "label": "Sourced",
-      "avgDays": 34,
+      "avgDays": 35,
       "count": 1,
       "color": "#00A693"
     },
     {
       "label": "Recruiter Review",
-      "avgDays": 19,
+      "avgDays": 20,
       "count": 108,
       "color": "#006747"
     },
     {
       "label": "HM Review",
-      "avgDays": 45,
+      "avgDays": 46,
       "count": 32,
       "color": "#534AB7"
     },
     {
       "label": "Interview Stage",
-      "avgDays": 17,
+      "avgDays": 18,
       "count": 14,
       "color": "#D4880A"
     },
     {
       "label": "Offer Stage",
-      "avgDays": 16,
+      "avgDays": 17,
       "count": 7,
       "color": "#CFC483"
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 22,
+      "avgDays": 23,
       "count": 7,
       "color": "#5B8FA8"
     },
     {
       "label": "Backlog",
-      "avgDays": 23,
+      "avgDays": 24,
       "count": 102,
       "color": "#888780"
     },
     {
       "label": "Targeted Hiring",
-      "avgDays": 62,
+      "avgDays": 63,
       "count": 1,
       "color": "#3A5A6A"
     }
@@ -3229,7 +3229,7 @@
       "stage": "Canceled",
       "department": "041500 - Counseling Center",
       "reqType": "Active",
-      "ttf": 307,
+      "ttf": 308,
       "notionUrl": "https://www.notion.so/62b088df4d81447994bcd7e8ccf00a22"
     },
     {
@@ -3339,7 +3339,7 @@
       "stage": "Canceled",
       "department": "047700 - Career & Professional Dev",
       "reqType": "Active",
-      "ttf": 255,
+      "ttf": 256,
       "notionUrl": "https://www.notion.so/38cc22579bda4f159365f3843a6482e3"
     },
     {
@@ -3526,7 +3526,7 @@
       "stage": "Failed Search",
       "department": "051000 - Athletic Administration",
       "reqType": "Active",
-      "ttf": 197,
+      "ttf": 198,
       "notionUrl": "https://www.notion.so/a0239e74bd2a46dbb004af24c7ae0ccb"
     },
     {
@@ -3625,7 +3625,7 @@
       "stage": "Hired",
       "department": "171700 - Lang, Lit, EdD, Excep Ed, PE",
       "reqType": "Faculty",
-      "ttf": 171,
+      "ttf": 172,
       "notionUrl": "https://www.notion.so/8303906d44fc41ebb09ec5eba6e2d3e6"
     },
     {
@@ -3827,6 +3827,17 @@
       "notionUrl": "https://www.notion.so/98435dc82294484681c541a5a0500c3b"
     },
     {
+      "title": "AI Healthcare Engineer",
+      "reqId": "43891",
+      "owner": "Rebecca",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "612800 - Dept Of Otolary",
+      "reqType": "Evergreen",
+      "ttf": 149,
+      "notionUrl": "https://www.notion.so/9d7122807242471cba1b12f8c38af502"
+    },
+    {
       "title": "Solutions Engineer in Ocean and Environmental Data Visualization Products",
       "reqId": "43381",
       "owner": "Gabriel",
@@ -3836,17 +3847,6 @@
       "reqType": "Passive",
       "ttf": 149,
       "notionUrl": "https://www.notion.so/8423a311edfe48e19753c7123f529a50"
-    },
-    {
-      "title": "AI Healthcare Engineer",
-      "reqId": "43891",
-      "owner": "Rebecca",
-      "campus": "Tampa",
-      "stage": "Hired",
-      "department": "612800 - Dept Of Otolary",
-      "reqType": "Evergreen",
-      "ttf": 148,
-      "notionUrl": "https://www.notion.so/9d7122807242471cba1b12f8c38af502"
     },
     {
       "title": "Student Assistant",
@@ -4971,6 +4971,17 @@
       "notionUrl": "https://www.notion.so/b61fd564bb694ef5ba51e3e56d04562b"
     },
     {
+      "title": "Student Assistant/ Equipment Operations-Football",
+      "reqId": "44266",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "051000 - Athletic Administration",
+      "reqType": "Student",
+      "ttf": 94,
+      "notionUrl": "https://www.notion.so/e8a7ccd60e574aa385d3c5169367cd78"
+    },
+    {
       "title": "Academic Services Admin",
       "reqId": "44196",
       "owner": "Rebecca",
@@ -4991,17 +5002,6 @@
       "reqType": "Evergreen",
       "ttf": 94,
       "notionUrl": "https://www.notion.so/c8cf1bcb3972492ea3e033ae5f4343ba"
-    },
-    {
-      "title": "Student Assistant/ Equipment Operations-Football",
-      "reqId": "44266",
-      "owner": "johncalebrese",
-      "campus": "Tampa",
-      "stage": "Hired",
-      "department": "051000 - Athletic Administration",
-      "reqType": "Student",
-      "ttf": 93,
-      "notionUrl": "https://www.notion.so/e8a7ccd60e574aa385d3c5169367cd78"
     },
     {
       "title": "Simulation Operations Specialist",
@@ -5048,6 +5048,17 @@
       "notionUrl": "https://www.notion.so/e47634d2d9894dddbaa76e706f415b1a"
     },
     {
+      "title": "Student Assistant/Sports Medicine",
+      "reqId": "44288",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "051000 - Athletic Administration",
+      "reqType": "Student",
+      "ttf": 91,
+      "notionUrl": "https://www.notion.so/f20d8c4622024d9ba02b0557a060bda9"
+    },
+    {
       "title": "Biological Scientist - Corneal Research",
       "reqId": "43484",
       "owner": "Rebecca",
@@ -5057,17 +5068,6 @@
       "reqType": "Active",
       "ttf": 91,
       "notionUrl": "https://www.notion.so/e5bc9d2365c943f0883be1a2ff7196e8"
-    },
-    {
-      "title": "Student Assistant/Sports Medicine",
-      "reqId": "44288",
-      "owner": "johncalebrese",
-      "campus": "Tampa",
-      "stage": "Hired",
-      "department": "051000 - Athletic Administration",
-      "reqType": "Student",
-      "ttf": 90,
-      "notionUrl": "https://www.notion.so/f20d8c4622024d9ba02b0557a060bda9"
     },
     {
       "title": "Learning & Development Facilitator",
@@ -5532,6 +5532,17 @@
       "notionUrl": "https://www.notion.so/d2af079ccd3041228f4aba4f0f20e4f8"
     },
     {
+      "title": "Clinical Research Coordin",
+      "reqId": "44359",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Hired",
+      "department": "612500 - Dept Of Neurol",
+      "reqType": "Passive",
+      "ttf": 77,
+      "notionUrl": "https://www.notion.so/26784c2d0a554b318c5646de9895466c"
+    },
+    {
       "title": "Digital Platforms Developer",
       "reqId": "44164",
       "owner": "johncalebrese",
@@ -5585,17 +5596,6 @@
       "reqType": "Student",
       "ttf": 77,
       "notionUrl": "https://www.notion.so/8778727a4bef465097f939142cfaf680"
-    },
-    {
-      "title": "Clinical Research Coordin",
-      "reqId": "44359",
-      "owner": "Rebecca",
-      "campus": "USF Health",
-      "stage": "Hired",
-      "department": "612500 - Dept Of Neurol",
-      "reqType": "Passive",
-      "ttf": 76,
-      "notionUrl": "https://www.notion.so/26784c2d0a554b318c5646de9895466c"
     },
     {
       "title": "Sr Biological Scientist",
@@ -11560,43 +11560,43 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 55,
+          "avgDays": 56,
           "count": 10,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 60,
+          "avgDays": 61,
           "count": 19,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 27,
+          "avgDays": 28,
           "count": 3,
           "color": "#D4880A"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 31,
+          "avgDays": 32,
           "count": 2,
           "color": "#CFC483"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 10,
+          "avgDays": 11,
           "count": 1,
           "color": "#5B8FA8"
         },
         {
           "label": "Targeted Hiring",
-          "avgDays": 62,
+          "avgDays": 63,
           "count": 1,
           "color": "#3A5A6A"
         },
         {
           "label": "Backlog",
-          "avgDays": 85,
+          "avgDays": 86,
           "count": 1,
           "color": "#888780"
         }
@@ -11881,6 +11881,26 @@
           "status": "Slowing",
           "records": [
             {
+              "title": "Procurement Associate",
+              "reqId": "44645",
+              "notionUrl": "https://www.notion.so/b2d8ce87dc6a4f1ab5fb310f934b72bc",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟡 15–30",
+              "department": "027900 - Procurement & Payment Services"
+            },
+            {
+              "title": "Associate VP Athletics Retail Ops",
+              "reqId": "44616",
+              "notionUrl": "https://www.notion.so/164ebee252834987a6dbe8f9be952fbc",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "HM Review",
+              "agingBand": "🟡 15–30",
+              "department": "051000 - Athletic Administration"
+            },
+            {
               "title": "Student Assistant",
               "reqId": "44626",
               "notionUrl": "https://www.notion.so/baa8837d0d1b45ec8a76ffa534432adf",
@@ -11919,16 +11939,6 @@
               "department": "021100 - Budget and Financial Analysis"
             },
             {
-              "title": "Procurement Associate",
-              "reqId": "44645",
-              "notionUrl": "https://www.notion.so/b2d8ce87dc6a4f1ab5fb310f934b72bc",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "HM Review",
-              "agingBand": "🟢 6–14",
-              "department": "027900 - Procurement & Payment Services"
-            },
-            {
               "title": "Payroll Accountant",
               "reqId": "44665",
               "notionUrl": "https://www.notion.so/ada4324069504c83af4d2f4db437931c",
@@ -11937,16 +11947,6 @@
               "stage": "Interview Stage",
               "agingBand": "🟢 6–14",
               "department": "020600 - University Controllers Office"
-            },
-            {
-              "title": "Associate VP Athletics Retail Ops",
-              "reqId": "44616",
-              "notionUrl": "https://www.notion.so/164ebee252834987a6dbe8f9be952fbc",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "HM Review",
-              "agingBand": "🟢 6–14",
-              "department": "051000 - Athletic Administration"
             },
             {
               "title": "IAE Accountant I",
@@ -12060,31 +12060,31 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 12,
+          "avgDays": 13,
           "count": 5,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 15,
+          "avgDays": 16,
           "count": 4,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 9,
+          "avgDays": 10,
           "count": 4,
           "color": "#D4880A"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 1,
+          "avgDays": 2,
           "count": 1,
           "color": "#CFC483"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 17,
+          "avgDays": 18,
           "count": 3,
           "color": "#5B8FA8"
         }
@@ -12153,7 +12153,7 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 2
+          "count": 4
         },
         {
           "label": "🟢 6–14",
@@ -12162,7 +12162,7 @@
           "color": "#5E8C2E",
           "bgLight": "#EEF5E4",
           "bgDark": "#1a3309",
-          "count": 5
+          "count": 3
         },
         {
           "label": "🟢 3–5",
@@ -12465,25 +12465,25 @@
       "stageMetrics": [
         {
           "label": "HM Review",
-          "avgDays": 13,
+          "avgDays": 14,
           "count": 4,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 8,
+          "avgDays": 9,
           "count": 3,
           "color": "#D4880A"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 8,
+          "avgDays": 9,
           "count": 2,
           "color": "#CFC483"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 16,
+          "avgDays": 17,
           "count": 2,
           "color": "#5B8FA8"
         }
@@ -13149,25 +13149,25 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 64,
+          "avgDays": 65,
           "count": 1,
           "color": "#006747"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 23,
+          "avgDays": 24,
           "count": 1,
           "color": "#D4880A"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 59,
+          "avgDays": 60,
           "count": 1,
           "color": "#5B8FA8"
         },
         {
           "label": "Backlog",
-          "avgDays": 30,
+          "avgDays": 31,
           "count": 45,
           "color": "#888780"
         }
@@ -13895,37 +13895,37 @@
       "stageMetrics": [
         {
           "label": "Sourced",
-          "avgDays": 34,
+          "avgDays": 35,
           "count": 1,
           "color": "#00A693"
         },
         {
           "label": "Recruiter Review",
-          "avgDays": 12,
+          "avgDays": 13,
           "count": 17,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 36,
+          "avgDays": 37,
           "count": 5,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 24,
+          "avgDays": 25,
           "count": 3,
           "color": "#D4880A"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 16,
+          "avgDays": 17,
           "count": 2,
           "color": "#CFC483"
         },
         {
           "label": "Backlog",
-          "avgDays": 15,
+          "avgDays": 16,
           "count": 18,
           "color": "#888780"
         }
