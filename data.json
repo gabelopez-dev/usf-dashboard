@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-27T23:40:17.706Z",
+  "lastUpdated": "2026-11-28T06:53:25.292Z",
   "summary": {
     "openReqs": 761,
     "avgTimeToFill": 82,
@@ -197,7 +197,7 @@
       "color": "#BA7517",
       "bgLight": "#FAEEDA",
       "bgDark": "#3d2504",
-      "count": 169
+      "count": 170
     },
     {
       "label": "🟢 6–14",
@@ -206,7 +206,7 @@
       "color": "#5E8C2E",
       "bgLight": "#EEF5E4",
       "bgDark": "#1a3309",
-      "count": 27
+      "count": 26
     },
     {
       "label": "🟢 3–5",
@@ -215,7 +215,7 @@
       "color": "#3B6D11",
       "bgLight": "#EAF3DE",
       "bgDark": "#1a3309",
-      "count": 7
+      "count": 14
     },
     {
       "label": "🟢 0–2",
@@ -224,7 +224,7 @@
       "color": "#2A500B",
       "bgLight": "#E4EFD6",
       "bgDark": "#1a3309",
-      "count": 7
+      "count": 0
     }
   ],
   "agingRecords": [
@@ -2353,6 +2353,16 @@
           "department": "177500 - Inst For School Comm Partnersh"
         },
         {
+          "title": "Open Rank Faculty Position - Exercise Science & Kinesiology",
+          "reqId": "44534",
+          "notionUrl": "https://www.notion.so/213850ea2257441dbdc3150213bff332",
+          "owner": "Aidi",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟡 15–30",
+          "department": "171500 - Educational And Psychological"
+        },
+        {
           "title": "Quality Assurance/Quality Improvement Compliance Auditor RCA II",
           "reqId": "44539",
           "notionUrl": "https://www.notion.so/7f3290bc5b5c40ec95bd74b712ff9ab1",
@@ -2651,16 +2661,6 @@
           "department": "400100 - Univ Lib Deans Office"
         },
         {
-          "title": "Open Rank Faculty Position - Exercise Science & Kinesiology",
-          "reqId": "44534",
-          "notionUrl": "https://www.notion.so/213850ea2257441dbdc3150213bff332",
-          "owner": "Aidi",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🟢 6–14",
-          "department": "171500 - Educational And Psychological"
-        },
-        {
           "title": "Open Rank Faculty Position in Special Education, Accessibility & AI-Enabled Intervention",
           "reqId": "44541",
           "notionUrl": "https://www.notion.so/f60e61cf251540dcbe1845706c9cc8e7",
@@ -2769,6 +2769,16 @@
       "status": "Healthy",
       "records": [
         {
+          "title": "Student Accounting Operations Analyst (Fiscal & Business Analyst)",
+          "reqId": "44804",
+          "notionUrl": "https://www.notion.so/f219ddf757a0820980c00182631e2846",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 3–5",
+          "department": ""
+        },
+        {
           "title": "Teaching Artist",
           "reqId": "44789",
           "notionUrl": "https://www.notion.so/0099ddf757a082b8848c0132446c9701",
@@ -2799,6 +2809,16 @@
           "department": "177800 - School Mental Health Collaborative"
         },
         {
+          "title": "Critical Infrastructure Student Analyst",
+          "reqId": "44764",
+          "notionUrl": "https://www.notion.so/b689ddf757a0821b895201899813fe90",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 3–5",
+          "department": "391000 - Fl Center For Cybersecurity"
+        },
+        {
           "title": "Student Assistant/ FB Video",
           "reqId": "44770",
           "notionUrl": "https://www.notion.so/53f9ddf757a0825a83c101215c737dd0",
@@ -2807,6 +2827,16 @@
           "stage": "Pre-boarding",
           "agingBand": "🟢 3–5",
           "department": "051000 - Athletic Administration"
+        },
+        {
+          "title": "Statistical Data Analyst",
+          "reqId": "44775",
+          "notionUrl": "https://www.notion.so/28f9ddf757a0835e95be8151a8bdc24b",
+          "owner": "johncalebrese",
+          "campus": "Tampa",
+          "stage": "Recruiter Review",
+          "agingBand": "🟢 3–5",
+          "department": "410000 - Office Of Decision Support"
         },
         {
           "title": "State Regional Literacy Director",
@@ -2837,44 +2867,6 @@
           "stage": "Recruiter Review",
           "agingBand": "🟢 3–5",
           "department": "790300 - Sponsored Research"
-        }
-      ]
-    },
-    {
-      "band": "🟢 0–2",
-      "color": "#2A500B",
-      "bgLight": "#E4EFD6",
-      "status": "Healthy",
-      "records": [
-        {
-          "title": "Student Accounting Operations Analyst (Fiscal & Business Analyst)",
-          "reqId": "44804",
-          "notionUrl": "https://www.notion.so/f219ddf757a0820980c00182631e2846",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🟢 0–2",
-          "department": ""
-        },
-        {
-          "title": "Critical Infrastructure Student Analyst",
-          "reqId": "44764",
-          "notionUrl": "https://www.notion.so/b689ddf757a0821b895201899813fe90",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🟢 0–2",
-          "department": "391000 - Fl Center For Cybersecurity"
-        },
-        {
-          "title": "Statistical Data Analyst",
-          "reqId": "44775",
-          "notionUrl": "https://www.notion.so/28f9ddf757a0835e95be8151a8bdc24b",
-          "owner": "johncalebrese",
-          "campus": "Tampa",
-          "stage": "Recruiter Review",
-          "agingBand": "🟢 0–2",
-          "department": "410000 - Office Of Decision Support"
         },
         {
           "title": "Financial Aid Assistant",
@@ -2883,7 +2875,7 @@
           "owner": "johncalebrese",
           "campus": "Tampa",
           "stage": "Interview Stage",
-          "agingBand": "🟢 0–2",
+          "agingBand": "🟢 3–5",
           "department": "373000 - Financial Aid"
         },
         {
@@ -2893,7 +2885,7 @@
           "owner": "johncalebrese",
           "campus": "Tampa",
           "stage": "Offer Stage",
-          "agingBand": "🟢 0–2",
+          "agingBand": "🟢 3–5",
           "department": "371000 - Admissions"
         },
         {
@@ -2903,7 +2895,7 @@
           "owner": "johncalebrese",
           "campus": "Tampa",
           "stage": "HM Review",
-          "agingBand": "🟢 0–2",
+          "agingBand": "🟢 3–5",
           "department": "043500 - Housing & Residential ED"
         },
         {
@@ -2913,10 +2905,17 @@
           "owner": "johncalebrese",
           "campus": "Tampa",
           "stage": "Interview Stage",
-          "agingBand": "🟢 0–2",
+          "agingBand": "🟢 3–5",
           "department": "043000 - Student Health Services"
         }
       ]
+    },
+    {
+      "band": "🟢 0–2",
+      "color": "#2A500B",
+      "bgLight": "#E4EFD6",
+      "status": "Healthy",
+      "records": []
     }
   ],
   "department": [
@@ -3074,49 +3073,49 @@
   "stageMetrics": [
     {
       "label": "Sourced",
-      "avgDays": 35,
+      "avgDays": 36,
       "count": 1,
       "color": "#00A693"
     },
     {
       "label": "Recruiter Review",
-      "avgDays": 20,
+      "avgDays": 21,
       "count": 108,
       "color": "#006747"
     },
     {
       "label": "HM Review",
-      "avgDays": 46,
+      "avgDays": 47,
       "count": 32,
       "color": "#534AB7"
     },
     {
       "label": "Interview Stage",
-      "avgDays": 18,
+      "avgDays": 19,
       "count": 14,
       "color": "#D4880A"
     },
     {
       "label": "Offer Stage",
-      "avgDays": 17,
+      "avgDays": 18,
       "count": 7,
       "color": "#CFC483"
     },
     {
       "label": "Pre-boarding",
-      "avgDays": 23,
+      "avgDays": 24,
       "count": 7,
       "color": "#5B8FA8"
     },
     {
       "label": "Backlog",
-      "avgDays": 24,
+      "avgDays": 25,
       "count": 102,
       "color": "#888780"
     },
     {
       "label": "Targeted Hiring",
-      "avgDays": 63,
+      "avgDays": 64,
       "count": 1,
       "color": "#3A5A6A"
     }
@@ -3229,7 +3228,7 @@
       "stage": "Canceled",
       "department": "041500 - Counseling Center",
       "reqType": "Active",
-      "ttf": 308,
+      "ttf": 309,
       "notionUrl": "https://www.notion.so/62b088df4d81447994bcd7e8ccf00a22"
     },
     {
@@ -3339,7 +3338,7 @@
       "stage": "Canceled",
       "department": "047700 - Career & Professional Dev",
       "reqType": "Active",
-      "ttf": 256,
+      "ttf": 257,
       "notionUrl": "https://www.notion.so/38cc22579bda4f159365f3843a6482e3"
     },
     {
@@ -3508,6 +3507,17 @@
       "notionUrl": "https://www.notion.so/90dd41ac08d047989d224424afe555b0"
     },
     {
+      "title": "AVP Athletic Business Analytic Strat",
+      "reqId": "43428",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Failed Search",
+      "department": "051000 - Athletic Administration",
+      "reqType": "Active",
+      "ttf": 199,
+      "notionUrl": "https://www.notion.so/a0239e74bd2a46dbb004af24c7ae0ccb"
+    },
+    {
       "title": "Manager Clinical Research",
       "reqId": "43116",
       "owner": "Rebecca",
@@ -3517,17 +3527,6 @@
       "reqType": "Passive",
       "ttf": 199,
       "notionUrl": "https://www.notion.so/0ca216d86c1442b0be571c0381af654b"
-    },
-    {
-      "title": "AVP Athletic Business Analytic Strat",
-      "reqId": "43428",
-      "owner": "johncalebrese",
-      "campus": "Tampa",
-      "stage": "Failed Search",
-      "department": "051000 - Athletic Administration",
-      "reqType": "Active",
-      "ttf": 198,
-      "notionUrl": "https://www.notion.so/a0239e74bd2a46dbb004af24c7ae0ccb"
     },
     {
       "title": "Advanced Research Scientist",
@@ -3625,7 +3624,7 @@
       "stage": "Hired",
       "department": "171700 - Lang, Lit, EdD, Excep Ed, PE",
       "reqType": "Faculty",
-      "ttf": 172,
+      "ttf": 173,
       "notionUrl": "https://www.notion.so/8303906d44fc41ebb09ec5eba6e2d3e6"
     },
     {
@@ -3834,7 +3833,7 @@
       "stage": "Hired",
       "department": "612800 - Dept Of Otolary",
       "reqType": "Evergreen",
-      "ttf": 149,
+      "ttf": 150,
       "notionUrl": "https://www.notion.so/9d7122807242471cba1b12f8c38af502"
     },
     {
@@ -4938,6 +4937,17 @@
       "notionUrl": "https://www.notion.so/99ecc3530d9348958159d791ba69bbda"
     },
     {
+      "title": "Student Assistant/ Equipment Operations-Football",
+      "reqId": "44266",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "051000 - Athletic Administration",
+      "reqType": "Student",
+      "ttf": 95,
+      "notionUrl": "https://www.notion.so/e8a7ccd60e574aa385d3c5169367cd78"
+    },
+    {
       "title": "School Improvement Coordinator",
       "reqId": "44108",
       "owner": "Aidi",
@@ -4969,17 +4979,6 @@
       "reqType": "Passive",
       "ttf": 95,
       "notionUrl": "https://www.notion.so/b61fd564bb694ef5ba51e3e56d04562b"
-    },
-    {
-      "title": "Student Assistant/ Equipment Operations-Football",
-      "reqId": "44266",
-      "owner": "johncalebrese",
-      "campus": "Tampa",
-      "stage": "Hired",
-      "department": "051000 - Athletic Administration",
-      "reqType": "Student",
-      "ttf": 94,
-      "notionUrl": "https://www.notion.so/e8a7ccd60e574aa385d3c5169367cd78"
     },
     {
       "title": "Academic Services Admin",
@@ -5015,6 +5014,17 @@
       "notionUrl": "https://www.notion.so/ff5a0d7e00d94fa5bf234200119aa8ea"
     },
     {
+      "title": "Student Assistant/Sports Medicine",
+      "reqId": "44288",
+      "owner": "johncalebrese",
+      "campus": "Tampa",
+      "stage": "Hired",
+      "department": "051000 - Athletic Administration",
+      "reqType": "Student",
+      "ttf": 92,
+      "notionUrl": "https://www.notion.so/f20d8c4622024d9ba02b0557a060bda9"
+    },
+    {
       "title": "OPS Student Assistant",
       "reqId": "44268",
       "owner": "johncalebrese",
@@ -5046,17 +5056,6 @@
       "reqType": "Active",
       "ttf": 92,
       "notionUrl": "https://www.notion.so/e47634d2d9894dddbaa76e706f415b1a"
-    },
-    {
-      "title": "Student Assistant/Sports Medicine",
-      "reqId": "44288",
-      "owner": "johncalebrese",
-      "campus": "Tampa",
-      "stage": "Hired",
-      "department": "051000 - Athletic Administration",
-      "reqType": "Student",
-      "ttf": 91,
-      "notionUrl": "https://www.notion.so/f20d8c4622024d9ba02b0557a060bda9"
     },
     {
       "title": "Biological Scientist - Corneal Research",
@@ -5521,6 +5520,17 @@
       "notionUrl": "https://www.notion.so/8d2a0bf55314463fb7744cb67692f26f"
     },
     {
+      "title": "Clinical Research Coordin",
+      "reqId": "44359",
+      "owner": "Rebecca",
+      "campus": "USF Health",
+      "stage": "Hired",
+      "department": "612500 - Dept Of Neurol",
+      "reqType": "Passive",
+      "ttf": 78,
+      "notionUrl": "https://www.notion.so/26784c2d0a554b318c5646de9895466c"
+    },
+    {
       "title": "Data Analysis Student",
       "reqId": "44339",
       "owner": "Rebecca",
@@ -5530,17 +5540,6 @@
       "reqType": "Student",
       "ttf": 77,
       "notionUrl": "https://www.notion.so/d2af079ccd3041228f4aba4f0f20e4f8"
-    },
-    {
-      "title": "Clinical Research Coordin",
-      "reqId": "44359",
-      "owner": "Rebecca",
-      "campus": "USF Health",
-      "stage": "Hired",
-      "department": "612500 - Dept Of Neurol",
-      "reqType": "Passive",
-      "ttf": 77,
-      "notionUrl": "https://www.notion.so/26784c2d0a554b318c5646de9895466c"
     },
     {
       "title": "Digital Platforms Developer",
@@ -10743,7 +10742,7 @@
       },
       {
         "reqType": "Faculty",
-        "avgDays": 150,
+        "avgDays": 151,
         "count": 4
       }
     ],
@@ -11560,43 +11559,43 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 56,
+          "avgDays": 57,
           "count": 10,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 61,
+          "avgDays": 62,
           "count": 19,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 28,
+          "avgDays": 29,
           "count": 3,
           "color": "#D4880A"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 32,
+          "avgDays": 33,
           "count": 2,
           "color": "#CFC483"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 11,
+          "avgDays": 12,
           "count": 1,
           "color": "#5B8FA8"
         },
         {
           "label": "Targeted Hiring",
-          "avgDays": 63,
+          "avgDays": 64,
           "count": 1,
           "color": "#3A5A6A"
         },
         {
           "label": "Backlog",
-          "avgDays": 86,
+          "avgDays": 87,
           "count": 1,
           "color": "#888780"
         }
@@ -11967,31 +11966,13 @@
           "status": "Healthy",
           "records": [
             {
-              "title": "Student Assistant/ FB Video",
-              "reqId": "44770",
-              "notionUrl": "https://www.notion.so/53f9ddf757a0825a83c101215c737dd0",
-              "owner": "johncalebrese",
-              "campus": "Tampa",
-              "stage": "Pre-boarding",
-              "agingBand": "🟢 3–5",
-              "department": "051000 - Athletic Administration"
-            }
-          ]
-        },
-        {
-          "band": "🟢 0–2",
-          "color": "#2A500B",
-          "bgLight": "#E4EFD6",
-          "status": "Healthy",
-          "records": [
-            {
               "title": "Student Accounting Operations Analyst (Fiscal & Business Analyst)",
               "reqId": "44804",
               "notionUrl": "https://www.notion.so/f219ddf757a0820980c00182631e2846",
               "owner": "johncalebrese",
               "campus": "Tampa",
               "stage": "Recruiter Review",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟢 3–5",
               "department": ""
             },
             {
@@ -12001,8 +11982,18 @@
               "owner": "johncalebrese",
               "campus": "Tampa",
               "stage": "Recruiter Review",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟢 3–5",
               "department": "391000 - Fl Center For Cybersecurity"
+            },
+            {
+              "title": "Student Assistant/ FB Video",
+              "reqId": "44770",
+              "notionUrl": "https://www.notion.so/53f9ddf757a0825a83c101215c737dd0",
+              "owner": "johncalebrese",
+              "campus": "Tampa",
+              "stage": "Pre-boarding",
+              "agingBand": "🟢 3–5",
+              "department": "051000 - Athletic Administration"
             },
             {
               "title": "Statistical Data Analyst",
@@ -12011,7 +12002,7 @@
               "owner": "johncalebrese",
               "campus": "Tampa",
               "stage": "Recruiter Review",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟢 3–5",
               "department": "410000 - Office Of Decision Support"
             },
             {
@@ -12021,7 +12012,7 @@
               "owner": "johncalebrese",
               "campus": "Tampa",
               "stage": "Interview Stage",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟢 3–5",
               "department": "373000 - Financial Aid"
             },
             {
@@ -12031,7 +12022,7 @@
               "owner": "johncalebrese",
               "campus": "Tampa",
               "stage": "Offer Stage",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟢 3–5",
               "department": "371000 - Admissions"
             },
             {
@@ -12041,7 +12032,7 @@
               "owner": "johncalebrese",
               "campus": "Tampa",
               "stage": "HM Review",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟢 3–5",
               "department": "043500 - Housing & Residential ED"
             },
             {
@@ -12051,40 +12042,47 @@
               "owner": "johncalebrese",
               "campus": "Tampa",
               "stage": "Interview Stage",
-              "agingBand": "🟢 0–2",
+              "agingBand": "🟢 3–5",
               "department": "043000 - Student Health Services"
             }
           ]
+        },
+        {
+          "band": "🟢 0–2",
+          "color": "#2A500B",
+          "bgLight": "#E4EFD6",
+          "status": "Healthy",
+          "records": []
         }
       ],
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 13,
+          "avgDays": 14,
           "count": 5,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 16,
+          "avgDays": 17,
           "count": 4,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 10,
+          "avgDays": 11,
           "count": 4,
           "color": "#D4880A"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 2,
+          "avgDays": 3,
           "count": 1,
           "color": "#CFC483"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 18,
+          "avgDays": 19,
           "count": 3,
           "color": "#5B8FA8"
         }
@@ -12171,7 +12169,7 @@
           "color": "#3B6D11",
           "bgLight": "#EAF3DE",
           "bgDark": "#1a3309",
-          "count": 1
+          "count": 8
         },
         {
           "label": "🟢 0–2",
@@ -12180,7 +12178,7 @@
           "color": "#2A500B",
           "bgLight": "#E4EFD6",
           "bgDark": "#1a3309",
-          "count": 7
+          "count": 0
         }
       ],
       "funnel": [
@@ -12465,25 +12463,25 @@
       "stageMetrics": [
         {
           "label": "HM Review",
-          "avgDays": 14,
+          "avgDays": 15,
           "count": 4,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 9,
+          "avgDays": 10,
           "count": 3,
           "color": "#D4880A"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 9,
+          "avgDays": 10,
           "count": 2,
           "color": "#CFC483"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 17,
+          "avgDays": 18,
           "count": 2,
           "color": "#5B8FA8"
         }
@@ -13149,25 +13147,25 @@
       "stageMetrics": [
         {
           "label": "Recruiter Review",
-          "avgDays": 65,
+          "avgDays": 66,
           "count": 1,
           "color": "#006747"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 24,
+          "avgDays": 25,
           "count": 1,
           "color": "#D4880A"
         },
         {
           "label": "Pre-boarding",
-          "avgDays": 60,
+          "avgDays": 61,
           "count": 1,
           "color": "#5B8FA8"
         },
         {
           "label": "Backlog",
-          "avgDays": 31,
+          "avgDays": 32,
           "count": 45,
           "color": "#888780"
         }
@@ -13577,6 +13575,16 @@
               "department": "177500 - Inst For School Comm Partnersh"
             },
             {
+              "title": "Open Rank Faculty Position - Exercise Science & Kinesiology",
+              "reqId": "44534",
+              "notionUrl": "https://www.notion.so/213850ea2257441dbdc3150213bff332",
+              "owner": "Aidi",
+              "campus": "Tampa",
+              "stage": "Recruiter Review",
+              "agingBand": "🟡 15–30",
+              "department": "171500 - Educational And Psychological"
+            },
+            {
               "title": "Quality Assurance/Quality Improvement Compliance Auditor RCA II",
               "reqId": "44539",
               "notionUrl": "https://www.notion.so/7f3290bc5b5c40ec95bd74b712ff9ab1",
@@ -13765,16 +13773,6 @@
               "department": "400100 - Univ Lib Deans Office"
             },
             {
-              "title": "Open Rank Faculty Position - Exercise Science & Kinesiology",
-              "reqId": "44534",
-              "notionUrl": "https://www.notion.so/213850ea2257441dbdc3150213bff332",
-              "owner": "Aidi",
-              "campus": "Tampa",
-              "stage": "Recruiter Review",
-              "agingBand": "🟢 6–14",
-              "department": "171500 - Educational And Psychological"
-            },
-            {
               "title": "Open Rank Faculty Position in Special Education, Accessibility & AI-Enabled Intervention",
               "reqId": "44541",
               "notionUrl": "https://www.notion.so/f60e61cf251540dcbe1845706c9cc8e7",
@@ -13895,37 +13893,37 @@
       "stageMetrics": [
         {
           "label": "Sourced",
-          "avgDays": 35,
+          "avgDays": 36,
           "count": 1,
           "color": "#00A693"
         },
         {
           "label": "Recruiter Review",
-          "avgDays": 13,
+          "avgDays": 14,
           "count": 17,
           "color": "#006747"
         },
         {
           "label": "HM Review",
-          "avgDays": 37,
+          "avgDays": 38,
           "count": 5,
           "color": "#534AB7"
         },
         {
           "label": "Interview Stage",
-          "avgDays": 25,
+          "avgDays": 26,
           "count": 3,
           "color": "#D4880A"
         },
         {
           "label": "Offer Stage",
-          "avgDays": 17,
+          "avgDays": 18,
           "count": 2,
           "color": "#CFC483"
         },
         {
           "label": "Backlog",
-          "avgDays": 16,
+          "avgDays": 17,
           "count": 18,
           "color": "#888780"
         }
@@ -13999,7 +13997,7 @@
           "color": "#BA7517",
           "bgLight": "#FAEEDA",
           "bgDark": "#3d2504",
-          "count": 17
+          "count": 18
         },
         {
           "label": "🟢 6–14",
@@ -14008,7 +14006,7 @@
           "color": "#5E8C2E",
           "bgLight": "#EEF5E4",
           "bgDark": "#1a3309",
-          "count": 15
+          "count": 14
         },
         {
           "label": "🟢 3–5",
